@@ -1,4 +1,4 @@
-= Project PLATEAU sample documents
+= Project PLATEAU CityGML 3 Prototype sample documents
 
 These documents belong to Project PLATEAU by MLIT.
 
@@ -7,16 +7,16 @@ These documents belong to Project PLATEAU by MLIT.
 `sources/`::
 source of the documents
 
-`sources/001-v4/`::
-PLATEAU Handbook #01 source, v4.
+`sources/001-v5/`::
+PLATEAU Handbook #01 source, v5.
 
-`sources/001-v4/iur/`::
-i-UR data. Downloaded from here:
+`sources/001-v5/iur/`::
+i-UR 3.2 code list data. Downloaded from here:
 https://www.chisou.go.jp/tiiki/toshisaisei/itoshisaisei/iur/index.html
 (see https://github.com/metanorma/mn-samples-plateau/issues/128)
 
-`sources/002-v4/`::
-PLATEAU Handbook #02 source, v4.
+`sources/002-v5/`::
+PLATEAU Handbook #02 source, v5.
 
 `reference-docs/`::
 Reference documents.
