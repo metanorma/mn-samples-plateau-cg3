@@ -47,7 +47,7 @@ jobs:
     needs: build
     strategy:
       matrix:
-        env: [{ name: 'ghp', prefix: '/mn-samples-plateau/' }, { name: 'mlit', prefix: '/' }]
+        env: [{ name: 'ghp', prefix: '/mn-samples-plateau-cg3/' }, { name: 'mlit', prefix: '/' }]
         document: [{ dir: "001", url: "plateaudocument" }, { dir: "002", url: "plateaudocument02" }]
     name: Firelight build - Document ${{ matrix.document.dir }} on ${{ matrix.env.name }}
 
