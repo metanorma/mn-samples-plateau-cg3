@@ -1,0 +1,78 @@
+[[tocF_04]]
+=== tran:TrafficArea及びtran:AuxiliaryTrafficArea
+
+交通（道路）モデルと同様に、徒歩道の形状は、tran:trackに含まれる、tran:TrafficSpace及びtran:AuxiliaryTrafficSpaceの境界面であるtran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性により表現することを基本とする。
+
+
+[[tocF_04_01]]
+==== tran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性
+
+
+[[tocF_04_01_01]]
+===== LOD0
+
+tran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性は、LOD0において、ネットワークを表す線（core:lod0MultiCurve）とする。
+
+
+[requirement]
+.LOD0 tran:Trackの交差禁止条件
+====
+[%metadata]
+identifier:: /req/trk/4
+subject:: 妥当な交通（徒歩道）データセットの要件
+description:: LOD0におけるtran:TrafficArea及びTran:AuxiliaryTrafficAreaの空間属性に含まれるgml:LineStringは互いに交差してはならない。
+====
+
+これは、一つの交通領域オブジェクトに対して適用するものである。例えば、高架における上の道路と下の道路というように、異なる交通領域オブジェクトの空間属性が交差することを許容する。
+
+
+[[tocF_04_01_02]]
+===== LOD1
+
+tran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性は、LOD1において、多曲面（core:lod1MultiSurface）とする。 +
+このとき、交通（徒歩道）オブジェクトは、交通（徒歩道）モデル（LOD1）の定義に従ったものでなければならない。
+
+
+[requirement]
+.徒歩道のLOD1形状定義
+====
+[%metadata]
+identifier:: /req/trk/5
+subject:: 妥当な交通（徒歩道）データセットの要件
+description:: 徒歩道のLOD1の形状は、交通（徒歩道）モデル（LOD1）の定義に従う。
+====
+
+
+[[tocF_04_01_03]]
+===== LOD2
+
+tran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性は、LOD2において、多曲面（core:lod2MultiSurface）とする。 +
+このとき、交通（徒歩道）オブジェクトは、交通（徒歩道）モデル（LOD2）の定義に従ったものでなければならない。
+
+
+[requirement]
+.徒歩道のLOD2形状定義
+====
+[%metadata]
+identifier:: /req/trk/6
+subject:: 妥当な交通（徒歩道）データセットの要件
+description:: 徒歩道のLOD2の形状は、交通（徒歩道）モデル（LOD2）の定義に従う。
+====
+
+
+[[tocF_04_01_04]]
+===== LOD3
+
+tran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性は、LOD3において、多曲面（core:lod3MultiSurface）とする。 +
+このとき、交通（徒歩道）オブジェクトは、交通（徒歩道）モデル（LOD3）の定義に従ったものでなければならない。
+
+
+[requirement]
+.徒歩道のLOD3形状定義
+====
+[%metadata]
+identifier:: /req/trk/7
+subject:: 妥当な交通（徒歩道）データセットの要件
+description:: 徒歩道のLOD3の形状は、交通（徒歩道）モデル（LOD3）の定義に従う。
+====
+

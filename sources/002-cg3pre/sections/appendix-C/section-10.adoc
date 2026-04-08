@@ -1,0 +1,60 @@
+[[tocC_10]]
+=== bldg:BuildingFurniture
+
+bldg:BuildingFurnitureは、机や椅子のような、建築物の入居者用の設備（家具）の記述に使用する地物型である。通常は、固定されていないものをさす。 +
+bldg:BuildingFurnitureは、以下の地物型のいずれかに含まれる。
+
+* bldg:Building
+* bldg:BuildingPart
+* bldg:BuildingRoom
+* bldg:Storey
+* bldg:BuildingUnit
+
+ただし、標準作業手順書では、bldg:BuildingFurnitureをbldg:BuildingRoomの子要素として記述することを原則とする。
+
+
+[[tocC_10_01]]
+==== 家具の空間属性
+
+
+[[tocC_10_01_01]]
+===== LOD0
+
+bldg:BuildingFurnitureは多曲面（core:lod0MultiSurface）又は線（core:lod0MultiCurve）として表現する。ただし、原則として多曲面を使用する。
+
+
+[[tocC_10_01_02]]
+===== LOD1
+
+bldg:BuildingFurnitureは立体（core:lod1Solid）として表現する。
+
+
+[[tocC_10_01_03]]
+===== LOD2
+
+bldg:BuildingFurnitureは多曲面（core:lod2MultiSurface）又は立体（core:lod2Solid）として表現する。ただし、原則として多曲面を使用する。
+
+
+[[tocC_10_01_04]]
+===== LOD3
+
+bldg:BuildingFurnitureは多曲面（core:lod3MultiSurface）又は立体（core:lod3Solid）として表現する。ただし、原則として多曲面を使用する。
+
+
+[requirement]
+.bldg:BuildingFunitureの空間属性タイプ
+====
+[%metadata]
+identifier:: /req/bldg/34
+ssubject:: 妥当な建築物データセットの要件
+description:: bldg:BuildingFurnitureの空間属性の型には、LODに応じた型を選択する。
+part:: LOD0：gml:MultiSurfaceを使用することを原則とする。
+part:: LOD1：gml:Solidとする。
+part:: LOD2：gml:MultiSurfaceを使用することを原則とする。
+part:: LOD3：gml:MultiSurfaceを使用することを原則とする。
+====
+
+ある程度の広がりをもつ地物は、曲面の集まり又は立体を使用する。CityGMLでは、曲面や立体だけではなく、点や曲線も使用可能である。しかしながら3D都市モデルでは、3次元での利用を想定し、家具の形状に使用可能な幾何オブジェクトを曲面又は立体に限定する。
+
+LOD1の場合は、立体（gml:Solid）を使用しなければならない。LOD0、LOD2及びLOD3は、原則として面の集まり（gml:MultiSurface）を使用する。ただし、ユースケースの必要に応じて、LOD0ではgml:MultiCurveを、LOD2及びLOD3ではgml:Solidを使用できる。
+

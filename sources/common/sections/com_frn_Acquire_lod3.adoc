@@ -1,0 +1,14 @@
+[cols="1a,3a,3a",options="noheader"]
+.都市設備モデル（LOD3）の取得イメージ
+|===
+h| LOD 2+^h| LOD3
+h| 取得例
+^.^|
+image::../../sources/images/frn_Acquire_lod30_01.png[width="150"]
+^.^|
+image::../../sources/images/frn_Acquire_lod30_02.png[width="150"]
+
+h| 説明
+2+| 都市設備の主要な部分の外形を表現した立体。
+
+|===

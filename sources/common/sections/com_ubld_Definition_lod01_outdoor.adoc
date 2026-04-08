@@ -1,0 +1,196 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD0.1
+|■
+|UndergroundBuilding
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|【屋根面の外周の取得方法】
+
+* 地下街の正射影の外周を線として取得する。
+* 高さは0とする。
+
+【接地面の外周の取得方法】
+
+* 地表面と外壁面との交線を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|■
+|UndergroundBuilding
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|【屋根面の外周の取得方法】
+
+* 地下街の正射影の外周を取得する。
+* 高さは0とする。
+
+【接地面の外周の取得方法】
+
+* 地表面と外壁面との交線を面として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|■
+|RoofSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 地下街の正射影の外周を線として取得する。
+|
+
+|LOD0.1
+|■
+|RoofSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 地下街の正射影の外周を取得し、上向き面を屋根面（RoofSurface）とする。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|WallSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 外壁の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|■
+|GroundSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 地下街の底面を取得し、その外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|■
+|GroundSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 地下街の底面を取得し、下向き面を接地面（GroundSurface）とする。
+* 高さは0とする。
+|
+
+|LOD0.1
+|
+|OuterFloorSurface
+|
+|
+|
+|
+|対象外
+
+|LOD0.1
+|
+|OuterCeilingSurface
+|
+|
+|
+|
+|対象外
+
+|LOD0.1
+|〇
+|ClosureSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 地表面と外壁面との交線を面として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|ClosureSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 地表面と外壁面との交線を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|
+|BuildingInstallation
+|
+|
+|
+|
+|対象外
+
+|LOD0.1
+|〇
+|DoorSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 扉の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|WindowSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 窓の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|
+|Door
+|
+|
+|
+|
+|対象外
+
+|LOD0.1
+|
+|Window
+|
+|
+|
+|
+|対象外
+
+|LOD0.1
+|
+|BuildingConstructiveElement
+|
+|
+|
+|
+|対象外
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

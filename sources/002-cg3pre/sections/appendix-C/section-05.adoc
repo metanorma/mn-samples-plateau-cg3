@@ -1,0 +1,241 @@
+[[tocC_05]]
+=== 建築物の境界面
+
+con:AbstractConstructionSurfaceは、境界面の記述に使用する地物型である。con:AbstractConstructionSurfaceは、Constructionモジュールに定義されているため、接頭辞はconとなる。
+
+Constructionモジュール、Buildingモジュール、Bridgeモジュール及びTunnelモジュールに定義された各地物型は、con:AbstractConstructionSurfaceを使用する。
+
+Buildingモジュールの場合、建築物（bldg:Building）、建築物の部分（bldg:BuildingPart）、屋内外の付属物（bldg:BuildingInstallation）、部屋（bldg:BuildingRoom）及び建築部材（bldg:BuildingConstructiveElement）は、con:AbstractConstructionSurfaceを用いて、その境界面を地物として区分できる。
+
+ただし、con:AbstractConstructionSurfaceは抽象地物であり、実装においては、この下位型の具象となる地物型を使用する。
+
+
+// 閉鎖面（core:ClosureSurface）はcore:AbstractThematicSurfaceの下位型のためここでは対象外？もしくは別枠を設ける？
+[requirement]
+.con:AbstractConstructionSurfaceの種類
+====
+[%metadata]
+identifier:: /req/bldg/20
+subject:: 妥当な建築物データセットの要件
+description:: con:AbstractConstructionSurfaceは、屋根面（con:RoofSurface）、外壁面（con:WallSurface）、底面（con:GroundSurface）、外部天井面（con:OuterCeilingSurface）、外部床面（con:OuterFloorSurface）、閉鎖面（core:ClosureSurface）、天井面（con:CeilingSurface）、床面（con:FloorSurface）及び内壁面（con:InteriorSurface）のいずれかとなる。
+====
+
+CityGMLでは、建築物や建築物付属物の境界面としてcon:AbstractConstructionSurfaceの下位型となる地物型が用意されている。このうち、屋外の境界面の記述に使用できるのは、屋根面、外壁面、底面、外部天井面、外部床面又は閉鎖面である（<<tab-C-17>>、<<fig-C-23>>）。
+
+// 閉鎖面（core:ClosureSurface）はcore:AbstractThematicSurfaceの下位型のためここでは対象外？もしくは別枠を設ける？
+[[tab-C-17]]
+[cols="a,a,a"]
+.con:AbstractConstructionSurfaceの下位型
+|===
+| AbstractConstructionSurfaceの下位型 | 意味 | 説明
+
+| RoofSurface | 屋根面 | 外から見える上部の境界面。
+| WallSurface | 外壁面 | 外から見える側面の境界面。
+| GroundSurface | 底面 | 下部の境界面。
+| OuterFloorSurface | 外部天井面 | 外側にある境界面で、底面以外の法線が下向きとなる面。
+| OuterCeilingSurface | 外部床面 | 外側にある境界面で、屋根面以外の法線が上向きとなる面。
+| ClosureSurface | 閉鎖面 | 立体の外部境界を構成するために設ける想的な境界面。
+| CeilingSurface | 天井面 | 屋内の境界面で法線が下向きとなる面。
+| FloorSurface | 床面 | 屋内の境界面で法線が上向きとなる面。
+| InteriorWallSurface | 内壁面 | 屋内の境界面で側方を向く境界面。
+
+|===
+
+[[fig-C-23]]
+.con:AbstractConstructionSurfaceの下位型
+image::../../sources/images/anx_C_023.png[]
+
+
+[[tocC_05_01]]
+==== 境界面の空間属性
+
+// modspecのアンカーリンク設定ができるようにしたい
+要件bldg-11で示したように、屋根、外壁等の境界面となる地物型の空間属性（面）は、建築物の立体を構成する境界面に一致する。
+
+
+[requirement]
+.境界面の幾何オブジェクト参照条件
+====
+[%metadata]
+identifier:: /req/bldg/21
+subject:: 妥当な建築物データセットの要件
+description:: 境界面の空間属性を構成する幾何オブジェクトは、建築物の立体を構成する境界面として参照されなければならない。
+====
+
+
+[[tocC_05_02]]
+==== 境界面の下位型
+
+
+[[tocC_05_02_01]]
+===== con:RoofSurface
+
+con:RoofSurfaceは、屋根を記述するために使用する地物型である。
+
+
+[[tocC_05_02_02]]
+===== con:WallSurface
+
+con:WallSurfaceは、外壁面を記述するために使用する地物型である。
+
+
+[requirement]
+.外壁面の分割記述方法
+====
+[%metadata]
+identifier:: /req/bldg/22
+subject:: 妥当な建築物データセットの要件
+description:: 方位が異なっていたり、構造上分割されたりする外壁面は、それぞれをcon:WallSurfaceとして分けて記述する。
+====
+
+con:WallSurfaceの空間属性（lod2MultiSurface,lod3MultiSurface）の型はgml:MultiSurface（曲面の集まり）である。そのため、一棟の建築物の全ての外壁面を一つのgml:MultiSurfaceとして記述することは幾何オブジェクトとしては間違いではない。ただし、一棟の建築物の全ての外壁面を一つの外壁面として記述すると、他のユースケースへの活用の支障になると想定されるため、標準製品仕様書では一棟の建築物の外壁面を、方位等により区分し、それぞれをcon:WallSurfaceとして記述することとしている（<<fig-C-23>>）。
+
+[[fig-C-24]]
+.外壁面の実装例
+image::../../sources/images/anx_C_024.png[]
+
+
+[[tocC_05_02_03]]
+===== con:GroundSurface
+
+con:GroundSurfaceは、底面を記述するために使用する地物型である。LOD2で底面を記述する場合に、その高さは、<<fig-C-24>>に示す二つの方法のいずれかにより決定する。
+
+建築物に地階が存在し、その最も低い高さが得られる場合にはその高さを使用する。高さの情報が得られない場合には、con:GroundSurfaceの水平位置と地形モデルとの交線上で最も低い高さを取得し、この値を使用する。
+
+[[fig-C-25]]
+.LOD2における底面の実装例
+image::../../sources/images/EA_con_GroundSurface.png[width="400"]
+
+
+[[tocC_05_02_04]]
+===== con:OuterFloorSurface
+
+con:OuterFloorSurfaceは、屋根以外の上向きの面を記述するために使用する地物型である。テラスや屋外に存在する階段（踊り場を含む）等がこれに該当する。屋外における歩行者のナビゲーションのように、人が通行可能な範囲を必要とするユースケースにおいて適用できる。
+
+[[fig-C-26]]
+.屋外床面の例
+image::../../sources/images/EA_con_OuterFloorSurface.png[width="400"]
+
+また、競技場や野球場等の屋外の観覧席もcon:OuterFloorSurfaceに該当する（<<fig-C-27>>）。
+
+[[fig-C-27]]
+.屋外床面の取得例（野球場の観覧席）
+image::../../sources/images/anx_C_027.png[width="300"]
+
+LOD2で屋外の階段をcon:OuterFloorSurfaceを用いて記述する場合、階段の一段一段の形状を区別することは不要であり、最上段と最下段を境界とする1個の面として記述してよい。
+
+[[fig-C-28]]
+.屋外階段の例
+image::../../sources/images/anx_C_028.png[width="400"]
+
+
+[[tocC_05_02_05]]
+===== con:OuterCeillingSurface
+
+con:OuterCeillingSurfaceは、張り出した部分の裏側のように、屋外に存在する天井部分の面を記述するために使用する地物型である。
+
+[[fig-C-29]]
+.屋外天井面の例
+image::../../sources/images/anx_C_029.png[width="700"]
+
+
+// ほかの境界面と継承元が違うのでこの並びで問題ないか
+[[tocC_05_02_06]]
+===== core:ClosureSurface
+
+core:ClosureSurfaceは、仮想的に作成した境界面である。通常、建築物の出入り口等の穴があった場合に、その内部を記述せず、仮想的な面を作成することで立体の境界を閉じるために使用する +
+（<<fig-C-30>>、<<fig-C-32>>）。また、用途が異なる等により一棟の建築物を部分（bldg:BuildingPart）に分ける場合にその境界となる面を建築物の立体の境界面として使用するために仮想的な面が必要となる場合にも、このcore:ClosureSurfaceを使用する（<<fig-C-31>>）。 +
+例えば、浸水時に、地下街等に水が流入することを想定したシミュレーションを行うような場合には、core:ClosureSurfaceを適用できる。
+
+[[fig-C-30]]
+.閉鎖面の例（出入り口等の開口部を閉鎖）
+image::../../sources/images/anx_C_030.png[width="500"]
+
+[[fig-C-31]]
+.閉鎖面の例（境界を閉鎖）
+image::../../sources/images/anx_C_031.png[width="500"]
+
+[[fig-C-32]]
+.閉鎖面の取得例（建物入口）
+image::../../sources/images/anx_C_032.png[width="400"]
+
+
+[[tocC_05_02_07]]
+===== con:CeilingSurface
+
+con:CeilingSurfaceは、部屋など構造物内部の上側（天井）の面である。立体として構成する部屋（bldg:Room）の境界面のうち、上側の面を指す。
+
+<<fig-C-33>>は、部屋を外から見た例である。部屋の立体を構成する境界面のうち、上側の面が天井面となる。
+
+[[fig-C-33]]
+.天井面の例
+image::../../sources/images/EA_con_CeilingSurface.png[width="400"]
+
+con:CeilingSurfaceの法線ベクトルは下向き（部屋の内側に向く方向が正）となる。 +
+天井面は、部屋（bldg:BuildingRoom）を構成する立体の境界面となるが、立体の境界面となる場合は、境界面の法線ベクトルは上向き（部屋の外側を向く方向が正）となる。そのため、天井面の幾何オブジェクトを部屋の境界面として参照する場合には、向きを反対にしなければならない。 +
+<<fig-C-34>>に例を示す。天井面（gml:id="Ceiling_1）の空間属性である多角形（gmlid="LOD2_1_CS"）の向きは、下向きである。これを部屋（gml:id="Room_1"）の境界面として使用する場合、向きをもつ面であるgml:OrientableSurfaceを使用する。gml:OrientableSurfaceは、元の面のgml:idを参照（gml:baseSurface）し、かつ向きが反対（orientation="-"）とすることで反対の向きとなる面を表す。
+
+[[fig-C-34]]
+.部屋の境界面として天井面を参照する例
+image::../../sources/images/anx_C_034.png[]
+
+
+[[tocC_05_02_08]]
+===== con:FloorSurface
+
+con:FloorSurfaceは、建物の内部空間の各階下面（床）に位置する面である。立体として構成する部屋（bldg:Room）の境界面のうち、下側の面（床面）を指す（<<fig-C-35>>）。 +
+なお、con:FloorSurfaceの法線ベクトルは上向き（部屋の内側に向く方向が正）となる。よって、<<fig-C-34>>と同様に、この床面を部屋の境界面として使用する場合には、向きを反対にした面（gml:OrientableSurface）を作成する。
+
+[[fig-C-35]]
+.床面の例
+image::../../sources/images/EA_con_FloorSurface.png[width="300"]
+
+
+[[tocC_05_02_09]]
+===== con:InteriorWallSurface
+
+con:InteriorWallSurfaceは、建築物の内側に向いた内壁又は仕切りの面である。部屋（bldg:Room）の立体を構成する垂直方向の境界面となる（<<fig-C-36>>）。
+なお、con:InteriorWallSurfaceの法線ベクトルは内向き（部屋の内側に向く方向が正）となる。よって、<<fig-C-34>>と同様に、この内壁面を部屋の境界面として使用する場合には、部屋の外側に向きを反対にした面（gml:OrientableSurface）を作成する。
+
+[[fig-C-36]]
+.内壁面の例
+image::../../sources/images/EA_con_InteriorWallSurface.png[width="400"]
+
+
+[[tocC_05_02_10]]
+===== 境界面の区分
+
+建築物（bldg:Building）の境界面は、con:RoofSurface（屋根面：<<tocC_05_02_01>>）、con:WallSurface（外壁面：<<tocC_05_02_02>>）及びcon:GroundSurface（底面：<<tocC_05_02_03>>）に区分することを基本とする。
+
+[[fig-C-37]]
+.建築物の境界面の区分
+image::../../sources/images/anx_C_037.png[width="200"]
+
+ただし、ユースケースで必要な場合には、境界面の区分にcon:OuterFloorSurface（屋外床面：<<tocC_05_02_04>>）及びcore:ClosureSurface（閉鎖面：<<tocC_05_02_06>>）及びcon:OuterCeilingSurface（屋外天井面：<<tocC_05_02_05>>）を使用できる。
+
+con:OuterFloorSurface（屋外床面）は、con:RoofSurfaceの代替として使用できる。建築物を構成する境界面のうち、上を向いている面は、con:RoofSurfaceとなるが、屋上のように、人が滞留可能な面と屋根面とを区別したい場合はcon:OuterFloorSurfaceを使用し、これを区分する。<<fig-C-38>>に例を示す。
+
+[[fig-C-38]]
+.屋外床面の取得例
+image::../../sources/images/anx_C_038.png[width="300"]
+
+con:OuterFloorSurfaceとして取得しない場合は、con:RoofSurfaceとして取得する。
+
+con:OuterCeilingSurface（屋外天井面）は、con:WallSurfaceの代替として使用できる。con:OuterCeilingSurfaceはcon:WallSurfaceのうち下向きの面であり、天井の機能を有する面、これを区別したい場合に適用する。<<fig-C-39>>に例を示す。
+
+[[fig-C-39]]
+.屋外天井面の取得例
+image::../../sources/images/EA_con_OuterCeilingSurface.png[width="400"]
+
+con:OuterCeilingSurfaceとして取得しない場合は、con:WallSurfaceとして取得する。
+
+さらに、bldg:BuildingPartを用いて一棟の建築物を複数の部分に分割して記述する場合は、各bldg:BuildingPartが接する仮想的な境界面が必要となるため、これをcore:ClosureSurface（閉鎖面）として取得する。
+
+[[fig-C-40]]
+.閉鎖面の取得例
+image::../../sources/images/anx_C_031.png[width="500"]
+
+建築物付属物（bldg:BuildingInstallation）を立体として記述する場合、原則として境界面を屋根面や外壁面に分ける必要はない。ただし、建築物付属物の境界面が、建築物の境界面を兼ねている場合には、いずれかの境界面に区分する。これは、区分した境界面が、建築物の境界面にもなるからでなる。
+
+地物を詳細な地物に区分し記述することにより、より高度な活用が可能となる。その一方で、データ作成が複雑となり、これに要する費用や時間が増大する。そのため、標準製品仕様書では、LODの定義を精緻化している。建築物についてはLOD0.0、LOD1.0、LOD2.0及びLOD3.0を採用することを基本としている。
+

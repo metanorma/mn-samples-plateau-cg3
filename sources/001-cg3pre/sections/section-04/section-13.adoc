@@ -1,0 +1,571 @@
+[[toc4_13]]
+=== その他の構造物モデルの応用スキーマ
+
+その他の構造物とは、構造物のうち、橋梁及びトンネルを除く土木構造物をいう。
+
+「構造物」とは、「目的とする機能を持ち、作用に対して抵抗することを意図として人為的に構築されるもの」（土木・建築にかかる設計の基本、国土交通省）であり、ダム、堤防、床止め、堰、水門・閘門・陸閘、樋門・樋管、伏せ越し、水制、護岸、防波堤その他の土木構造物を指す。
+
+[[tab-4-13-1]]
+[cols="3a,17a"]
+|===
+| その他の構造物 | 説明
+
+| ダム | 洪水の調整、発電、上水道、農工業等のための各種用水の貯水を目的として設けられた工作物をいい、砂防ダムを含む。[<<gsi_ops,付録７ 公共測量標準図式>>]
+| 堤防 | 河川管理施設等構造令第17条に示される堤防及び霞堤。 +
+河川の流水の氾濫を防ぐ目的をもって、土砂・石礫等によって造られた河川構造物。
+| 床止め | 河川管理施設等構造令第33条に示される床止め。 +
+河床の洗掘を防いで河川河道の勾配等を安定させ、河川の縦断又は横断形状を維持するために、河川を横断して設ける施設。（河川構造物設計要領）
+| 堰 | 河川管理施設等構造令第36条に示される堰。 +
+河川の流水を制御するために、河川を横断して設けられるダム以外の施設であって、堤防の機能を有しないもの。
+| 水門・閘門・陸閘
+| 河川管理施設等構造令第46条に示される水門。 +
+水門：河川又は水路を横断して設けられる制水施設であって堤防の機能を有するもの +
+閘門：運河・放水路などで水量を調節するための水門 +
+陸閘：閉鎖することで海水の侵入を防止するとともに、開放することで堤防等の海側にある港湾、漁港、海浜等を利用するために人や車両等が堤防等を横断できるようにする施設。 +
+（ https://www.mlit.go.jp/common/001176448.pdf ）
+
+| 樋門・樋管
+| 河川管理施設等構造令第46条に示される樋門。 +
+海・河川への排水口に設けられている施設。 +
+（ https://www.mlit.go.jp/common/001176448.pdf ）
+
+| 伏せ越し
+| 河川管理施設等構造令第68条に示される伏せ越し。 +
+用水施設又は排水施設である開渠が、河川法の適用を受ける河川と交差する場合において、逆サイフォン構造で河底を横過する工作物で、施工方法が開削工法によるもの。
+
+| 水制
+| 河川管理施設等構造令第26条に示される護岸。 +
+海岸や河川の水の勢いを弱め海岸や川岸が削られるのを防いだり、流れの方向を整えたりするために水中に設ける工作物。
+
+| 護岸
+| 河川管理施設等構造令第25条に示される護岸。 +
+高水敷や他の構造物とともに流水による侵食作用から堤防（掘込河道にあっては堤内地）を保護するために設けるもの。
+
+| 防波堤 | 波浪を制御する堤防、埠頭、海岸浸食を防ぐ突堤等。
+[<<gsi_ops,付録７ 公共測量標準図式>>]
+
+|===
+
+[[toc4_13_01]]
+==== その他の構造物モデルのLOD
+
+標準製品仕様書が対象とするその他の構造物モデルのLODは、LOD0からLOD3までとする。
+
+[[toc4_13_01_01]]
+===== その他の構造物モデル（LOD0）
+
+[[toc4_13_01_01_01]]
+====== その他の構造物モデル（LOD0）の概要
+
+その他の構造物モデル（LOD0）では、構造物の形状を面により表現する。 +
+ただし、数値地形図との互換性を保つ必要がある場合は、公共測量標準図式に従った<<toc4_25_01_01,公共測量標準図式のためのLOD0の定義>>を採用できる。
+
+その他の構造物モデル（LOD0）の取得イメージを<<tab-4-13-2>>に示す。
+
+//その他の構造物モデル（LOD0）の取得イメージ
+[[tab-4-13-2]]
+include::../../../common/sections/com_cons_Acquire_lod0.adoc[]
+
+[[toc4_13_01_01_02]]
+====== その他の構造物モデル（LOD0.0）の定義
+
+その他の構造物モデル（LOD0.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-13-3]]
+include::../../../common/sections/com_cons_Definition_lod00.adoc[]
+
+[[toc4_13_01_01_03]]
+====== その他の構造物モデル（LOD0.1）の定義
+
+その他の構造物モデル（LOD0.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-13-4]]
+include::../../../common/sections/com_cons_Definition_lod01.adoc[]
+
+
+[[toc4_13_01_02]]
+===== その他の構造物モデル（LOD1）
+
+[[toc4_13_01_02_01]]
+====== その他の構造物モデル（LOD1）の概要
+
+その他の構造物モデル（LOD1）では、構造物の形状を立体により表現する。
+
+その他の構造物モデル（LOD1）の取得イメージを<<tab-4-13-5>>に示す。
+
+//その他の構造物モデル（LOD1）の取得イメージ
+[[tab-4-13-5]]
+include::../../../common/sections/com_cons_Acquire_lod1.adoc[]
+
+[[toc4_13_01_02_02]]
+====== その他の構造物モデル（LOD1.0）の定義
+
+その他の構造物モデル（LOD1.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-13-6]]
+include::../../../common/sections/com_cons_Definition_lod10.adoc[]
+
+[[toc4_13_01_02_03]]
+====== その他の構造物モデル（LOD1.1）の定義
+
+その他の構造物モデル（LOD1.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-13-7]]
+include::../../../common/sections/com_cons_Definition_lod11.adoc[]
+
+
+[[toc4_13_01_03]]
+===== その他の構造物モデル（LOD2）
+
+[[toc4_13_01_03_01]]
+====== その他の構造物モデル（LOD2）の概要
+
+その他の構造物モデル（LOD2）では、その他の構造物の形状を、主要な部分を簡略化した面の集まりとして表現するか、主要な部分の外形を構成する特徴点から構成する面を境界面とする立体として表現するかにより、LOD2.0及びLOD2.1に区分する（<<tab-4-13-8>>）。 +
+また、属性granularityによって、付属物の再現有無を表現する。 +
+標準製品仕様書は、原則としてLOD2.0を採用する。ただし、ユースケースの必要に応じてLOD2.1を採用できる。
+
+//その他の構造物モデルにおけるLOD2.0及びLOD2.1の区分
+[[tab-4-13-8]]
+include::../../../common/sections/com_cons_Category_lod2.adoc[]
+
+
+その他の構造物モデル（LOD2）の取得イメージを<<tab-4-13-9>>に示す。
+
+//その他の構造物モデル（LOD2）の取得イメージ
+[[tab-4-13-9]]
+include::../../../common/sections/com_cons_Acquire_lod2.adoc[]
+
+[[toc4_13_01_03_02]]
+====== その他の構造物モデル（LOD2.0）の定義
+
+その他の構造物モデル（LOD2.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-13-10]]
+include::../../../common/sections/com_cons_Definition_lod20.adoc[]
+
+[[toc4_13_01_03_03]]
+====== その他の構造物モデル（LOD2.1）の定義
+
+その他の構造物モデル（LOD2.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-13-11]]
+include::../../../common/sections/com_cons_Definition_lod21.adoc[]
+
+
+[[toc4_13_01_04]]
+===== その他の構造物モデル（LOD3）
+
+[[toc4_13_01_04_01]]
+====== その他の構造物モデル（LOD3）の概要
+
+その他の構造物モデル（LOD3）は、含むべき地物により、LOD3.0、LOD3.1に分かれる（<<tab-4-13-12>>）。
+
+LOD3.0及びLOD3.1は、BIM又はCIMデータからの変換を前提とした区分である。 +
+標準製品仕様書は、原則としてLOD3.0を採用する。ただし、ユースケースの必要に応じてLOD3.1を採用できる。
+
+//その他の構造物モデルにおけるLOD3.0及びLOD3.1の区分
+[[tab-4-13-12]]
+include::../../../common/sections/com_cons_Category_lod3.adoc[]
+
+その他の構造物モデル（LOD3）の取得イメージを<<tab-4-13-13>>に示す。
+
+//その他の構造物（LOD3）の取得イメージ
+[[tab-4-13-13]]
+include::../../../common/sections/com_cons_Acquire_lod3.adoc[]
+
+[[toc4_13_01_04_02]]
+====== その他の構造物モデル（LOD3.0）の定義
+
+その他の構造物モデル（LOD3.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-13-14]]
+include::../../../common/sections/com_cons_Definition_lod30.adoc[]
+
+[[toc4_13_01_04_03]]
+====== その他の構造物モデル（LOD3.1）の定義
+
+その他の構造物モデル（LOD3.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-13-15]]
+include::../../../common/sections/com_cons_Definition_lod31.adoc[]
+
+[[toc4_13_01_05]]
+===== 各LODにおいて使用可能な地物型と空間属性
+
+その他の構造物モデルの各LODにおいて使用可能な地物型と空間属性を<<tab-4-13-16>>に示す。
+
+//その他の構造物モデルの記述に使用する地物型と空間属性
+[[tab-4-13-16]]
+include::../../../common/sections/com_cons_SpatialAttribute.adoc[]
+
+
+[[toc4_13_02]]
+==== その他の構造物モデルの応用スキーマクラス図
+
+[[toc4_13_02_01]]
+===== Construction（CityGML）
+
+[[toc4_13_02_01_01]]
+====== Construction
+
+[[fig-4-13-1]]
+image::../../sources/images/EAID_1D8C3E70_F679_46de_BDBB_ECF383899160.png[]
+
+[[toc4_13_02_01_02]]
+====== OtherConstruction
+
+[[fig-4-13-2]]
+image::../../sources/images/EAID_5EAFE212_C4A9_4929_B85C_B973258B13E6.png[]
+
+[[toc4_13_02_02]]
+===== Urban Object（i-UR）
+
+[[fig-4-13-3]]
+image::../../sources/images/EAID_C357C419_061D_48ab_ADA7_5636CA47FEF6.png[]
+
+
+[[toc4_13_03]]
+==== その他の構造物モデルの応用スキーマ文書
+
+[[toc4_13_03_01]]
+===== Construction（CityGML）
+
+[[toc4_13_03_01_01]]
+====== OtherConstruction
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="OtherConstruction",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_02]]
+====== RoofSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="RoofSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_03]]
+====== WallSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="WallSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_04]]
+====== GroundSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="GroundSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_05]]
+====== OuterCeilingSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="OuterCeilingSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_06]]
+====== OuterFloorSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="OuterFloorSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_07]]
+====== InteriorWallSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="InteriorWallSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_08]]
+====== CeilingSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="CeilingSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_09]]
+====== FloorSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="FloorSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_10]]
+====== Window
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Window",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_11]]
+====== WindowSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="WindowSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_12]]
+====== Door
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Door",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_13]]
+====== DoorSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="DoorSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_14]]
+====== Elevation
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Elevation",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_15]]
+====== Height
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Height",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_01_16]]
+====== ConstructionEvent
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="ConstructionEvent",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_02]]
+===== Urban Object（i-UR）
+
+[[toc4_13_03_02_01]]
+====== ConstructionBaseAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ConstructionBaseAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_02_02]]
+====== ConstructionRiskAssessmentAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ConstructionRiskAssessmentAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_02_03]]
+====== ConstructionStructureAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ConstructionStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_02_04]]
+====== EmbankmentAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="EmbankmentAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_02_05]]
+====== DamAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="DamAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_02_06]]
+====== OtherConstructionInstallation
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OtherConstructionInstallation",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_02_07]]
+====== OtherConstructiveElement
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OtherConstructiveElement",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_13_03_03]]
+===== 施設管理のための拡張属性
+
+// 引用リンク スキーマ文書　施設管理のための拡張属性
+include::../../../common/sections/link_schema_Facility.adoc[]
+
+[[toc4_13_03_04]]
+===== データ品質属性
+
+// 引用リンク スキーマ文書　データ品質属性
+include::../../../common/sections/link_schema_DateQuality.adoc[]
+
+[[toc4_13_03_05]]
+===== 数値地形図のための拡張属性
+
+// 引用リンク スキーマ文書　数値地形図のための拡張属性
+include::../../../common/sections/link_schema_Dm.adoc[]
+
+
+[[toc4_13_04]]
+==== その他の構造物モデルで使用するコードリストと列挙型
+
+[[toc4_13_04_01]]
+===== Construction（CityGML）
+
+[[OtherConstruction_class.xml]]
+====== OtherConstruction_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/OtherConstruction_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_kiban_chizu>>
+
+[[OtherConstruction_function.xml]]
+====== OtherConstruction_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/OtherConstruction_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_kiban_chizu>>
+
+[[Door_function.xml]]
+====== Door_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Door_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Window_function.xml]]
+====== Window_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Window_function.xml[template="gml_dict_template.liquid",context=dict]
+
+
+[[toc4_13_04_02]]
+===== Urban Object（i-UR）
+
+[[OtherConstructiveElement_function.xml]]
+====== OtherConstructiveElement_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/OtherConstructiveElement_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[ConstructionInstallation_function.xml]]
+====== ConstructionInstallation_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ConstructionInstallation_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[ConstructionBaseAttribute_purpose.xml]]
+====== ConstructionBaseAttribute_purpose.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ConstructionBaseAttribute_purpose.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<nlftp>>
+
+[[ConstructionStructureAttribute_structureType.xml]]
+====== ConstructionStructureAttribute_structureType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ConstructionStructureAttribute_structureType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<nlftp>>
+
+[.source]
+<<mlit_kiban_chizu>>
+
+[[ConstructionStructureAttribute_slopeType.xml]]
+====== ConstructionStructureAttribute_slopeType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ConstructionStructureAttribute_slopeType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[ConstructionBaseAttribute_adminType.xml]]
+====== ConstructionBaseAttribute_adminType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ConstructionBaseAttribute_adminType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_kiban_chizu>>
+
+[.source]
+<<nlftp>>
+
+[.source]
+<<mlit_cyberport>>
+
+[[ConstructionBaseAttribute_installerType.xml]]
+====== ConstructionBaseAttribute_installerType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ConstructionBaseAttribute_installerType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_cyberport>>
+
+[[ConstructionRiskAssessmentAttribute_riskType.xml]]
+====== ConstructionRiskAssessmentAttribute_riskType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ConstructionRiskAssessmentAttribute_riskType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_road_damage_map>>
+
+[[ConstructionRiskAssessmentAttribute_status.xml]]
+====== ConstructionRiskAssessmentAttribute_status.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ConstructionRiskAssessmentAttribute_status.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_road_damage_map>>
+
+[[ConstructionFunctionalAttribute_directionType.xml]]
+====== ConstructionFunctionalAttribute_directionType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ConstructionFunctionalAttribute_directionType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Elevation_elevationReference.xml]]
+====== Elevation_elevationReference.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Elevation_elevationReference.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<inspire_registry>>
+
+[[toc4_13_04_03]]
+===== Urban Core（i-UR）
+
+[[OtherConstruction_lodType.xml]]
+====== OtherConstruction_lodType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/OtherConstruction_lodType.xml[template="gml_dict_template.liquid",context=dict]
+
+====== DataQualityAttribute_geometrySrcDesc.xml
+
+<<DataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_thematicSrcDesc.xml
+
+<<DataQualityAttribute_thematicSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_appearanceSrcDesc.xml
+
+<<DataQualityAttribute_appearanceSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_srcScale.xml
+
+<<PublicSurveyDataQualityAttribute_srcScale.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
+
+<<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,（一元化する場合）データ集合のコードリスト>>　参照。
+
+[[HightStatusValue]]
+====== HightStatusValue
+
+[cols="3a,22a"]
+|===
+| 列挙型 | HightStatusValue
+
+h| 値 h| 説明
+| estimated | 推定値
+| measured | 計測値
+
+|===
+
+[.source]
+<<citygml_30>>
+
+[[ConditionOfConstructionValue]]
+====== ConditionOfConstructionValue
+
+[cols="3a,22a"]
+|===
+| 列挙型 | ConditionOfConstructionValue
+
+h| 値 h| 説明
+| declined | 構造物の主要な部分は残っているが、使用できない状態。
+| demolished | 構造物は取り壊された状態。
+| functional | 構造物が機能している状態。
+| projected | 構造物は設計されている状態（工事はまだ始まっていない）。
+| ruin | 構造物が部分的に解体された状態（残骸が残っている）。
+| underConstruction | 構造物は建設中である状態。
+
+|===
+
+[.source]
+<<citygml_30>>
+
+[[RelationToConstruction]]
+====== RelationToConstruction
+
+[cols="3a,22a"]
+|===
+| 列挙型 | RelationToConstruction
+
+h| 値 h| 説明
+| inside | 内部に配置されている。
+| outside | 外部に配置されている。
+| bothInsideAndOutside | 両方に配置されている。
+
+|===
+
+[.source]
+<<citygml_30>>
+

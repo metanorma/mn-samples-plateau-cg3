@@ -1,0 +1,29 @@
+[[tocM_07]]
+=== tun:TunnelConstructiveElement
+
+tun:TunnelConstructiveElementは、橋梁を構成する部材（構造部材）である。構造上不可欠な部材である床版、橋脚、橋台などに加え、付属物である高欄や排水施設などを含める。
+
+tun:TunnelConstructiveElementは、BIMの標準であるIFCとの整合を考慮し、CityGML3.0において追加された地物型である。IFCに定義された地物に該当するクラスは、tun:TunnelConstructiveElementに対応づく。
+
+BIMデータは、非常に詳細な形状をもつデータである。そのため、これに対応する地物型であるtun:TunnelConstructiveElementは、標準作業手順書において、LOD3においてのみ使用することを推奨する。
+
+
+[[tocM_07_01]]
+==== 構造部材の空間属性
+
+
+[[tocM_07_01_01]]
+===== LOD3
+
+tun:TunnelConstructiveElementは多曲面（core:lod3MultiSurface）又は立体（core:lod3Solid）として表現する。ただし、原則として多曲面を使用する。
+
+
+[[tocM_07_02]]
+==== 構造部材の主題属性
+
+
+[[tocM_07_02_01]]
+===== 構造部材の区分
+
+属性tun:functionを使用して区分する。tun:functionの区分は、IFCに準じる。
+

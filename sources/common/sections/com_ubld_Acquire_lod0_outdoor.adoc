@@ -1,0 +1,17 @@
+[cols="1a,3a,3a",options="noheader"]
+.地下街モデル・外部（LOD0）の取得イメージ
+|===
+h| LOD ^h| LOD0.0 ^h| LOD0.1
+h| 取得例
+^.^|
+image::../../sources/images/ubld_Acquire_lod00_out.png[]
+^.^|
+image::../../sources/images/ubld_Acquire_lod01_out.png[]
+
+h| 説明
+| 地下街の正射影の外周を取得する。 +
+高さは0とする。
+| 地下街の正射影の外周か接地面の正射影の外周のどちらかを取得する。 +
+LOD0.0は地下街の正射影の外周を取得するが、LOD0.1では地下街の正射影の外周か接地面の正射影の外周かを区別して取得する。地下街の正射影の外周の場合は、RoofSurfaceに空間属性を持たせ、接地面の場合はGroundSurfaceに空間属性を持たせることで区分する。
+|===
+

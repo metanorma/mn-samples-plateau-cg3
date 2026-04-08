@@ -1,0 +1,209 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD0.1
+|●
+|Bridge
+|-
+|-
+|-
+|-
+|内部LODの場合は、空間属性を原則持たせない。
+
+|LOD0.1
+|〇
+|BridgePart
+|-
+|-
+|-
+|-
+|内部LODの場合は、空間属性を原則持たせない。
+
+|LOD0.1
+|■
+|BridgeRoom
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|【天井面の外周の取得方法】
+
+* 部屋の正射影の外周を線として取得する。
+* 高さは0とする。
+
+【床面の外周の取得方法】
+
+* 床面と部屋を構成する内壁面との交線を線として取得する。
+* 高さは0とする。
+|lod0MultiSurfaceを原則として使用する。
+
+|LOD0.1
+|■
+|BridgeRoom
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|【天井面の外周の取得方法】
+
+* 部屋の正射影の外周を取得する。
+* 高さは0とする。
+
+【床面の外周の取得方法】
+
+* 床面と部屋を構成する内壁面との交線により囲まれる面を取得する。
+* 高さは0とする。
+|lod0MultiSurfaceを原則として使用する。
+
+|LOD0.1
+|■
+|CeilingSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 天井の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|■
+|CeilingSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 天井の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|InteriorWallSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 橋梁の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|■
+|FloorSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 床の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|■
+|FloorSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 床の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|ClosureSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 床面（FloorSurface）、天井面（CeilingSurface）及び内壁面（InteriorWallSurface）を区切る仮想的な境界線に囲まれた面の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|ClosureSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 床面（FloorSurface）、天井面（CeilingSurface）及び内壁面（InteriorWallSurface）を区切る仮想的な境界線を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|BridgeInstallation
+|lod0MultiSurface
+|GM_MultiSurface
+|橋梁内部に存在する付属物
+|
+* 付属物の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|DoorSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 扉の正射影の外周を線として取得する。
+|
+
+|LOD0.1
+|〇
+|WindowSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 窓の正射影の外周を線として取得する。
+|
+
+|LOD0.1
+|〇
+|Door
+|-
+|-
+|-
+|-
+|-
+
+|LOD0.1
+|〇
+|Window
+|-
+|-
+|-
+|-
+|-
+
+|LOD0.1
+|〇
+|BridgeConstructiveElement
+|lod0MultiSurface
+|GM_MultiSurface
+|構造上不可欠な部材
+|
+* 構造部材の正射影の外周を取得する。
+|
+
+|LOD0.1
+|〇
+|BridgeFurniture
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 可動設備の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

@@ -1,0 +1,16 @@
+[cols="1a,9a",options="noheader"]
+.交通（道路）モデル（LOD0）の取得イメージ
+|===
+h| LOD ^h| LOD0
+h| 取得例
+^.^|
+image::../../sources/images/road_Acquire_lod00.png[width="280"]
+
+h| 説明
+|中心線を取得する。高さは0とする。 +
+このとき、属性granularityによって、道路全体又は上下線単位なのか、あるいは車線単位なのかを表現する。 +
+granularity=wayの場合は、道路全体又は車道及び歩道の中心線を表現する。 +
+さらに、中心線の粒度を詳細に区分するために属性fuctionを使用する。 +
+granularity=laneの場合は、車線及び歩道の中心線を表現する。 +
+
+|===

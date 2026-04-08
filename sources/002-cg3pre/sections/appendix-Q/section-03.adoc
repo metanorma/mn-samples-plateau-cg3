@@ -1,0 +1,109 @@
+[[tocQ_03]]
+=== uro:UndergroundBuilding
+
+uro:UndergroundBuildingは、地下街の記述に使用する地物型である。 +
+uro:UndergroundBuildingはbldg:AbstractBuildingを継承している。そのため、uro:UndergroundBuildingは、建築物（bldg:Building）と同様に、以下の地物を部品としてもつことができる。
+
+* 境界面（con:AbstractBoundarySurfaceの下位型、con:AbstractFillingSurfaceの下位型及びcore:ClosureSurface、）
+* 付属物（bldg:BuildingInstallation）
+* 部屋（bldg:BridgeRoom）
+* 階（bldg:Storey）
+* 区画（bldg:BuildingUnit）
+* 家具（bldg:BuildingFurniture）
+* 建築部材（bldg:BuildingConstructiveElement）
+* 開口部（con:AbstractFillingElementの下位型）
+
+
+[[tocQ_03_01]]
+==== 地下街の空間属性
+
+uro:UndergroundBuildingの空間属性には、LOD0からLOD3までの4つがある。これらは、いずれも地下街の外部の形状を表す。
+
+
+[[tocQ_03_01_01]]
+===== LOD0
+
+uro:UndergroundBuildingの空間属性は、LOD0において、面（core:lod0MultiSurface）又は線（core:lod0MultiCurve）として表現する。 +
+このとき、地下街オブジェクトは、地下街モデル（LOD0）の定義に従ったものでなければならない。
+
+
+[requirement]
+.地下街のLOD0形状定義
+====
+[%metadata]
+identifier:: /req/ubld/2
+subject:: 妥当な地下街データセットの要件
+description:: 地下街のLOD0の形状は、地下街モデル（LOD0）の定義に従う。
+====
+
+
+[[tocQ_03_01_02]]
+===== LOD1
+
+uro:UndergroundBuildingの空間属性は、LOD1において、立体（core:lod1Solid）として表現する。 +
+立体は、地下街モデル（LOD0）の面を、地表面から一律の高さで下向きに押し出して作成する。一律の高さは、地表から地下街の下端までとする。 +
+このとき、地下街オブジェクトは、地下街モデル（LOD1）の定義に従ったものでなければならない。
+
+
+[requirement]
+.地下街のLOD1形状定義
+====
+[%metadata]
+identifier:: /req/ubld/3
+subject:: 妥当な地下街データセットの要件
+description:: 地下街のLOD1の形状は、地下街モデル（LOD1）の定義に従う。
+====
+
+地表面から一律の高さで下向きに押し出した立体として表現するため、地下街の正確な深さは分からないが、地下街が存在する可能性がある空間を表現できる。
+
+
+[[tocQ_03_01_03]]
+===== LOD2
+
+uro:UndergroundBuildingの空間属性は、LOD2において、立体として表現する。 +
+地下街の外形を立体として表現し、立体を構成する境界面を、上向きの面は屋根面、下向きの面は底面、それ以外は外壁面に区分する。 +
+このとき、地下街オブジェクトは、地下街モデル（LOD2）の定義に従ったものでなければならない。
+
+
+[requirement]
+.地下街のLOD2形状定義
+====
+[%metadata]
+identifier:: /req/ubld/4
+subject:: 妥当な地下街データセットの要件
+description:: 地下街のLOD2の形状は、地下街モデル（LOD2）の定義に従う。
+====
+
+地下街への出入口を境界面として区分したい場合は、閉鎖面として取得する。 +
+ユースケースの必要に応じて窓面や扉面として取得してもよい。 +
+また、開口部の境界面とし区分しない場合は、屋根面として取得する。
+
+なお、地上に設置された、地下街出入口の建屋は都市設備（CityFurniture）として取得する。
+
+
+[[tocQ_03_01_04]]
+===== LOD3
+
+uro:UndergroundBuildingの空間属性は、LOD3において、多曲面（core:lod3MultiSurface）として記述する。 +
+また、地下街は建築部材（bldg:BuildingConstructiveElement）の集まりとして構成され、地下街の多曲面を構成する面は、建築部材を構成する面に一致する。 +
+このとき、地下街オブジェクトは、地下街モデル（LOD3）の定義に従ったものでなければならない。
+
+
+[requirement]
+.地下街のLOD3形状定義
+====
+[%metadata]
+identifier:: /req/ubld/5
+subject:: 妥当な地下街データセットの要件
+description:: 地下街のLOD3の形状は、地下街モデル（LOD3）の定義に従う。
+====
+
+LOD3は、BIMデータの活用を前提とした区分である。
+
+
+[[tocQ_03_01_05]]
+==== 地下街の主題属性
+
+地下街は、抽象建築物（bldg:AbstractBuilding）を継承して定義される。 +
+そのため、地下街の主題属性は、bldg:AbstractBuildingの属性として定義された属性以外に、i-URにおいて拡張された全ての属性をもつことができる。
+

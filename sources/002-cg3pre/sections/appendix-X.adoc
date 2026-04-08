@@ -1,0 +1,8 @@
+[[tocX]]
+[appendix]
+== 品質評価におけるオープンソースソフトウェアの活用
+
+include::../sections/appendix-X/section-01.adoc[]
+
+include::../sections/appendix-X/section-02.adoc[]
+

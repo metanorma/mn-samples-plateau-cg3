@@ -1,0 +1,291 @@
+[[toc4_16]]
+=== 地下街モデルの応用スキーマ
+
+地下街とは、地下街その他地下に設けられた不特定かつ多数の者が利用する施設（地下に建設が予定されている施設又は地下に建設中の施設であつて、不特定かつ多数の者が利用すると見込まれるものを含む。）をいう。
+
+[.source]
+<<jp_water_prevention_law,clause="第15条第1項第4号イ">>
+
+参考： +
+消防法第8条の2第1項では、地下街を「地下の工作物内に設けられた店舗、事務所その他これらに類する施設で、連続して地下道に面して設けられたものと当該地下道とを合わせたもの」また同施行令別表第一では準地下街として「建築物の地階で連続して地下道に面して設けられたものと当該地下道とを合わせたもの」と定義している。 +
+また、「地下街に関する基本方針」（昭和49年6月28日付建設省都計発第58号）では地下街を「公共の用に供される地下歩道（地下駅の改札口外の通路、コンコース等を含む。）と当該地下歩道に面して設けられる店舗、事務所その他これらに類する施設とが一体となった地下施設（地下駐車場が併設されている場合には、当該地下駐車場を含む。）であって、公共の用に供されている道路又は駅前広場（土地区画整理事業、市街地再開発事業等により建設中の道路又は駅前広場を含む。）の区域に係るもの」と定義している。
+
+[[toc4_16_01]]
+==== 地下街モデルのLOD
+
+標準製品仕様書が対象とする地下街モデルのLODは、LOD0からLOD3までとする。このとき、LODには外部と内部がそれぞれ存在する。
+
+[[toc4_16_01_01]]
+===== 地下街モデル（LOD0）
+
+[[toc4_16_01_01_01]]
+====== 地下街モデル（LOD0）の概要
+
+地下街モデル（LOD0）では、地下街の形状を、面又は線により表現する。
+
+地下街モデル・外部（LOD0）の取得イメージを<<tab-4-16-1>>に、地下街モデル・内部（LOD0）の取得イメージを<<tab-4-16-2>>に示す。
+
+//地下街モデル・外部（LOD0）の取得イメージ
+[[tab-4-16-1]]
+include::../../../common/sections/com_ubld_Acquire_lod0_outdoor.adoc[]
+
+//地下街モデル・内部（LOD0）の取得イメージ
+[[tab-4-16-2]]
+include::../../../common/sections/com_ubld_Acquire_lod0_indoor.adoc[]
+
+[[toc4_16_01_01_02]]
+====== 地下街モデル・外部（LOD0.0）の定義
+
+地下街モデル・外部（LOD0.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-3]]
+include::../../../common/sections/com_ubld_Definition_lod00_outdoor.adoc[]
+
+[[toc4_16_01_01_03]]
+====== 地下街モデル・内部（LOD0.0）の定義
+
+地下街モデル・内部（LOD0.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-4]]
+include::../../../common/sections/com_ubld_Definition_lod00_indoor.adoc[]
+
+[[toc4_16_01_01_04]]
+====== 地下街モデル・外部（LOD0.1）の定義
+
+地下街モデル・外部（LOD0.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-5]]
+include::../../../common/sections/com_ubld_Definition_lod01_outdoor.adoc[]
+
+[[toc4_16_01_01_05]]
+====== 地下街モデル・内部（LOD0.1）の定義
+
+地下街モデル・内部（LOD0.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-6]]
+include::../../../common/sections/com_ubld_Definition_lod01_indoor.adoc[]
+
+
+[[toc4_16_01_02]]
+===== 地下街モデル（LOD1）
+
+[[toc4_16_01_02_01]]
+====== 地下街モデル（LOD1）の概要
+
+地下街モデル（LOD1）では、地下街の形状を、立体により表現する。
+
+地下街モデル・外部（LOD1）の取得イメージを<<tab-4-16-7>>に、地下街モデル・内部（LOD1）の取得イメージを<<tab-4-16-8>>に示す。
+
+//地下街モデル・外部（LOD1）の取得イメージ
+[[tab-4-16-7]]
+include::../../../common/sections/com_ubld_Acquire_lod1_outdoor.adoc[]
+
+//地下街モデル・内部（LOD1）の取得イメージ
+[[tab-4-16-8]]
+include::../../../common/sections/com_ubld_Acquire_lod1_indoor.adoc[]
+
+[[toc4_16_01_02_02]]
+====== 地下街モデル・外部（LOD1.0）の定義
+
+地下街モデル・外部（LOD1.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-9]]
+include::../../../common/sections/com_ubld_Definition_lod10_outdoor.adoc[]
+
+[[toc4_16_01_02_03]]
+====== 地下街モデル・内部（LOD1.0）の定義
+
+地下街モデル・内部（LOD1.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-10]]
+include::../../../common/sections/com_ubld_Definition_lod10_indoor.adoc[]
+
+[[toc4_16_01_02_04]]
+====== 地下街モデル・外部（LOD1.1）の定義
+
+地下街モデル・外部（LOD1.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-11]]
+include::../../../common/sections/com_ubld_Definition_lod11_outdoor.adoc[]
+
+[[toc4_16_01_02_05]]
+====== 地下街モデル・内部（LOD1.1）の定義
+
+地下街モデル・内部（LOD1.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-12]]
+include::../../../common/sections/com_ubld_Definition_lod11_indoor.adoc[]
+
+
+[[toc4_16_01_03]]
+===== 地下街モデル（LOD2）
+
+[[toc4_16_01_03_01]]
+====== 地下街モデル（LOD2）の概要
+
+地下街モデル（LOD2）では、地下街の形状を立体により表現し、立体の境界面を、屋根面、壁面及び底面に区分する。 +
+また、属性granularityによって、開口部（地下街への出入口）の再現有無を表現する。
+
+地下街モデル・内部（LOD2）は、含むべき地物により、LOD2.0、LOD2.1及びLOD2.2に区分する。 +
+標準製品仕様書では原則としてLOD2.0を採用する。ただし、ユースケースの必要に応じてLOD2.1又はLOD2.2を採用できる。
+
+[[tab-4-16-13]]
+include::../../../common/sections/com_ubld_Category_lod2_indoor.adoc[]
+
+
+地下街モデル・外部（LOD2）の取得イメージを<<tab-4-16-14>>に、地下街モデル・内部（LOD2）の取得イメージを<<tab-4-16-15>>に示す。
+
+[[tab-4-16-14]]
+include::../../../common/sections/com_ubld_Acquire_lod2_outdoor.adoc[]
+
+[[tab-4-16-15]]
+include::../../../common/sections/com_ubld_Acquire_lod2_indoor.adoc[]
+
+[[toc4_16_01_03_02]]
+====== 地下街モデル・外部（LOD2）の定義
+
+地下街モデル・外部（LOD2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-16]]
+include::../../../common/sections/com_ubld_Definition_lod2_outdoor.adoc[]
+
+[[toc4_16_01_03_03]]
+====== 地下街モデル・内部（LOD2.0）の定義
+
+地下街モデル・内部（LOD2.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-17]]
+include::../../../common/sections/com_ubld_Definition_lod20_indoor.adoc[]
+
+[[toc4_16_01_03_04]]
+====== 地下街モデル・内部（LOD2.1）の定義
+
+地下街モデル・内部（LOD2.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-18]]
+include::../../../common/sections/com_ubld_Definition_lod21_indoor.adoc[]
+
+[[toc4_16_01_03_05]]
+====== 地下街モデル・内部（LOD2.2）の定義
+
+地下街モデル・内部（LOD2.2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-19]]
+include::../../../common/sections/com_ubld_Definition_lod22_indoor.adoc[]
+
+
+[[toc4_16_01_04]]
+===== 地下街モデル（LOD3）
+
+[[toc4_16_01_04_01]]
+====== 地下街モデル（LOD3）の概要
+
+地下街モデル（LOD3）は、含むべき地物により、外部LOD3.0、外部LOD3.1及び内部LOD3.0、内部LOD3.1、内部LOD3.2に分かれる（<<tab-4-16-20>>、<<tab-4-16-21>>）。
+
+外部LOD3.0及び外部LOD3.1は、BIMデータからの変換を前提とした区分である。 +
+標準製品仕様書は、原則として外部LOD3.0を採用する。ただし、ユースケースの必要に応じて外部LOD3.1を採用できる。
+
+内部LOD3.0、内部LOD3.1及び内部LOD3.2は、BIMデータからの変換を前提とした区分である。 +
+標準製品仕様書は、原則として内部LOD3.0を採用する。ただし、ユースケースの必要に応じて内部LOD3.1又は内部LOD3.2を採用できる。
+
+[[tab-4-16-20]]
+include::../../../common/sections/com_ubld_Category_lod3_outdoor.adoc[]
+
+[[tab-4-16-21]]
+include::../../../common/sections/com_ubld_Category_lod3_indoor.adoc[]
+
+
+地下街モデル・外部（LOD3）の取得イメージを<<tab-4-16-22>>に、地下街モデル・内部（LOD3）の取得イメージを<<tab-4-16-23>>に示す。
+
+[[tab-4-16-22]]
+include::../../../common/sections/com_ubld_Acquire_lod3_outdoor.adoc[]
+
+[[tab-4-16-23]]
+include::../../../common/sections/com_ubld_Acquire_lod3_indoor.adoc[]
+
+[[toc4_16_01_04_02]]
+====== 地下街モデル・外部（LOD3.0）の定義
+
+地下街モデル・外部（LOD3.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-24]]
+include::../../../common/sections/com_ubld_Definition_lod30_outdoor.adoc[]
+
+[[toc4_16_01_04_03]]
+====== 地下街モデル・内部（LOD3.0）の定義
+
+地下街モデル・内部（LOD3.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-25]]
+include::../../../common/sections/com_ubld_Definition_lod30_indoor.adoc[]
+
+[[toc4_16_01_04_04]]
+====== 地下街モデル・外部（LOD3.1）の定義
+
+地下街モデル・外部（LOD3.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-26]]
+include::../../../common/sections/com_ubld_Definition_lod31_outdoor.adoc[]
+
+[[toc4_16_01_04_05]]
+====== 地下街モデル・内部（LOD3.1）の定義
+
+地下街モデル・内部（LOD3.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-27]]
+include::../../../common/sections/com_ubld_Definition_lod31_indoor.adoc[]
+
+[[toc4_16_01_04_06]]
+====== 地下街モデル・内部（LOD3.2）の定義
+
+地下街モデル・内部（LOD3.2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-16-28]]
+include::../../../common/sections/com_ubld_Definition_lod32_indoor.adoc[]
+
+[[toc4_16_01_05]]
+===== 各LODにおいて使用可能な地物型と空間属性
+
+地下街モデルの各LODにおいて使用可能な地物型と空間属性を<<tab-4-16-29>>に示す。
+
+[[tab-4-16-29]]
+include::../../../common/sections/com_ubld_SpatialAttribute.adoc[]
+
+
+[[toc4_16_02]]
+==== 地下街モデルの応用スキーマクラス図
+
+[[toc4_16_02_01]]
+===== Urban Object（i-UR）
+
+[[fig-4-16-1]]
+image::../../sources/images/EAID_723FC20D_EEAC_47b8_AF75_941EDA1040BC.png[]
+
+
+[[toc4_16_03]]
+==== 地下街モデルの応用スキーマ文書
+
+[[toc4_16_03_01]]
+===== Urban Object （i-UR）
+
+[[toc4_16_03_01_01]]
+====== UndergroundBuilding
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="UndergroundBuilding",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+その他の地物型及びデータ型については、<<toc4_02_03,建築物モデルの応用スキーマ文書>>を参照。
+
+[[toc4_16_04]]
+==== 地下街モデルで使用するコードリストと列挙型
+
+<<toc4_02_04,建築物モデルのコードリスト>>　参照。
+
+[[toc4_16_04_01]]
+===== Urban Core（i-UR）
+
+[[UndergroundBuilding_lodType.xml]]
+====== UndergroundBuilding_lodType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UndergroundBuilding_lodType.xml[template="gml_dict_template.liquid",context=dict]
+
+

@@ -1,0 +1,83 @@
+[cols="a,a,a,a"]
+.橋梁モデル・内部におけるLOD3.0及びLOD3.1の区分
+|===
+| 橋梁モデル（LOD3）に含むべき地物 | 対応するCityGMLの地物型 | LOD3.0 | LOD3.1
+
+| 橋梁
+| Bridge
+| ●
+| ●
+
+| 橋梁部分
+| BridgePart
+| 　
+| ■ +
+一つの橋梁を主題属性の異なる複数の部分に分ける場合は必須とする。 +
+横断歩道橋・ペデストリアンデッキは必須とする。
+
+| 部屋
+| BridgeRoom
+| ●
+| ●
+
+| 天井面
+| CeilingSurface
+| 　
+| ■
+
+| 内壁面
+| InteriorWallSurface
+| 　
+| ●
+
+| 床面
+| FloorSurface
+| 　
+| ●
+
+| 閉鎖面
+| ClosureSurface
+| 　
+| ■
+
+| 付属物
+| BridgeInstallation
+| 　
+| ■
+
+| 扉面
+| DoorSurface
+| 
+| 〇
+
+| 窓面
+| WindowSurface
+| 
+| 〇
+
+| 扉
+| Door
+| 〇
+| ■
+
+| 窓
+| Window
+| 〇
+| ■
+
+| 構造上不可欠な要素
+| BridgeConstructiveElement
+| ●
+| ●
+
+| 家具
+| BridgeFurniture
+| 　
+| 〇
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

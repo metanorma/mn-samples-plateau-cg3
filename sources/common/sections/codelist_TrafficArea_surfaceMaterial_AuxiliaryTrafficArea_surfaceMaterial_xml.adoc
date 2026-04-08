@@ -1,0 +1,22 @@
+[cols="6a,19a,6a,19a"]
+|===
+| ファイル名 3+| TrafficArea_surfaceMaterial.xml、AuxiliaryTrafficArea_surfaceMaterial.xml
+
+h| ファイルURL
+3+| https://www.geospatial.jp/iur/codelists/4.0/TrafficArea_surfaceMaterial.xml +
+https://www.geospatial.jp/iur/codelists/4.0/AuxiliaryTrafficArea_surfaceMaterial.xml
+
+2+^h| 大分類 2+^h| 小分類
+^h| コード ^h| 説明 ^h| コード ^h| 説明
+.4+| 1000 .4+| アスファルト舗装 2+| 　
+| 1010 | 排水性アスファルト舗装
+| 1020 | 透水性アスファルト舗装
+| 1030 | 保水性アスファルト舗装
+| 2000 3+| コンクリート舗装
+| 3000 3+| 樹脂系混合舗装
+| 4000 3+| ブロック系舗装
+| 5000 3+| 土系舗装
+| 6000 3+| 木質系舗装
+| 9000 3+| その他
+
+|===

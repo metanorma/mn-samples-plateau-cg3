@@ -1,0 +1,183 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD2.2
+|●
+|Building
+|-
+|-
+|-
+|-
+|建築物モデル・内部（LOD2）の場合は、空間属性を持たせない。
+
+|LOD2.2
+|■
+|BuildingPart
+|-
+|-
+|-
+|-
+|建築物モデル・内部（LOD2）の場合は、空間属性を持たせない。
+
+|LOD2.2
+|●
+|BuildingRoom
+|lod2Solid
+|GM_Solid
+|全て対象
+|
+* 天井面（CeilingSurface）、内壁面（InteriorWallSurface）、閉鎖面（ClosureSurface）、床面（FloorSurface）、扉面（DoorSurface）及び窓面（WindowSurface）を境界面とする立体を作成する。
+|建築確認申請書に部屋として記載されている区画を対象とする。
+
+|LOD2.2
+|●
+|CeilingSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+
+* 天井の外周を取得する。
+* 各頂点に天井の高さを与える。
+|
+
+|LOD2.2
+|●
+|InteriorWallSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 部屋（Room）を区切る内壁の角を結ぶ外周を取得する。
+* 角となる場所で区切る。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD2.2
+|●
+|FloorSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+
+* 床の外周を取得する。
+* 各頂点に床の高さを与える。
+|
+
+|LOD2.2
+|■
+|ClosureSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|境界面となる内壁面や天井面、床面はないが、建築確認申請では部屋となっている空間を区切る場合に必須とする。
+|
+
+* 他の境界面を区切る仮想的な境界線に囲まれた面を取得する。
+
+|
+
+|LOD2.2
+|●
+|BuildingInstallation
+|lod2MultiSurface
+|GM_MultiSurface
+|建築物内部に存在する付属物のうち、階段、スロープ、エスカレータ、輸送設備（エレベータ、エスカレータ、動く歩道）、柱、デッキ、ステージ、手すり、パネル、梁
+|
+* 付属物の外形（外側から見える形）を構成する面を取得する。
+* 面の各頂点に付属物の高さを与える。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD2.2
+|●
+|BuildingInstallation
+|lod2Solid
+|GM_Solid
+|建築物内部に存在する付属物のうち、階段、スロープ、エスカレータ、輸送設備（エレベータ、エスカレータ、動く歩道）、柱、デッキ、ステージ、手すり、パネル、梁
+|
+* 付属物の外形（外側から見える形）を構成する面を取得する。
+* 面の各頂点に付属物の高さを与える。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD2.2
+|●
+|DoorSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 扉の外周を取得する。
+|
+
+|LOD2.2
+|●
+|WindowSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 窓の外周を取得する。
+|
+
+|LOD2.2
+|
+|Door
+|
+|
+|
+|
+|対象外
+
+|LOD2.2
+|
+|Window
+|
+|
+|
+|
+|対象外
+
+|LOD2.2
+|
+|BuildingConstructiveElement
+|-
+|
+|
+|
+|対象外
+
+|LOD2.2
+|〇
+|BuildingFurniture
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 家具の外形（外側から見える形）を構成する面を取得する。
+* 面の各頂点に家具の高さを与える。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD2.2
+|●
+|Storey
+|-
+|-
+|-
+|-
+|空間属性を持たせない。
+
+|LOD2.2
+|〇
+|BuildingUnit
+|-
+|-
+|-
+|-
+|空間属性を持たせない。
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

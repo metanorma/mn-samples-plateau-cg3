@@ -1,0 +1,13 @@
+[cols="1a,9a",options="noheader"]
+.土地利用モデル（LOD1）の取得イメージ
+|===
+h| LOD ^h| LOD1
+h| 取得例
+^.^|
+image::../../sources/images/luse_Acquire_lod10.png[]
+
+h| 説明
+| 都市計画基礎調査の土地利用現況として作成された面に一致する。 +
+高さは0とする。
+
+|===

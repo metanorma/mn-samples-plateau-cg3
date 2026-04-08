@@ -7,16 +7,16 @@ These documents belong to Project PLATEAU by MLIT.
 `sources/`::
 source of the documents
 
-`sources/001-v5/`::
-PLATEAU Handbook #01 source, v5.
+`sources/001-cg3pre/`::
+PLATEAU Handbook #01 source, v6_draft.
 
-`sources/001-v5/iur/`::
-i-UR 3.2 code list data. Downloaded from here:
+`sources/iur/`::
+i-UR 4.0 code list data. Downloaded from here:
 https://www.chisou.go.jp/tiiki/toshisaisei/itoshisaisei/iur/index.html
 (see https://github.com/metanorma/mn-samples-plateau/issues/128)
 
-`sources/002-v5/`::
-PLATEAU Handbook #02 source, v5.
+`sources/002-cg3pre/`::
+PLATEAU Handbook #02 source, v6_draft.
 
 `reference-docs/`::
 Reference documents.
@@ -168,8 +168,8 @@ The easy way if you install locally:
 ----
 git clone https://github.com/metanorma/mn-samples-plateau/
 bundle
-bundle exec metanorma sources/001-v4/document.adoc
-# => sources/001-v4/document.{html,xml,pdf}
+bundle exec metanorma sources/001-cg3pre/document.adoc
+# => sources/001-cg3pre/document.{html,xml,pdf}
 ----
 
 === Installing Metanorma
@@ -187,12 +187,12 @@ git clone https://github.com/metanorma/mn-samples-plateau/
 
 [source,sh]
 ----
-bundle exec metanorma sources/001-v4/document.adoc # or whichever document
+bundle exec metanorma sources/001-cg3pre/document.adoc # or whichever document
 ----
 
 This command outputs the built document at:
 
-* `sources/001-v4/document.{html,pdf,xml}`
+* `sources/001-cg3pre/document.{html,pdf,xml}`
 
 === Building the full site
 
@@ -232,8 +232,8 @@ a new `index.html` file.
 
 [source,sh]
 ----
-$ bundle exec reverse_adoc -rcoradoc/reverse_adoc/plugins/plateau --split-sections 2 --external-images -o sources/001-v4/document.adoc reference-docs/plateau-document-01-v4.html
-$ bundle exec reverse_adoc -rcoradoc/reverse_adoc/plugins/plateau --split-sections 2 --external-images -o sources/002-v4/document.adoc reference-docs/plateau-document-02-v4.html
+$ bundle exec reverse_adoc -rcoradoc/reverse_adoc/plugins/plateau --split-sections 2 --external-images -o sources/001-cg3pre/document.adoc reference-docs/plateau-document-01-cg3pre.html
+$ bundle exec reverse_adoc -rcoradoc/reverse_adoc/plugins/plateau --split-sections 2 --external-images -o sources/002-cg3pre/document.adoc reference-docs/plateau-document-02-cg3pre.html
 ----
 
 Where:
@@ -275,7 +275,7 @@ Updating the files to refer to the new `.png` files:
 
 [source,sh]
 ----
-sed -i '' 's/\.webp/.webp.png/g' sources/001-v3/sections/*.adoc
+sed -i '' 's/\.webp/.webp.png/g' sources/001-cg3pre/sections/*.adoc
 ----
 
 
@@ -298,7 +298,7 @@ This example assumes:
 - You are building document PLATEAU 01.
 - You want to build *without* the `/plateaudocument/` path prefix as used in Plateau production deployment environment.
 - You use Bash shell and are in the same directory as repository root.
-- You executed the command `metanorma sources/001-v5/document.adoc` beforehand.
+- You executed the command `metanorma sources/001-cg3pre/document.adoc` beforehand.
 - You want Firelight output to be in an existing subdirectory `firelight-build-001`.
 
 First, create a config file with this command.
@@ -310,7 +310,7 @@ and can be deleted any time later.)
 cat <<'EOF' > anafero-config.json
 {
   "version": "0.1",
-  "entryPoint": "file:documents/001-v5/document.presentation.xml",
+  "entryPoint": "file:documents/001-cg3pre/document.presentation.xml",
   "storeAdapters": [
     "git+https://github.com/metanorma/firelight#main/packages/metanorma-xml-store"
   ],

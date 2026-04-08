@@ -1,0 +1,1015 @@
+[[toc4_10]]
+=== 都市計画決定情報モデルの応用スキーマ
+
+都市計画決定情報とは、都市計画図書（計画図及び計画書）に含まれる情報である。 +
+（都市計画法第14条、都市計画法施行規則第9条第2項）
+
+[[toc4_10_01]]
+==== 都市計画決定情報モデルのLOD
+
+標準製品仕様書が対象とする都市計画決定情報モデルのLODは、LOD1とする。
+
+[[toc4_10_01_01]]
+===== 都市計画決定情報モデル（LOD1）
+
+[[toc4_10_01_01_01]]
+====== 都市計画決定情報モデル（LOD1）の概要
+
+都市計画決定情報モデル（LOD1）では、都市計画の区域の形状を、面により表現する。
+
+都市計画決定情報モデル（LOD1）の取得イメージを<<tab-4-10-1>>に示す。
+
+[[tab-4-10-1]]
+include::../../../common/sections/com_URF_Acquire_lod1.adoc[]
+
+[[toc4_10_01_01_02]]
+====== 都市計画決定情報モデル（LOD1）の定義
+
+[[tab-4-10-2]]
+include::../../../common/sections/com_URF_Definition_lod10.adoc[]
+
+
+[[toc4_10_01_02]]
+===== 各LODにおいて使用可能な地物型と空間属性
+
+都市計画決定情報モデルの各LODにおいて使用可能な地物型と空間属性を<<tab-4-10-3>>に示す。
+
+[[tab-4-10-3]]
+include::../../../common/sections/com_URF_SpatialAttribute.adoc[]
+
+
+[[toc4_10_02]]
+==== 都市計画決定情報モデルの応用スキーマクラス図
+
+[[toc4_10_02_01]]
+===== 都市計画の区域とクラスとの対応
+
+[cols="3a,3a,3a,37a,37a,37a"]
+|===
+4+|  都市計画の区域 |  対応するクラス |  クラス図
+
+4+| 都市計画区域 | UrbanPlanningArea .2+| <<toc4_10_02_03>>
+4+| 準都市計画区域 | QuasiUrbanPlanningArea
+4+| 区域区分 | AreaClassification | <<toc4_10_02_04>>
+4+| 地域地区 | DistrictsAndZones .28+| <<toc4_10_02_05>>
+.27+| 3+| 用途地域 | UseDistrict
+3+| 特別用途地区 | SpecialUseDistrict
+3+| 特定用途制限地域 | SpecialUseRestrictionDistrict
+3+| 特例容積率適用地区 | ExceptionalFloorAreaRateDistrict
+3+| 高層住居誘導地区 | HighRiseResidentialAttractionDistrict
+3+| 高度地区 | HeightControlDistrict
+3+| 高度利用地区 | HighLevelUseDistrict
+3+| 特定街区 | SpecifiedBlock
+3+| 都市再生特別地区 | SpecialUrbanRenaissanceDistrict
+3+| 居住調整地域 | HousingControlArea
+3+| 居住環境向上用途誘導地区 | ResidentialEnvironmentImprovementDistrict
+3+| 特定用途誘導地区 | SpecialUseAttractionDistrict
+3+| 防火地域又は準防火地域 | FirePreventionDistrict
+3+| 特定防災街区整備地区 | SpecifiedDisasterPreventionBlockImprovementZone
+3+| 景観地区 | LandscapeZone
+3+| 風致地区 | ScenicDistrict
+3+| 駐車場整備地区 | ParkingPlaceDevelopmentZone
+3+| 臨港地区 | PortZone
+3+| 歴史的風土特別保存地区 | SpecialZoneForPreservationOfHistoricalLandscape
+3+| 第一種歴史的風土保存地区 +
+又は第二種歴史的風土保存地区
+| ZoneForPreservationOfHistoricalLandscape
+3+| 緑地保全地域 | GreenSpaceConservationDistrict
+3+| 特別緑地保全地域 | SpecialGreenSpaceConservationDistrict
+3+| 緑化地域 | TreePlantingDistrict
+3+| 流通業務地区 | DistributionBusinessZone
+3+| 生産緑地地区 | ProductiveGreenZone
+3+| 伝統的建造物群保存地区 | ConservationZoneForClustersOfTraditionalStructures
+3+| 航空機騒音障害防止地区 +
+又は航空機騒音障害防止特別地区
+| AircraftNoiseControlZone
+4+| 促進区域 | ProjectPromotionArea .5+| <<toc4_10_02_06>>
+.4+| 3+| 市街地再開発促進区域 | UrbanRedevelopmentPromotionArea
+3+| 土地区画整理促進区域 | LandReadjustmentPromotionArea
+3+| 住宅街区整備促進区域 | ResidentialBlockConstructionPromotionArea
+3+| 拠点業務市街地整備土地区画整理促進区域 | LandReadjustmentPromotionAreasForCoreBusinessUrbanDevelopment
+4+| 遊休土地転換利用促進地区 | UnusedLandUsePromotionArea | <<toc4_10_02_07>>
+4+| 被災市街地復興推進地域 | UrbanDisasterRecoveryPromotionArea | <<toc4_10_02_08>>
+4+| 都市施設 | UrbanFacility | <<toc4_10_02_09>>
+.16+| 3+| 交通施設 | TrafficFacility | <<toc4_10_02_10>>
+3+| 公共空地 | OpenSpaceForPublicUse | <<toc4_10_02_11>>
+3+| 供給施設及び処理施設 | SupplyFacility, TreatmentFacility | <<toc4_10_02_12>>
+3+| 水路 | Waterway | <<toc4_10_02_13>>
+3+| 教育文化施設 | EducationalAndCulturalFacility | <<toc4_10_02_14>>
+3+| 医療施設及び社会福祉施設 | MedicalFacility, SocialWelfareFacility | <<toc4_10_02_15>>
+3+| 市場、と畜場、火葬場 | MarketsSlaughterhousesCrematoria | <<toc4_10_02_16>>
+3+| 一団地の住宅施設 | CollectiveHousingFacilities .9+| <<toc4_10_02_09>>
+3+| 一団地の官公庁施設 | CollectiveGovernmentAndPublicOfficeFacilities
+3+| 流通業務団地 | DistributionBusinessPark
+3+| 一団地の津波防災拠点市街地形成施設 | CollectiveFacilitiesForTsunamiDisasterPrevention
+3+| 一団地の復興再生拠点市街地形成施設 | CollectiveFacilitiesForReconstructionAndRevitalization
+3+| 一団地の復興拠点市街地形成施設 | CollectiveFacilitiesForReconstruction
+3+| 一団地の都市安全確保拠点施設 | CollectiveUrbanDisasterPreventionFacilities
+3+| 政令で定める都市施設 | UrbanFacilityStipulatedByCabinetOrder
+3+| 電気通信施設 | TelecommunicationFacility
+4+| 市街地開発事業 | UrbanDevelopmentProject .9+| <<toc4_10_02_17>>
+.8+| 3+| 土地区画整理事業 | LandReadjustmentProject
+3+| 新住宅市街地開発事業 | NewHousingAndUrbanDevelopmentProject
+3+| 工業団地造成事業 | IndustrialParkDevelopmentProject
+3+| 市街地再開発事業 | UrbanRedevelopmentProject
+3+| 新都市基盤整備事業 | NewUrbanInfrastructureProject
+3+| 住宅街区整備事業 | ResidentialBlockConstructionProject
+3+| 防災街区整備事業 | DisasterPreventionBlockImprovementProject
+3+| 市街地改造事業 | UrbanRenewalProject
+4+| 市街地開発事業等の予定区域 | ScheduledAreaForUrbanDevelopmentProject .7+| <<toc4_10_02_18>>
+.6+| 3+| 新住宅市街地開発事業の予定区域 | ScheduledAreaForNewHousingAndUrbanDevelopmentProjects
+3+| 工業団地造成事業の予定区域 | ScheduledAreaForIndustrialParkDevelopmentProjects
+3+| 新都市基盤整備事業の予定区域 | ScheduledAreaForNewUrbanInfrastructureProjects
+3+| 一団地の住宅施設の予定区域 | ScheduledAreaForCollectiveHousingFacilities
+3+| 一団地の官公庁施設の予定区域 | ScheduledAreaForCollectiveGovernmentAndPublicOfficeFacilities
+3+| 流通業務団地の予定区域 | ScheduledAreaForDistributionBusinessPark
+4+| 地区計画等 | .17+| <<toc4_10_02_19>>
+.19+| 3+| 地区計画 | DistrictPlan
+.2+| 2+| 地区整備計画 | DistrictDevelopmentPlan
+| | 地区施設 | DistrictFacility
+3+| 沿道地区計画 | RoadsideDistrictPlan
+.2+| 2+| 沿道地区整備計画 | RoadsideDistrictImprovementPlan
+| | 沿道地区施設 | RoadsideDistrictFacility
+3+| 集落地区計画 | RuralDistrictPlan
+.2+| 2+| 集落地整備計画 | RuralDistrictImprovementPlan
+| | 集落施設 | RuralDistrictFacility
+3+| 歴史的風致維持向上地区計画 | HistoricSceneryMaintenanceAndImprovementDistrictPlan
+| 2+| 歴史的風致維持向上地区整備計画 | DistrictImprovementPlanForHistoricSceneryMaintenanceAndImprovementDistrict
+3+| 防災街区整備地区計画 | DisasterPreventionBlockImprovementZonePlan
+.4+| 2+| 特定建築物地区整備計画 | SpecifiedBuildingZoneImprovementPlan
+| | 特定地区防災施設 | ZonalDisasterPreventionFacility
+2+| 防災街区整備地区整備計画 | DistrictImprovementPlanForDisasterPreventionBlockImprovementZonePlan
+| | 地区防災施設 | ZonalDisasterPreventionFacility
+3+| 立地適正化計画 | .3+| <<toc4_10_02_21>>
+.2+| 2+| 都市機能誘導区域 | UrbanFunctionAttractionArea
+2+| 居住誘導区域 | ResidenceAttractionArea
+
+|===
+
+[[toc4_10_02_02]]
+===== 都市計画決定情報の概要
+
+[[fig-4-10-1]]
+image::../../sources/images/EAID_4DD3986F_26F4_44f8_90BE_2525B2868CA0.png[]
+
+[[toc4_10_02_03]]
+===== 都市計画区域、準都市計画区域
+
+[[fig-4-10-2]]
+image::../../sources/images/EAID_FCE5F49D_CA00_4991_921E_36DD35DF69B7.png[]
+
+[[toc4_10_02_04]]
+===== 区域区分
+
+[[fig-4-10-3]]
+image::../../sources/images/EAID_BCE2E85F_91E5_47bc_9464_1B33F773E97B.png[]
+
+[[toc4_10_02_05]]
+===== 地域地区
+
+[[fig-4-10-4]]
+image::../../sources/images/EAID_390D1AA0_47F7_4cab_AD86_37DDC109D432.png[]
+
+[[toc4_10_02_06]]
+===== 促進区域
+
+[[fig-4-10-5]]
+image::../../sources/images/EAID_136A4F2D_9717_4472_A09D_31EE37DDD63A.png[]
+
+[[toc4_10_02_07]]
+===== 遊休土地転換利用促進地区
+
+[[fig-4-10-6]]
+image::../../sources/images/EAID_5E4D887A_A714_450a_90C5_98700A1F042D.png[]
+
+[[toc4_10_02_08]]
+===== 被災市街地復興推進地域
+
+[[fig-4-10-7]]
+image::../../sources/images/EAID_A693ED7C_C3BE_4fe0_AAD6_08CFC296ABFD.png[]
+
+[[toc4_10_02_09]]
+===== 都市施設
+
+[[fig-4-10-8]]
+image::../../sources/images/EAID_D55E7546_C349_4e6b_81EA_8E3D830608A8.png[]
+
+[[toc4_10_02_10]]
+===== 交通施設
+
+[[fig-4-10-9]]
+image::../../sources/images/EAID_6E961CFA_B77B_4b12_BD11_9BDF18C713F4.png[]
+
+[[toc4_10_02_11]]
+===== 公共空地
+
+[[fig-4-10-10]]
+image::../../sources/images/EAID_DA5F3A73_D480_4969_AE7E_008E02457A76.png[]
+
+[[toc4_10_02_12]]
+===== 供給施設及び処理施設
+
+[[fig-4-10-11]]
+image::../../sources/images/EAID_16E78DC1_02DF_4b8a_B103_6C9F215AE566.png[]
+
+[[toc4_10_02_13]]
+===== 水路
+
+[[fig-4-10-12]]
+image::../../sources/images/EAID_C723DAC7_789E_49fe_97A4_F5906500DA1A.png[]
+
+[[toc4_10_02_14]]
+===== 教育文化施設
+
+[[fig-4-10-13]]
+image::../../sources/images/EAID_CA489CD3_BAD5_4f98_9410_A2EB81138693.png[]
+
+[[toc4_10_02_15]]
+===== 医療施設及び社会福祉施設
+
+[[fig-4-10-14]]
+image::../../sources/images/EAID_9D0B763D_29BC_4af3_B22A_91394675540D.png[]
+
+[[toc4_10_02_16]]
+===== 市場、と畜場、火葬場
+
+[[fig-4-10-15]]
+image::../../sources/images/EAID_79F3927F_283D_4a91_80D1_5C50ACAE87D3.png[]
+
+[[toc4_10_02_17]]
+===== 市街地開発事業
+
+[[fig-4-10-16]]
+image::../../sources/images/EAID_BFF92841_4BA4_48d1_AF17_F301333FE3D6.png[]
+
+[[toc4_10_02_18]]
+===== 市街地開発事業等予定区域
+
+[[fig-4-10-17]]
+image::../../sources/images/EAID_7057D441_E700_4b5e_8626_7ED4F183E549.png[]
+
+[[toc4_10_02_19]]
+===== 地区計画等
+
+[[fig-4-10-18]]
+image::../../sources/images/EAID_9B820EE3_F147_4adf_BF9E_76EBB4D20FB2.png[]
+
+[[toc4_10_02_20]]
+===== 立体的な範囲、区域界
+
+[[fig-4-10-19]]
+image::../../sources/images/EAID_00838AB5_CE40_4eb3_920E_D0B91259DD88.png[]
+
+[[toc4_10_02_21]]
+===== 立地適正化計画
+
+[[fig-4-10-20]]
+image::../../sources/images/EAID_E7B591F0_108D_4cb8_A473_2C6D261DDDD3.png[]
+
+
+[[toc4_10_03]]
+==== 都市計画決定情報モデルの応用スキーマ文書
+
+[[toc4_10_03_01]]
+===== 都市計画区域、準都市計画区域
+
+[[toc4_10_03_01_01]]
+====== UrbanPlanningArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanPlanningArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_01_02]]
+====== QuasiUrbanPlanningArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="QuasiUrbanPlanningArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_02]]
+===== 区域区分
+
+[[toc4_10_03_02_01]]
+====== AreaClassification
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="AreaClassification",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03]]
+===== 地域地区
+
+[[toc4_10_03_03_01]]
+====== DistrictsAndZones
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictsAndZones",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_02]]
+====== UseDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UseDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_03]]
+====== SpecialUseDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialUseDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_04]]
+====== SpecialUseRestrictionDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialUseRestrictionDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_05]]
+====== ExceptionalFloorAreaRateDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ExceptionalFloorAreaRateDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_06]]
+====== HighRiseResidentialAttractionDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HighRiseResidentialAttractionDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_07]]
+====== HeightControlDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HeightControlDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_08]]
+====== HighLevelUseDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HighLevelUseDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_09]]
+====== SpecifiedBlock
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecifiedBlock",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_10]]
+====== SpecialUrbanRenaissanceDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialUrbanRenaissanceDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_11]]
+====== HousingControlArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HousingControlArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_12]]
+====== ResidentialEnvironmentImprovementDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ResidentialEnvironmentImprovementDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_13]]
+====== SpecialUseAttractionDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialUseAttractionDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_14]]
+====== FirePreventionDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="FirePreventionDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_15]]
+====== SpecifiedDisasterPreventionBlockImprovementZone
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecifiedDisasterPreventionBlockImprovementZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_16]]
+====== LandscapeZone
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="LandscapeZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_17]]
+====== ScenicDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScenicDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_18]]
+====== ParkingPlaceDevelopmentZone
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ParkingPlaceDevelopmentZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_19]]
+====== PortZone
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="PortZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_20]]
+====== SpecialZoneForPreservationOfHistoricalLandscape
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialZoneForPreservationOfHistoricalLandscape",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_21]]
+====== ZoneForPreservationOfHistoricalLandscape
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ZoneForPreservationOfHistoricalLandscape",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_22]]
+====== GreenSpaceConservationDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="GreenSpaceConservationDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_23]]
+====== SpecialGreenSpaceConservationDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialGreenSpaceConservationDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_24]]
+====== TreePlantingDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="TreePlantingDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_25]]
+====== DistributionBusinessZone
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistributionBusinessZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_26]]
+====== ProductiveGreenZone
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ProductiveGreenZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_27]]
+====== ConservationZoneForClustersOfTraditionalStructures
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ConservationZoneForClustersOfTraditionalStructures",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_03_28]]
+====== AircraftNoiseControlZone
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="AircraftNoiseControlZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_04]]
+===== 促進区域
+
+[[toc4_10_03_04_01]]
+====== ProjectPromotionArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ProjectPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_04_02]]
+====== UrbanRedevelopmentPromotionArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRedevelopmentPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_04_03]]
+====== LandReadjustmentPromotionArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="LandReadjustmentPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_04_04]]
+====== ResidentialBlockConstructionPromotionArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ResidentialBlockConstructionPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_04_05]]
+====== LandReadjustmentPromotionAreasForCoreBusinessUrbanDevelopment
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="LandReadjustmentPromotionAreasForCoreBusinessUrbanDevelopment",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+
+[[toc4_10_03_05]]
+===== 遊休土地転換利用促進地区
+
+[[toc4_10_03_05_01]]
+====== UnusedLandUsePromotionArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UnusedLandUsePromotionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+
+[[toc4_10_03_06]]
+===== 被災市街地復興推進地域
+
+[[toc4_10_03_06_01]]
+====== UrbanDisasterRecoveryPromotionArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanDisasterRecoveryPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07]]
+===== 都市施設
+
+[[toc4_10_03_07_01]]
+====== UrbanFacility
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_02]]
+====== TrafficFacility
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="TrafficFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_03]]
+====== UrbanRoadAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRoadAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_04]]
+====== UrbanRapidTransitRailroadAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRapidTransitRailroadAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_05]]
+====== StructureDetails
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="StructureDetails",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_06]]
+====== ParkingPlaceAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ParkingPlaceAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_07]]
+====== VehicleTerminalAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="VehicleTerminalAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_08]]
+====== OpenSpaceForPublicUse
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="OpenSpaceForPublicUse",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_09]]
+====== ParkAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ParkAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_10]]
+====== SupplyFacility
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SupplyFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_11]]
+====== WaterWorksAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="WaterWorksAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_12]]
+====== TreatmentFacility
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="TreatmentFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_13]]
+====== SewerSystemAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SewerSystemAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_14]]
+====== Waterway
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="Waterway",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_15]]
+====== EducationalAndCulturalFacility
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="EducationalAndCulturalFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_16]]
+====== MedicalFacility
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="MedicalFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_17]]
+====== SocialWelfareFacility
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SocialWelfareFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_18]]
+====== MarketsSlaughterhousesCrematoria
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="MarketsSlaughterhousesCrematoria",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_19]]
+====== CollectiveHousingFacilities
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveHousingFacilities",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_20]]
+====== CollectiveGovernmentAndPublicOfficeFacilities
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveGovernmentAndPublicOfficeFacilities",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_21]]
+====== DistributionBusinessPark
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistributionBusinessPark",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_22]]
+====== CollectiveFacilitiesForTsunamiDisasterPrevention
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveFacilitiesForTsunamiDisasterPrevention",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_23]]
+====== CollectiveFacilitiesForReconstructionAndRevitalization
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveFacilitiesForReconstructionAndRevitalization",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_24]]
+====== CollectiveFacilitiesForReconstruction
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveFacilitiesForReconstruction",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_25]]
+====== CollectiveUrbanDisasterPreventionFacilities
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveUrbanDisasterPreventionFacilities",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_07_26]]
+====== UrbanFacilityStipulatedByCabinetOrder
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanFacilityStipulatedByCabinetOrder",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_08]]
+===== 市街地開発事業
+
+[[toc4_10_03_08_01]]
+====== UrbanDevelopmentProject
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanDevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_08_02]]
+====== LandReadjustmentProject
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="LandReadjustmentProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_08_03]]
+====== NewHousingAndUrbanDevelopmentProject
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="NewHousingAndUrbanDevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_08_04]]
+====== IndustrialParkDevelopmentProject
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="IndustrialParkDevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_08_05]]
+====== UrbanRedevelopmentProject
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRedevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_08_06]]
+====== NewUrbanInfrastructureProject
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="NewUrbanInfrastructureProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_08_07]]
+====== ResidentialBlockConstructionProject
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ResidentialBlockConstructionProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_08_08]]
+====== DisasterPreventionBlockImprovementProject
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DisasterPreventionBlockImprovementProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_08_09]]
+====== UrbanRenewalProject
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRenewalProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+
+[[toc4_10_03_09]]
+===== 市街地開発事業の予定区域
+
+[[toc4_10_03_09_01]]
+====== ScheduledAreaForUrbanDevelopmentProject
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForUrbanDevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_09_02]]
+====== ScheduledAreaForNewHousingAndUrbanDevelopmentProjects
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForNewHousingAndUrbanDevelopmentProjects",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_09_03]]
+====== ScheduledAreaForIndustrialParkDevelopmentProjects
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForIndustrialParkDevelopmentProjects",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_09_04]]
+====== ScheduledAreaForNewUrbanInfrastructureProjects
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForNewUrbanInfrastructureProjects",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_09_05]]
+====== ScheduledAreaForCollectiveHousingFacilities
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForCollectiveHousingFacilities",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_09_06]]
+====== ScheduledAreaForCollectiveGovernmentAndPublicOfficeFacilities
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForCollectiveGovernmentAndPublicOfficeFacilities",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_09_07]]
+====== ScheduledAreaForDistributionBusinessPark
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForDistributionBusinessPark",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10]]
+===== 地区計画等
+
+[[toc4_10_03_10_01]]
+====== DistrictPlan
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_02]]
+====== RoadsideDistrictPlan
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="RoadsideDistrictPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_03]]
+====== RuralDistrictPlan
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="RuralDistrictPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_04]]
+====== HistoricSceneryMaintenanceAndImprovementDistrictPlan
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HistoricSceneryMaintenanceAndImprovementDistrictPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_05]]
+====== DisasterPreventionBlockImprovementZonePlan
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DisasterPreventionBlockImprovementZonePlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_06]]
+====== DistrictDevelopmentPlan
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictDevelopmentPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_07]]
+====== SpecifiedBuildingZoneImprovementPlan
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecifiedBuildingZoneImprovementPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_08]]
+====== DistrictImprovementPlanForDisasterPreventionBlockImprovementZonePlan
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictImprovementPlanForDisasterPreventionBlockImprovementZonePlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_09]]
+====== RoadsideDistrictImprovementPlan
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="RoadsideDistrictImprovementPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_10]]
+====== RuralDistrictImprovementPlan
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="RuralDistrictImprovementPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_11]]
+====== DistrictImprovementPlanForHistoricSceneryMaintenanceAndImprovementDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictImprovementPlanForHistoricSceneryMaintenanceAndImprovementDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_12]]
+====== PromotionDistrict
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="PromotionDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_13]]
+====== District
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="District",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_14]]
+====== DistrictFacility
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_10_15]]
+====== ZonalDisasterPreventionFacility
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ZonalDisasterPreventionFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_11]]
+===== 立体的な範囲
+
+[[toc4_10_03_11_01]]
+====== ThreeDimensionalExtent
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ThreeDimensionalExtent",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_12]]
+===== 区域の境界
+
+[[toc4_10_03_12_01]]
+====== Boundary
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="Boundary",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_13]]
+===== 立地適正化計画
+
+[[toc4_10_03_13_01]]
+====== UrbanFunctionAttractionArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanFunctionAttractionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_13_02]]
+====== ResidenceAttractionArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ResidenceAttractionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_10_03_14]]
+===== データ品質属性
+
+// 引用リンク スキーマ文書　データ品質属性
+include::../../../common/sections/link_schema_DateQuality.adoc[]
+
+
+[[toc4_10_04]]
+==== 都市計画決定情報モデルで使用するコードリストと列挙型
+
+[[toc4_10_04_01]]
+===== Urban Function（i-UR）
+
+[[Common_urbanPlanType.xml]]
+====== Common_urbanPlanType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_urbanPlanType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Common_areaClassificationType.xml]]
+====== Common_areaClassificationType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_areaClassificationType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Common_districtsAndZonesType.xml]]
+====== Common_districtsAndZonesType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_districtsAndZonesType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Common_validType.xml]]
+====== Common_validType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_validType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Common_availabilityType.xml]]
+====== Common_availabilityType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_availabilityType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[SpecialUseDistrict_usage.xml]]
+====== SpecialUseDistrict_usage.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/SpecialUseDistrict_usage.xml[template="gml_dict_template.liquid",context=dict]
+
+[[HeightControlDistrict_usage.xml]]
+====== HeightControlDistrict_usage.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/HeightControlDistrict_usage.xml[template="gml_dict_template.liquid",context=dict]
+
+[[FirePreventionDistrict_usage.xml]]
+====== FirePreventionDistrict_usage.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/FirePreventionDistrict_usage.xml[template="gml_dict_template.liquid",context=dict]
+
+[[ScenicDistrict_usage.xml]]
+====== ScenicDistrict_usage.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ScenicDistrict_usage.xml[template="gml_dict_template.liquid",context=dict]
+
+[[PortZone_usage.xml]]
+====== PortZone_usage.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PortZone_usage.xml[template="gml_dict_template.liquid",context=dict]
+
+[[SpecialGreenSpaceConservationDistrict_requirement.xml]]
+====== SpecialGreenSpaceConservationDistrict_requirement.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/SpecialGreenSpaceConservationDistrict_requirement.xml[template="gml_dict_template.liquid",context=dict]
+
+[[ProjectPromotionArea_function.xml]]
+====== ProjectPromotionArea_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ProjectPromotionArea_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[UrbanRoadAttribute_routeTypeNumber.xml]]
+====== UrbanRoadAttribute_routeTypeNumber.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UrbanRoadAttribute_routeTypeNumber.xml[template="gml_dict_template.liquid",context=dict]
+
+[[UrbanRoadAttribute_routeSizeNumber.xml]]
+====== UrbanRoadAttribute_routeSizeNumber.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UrbanRoadAttribute_routeSizeNumber.xml[template="gml_dict_template.liquid",context=dict]
+
+[[UrbanRoadAttribute_roadType.xml]]
+====== UrbanRoadAttribute_roadType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UrbanRoadAttribute_roadType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[TrafficFacility_trafficFacilityStructureType.xml]]
+====== TrafficFacility_trafficFacilityStructureType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TrafficFacility_trafficFacilityStructureType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[TrafficFacility_trafficFacilityCrossingType.xml]]
+====== TrafficFacility_trafficFacilityCrossingType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TrafficFacility_trafficFacilityCrossingType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[VehicleTerminalAttribute_terminalType.xml]]
+====== VehicleTerminalAttribute_terminalType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/VehicleTerminalAttribute_terminalType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[ParkAttribute_parkTypeNumber.xml]]
+====== ParkAttribute_parkTypeNumber.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ParkAttribute_parkTypeNumber.xml[template="gml_dict_template.liquid",context=dict]
+
+[[ParkAttribute_parkSizeNumber.xml]]
+====== ParkAttribute_parkSizeNumber.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ParkAttribute_parkSizeNumber.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Waterway_structure.xml]]
+====== Waterway_structure.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Waterway_structure.xml[template="gml_dict_template.liquid",context=dict]
+
+[[SewerSystemAttribute_systemType.xml]]
+====== SewerSystemAttribute_systemType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/SewerSystemAttribute_systemType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[UrbanRedevelopmentProject_usage.xml]]
+====== UrbanRedevelopmentProject_usage.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UrbanRedevelopmentProject_usage.xml[template="gml_dict_template.liquid",context=dict]
+
+[[UrbanDevelopmentProject_function.xml]]
+====== UrbanDevelopmentProject_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UrbanDevelopmentProject_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[ScheduledAreaForUrbanDevelopment_function.xml]]
+====== ScheduledAreaForUrbanDevelopment_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ScheduledAreaForUrbanDevelopment_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[DistrictPlan_function.xml]]
+====== DistrictPlan_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/DistrictPlan_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[DistrictDevelopmentPlan_function.xml]]
+====== DistrictDevelopmentPlan_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/DistrictDevelopmentPlan_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[ZonalDisasterPreventionFacility_facilityType.xml]]
+====== ZonalDisasterPreventionFacility_facilityType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ZonalDisasterPreventionFacility_facilityType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Common_districtFacilityType.xml]]
+====== Common_districtFacilityType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_districtFacilityType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[District_function.xml]]
+====== District_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/District_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[PromotionArea_function.xml]]
+====== PromotionArea_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PromotionArea_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Boundary_function.xml]]
+====== Boundary_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Boundary_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[UrbanPlan_areaType.xml]]
+====== UrbanPlan_areaType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UrbanPlan_areaType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[UrbanFacility_function.xml]]
+====== UrbanFacility_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UrbanFacility_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[toc4_10_04_02]]
+===== Urban Core（i-UR）
+
+====== DataQualityAttribute_geometrySrcDesc.xml
+
+<<DataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_thematicSrcDesc.xml
+
+<<DataQualityAttribute_thematicSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_appearanceSrcDesc.xml
+
+<<DataQualityAttribute_appearanceSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_srcScale.xml
+
+<<PublicSurveyDataQualityAttribute_srcScale.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
+
+<<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+

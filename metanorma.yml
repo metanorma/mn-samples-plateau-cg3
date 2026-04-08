@@ -2,8 +2,8 @@
 metanorma:
   source:
     files:
-      - sources/001-v5/document.adoc
-      - sources/002-v5/document.adoc
+      - sources/001-cg3pre/document.adoc
+      - sources/002-cg3pre/document.adoc
 
   collection:
     name: Project PLATEAU by MLIT

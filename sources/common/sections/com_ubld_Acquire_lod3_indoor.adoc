@@ -1,0 +1,23 @@
+[cols="1a,3a,3a,3a",options="noheader"]
+.地下街モデル・内部（LOD3）の取得イメージ
+|===
+h| LOD ^h| LOD3.0 ^h| LOD3.1 ^h| LOD3.2
+h| 取得例
+^.^|
+image::../../sources/images/ubld_Acquire_lod30_in.png[]
+^.^|
+image::../../sources/images/ubld_Acquire_lod31_in.png[]
+^.^|
+image::../../sources/images/ubld_Acquire_lod32_in.png[]
+
+h| 説明
+| 地下街の内部は、部屋（BuildingRoom）に区分し、各部屋の形状を立体として表現する。また、部屋の立体は天井面、内壁面、閉鎖面、床面、扉面及び窓面に相当する境界により構成される。 +
+なお、立体を構成する面は境界面に分割又は区分しない。 +
+また、窓及び扉についても境界面としてではなく、部材としてそれぞれWindow及びDoorにより作成する。
+ただし、建築部材（BuildingConstructiveElement）は、内部・外部の区分がないため、内部LODでは表現しない。
+| LOD3.0では部屋を構成する面を境界面に分割又は区分しないのに対し、LOD3.1では、立体を構成する面の全部又は一部を境界面に分割し、区分することができる。 +
+また、窓及び扉についても窓面（WindowSurface）、扉面（DoorSurface）によって境界面に区分することができる。
+さらに、内部に存在する付属物（BuildingInstallation）、内部に存在する家具（BuildingFurniture）を作成することができる。
+| LOD3.2では内部に存在する付属物（BridgeInstallation）の作成が必須となる。
+
+|===

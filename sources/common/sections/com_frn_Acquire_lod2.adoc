@@ -1,0 +1,46 @@
+[cols="1a,3a,3a",options="noheader"]
+.都市設備モデル（LOD2）の取得イメージ
+|===
+h| LOD 2+^h| LOD2.0
+h| 取得例
+^.^|
+image::../../sources/images/frn_Acquire_lod20_01.png[width="200"]
+^.^|
+image::../../sources/images/frn_Acquire_lod20_02.png[width="200"]
+
+h| 説明
+| 都市設備の主要な部分について、上方から見た外周の形状が変化する高さでの各外周を取得し、それぞれの外周の頂点をつないだ立体を作成する。
+| 都市設備の主要な部分の外周を取得する。外周を構成する各頂点に、路面等この都市設備が設置されている地物の高さを与える。
+
+h| LOD 2+^h| LOD2.1
+
+h| 取得例
+^.^|
+image::../../sources/images/frn_Acquire_lod21_01.png[width="200"]
+^.^|
+image::../../sources/images/frn_Acquire_lod21_02.png[width="150"]
+
+h| 説明
+| 都市設備の外周を取得する。 +
+その形状はLOD2よりも詳細化される。 +
+外周を構成する各頂点に、路面等この都市設備が設置されている地物の高さを与える。
+| 都市設備の主要な部分について、それぞれの外形を構成する特徴点 footnoteblock:[fn_cross_section] により作成した立体。 +
+主要な部分同士の接続部は表現不要とする。
+
+h| LOD 2+^h| LOD2.2
+
+h| 取得例
+2+^.^|
+image::../../sources/images/frn_Acquire_lod22.png[width="150"]
+
+h| 説明
+2+| 都市設備の主要な部分について、それぞれの外形を構成する特徴点 footnoteblock:[fn_cross_section] により作成した立体。 +
+主要な部分同士の接続部を表現する。
+
+|===
+
+[[fn_cross_section]]
+[NOTE]
+--
+一定高さごとに横断面を作成し、この頂点を結び外形を構成する。
+--

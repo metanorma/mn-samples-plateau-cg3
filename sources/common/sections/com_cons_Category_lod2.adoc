@@ -1,0 +1,78 @@
+[cols="a,a,a,a"]
+.その他の構造物モデルにおけるLOD2.0及びLOD2.1の区分
+|===
+| その他の構造物モデル（LOD2）に含むべき地物 | 対応するCityGMLの地物型 | LOD2.0 | LOD2.1
+
+| その他の構造物
+| OtherConstruction
+| ●
+| ●
+
+| 屋根面
+| RoofSurface
+| ●
+| ●
+
+| 外壁面 
+| WallSurface 
+| ●
+| ●
+
+| 底面
+| GroundSurface
+| ●
+| ●
+
+| 屋外床面
+| OuterFloorSurface
+| 　
+| 〇
+
+| 屋外天井面
+| OuterCeilingSurface
+| 　
+| 〇
+
+| 閉鎖面
+| ClosureSurface
+| ■ +
+行政界等で仮想的に構造物を区切る場合に必須とする。
+| ■ +
+行政界等で仮想的に構造物を区切る場合に必須とする。
+
+| その他の構造物付属物
+| OtherConstructionInstallation
+| 　
+| 〇
+
+| 扉面
+| DoorSurface
+| 　
+| 〇
+
+| 窓面
+| WindowSurface
+| 　
+| 〇
+
+| 扉
+| Door
+| 　
+| 〇
+
+| 窓
+| Window
+| 　
+| 〇
+
+| 構造上不可欠な要素
+| OtherConstructiveElement
+| 　
+| 　
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

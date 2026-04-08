@@ -1,0 +1,33 @@
+[cols="4a,9a,9a,9a,9a",options="noheader"]
+.地下埋設物モデル・内部（LOD3）の取得イメージ
+|===
+h| LOD 4+^h| LOD3
+h| 取得例
+2+^.^|
+image::../../sources/images/unf_Acquire_lod30_in_01.png[width="150"]
+2+^.^|
+image::../../sources/images/unf_Acquire_lod30_in_02.png[width="150"]
+
+h| 説明
+2+| 管路の内空を構成する面を取得する。
+2+| ケーブルの内側を構成する面を取得する。
+
+h| LOD 4+^h| LOD3
+h| 取得例
+^.^|
+image::../../sources/images/unf_Acquire_lod30_in_03.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod30_in_04.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod30_in_05.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod30_in_06.png[]
+
+h| 説明
+| 構造物の内側を構成する面を取得する。
+| 設備の内側を構成する面を取得する。
+| マンホールの内部を構成する面を取得する。
+| ハンドホールの内部を構成する面を取得する。
+
+
+|===

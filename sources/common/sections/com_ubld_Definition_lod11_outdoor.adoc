@@ -1,0 +1,139 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD1.1
+|●
+|UndergroundBuilding
+|lod1Solid
+|GM_Solid
+|
+|
+* 地下街の上方からの正射影の外周を取得し、地上から一律の高さで下向きに押し出した立体を作成する。
+|
+
+|LOD1.1
+|〇
+|RoofSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 地下街の正射影の外周を取得し、上向き面を屋根面（RoofSurface）とする。
+* 外周を構成する各頂点に、地表の高さを与える。
+|地表の高さは、地下街の上からの正射影の外周と地表面との交線の最下部点の高さ（最も低い標高）とする。
+
+|LOD1.1
+|〇
+|WallSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 外壁の正射影の外周を取得する。
+* 外周を構成する各頂点は底面の高さ又は屋根面の高さのいずれかの高さとする。
+|
+
+|LOD1.1
+|〇
+|GroundSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 地下街の上方からの正射影の外周を取得する。
+* 外周を構成する各頂点に、地下街の最下端の高さを与える。
+|
+
+|LOD1.1
+|
+|OuterFloorSurface
+|
+|
+|
+|
+|対象外
+
+|LOD1.1
+|
+|OuterCeilingSurface
+|
+|
+|
+|
+|対象外
+
+|LOD1.1
+|〇
+|ClosureSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 底面（GroundSurface）、屋根面（RoofSurface）及び外壁面（WallSurface）を区切る仮想的な境界線に囲まれた水平面又は垂直面を取得する。
+* 水平面として取得する場合、底面の高さ又は屋根面の高さのいずれか一方の一律の高さとする。
+* 垂直面として取得する場合、各頂点は底面の高さ又は屋根面の高さのいずれかの高さとする。
+|
+
+|LOD1.1
+|
+|BuildingInstallation
+|
+|
+|
+|
+|対象外
+
+|LOD1.1
+|〇
+|DoorSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 扉の正射影の外周を取得する。
+|
+
+|LOD1.1
+|〇
+|WindowSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 窓の正射影の外周を取得する。
+|
+
+|LOD1.1
+|
+|Door
+|
+|
+|
+|
+|対象外
+
+|LOD1.1
+|
+|Window
+|
+|
+|
+|
+|対象外
+
+|LOD1.1
+|
+|BuildingConstructiveElement
+|
+|
+|
+|
+|対象外
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

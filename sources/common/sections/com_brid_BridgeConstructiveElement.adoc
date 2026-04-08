@@ -1,0 +1,34 @@
+[cols="a,a"]
+.BridgeConstructiveElementとして取得する部材の一覧
+|===
+| 部材名 | 部材イメージ
+
+| トラス
+|
+image::../../sources/images/brid_ConstructiveElement_01.png[width="200"]
+
+| アーチ
+|
+image::../../sources/images/brid_ConstructiveElement_02.png[width="200"]
+
+| パイロン
+|
+image::../../sources/images/brid_ConstructiveElement_03.png[width="200"]
+
+| 吊材
+|
+image::../../sources/images/brid_ConstructiveElement_04.png[width="200"]
+
+| ケーブル
+|
+image::../../sources/images/brid_ConstructiveElement_05.png[width="200"]
+
+| 橋脚
+|
+image::../../sources/images/brid_ConstructiveElement_06.png[width="200"]
+
+| 橋台
+|
+image::../../sources/images/brid_ConstructiveElement_07.png[width="200"]
+
+|===

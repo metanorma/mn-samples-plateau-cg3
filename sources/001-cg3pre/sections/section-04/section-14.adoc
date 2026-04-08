@@ -1,0 +1,297 @@
+[[toc4_14]]
+=== 都市設備モデルの応用スキーマ
+
+都市設備とは、都市の屋外（道路、住宅街、広場、造成地等）に設置されている、移動しない小規模な設備である（例：街路灯、道路標識、交通信号機、花壇、広告板、ベンチ、境界杭、バス停）。
+
+[.source]
+<<citygml_30_encoding>>
+
+
+[[toc4_14_01]]
+==== 都市設備モデルのLOD
+
+標準製品仕様書が対象とする都市設備モデルのLODは、LOD0からLOD3までとする。
+
+
+[[toc4_14_01_01]]
+===== 都市設備モデル（LOD0）
+
+[[toc4_14_01_01_01]]
+====== 都市設備モデル（LOD0）の概要
+
+都市設備モデル（LOD0）では、都市設備の形状を面により表現する。 +
+ただし、数値地形図との互換性を保つ必要がある場合は、公共測量標準図式に従った<<toc4_25_01_01,公共測量標準図式のためのLOD0の定義>>を採用できる。
+
+都市設備モデル（LOD0）の取得イメージを<<tab-4-14-1>>に示す。
+
+//都市設備モデル（LOD0）の取得イメージ
+[[tab-4-14-1]]
+include::../../../common/sections/com_frn_Acquire_lod0.adoc[]
+
+[[toc4_14_01_01_02]]
+====== 都市設備モデル（LOD0）の定義
+
+都市設備モデル（LOD0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-14-2]]
+include::../../../common/sections/com_frn_Definition_lod00.adoc[]
+
+
+[[toc4_14_01_02]]
+===== 都市設備モデル（LOD1）
+
+[[toc4_14_01_02_01]]
+====== 都市設備モデル（LOD1）の概要
+
+都市設備モデル（LOD1）では、都市設備の形状を、立体又は面により表現する。
+
+都市設備モデル（LOD1）の取得イメージを<<tab-4-14-3>>に示す。
+
+//都市設備モデル（LOD1）の取得イメージ
+[[tab-4-14-3]]
+include::../../../common/sections/com_frn_Acquire_lod1.adoc[]
+
+[[toc4_14_01_02_02]]
+====== 都市設備モデル（LOD1）の定義
+
+都市設備モデル（LOD1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-14-4]]
+include::../../../common/sections/com_frn_Definition_lod10.adoc[]
+
+
+[[toc4_14_01_03]]
+===== 都市設備モデル（LOD2）
+
+[[toc4_14_01_03_01]]
+====== 都市設備モデル（LOD2）の概要
+
+都市設備モデル（LOD2）では、都市設備の形状を、面の集まり又は立体により表現する。 +
+なお、都市設備の形状の詳細度により、LOD2.0、LOD2.1及びLOD2.2に区分する。 +
+LOD2.0は航空写真等上空から取得したデータの利用を前提とした区分であり、上面の形状を再現する。LOD2.1とLOD2.2は接続部の形状の再現の程度により細分する。 +
+都市設備モデル（LOD2）の取得イメージを<<tab-4-14-5>>に示す。
+
+//都市設備モデル（LOD2）の取得イメージ
+[[tab-4-14-5]]
+include::../../../common/sections/com_frn_Acquire_lod2.adoc[]
+
+[[toc4_14_01_03_02]]
+====== 都市設備モデル（LOD2.0）の定義
+
+都市設備モデル（LOD2.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-14-6]]
+include::../../../common/sections/com_frn_Definition_lod20.adoc[]
+
+[[toc4_14_01_03_03]]
+====== 都市設備モデル（LOD2.1）の定義
+
+都市設備モデル（LOD2.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-14-7]]
+include::../../../common/sections/com_frn_Definition_lod21.adoc[]
+
+[[toc4_14_01_03_04]]
+====== 都市設備モデル（LOD2.2）の定義
+
+都市設備モデル（LOD2.2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-14-8]]
+include::../../../common/sections/com_frn_Definition_lod22.adoc[]
+
+
+[[toc4_14_01_04]]
+===== 都市設備モデル（LOD3）
+
+[[toc4_14_01_04_01]]
+====== 都市設備モデル（LOD3）の概要
+
+都市設備モデル（LOD3）では、都市設備の形状を面の集まりとして表現する。都市設備モデル（LOD3）は、三次元モデルデータからの変換を前提とする。
+
+都市設備モデル（LOD3）の取得イメージを<<tab-4-14-9>>に示す。
+
+//都市設備モデル（LOD3）の取得イメージ
+[[tab-4-14-9]]
+include::../../../common/sections/com_frn_Acquire_lod3.adoc[]
+
+[[toc4_14_01_04_02]]
+====== 都市設備モデル（LOD3）の定義
+
+都市設備モデル（LOD3）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-14-10]]
+include::../../../common/sections/com_frn_Definition_lod30.adoc[]
+
+
+[[toc4_14_01_05]]
+===== 各LODにおいて使用可能な地物型と空間属性
+
+都市設備の各LODにおいて使用可能な地物型と空間属性を<<tab-4-14-11>>に示す。
+
+//都市設備モデルの記述に使用する地物型と空間属性
+[[tab-4-14-11]]
+include::../../../common/sections/com_frn_SpatialAttribute.adoc[]
+
+
+
+[[toc4_14_02]]
+==== 都市設備モデルの応用スキーマクラス図
+
+[[toc4_14_02_01]]
+===== CityFurniture（CityGML）
+
+[[fig-4-14-1]]
+image::../../sources/images/EAID_31DC5280_C05F_4ed9_AE52_23879253BE57.png[]
+
+[[toc4_14_02_02]]
+===== Urban Object（i-UR）
+
+[[fig-4-14-2]]
+image::../../sources/images/EAID_65CDF03F_158E_4d63_86FA_EC92B142FD71.png[]
+
+[[toc4_14_03]]
+==== 都市設備モデルの応用スキーマ文書
+
+[[toc4_14_03_01]]
+===== CityFurniture（CityGML）
+
+[[toc4_14_03_01_01]]
+====== CityFurniture
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="CityFurniture",name="CityFurniture",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_14_03_02]]
+===== Urban Object（i-UR）
+
+[[toc4_14_03_02_01]]
+====== CityFurnitureDetailAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="CityFurnitureDetailAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+別表：facilityTypeの定義域
+
+[[tab-4-14-12]]
+[cols="1a,4a"]
+|===
+| functionの値 | facilityTypeの定義域
+
+| 区画線 | 歩行者横断指導線、車道幅員の変更、路上障害物の接近、導流帯、路上駐車場
+| 横断歩道 | 横断歩道、斜め横断可、自転車横断帯
+| 停止線 | 停止線、二段停止線
+| 指示標示 | 右側通行、進行方向、中央線、車線境界線、安全地帯、安全地帯又は路上障害物に接近、導流帯、路面電車停留場、横断歩道又は自転車横断帯あり、前方優先道路
+| 規制標示 | 転回禁止、追越しのための右側部分はみ出し通行禁止、進路変更禁止、駐停車禁止、駐車禁止、最高速度、立ち入り禁止部分、停止禁止部分、路側帯、駐停車禁止路側帯、歩行者用路側帯、車両通行帯、優先本線車道、車両通行区分、特定の種類の車両の通行区分、牽引自動車の高速自動車国道通行区分、専用通行帯、路線バス優先通行帯、牽引自動車の自動車専用第一通行帯通行指定区間、進行方向別通行区分、右左折の方法、平行駐車、直角駐車、斜め駐車、普通自動車の歩道通行部分、普通自動車の交差点進入禁止、終わり
+| 柵・壁 | ビーム型防護柵、ガードレール、ガードパイプ、ボックスビーム、オートガード、ガードケーブル、コンクリート製壁型防護柵、転落（横断）防止柵、フェンス、立ち入り防止柵、落石防護柵、防雪柵、雪崩発生予防柵、車止めポスト、車止めポール、遮光フェンス、防砂柵、遮音壁、駒止
+| 案内標識 | 市町村、都府県、入口の方向、入口の予告、方面・方向及び距離、方面及び距離、方面及び車線、方面及び方向の予告、方面及び方向、方面、方向及び道路の通称名の予告、方面、方向及び道路の通称名、出口の予告、方面及び出口の予告、方面、車線及び出口の予告、方面及び出口、出口、著名地点、主要地点、料金徴収所、サービス・エリアの予告、サービス・エリア、非常電話、待避所、非常駐車帯、駐車場、登坂車線、国道番号、都道府県番号、総重量限定緩和指定道路、道路の通称名、まわり道
+| 警戒標識 | 十字道路交差点あり、ト形道路交差点あり、T形道路交差点あり、Y形道路交差点あり、ロータリーあり、右（又は左）方屈曲あり、右（又は左）方屈折あり、右（又は左）背向屈曲あり、右（又は左）背向屈折あり、右（又は左）つづら折りあり、踏切あり、学校、幼稚園、保育所等あり、信号機あり、すべりやすい、落石のおそれあり、路面凹凸あり、合流交通あり、車線数減少、幅員減少、二方向交通、上り急勾配あり、下り急勾配あり、道路工事中、横風注意、動物が飛び出すおそれあり、その他の危険
+| 規制標識 | 通行止め、車両通行止め、車両進入禁止、二輪の自動車以外の自動車通行止め、大型貨物自動車等通行止め、特定の最大積載量以上の貨物自動車等通行止め、二輪の自動車原動機付自転車通行止め、自転車以外の軽車両通行止め、自転車通行止め、車両（組合せ）通行止め、指定方向外進行禁止、車両横断禁止、転回禁止、追越しのための右側部分はみ出し通行禁止、追越し禁止、駐停車禁止、駐車禁止、駐車余地、時間制限駐車区間、危険物積載車両通行止め、重量制限、高さ制限、最大幅、最高速度、特定の種類の車両の最高速度、最低速度、自動車専用、自転車専用、自転車及び歩行者専用、歩行者専用、一方通行、車両通行区分、特定の種類の車両の通行区分、牽引自動車の高速自動車国道通行区分、専用通行帯、路線バス等優先通行帯、牽引自動車の自動車専用道路第一通行帯通行指定区間、進行方向別通行区分、原動機付自転車の右折方法（二段階）、原動機付自転車の右折方法（小回り）、警笛鳴らせ、警笛区間、徐行、前方優先道路、一時停止、前方優先道路・一時停止、歩行者通行止め、歩行者横断禁止
+| 指示標識 | 並進可、軌道敷内通行可、駐車可、停車可、優先道路、中央線、停止線、横断歩道、自転車横断帯、横断歩道・自転車横断帯、安全地帯、規制予告
+| 補助標識 | 距離・区域、日・時間、車両の種類、駐車余地、始まり、区間内、区域内、終わり、通学路、追越し禁止、前方優先道路、踏切注意、横風注意、動物注意、注意、注意事項、規制理由、方向、地名、始点、終点
+| 視線誘導標 | 反射式視線誘導標、自光式視線誘導標
+| 照明施設 | 照明灯、防犯灯
+| 道路情報管理施設 | CCTV、車両感知機、車両諸元計測装置、振動計、騒音計、大気汚染自動計測装置、非常電話、情報ターミナル、路側放送装置、非常警報装置、道路交通遮断施設、情報コンセント、ビーコン、テレメータ、路側無線装置、火災報知器
+| 災害検知器 | 雪崩検知器、地滑り検知器、地震計測装置、落石検知器
+| 気象観測装置 | 降水を検知する施設、雨量を計測する施設、降雨強度を計測する施設、降雪を検知する施設、降雪強度を計測する施設、降雪深を計測する施設、気温を計測する施設、路温を計測する施設、路上水分を計測する施設、湿度を計測する施設、路面凍結を検知する施設、路面冠水を検知する施設、透過率計、風向・風速計、吹流し、波浪計、越波計、検潮器（潮位計）
+| 道路情報板 | A型、B型、C型、HL型
+| 電柱 | 有線柱、電話柱、電力柱
+| 管理用地上施設 | トランス、換気口
+| マンホール | マンホール（未分類）、マンホール（共同溝）、マンホール（ガス）、マンホール（電話）、マンホール（電気）、マンホール（上水）、マンホール（下水）
+| 融雪施設 | 消雪パイプ、電熱融雪施設、温水融雪
+| 側溝 | L型側溝、U型側溝蓋有、U型側溝蓋無、街渠、アスファルトコンクリートカーブ、流雪溝
+| 消火栓 | 消火栓、消火栓（立型）
+| 輸送管 | 輸送管（地上）、輸送管（地下）
+
+|===
+
+[.source]
+<<nilim_kiban_dps>>
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+
+[[toc4_14_03_02_02]]
+====== CityFurnitureExtendedGeometry
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="CityFurnitureExtendedGeometry",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_14_03_03]]
+===== 施設管理のための拡張属性
+
+// 引用リンク スキーマ文書　施設管理のための拡張属性
+include::../../../common/sections/link_schema_Facility.adoc[]
+
+[[toc4_14_03_04]]
+===== データ品質属性
+
+// 引用リンク スキーマ文書　データ品質属性
+include::../../../common/sections/link_schema_DateQuality.adoc[]
+
+[[toc4_14_03_05]]
+===== 数値地形図のための拡張属性
+
+// 引用リンク スキーマ文書　数値地形図のための拡張属性
+include::../../../common/sections/link_schema_Dm.adoc[]
+
+
+[[toc4_14_04]]
+==== 都市設備モデルで使用するコードリストと列挙型
+
+[[toc4_14_04_01]]
+===== CityFurniture（CityGML）
+
+[[CityFurniture_class.xml]]
+====== CityFurniture_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/CityFurniture_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<citygml_20,annex="C.4">>
+
+[[CityFurniture_function.xml]]
+====== CityFurniture_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/CityFurniture_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<nilim_kiban_dps>>
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+
+[[toc4_14_04_02]]
+===== Urban Object（i-UR）
+
+[[CityFurnitureDetailAttribute_facilityType.xml]]
+====== CityFurnitureDetailAttribute_facilityType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/CityFurnitureDetailAttribute_facilityType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[toc4_14_04_03]]
+===== Urban Core（i-UR）
+
+[[CityFurniture_lodType.xml]]
+====== CityFurniture_lodType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/CityFurniture_lodType.xml[template="gml_dict_template.liquid",context=dict]
+
+====== DataQualityAttribute_geometrySrcDesc.xml
+
+<<DataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_thematicSrcDesc.xml
+
+<<DataQualityAttribute_thematicSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_appearanceSrcDesc.xml
+
+<<DataQualityAttribute_appearanceSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_srcScale.xml
+
+<<PublicSurveyDataQualityAttribute_srcScale.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
+
+<<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+
+

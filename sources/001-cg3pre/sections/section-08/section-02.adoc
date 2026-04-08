@@ -1,0 +1,8 @@
+[[toc8_02]]
+=== メタデータの記載項目
+
+メタデータの記載項目を<<tab-8-1>>に示す。
+
+[[tab-8-1]]
+include::../../../common/sections/com_Metadata_Item.adoc[]
+

@@ -1,0 +1,17 @@
+[cols="1a,3a,3a",options="noheader"]
+.建築物モデル・外部（LOD1）の取得イメージ
+|===
+h| LOD ^h| LOD1.0 ^h| LOD1.1
+h| 取得例
+^.^| 
+image::../../sources/images/bldg_Acquire_lod10_out.png[]
+^.^| 
+image::../../sources/images/bldg_Acquire_lod11_out.png[]
+
+h| 説明
+| LOD0の面を一律の高さで上向きに押し出した立体として取得する。
+| LOD1.0の立体に加え、立体を構成する境界面を地物に区分する。 +
+取得例の場合は、外壁面、屋根面及び扉面に区分している。
+
+|===
+

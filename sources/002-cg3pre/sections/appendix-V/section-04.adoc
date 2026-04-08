@@ -1,0 +1,143 @@
+[[tocV_04]]
+=== 時系列データ連携のための拡張プロファイル（Dynamizer）
+
+[[tocV_04_01]]
+==== Dynamizerモデル
+
+都市オブジェクトの属性値が時間とともに変化することを表現する際には、Dynamizerモジュールを使用する。
+
+Dynamizerは、センサー等から取得される時系列データを入力として、都市オブジェクトがもつ特定の属性の静的な値を、動的（時間依存）な値で上書きするためのオブジェクトである。
+
+なお、Dynamizerは、短い時間間隔で変化する観測値（温度、混雑度、電力等）を都市オブジェクトの属性として扱う用途を想定しており、3D都市モデルそのものの「版（バージョン）」の遷移を表現するVersioningモジュールとは目的が異なる。
+
+<<fig-V-10>>は、標準製品仕様書に示すDynamizerモジュールのUMLクラス図である。
+
+[[fig-V-10]]
+.DynamizerモジュールUMLクラス図
+image::../../sources/images/EAID_74DB2087_E1FC_42a7_A349_2D89BED649A5.png[]
+
+[[tocV_04_02]]
+==== Dynamizerの記述
+
+Dynamizerモデルにより記述される時系列データ連携の情報は、対象とする都市オブジェクトに関連付けて記述する。Dynamizerのgml:idはdyn_``[UUID]``とする。
+
+Dynamizerは、センサーとの接続情報又は時系列データのいずれかをもつ。時系列データは、外部ファイル参照又はインライン記述のいずれかにより表現できる。
+
+[source,xml]
+.Dynamizerの記述例（センサーとの接続情報）
+----
+<dyn:Dynamizer gml:id="dyn_[UUID]">
+  <dyn:attributeRef>[対象属性の参照（XPath等）]</dyn:attributeRef>
+  <dyn:startTime>[適用開始時刻]</dyn:startTime>
+  <dyn:endTime>[適用終了時刻]</dyn:endTime>
+  <dyn:sensorConnection>
+    <dyn:SensorConnection>
+      <dyn:connectionType>[接続種別]</dyn:connectionType>
+      <dyn:observationProperty>[観測対象（属性名等）]</dyn:observationProperty>
+      <dyn:uom>[単位（任意）]</dyn:uom>
+      <dyn:baseURL>[センサーAPIのURL（任意）]</dyn:baseURL>
+      <dyn:linkToObservation>[観測要求URL（任意）]</dyn:linkToObservation>
+      <dyn:linkToSensorDescription>[センサー記述URL（任意）]</dyn:linkToSensorDescription>
+    </dyn:SensorConnection>
+  </dyn:sensorConnection>
+</dyn:Dynamizer>
+----
+
+
+[[tocV_04_02_01]]
+===== 記述上の留意事項（センサーとの接続情報）
+
+* dyn:attributeRefは、上書き対象となる属性（出力先）をXPath（XML Path Language）により指定する。
+** XPathは、XML文書の特定箇所を指し示すための記法である。
+** 出力先のタグを入れ子構造の外側から記載し、必要に応じて [ ] 内にgml:idやname等の条件を記述して範囲を絞り込む。
+** attributeRefの記述例
++
+[source,xml]
+----
+<dyn:attributeRef>
+  //bldg:BuildingRoom[@gml:id='room1']
+    /core:genericAttribute
+    /gen:DoubleAttribute[gen:name='temperature']
+    /gen:value
+</dyn:attributeRef>
+----
++
+この例では、bldg:BuildingRoom ＞ gen:genericAttribute ＞ gen:DoubleAttribute ＞ gen:valueと出力先のタグを指定し、
+かつ、bldg:BuildingRoomはgml:id='room1'、gen:DoubleAttributeはgen:name='temperature'と絞り込みの条件を設けている。
+* dyn:sensorConnectionは、時系列データを提供する外部のセンサーAPI等への接続情報を記述する。
+* dyn:observationProperty及びdyn:uomは、観測対象（値の意味）及び単位を明示するために記述することが望ましい。
+* サービス仕様に応じて、baseURL、linkToObservation、linkToSensorDescription等を選択して記述する。
+
+[source,xml]
+.Dynamizerの記述例（時系列データ（外部ファイル参照））
+----
+<dyn:Dynamizer gml:id="dyn_[UUID]">
+  <dyn:attributeRef>[対象属性の参照（XPath等）]</dyn:attributeRef>
+  <dyn:startTime>[適用開始時刻]</dyn:startTime>
+  <dyn:endTime>[適用終了時刻]</dyn:endTime>
+  <dyn:dynamicData>
+    <dyn:StandardFileTimeseries gml:id="[Timeseriesのgml:id]">
+      <dyn:observationProperty>[観測対象（属性名等）]</dyn:observationProperty>
+      <dyn:uom>[単位（任意）]</dyn:uom>
+      <dyn:fileLocation>[時系列データファイルへの参照（URI）]</dyn:fileLocation>
+      <dyn:fileType>[時系列データの形式]</dyn:fileType>
+      <dyn:mimeType>[MIME type（任意）]</dyn:mimeType>
+    </dyn:StandardFileTimeseries>
+  </dyn:dynamicData>
+</dyn:Dynamizer>
+----
+
+
+[[tocV_04_02_02]]
+===== 記述上の留意事項（時系列データ（外部ファイル参照））
+
+* dyn:startTime及びdyn:endTimeは、当該Dynamizerが適用される時間範囲を記述する。
+* dyn:dynamicDataは、時系列データを記述する。時系列データは以下のいずれかで表現できる。
+* 表形式ファイル参照（TabulatedFileTimeseries）
+* 標準的な時系列ファイル参照（StandardFileTimeseries）
+* 時刻と値の組のインライン記述（GenericTimeseries）
+
+[source,xml]
+.Dynamizerの記述例（時系列データ（インライン記述による記述））
+----
+<core:dynamizer>
+  <dyn:Dynamizer gml:id="dyn_[UUID]">
+    <dyn:attributeRef>[XPathにより指定した出力先の属性]</dyn:attributeRef>
+    <dyn:dynamicData>
+      <dyn:GenericTimeseries>
+        <dyn:valueType>[値型（例：double）]</dyn:valueType>
+        <dyn:timeValuePair>
+          <dyn:TimeValuePair>
+            <dyn:timestamp>[日時（ISO 8601）]</dyn:timestamp>
+            <dyn:doubleValue>[値]</dyn:doubleValue>
+          </dyn:TimeValuePair>
+        </dyn:timeValuePair>
+        <!-- timeValuePairを必要な数だけ記述する -->
+      </dyn:GenericTimeseries>
+    </dyn:dynamicData>
+  </dyn:Dynamizer>
+</core:dynamizer>
+----
+
+[[tocV_04_02_03]]
+===== 記述上の留意事項（時系列データ（インライン記述による記述））
+
+* dyn:dynamicDataは、インライン記述の場合、dyn:GenericTimeseriesを使用し、時刻と値の組をdyn:timeValuePairとして列記する。
+* dyn:valueTypeは、時系列値のデータ型を示す。 +
+double等、実際に記述する値（例：dyn:doubleValue）と整合する型を指定する。
+* dyn:TimeValuePairにおけるdyn:timestampは、日時をISO8601形式で記述する。 +
+なおタイムゾーンを扱う場合は、データセット内で表記の統一（例：Zを付けたUTC、又はオフセット付き表記）を行うことが望ましい。
+* dyn:timeValuePairは、必要な件数分だけ繰り返して記述する。 +
+時系列の解釈を容易にするため、dyn:timestampは昇順に記述することが望ましい。
+* インライン記述は、時系列データ量が増えるとCityGMLファイルのサイズ増大、差分管理の困難化、処理負荷の増大を招く。 +
+このため、記述量が少量の場合に限りインライン記述を用い、原則として外部ファイル参照（StandardFileTimeseries、TabulatedFileTimeseries等）を用いる。
+* 時系列値の単位（uom）や観測対象（observationProperty）を明示する必要がある場合は、dyn:GenericTimeseriesにこれらを付与する。
+
+
+[[tocV_04_03]]
+==== Dynamizerモジュール利用上の留意事項
+
+時間的な属性値の変化は、Dynamizerのデータを読み込むアプリケーションにおいて、入力データとして受け取った時系列データを用いて、出力先となる都市オブジェクトの属性値を上書きすることで表現する。
+
+このとき、CityGMLファイルの値を書き換えるのではなく、アプリケーションのメモリ上で値を書き換えることを基本とする。
+

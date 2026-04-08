@@ -1,0 +1,156 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD2.1
+|●
+|UndergroundBuilding
+|-
+|-
+|-
+|-
+|屋内モデルの場合は、空間属性を原則持たせない。
+
+|LOD2.1
+|●
+|BuildingRoom
+|lod2Solid
+|GM_Solid
+|全て対象
+|
+* 天井面（CeilingSurface）、内壁面（InteriorWallSurface）、閉鎖面（ClosureSurface）、床面（FloorSurface）、扉面（DoorSurface）及び窓面（WindowSurface）を境界面とする立体を作成する。
+|
+
+|LOD2.1
+|●
+|CeilingSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 天井の外周を取得する。
+|
+
+|LOD2.1
+|●
+|InteriorWallSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 部屋（Room）を区切る内壁の角を結ぶ外周を取得する。
+* 角となる場所で区切る。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD2.1
+|●
+|FloorSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 床の外周を取得する。
+|
+
+|LOD2.1
+|■
+|ClosureSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|地下街への出入り口となる開口部
+|
+* 地下街の内形と地表面との交線により囲まれた面を取得する。
+|
+
+|LOD2.1
+|■
+|ClosureSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|境界面となる内壁面や天井面、床面はないが、部屋となっている空間を区切る場合に必須とする。
+|
+* 床面（FloorSurface）、天井面（CeilingSurface）及び内壁面（InteriorWallSurface）を区切る仮想的な境界線に囲まれた面を取得する。
+|
+
+|LOD2.1
+|●
+|BuildingInstallation
+|lod2MultiSurface
+|GM_MultiSurface
+|地下街内部に存在する付属物のうち、階段、スロープ、エスカレータ、輸送設備（エレベータ、エスカレータ、動く歩道）、柱、デッキ、ステージ
+|
+* 付属物の外形（外側から見える形）を構成する面を取得する。
+* 面の各頂点に付属物の高さを与える。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD2.1
+|●
+|DoorSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 扉の外周を取得する。
+|
+
+|LOD2.1
+|●
+|WindowSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 窓の外周を取得する。
+|
+
+|LOD2.1
+|
+|Window
+|
+|
+|
+|
+|対象外
+
+|LOD2.1
+|
+|BuildingConstructiveElement
+|
+|
+|
+|
+|対象外
+
+|LOD2.1
+|
+|BuildingFurniture
+|
+|
+|
+|
+|対象外
+
+|LOD2.1
+|●
+|Storey
+|-
+|-
+|-
+|-
+|空間属性を持たせなくてよい。
+
+|LOD2.1
+|〇
+|BuildingUnit
+|-
+|-
+|-
+|-
+|空間属性を持たせなくてよい。
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

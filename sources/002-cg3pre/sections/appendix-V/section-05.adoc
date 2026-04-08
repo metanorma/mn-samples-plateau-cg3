@@ -1,0 +1,135 @@
+[[tocV_05]]
+=== 版管理のための拡張プロファイル（Versioning）
+
+[[tocV_05_01]]
+==== Versioningモデル
+
+3D都市モデルの更新情報を、同一データセット内に複数の版として保持し、版間の差分（更新内容）を表現するには、Versioningモジュールを使用する。
+
+Versioningは、3D都市モデルの版を表現するためのモジュールであり、短い時間間隔の時系列変化を扱うDynamizerとは目的が異なる。
+
+<<fig-V-11>>は、標準製品仕様書に示すVersioningモジュールのUMLクラス図である。
+
+[[fig-V-11]]
+.VersioningモジュールUMLクラス図
+image::../../sources/images/EAID_30A8A476_A964_45dd_9D4D_50B2B425901C.png[]
+
+
+[[tocV_05_02]]
+==== Versioningの記述
+
+Versioningモデルにより記述される版管理の情報は、3D都市モデル単位又は地物単位で記述できる。地物の属性や地物間の関連（例：建築物とその屋根）の単位では変化を記述できないが、地物単位で記述し、更新前後の地物のデータを比較することで、何が変わったかを抽出することはできる。
+
+Versioningモジュールは、vers:Version、vers:VersionTransition及びvers:Transactionを使用して版管理の情報を記述する。vers:Versionには、Versioningモジュールの適用範囲としたい地物型（例：bldg:Building）のうち、当該版に含まれる全ての都市オブジェクトのgml:idを記述する。
+
+vers:VersionTransitionには、ある版と別の版を比較し、新旧の3D都市モデルに含まれる地物同士の更新情報（vers:Transaction）を記述する。各都市オブジェクトのインスタンスはgml:idにより識別し、同一の地物に対応する複数の版（複数インスタンス）を識別するためにgml:identifierを付与する。gml:identifierは版を超えて一意となる識別子とする。
+
+[source,xml]
+.Version（版）の記述例
+----
+<core:versionMember>
+  <vers:Version gml:id="vers_[UUID]">
+    <vers:tag>[任意タグ]</vers:tag>
+    <vers:versionMember xlink:href="#[都市オブジェクトのgml:id]"/>
+    <vers:versionMember xlink:href="#[都市オブジェクトのgml:id]"/>
+    <!-- versionMemberを必要な数だけ記述する -->
+  </vers:Version>
+</core:versionMember>
+----
+
+
+[[tocV_05_02_01]]
+===== 記述上の留意事項（Version）
+
+* core:versionMemberには、vers:Versionを記述する。
+* vers:Versionは、版管理したい地物型のうち、当該版に含まれる全ての都市オブジェクトをvers:versionMemberにより参照して列挙する。
+* vers:versionMemberのxlink:hrefは、外部ファイルを参照するURI（相対パス）を記述することを基本とする。
+* vers:tagは、版の識別又は分類のための利用者定義タグであり、版番号（例：v1.0）に加え、年度、状態（draft、published）等の運用上必要な情報を付与してよい。
+
+[source,xml]
+.VersionTransition（版遷移）及びTransaction（更新内容）の記述例
+----
+<core:versionTransitionMember>
+  <vers:VersionTransition gml:id="vtr_[UUID]">
+    <vers:reason>[遷移理由]</vers:reason>
+    <vers:clonePredecessor>[true|false]</vers:clonePredecessor>
+    <vers:type>[planned|realized|historicalSuccession|fork|merge]</vers:type>
+    <vers:from xlink:href="#[遷移元Versionのgml:id]"/>
+    <vers:to xlink:href="#[遷移先Versionのgml:id]"/>
+
+    <!-- 置換（replace）の例：旧版から新版 -->
+    <vers:transaction>
+      <vers:Transaction>
+        <vers:type>replace</vers:type>
+        <vers:oldFeature xlink:href="#[旧版都市オブジェクトのgml:id]"/>
+        <vers:newFeature xlink:href="#[新版都市オブジェクトのgml:id]"/>
+      </vers:Transaction>
+    </vers:transaction>
+
+    <!-- 追加（insert）の例：新版のみ -->
+    <vers:transaction>
+      <vers:Transaction>
+        <vers:type>insert</vers:type>
+        <vers:newFeature xlink:href="#[追加した都市オブジェクトのgml:id]"/>
+      </vers:Transaction>
+    </vers:transaction>
+
+    <!-- 削除（delete）の例：旧版のみ -->
+    <vers:transaction>
+      <vers:Transaction>
+        <vers:type>delete</vers:type>
+        <vers:oldFeature xlink:href="#[削除した都市オブジェクトのgml:id]"/>
+      </vers:Transaction>
+    </vers:transaction>
+
+  </vers:VersionTransition>
+</core:versionTransitionMember>
+----
+
+[[tocV_05_02_02]]
+===== 記述上の留意事項（VersionTransition、Transaction）
+
+* core:versionTransitionMemberには、vers:VersionTransitionを記述する。vers:VersionTransitionは、遷移元（from）及び遷移先（to）のvers:Versionを参照し、必要に応じて更新内容をvers:Transactionとして列挙する。
+* vers:Transactionのvers:typeは、insert、delete及びreplaceのいずれかとする。
+** insertの場合、newFeatureのみを記述する。
+** deleteの場合、oldFeatureのみを記述する。
+** replaceの場合、oldFeature及びnewFeatureを記述する。
+* vers:clonePredecessorは、遷移先のvers:Versionに含まれる都市オブジェクト集合の求め方を示す。
+** trueの場合、遷移元vers:Versionの都市オブジェクト集合を複製し、vers:Transactionにより差分を反映して遷移先vers:Versionを得る。
+** falseの場合、遷移先vers:Versionのvers:versionMemberに都市オブジェクト集合を明示的に列挙する。
+
+[source,xml]
+.都市オブジェクトの複数版の記述例（参照先のCityGMLファイル）
+----
+旧版のCityGML
+<core:cityObjectMember>
+  <bldg:Building gml:id="bldg_[UUID]">
+    <gml:identifier codeSpace="[識別子体系]">bldg_[ID]</gml:identifier>
+    <!-- 旧版の属性・幾何 -->
+  </bldg:Building>
+</core:cityObjectMember>
+
+新版のCityGML
+<core:cityObjectMember>
+  <bldg:Building gml:id="bldg_[UUID]">
+    <gml:identifier codeSpace="[識別子体系]">bldg_[ID]</gml:identifier>
+    <!-- 新版の属性・幾何 -->
+  </bldg:Building>
+</core:cityObjectMember>
+----
+
+
+[[tocV_05_02_03]]
+===== 記述上の留意事項（複数版の地物）
+
+* 同一の地物に対応する複数の版を識別するため、版ごとにgml:idを分けて付与する。
+* 版を超えて同一の地物であることを表すために、地物にgml:identifierを付与する。gml:identifierは版を超えて一意となる識別子とする。
+* gml:identifierのcodeSpace（識別子体系）は、当該gml:identifierが準拠する識別子の管理主体又は命名規則（体系）を示すURI等を記述する。
+
+
+[[tocV_05_03]]
+==== Versioningモジュール利用上の留意事項
+
+Versioningは、都市オブジェクトの集合としての3D都市モデルの状態を「版」として表現し、版間の遷移理由及び差分（更新内容）を管理するためのモジュールである。
+
+短い時間間隔で変化する観測値等を表現する場合は、VersioningではなくDynamizerの使用を基本とする。

@@ -1,0 +1,172 @@
+[[tocG_02]]
+=== 広場の記述とLOD
+
+
+[[tocG_02_01]]
+==== 交通（広場）モデル
+
+広場は、都市計画法第11条第1項に示される交通施設のうち、「駅前広場」、「自動車ターミナル」及び「交通広場」について、都市計画で定められた施設（都市計画施設）を指す。 +
+広場の記述には、CityGMLに定義されたTransportationモジュールのtran:Squareを使用する。
+
+標準製品仕様書では、広場の表現に必要な地物型等をCityGML及びi-URから抽出し、LODごとに、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を定めた「交通（広場）モデル」を定義する（<<tab-G-1>>）。
+
+交通（広場）モデルのLODは、LOD0からLOD3までを対象とする。このとき、LODには外部・内部の区別はない。
+
+[[fig-G-1]]
+.交通（広場）モデルの概要
+image::../../sources/images/anx_G_001.png[]
+
+交通（道路）モデルと同様、LOD0は広場の形状をネットワークとして表現する。 +
+また、LOD1、LOD2及びLOD3では、広場の形状は路面を表す。加えて、これらのLODでは、広場の空間を立体として表現することができる。 +
+すべてのLODにおいて、路面上に存在するマンホールや損傷を、地物として区別して表現することができる。 +
+さらに、すべてのLODにおいて、道路を「区間」や「交差点」に区切ることができる。
+
+
+[[tocG_02_02]]
+==== 使用可能な地物型とLOD
+
+交通（広場）モデルは、LODごとに、使用すべき地物型やその空間属性が異なる。
+
+
+[requirement]
+.広場記述のLOD対応条件
+====
+[%metadata]
+identifier:: /req/squr/1
+subject:: 妥当な交通（広場）データセットの要件
+description:: 広場の記述には、指定されたLODに対応する地物型及び空間属性を使用する。
+====
+
+広場の記述には、tran:Squareを用いる。CityGML3.0において、tran:Squareは、広場の空間を表す。 +
+この空間は、交通のために使用される交通空間（tran:TrafficSpace）、交通のために使用されない空間（tran:AuxiliaryTrafficSpace）に分かれる。また、交通空間上空の障害物のない空間（tran:ClearanceSpace）に分けることもできる。 +
+tran:TrafficSpace及びtran:AuxiliaryTrafficSpaceが表す空間の底面は、路面となる。それぞれに対応する路面は、交通領域（tran:TrafficArea）及び交通補助領域（tran:AuxiliaryTrafficArea）である。 +
+また、これらの路面上に存在するマンホールの蓋や損傷は、穴の面（tran:HoleSurface）として区別することができる。 +
+さらに、複数の空間を、区間（tran:Section）や交差点（tran:Intersection）としてグループ化できる。
+
+交通（広場）モデルの記述に使用する各地物型は、空間属性を持つものと持たないものがある。空間属性を持つ場合、LODに応じた空間属性を持つ。
+
+* LOD0では、tran:Squareに含まれるtran:TrafficSpaceの境界となるtran:TrafficAreaを使用し、広場の形状を線で記述する。
+* LOD1では、tran:Squareに含まれるtran:TrafficSpaceの境界となるtran:TrafficAreaを使用し、広場の形状を面で記述する。また、必要に応じてtran:AuxiliaryTrafficSpaceの境界となるtran:AuxiliaryTrafficAreaを区分することができる。
+* LOD2では、tran:Squareに含まれるtran:TrafficSpaceの境界となるtran:TrafficArea及びtran:AuxiliaryTrafficSpaceの境界となるtran:AuxiliaryTrafficAreaを使用し、広場の形状を、高さを持つ面で記述する。
+* LOD3では、tran:Squareに含まれるtran:TrafficSpaceの境界となるtran:TrafficArea及びtran:AuxiliaryTrafficSpaceの境界となるtran:AuxiliaryTrafficAreaを使用し、広場の形状を、高さを持つ面で記述する。このとき、LOD2よりもさらに詳細な形状が表現される。
+
+tran:Squareは空間属性を持たず地物のコンテナとして機能する。このとき、広場の形状はこれに含まれる地物の空間属性により表現する。
+
+各LODでは、tran:Section及びtran:Intersectionを使用できる。これらは、tran:TrafficSpace及びtran:AuxiliaryTrafficSpaceの集まりとなる。tran:Section（区間）及びtran:Intersectionも空間属性は持たない。各LODにおいて、tran:TrafficSpace及びtran:AuxiliaryTrafficSpaceは、空間属性を省略できる。
+
+さらに、各LODでは、路面上に存在するマンホールの蓋や損傷を表す範囲をtran:HoleSurfaceとして記述することができる。
+
+各LODにおいて使用可能な地物型と空間属性を、<<tab-G-1>>に示す。
+
+// 交通（広場）モデルの記述に使用する地物型と空間属性
+[[tab-G-1]]
+include::../../../common/sections/com_squr_SpatialAttribute.adoc[]
+
+
+[[tocG_02_03]]
+==== 交通（広場）モデルのLOD定義
+
+交通（広場）モデルは、LODごとに、含むべき地物やその取得基準を定めている。
+
+
+[[tocG_02_03_01]]
+===== LOD0
+
+交通（広場）モデル（LOD0）は、広場の形状を、高さを持たない中心線として記述する。 +
+中心線の記述には、tran:TrafficAreaの空間属性（core:lod0MultiCurve）を使用する。 +
+このとき、中心線は、道路、上り線と下り線、車線、歩道のいずれかとなる。中心線の粒度は、<<tab-G-2>>に示す主題属性を用いて区分する。
+
+[[tab-G-2]]
+[cols="2a,3a,3a"]
+.中心線の粒度の指定
+|===
+| 中心線の粒度 | tran:TrafficSpaceの属性tran:granularity | tran:TrafficAreaの属性tran:function
+
+| 道路中心線 | way | 全幅道路
+| 上り線、下り線の中心線 | way | 車道部
+| 車線の中心線 | lane | 車線
+| 歩道中心線 | lane | 歩道部
+
+|===
+
+// 交通（広場）モデル（LOD0）の取得イメージ
+[[tab-G-3]]
+include::../../../common/sections/com_squr_Acquire_lod0.adoc[]
+
+
+[[tocG_02_03_02]]
+===== LOD1
+
+交通（広場）モデル（LOD1）は、広場の形状を、高さを持たない多曲面として記述する。多曲面の記述には、tran:TrafficAreaの空間属性（core:lod1MultiSurface）を使用する。 +
+このとき、多曲面は道路全幅、上り線/下り線、車線又は歩道のいずれかとなる。
+
+// 交通（広場）モデル（LOD1）の取得イメージ
+[[tab-G-4]]
+include::../../../common/sections/com_squr_Acquire_lod1.adoc[]
+
+
+[[tocG_02_03_03]]
+===== LOD2
+
+交通（広場）モデル（LOD2）は、広場の形状を、高さを持つ多曲面として記述する。 +
+多曲面の記述には、tran:TrafficAreaの空間属性（core:lod2MultiSurface）及びtran:AuxiliaryTrafficAreaの空間属性（core:lod2MultiSurface）を使用する。
+
+交通（広場）モデル（LOD2）は、広場内の区分と高さの取得方法により、LOD2.0、LOD2.1及びLOD2.2に細分される。<<tab-G-5>>及び<<tab-G-6>>に、細分したLOD2の概要を示す。
+
+// 交通（広場）モデルにおける属性granularityによる「広場内の区分」
+[[tab-G-5]]
+include::../../../common/sections/com_squr_Category_lod2.adoc[]
+
+// 交通（広場）モデルにおけるLOD2.0、LOD2.1及びLOD2.2の「高さの取得方法」
+[[tab-G-6]]
+include::../../../common/sections/com_squr_Category_height_lod2.adoc[]
+
+LOD1では交通（広場）オブジェクトは高さを持たないため、立体交差や歩道と車道との間の高低差を表現できない。これらが必要な場合には、高さを持つLOD2又はLOD3が必要となる。
+
+// 交通（広場）モデル（LOD2）の取得イメージ（広場内の区分）
+[[tab-G-7]]
+include::../../../common/sections/com_squr_Acquire_lod2_category.adoc[]
+
+LOD2において最も粗い「広場内の区分」では、広場を車道部、車道交差部、島及び歩道部に区分する。 +
+この区分はLOD2.0に適用され、この場合、tran:TrafficSpaceの属性tran:granularityの値は、“way”となる。
+
+また、LOD2.0において、車線を区分する場合、tran:TrafficSpaceの属性tran:granularityの値は、“lane”となる。 +
+LOD2.1では、LOD2.0の区分に加え、歩道部のうち歩道上の植栽を区分する。すなわち、歩道においても、通行の用に供される部分を明確に区分できる。このとき、車道部も車線に区分され、tran:TrafficSpaceの属性tran:granularityの値は、“lane”となる。
+
+LOD2.2では、広場の横断構成要素をさらに細分する。車道部のうち、路肩や停車帯等を区別したり、歩道を歩道や自転車歩行車道等に区別したりできる。LOD2.2における横断構成要素の取得基準の区分はユースケースごとに決定できる。
+
+// 交通（広場）モデル（LOD2）の取得イメージ（高さの取得方法）
+[[tab-G-8]]
+include::../../../common/sections/com_squr_Acquire_lod2_height.adoc[]
+
+LOD2.0の「高さの表現」では、高架橋、立体交差等、広場全体の上下の階層構造を区別できる。
+
+LOD2.1では、道路内の縁石による高さの差を表現する。この高さの差は、縁石によりマウントアップされた歩道と車道との高さの差や車道内の分離帯や交通島の高さの差（概ね15㎝程度）とする。横断歩道への接続や車両の出入り等の目的で歩道に設けられた、歩道の切り下げ部では緩やかに車道の高さに擦り付ける（歩道切り下げ部と車道との間に生じる高さの差の表現は行わない）。
+
+さらに、LOD2.2では、歩道切り下げ部と車道との高さの差（概ね2㎝程度）の表現を行う。なお、LOD2.2における高さの取得基準の下限値はユースケースにより決定できる。
+
+なお、LOD2.0及びLOD2.1は、航空写真等上空から取得したデータの利用を前提とした区分である。このとき、トンネル内や高架橋の下部等の遮蔽部は上空から取得したデータでは作成することができない。そのため、他の資料による補完又は、推定によるデータ作成をする必要がある。LOD2.2は、MMS（Mobile Mapping System）により取得した点群や画像等のデータの利用を前提とした区分である。
+
+データ集合に、航空写真等による図化、他の資料による補完、推定による作図というように、作成方法が異なる交通（広場）オブジェクトが混在する場合は、データ品質属性（<<tocG_03_02_01>>）を使用し、個々の交通（広場）オブジェクトの品質情報を記述することで、それぞれの作成方法を明示できる。
+
+
+[[tocG_02_03_04]]
+===== LOD3
+
+交通（広場）モデル（LOD3）は、広場の形状を、高さを持つ多曲面として記述する。 +
+多曲面の記述には、tran:TrafficAreaの空間属性（core:lod3MultiSurface）及びtran:AuxiliaryTrafficAreaの空間属性（core:lod3MultiSurface）を使用する。
+
+LOD3は、広場の形状をさらに詳細に表現することができる。例えば、広場の横断構成要素をさらに細分したり、広場の表面の凹凸を表現したりできる。 +
+LOD3は、広場の詳細設計等で作成される3次元モデル成果物の利用を想定した区分である。
+
+// 交通（広場）モデル（LOD3）の取得イメージ
+[[tab-G-9]]
+include::../../../common/sections/com_squr_Acquire_lod3.adoc[]
+
+
+[[tocG_02_03_05]]
+===== LODの対照表
+CityGML2.0とCityGML3.0では、LOD定義が異なることから、CityGML2.0に準拠した標準製品仕様書第5.1版と、CityGML3.0に準拠した本応用スキーマにおけるLODの細分の定義は異なる。
+
+細分の対応は、<<tocD_02_03_05,交通（道路）モデル>>を参照のこと。
+

@@ -1,0 +1,165 @@
+[cols="a,a,a,a,a,a"]
+.地下街モデル・内部におけるLOD2.0、LOD2.1及びLOD2.2の区分
+|===
+2+| 地下街モデル（LOD2）に含むべき地物 | 対応するCityGMLの地物型 | LOD2.0 | LOD2.1 | LOD2.2 
+
+2+| 建築物 
+| UndergroundBuilding 
+| ● 
+| ● 
+| ● 
+
+2+| 建築物部分
+| BuildingPart
+| ■ footnoteblock:[fn_undergroundbuilding_indoorcategory_lod2_ext_01]
+| ■ footnoteblock:[fn_undergroundbuilding_indoorcategory_lod2_ext_01]
+| ■ footnoteblock:[fn_undergroundbuilding_indoorcategory_lod2_ext_01]
+
+2+| 部屋 
+| BuildingRoom 
+| ●
+| ●
+| ●
+
+2+| 天井面 
+| CeilingSurface 
+| ● 
+| ● 
+| ● 
+
+
+2+| 内壁面 
+| InteriorWallSurface 
+| ● 
+| ● 
+| ●
+
+2+| 床面 
+| FloorSurface 
+| ● 
+| ● 
+| ●
+
+2+| 閉鎖面
+| ClosureSurface
+| ■ footnoteblock:[fn_undergroundbuilding_indoorcategory_lod2_ext_02]
+| ■ footnoteblock:[fn_undergroundbuilding_indoorcategory_lod2_ext_02]
+| ■ footnoteblock:[fn_undergroundbuilding_indoorcategory_lod2_ext_02]
+
+.8+| 建築物付属物
+| 階段
+| BuildingInstallation
+| 　
+| ●
+| ●
+
+| スロープ 
+| BuildingInstallation 
+| 　
+| ● 
+| ●
+
+| 輸送設備 
+| BuildingInstallation 
+| 
+| ● 
+| ●
+
+| 柱 
+| BuildingInstallation 
+| 
+| ● 
+| ●
+
+| デッキ・ステージ 
+| BuildingInstallation 
+| 
+| ● 
+| ●
+
+| 梁 
+| BuildingInstallation
+| 
+| 
+| 〇
+
+| パネル 
+| BuildingInstallation 
+| 
+| 
+| 〇
+
+| 手すり 
+| BuildingInstallation 
+| 
+| 
+| 〇
+
+2+| 扉面
+| DoorSurface
+| 　
+| ●
+| ●
+
+2+| 窓面
+| WindowSurface
+| 　
+| ●
+| ●
+
+2+| 扉
+| Door
+| 　
+| 　
+| 　
+
+2+| 窓
+| Window
+| 　
+| 　
+| 　
+
+2+| 建築物部材
+| BuildingConstructiveElement
+| 　
+| 　
+| 　
+
+2+| 家具 
+| BuildingFurniture 
+| 　
+| 　
+| 〇
+
+
+2+| 階 
+| Storey 
+| ●
+| ●
+| ●
+
+2+| 区画 
+| BuildingUnit 
+| 〇
+| 〇
+| 〇
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）
+
+
+[[fn_undergroundbuilding_indoorcategory_lod2_ext_01]]
+[NOTE]
+--
+一棟の建築物を主題属性の異なる複数の部分に分ける場合に必須とする。
+--
+
+[[fn_undergroundbuilding_indoorcategory_lod2_ext_02]]
+[NOTE]
+--
+BuildingPartを使用する場合、及び、内壁面、天井面、床面が無いが建築確認申請上部屋として区分されている空間を区切る場合に必須とする。
+--

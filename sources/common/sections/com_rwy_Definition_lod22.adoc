@@ -1,0 +1,185 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD2.2
+|●
+|Railway
+|-
+|-
+|-
+|-
+|空間属性を持たせない。
+
+|LOD2.2
+|●
+|TrafficSpace
+|-
+|-
+|-
+|-
+|空間属性を持たせなくてもよい。
+
+|LOD2.2
+|〇
+|TrafficSpace
+|lod2Solid
+|GM_Solid
+|
+|【granularityがlaneの場合の取得方法】
+
+* TrafficAreaを底面とし、建築限界の範囲を立体として作成する。
+
+|
+
+|LOD2.2
+|●
+|AuxiliaryTrafficSpace
+|-
+|-
+|-
+|-
+|空間属性を持たせなくてもよい。
+
+|LOD2.2
+|〇
+|AuxiliaryTrafficSpace
+|lod2Solid
+|GM_Solid
+|
+|【granularityがlaneの場合の取得方法】
+
+* AuxiliaryTrafficAreaを底面とし、建築限界の範囲を立体として作成する。
+
+|
+
+|LOD2.2
+|〇
+|ClearanceSpace
+|lod2Solid
+|GM_Solid
+|
+|【granularityがlaneの場合の取得方法】
+
+* 建築限界の上面を底面とし、無人航空機が飛行可能な範囲を立体として作成する。
+
+|
+
+|LOD2.2
+|●
+|TrafficArea
+|lod2Network
+|GM_Complex
+|普通鉄道、地下鉄地上部、路面鉄道、モノレール、特殊鉄道、索道、トンネル内の鉄道、地下鉄地下部
+|
+【granularityがlaneの場合の取得方法】
+
+* 軌道中心線を取得する。
+* 勾配変化点の標高を用いて軌道中心線を構成する各頂点に高さを与える。
+|
+
+|LOD2.2
+|●
+|TrafficArea
+|lod2MultiSurface
+|GM_MultiSurface
+|レール
+|
+【granularityがlaneの場合の取得方法】
+
+* レールの境界線に囲まれた面を取得する。
+* 外周の各頂点に、水平位置に対応する標高を与える。
+|
+
+|LOD2.2
+|●
+|TrafficArea
+|lod2MultiSurface
+|GM_MultiSurface
+|レールに囲まれた範囲
+|
+* 左右レールの内側を境界とする面を取得する。
+* 各頂点に軌道の高さを与える。
+|
+image::../../sources/images/rwy_003.png[]
+
+|LOD2.2
+|●
+|TrafficArea
+|lod2MultiSurface
+|GM_MultiSurface
+|道床
+|
+【granularityがlaneの場合の取得方法】
+
+* 外周を取得し、勾配が変化する場所で区切る。
+* 外周の各頂点に、水平位置に対応する標高を与える。
+|15㎝未満の高さの差を取得する。取得の下限値はユースケースに応じて定める。
+
+|LOD2.2
+|●
+|AuxiliaryTrafficArea
+|lod2MultiSurface
+|GM_MultiSurface
+|鉄道用地のうち、道床を除く部分
+|
+【granularityがlaneの場合の取得方法】
+
+* 外周を取得し、勾配が変化する場所で区切る。
+* 外周の各頂点に、水平位置に対応する標高を与える。
+|15㎝未満の高さの差を取得する。取得の下限値はユースケースに応じて定める。
+
+|LOD2.2
+|〇
+|Section
+|-
+|-
+|-
+|-
+|空間属性はTrafficAreaが持つ
+
+|LOD2.2
+|〇
+|InterSection
+|-
+|-
+|-
+|-
+|空間属性はTrafficAreaが持つ
+
+|LOD2.2
+|〇
+|Marking
+|lod2MultiSurface
+|GM_MultiSurface
+|
+|
+* 交通の規制等が設定されている概念的な範囲を面として取得し、面の各頂点に、水平位置に対応する標高を与える。
+|
+
+|LOD2.2
+|〇
+|Hole
+|lod2Solid
+|GM_Solid
+|マンホール、排水溝
+|
+* 穴の外形を立体として取得する。
+|都市設備モデル又は地下埋設物モデルにて同一マンホール及び排水溝を作成している場合は、空間属性を参照することができる。
+
+|LOD2.2
+|〇
+|HoleSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|マンホール、排水溝
+|
+* 穴の外形により囲まれた路面上の面を取得する。
+|
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

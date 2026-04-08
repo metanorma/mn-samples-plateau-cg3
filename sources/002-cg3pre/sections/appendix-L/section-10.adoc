@@ -1,0 +1,47 @@
+[[tocL_10]]
+=== 開口部の境界面
+
+con:AbstractFillingSurfaceは、橋梁の開口部の境界面である。
+
+con:AbstractFillingSurfaceは、Constructionモジュールに定義されているため、接頭辞はconとなる。Constructionモジュール、Buildingモジュール、Bridgeモジュール及びTunnelモジュールに定義された各地物型は、con:AbstractFillingSurfaceを使用する。
+
+橋梁（brid:Bridge）、橋梁の部分（brid:BridgePart）、橋梁付属物（brid:BridgeInstallation）、構造部材（brid:BridgeConstructiveElement）及び橋梁内部空間（brid:BridgeRoom）は、con:AbstractFillingSurfaceをその境界面としてもつことができる（関連役割con:boundary）。また、con:AbstractConstructionSurfaceも、その一部を充填する面として、con:AbstractFillingSurfaceをもつことができる（関連役割con:fillingSurface）。
+
+つまり、橋梁などの地物は、直接的に開口部の境界面をもつこともできるし、屋根面、壁面等の境界面に区分し、さらに、屋根面、壁面等の境界面が開口部の境界面をもつこともできる。 +
+ただし、con:AbstractFillingSurfaceは抽象地物であり、実装においては、この下位型の具象となる地物型を使用する。
+
+
+[[tocL_10_01]]
+==== 開口部の境界面の空間属性
+
+con:AbstractFillingElementの空間属性は、LOD0では線（gml:MultiCurve）、LOD1、LOD2及びLOD3では、面（gml:MultiSurface）を基本とする。
+
+開口部の境界面は、これをもつ、または参照する地物の境界面の一部となる。もし開口部の境界面と、この地物の境界面に位相関係をもたせる場合には、開口部の境界面の外周と、これをもつ地物の境界面の内空を一致させなければならない。位相関係が不要な場合には、地物の境界面に内空を設ける必要はない。
+
+
+[[tocL_10_02]]
+==== 開口部の境界面の下位型
+
+
+[[tocL_10_02_01]]
+===== con:WindowSurface
+
+con:WindowSurfaceは、窓の境界面を記述するために使用する地物型である。
+
+
+[[tocL_10_02_02]]
+===== con:DoorSurface
+
+con:DoorSurfaceは、扉の境界面を記述するために使用する地物型である。
+
+
+[[tocL_10_03]]
+==== 開口部とその境界面
+
+con:AbstractFillingSurfaceは、開口部（con:AbstructFillingElement）の境界面である。 +
+con:AbstructFillingElementは、その境界としてcon:AbstractFillingSurfaceをもつ、または参照することができる。 +
+開口部とは、扉や窓そのものであり、一定の厚みをもつ。開口部の境界面とは、扉や窓が橋梁や橋梁内部空間等と接する面を指す（<<fig-L-4>>）。
+
+[[fig-L-4]]
+.開口部とその境界面
+image::../../sources/images/anx_C_041.png[width="400"]

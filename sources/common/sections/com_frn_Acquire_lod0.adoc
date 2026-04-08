@@ -1,0 +1,12 @@
+[cols="1a,9a",options="noheader"]
+.都市設備モデル（LOD0）の取得イメージ
+|===
+h| LOD ^h| LOD0 
+h| 取得例
+^.^|
+image::../../sources/images/frn_Acquire_lod00.png[width="20"]
+
+h| 説明
+| 外周を取得する。
+
+|===

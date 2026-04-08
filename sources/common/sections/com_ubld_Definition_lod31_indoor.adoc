@@ -1,0 +1,171 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD3.1
+|●
+|UndergroundBuilding
+|-
+|-
+|-
+|-
+|屋内モデルの場合は、空間属性を原則持たせない。
+
+
+|LOD3.1
+|●
+|BuildingRoom
+|lod3Solid
+|GM_Solid
+|全て対象
+|
+* 天井面、内壁面、閉鎖面、床面、扉面及び窓面に相当する境界で閉じた立体（IfcSpaceが持つ空間属性等）を作成する。
+|
+
+|LOD3.1
+|●
+|CeilingSurface
+|lod3MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 天井の外周を取得する。
+|
+
+|LOD3.1
+|●
+|InteriorWallSurface
+|lod3MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 部屋（Room）を区切る内壁の角を結ぶ外周を取得する。
+* 角となる場所で区切る。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD3.1
+|●
+|FloorSurface
+|lod3MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 床の外周を取得する。
+|
+
+|LOD3.1
+|■
+|ClosureSurface
+|lod3MultiSurface
+|GM_MultiSurface
+|地下街への出入り口となる開口部
+|
+* 地下街の内形と地表面との交線により囲まれた面を取得する。
+|地上に設置された地下街出入口の建屋は都市設備（CityFurniture）として取得する。
+
+|LOD3.1
+|■
+|ClosureSurface
+|lod3MultiSurface
+|GM_MultiSurface
+|境界面となる内壁面や天井面、床面はないが、部屋となっている空間を区切る場合に必須とする。
+|
+* 床面（FloorSurface）、天井面（CeilingSurface）及び内壁面（InteriorWallSurface）を区切る仮想的な境界線に囲まれた面を取得する。
+|ClosureSurfaceの境界線は、屋根面（RoofSurface）、外壁面（WallSurface）又は底面（GroundSurface）を区切る線分となる。
+
+|LOD3.1
+|■
+|BuildingInstallation
+|lod3MultiSurface
+|GM_MultiSurface
+|地下街内部に存在する付属物のうち、階段、スロープ、エスカレータ、輸送設備（エレベータ、エスカレータ、動く歩道）、柱、デッキ、ステージ
+|
+* 付属物の外形（外側から見える形）を構成する面を取得する。
+* 面の各頂点に付属物の高さを与える。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD3.1
+|〇
+|DoorSurface
+|lod3MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 扉の外周を取得する。
+|
+
+|LOD3.1
+|〇
+|WindowSurface
+|lod3MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 窓の外周を取得する。
+|
+
+|LOD3.1
+|〇
+|Door
+|lod3MultiSurface
+|GM_MultiSurface
+|
+|
+* 扉を面の集まりとして取得する。
+|
+
+|LOD3.1
+|〇
+|Window
+|lod3MultiSurface
+|GM_MultiSurface
+|
+|
+* 窓を面の集まりとして取得する。
+|
+
+|LOD3.1
+|●
+|BuildingConstructiveElement
+|lod3MultiSurface
+|GM_MultiSurface
+|
+|
+* 建築部材の形状を面の集まりとして表現する。
+|
+
+|LOD3.1
+|〇
+|BuildingFurniture
+|lod3MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 家具の外形（外側から見える形）を構成する面を取得する。
+* 面の各頂点に家具の高さを与える。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD3.1
+|●
+|Storey
+|-
+|-
+|-
+|-
+|空間属性を持たせなくてよい。
+
+|LOD3.1
+|〇
+|BuildingUnit
+|-
+|-
+|-
+|-
+|空間属性を持たせなくてよい。
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

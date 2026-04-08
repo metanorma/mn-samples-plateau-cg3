@@ -1,0 +1,21 @@
+[cols="1a,3a,3a",options="noheader"]
+.その他の構造物（LOD3）の取得イメージ
+|===
+h| LOD ^h| LOD3.0 ^h| LOD3.1
+h| 取得例
+^.^|
+image::../../sources/images/cons_Acquire_lod30.png[]
+^.^|
+image::../../sources/images/cons_Acquire_lod31.png[]
+
+h| 説明
+| その他の構造物（OtherConstruction）の形状を構成要素となる全ての部材（OtherConstructiveElement、Window、Door）の形状を統合し、面の集まりとして表現する。 +
+なお、面の集まりを構成する面は境界面に分割又は区分せず、全て部材（OtherConstructiveElement）として作成する。 +
+また、窓及び扉についても境界面としてではなく、部材としてそれぞれWindow及びDoorにより作成する。
+| その他の構造物（OtherConstruction）の形状を構成要素となる全ての部材（OtherConstructiveElement、Window、Door）の形状を統合し、面の集まりとして表現する。 +
+LOD3.0では面の集まりを構成する面を境界面に分割又は区分しないのに対し、LOD3.1では、OtherConstructiveElementを構成する面の全部又は一部を境界面に分割し、区分することができる。 +
+また、窓及び扉についても窓面（WindowSurface）、扉面（DoorSurface）によって境界面に区分することができる。
+さらに、付属物はOtherConstructionInstallationとして作成することができる。
+
+|===
+

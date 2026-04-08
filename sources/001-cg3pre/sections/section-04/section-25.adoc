@@ -1,0 +1,157 @@
+[[toc4_25]]
+=== 公共測量標準図式の応用スキーマ
+
+公共測量標準図式に従った地図表現を行うための情報を格納するデータ型を定義する。
+
+[[toc4_25_01]]
+==== 公共測量標準図式のLOD
+
+公共測量標準図式に従った地図表現は、LOD0とする。
+
+[[toc4_25_01_01]]
+===== 公共測量標準図式のためのLOD0の定義
+
+本節では、公共測量標準図式による表現を行うために、DmGeometricAttributeの lod0Geometry（以下、lod0Geometry）を用いてLOD0の幾何を記述する場合の定義を示す。
+
+各モデルのLOD0定義において、lod0Geometryを使用する場合は、本節の定義に従う。
+
+[[tab-4-25-1]]
+include::../../../common/sections/com_DM_Definition_lod00.adoc[]
+
+
+[[toc4_25_02]]
+==== 公共測量標準図式の応用スキーマクラス図
+
+[[toc4_25_02_01]]
+===== Urban Core （i-UR）
+
+[[fig-4-25-1]]
+image::../../sources/images/EAID_B3580287_BE44_4ad6_8DCC_DE1A29D52A4D.png[]
+
+
+[[toc4_25_03]]
+==== 公共測量標準図式の応用スキーマ文書
+
+[[toc4_25_03_01]]
+===== Urban Core （i-UR）
+
+[[toc4_25_03_01_01]]
+====== DmGeometricAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="DmGeometricAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_25_03_01_02]]
+====== DmElement
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="DmElement",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_25_03_01_03]]
+====== DmAnnotation
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="DmAnnotation",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+
+[[toc4_25_04]]
+==== 公共測量標準図式で使用するコードリストと列挙型
+
+[[toc4_25_04_01]]
+===== Urban Core （i-UR）
+
+[[Common_dmCode.xml]]
+====== Common_dmCode.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_dmCode.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+
+
+[[Common_shapeType.xml]]
+====== Common_shapeType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_shapeType.xml[template="gml_dict_template.liquid",context=dict]
+
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+
+
+[[Common_MapLevel.xml]]
+====== Common_MapLevel.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_MapLevel.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Common_geometryType.xml]]
+====== Common_geometryType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_geometryType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+
+
+[[DmElement_dataType.xml]]
+====== DmElement_dataType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/DmElement_dataType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+
+
+[[DmElement_annotationType.xml]]
+====== DmElement_annotationType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/DmElement_annotationType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+
+
+[[DmElement_precisionType.xml]]
+====== DmElement_precisionType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/DmElement_precisionType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+
+
+[[DmElement_breakType.xml]]
+====== DmElement_breakType.xml
+
+[cols="3a,11a"]
+|===
+| ファイル名 | DmElement_breakType.xml
+
+h| ファイルURL | https://www.geospatial.jp/iur/codelists/3.2/DmElement_breakType.xml
+h| コード h| 説明
+| 0 | 間断しない
+| 1～9 | 間断する（数値は優先順位）
+
+|===
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+
+
+[[DmElement_dislocationType.xml]]
+====== DmElement_dislocationType.xml
+
+[cols="3a,11a"]
+|===
+| ファイル名 | DmElement_dislocationType.xml
+
+h| ファイルURL | https://www.geospatial.jp/iur/codelists/3.2/DmElement_dislocationType.xml
+h| コード h| 説明
+
+| 0 | 転位しない
+| 1～9 | 座標列の方向に対して右側に転位する
+| -1～-9 | 座標列の方向に対して左側に転位する
+
+|===
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+
+

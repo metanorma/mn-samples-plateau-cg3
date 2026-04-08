@@ -1,0 +1,129 @@
+[[tocM_09]]
+=== トンネルの境界面
+
+トンネル（tun:Tunnel）境界面は、境界面を表す地物型であるcon:AbstractConstructionSurfaceを用いる。
+
+con:AbstractConstructionSurfaceは、Constructionモジュールに定義されているため、接頭辞はconとなる。
+
+Constructionモジュール、Buildingモジュール、Bridgeモジュール及びTunnelモジュールに定義された各地物型は、con:AbstractConstructionSurfaceを使用する。
+
+Tunnelモジュールの場合、トンネル（tun:Tunnel）、トンネルの部分（tun:TunnelPart）、トンネルの付属物（tun:TunnelInstallation）、トンネルの内部空間（tun:HollowSpace）及び構造部材（tun:TunnelConstructiveElement）は、con:AbstractConstructionSurfaceを用いて、その境界面を地物として区分できる。 +
+ただし、con:AbstractConstructionSurfaceは抽象地物であり、実装においては、この下位型の具象となる地物型を使用する。
+
+この地物型は抽象地物であり、実装においては、この下位型の具象となる地物型を使用する。
+
+
+// 閉鎖面（core:ClosureSurface）はcore:AbstractThematicSurfaceの下位型のためここでは対象外？もしくは別枠を設ける？
+[requirement]
+.con:AbstractConstructionSurfaceの種類
+====
+[%metadata]
+identifier:: /req/tun/13
+subject:: 妥当なトンネルデータセットの要件
+description:: con:AbstractConstructionSurface は、屋根面（con:RoofSurface）、外壁面（con:WallSurface）、底面（con:GroundSurface）、閉鎖面（core:ClosureSurface）、天井面（con:CeilingSurface）、床面（con:FloorSurface）及び内壁面（con:InteriorSurface）のいずれかとなる。
+====
+
+CityGMLでは、トンネルの境界面としてcon:AbstractConstructionSurfaceの下位型となる地物型が用意されている。ただし外部天井面（con:OuterCeillingSurface）、屋外床面（con:OuterFloorSurface）は対象外とする（使用しない）。
+
+[[fig-M-7]]
+.con:AbstractConstructionSurface
+image::../../sources/images/anx_M_007.png[width="500"]
+
+
+[[tocM_09_01]]
+==== 境界面の空間属性
+
+屋根面及び壁面、底面の境界面となる地物型の空間属性（面）は、トンネルの立体を構成する境界面に一致する。
+
+
+[requirement]
+.境界面の幾何オブジェクト参照条件
+====
+[%metadata]
+identifier:: /req/tun/14
+subject:: 妥当なトンネルデータセットの要件
+description:: 境界面の空間属性を構成する幾何オブジェクトは、トンネルの立体を構成する境界面として参照されなければならない。
+====
+
+
+[[tocM_09_02]]
+==== 境界面の下位型
+
+
+[[tocM_09_02_01]]
+===== con:RoofSurface
+
+con:RoofSurfaceは、屋根面を記述するために使用する地物型である。
+
+
+[requirement]
+.外壁面と屋根面の区分条件
+====
+[%metadata]
+identifier:: /req/tun/15
+subject:: 妥当なトンネルデータセットの要件
+description:: 外壁面（con:WallSurface）と屋根面（con:RoofSurface）との区分が構造上難しい場合は、外壁面（con:WallSurface）として取得することを基本とする。
+====
+
+[[tocM_09_02_02]]
+===== con:WallSurface
+
+con:WallSurfaceは、壁面を記述するために使用する地物型である。
+
+
+[[tocM_09_02_03]]
+===== con:GroundSurface
+
+con:GroundSurfaceは、トンネルの底面を記述するために使用する地物型である。
+
+
+[[tocM_09_02_04]]
+===== con:OuterFloorSurface
+
+con:OuterFloorSurfaceはトンネルの外側を覆う部分であり、通行可能な床面としての機能を有する部分の記述に使用する地物型である。標準製品仕様書では使用しない。
+
+
+// ほかの境界面と継承元が違うのでこの並びで問題ないか
+[[tocM_09_02_05]]
+===== core:ClosureSurface
+
+core:ClosureSurfaceは、トンネルの開口部を立体として閉じるために、境界面として設けられた仮想的な面である。トンネルの境界面に開口部が存在するが、開口部内の詳細なデータ作成が不要である場合に、開口部を閉じるために便宜上設けられている。内部空間で用途が異なる等により区分する場合は、tun:HollowSpaceを使用して空間を区分する。
+
+[[fig-M-8]]
+.閉鎖面の例（出入り口の開口部を閉鎖）
+image::../../sources/images/anx_M_008.png[]
+
+
+[[tocM_09_02_06]]
+===== con:OuterCeilingSurface
+
+con:OuterCeilingSurfaceは、トンネルの外側を覆う部分であり、天井としての機能を有する面を記述するために使用する地物型である。標準製品仕様書では使用しない。
+
+
+[[tocM_09_02_07]]
+===== con:CeilingSurface
+
+con:CeilingSurfaceは、トンネルの内部の天井面を記述するために使用する地物型である。
+
+
+[requirement]
+.内壁面と天井面の区分条件
+====
+[%metadata]
+identifier:: /req/tun/16
+subject:: 妥当なトンネルデータセットの要件
+description:: 内壁面（con:InteriorWallSurface）と天井面（con:CeilingSurface）との区分が構造上難しい場合は、内壁面（con:InteriorWallSurface）として取得することを基本とする。
+====
+
+
+[[tocM_09_02_08]]
+===== con:InteriorWallSurface
+
+con:InteriorWallSurfaceは、トンネルの内部空間の区画を区切る壁や仕切りとしての機能を有する面を記述するために使用する地物型である。
+
+
+[[tocM_09_02_09]]
+===== con:FloorSurface
+
+con:FloorSurfaceは、トンネルの内部空間の下面に位置する舗装等が存在する板状の構造物（床面）を記述するために使用する地物型である。
+

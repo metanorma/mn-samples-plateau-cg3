@@ -1,0 +1,12 @@
+[[tocR]]
+[appendix]
+== 妥当な植生オブジェクト
+
+include::../sections/appendix-R/section-01.adoc[]
+
+include::../sections/appendix-R/section-02.adoc[]
+
+include::../sections/appendix-R/section-03.adoc[]
+
+include::../sections/appendix-R/section-04.adoc[]
+

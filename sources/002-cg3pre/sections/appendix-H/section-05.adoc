@@ -1,0 +1,16 @@
+[[tocH_05]]
+=== tran:TrafficSpace
+
+tran:TrafficSpaceは、船舶が通行可能な空間（交通空間）の記述に使用する地物型である。
+
+
+[[tocH_05_01]]
+==== 交通領域の空間属性
+
+
+[[tocH_05_01_01]]
+===== LOD1
+
+tran:TrafficSpaceの空間属性は、LOD1において、tran:TrafficAreaの空間属性（core:lod1MultiSurface）に一律の高さを上向きに与えた立体（core:lod1Solid）とする。 +
+このとき、多曲面の境界は法令により指定された航路の区域の境界となり、一律の高さは、船舶の航行を妨げ得る上空障害（橋梁桁下、架空線、門型クレーン等）によって規定される最小可航高とする。
+

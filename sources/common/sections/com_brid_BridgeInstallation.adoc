@@ -1,0 +1,34 @@
+[cols="a,a"]
+.BridgeInstallationとして取得する部材の一覧
+|===
+| 部材名 | 部材イメージ
+
+| 高欄
+|
+image::../../sources/images/brid_Installation_01.png[width="150"]
+
+| 地覆
+|
+image::../../sources/images/brid_Installation_02.png[width="150"]
+
+| 親柱
+|
+image::../../sources/images/brid_Installation_03.png[width="150"]
+
+| 庇の柱
+|
+image::../../sources/images/brid_Installation_04.png[width="150"]
+
+| エレベータ
+|
+image::../../sources/images/brid_Installation_05.png[width="150"]
+
+| エスカレータ
+|
+image::../../sources/images/brid_Installation_06.png[width="150"]
+
+| 手すり
+|
+image::../../sources/images/brid_Installation_07.png[width="100"]
+
+|===

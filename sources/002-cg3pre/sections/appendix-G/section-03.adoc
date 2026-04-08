@@ -1,0 +1,78 @@
+[[tocG_03]]
+=== tran:Square
+
+tran:Squareは、広場の記述に使用する地物型である。
+
+[[tocG_03_01]]
+==== tran:Squareの空間属性
+
+tran:Squareの空間属性は、いずれのLODにおいても、空となる。tran:Squareは、tran:TrafficSpace及びtran:AuxiliaryTrafficSpaceの集まりとなり、これらの部品となる地物が空間属性を持つ。
+
+なお、標準製品仕様書では、広場の形状は、路面の表現に基づくことを基本とする。このとき、路面を表す面は、tran:Squareに含まれる、tran:TrafficSpace及びtran:AuxiliaryTrafficSpaceの境界面であり、tran:TrafficAreaとtran:AuxiliaryTrafficAreaの空間属性となる。
+
+
+[[tocG_03_01_01]]
+===== 広場の連続性の表現
+
+tran:Squareの空間属性は、いずれのLODにおいても、同一のLODにおける広場の連続性を担保する必要がある。
+
+
+[requirement]
+.tran:Squareの幾何座標一致条件
+====
+[%metadata]
+identifier:: /req/squr/2
+subject:: 妥当な交通（広場）データセットの要件
+description:: 連続するtran:Squareに含まれる幾何オブジェクトは、同一のLODにおいて、その境界の座標を一致させなければならない。
+====
+
+[[tocG_03_01_02]]
+===== LOD1における交通（広場）オブジェクトの区切り位置
+
+tran:Squareの境界は、広場の横断方向は道路縁又は車道の界線となる。広場に含まれる道路の延長方向は、以下の場所で区切る。
+
+
+[requirement]
+.tran:Squareオブジェクトの区切り位置
+====
+[%metadata]
+identifier:: /req/squr/3
+subject:: 妥当な交通（広場）データセットの要件
+description:: tran:Squareのオブジェクトは、以下に示す場所で区切る。
+part:: 交差部（四差路、多差路及び三差路）
+part:: 道路構造の変化点
+part:: 位置正確度や取得方法が変わる場所
+====
+
+交差部（四差路、多差路及び三差路）での広場の区切り方は、交通（道路）モデルと同様とする。
+
+
+[[tocG_03_02]]
+==== 広場の主題属性
+
+広場の主題属性には、あらかじめCityGML又はGMLにおいて定義された属性（接頭辞tran、core、gml）と、i-URにより拡張された属性（接頭辞urc、uro）がある。CityGMLで定義された属性は、道路の機能など、基本的な情報となる。i-URにより拡張された属性には、広場に関する情報を格納するための属性（uro:SquareUrbanPlanAttribute、uro:StationSquareAttribute、uro:TerminalAttribute）、数値地形図との互換性を保つための情報を格納するための属性（urc:DmAttribute）、さらに、作成したデータの品質に関する情報を格納するための属性（urc:DataQualityAttribute）がある。
+
+
+[[tocG_03_02_01]]
+===== データ品質属性（urc:DataQualityAttribute）
+
+3D都市モデルでは、データ集合全体としての品質はメタデータに記録する。しかしながら、メタデータでは、個々のデータに対して位置正確度や適用したLOD等の品質を記述することが困難である。
+
+そこで、標準製品仕様書では、個々のデータに対してデータ品質に関する情報を記述するための属性として、「データ品質属性」（urc:DataQualityAttribute）を定義している。データ品質属性は、属性としてデータ作成に使用した原典資料の地図情報レベル、その他原典資料の諸元及び精緻化したLODをもつ。
+
+3D都市モデルに含まれる全ての交通（広場）オブジェクトは、このデータ品質属性を必ず作成しなければならない。ただし、広場（tran:Square）に対してデータ品質属性を付与することはできるが、これを構成する交通空間（tran:TrafficSpace）や交通補助空間（tran:AuxiliaryTrafficSpace）にデータ品質属性を付与することはできない。
+
+
+[[tocG_03_02_02]]
+===== ADEで拡張された属性の記述
+
+// 付属書G内にSquareUrbanPlanAttributeと数値地形図属性の記載なしのためリンク張れない。
+
+CityGML3.0では、地物型ごとに、属性を拡張するためのデータ型ADEOfXXX（XXXには地物型の名称が入る）が用意されている。また、拡張したデータ型を地物の属性として記述するための主題属性adeOfXXX（XXXには地物型の名称が入る）も用意されている。例えば、建築物（Building）という地物型に属性を追加したい場合、ADEOfBuildingを使う。このデータ型を継承して新しい属性を定義することで、主題属性adeOfBuildingの型として記述できるようになる。
+
+ここで、広場のSquareUrbanPlanAttribute、<<tocG_03_02_01,データ品質属性>>、数値地形図属性等の主題属性は、上述の仕組みを使って拡張して定義されたデータ型である。これらのデータ型を記述する場合には、拡張した地物型に対応する主題属性adeOfXXX（XXXには地物型の名称が入る）の型として記述しなければならない。
+
+例えば、広場に特化した情報である、SquareUrbanPlanAttributeはADEOfSquareを継承して定義されているため、adeOfSquareの型として記述する。また、<<tocG_03_02_01,データ品質属性>>は、ADEOfAbstractCityObjectを継承して定義されているため、adeOfAbstractCityObjectの型として記述する。
+
+このように、ADEで拡張された属性が、どの地物型を拡張して定義されているかによって、主題属性として値を記述する場所が異なることに注意が必要である。
+

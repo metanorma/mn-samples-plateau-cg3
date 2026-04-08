@@ -1,0 +1,49 @@
+[cols="1a,1a,1a",options="noheader"]
+.交通（徒歩道）モデル（LOD2）の取得イメージ（高さの取得方法）
+|===
+^h| LOD2.0 ^h| LOD2.1 ^h| LOD2.2
+|
+徒歩道内（車道、歩道、分離帯）の高さは、横断方向に同一（全て車道の高さ）となる。
+
+立体交差が表現できる。
+
+image::../../sources/images/tran_Acquire_lod20_height.png[]
+
+|
+徒歩道の横断方向に存在する15㎝以上の高さの差を取得する。
+
+. 15㎝以上の段は、段の形状を取得する。
++
+image::../../sources/images/tran_Acquire_lod21_height_01.png[]
+
+. 15㎝以上のスロープは、スロープの形状を取得する。
++
+image::../../sources/images/tran_Acquire_lod21_height_02.png[]
+
+. 高さの差が15㎝未満の段が複数あり、合計15㎝以上の高さの差がある場合は、スロープとして取得する。
++
+image::../../sources/images/tran_Acquire_lod21_height_03.png[]
+
+歩道と車道との間や車道と島との間に存在する縁石による段を表現できる。
+
+|
+徒歩道の横断方向に存在する2㎝以上の高さの差を取得する。
+
+. 2㎝以上の段は、段の形状を取得する。
++
+image::../../sources/images/tran_Acquire_lod22_height_01.png[]
+
+. 2㎝以上のスロープは、スロープの形状を取得する。
++
+image::../../sources/images/tran_Acquire_lod22_height_02.png[]
+
+. 高さの差が2㎝未満の段が複数あり、合計2㎝以上の高さの差がある場合は、スロープとして取得する。
++
+image::../../sources/images/tran_Acquire_lod22_height_03.png[]
+
+歩道に設けられた切り下げ部に存在する段が表現できる。
+
+image::../../sources/images/tran_Acquire_lod22_height_04.png[]
+
+|===
+

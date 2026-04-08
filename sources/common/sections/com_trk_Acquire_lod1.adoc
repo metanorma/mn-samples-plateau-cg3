@@ -1,0 +1,37 @@
+[cols="1a,3a,3a",options="noheader"]
+.交通（徒歩道）モデル（LOD1）の取得イメージ
+|===
+h| LOD 2+^h| LOD1
+h| 取得例
+^.^|
+.徒歩道全幅として表現
+image::../../sources/images/trk_Acquire_lod10_01.png[]
+^.^|
+.歩道と車道を区分し表現
+image::../../sources/images/trk_Acquire_lod10_02.png[]
+
+h| 説明
+2+| granularityがwayかつ徒歩道全幅として表現する場合は、 +
+徒歩道縁により囲まれた範囲を面としてTrafficAreaで取得し、以下の場所で区切る。
+
+* 交差部（四差路、多差路及び三差路）
+* 道路構造（トンネル、橋梁）が変化する場所
+* 位置正確度や取得方法が変わる場所
+
+granularityがwayかつ歩道と車道を区分し表現する場合は、 +
+徒歩道縁により囲まれた範囲を面としてTrafficArea又はAuxiliaryTrafficAreaで取得し、面を以下に区分する。
+
+* 車道部
+* 車道交差部
+* 歩道部
+* 島
+
+granularityがlaneで表現する場合は、 +
+車道の区分を細分する。車道部のうち、車線を区分する。 +
+高さは0とする。 +
+　 +
+交通空間（TrafficSpace）はTrafficAreaを底面とし、底面から一律の高さで上向きに押し出した立体として表現できる。このとき、一律の高さは建築限界の最高高さを原則とする。 +
+また、交通補助空間（AuxiliaryTrafficSpace）はAuxiliaryTrafficAreaを底面とし、底面から一律の高さで上向きに押し出した立体として表現できる。このとき、一律の高さは建築限界の最高高さを原則とする。 +
+さらに、離隔空間（ClearanceSpace）はTrafficSpaceの上面を底面とし、底面から一律の高さで上向きに押し出した立体を作成する。このとき、一律の高さは、無人航空機が飛行可能な高さを原則とする。
+
+|===

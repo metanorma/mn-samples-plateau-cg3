@@ -1,0 +1,25 @@
+[cols="4a,9a,9a,9a,9a",options="noheader"]
+.地下埋設物モデル・外部（LOD3）の取得イメージ
+|===
+h| LOD 4+^h| LOD3
+h| 取得例
+^.^|
+image::../../sources/images/unf_Acquire_lod30_out_01.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod30_out_02.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod30_out_03.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod30_out_04.png[]
+
+h| 説明
+| 管路の外形を構成する面を取得する。 +
+なお、複数まとまって埋設されている管路も、個々の管路の外形を構成する面を取得する。
+| 構造物の外形を構成する面を取得する。 
+なお、構造物に格納されている管路も、個々の管路の外形を構成する面を取得する。
+| 弁栓類、ガバナ等の設備の外形を構成する面を取得する。
+| マンホール・ハンドホール本体の外形を構成する面を取得する。
+
+
+|===
+

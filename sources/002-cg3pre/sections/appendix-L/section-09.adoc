@@ -1,0 +1,100 @@
+[[tocL_09]]
+=== 橋梁の境界面
+
+橋梁の境界面は、境界面を表す地物型であるcon:AbstractConstructionSurfaceを用いる。
+
+con:AbstractConstructionSurfaceは、Constructionモジュールに定義されているため、接頭辞はconとなる。
+
+Constructionモジュール、Buildingモジュール、Bridgeモジュール及びTunnelモジュールに定義された各地物型は、con:AbstractConstructionSurfaceを使用する。
+
+Bridgeモジュールの場合、橋梁（brid:Bridge）、橋梁の部分（brid:BridgePart）、橋梁の付属物（brid:BridgeInstallation）、橋梁の内部空間（brid:BridgeRoom）及び橋梁部材（brid:BridgeConstructiveElement）は、con:AbstractConstructionSurfaceを用いて、その境界面を地物として区分できる。 +
+ただし、con:AbstractConstructionSurfaceは抽象地物であり、実装においては、この下位型の具象となる地物型を使用する。
+
+
+// 閉鎖面（core:ClosureSurface）はcore:AbstractThematicSurfaceの下位型のためここでは対象外？もしくは別枠を設ける？
+[requirement]
+.con:AbstractConstructionSurfaceの種類
+====
+[%metadata]
+identifier:: /req/brid/10
+subject:: 妥当な橋梁データセットの要件
+description:: con:AbstractConstructionSurfaceは、屋根面（con:RoofSurface）、外壁面（con:WallSurface）、底面（con:GroundSurface）、外部天井面（con:OuterCeilingSurface）、外部床面（con:OuterFloorSurface）、閉鎖面（core:ClosureSurface）、天井面（con:CeilingSurface）、床面（con:FloorSurface）及び内壁面（con:InteriorSurface）のいずれかとなる。
+====
+
+CityGMLでは、橋梁の境界面としてcon:AbstractConstructionSurfaceの下位型となる地物型が用意されている。地物型には、屋根面や外壁面、底面などがあるが、これら境界面の空間属性は、橋梁の形状を表す立体又は多曲面を構成する面に一致する。
+
+
+[[tocL_09_01]]
+==== 境界面の空間属性
+
+屋根、外壁等の境界面となる地物型の空間属性（面）は、橋梁及び橋梁部分の立体を構成する境界面に一致する。
+
+
+[requirement]
+.橋梁の境界面参照条件
+====
+[%metadata]
+identifier:: /req/brid/11
+subject:: 妥当な橋梁データセットの要件
+description:: 橋梁及び橋梁部分の立体又は多曲面を構成する境界面は、境界面の空間属性を構成する幾何オブジェクトを参照しなければならない。
+====
+
+
+[[tocL_09_02]]
+==== 境界面の下位型
+
+
+[[tocL_09_02_01]]
+===== con:RoofSurface
+
+con:RoofSurfaceは、橋梁の屋根面を記述するために使用する地物型である。
+
+
+[[tocL_09_02_02]]
+===== con:WallSurface
+
+con:WallSurfaceは、橋梁の壁面を記述するために使用する地物型である。
+
+
+[[tocL_09_02_03]]
+===== con:GroundSurface
+
+con:GroundSurfaceは、橋梁の底面を記述するために使用する地物型である。
+
+
+[[tocL_09_02_04]]
+===== con:OuterFloorSurface
+
+con:OuterFloorSurfaceは橋梁の外側を覆う部分であり、通行可能な床面としての機能を有する部分の記述に使用する地物型である。
+
+
+// ほかの境界面と継承元が違うのでこの並びで問題ないか
+[[tocL_09_02_05]]
+===== core:ClosureSurface
+
+core:ClosureSurfaceは、橋梁部分を用いて橋梁を複数に分ける場合に、その境界面として利用する仮想的な面である。また、建屋がある橋梁について開口部が存在するが、開口部内の詳細なデータ作成が不要である場合に、開口部を閉じるために使用できる。
+
+
+[[tocL_09_02_06]]
+===== con:OuterCeilingSurface
+
+con:OuterCeilingSurfaceは、橋梁の外側を覆う部分であり、天井としての機能を有する面を記述するために使用する地物型である。
+
+
+[[tocL_09_02_07]]
+===== con:CeilingSurface
+
+con:CeilingSurfaceは、橋梁の内部空間の天井面を記述するために使用する地物型である。
+
+
+[[tocL_09_02_08]]
+===== con:InteriorWallSurface
+
+con:InteriorWallSurfaceは、橋梁の内部空間の区画を区切る壁や仕切りとしての機能を有する面を記述するために使用する地物型である。
+
+
+[[tocL_09_02_09]]
+===== con:FloorSurface
+
+con:FloorSurfaceは、橋梁の内部空間の下面に位置する水平で平らな板状の構造物（床面）を記述するために使用する地物型である。
+

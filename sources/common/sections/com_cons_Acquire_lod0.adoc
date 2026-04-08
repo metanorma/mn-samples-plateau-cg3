@@ -1,0 +1,16 @@
+[cols="1a,3a,3a",options="noheader"]
+.その他の構造物モデル（LOD0）の取得イメージ
+|===
+h| LOD ^h| LOD0.0 ^h| LOD0.1
+h| 取得例
+^.^|
+image::../../sources/images/cons_Acquire_lod00.png[width="150"]
+^.^|
+image::../../sources/images/cons_Acquire_lod01.png[width="150"]
+
+h| 説明
+| 構造物の正射影の外周を取得する。
+| LOD0.0は構造物の正射影の外周を取得するが、LOD0.1では接地面の正射影の外周か構造物の正射影の外周かを区別して取得する。構造物の正射影の外周の場合は、RoofSurfaceに空間属性を持たせ、接地面の正射影の外周の場合はGroundSurfaceに空間属性を持たせることで区分する。
+
+|===
+

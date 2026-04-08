@@ -1,0 +1,14 @@
+[[tocT]]
+[appendix]
+== 妥当な水部オブジェクト
+
+include::../sections/appendix-T/section-01.adoc[]
+
+include::../sections/appendix-T/section-02.adoc[]
+
+include::../sections/appendix-T/section-03.adoc[]
+
+include::../sections/appendix-T/section-04.adoc[]
+
+include::../sections/appendix-T/section-05.adoc[]
+

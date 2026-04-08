@@ -1,0 +1,13 @@
+[cols="1a,9a",options="noheader"]
+.区域モデル（LOD1）の取得イメージ
+|===
+h|LOD ^h| LOD1
+h| 取得例
+^.^|
+image::../../sources/images/area_Acquire_lod10.png[width="400"]
+
+h| 説明
+| 区域の境界により囲まれた面を取得する。 +
+高さは0とする。
+
+|===

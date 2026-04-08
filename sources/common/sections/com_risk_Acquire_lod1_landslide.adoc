@@ -1,0 +1,13 @@
+[cols="1a,9a",options="noheader"]
+.災害リスク（土砂災害）モデル（LOD1）の取得イメージ
+|===
+h| LOD ^h| LOD1
+h| 取得例
+^.^|
+image::../../sources/images/risk_Acquire_lod10_landslide.png[width="230"]
+
+h| 説明
+| 土砂災害警戒区域及び土砂災害特別警戒区域に指定された範囲を取得する。 +
+高さは0とする。
+
+|===

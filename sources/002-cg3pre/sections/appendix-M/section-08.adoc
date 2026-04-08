@@ -1,0 +1,57 @@
+[[tocM_08]]
+=== tun:TunnelFurniture
+
+tun:TunnelFurnitureは、トンネル内部の区画に配置された、可動設備を記述するために用いる。tun:IntTunnelInstallationが、トンネル内部に設置された恒久的かつ固定的な設備であることと対照的に、tun:TunnelFurnitureは椅子や机のような、動かすことができる（位置が固定されない）設備である。
+
+以下の設備のうち、固定されていない設備を対象とする。
+
+受変電設備、予備電源設備、排水設備、換気設備、排水設備、監視制御設備、通報装置、非常用警報装置、消火設備、避難誘導設備、その他。
+
+ただし、ユースケースの要求に応じて、取得対象とする可動設備を限定してよい。
+
+
+[[tocM_08_01]]
+==== トンネル内部の可動設備の空間属性
+
+
+[[tocM_08_01_01]]
+===== LOD0
+
+tun:TunnelFurnitureは多曲面（core:lod0MultiSurface）として表現する。
+
+
+[[tocM_08_01_02]]
+===== LOD1
+
+tun:TunnelFurnitureは立体（core:lod1Solid）として表現する。
+
+
+[[tocM_08_01_03]]
+===== LOD2
+
+tun:TunnelFurnitureは多曲面（core:lod2MultiSurface）として表現する。
+
+
+[[tocM_08_01_04]]
+===== LOD3
+
+tun:TunnelFurnitureは多曲面（core:lod3MultiSurface）として表現する。
+
+
+[requirement]
+.tun:TunnelFurnitureの空間属性タイプ
+====
+[%metadata]
+identifier:: /req/tun/12
+subject:: 妥当なトンネルデータセットの要件
+description:: tun:TunnelFurnitureの空間属性の空間属性の型には、LODに応じた型を選択する。
+part:: LOD0：gml:MultiSurfaceを使用する。
+part:: LOD1：gml:Solidとする。
+part:: LOD2：gml:MultiSurfaceを使用する。
+part:: LOD3：gml:MultiSurfaceを使用する。
+====
+
+ある程度の広がりをもつ地物は、曲面の集まり又は立体を使用する。CityGMLでは、曲面や立体だけではなく、点や曲線も使用可能である。しかしながら3D都市モデルでは、3次元での利用を想定し、可動設備の形状に使用可能な幾何オブジェクトを曲面又は立体に限定する。
+
+LOD1の場合は、立体（gml:Solid）を使用しなければならない。LOD0、LOD2及びLOD3は、面の集まり（gml:MultiSurface）を使用する。
+

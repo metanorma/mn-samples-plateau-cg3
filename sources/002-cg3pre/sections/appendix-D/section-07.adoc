@@ -1,0 +1,24 @@
+[[tocD_07]]
+=== 道路の区切りを表す地物型
+
+tran:Section及びtran:Intersectionは、道路の区切りを地物型である。
+
+* tran:Sectionは、区間を表す。
+* tran:Intersectionは、交差点を表す。
+
+tran:Section及びtran:Intersectionは、tran:Roadの部品であり、道路の空間を表す地物型であるtran:TrafficSpace及びtran:AuxiliaryTrafficSpaceの集まりとなる。
+
+
+[[tocD_07_01]]
+==== tran:Section及びtran:Intersectionの記述
+
+tran:Section及びtran:Intersectionは、自身を構成するtran:TrafficSpace及びtran:AuxiliaryTrafficSpaceを部品として記述する、または、外部参照により記述する。
+
+交差点や重用区間のように、複数の道路が重なる場所では、外部参照を用いることでtran:Section及びtran:Intersectionが、同じtran:TrafficSpace及びtran:AuxiliaryTrafficSpaceを部品として持つことができる。
+
+
+[[tocD_07_02]]
+==== tran:Section及びtran:Intersectionの空間属性
+
+tran:Section及びtran:Intersectionは、tran:TrafficSpace及びtran:AuxiliaryTrafficSpaceの集まりとなり、それ自身で空間属性をもたない。
+

@@ -1,0 +1,60 @@
+[[tocL_05]]
+=== brid:BridgeRoom
+
+brid:BridgeRoomは、橋梁の内部空間の記述に使用する地物型である。 +
+brid:BridgeRoomは、橋梁と一体的な建屋があり、人や物の出入りが可能な場合に、その内部空間を表現するため使用する。 +
+すなわち、brid:BridgeRoomが出現するのは、橋梁モデルにおける内部LODのみである。
+
+brid:BridgeRoomは、brid:Bridge又はbrid:BridgePartに含まれる地物として記述する。 +
+このとき、brid:BridgeRoomは、複数の地物の集まりとして表現することができる。brid:BridgeRoomに含むことができる地物とは、以下である。
+
+* 内部空間を区切る境界面（con:AbstractConstructionSurfaceの下位型）
+* 内部空間に付属する固定的な設備（brid:BridgeInstallation）
+* 内部空間に設置された可動設備（brid:BridgeFurniture）
+
+
+[[tocL_05_01]]
+==== 橋梁内部空間の空間属性
+
+
+[[tocL_05_01_01]]
+===== LOD0
+
+brid:BridgeRoomは多曲面（core:lod0MultiSurface）又は線（core:lod0MultiCurve）として表現する。ただし、原則として多曲面を使用する。 +
+このとき、面の境界となる線は、天井面（con:CeilingSurface）、床面（con:FloorSurface）、内壁面（con:InteriorWallSurface）、閉鎖面（core:ClosureSurface）、扉面（con:DoorSurface）又は窓面（con:WindowSurface）のいずれかとして表現することができる。
+
+
+[[tocL_05_01_02]]
+===== LOD1
+
+brid:BridgeRoomは立体（core:lod1Solid）として表現する。 +
+このとき、立体の境界面は、天井面（con:CeilingSurface）、床面（con:FloorSurface）、内壁面（con:InteriorWallSurface）、閉鎖面（core:ClosureSurface）、扉面（con:DoorSurface）又は窓面（con:WindowSurface）のいずれかとして表現することができる。
+
+
+[[tocL_05_01_03]]
+===== LOD2
+
+brid:BridgeRoomは立体（core:lod2Solid）として表現する。 +
+このとき、立体の境界面は、天井面（con:CeilingSurface）、床面（con:FloorSurface）、内壁面（con:InteriorWallSurface）、閉鎖面（core:ClosureSurface）、扉面（con:DoorSurface）又は窓面（con:WindowSurface）のいずれかとして表現することができる。
+
+
+[[tocL_05_01_04]]
+===== LOD3
+
+brid:BridgeRoomは立体（core:lod3Solid）として表現する。 +
+このとき、立体の境界面は、天井面（con:CeilingSurface）、床面（con:FloorSurface）、内壁面（con:InteriorWallSurface）、閉鎖面（core:ClosureSurface）、扉面（con:DoorSurface）又は窓面（con:WindowSurface）のいずれかとして表現することができる。
+
+橋梁モデルにおいて、橋梁の内部空間の形状を表す立体の境界面を、境界面を表す地物に区分する場合、橋梁の内部空間の形状を表す立体又は多曲面を構成する面は、境界面の形状を表す幾何オブジェクトを外部参照しなければならない。
+
+
+[requirement]
+.境界面ポリゴンの条件
+====
+[%metadata]
+identifier:: /req/brid/7
+subject:: 妥当な橋梁データセットの要件
+description:: brid:BridgeRoomを区切る境界面を記述する場合、brid:BridgeRoomの空間属性であるgml:Solidの境界面を構成するgml:Polygonは、以下のいずれかの地物型の幾何オブジェクトに含まれなければならない。
+part:: con:boundaryによりこのbrid:BridgeRoomが参照する境界面（con:AbstractConstructionSurface）の下位型
+part:: con:boundaryによりこのbrid:BridgeRoomが参照する、又は、con:fillingSurfaceにより境界面が参照する開口部の境界面（con:AbstructFillingSurface）の下位型
+====
+

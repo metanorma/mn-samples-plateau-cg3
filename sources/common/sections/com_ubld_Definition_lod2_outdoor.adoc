@@ -1,0 +1,137 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD2
+|●
+|UndergroundBuilding
+|lod2Solid
+|GM_Solid
+|
+|
+* 屋根面（RoofSurface）、外壁面（WallSurface）、屋外床面（OuterFloorSurface）、屋外天井面（OuterCeilingSurface）、底面（GroundSurface）、閉鎖面（ClosureSurface）、扉面（DoorSurface）及び窓面（WindowSurface）を境界面とする立体を作成する。
+|
+
+|LOD2
+|●
+|RoofSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 地下街の外形を取得し、上向き面を屋根面（RoofSurface）とする。
+* 面を構成する各頂点にそれぞれの高さを与える。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD2
+|●
+|WallSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 地下街の外形を取得し、屋根面（RoofSuface）及び底面（GroundSurface）以外の面を外壁面（WallSurface）とする。
+* 面を構成する各頂点にそれぞれの高さを与える。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD2
+|●
+|GroundSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|全て対象
+|
+* 地下街の外形を取得し、下向き面を底面（GroundSurface）とする。
+* 面を構成する各頂点にそれぞれの高さを与える。
+|
+
+|LOD2
+|
+|OuterFloorSurface
+|
+|
+|
+|
+|対象外
+
+|LOD2
+|
+|OuterCeilingSurface
+|
+|
+|
+|
+|対象外
+
+|LOD2
+|■
+|ClosureSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|地下街への出入り口となる開口部
+|
+* 地下街の外形と地表面との交線により囲まれた面を取得する。
+|地上に設置された地下街出入口の建屋は都市設備（CityFurniture）として取得する。
+
+|LOD2
+|
+|BuildingInstallation
+|
+|
+|
+|
+|対象外
+
+|LOD2
+|〇
+|DoorSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|短辺の実長1m以上
+|
+* 扉の外周を取得する。
+|
+
+|LOD2
+|〇
+|WindowSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|短辺の実長1m以上
+|
+* 窓の外周を取得する。
+|
+
+|LOD2
+|
+|Door
+|
+|
+|
+|
+|対象外
+
+|LOD2
+|
+|Window
+|
+|
+|
+|
+|対象外
+
+|LOD2
+|
+|BuildingConstructiveElement
+|
+|
+|
+|
+|対象外
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

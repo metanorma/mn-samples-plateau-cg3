@@ -1,0 +1,80 @@
+[[toc4_29]]
+=== バージョニングモデルの応用スキーマ
+
+Versioningモジュールは、3D都市モデルの更新情報を、同一データセット内に複数の版として保持し、版間の差分（更新内容）を表現する方法を規定している。
+
+[[toc4_29_01]]
+==== バージョニングモデルのLOD
+
+バージョニングは自身の空間属性をもたないため、LODは定義しない。
+
+[[toc4_29_02]]
+==== バージョニングモデルの応用スキーマクラス図
+
+Versionは、3D都市モデルの版を定義する地物型であり、VersionTransitionは、ある版から別の版への遷移を定義する地物型である。
+Transactionは、3D都市モデルの具体的な更新内容を定義するデータ型である。
+
+[[toc4_29_02_01]]
+===== Versioning（CityGML）
+
+[[fig-4-29-1]]
+image::../../sources/images/EAID_30A8A476_A964_45dd_9D4D_50B2B425901C.png[]
+
+
+[[toc4_29_03]]
+==== バージョニングモデルの応用スキーマ文書
+
+[[toc4_29_03_01]]
+===== Versioning（CityGML）
+
+[[toc4_29_03_01_01]]
+====== Version
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Versioning",name="Version",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_29_03_01_02]]
+====== VersionTransition
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Versioning",name="VersionTransition",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_29_03_01_03]]
+====== Transaction
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Versioning",name="Transaction",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+
+[[toc4_29_04]]
+==== バージョニングモデルで使用するコードリストと列挙型
+
+[[toc4_29_04_01]]
+===== Versioning（CityGML）
+
+[[TransactionTypeValue]]
+====== TransactionTypeValue
+
+[cols="a,a"]
+|===
+| 列挙型 | TransactionTypeValue
+
+h| 値 h| 説明
+| insert | 作成
+| delete | 廃止
+| replace | 置換
+
+|===
+
+[[TransitionTypeValue]]
+====== TransitionTypeValue
+
+[cols="a,a"]
+|===
+| 列挙型 | TransitionTypeValue
+
+h| 値 h| 説明
+| planned | 後続バージョニングの都市モデルが、都市の将来のあり得る状態に対する計画案を表す遷移である。
+| realized | 先行バージョニングが、複数の計画バージョニングの中から選択されたものであることを示す遷移である。
+| historicalSuccession | 後続バージョニングが、時間の経過に伴う都市モデルの更新履歴を表す遷移である。これは、一つの都市モデルのバージョニングから出るバージョニング遷移のうち、最大一つにのみ使用する。
+| fork | 異なる主体が都市モデルの異なる部分を更新する場合や、複数のシミュレーション結果を反映する場合など、代替となる都市モデルのバージョニングを作成するための遷移である。
+| merge | 複数の都市モデルのバージョニングを、共通の一つの都市モデルのバージョニングに統合するための遷移である。
+
+|===

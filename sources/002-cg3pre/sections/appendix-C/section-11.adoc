@@ -1,0 +1,24 @@
+[[tocC_11]]
+=== bldg:BridgeConstructiveElement
+
+bldg:BuildingConstructiveElementは、建築物を構成する部材（建築部材）の記述に使用する地物型である。構造上不可欠な部材である屋根、壁、床版などに加え、付属物である柱、梁などを含める。 +
+bldg:BuildingConstructiveElementは、BIMの標準であるIFCとの整合を考慮し、CityGML3.0において追加された地物型である。IFCに定義された地物に該当するクラスは、bldg:BuildingConstructiveElementに対応づく。
+
+BIMデータは、非常に詳細な形状をもつデータである。そのため、これに対応する地物型であるbldg:BuildingConstructiveElementは、標準作業手順書において、LOD3においてのみ使用することを推奨する。
+
+
+[[tocC_11_01]]
+==== 建築部材の空間属性
+
+
+[[tocC_11_01_01]]
+===== LOD3
+
+bldg:BuildingConstructiveElementは多曲面（core:lod3MultiSurface）又は立体（core:lod3Solid）として表現する。ただし、原則として多曲面を使用する。
+
+
+[[tocC_11_02]]
+==== 建築部材の主題属性
+
+属性bldg:functionを使用して区分する。bldg:functionの区分は、IFCに準じる。
+

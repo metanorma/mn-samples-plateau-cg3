@@ -1,0 +1,130 @@
+[[toc4_20]]
+=== 区域モデルの応用スキーマ
+
+区域とは、一般に、区画された一定の範囲の土地及び水面を意味する。
+
+地域団体の地域的構成範囲（普通地方公共団体の区域）、行政庁の地域的管轄範囲（農業委員会の区域）、公物の地域的限界（道路の区域）、河川区域、土地をその構成部分とする権利の地域的範囲（鉱区）等を示す場合に用いられる。[有斐閣法律用語辞典第4版]
+
+[[toc4_20_01]]
+==== 区域モデルのLOD
+
+標準製品仕様書が対象とする区域モデルのLODは、LOD1とする。
+
+[[toc4_20_01_01]]
+===== 区域モデル（LOD1）
+
+[[toc4_20_01_01_01]]
+====== 区域モデル（LOD1）の概要
+
+区域モデル（LOD1）では、区域の形状を、面により表現する。
+
+区域モデル（LOD1）の取得イメージを<<tab-4-20-1>>に示す。
+
+[[tab-4-20-1]]
+include::../../../common/sections/com_area_Acquire_lod1.adoc[]
+
+[[toc4_20_01_01_02]]
+====== 区域モデル（LOD1）の定義
+
+[[tab-4-20-2]]
+include::../../../common/sections/com_area_Definition_lod10.adoc[]
+
+[[toc4_20_01_02]]
+===== 各LODにおいて使用可能な地物型と空間属性
+
+区域モデルの各LODにおいて使用可能な地物型と空間属性を<<tab-4-20-3>>に示す。
+
+[[tab-4-20-3]]
+include::../../../common/sections/com_area_SpatialAttribute.adoc[]
+
+
+[[toc4_20_02]]
+==== 区域モデルの応用スキーマクラス図
+
+[[toc4_20_02_01]]
+===== Urban Function（i-UR）
+
+[[fig-4-20-1]]
+image::../../sources/images/EAID_18A1CDA3_FEA8_45ff_9237_CDBFAA9F77C0.png[]
+
+
+[[toc4_20_03]]
+==== 区域モデルの応用スキーマ文書
+
+[[toc4_20_03_01]]
+===== Urban Function（i-UR）
+
+[[toc4_20_03_01_01]]
+====== Zone
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="Zone",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_20_03_01_02]]
+====== Boundary
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="Boundary",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_20_03_01_03]]
+====== UrbanParkAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanParkAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_20_03_01_04]]
+====== BreakdownOfNominalArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="BreakdownOfNominalArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_20_03_02]]
+===== データ品質属性
+
+// 引用リンク スキーマ文書　データ品質属性
+include::../../../common/sections/link_schema_DateQuality.adoc[]
+
+
+[[toc4_20_04]]
+==== 区域モデルで使用するコードリストと列挙型
+
+[[toc4_20_04_01]]
+===== Urban Function（i-UR）
+
+[[Zone_function.xml]]
+====== Zone_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Zone_function.xml[template="gml_dict_template.liquid",context=dict]
+
+====== Common_validType.xml
+
+<<Common_validType.xml,都市計画決定情報のコードリスト>>　参照。
+
+====== Boundary_function.xml
+
+<<Boundary_function.xml,都市計画決定情報のコードリスト>>　参照。
+
+====== Common_parkCode.xml
+
+<<Common_parkCode.xml,公園施設長寿命化計画のための拡張属性ののコードリスト>>　参照。
+
+
+[[toc4_20_04_02]]
+===== Urban Core（i-UR）
+
+====== DataQualityAttribute_geometrySrcDesc.xml
+
+<<DataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_thematicSrcDesc.xml
+
+<<DataQualityAttribute_thematicSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_appearanceSrcDesc.xml
+
+<<DataQualityAttribute_appearanceSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_srcScale.xml
+
+<<PublicSurveyDataQualityAttribute_srcScale.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
+
+<<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+

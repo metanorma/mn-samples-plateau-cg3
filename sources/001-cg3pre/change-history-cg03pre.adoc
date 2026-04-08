@@ -1,0 +1,12 @@
+[[doc00_02]]
+[.preface,type=publication-history]
+== 改訂履歴
+
+[cols="9a,6a,50a",options="unnumbered"]
+|===
+| 日付 | 版 | 説明
+
+| 2026.03.26 | 1.0 | 初版発行
+
+|===
+

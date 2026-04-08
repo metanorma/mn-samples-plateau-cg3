@@ -1,0 +1,780 @@
+[[toc4_27]]
+=== データ集合の応用スキーマ
+
+データ集合は地物の集まりである。
+
+
+[[toc4_27_01]]
+==== データ集合のLOD
+
+データ集合は地物の集まりであり、それ自身の空間属性をもたないため、LODは定義しない。
+
+
+[[toc4_27_02]]
+==== データ集合の応用スキーマクラス図
+
+[[toc4_27_02_01]]
+===== Core（CityGML）
+
+Coreパッケージでは、全てのモジュールが継承する基本的な概念と空間属性を定義する。
+
+空間（Space）と境界（SpaceBoundary）という概念により、全ての地物はSpace又はSpaceBoundaryのいずれかに区分される。 +
+Spaceは、論理的な空間（AbstractLogicalSpace）と物理的な空間（AbstractPhysicalSpace）に区分される。さらに、物理的な空間は物により占有される空間（AbstractOccupiedSpace）と物により占有されていない空間（AbstractUnoccupiedSpace）に細分される。また、時間概念をもつ地物（AbstractFeatureWithLifeSpan）により、地物の現実世界での有効期間と、データとしての作成・終了時点を表現可能である。
+
+[[fig-4-27-1]]
+image::../../sources/images/EAID_BA5AEA2E_A3E5_4795_A5B0_B03879BDAE64.png[]
+
+[[fig-4-27-2]]
+image::../../sources/images/EAID_0FCA1673_FDB0_45de_875B_F1733FD7FA88.png[]
+
+[[fig-4-27-3]]
+image::../../sources/images/EAID_C65539B4_B895_4eaa_AAC1_2F0C89A0FD1A.png[]
+
+[[fig-4-27-4]]
+image::../../sources/images/EAID_75EF6666_6265_4572_8AF6_D61387CBC7F4.png[]
+
+[[fig-4-27-5]]
+image::../../sources/images/EAID_FC6FE615_3298_45bd_9FB8_1C58C7C406E7.png[]
+
+[[toc4_27_02_02]]
+===== Urban Object（i-UR）
+
+[[toc4_27_02_02_01]]
+====== IFCの拡張属性
+
+// クラス図削除などで5.1以前は掲載されていた属性が消えている状態です。
+
+[[fig-4-27-6]]
+image::../../sources/images/EAID_0B66D2B9_4F78_48e4_8C0E_235E5362F021.png[]
+
+[[toc4_27_02_03]]
+===== Urban Core （i-UR）
+
+[[toc4_27_02_03_01]]
+====== データ品質
+
+[[fig-4-27-7]]
+image::../../sources/images/EAID_631F43D3_30E4_4fb2_ACAA_7E46C158D314.png[]
+
+
+
+[[toc4_27_03]]
+==== データ集合の応用スキーマ文書
+
+[[toc4_27_03_01]]
+===== Core（CityGML）
+
+[[toc4_27_03_01_01]]
+====== CityModel
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="CityModel",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_02]]
+====== ClosureSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="ClosureSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_03]]
+====== Address
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="Address",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_04]]
+====== XALAddress
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="XALAddress",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_05]]
+====== ExternalReference
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="ExternalReference",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_06]]
+====== Occupancy
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="Occupancy",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_07]]
+====== QualifiedArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="QualifiedArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_08]]
+====== QualifiedVolume
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="QualifiedVolume",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+// [[toc4_27_03_01_09]]
+// ====== CityObjectRelation
+
+// ※uml:AssociationClass（関連クラス）のためklass非対応の可能性あり
+
+// lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="CityObjectRelation",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+// ※↓↓↓ObjectType・Union・BasicTypeは掲載するか要確認↓↓↓※
+
+[[toc4_27_03_01_10]]
+====== ImplicitGeometry
+
+// 9章でも記載あり
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="ImplicitGeometry",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_11]]
+====== CityModelMember
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="CityModelMember",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_12]]
+====== DoubleOrNilReason
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="DoubleOrNilReason",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_13]]
+====== NilReason
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="NilReason",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_14]]
+====== Code
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="Code",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_15]]
+====== DoubleBetween0and1
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="DoubleBetween0and1",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_16]]
+====== DoubleBetween0and1List
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="DoubleBetween0and1List",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_17]]
+====== DoubleList
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="DoubleList",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_18]]
+====== DoubleOrNilReasonList
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="DoubleOrNilReasonList",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_19]]
+====== ID
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="ID",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_20]]
+====== IntegerBetween0and3
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="IntegerBetween0and3",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_21]]
+====== MeasureOrNilReasonList
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="MeasureOrNilReasonList",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_22]]
+====== TransformationMatrix2x2
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="TransformationMatrix2x2",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_23]]
+====== TransformationMatrix3x4
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="TransformationMatrix3x4",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_01_24]]
+====== TransformationMatrix4x4
+
+// 9章でも記載あり
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="TransformationMatrix4x4",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_03]]
+===== Urban Core （i-UR）
+
+[[toc4_27_03_03_01]]
+====== DataQualityAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="DataQualityAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_03_02]]
+====== ExteriorDataQualityAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="ExteriorDataQualityAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_03_03]]
+====== InteriorDataQualityAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="InteriorDataQualityAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_03_04]]
+====== PublicSurveyDataQualityAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="PublicSurveyDataQualityAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+
+[[toc4_27_03_02]]
+===== Urban Object（i-UR）
+
+本項では、IDM・MVDで定義されるIFCに含まれる情報を保持するためのデータ型の定義を示す。各データ型は、IFCのクラス又はプロパティセットに対応づく。
+
+[[toc4_27_03_02_01]]
+====== IfcAxis2Placement3D
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcAxis2Placement3D",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_02]]
+====== IfcBuilding
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcBuilding",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_03]]
+====== IfcBuildingElement
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcBuildingElement",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_04]]
+====== IfcBuildingStorey
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcBuildingStorey",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_05]]
+====== IfcClassification
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcClassification",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_06]]
+====== IfcClassificationReference
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcClassificationReference",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_07]]
+====== IfcCoordinateReferenceSystem
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcCoordinateReferenceSystem",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_08]]
+====== IfcCoordinateReferenceSystemSelect
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcCoordinateReferenceSystemSelect",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_09]]
+====== IfcCurtainWall
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcCurtainWall",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_10]]
+====== IfcDoor
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcDoor",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_11]]
+====== IfcFurnishingElement
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcFurnishingElement",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_12]]
+====== IfcGeometricRepresentationContext
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcGeometricRepresentationContext",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_13]]
+====== IfcGroup
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcGroup",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_14]]
+====== IfcMapConversion
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcMapConversion",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_15]]
+====== IfcOpeningElement
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcOpeningElement",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_16]]
+====== IfcProject
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_17]]
+====== IfcProjectedCRS
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcProjectedCRS",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_18]]
+====== IfcPsetBuildingCommon
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcPsetBuildingCommon",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_19]]
+====== IfcPsetDoorCommon
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcPsetDoorCommon",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_20]]
+====== IfcPsetOpeningElementCommon
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcPsetOpeningElementCommon",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_21]]
+====== IfcPsetSiteCommon
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcPsetSiteCommon",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_22]]
+====== IfcPsetSpaceCommon
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcPsetSpaceCommon",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_23]]
+====== IfcPsetWindowCommon
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcPsetWindowCommon",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_24]]
+====== IfcRoof
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcRoof",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_25]]
+====== IfcSite
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcSite",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_26]]
+====== IfcSpace
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcSpace",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_27]]
+====== IfcSpaceBaseQuantity
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcSpaceBaseQuantity",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_28]]
+====== IfcUnit
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcUnit",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_29]]
+====== IfcWall
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcWall",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_30]]
+====== IfcWallStandardCase
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcWallStandardCase",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_31]]
+====== IfcWindow
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcWindow",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_27_03_02_32]]
+====== IfcZone
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IfcZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+
+[[toc4_27_04]]
+==== データ集合で使用するコードリストと列挙型
+
+[[toc4_27_04_01]]
+===== Core（CityGML）
+
+[[ImplicitGeometry_mimeType.xml]]
+====== ImplicitGeometry_mimeType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ImplicitGeometry_mimeType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[NilReason_nilReasonEnumeration.xml]]
+====== NilReason_nilReasonEnumeration.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/NilReason_nilReasonEnumeration.xml[template="gml_dict_template.liquid",context=dict]
+
+[[QualifiedVolume_typeOfVolume.xml]]
+====== QualifiedVolume_typeOfVolume.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/QualifiedVolume_typeOfVolume.xml[template="gml_dict_template.liquid",context=dict]
+
+[[QualifiedArea_typeOfArea.xml]]
+====== QualifiedArea_typeOfArea.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/QualifiedArea_typeOfArea.xml[template="gml_dict_template.liquid",context=dict]
+
+[[RelativeToTerrain]]
+====== RelativeToTerrain
+
+[cols="a,a"]
+|===
+| 列挙型 | RelativeToTerrain
+
+h| 値 h| 説明
+| entirelyAboveTerrain | 都市オブジェクトが完全に地表面より上に位置している状態。
+| substantiallyAboveTerrain | 都市オブジェクトの大部分が地表面より上に位置している状態。
+| substantiallyAboveAndBelowTerrain | 都市オブジェクトの半分が地表面より上に、半分が地表面より下に位置している状態。
+| substantiallyBelowTerrain | 都市オブジェクトの大部分が地表面より下に位置している状態。
+| entirelyBelowTerrain | 都市オブジェクトが完全に地表面より下に位置している状態。
+
+|===
+
+[[RelativeToWater]]
+====== RelativeToWater
+
+[cols="a,a"]
+|===
+| 列挙型 | RelativeToWater
+
+h| 値 h| 説明
+| entirelyAboveWaterSurface | 都市オブジェクトが完全に水面より上に位置している状態。
+| substantiallyAboveWaterSurface | 都市オブジェクトの大部分が水面より上に位置している状態。
+| substantiallyAboveAndBelowWaterSurface | 都市オブジェクトの半分が水面より上に、半分が水面より下に位置している状態。
+| substantiallyBelowWaterSurface | 都市オブジェクトの大部分が水面より下に位置している状態。
+| entirelyBelowWaterSurface | 都市オブジェクトが完全に水面より下に位置している状態。
+| temporarilyAboveAndBelowWaterSurface | 水位の変動により、都市オブジェクトが一時的に水面より上または下に位置している状態。
+
+|===
+
+[[SpaceType]]
+====== SpaceType
+
+[cols="a,a"]
+|===
+| 列挙型 | SpaceType
+
+h| 値 h| 説明
+| closed | 底部、上部、及びすべての側面が境界で囲まれている空間。
+| open | 最大でも底部にのみ境界を持つ空間。
+| semiOpen | 底部と少なくとも一つの側面に境界を持つ空間。
+
+|===
+
+[[toc4_27_04_02]]
+===== Urban Object（i-UR）
+
+[[IfcBuildingElement_elementType.xml]]
+====== IfcBuildingElement_elementType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/IfcBuildingElement_elementType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<ifc_2x3_cv>>
+
+[[IfcBuildingElement_predefinedType.xml]]
+====== IfcBuildingElement_predefinedType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/IfcBuildingElement_predefinedType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<ifc_2x3_cv>>
+
+
+[[IfcBuildingElement_shapeType.xml]]
+====== IfcBuildingElement_shapeType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/IfcBuildingElement_shapeType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<ifc_2x3_cv>>
+
+[[IfcElementCompositionEnum]]
+====== IfcElementCompositionEnum
+
+[cols="a,a"]
+|===
+| 列挙型 | IfcElementCompositionEnum
+
+h| 値 h| 説明
+| COMPLEX | 通常の単一の建物であればELEMENTを設定
+| ELEMENT | 複数の建物から構成される複合建物の場合はCOMPLEXを設定
+| PARTIAL | 部分的な空間を表現している建物の場合はPARTIALを設定
+
+|===
+
+[.source]
+<<ifc_2x3_cv>>
+
+[[IfcInternalOrExternalEnum]]
+====== IfcInternalOrExternalEnum
+
+[cols="a,a"]
+|===
+| 列挙型 | IfcInternalOrExternalEnum
+
+h| 値 h| 説明
+| INTERNAL | 内部空間
+| EXTERNAL | 外部空間
+| NOTDEFINED | 未定／不明
+
+|===
+
+[.source]
+<<ifc_2x3_cv>>
+
+[[IfcSIPrefix]]
+====== IfcSIPrefix
+
+[cols="a,a"]
+|===
+| 列挙型 | IfcSIPrefix
+
+h| 値 h| 説明
+| EXA | 10の18乗
+| PETA | 10の15乗
+| TERA | 10の12乗
+| GIGA | 10の9乗
+| MEGA | 10の6乗
+| KILO | 10の3乗
+| HECTO | 10の2乗
+| DECA | 10
+| DECI | 10の-1乗
+| CENTI | 10の-2乗
+| MILLI | 10の-3乗
+| MICRO | 10の-6乗
+| NANO | 10の-9乗
+| PICO | 10の-12乗
+| FEMTO | 10の-15乗
+| ATTO | 10の-18乗
+
+|===
+
+[.source]
+<<ifc_2x3_cv>>
+
+[[IfcSlabTypeEnum]]
+====== IfcSlabTypeEnum
+
+[cols="a,a"]
+|===
+| 列挙型 | IfcSlabTypeEnum
+
+h| 値 h| 説明
+| USERDEFINED | 利用者定義
+| NOTDEFINED | 定義なし
+
+|===
+
+[.source]
+<<ifc_2x3_cv>>
+
+[[IfcStairTypeEnum]]
+====== IfcStairTypeEnum
+
+[cols="a,a"]
+|===
+| 列挙型 | IfcStairTypeEnum
+
+h| 値 h| 説明
+| STRAIGHTRUNSTAIR | 直線的な階段
+| TWOSTRAIGHTRUNSTAIR | 踊り場が1ヵ所設けられた直線的な階段
+| QUARTERWINDINGSTAIR | 90度転回する階段
+| QUARTERTURNSTAIR | 踊り場1ヵ所で90度転回する直線的な階段
+| HALFWINDINGSTAIR | 90度ずつ2回転回する階段
+| HALFTURNSTAIR | 踊り場1ヵ所で180度転回する直線的な階段
+| TWOQUARTERWINDINGSTAIR | 90度ずつ2回転回する階段
+| TWOQUARTERTURNSTAIR | 踊り場2ヵ所で90度ずつ転回する直線的な階段
+| THREEQUARTERWINDINGSTAIR | 90度ずつ3回転回する階段
+| THREEQUARTERTURNSTAIR | 踊り場3ヵ所で90度ずつ転回する直線的な階段
+| SPIRALSTAIR | らせん階段
+| DOUBLERETURNSTAIR | 踊り場につながる1つの広い階段と、90度転回して反対方向への2つの側方への階段を含む階段
+| CURVEDRUNSTAIR | 1つの湾曲した階段
+| TWOCURVEDRUNSTAIR | 踊り場が1ヵ所ある2つの曲線階段
+| OTHEROPERATION | 利用者定義
+| NOTDEFINED | 定義なし
+
+|===
+
+[.source]
+<<ifc_2x3_cv>>
+
+[[IfcStairFlightTypeEnum]]
+====== IfcStairFlightTypeEnum
+
+[cols="a,a"]
+|===
+| 列挙型 | IfcStairFlightTypeEnum
+
+h| 値 h| 説明
+| StraightRunStair | 直線的な階段
+| STRAIGHT | 直線
+| WINDER | 直線部分と曲線部分
+| SPIRAL | 螺旋
+| CURVED | 湾曲
+| FREEFORM | 自由形式
+| USERDEFINED | 利用者定義
+| NOTDEFINED | 未定義
+
+|===
+
+[.source]
+<<ifc_2x3_cv>>
+
+[[IfcStateEnum]]
+====== IfcStateEnum
+
+[cols="a,a"]
+|===
+| 列挙型 | IfcStateEnum
+
+h| 値 h| 説明
+| READWRITE | 読み取り/書き込み状態。アプリケーションにより変更される場合がある。
+| READONLY | 読み取り専用状態。アプリケーションで表示可、変更不可。
+| LOCKED | ロック状態。アプリケーションからアクセスできない場合がある。
+| READWHITELOCKED | 読み取り/書き込みロック状態。アプリケーションからアクセスできない場合がある。
+| READONLYLOCKED | 読み取り専用ロック状態。アプリケーションからアクセスできない場合がある。
+
+|===
+
+[.source]
+<<ifc_2x3_cv>>
+
+[[IfcUnitEnum]]
+====== IfcUnitEnum
+
+[cols="a,a"]
+|===
+| 列挙型 | IfcUnitEnum
+
+h| 値 h| 説明
+| ABSORBEDDOSEUNIT | 吸収線量
+| AMOUNTOFSUBSTANCEUNIT | 物質量
+| AREAUNIT | 面積
+| DOSEEQUIVALENTUNIT | 線量当量
+| ELECTRICCAPACITANCEUNIT | 電気容量
+| ELECTRICCHARGEUNIT | 電荷
+| ELECTRICCONDUCTANCEUNIT | 電気伝導度
+| ELECTRICCURRENTUNIT | 電流
+| ELECTRICRESISTANCEUNIT | 電気抵抗
+| ELECTRICVOLTAGEUNIT | 電圧
+| ENERGYUNIT | エネルギー
+| FORCEUNIT | 力
+| FREQUENCYUNIT | 周波数
+| ILLUMINANCEUNIT | 照度
+| INDUCTANCEUNIT | インダクタンス
+| LENGTHUNIT | 長さ
+| LUMINOUSFLUXUNIT | 光束
+| LUMINOUSINTENSITYUNIT | 光度
+| MAGNETICFLUXDENSITYUNIT | 磁束密度
+| MAGNETICFLUXUNIT | 磁力線
+| MASSUNIT | 質量
+| PLANEANGLEUNIT | 平面角
+| POWERUNIT | 動力
+| PRESSUREUNIT | 圧力
+| RADIOACTIVITYUNIT | 放射能
+| SOLIDANGLEUNIT | 立体角
+| THERMODYNAMICTEMPERATUREUNIT | 熱力学温度
+| TIMEUNIT | 時間
+| VOLUMEUNIT | 体積
+| USERDEFINED | 利用者定義
+
+|===
+
+[.source]
+<<ifc_2x3_cv>>
+
+[[IfcTransportElementTypeEnum]]
+====== IfcTransportElementTypeEnum
+
+[cols="a,a"]
+|===
+| 列挙型 | IfcTransportElementTypeEnum
+
+h| 値 h| 説明
+| ELEVATOR | エレベータ
+| ESCALATOR | エスカレータ
+| MOVINGWALKWAY | 動く歩道
+| USERDEFINED | 利用者定義
+| NOTDEFINED | 未定義
+
+|===
+
+[.source]
+<<ifc_2x3_cv>>
+
+[[toc4_27_04_03]]
+===== Urban Core （i-UR）
+
+[[DataQualityAttribute_geometrySrcDesc.xml]]
+====== DataQualityAttribute_geometrySrcDesc.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/DataQualityAttribute_geometrySrcDesc.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_ops>>
+
+[.source]
+<<plateau_002>>
+
+[.source]
+<<plateau_010>>
+
+[[DataQualityAttribute_thematicSrcDesc.xml]]
+====== DataQualityAttribute_thematicSrcDesc.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/DataQualityAttribute_thematicSrcDesc.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_ops>>
+
+[.source]
+<<plateau_002>>
+
+[.source]
+<<plateau_010>>
+
+
+[[DataQualityAttribute_appearanceSrcDesc.xml]]
+====== DataQualityAttribute_appearanceSrcDesc.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/DataQualityAttribute_appearanceSrcDesc.xml[template="gml_dict_template.liquid",context=dict]
+
+
+[[DataQualityAttribute_lod1HeightType.xml]]
+====== DataQualityAttribute_lod1HeightType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/DataQualityAttribute_lod1HeightType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_building_data_manual>>
+
+
+[[Common_granularity.xml]]
+====== Common_granularity.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_granularity.xml[template="gml_dict_template.liquid",context=dict]
+
+
+[[DataQualityAttribute_lod0AcquisitionCriterion.xml]]
+====== DataQualityAttribute_lod0AcquisitionCriterion.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/DataQualityAttribute_lod0AcquisitionCriterion.xml[template="gml_dict_template.liquid",context=dict]
+
+
+[[DataQualityAttribute_hasError.xml]]
+====== DataQualityAttribute_hasError.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/DataQualityAttribute_hasError.xml[template="gml_dict_template.liquid",context=dict]
+
+
+[[PublicSurveyDataQualityAttribute_srcScale.xml]]
+====== PublicSurveyDataQualityAttribute_srcScale.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PublicSurveyDataQualityAttribute_srcScale.xml[template="gml_dict_template.liquid",context=dict]
+
+
+[[PublicSurveyDataQualityAttribute_geometrySrcDesc.xml]]
+====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PublicSurveyDataQualityAttribute_geometrySrcDesc.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_ops>>
+
+[.source]
+<<plateau_010>>

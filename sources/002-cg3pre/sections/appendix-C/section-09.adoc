@@ -1,0 +1,139 @@
+[[tocC_09]]
+=== bldg:ABstractBuildingSubdivision
+
+bldg:AbstractBuildingSubdivisionは、建築物の屋内における論理的な区分を表す地物型であり、部屋（bldg:BuildingRoom）の集まりとして構成される。 +
+ただし、bldg:AbstractBuildingSubdivisionは抽象地物であり、実装においては、この下位型の具象となる地物型を使用する。
+
+
+[requirement]
+.bldg:AbstractBuildingSubdivisionの種類
+====
+[%metadata]
+identifier:: /req/bldg/29
+subject:: 妥当な建築物データセットの要件
+description:: bldg:AbstractBuildingSubdivisionは、階（bldg:Storey）又は区画（bldg:BuildingUnit）のいずれかとなる。
+====
+
+CityGMLでは、建築物の任意の屋内空間を表す地物型としてbldg:AbstractBuildingSubdivisionの下位型が用意されている（<<tab-C-20>>、<<fig-C-23>>）。
+
+[[tab-C-20]]
+[cols="a,a,a"]
+.bldg.AbstractBuildingSubdivisionの下位型
+|===
+| AbstractBuildingSubdivisionの下位型 | 意味 | 説明
+
+| Storey | 階 | 建築物の水平な区分。建築物の構造に基づく定義ではなく、論理的な観点に基づいて定義することもできる。 +
+例：１階、２階、地下１階
+| BuildingUnit | 区画 | 建築物の論理的な区分。機能、所有権、管理、アクセシビリティなど、同質の特性に基づき、形成される。 +
+例：防火区画、食料品売り場、セキュリティエリア
+
+|===
+
+
+[[tocC_09_01]]
+==== AbstractBuildingSubdivisionの空間属性
+
+
+[requirement]
+.bldg:AbstractBuildingSubdivisionの空間属性タイプ
+====
+[%metadata]
+identifier:: /req/bldg/30
+subject:: 妥当な建築物データセットの要件
+description:: bldg:AbstractBuildingSubdivisionは、空間属性をもたないことを原則とする。
+====
+
+bldg:AbstractBuildingSubdivisionは部屋（bldg:BuildingRoom）の集まりにより構成される。そのため、それ自身は空間属性をもたない。
+
+
+[[tocC_09_02]]
+==== bldg:AbstractBuildingSubdivisionの下位型
+
+
+[[tocC_09_02_01]]
+===== bldg:BuildingUnit
+
+区画（bldg:BuildingUnit）は、防火区画やセキュリティエリアのような、建築物の論理的な区分を表す。
+
+bldg:BuildingUnitは、自身を構成する部屋（bldg:BuildingRoom）を参照する（bldg:buildingRoom）。また、複数の階（bldg:Storey）を束ねて、一つのbldg:BuildingUnitとすることもできる。例えば、1階及び2階をオフィス階、3階から6階までを居住階というように区分したい場合に使用できる。
+
+
+[[tocC_09_02_02]]
+===== bldg:Storey
+
+階（bldg:Storey）は、1階、2階、地下1階のように、建築物の水平方向の区分を表す。
+
+bldg:Storeyは、自身を構成する部屋（bldg:BuildingRoom）を参照する（bldg:buildingRoom）。
+
+また、この階に存在する区画（bldg:BuildingUnit）を参照することもできる（bldg:buildingUnit）。
+
+属性gml:nameは、この階を識別する名称である。名称は、例えば、1階、2階、地下1階、M1階というように、その建築物のなかで階を識別するために用いる。
+
+一方、bldg:AbstractBuildingSubdivisionから継承する属性bldg:sortKeyは、階同士の上下関係を把握するために使用する属性である。これは、gml:nameによる名称では必ずしも階の上下が分からないからである。例えば、1階と2階の間にM1階が存在する場合、bldg:sortKeyを用いて、それぞれ1、1.5及び2という値を与えると、この3つの階の上下関係が明らかとなる。
+
+
+[[tocC_09_03]]
+==== bldg:AbstractBuildingSubdivisionの下位型の使用
+
+bldg:AbstractBuildingSubdivisionの下位型であるbldg:BuildingUnitとbldg:Storeyは、双方向に関連をもつ（<<fig-C-45>>）。
+
+これにより、論理的には、区画の中に階を作成し、その階の中に区画を作成し、さらに階を作成する、というように再帰的なデータを作成することが可能である。
+
+しかし、循環参照は複雑なデータ構造や論理的な矛盾を引き起こす可能性がある。
+
+[[fig-C-45]]
+.bldg:AbstractBuildingSubdivisionの関連
+image::../../sources/images/anx_C_045.png[]
+
+そこで、標準作業手順書では、bldg:BuildingUnitとbldg:Storeyの子要素としての出現回数を制限する。
+
+
+[requirement]
+.bldg:BuildingUnitとbldg:Storeyの出現回数
+====
+[%metadata]
+identifier:: /req/bldg/31
+subject:: 妥当な建築物データセットの要件
+description:: bldg:Storeyの子要素であるbldg:BuildingUnitは、bldg:Storeyを子要素としてもってはならない。また、bldg:BuildingUnitの子要素であるbldg:Storeyは、bldg:BuildingUnitを子要素としてもってはならない。
+====
+
+ここで、bldg:BuildingUnitとbldg:Storeyはいずれも、bldg:BuildingRoomをもつことができる。さらに、建築物であるbldg:Buildingもbldg:BuildingRoomをもつことができる。つまり、bldg:BuildingRoomは、bldg:BuildingUnitの子要素、bldg:Storeyの子要素、又はbldg:Buildingの子要素として記述することができる。
+
+このように、bldg:BuildingRoomの記述場所が各様になると、データ管理が煩雑となる。そこで、標準作業手順書では、bldg:BuildingRoomの記述箇所や記述方法を制限する。
+
+
+[requirement]
+.bldg:BuildingUnitによるbldg:BuildingRoomの外部参照
+====
+[%metadata]
+identifier:: /req/bldg/32
+subject:: 妥当な建築物データセットの要件
+description:: bldg:BuildingUnitは、外部参照により、自身を構成するbldg:BuildingRoom及びbldg:Storeyを参照する。
+====
+
+bldg:BuildingUnitの子要素として、bldg:BuildingRoom及びbldg:Storeyの実体は記述せず、bldg:BuildingUnitは外部参照により、自身を構成するblsg:BuildingRoomやbldg:Storeyを参照する。
+
+
+[requirement]
+.bldg:BuildingStoreyとbldg:BuildingRoom
+====
+[%metadata]
+identifier:: /req/bldg/33
+subject:: 妥当な建築物データセットの要件
+description:: bldg:BuildingRoomは、必ずbldg:Storeyの子要素として記述しなければならない。
+====
+
+bldg:BuildingRoomを作成する場合は、必ずbldg:Storeyを作成し、その子要素としてbldg:BuildingRoomを記述する。
+
+階層の区分がない建築物の場合も、bldg:Storeyを作成する。また、階段室のように、垂直方向に伸びた空間をbldg:BuildingRoomとして作成したい場合も同様に、bldg:Storeyを作成するものとする。
+
+
+[[fig-C-46]]
+.bldg:Storey、bldg:BuildingUnit及びbldg:BuildingRoomの記述例
+image::../../sources/images/anx_C_046.png[]
+
+
+<<fig-C-46>>bldg:Storey、bldg:BuildingUnit及びbldg:BuildingRoomの記述例を示す。 +
+建築物（B1）には、二つの階（S1、S2）が存在する。S1には、一つの部屋（S1_R1）がある。また、S2には、五つの部屋（S2_R1、S2_R2、S2_R3、S2_R4及びS2_R5）がある。 +
+この建築物には三つの区画（U1、U2及びU3）が存在する。U1は、S1とS2の二つの階を参照する区画である。U2は、S1_R1、S2_R5の二つの部屋を参照する区画である。これら二つの区画は、複数の階をまたぐ区画であることから、Buildingの子要素として記述する。また、U3はS2階に存在するS2_R1、S2_R2及びS2_R3の三つの部屋を参照する区画であり、S2の子要素として記述する。
+

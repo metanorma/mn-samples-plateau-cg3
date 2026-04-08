@@ -1,0 +1,15 @@
+[cols="1a,3a,3a",options="noheader"]
+.植生モデル（LOD1）の取得イメージ
+|===
+h| LOD 2+^h| LOD1
+h| 取得例
+^.^|
+image::../../sources/images/veg_Acquire_lod10_01.png[width="200"]
+^.^|
+image::../../sources/images/veg_Acquire_lod10_02.png[]
+
+h| 説明
+| 樹冠の上方からの正射影の外周を、地表面から一律の高さで上向きに押し出した立体として表現する。
+| 植被の上方からの正射影の外周を地表面から一律の高さで上向きに押し出した立体として表現する。
+
+|===

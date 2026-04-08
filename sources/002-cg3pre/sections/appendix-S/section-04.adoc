@@ -1,0 +1,39 @@
+[[tocS_04]]
+=== dem:AbstractReliefComponent
+
+dem:AbstractReliefComponentは地形を構成する要素である。 +
+dem:AbstractReliefComponentは抽象地物であり、実装においては、この下位型の具象となる地物型を使用する。 +
+dem:AbstractReliefComponentの下位型はLODごとに異なる地物となる。また、独自に空間属性をもつ。
+
+
+[[tocS_04_01]]
+==== dem:AbstractReliefComponentの下位型
+
+
+[[tocS_04_01_01]]
+===== dem:TINRelief
+
+dem:TINReliefは不規則三角網を記述するための地物型である。 +
+空間属性として不規則三角網（gml:TIN）をもつ。
+
+
+[[tocS_04_01_02]]
+===== dem:MassPointRelief
+
+dem:MassPointReliefは標高点の集まりを記述するための地物型である。 +
+空間属性として多点（gml:MultiPoint）をもつ。また、点群（pcl:PointCloud）を使用することもできる。
+
+
+[[tocS_04_01_03]]
+===== dem:BreaklineRelief
+
+dem:BreaklineReliefは等高線の集まりを記述するための地物型である。 +
+空間属性として多曲線（GM_MultiCurve）をもつ。
+
+
+[[tocS_04_01_04]]
+===== dem:RasterRelief
+
+dem:RasterReliefは標高をもつ格子点の集まりを記述するための地物型である。 +
+格子点の集まりは、偏位修正gml:グリッド被覆（gml:RectifiedGridCoverage ）を用いて記述する。
+

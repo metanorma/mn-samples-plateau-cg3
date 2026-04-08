@@ -1,0 +1,61 @@
+[[tocM_05]]
+=== tun:HollowSpace
+
+tun:HollowSpaceは、トンネルの内部空間の記述に使用する地物型である。 +
+すなわち、tun:HollowSpaceが出現するのは、トンネルモデルにおける内部LODのみである。
+
+tun:HollowSpaceは、tun:Tunnel又はtun:TunnelPartに含まれる地物として記述する。 +
+このとき、tun:HollowSpaceは、複数の地物の集まりとして表現することができる。
+
+tun:HollowSpaceに含むことができる地物とは、以下である。
+
+* 内部空間を区切る境界面（con:AbstractConstructionSurfaceの下位型）
+* 内部空間に付属する固定的な設備（tun:TunnelInstallation）
+* 内部空間に設置された可動設備（tun:TunnelFurniture）
+
+
+[[tocM_05_01]]
+==== トンネル内部空間の空間属性
+
+
+[[tocM_05_01_01]]
+===== LOD0
+
+tun:HollowSpaceは多曲面（core:lod0MultiSurface）又は線（core:lod0MultiCurve）として表現する。ただし、原則として多曲面を使用する。 +
+このとき、面の境界となる線は、天井面（con:CeilingSurface）、床面（con:FloorSurface）、内壁面（con:InteriorWallSurface）、閉鎖面（core:ClosureSurface）、扉面（con:DoorSurface）又は窓面（conWindowSurface）のいずれかとして表現することができる。
+
+
+[[tocM_05_01_02]]
+===== LOD1
+
+un:HollowSpaceは立体（core:lod1Solid）として表現する。 +
+このとき、立体の境界面は、天井面（con:CeilingSurface）、床面（con:FloorSurface）、内壁面（con:InteriorWallSurface）、閉鎖面（core:ClosureSurface）、扉面（con:DoorSurface）又は窓面（conWindowSurface）のいずれかとして表現することができる。
+
+
+[[tocM_05_01_03]]
+===== LOD2
+
+tun:HollowSpaceは立体（core:lod2Solid）又は多曲面（core:lod2MultiSurface）として表現する。 +
+ただし、原則として立体を使用する。このとき、立体の境界面又は多曲面を構成する面は、天井面（con:CeilingSurface）、床面（con:FloorSurface）、内壁面（con:InteriorWallSurface）、閉鎖面（core:ClosureSurface）、扉面（con:DoorSurface）又は窓面（conWindowSurface）のいずれかとして表現することができる。
+
+
+[[tocM_05_01_04]]
+===== LOD3
+
+tun:HollowSpaceは立体（core:lod3Solid）又は多曲面（core:lod3MultiSurface）として表現する。 +
+このとき、立体の境界面又は多曲面を構成する面は、天井面（con:CeilingSurface）、床面（con:FloorSurface）、内壁面（con:InteriorWallSurface）、閉鎖面（core:ClosureSurface）、扉面（con:DoorSurface）又は窓面（conWindowSurface）のいずれかとして表現することができる。
+
+トンネルモデルにおいて、トンネルの内部空間の形状を表す立体又は多曲面を構成する面を境界面を表す地物に区分する場合、トンネルの内部空間の形状を表す立体又は多曲面を構成する面は、境界面の形状を表す幾何オブジェクトを外部参照しなければならない。
+
+
+[requirement]
+.境界面のポリゴンの条件
+====
+[%metadata]
+identifier:: /req/tun/10
+subject:: 妥当なトンネルデータセットの要件
+description:: tun:HollowSpaceを区切る境界面を記述する場合、tun:HollowSpaceの空間属性であるgml:Solidの境界面又はgml:MultiSurafaceを構成するgml:Polygonは、以下のいずれかの地物型の幾何オブジェクトに含まれなければならない。
+part:: con:boundaryによりこのtun:HollowSpaceが参照する境界面（con:AbstractConstructionSurface）の下位型
+part:: 境界面に含まれる開口部（con:AbstractFillingSurface）の下位型
+====
+

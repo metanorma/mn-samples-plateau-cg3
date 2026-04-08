@@ -1,0 +1,19 @@
+[cols="1a,3a,3a",options="noheader"]
+.水部モデル（LOD2）の取得イメージ
+|===
+h| LOD ^h| LOD2.0 ^h| LOD2.1
+h| 取得例
+^.^|
+image::../../sources/images/wtr_Acquire_lod20.png[]
+^.^|
+image::../../sources/images/wtr_Acquire_lod21.png[]
+
+h| 説明
+| 水涯線により囲まれた水面（WaterSurface）及び水底面（WaterGroundSurface）を境界面とする立体を作成する。 +
+水面は水部モデル（LOD1）の面に一致する。また、水底面は、等深線や航空レーザ（ALB）又はマルチビーム測深の点群データを用いて再現した、水底の起伏を表す面となる。 +
+境界面を水面、地表面に区分し、水部を管理区間や行政界など仮想的な面により区切りたい場合には、その境界面を閉鎖面（ClosureSurface）に区分する。
+| 水部モデル（LOD2.0）である、水涯線により囲まれた水面（wrt:WaterSurface）、水底面（wrt:WaterGroundSurface）及び閉鎖面（ClosureSurface）を境界面とする立体から、橋梁下部の橋脚部分など水中にある構造物を除いた立体となる。 +
+水中にある構造物と水部の境界面は水底面とする。
+
+|===
+

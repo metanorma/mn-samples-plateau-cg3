@@ -1,0 +1,526 @@
+[[toc4_12]]
+=== トンネルモデルの応用スキーマ
+
+トンネルとは、上方を含め周辺が地山や他の構造物で覆われている、交通、輸送等に供する構造物である。[道路基盤地図情報（整備促進版）製品仕様書（案）]
+
+標準製品仕様書では、その設置の形態から、ボックスカルバート、シェッド、シェルター及び地下横断歩道もトンネルに含める。
+
+* ボックスカルバート：他の道路等の下方を横断するため、その盛土の中を横断する形で設置される箱状の構造物。[道路基盤地図情報（整備促進版）製品仕様書（案）]
+* シェッド：落石及び雪崩等を道路外に直接落下させる、又は道路を越えて転進させるため、鋼材やコンクリート材等で道路上を覆う構造物。[道路基盤地図情報（整備促進版）製品仕様書（案）]
+* シェルター：アーチ型又は門型で、道路を完全に覆ったトンネル状の構造物。[道路基盤地図情報（整備促進版）製品仕様書（案）]
+* 地下横断歩道：人、自転車等が道路又は鉄道を横断するために構築された地下道。[<<gsi_ops,付録７ 公共測量標準図式>>]
+
+[[toc4_12_01]]
+==== トンネルモデルのLOD
+
+標準製品仕様書が対象とするトンネルモデルのLODは、LOD0からLOD3までとする。このとき、LODには外部と内部がそれぞれ存在する。
+
+[[toc4_12_01_01]]
+===== トンネルモデル（LOD0）
+
+[[toc4_12_01_01_01]]
+====== トンネルモデル（LOD0）の概要
+
+トンネルモデル（LOD0）では、トンネルの形状を線又は面により表現する。 +
+ただし、数値地形図との互換性を保つ必要がある場合は、公共測量標準図式に従った<<toc4_25_01_01,公共測量標準図式のためのLOD0の定義>>を採用できる。
+
+トンネルモデル・外部（LOD0）の取得イメージを<<tab-4-12-1>>に、トンネルモデル・内部（LOD0）の取得イメージを<<tab-4-12-2>>に示す。
+
+//トンネルモデル・外部（LOD0）の取得イメージ
+[[tab-4-12-1]]
+include::../../../common/sections/com_tun_Acquire_lod0_outdoor.adoc[]
+
+//トンネルモデル・内部（LOD0）の取得イメージ
+[[tab-4-12-2]]
+include::../../../common/sections/com_tun_Acquire_lod0_indoor.adoc[]
+
+[[toc4_12_01_01_02]]
+====== トンネルモデル・外部（LOD0.0）の定義
+
+トンネルモデル・外部（LOD0.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-3]]
+include::../../../common/sections/com_tun_Definition_lod00_outdoor.adoc[]
+
+[[toc4_12_01_01_03]]
+====== トンネルモデル・内部（LOD0.0）の定義
+
+トンネルモデル・内部（LOD0.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-4]]
+include::../../../common/sections/com_tun_Definition_lod00_indoor.adoc[]
+
+[[toc4_12_01_01_04]]
+====== トンネルモデル・外部（LOD0.1）の定義
+
+トンネルモデル・外部（LOD0.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-5]]
+include::../../../common/sections/com_tun_Definition_lod01_outdoor.adoc[]
+
+[[toc4_12_01_01_05]]
+====== トンネルモデル・内部（LOD0.1）の定義
+
+トンネルモデル・内部（LOD0.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-6]]
+include::../../../common/sections/com_tun_Definition_lod01_indoor.adoc[]
+
+
+[[toc4_12_01_02]]
+===== トンネルモデル（LOD1）
+
+[[toc4_12_01_02_01]]
+====== トンネルモデル（LOD1）の概要
+
+トンネルモデル（LOD1）では、トンネルの形状を、立体により表現する。
+
+トンネルモデル・外部（LOD1）の取得イメージを<<tab-4-12-7>>に、トンネルモデル・内部（LOD1）の取得イメージを<<tab-4-12-8>>に示す。
+
+//トンネルモデル・外部（LOD1）の取得イメージ
+[[tab-4-12-7]]
+include::../../../common/sections/com_tun_Acquire_lod1_outdoor.adoc[]
+
+//トンネルモデル・内部（LOD1）の取得イメージ
+[[tab-4-12-8]]
+include::../../../common/sections/com_tun_Acquire_lod1_indoor.adoc[]
+
+[[toc4_12_01_02_02]]
+====== トンネルモデル・外部（LOD1.0）の定義
+
+トンネルモデル・外部（LOD1.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-9]]
+include::../../../common/sections/com_tun_Definition_lod10_outdoor.adoc[]
+
+[[toc4_12_01_02_03]]
+====== トンネルモデル・内部（LOD1.0）の定義
+
+トンネルモデル・内部（LOD1.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-10]]
+include::../../../common/sections/com_tun_Definition_lod10_indoor.adoc[]
+
+[[toc4_12_01_02_04]]
+====== トンネルモデル・外部（LOD1.1）の定義
+
+トンネルモデル・外部（LOD1.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-11]]
+include::../../../common/sections/com_tun_Definition_lod11_outdoor.adoc[]
+
+[[toc4_12_01_02_05]]
+====== トンネルモデル・内部（LOD1.1）の定義
+
+トンネルモデル・内部（LOD1.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-12]]
+include::../../../common/sections/com_tun_Definition_lod11_indoor.adoc[]
+
+
+[[toc4_12_01_03]]
+===== トンネルモデル（LOD2）
+
+[[toc4_12_01_03_01]]
+====== トンネルモデル（LOD2）の概要
+
+トンネルモデル（LOD2）では、トンネルの形状を、立体により表現し、立体を構成する各境界面を地物として取得する。 +
+また、属性granularityによって、開口部の再現有無及び付属物の再現有無を表現する。
+
+トンネルモデル・内部（LOD2）は、含むべき地物により、LOD2.0、LOD2.1及びLOD2.2に分かれる（<<tab-4-12-13>>）。 +
+標準製品仕様書では原則としてLOD2.0を採用する。ただし、ユースケースの必要に応じてLOD2.1又はLOD2.2を採用できる。
+
+//トンネルモデル・内部におけるLOD2.0、LOD2.1及びLOD2.2の区分
+[[tab-4-12-13]]
+include::../../../common/sections/com_tun_Category_lod2_indoor.adoc[]
+
+トンネルモデル・外部（LOD2）の取得イメージを<<tab-4-12-14>>に、トンネルモデル・内部（LOD2）の取得イメージを<<tab-4-12-15>>に示す。
+
+//トンネルモデル・外部（LOD2）の取得イメージ
+[[tab-4-12-14]]
+include::../../../common/sections/com_tun_Acquire_lod2_outdoor.adoc[]
+
+//トンネルモデル・内部（LOD2）の取得イメージ
+[[tab-4-12-15]]
+include::../../../common/sections/com_tun_Acquire_lod2_indoor.adoc[]
+
+[[toc4_12_01_03_02]]
+====== トンネルモデル・外部（LOD2）の定義
+
+トンネルモデル・外部（LOD2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-16]]
+include::../../../common/sections/com_tun_Definition_lod20_outdoor.adoc[]
+
+[[toc4_12_01_03_03]]
+====== トンネルモデル・内部（LOD2.0）の定義
+
+トンネルモデル・内部（LOD2.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-17]]
+include::../../../common/sections/com_tun_Definition_lod20_indoor.adoc[]
+
+[[toc4_12_01_03_04]]
+====== トンネルモデル・内部（LOD2.1）の定義
+
+トンネルモデル・内部（LOD2.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-18]]
+include::../../../common/sections/com_tun_Definition_lod21_indoor.adoc[]
+
+[[toc4_12_01_03_05]]
+====== トンネルモデル・内部（LOD2.2）の定義
+
+トンネルモデル・内部（LOD2.2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-19]]
+include::../../../common/sections/com_tun_Definition_lod22_indoor.adoc[]
+
+[[fig-4-12-1]]
+image::../../sources/images/tun_001.png[width="500"]
+
+
+[[toc4_12_01_04]]
+===== トンネルモデル（LOD3）
+
+[[toc4_12_01_04_01]]
+====== トンネルモデル（LOD3）の概要
+
+トンネルモデル（LOD3）、含むべき地物により、外部LOD3.0、外部LOD3.1及び内部LOD3.0、内部LOD3.1に分かれる（<<tab-4-12-20>>、<<tab-4-12-21>>）。
+
+外部LOD3.0及び外部LOD3.1は、BIMデータからの変換を前提とした区分である。 +
+標準製品仕様書は、原則として外部LOD3.0を採用する。ただし、ユースケースの必要に応じて外部LOD3.1を採用できる。
+
+内部LOD3.0、内部LOD3.1及び内部LOD3.2は、BIMデータからの変換を前提とした区分である。 +
+標準製品仕様書は、原則として内部LOD3.0を採用する。ただし、ユースケースの必要に応じて内部LOD3.1を採用できる。
+
+//トンネルモデル・外部におけるLOD3.0及びLOD3.1の区分
+[[tab-4-12-20]]
+include::../../../common/sections/com_tun_Category_lod3_outdoor.adoc[]
+
+//トンネルモデル・内部におけるLOD3.0及びLOD3.1の区分
+[[tab-4-12-21]]
+include::../../../common/sections/com_tun_Category_lod3_indoor.adoc[]
+
+トンネルモデル・外部（LOD3）の取得イメージを<<tab-4-12-22>>に、トンネルモデル・内部（LOD3）の取得イメージを<<tab-4-12-23>>に示す。
+
+//トンネルモデル・外部（LOD3）の取得イメージ
+[[tab-4-12-22]]
+include::../../../common/sections/com_tun_Acquire_lod3_outdoor.adoc[]
+
+//トンネルモデル・内部（LOD3）の取得イメージ
+[[tab-4-12-23]]
+include::../../../common/sections/com_tun_Acquire_lod3_indoor.adoc[]
+
+
+[[toc4_12_01_04_02]]
+====== トンネルモデル・外部（LOD3.0）の定義
+
+トンネルモデル・外部（LOD3.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-24]]
+include::../../../common/sections/com_tun_Definition_lod30_outdoor.adoc[]
+
+[[toc4_12_01_04_03]]
+====== トンネルモデル・内部（LOD3.0）の定義
+
+トンネルモデル・内部（LOD3.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-25]]
+include::../../../common/sections/com_tun_Definition_lod30_indoor.adoc[]
+
+[[toc4_12_01_04_04]]
+====== トンネルモデル・外部（LOD3.1）の定義
+
+トンネルモデル・外部（LOD3.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-26]]
+include::../../../common/sections/com_tun_Definition_lod31_outdoor.adoc[]
+
+[[toc4_12_01_04_05]]
+====== トンネルモデル・内部（LOD3.1）の定義
+
+トンネルモデル・内部（LOD3.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-12-27]]
+include::../../../common/sections/com_tun_Definition_lod31_indoor.adoc[]
+
+
+[[toc4_12_01_05]]
+===== 各LODにおいて使用可能な地物型と空間属性
+
+トンネルモデルの各LODにおいて使用可能な地物型と空間属性を<<tab-4-12-28>>に示す。
+
+//トンネルモデルの記述に使用する地物型と空間属性
+[[tab-4-12-28]]
+include::../../../common/sections/com_tun_SpatialAttribute.adoc[]
+
+
+[[toc4_12_02]]
+==== トンネルモデルの応用スキーマクラス図
+
+[[toc4_12_02_01]]
+===== Tunnel（CityGML）
+
+[[fig-4-12-2]]
+image::../../sources/images/EAID_B5A63AB0_001F_43a2_927A_9A0CC62BE6FF.png[]
+
+[[toc4_12_02_02]]
+===== Urban Object（i-UR）
+
+[[fig-4-12-3]]
+image::../../sources/images/EAID_F15FEF80_7EBC_40a0_BCAA_F0516E105F1F.png[]
+
+[[toc4_12_03]]
+==== トンネルモデルの応用スキーマ文書
+
+[[toc4_12_03_01]]
+===== Tunnel（CityGML）
+
+[[toc4_12_03_01_01]]
+====== Tunnel
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="Tunnel",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_12_03_01_02]]
+====== TunnelPart
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="TunnelPart",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_12_03_01_03]]
+====== TunnelConstructiveElement
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="TunnelConstructiveElement",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_12_03_01_04]]
+====== HollowSpace
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="HollowSpace",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_12_03_01_05]]
+====== TunnelInstallation
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="TunnelInstallation",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_12_03_01_06]]
+====== TunnelFurniture
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="TunnelFurniture",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+====== RoofSurface
+
+<<toc4_13_03_01_02,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== WallSurface
+
+<<toc4_13_03_01_03,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== GroundSurface
+
+<<toc4_13_03_01_04,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== OuterCeilingSurface
+
+<<toc4_13_03_01_05,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== OuterFloorSurface
+
+<<toc4_13_03_01_06,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== InteriorWallSurface
+
+<<toc4_13_03_01_07,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== CeilingSurface
+
+<<toc4_13_03_01_08,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== FloorSurface
+
+<<toc4_13_03_01_09,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== Window
+
+<<toc4_13_03_01_10,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== WindowSurface
+
+<<toc4_13_03_01_11,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== Door
+
+<<toc4_13_03_01_12,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== DoorSurface
+
+<<toc4_13_03_01_13,Constructionモデルの応用スキーマ文書>>　参照。
+
+
+[[toc4_12_03_02]]
+===== Urban Object（i-UR）
+
+[[toc4_12_03_02_01]]
+====== TunnelFunctionalAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TunnelFunctionalAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_12_03_02_02]]
+====== TunnelStructureAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TunnelStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+====== ConstructionBaseAttribute
+
+<<toc4_13_03_02_01,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== ConstructionRiskAssessmentAttribute
+
+<<toc4_13_03_02_02,Constructionモデルの応用スキーマ文書>>　参照。
+
+[[toc4_12_03_03]]
+===== 施設管理のための拡張属性
+
+// 引用リンク スキーマ文書　施設管理のための拡張属性
+include::../../../common/sections/link_schema_Facility.adoc[]
+
+[[toc4_12_03_04]]
+===== 災害リスク属性
+
+// 引用リンク スキーマ文書　災害リスク属性
+include::../../../common/sections/link_schema_Risk.adoc[]
+
+[[toc4_12_03_04_99]]
+===== データ品質属性
+
+// 引用リンク スキーマ文書　データ品質属性
+include::../../../common/sections/link_schema_DateQuality.adoc[]
+
+[[toc4_12_03_05]]
+===== 数値地形図のための拡張属性
+
+// 引用リンク スキーマ文書　数値地形図のための拡張属性
+include::../../../common/sections/link_schema_Dm.adoc[]
+
+
+[[toc4_12_04]]
+==== トンネルモデルで使用するコードリストと列挙型
+
+[[toc4_12_04_01]]
+===== Tunnel（CityGML）
+
+[[Tunnel_class.xml]]
+====== Tunnel_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Tunnel_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<citygml_20,annex="C.2">>
+
+[[Tunnel_function.xml]]
+====== Tunnel_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Tunnel_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<citygml_20,annex="C.2">>
+
+[[TunnelConstructiveElement_function.xml]]
+====== TunnelConstructiveElement_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TunnelConstructiveElement_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[TunnelInstallation_function.xml]]
+====== TunnelInstallation_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TunnelInstallation_function.xml[template="gml_dict_template.liquid",context=dict]
+
+NOTE: トンネル施設台帳を出典とする。
+
+[[TunnelFurniture_function.xml]]
+====== TunnelFurniture_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TunnelFurniture_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[toc4_12_04_02]]
+===== Urban Object （i-UR）
+
+[[TunnelFunctionalAttribute_userType.xml]]
+====== TunnelFunctionalAttribute_userType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TunnelFunctionalAttribute_userType.xml[template="gml_dict_template.liquid",context=dict]
+
+NOTE: トンネル施設台帳を出典とする。
+
+[[TunnelStructureAttribute_tunnelType.xml]]
+====== TunnelStructureAttribute_tunnelType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TunnelStructureAttribute_tunnelType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<nilim_kiban_dps>>
+
+[[TunnelStructureAttribute_tunnelSubType.xml]]
+====== TunnelStructureAttribute_tunnelSubType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TunnelStructureAttribute_tunnelSubType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<nilim_kiban_dps>>
+
+[[TunnelStructureAttribute_mouthType.xml]]
+====== TunnelStructureAttribute_mouthType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TunnelStructureAttribute_mouthType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<nilim_kiban_dps>>
+
+====== ConstructionStructureAttribute_slopeType.xml
+
+<<ConstructionStructureAttribute_slopeType.xml,constructionモデルのコードリスト>>　参照。
+
+====== ConstructionBaseAttribute_adminType.xml
+
+<<ConstructionBaseAttribute_adminType.xml,constructionモデルのコードリスト>>　参照。
+
+====== ConstructionBaseAttribute_installerType.xml
+
+<<ConstructionBaseAttribute_installerType.xml,constructionモデルのコードリスト>>　参照。
+
+====== ConstructionRiskAssessmentAttribute_riskType.xml
+
+<<ConstructionRiskAssessmentAttribute_riskType.xml,constructionモデルのコードリスト>>　参照。
+
+====== ConstructionRiskAssessmentAttribute_status.xml
+
+<<ConstructionRiskAssessmentAttribute_status.xml,constructionモデルのコードリスト>>　参照。
+
+[[toc4_12_04_03]]
+===== Urban Core（i-UR）
+
+[[Tunnel_lodType.xml]]
+====== Tunnel_lodType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Tunnel_lodType.xml[template="gml_dict_template.liquid",context=dict]
+
+====== DataQualityAttribute_geometrySrcDesc.xml
+
+<<DataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_thematicSrcDesc.xml
+
+<<DataQualityAttribute_thematicSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_appearanceSrcDesc.xml
+
+<<DataQualityAttribute_appearanceSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_srcScale.xml
+
+<<PublicSurveyDataQualityAttribute_srcScale.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
+
+<<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+

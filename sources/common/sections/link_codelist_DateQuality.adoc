@@ -1,0 +1,36 @@
+====== DataQualityAttribute_geometrySrcDesc.xml
+
+<<DataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_thematicSrcDesc.xml
+
+<<DataQualityAttribute_thematicSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_appearanceSrcDesc.xml
+
+<<DataQualityAttribute_appearanceSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_lod1HeightType.xml
+
+<<DataQualityAttribute_lod1HeightType.xml,データ集合のコードリスト>>　参照。
+
+====== Common_granularity.xml
+
+<<Common_granularity.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_lod0AcquisitionCriterion.xml
+
+<<DataQualityAttribute_lod0AcquisitionCriterion.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_hasError.xml
+
+<<DataQualityAttribute_hasError.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_srcScale.xml
+
+<<PublicSurveyDataQualityAttribute_srcScale.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
+
+<<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+

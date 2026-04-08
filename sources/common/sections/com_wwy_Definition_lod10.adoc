@@ -1,0 +1,142 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD1
+|●
+|Waterway
+|-
+|-
+|-
+|-
+|空間属性を持たせない。
+
+|LOD1
+|●
+|TrafficSpace
+|-
+|-
+|-
+|-
+|空間属性を持たせない。
+
+|LOD1
+|〇
+|TrafficSpace
+|lod1Solid
+|GM_Solid
+|
+|【granularityがlaneの場合の取得方法】
+
+* TrafficAreaを底面とし、底面から一律の高さで上向きに押し出した立体を作成する。
+* 底面の高さは0とする。
+
+【granularityがwayの場合の取得方法】
+
+* TrafficAreaを底面とし、底面から一律の高さで上向きに押し出した立体を作成する。
+* 底面の高さは0とする。
+|一律の高さは、船舶の航行を妨げ得る上空障害（橋梁桁下、架空線、門型クレーン等）によって規定される最小可航高とする。
+
+|LOD1
+|
+|AuxiliaryTrafficSpace
+|
+|
+|
+|
+|航路は航行可能な区域が指定されることから、航路には、AuxiliaryTrafficSpaceが存在しない。
+
+|LOD1
+|〇
+|ClearanceSpace
+|lod1Solid
+|GM_Solid
+|
+|【granularityがlaneの場合の取得方法】
+
+* TrafficSpaceの上面を底面とし、底面から一律の高さで上向きに押し出した立体を作成する。
+
+【granularityがwayの場合の取得方法】
+
+* TrafficSpaceの上面を底面とし、底面から一律の高さで上向きに押し出した立体を作成する。
+|一律の高さは、無人航空機が飛行可能な高さを原則とする。
+
+|LOD1
+|
+|AuxiliaryTrafficArea
+|
+|
+|
+|
+|航路は航行可能な区域が指定されることから、航路には、AuxiliaryTrafficAreaが存在しない。
+
+|LOD1
+|〇
+|Section
+|-
+|-
+|-
+|-
+|空間属性はTrafficAreaが持つ
+
+|LOD1
+|〇
+|InterSection
+|-
+|-
+|-
+|-
+|空間属性はTrafficAreaが持つ
+
+|LOD1
+|〇
+|Marking
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 交通の規制等が設定されている概念的な範囲を面として取得する。
+* 高さは0とする。
+|
+
+|LOD1
+|〇
+|Hole
+|lod1Solid
+|GM_Solid
+|
+|
+|
+
+|LOD1
+|〇
+|HoleSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+|
+
+|LOD1
+|●
+|TrafficArea
+|
+|GM_MultiSurface
+|港則法及び海上交通安全法により指定された航法
+|【granularityがlaneの場合の取得方法】
+
+* 航路の境界をつないだ面を取得する。
+* 高さは0とする。
+
+【granularityがwayの場合の取得方法】
+
+* 航路の区域の境界をつないだ面を取得する。
+* 高さは0とする。
+|
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

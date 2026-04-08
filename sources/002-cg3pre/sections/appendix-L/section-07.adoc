@@ -1,0 +1,52 @@
+[[tocL_07]]
+=== brid:BridgeConstructiveElement
+
+brid:BridgeConstructiveElementは、橋梁を構成する部材（構造部材）を記述するための地物型である。 +
+構造上不可欠な部材である床版、橋脚、橋台などに加え、付属物である高欄や排水施設などを含める。
+
+
+[[tocL_07_01]]
+==== 構造部材の空間属性
+
+
+[[tocL_07_01_01]]
+===== LOD0
+
+brid:BridgeConstructiveElementの空間属性は、LOD0において、多曲面（core:lod0MultiSurface）として表現する。
+
+
+[[tocL_07_01_02]]
+===== LOD1
+
+brid:BridgeConstructiveElementは立体（core:lod1Solid）として表現する。
+
+
+[[tocL_07_01_03]]
+===== LOD2
+
+brid:BridgeConstructiveElementは多曲面（core:lod2MultiSurface）として表現する。
+
+
+[[tocL_07_01_04]]
+===== LOD3
+
+brid:BridgeConstructiveElementは多曲面（core:lod3MultiSurface）として表現する。
+
+
+[[tocL_07_02]]
+==== 構造部材の主題属性
+
+
+[[tocL_07_02_01]]
+===== 構造部材の区分
+
+属性brid:functionを使用して区分する。brid:functionの区分は、IFCに準じる。 +
+brid:BridgeConstructiveElementに対応づくIFCのクラスの例を示す。
+
+* IfcBridgePartのうち、属性predefinedTypeが以下に区分されるもの
+** ABUTMENT,FOUNDATION,PIER,PIER_SEGMENT,PYLON,SUBSTRUCTURE,SUPERSTRUCTURE,SURFACESTRUCTURE
+* IfcElementAssemblyのうち、属性predefinedTypeが以下に区分されるもの
+** ARCH,BEAM_GRID,GIRDER,REINFORCEMENT_UNIT,RIGID_FRAME,SLAB_FIELD,TRUSS,ABUTMENT,PIAR,PYLON,CROSS_BRACING,ACCE
+
+他にも、IFCでは、梁（IfcBeam）やスラブ（IfcSlab）、支承（IfcBearing）といった橋梁を構成する部材がクラスとして定義されている。ユースケースの必要に応じてこれらをbrid:BridgeConstructiveElementに対応付けてもよいが、データ量が大きくなることに注意が必要である。
+

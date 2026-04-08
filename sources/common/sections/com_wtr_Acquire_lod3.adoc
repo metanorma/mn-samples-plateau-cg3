@@ -1,0 +1,18 @@
+[cols="1a,3a,3a",options="noheader"]
+.水部モデル（LOD3）の取得イメージ
+|===
+h| LOD ^h| LOD3.0 ^h| LOD3.1
+h| 取得例
+|
+image::../../sources/images/wtr_Acquire_lod30.png[]
+|
+image::../../sources/images/wtr_Acquire_lod31.png[]
+
+h| 説明
+| 水面、水底面、閉鎖面に相当する境界で閉じた立体を作成する。 +
+水面又は水底面が複数の基準地域メッシュに跨る場合は、基準地域メッシュとの境界線を用いて作成した垂直面で立体を分割する。
+| 水面（WaterSurface）、水底面（WaterGroundSurface）、閉鎖面（ClosureSurface）を境界とする立体を作成する。
+水面又は水底面が複数の基準地域メッシュに跨る場合は、基準地域メッシュとの境界線を用いて作成した垂直面で立体を分割し、分割された水面、水底面及び垂直面を境界面とする立体とする。このとき、垂直面はClosureSurfaceとなる。
+
+|===
+

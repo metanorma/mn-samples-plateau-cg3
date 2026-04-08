@@ -1,0 +1,39 @@
+[cols="4a,9a,9a,9a,9a",options="noheader"]
+.地下埋設物モデル・外部（LOD1）の取得イメージ
+|===
+h| LOD 4+^h| LOD1
+h| 取得例
+^.^|
+image::../../sources/images/unf_Acquire_lod10_out_01.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod10_out_02.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod10_out_03.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod10_out_04.png[]
+
+h| 説明
+| 管路の上方からの正射影の外周を、地表面から一律の高さで下向きに押し出した立体として表現する。
+| 複数まとまって埋設されている管路の最外縁を外周とし、その正射影を、地表面から一律の高さで下向きに押し出した立体として表現する。
+| ケーブルの上方からの正射影の外周を、地表面から一律の高さで下向きに押し出した立体として表現する。
+| 複数まとまって埋設されているケーブルの最外縁を外周とし、その正射影を、地表面から一律の高さで下向きに押し出した立体として表現する。
+
+h| LOD 4+^h| LOD1
+h| 取得例
+^.^|
+image::../../sources/images/unf_Acquire_lod10_out_05.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod10_out_06.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod10_out_07.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod10_out_08.png[]
+
+h| 説明
+| 構造物の上方からの正射影の外周を、地表面から一律の高さで下向きに押し出した立体として表現する。
+| 水栓やガバナ等の設備の上方からの正射影を包含する矩形を、地表面からの一律の高さで下向きに押し出した立体として表現する。
+| マンホールの蓋の上方からの正射影を包含する矩形を、地表面から一律の高さで下向きに押し出した立体として表現する。
+| ハンドホールの蓋の上方からの正射影を包含する矩形を、地表面から一律の高さで下向きに押し出した立体として表現する。
+
+|===
+

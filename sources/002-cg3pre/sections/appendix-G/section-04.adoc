@@ -1,0 +1,91 @@
+[[tocG_04]]
+=== tran:TrafficArea及びtran:AuxiliaryTrafficArea
+
+交通（道路）モデルと同様に、広場の形状は、tran:Squareに含まれる、tran:TrafficSpace及びtran:AuxiliaryTrafficSpaceの境界面であるtran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性により表現することを基本とする。
+
+
+[[tocG_04_01]]
+==== tran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性
+
+
+[[tocG_04_01_01]]
+===== LOD0
+
+tran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性は、LOD0において、ネットワークを表す線（core:lod0MultiCurve）とする。 +
+このとき、交通（広場）オブジェクトは、交通（広場）モデル（LOD0）の定義に従ったものでなければならない。
+
+
+[requirement]
+.広場のLOD0形状定義
+====
+[%metadata]
+identifier:: /req/squr/4
+subject:: 妥当な交通（広場）データセットの要件
+description:: 広場のLOD0の形状は、交通（広場）モデル（LOD0）の定義に従う。
+====
+
+交通（広場）モデル（LOD0）のうち、駅前広場及び交通広場は、交通（道路）モデル（LOD0）で表現される地物の集まりとして構成される。
+
+
+[[tocG_04_01_02]]
+===== LOD1
+
+tran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性は、LOD1において、多曲面（core:lod1MultiSurface）とする。 +
+このとき、交通（広場）オブジェクトは、交通（広場）モデル（LOD1）の定義に従ったものでなければならない。
+
+
+[requirement]
+.広場のLOD1形状定義
+====
+[%metadata]
+identifier:: /req/squr/5
+subject:: 妥当な交通（広場）データセットの要件
+description:: 広場のLOD1の形状は、交通（広場）モデル（LOD1）の定義に従う。
+====
+
+交通（広場）モデル（LOD1）の形状は、都市計画において指定された「駅前広場」、「自動車ターミナル」又は「交通広場」の区域に一致する。
+
+
+[[tocG_04_01_03]]
+===== LOD2
+
+tran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性は、LOD2において、多曲面（core:lod2MultiSurface）とする。 +
+このとき、交通（広場）オブジェクトは、交通（広場）モデル（LOD2）の定義に従ったものでなければならない。
+
+
+[requirement]
+.広場のLOD2形状定義
+====
+[%metadata]
+identifier:: /req/squr/6
+subject:: 妥当な交通（広場）データセットの要件
+description:: 広場のLOD2の形状は、交通（広場）モデル（LOD2）の定義に従う。
+====
+
+交通（広場）オブジェクトが「駅前広場」又は「交通広場」の場合、都市計画で指定された区域は、道路の区域と重複する。このとき、重複する区域に含まれる車道部や車道交差部等を示すtran:TrafficAreaとtran:AuxiliaryTrafficAreaは、tran:Roadからもtran:Squareからも参照される。
+
+[[fig-G-2]]
+.道路（Road）を構成する歩道等が広場（Square）の一部参照する場合のイメージ
+image::../../sources/images/anx_G_002.png[]
+
+[[fig-G-3]]
+.交通（道路）モデルのtran:TrafficAreaを交通（広場）モデルで参照する場合の記載例
+image::../../sources/images/anx_G_003.png[]
+
+
+[[tocG_04_01_04]]
+===== LOD3
+
+tran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性は、LOD3において、多曲面（core:lod3MultiSurface）とする。 +
+このとき、交通（広場）オブジェクトは、交通（広場）モデル（LOD3）の定義に従ったものでなければならない。
+
+
+[requirement]
+.広場のLOD3形状定義
+====
+[%metadata]
+identifier:: /req/squr/7
+subject:: 妥当な交通（広場）データセットの要件
+description:: 広場のLOD3の形状は、交通（広場）モデル（LOD3）の定義に従う。
+====
+
