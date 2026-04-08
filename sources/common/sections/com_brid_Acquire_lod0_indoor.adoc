@@ -1,0 +1,16 @@
+[cols="1a,3a,3a",options="noheader"]
+.橋梁モデル・内部（LOD0）の取得イメージ
+|===
+h| LOD ^h| LOD0.0 ^h| LOD0.1
+h| 取得例
+^.^|
+image::../../sources/images/brid_Acquire_lod00_in.png[]
+^.^|
+image::../../sources/images/brid_Acquire_lod01_in.png[]
+
+h| 説明
+| 床面の正射影の外周を取得する。
+| 床面の正射影の外周か天井面の正射影の外周のどちらかを取得する。 +
+LOD0.0は床面の正射影の外周を取得するが、LOD0.1では床面の正射影の外周か天井面の正射影の外周かを区別して取得する。床面の場合は、FloorSurfaceに空間属性を持たせ、天井面の場合はCeilingSurfaceに空間属性を持たせることで区分する。
+
+|===

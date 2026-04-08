@@ -1,0 +1,16 @@
+[cols="1a,3a,3a",options="noheader"]
+.橋梁モデル・外部（LOD0）の取得イメージ
+|===
+h| LOD ^h| LOD0.0 ^h| LOD0.1
+h| 取得例
+^.^|
+image::../../sources/images/brid_Acquire_lod00_out.png[]
+^.^|
+image::../../sources/images/brid_Acquire_lod01_out.png[]
+
+h| 説明
+| 橋梁の正射影の外周を取得する。
+| 接地面の正射影の外周か屋根面の正射影の外周のどちらかを取得する。 +
+LOD0.0は橋梁の正射影の外周を取得するが、LOD0.1では接地面の正射影の外周か屋根面の正射影の外周かを区別して取得する。屋根面の場合は、RoofSurfaceに空間属性を持たせ、接地面の場合はGroundSurfaceに空間属性を持たせることで区分する。
+
+|===

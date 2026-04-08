@@ -1,0 +1,75 @@
+[[tocD_05]]
+=== tran:AuxiliarlyTrafficArea
+
+tran:AuxiliaryTrafficAreaは、植樹帯や分離帯のように交通領域の機能を補助するために設けられた領域（交通補助領域）を示す。通常は、車両や人の通行には用いられない領域である。
+
+tran:AuxiliaryTrafficAreaは、同じく道路の路面を表す地物型であるtran:TrafficAreaと対になる地物型である。
+
+また、tran:AuxiliaryTrafficAreaは、道路上の空間を表す地物型であるtran:AuxiliaryTrafficSpaceの境界面（底面）となる。そのため、必ず、tran:AuxiliaryTrafficSpaceの部品として記述されなければならない。
+
+
+[[tocD_05_01]]
+==== 交通補助領域の区分
+
+CityGMLでは、地物型として植樹帯や分離帯は用意されておらず、全て、tran:AuxiliaryTrafficAreaを用いて記述する。
+
+このとき、植樹帯や分離帯などの区分は、属性tran:functionを用いて行う。
+
+3D都市モデルでは、LODに応じて交通補助領域を区分するために、LODごとに属性tran:functionの定義域を定めている。なお、この定義域は、<<nilim_kiban_dps,道路基盤地図情報（整備促進版）製品仕様書（案）>>において道路面を構成する地物の区分との整合を考慮している。
+
+
+[requirement]
+.交通補助領域の区分方法
+====
+[%metadata]
+identifier:: /req/tran/8
+subject:: 妥当な交通（道路）データセットの要件
+description:: LODに応じた交通補助領域の区分には、属性tran:functionを用いる。
+====
+
+LOD0では、交通（道路）オブジェクトは道路ネットワークを表し、交通補助領域を区分しないため、tran:AuxiliaryTrafficAreaは原則として使用されない。
+
+LOD1では、交通（道路）オブジェクトは全幅道路を表し、交通補助領域を区分しないため、tran:AuxiliaryTrafficAreaは原則として使用されない。
+
+LOD2は、交通補助領域は、分離帯や交通島のように道路上に設けられた構造物を区分する（<<tab-D-14>>）。ただし、ユースケースの必要に応じて、LOD0及びLOD1においても、<<tab-D-14>>の区分を適用することができる。
+
+[[tab-D-14]]
+.LOD0、LOD1及びLOD2.0での交通補助領域の区分
+include::../../../common/sections/codelist_AuxiliaryTrafficArea_function_xml_20.adoc[]
+
+LOD2.1では、分離帯や交通島のように道路上に設けられた構造物に加え、歩道上の植栽を区分する（<<tab-D-15>>）。
+
+[[tab-D-15]]
+.LOD2.1での交通補助領域の区分
+include::../../../common/sections/codelist_AuxiliaryTrafficArea_function_xml_21.adoc[]
+
+LOD2.2では、より詳細に道路内を区分できる（<<tab-D-16>>）。この区分は、<<nilim_kiban_dps,道路基盤地図情報（整備促進版）製品仕様書（案）>>において道路面を構成する地物の区分と整合する。
+
+LOD2.2の区分をどこまで詳細に行うかは、ユースケースに応じて決定してよい。
+
+[[tab-D-16]]
+.LOD2.2での交通補助領域の区分
+include::../../../common/sections/codelist_AuxiliaryTrafficArea_function_xml_22.adoc[]
+
+
+[[tocD_05_02]]
+==== 交通補助領域の空間属性
+
+tran:AuxiliaryTrafficAreaも、道路面を構成する要素であるため、tran:TrafficAreaと同様の要件を満たす必要がある。
+
+[requirement]
+.tran:AuxiliaryTrafficAreaの重なり禁止条件
+====
+[%metadata]
+identifier:: /req/tran/9
+subject:: 妥当な交通（道路）データセットの要件
+description:: 同一のtran:Roadに含まれるtran:AuxiliaryTrafficAreaの空間属性は、他のtran:TrafficAreaやtran:AuxiliaryTrafficAreaの空間属性と重なってはならない。 +
+また、同一のtran:Roadに含まれるtran:AuxiliaryTrafficAreaの空間属性は、隣接するtran:TrafficAreaやtran:AuxiliaryTrafficAreaの空間属性と、境界線を共有しなければならない。
+====
+
+
+[[tocD_05_03]]
+==== 交通補助領域の主題属性
+
+交通補助領域の主題属性であるtran:function及びtran:surfaceMaterialについては、交通領域と同様である。
+

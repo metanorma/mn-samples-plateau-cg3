@@ -1,0 +1,132 @@
+[[toc4_23]]
+=== ポイントクラウドモデルの応用スキーマ
+
+PointCloudモジュールは、地物と三次元点群データを対応させる方法を規定している。この方法により、建築物の外郭、建築物内の部屋、または単一の壁面と組み合わせることで三次元点群データでより精緻に表現することができる。同じことは、交通モデル、植生モデル、都市設備モデルなどを含む他のすべての地物にも適用される。ポイントクラウドは、CityGMLファイル内にインラインで格納することも、LASや LAZなどの一般的な三次元点群データファイル（外部ファイル）を参照する形で提供することもできる。
+
+[[toc4_23_01]]
+==== ポイントクラウドモデルのLOD
+
+標準製品仕様書では、ポイントクラウドモデルのLODは設定していない。
+
+[[toc4_23_02]]
+==== ポイントクラウドモデルの応用スキーマクラス図
+
+PointCloudパッケージは、都市オブジェクトと対応する三次元点群データの情報を地物型として定義する。PointCloudは都市オブジェクトと対応する三次元点群データを指定する地物型であり、PointCloudSpecAttributeは、対応付ける三次元点群データの詳細を記述するデータ型である。
+
+[[toc4_23_02_01]]
+===== PointCloud（CityGML）
+
+[[fig-4-23-1]]
+image::../../sources/images/EAID_240E86D5_8B1E_40a5_BA09_BA543AFC0EBE.png[]
+
+[[toc4_23_02_02]]
+===== Urban Object（i-UR）
+
+[[fig-4-23-2]]
+image::../../sources/images/EAID_D0DDCE77_D82A_4c13_8569_E22EAC808DA4.png[]
+
+
+[[toc4_23_03]]
+==== ポイントクラウドモデルの応用スキーマ文書
+
+[[toc4_23_03_01]]
+===== PointCloud（CityGML）
+
+[[toc4_23_03_01_01]]
+====== PointCloud
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="PointCloud",name="PointCloud",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_23_03_02]]
+===== UrbanObject（i-UR）
+
+[[toc4_23_03_02_01]]
+====== PointCloudSpecAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="PointCloudSpecAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+別表：ASPRSが定義したクラス分類
+
+[[tab-4-23-1]]
+[cols="1a,4a"]
+|===
+| クラス値 | 定義
+
+| 0 | Created, Never Classified (未分類、作成時のまま)
+| 1 | Unclassified (未分類)
+| 2 | Ground (地面)
+| 3 | Low Vegetation (低植生)
+| 4 | Medium Vegetation (中植生)
+| 5 | High Vegetation (高植生)
+| 6 | Building (建物)
+| 7 | Low Point (Noise) (ノイズ)
+| 8 | Model Key-Point (Mass Point) [Format 0-5採用]
+| 9 | Water (水域)
+| 10 | Rail (レール)
+| 11 | Road Surface (道路表面)
+| 12 | Overlap Points (オーバーラップ点) [Format 0-5採用]
+| 13 | Wire – Guard (Shield) (ガード線)
+| 14 | Wire – Conductor (Phase) (送電線)
+| 15 | Transmission Tower (送電塔)
+| 16 | Wire-Structure Connector (電線-構造物接続部)
+| 17 | Bridge Deck (橋梁デッキ)
+| 18 | High Noise (高ノイズ)
+| 19 | Overhead Structure (頭上構造物)
+| 20 | Ignored Ground (無視された地面)
+| 21 | Snow (雪)
+| 22 | Temporal Exclusion (時間的除外)
+| 23-63 | Reserved for ASPRS Definition
+| 64-255 | User Definable (ユーザー定義可能)
+
+|===
+
+
+[[toc4_23_04]]
+==== ポイントクラウドモデルで使用するコードリストと列挙型
+
+[[toc4_23_04_01]]
+===== PointCloud（CityGML）
+
+[[PointCloud_mimeType.xml]]
+====== PointCloud_mimeType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PointCloud_mimeType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[toc4_23_04_02]]
+===== UrbanObject（i-UR）
+
+[[PointCloudSpecAttribute_class.xml]]
+====== PointCloudSpecAttribute_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PointCloudSpecAttribute_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[[PointCloudSpecAttribute_function.xml]]
+====== PointCloudSpecAttribute_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PointCloudSpecAttribute_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[PointCloudSpecAttribute_pointCloudAssociationMethod.xml]]
+====== PointCloudSpecAttribute_pointCloudAssociationMethod.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PointCloudSpecAttribute_pointCloudAssociationMethod.xml[template="gml_dict_template.liquid",context=dict]
+
+[[PointCloudSpecAttribute_pointSubsamplingInfo.xml]]
+====== PointCloudSpecAttribute_pointSubsamplingInfo.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PointCloudSpecAttribute_pointSubsamplingInfo.xml[template="gml_dict_template.liquid",context=dict]
+
+[[PointCloudSpecAttribute_spectralBandSet.xml]]
+====== PointCloudSpecAttribute_spectralBandSet.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PointCloudSpecAttribute_spectralBandSet.xml[template="gml_dict_template.liquid",context=dict]
+
+[[PointCloudSpecAttribute_srcFilteringCriteria.xml]]
+====== PointCloudSpecAttribute_srcFilteringCriteria.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PointCloudSpecAttribute_srcFilteringCriteria.xml[template="gml_dict_template.liquid",context=dict]
+
+[[PointCloudSpecAttribute_srcScale.xml]]
+====== PointCloudSpecAttribute_srcScale.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PointCloudSpecAttribute_srcScale.xml[template="gml_dict_template.liquid",context=dict]
+

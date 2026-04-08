@@ -1,0 +1,246 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD0.1
+|■
+|Building
+|lod0MultiCurve
+|GM_MultiCurve
+|射影の短辺の実長1m以上
+|【屋根面の外周の取得方法】
+
+* 建築物の正射影の外周 footnoteblock:[fn_building_model_ext_3] を線として取得する。
+* 高さは0とする。
+
+【接地面の外周の取得方法】
+
+* 地表面と外壁面との交線を線として取得する。
+* 高さは0とする。
+
+|lod0MultiSurfaceを原則として使用する。
+
+|LOD0.1
+|■
+|Building
+|lod0MultiSurface
+|GM_MultiSurface
+|射影の短辺の実長1m以上
+|【屋根面の外周の取得方法】
+
+* 建築物の正射影の外周を取得する。
+* 高さは0とする。
+
+【接地面の外周の取得方法】
+
+* 地表面と外壁面との交線により囲まれた面を取得する。
+* 高さは0とする。
+|lod0MultiSurfaceを原則として使用する。
+
+|LOD0.1
+|〇
+|BuildingPart
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|【屋根面の外周の取得方法】
+
+* 建築物の正射影の外周を線として取得する。
+* 高さは0とする。
+
+【接地面の外周の取得方法】
+
+* 地表面と外壁面との交線を線として取得する。
+* 高さは0とする。
+|
+* BuildingPartを使用する場合、一棟のBuildingには必ず2つ以上のBuildingPartが含まれていなければならず、それらは互いに接していなければならない。
+* BuildingPartを使用する場合、Buildingの空間属性は空となる。
+
+|LOD0.1
+|〇
+|BuildingPart
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|【屋根面の外周の取得方法】
+
+* 建築物の正射影の外周を取得する。
+* 高さは0とする。
+
+【接地面の外周の取得方法】
+
+* 地表面と外壁面との交線により囲まれた面を取得する。
+* 高さは0とする。
+|
+* BuildingPartを使用する場合、一棟のBuildingには必ず2つ以上のBuildingPartが含まれていなければならず、それらは互いに接していなければならない。
+* BuildingPartを使用する場合、Buildingの空間属性は空となる。
+
+
+
+
+
+|LOD0.1
+|■
+|RoofSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 屋根の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|■
+|RoofSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 屋根の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|WallSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 外壁の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|■
+|GroundSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 地表面と外壁面との交線を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|■
+|GroundSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 地表面と外壁面との交線を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|OuterFloorSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 外壁のうち、上向きとなる面の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|OuterCeilingSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 外壁のうち、下向きとなる面の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|ClosureSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 他の境界面の境界線及び仮想的な境界線に囲まれた面の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|BuildingInstallation
+|lod0MultiSurface
+|GM_MultiSurface
+|建築物外部に存在する付属物
+|
+* 付属物の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|DoorSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 扉の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|WindowSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 窓の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|Door
+|-
+|-
+|-
+|-
+|空間属性を持たせない。
+
+|LOD0.1
+|〇
+|Window
+|-
+|-
+|-
+|-
+|空間属性を持たせない。
+
+|LOD0.1
+|〇
+|BuildingConstructiveElement
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 建築部材の正射影の外周を取得する。
+|
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）
+
+
+[[fn_building_model_ext_3]]
+[NOTE]
+--
+正射影とは、ある図形上の各点から、直線又は平面上に下ろした垂線の足の集まり。LOD0の場合は、上方からの正射影をいう。
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+--

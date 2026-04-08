@@ -1,0 +1,149 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD2.2
+|●
+|Tunnel
+|-
+|-
+|-
+|-
+|屋内モデルの場合は、空間属性を原則持たせない。
+
+|LOD2.2
+|〇
+|TunnelPart
+|-
+|-
+|-
+|-
+|屋内モデルの場合は、空間属性を原則持たせない。
+
+|LOD2.2
+|●
+|HollowSpace
+|lod2Solid
+|GM_Solid
+|全て対象
+|
+* 天井面（CeilingSurface）、内壁面（InteriorWallSurface）、閉鎖面（ClosureSurface）及び床面（FloorSurface）を境界面とする立体を作成する。
+|
+
+|LOD2.2
+|■
+|CeilingSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|トンネル内部の側面が垂直の場合に、その垂直面の上方に存在する面
+|
+* トンネル内部に存在する下向きの面の外周を取得する。
+|
+
+|LOD2.2
+|●
+|InteriorWallSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|
+|
+* トンネル内部の壁面のうち、天井面（CeilingSurface）又は床面（FloorSuface）として取得する面を除いた面を取得する。
+|
+
+|LOD2.2
+|●
+|FloorSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|
+|
+* トンネル内部に存在する上向きの面の外周を取得する。
+|
+* 水路トンネルの場合は床面（FloorSurface）ではなく、内壁面（InteriorWallSurface）として取得する。
+* トンネルの側面が垂直の場合は必須とする。
+
+|LOD2.2
+|■
+|ClosureSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|坑口の開口部
+|
+* トンネルの坑口の開口部の外周に囲まれた範囲を面として取得する。
+|
+
+|LOD2.2
+|●
+|TunnelInstallation
+|lod2MultiSurface
+|GM_MultiSurface
+|全ての固定設備
+|
+* 付属物の外形を構成する面を取得する。
+* 面の各頂点に付属物の高さを与える。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD2.2
+|〇
+|DoorSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|
+|
+* 扉の外周を取得する。
+|
+
+|LOD2.2
+|〇
+|WindowSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|
+|
+* 窓の外周を取得する。
+|
+
+|LOD2.2
+|
+|Door
+|
+|
+|
+|
+|対象外
+
+|LOD2.2
+|
+|Window
+|
+|
+|
+|
+|対象外
+
+|LOD2.2
+|
+|TunnelConstructiveElement
+|
+|
+|
+|
+|対象外
+
+|LOD2.2
+|〇
+|TunnelFurniture
+|lod2MultiSurface
+|GM_MultiSurface
+|全ての可動設備
+|
+* 可動設備の外形を構成する面を取得する。
+* 面の各頂点に可動設備の高さを与える。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

@@ -1,0 +1,22 @@
+[[tocH_04]]
+=== tran:TrafficArea
+
+tran:TrafficAreaは、船舶が通行可能な領域（交通領域）の記述に使用する地物型である。
+
+
+[[tocH_04_01]]
+==== 交通領域の空間属性
+
+
+[[tocH_04_01_01]]
+===== LOD0
+
+tran:TrafficAreaの空間属性は、LOD0において、ネットワークを表す線（core:lod0MultiCurve）とする。
+
+
+[[tocH_04_01_02]]
+===== LOD1
+
+tran:TrafficAreaの空間属性は、LOD1において、多曲面（core:lod1MultiSurface）とする。 +
+このとき、多曲面の境界は法令により指定された航路の区域の境界となる。
+

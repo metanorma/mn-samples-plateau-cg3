@@ -1,0 +1,12 @@
+[cols="1a,9a",options="noheader"]
+.地下埋設物モデル（LOD2.1）の取得イメージ（マンホール）
+|===
+h| LOD ^h| LOD2.1
+h| 取得例
+^.^|
+image::../../sources/images/unf_Acquire_lod21_manhole.png[]
+
+h| 説明
+| マンホールの外形を構成する面を取得する。マンホールの横断面形状の変化を表現する。
+
+|===

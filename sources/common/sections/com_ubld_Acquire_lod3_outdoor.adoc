@@ -1,0 +1,21 @@
+[cols="1a,3a,3a",options="noheader"]
+.地下街モデル・外部（LOD3）の取得イメージ
+|===
+h| LOD ^h| LOD3.0 ^h| LOD3.1
+h| 取得例
+^.^|
+image::../../sources/images/ubld_Acquire_lod30_out.png[width="250"]
+^.^|
+image::../../sources/images/ubld_Acquire_lod31_out.png[width="250"]
+
+h| 説明
+| 地下街（UndergroundBuilding）の形状を構成要素となる全ての部材（BuildingConstructiveElement、Window、Door）の形状を統合し、面の集まりとして表現する。 +
+なお、面の集まりを構成する面は境界面に分割又は区分せず、全て部材（BuildingConstructiveElement）として作成する。 +
+また、窓及び扉についても境界面としてではなく、部材としてそれぞれWindow及びDoorにより作成する。
+| 地下街（UndergroundBuilding）の形状を構成要素となる全ての部材（BuildingConstructiveElement、Window、Door）の形状を統合し、面の集まりとして表現する。 +
+LOD3.0では面の集まりを構成する面を境界面に分割又は区分しないのに対し、LOD3.1では、BuildingConstructiveElementを構成する面の全部又は一部を境界面に分割し、区分することができる。 +
+また、窓及び扉についても窓面（WindowSurface）、扉面（DoorSurface）によって境界面に区分することができる。 +
+さらに、付属物はBuildingInstallation、家具はBuildingFurnitureとして作成することができる。
+
+|===
+

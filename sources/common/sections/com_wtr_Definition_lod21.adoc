@@ -1,0 +1,64 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD2.1
+|●
+|WaterBody
+|lod2Solid
+|GM_Solid
+|
+|
+* 水面（WaterSurface）、水底面（WaterGroundSurface）、閉鎖面（ClosureSurface）を境界とする立体を作成する。
+* 水面又は水底面が複数の基準地域メッシュに跨る場合は、基準地域メッシュとの境界線を用いて作成した垂直面で立体を分割し、分割された水面、水底面及び垂直面を境界面とする立体とする。このとき、垂直面はClosureSurfaceとなる。
+|
+
+|LOD2.1
+|●
+|WaterSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|水面
+|
+* 水涯線に囲まれた面から、水面から突出する構造物の水面での断面を除く面を取得する。
+* 各頂点に水涯線と地形との交線の高さを与える。
+|構造物が存在しない場合は、水部モデル（LOD2）と同じ形状となる。
+
+|LOD2.1
+|●
+|WaterGroundSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|水底
+|
+* 水底の高さを取得した各点より構成する三角網を取得する。
+|
+
+|LOD2.1
+|●
+|WaterGroundSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|水中の構造物の外形
+|
+* 水中に存在する構造物の外形（外側から見える形）を構成する面を取得する。
+* 面の各頂点に構造物の高さを与える。
+|
+
+|LOD2.1
+|■
+|ClosureSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|水部を管理区間や行政界で区切る等、仮想的な面で区切りたい場合は必須とする。
+|
+* 水面（WaterSurface）と管理区間や行政界などの境界線との交線及び水底面（WaterGroundSurface）と境界線との交線により囲まれた面を取得する。
+* 各頂点には水面又は水底の高さを与える。
+|
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

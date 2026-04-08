@@ -1,0 +1,116 @@
+[[tocD_06]]
+=== 道路上の空間を表す地物型
+
+tran:TrafficSpace及びtran:AuxiliaryTrafficSpaceは、道路上の空間を表す地物型である。
+
+* tran:TrafficSpaceは、交通の用に供する空間である。
+* tran:AuxiliaryTrafficSpaceは、道路空間において、交通の用に供することを想定していない空間である。
+
+さらに、tran:TrafficSpaceは、道路空間において、移動物体が障害物に接触することなく移動可能な空き空間であるtran:ClearanceSpaceを含むことができる。
+
+tran:TrafficArea及びtran:AuxiliaryTrafficAreaが道路の路面を表す地物型であることに対し、これらの三つの地物型は境界面に囲まれた空間を表す。
+
+このとき、tran:TrafficAreaはtran:TrafficSpaceの境界面（底面）となり、tran:AuxiliaryTrafficAreaはtran:AuxiliaryTrafficSpaceの境界面（底面）となる。
+
+標準作業手順書では、道路の形状表現において、tran:TrafficArea及びtran:AuxiliaryTrafficAreaの空間属性、すなわち多曲面（面の集まり）を使用することを基本とする。
+
+このため、tran:TrafficSpace及びtran:AuxiliaryTrafficSpaceの空間属性は空でもよい。
+
+ただし、ドローン配送やロボット配送のように、ユースケースが道路の空間を必要とする場合には、tran:TrafficSpace、AuxiliaryTrafficSpace及びtran:ClearanceSpaceの空間属性を用いることができる。
+
+[[tocD_06_01]]
+==== tran:TrafficSpace
+
+
+[[tocD_06_01_01]]
+===== tran:TrafficSpaceの空間属性
+
+tran:TrafficSpaceの空間属性は、任意であり、省略することを基本とする。 +
+tran:TrafficSpaceの空間属性を記述する場合、各LODにおけるtran:TrafficSpaceの空間属性は以下とする。
+
+* LOD0において、tran:TrafficSpaceの空間属性は、空となる。
+* LOD1において、tran:TrafficSpaceの空間属性は、tran:TrafficAreaの空間属性（core:lod1MultiSurface）を一律の高さで上向きに押し出した立体（core:lod1Solid）により表現する。
+* LOD2において、tran:TrafficSpaceの空間属性は、tran:TrafficAreaの空間属性（core:lod2MultiSurface）を底面とし、建築限界の範囲を表す立体（core:lod2Solid）により表現する。
+* LOD3において、tran:TrafficSpaceの空間属性は、tran:TrafficAreaの空間属性（core:lod3MultiSurface）底面とし、建築限界の範囲を表す立体（core:lod3Solid）により表現する。
+
+
+[[tocD_06_01_02]]
+===== tran:TrafficSpaceの主題属性
+
+
+[[tocD_06_01_02_01]]
+====== tran:granularity
+
+交通空間の粒度を表す属性である。wayは道路単位・上り線・下り線単位、laneは車線単位を表す。
+
+なお、本属性の型はEnnumerationとして定義されており、wayとlane以外の値を使用することはできない。
+
+そのため、“way”は本来、上り・下りの区分を表す値であるが、道路単位でしか交通空間を表現しない場合にも使用することとしている。
+
+交通空間が、道路単位なのか、上り線・下り線の単位であるのかは、tran:TrafficAreaの属性tran:functionの値を用いて区分する。
+
+
+[[tocD_06_01_02_02]]
+====== tran:trafficDirection
+
+交通空間の通行可能な向きを示す。 +
+本属性を、tran:TrafficSpaceの関連役割tran:predecessorとtran:successorと合わせて使用することで、向きを持つ交通空間のネットワークを表現できる。
+
+
+[[tocD_06_02]]
+==== tran:AuxiliaryTrafficSpace
+
+
+[[tocD_06_02_01]]
+===== tran:AuxiliaryTrafficSpaceの空間属性
+
+tran:AuxiliaryTrafficSpaceの空間属性は、任意であり、省略することを基本とする。
+
+tran:AuxiliaryTrafficSpaceの空間属性を記述する場合、各LODにおけるtran:AuxiliaryTrafficSpaceの空間属性は以下とする。
+
+* LOD0において、tran:AuxiliaryTrafficSpaceの空間属性は、空となる。
+* LOD1において、tran:AuxiliaryTrafficSpaceの空間属性は、tran:AuxiliaryTrafficAreaの空間属性（core:lod1MultiSurface）を一律の高さで上向きに押し出した立体（core:lod1Solid）により表現する。
+* LOD2において、tran:AuxiliaryTrafficSpaceの空間属性は、tran:AuxiliaryTrafficAreaの空間属性（core:lod2MultiSurface）を底面とし、建築限界の範囲を表す立体（core:lod2Solid）により表現する。
+* LOD3において、tran:AuxiliaryTrafficSpaceの空間属性は、tran:AuxiliaryTrafficAreaの空間属性（core:lod3MultiSurface）底面とし、建築限界の範囲を表す立体（core:lod3Solid）により表現する。
+
+
+[[tocD_06_02_02]]
+===== tran:AuxiliaryTrafficSpaceの主題属性
+
+
+[[tocD_06_02_02_01]]
+====== tran:granularity
+
+交通空間の粒度を表す属性である。wayは道路単位・上り線・下り線単位、laneは車線単位を表す。本属性は必須（多重度1）であるため、必ず記述しなければならない。
+
+交通補助領域が車線単位で作成されることは想定されないため、通常はwayを使用することになるが、ユースケースに応じてlaneを使用してもよい。
+
+
+[[tocD_06_03]]
+==== tran:ClearanceSpace
+
+tran:ClearanceSpaceは、道路空間において、移動物体が障害物に接触することなく移動可能な空き空間を表す地物型である。
+
+tranClearanceSpaceは、常にtran:TrafficSpaceの部品として記述される。
+
+
+[[tocD_06_03_01]]
+===== tran:ClearanceSpaceの空間属性
+
+tran:ClearanceSpaceを作成する場合、各LODにおけるtran:ClearanceSpaceの空間属性は立体（core:lod1Solid,core:lod2Solid,core:lod3Solid）とする。
+
+* LOD1において、tran:ClearanceSpaceの空間属性は、tran:TrafficSpaceの空間属性（core:lod1Solid）の上面を底面とし、一律の高さで上向きに押し出した立体（core:lod1Solid）により表現する。
+* LOD2において、tran:ClearanceSpaceの空間属性は、tran:TrafficSpaceの空間属性（core:lod2Solid）の上面を底面とする任意の空間を表す立体（core:lod2Solid）により表現する。
+* LOD3において、tran:ClearanceSpaceの空間属性は、tran:TrafficSpaceの空間属性（core:lod3Solid）の上面を底面とする任意の空間を表す立体（core:lod3Solid）により表現する。
+
+
+[[tocD_06_03_02]]
+===== tran:ClearanceSpaceの主題属性
+
+
+[[tocD_06_03_02_01]]
+====== tran:class
+
+tran:ClearanceSpaceの分類に用いることができる。 +
+コードリストは、ユースケースの必要に応じて拡張することができる。
+

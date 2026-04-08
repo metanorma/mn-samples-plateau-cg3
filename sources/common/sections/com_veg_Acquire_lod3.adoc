@@ -1,0 +1,15 @@
+[cols="1a,3a,3a",options="noheader"]
+.植生モデル（LOD3）の取得イメージ
+|===
+h| LOD 2+^h| LOD3
+h| 取得例
+^.^|
+image::../../sources/images/veg_Acquire_lod30_01.png[width="200"]
+^.^|
+image::../../sources/images/veg_Acquire_lod30_02.png[width="200"]
+
+h| 説明
+| 樹冠及び樹幹の外形及び葉群（葉叢）の広がり等の樹木の外観を三次元的に表現した立体又は面の集まり。
+| 植被の外形及び葉群（葉叢）の広がり等の植被の外観を三次元的に表現した立体又は面の集まり。
+
+|===

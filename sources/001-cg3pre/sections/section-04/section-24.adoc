@@ -1,0 +1,47 @@
+[[toc4_24]]
+=== 都市オブジェクトグループモデルの応用スキーマ
+
+都市オブジェクトグループは、都市オブジェクトの集まりである。
+
+[[toc4_24_01]]
+==== 都市オブジェクトグループモデルのLOD
+
+都市オブジェクトグループは地物の集まりであり、それ自身の空間属性をもたないため、LODは定義しない。
+
+[[toc4_24_02]]
+==== 都市オブジェクトグループモデルの応用スキーマクラス図
+
+[[toc4_24_02_01]]
+===== CityObjectGroup（CityGML）
+
+CityObjectGroupパッケージは、都市オブジェクト（AbstractCityObject）をグループ化するCityObjectGroupを定義する。
+
+[[fig-4-24-1]]
+image::../../sources/images/EAID_CCE69980_0DDD_4975_9104_054B018BAA96.png[]
+
+
+[[toc4_24_03]]
+==== 都市オブジェクトグループモデルの応用スキーマ文書
+
+[[toc4_24_03_01]]
+===== CityObjectGroup（CityGML）
+
+[[toc4_24_03_01_01]]
+====== CityObjectGroup
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="CityObjectGroup",name="CityObjectGroup",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+//[[toc4_24_03_01_02]]
+//====== Role
+//※uml:AssociationClass（関連クラス）のためklass非対応の可能性あり
+
+//lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="CityObjectGroup",name="Role",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+
+[[toc4_24_04]]
+==== 都市オブジェクトグループモデルで使用するコードリストと列挙型
+
+[[toc4_24_04_01]]
+===== CityObjectGroup（i-UR）
+
+なし

@@ -1,0 +1,230 @@
+[[tocQ_02]]
+=== 地下街の記述とLOD
+
+
+[[tocQ_02_01]]
+==== 地下街モデル
+
+地下街とは、地下街その他地下に設けられた不特定かつ多数の者が利用する施設（地下に建設が予定されている施設又は地下に建設中の施設であって、不特定かつ多数の者が利用すると見込まれるものを含む。）をいう。
+
+[.source]
+<<jp_water_prevention_law,clause="第15条第1項第4号イ">>
+
+地下街の記述には、i-URのUrbanObjectモジュールに定義されたuro:UndergroundBuildingを使用する。
+
+標準製品仕様書では、地下街の表現に必要な地物型等をCityGML及びi-URより抽出し、LODごとに、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を定めた「地下街モデル」を定義する。
+
+地下街モデルのLODは、LOD0からLOD3までを対象とする。このとき、LODには外部（屋外）と内部（屋内）がそれぞれ存在する。
+
+[[fig-Q-1]]
+.地下街モデルの概要
+image::../../sources/images/anx_Q_001.png[]
+
+* 地下街モデル・外部（LOD0）は、地下街の形状を、上方からの正射影の外周を表す面又は線により表現する。
+* 地下街モデル・外部（LOD1）は、地下街の形状を、上方からの正射影の外周を、地表から一律の高さで下向きに押し出した立体として表現する。
+* 地下街モデル・外部（LOD2）は、地下街の形状を、屋根や壁の形状を含む立体として表現し、立体の境界面を構成する面を屋根面、外壁面、底面に区分する。
+* 地下街モデル・外部（LOD3）は、地下街の形状を、建築部材の外形を表す面により構成された多曲面（面の集まり）として表現する。
+* 地下街モデル・内部（LOD0）は、地下街に含まれる部屋の形状を、外周を表す面又は線により表現する。
+* 地下街モデル・内部（LOD1）は、地下街に含まれる部屋の形状を、外周を表す面を一律の高さで上向きに押し出した立体により表現する。
+* 地下街モデル・内部（LOD2）は、地下街に含まれる部屋の形状を、床や天井の形状を含む立体として表現し、その境界面を天井面、内壁面、床面等に区分する。
+* 地下街モデル・内部（LOD3）は、地下街に含まれる部屋の形状を床や天井の形状を含む立体として表現し、その境界面を天井面、内壁面、床面等に区分するとともに、建築部材の外形を多曲面として表現する。
+
+
+[[tocQ_02_02]]
+==== 使用可能な地物型とLOD
+
+地下街モデルは、LODごとに、使用すべき地物型やその空間属性が異なる。
+
+
+[requirement]
+.地下街記述のLOD対応条件
+====
+[%metadata]
+identifier:: /req/ubld/1
+subject:: 妥当な地下街データセットの要件
+description:: 地下街の記述には、指定されたLODに対応する地物型及び空間属性を使用する。
+====
+
+地下街は、i-URのUrbanObjectモジュールに定義されたuro:UndergroundBuildingを用いて記述する。 +
+uro:UndergroundBuildingはCityGMLのBuildingモジュールに定義されたbldg:AbstractBuildingを継承し、定義されている。 +
+そのため、uro:UndergroundBuildingは、建築物（bldg:Building）と同様に、境界面等に区分することができる。
+
+* 外部LOD
+** 外部（LOD0）では、uro:UndergroundBuildingを使用し、地下街の幾何形状を平面又は線で記述する。
+** 外部（LOD1）では、uro:UndergroundBuildingを使用し、地下街の幾何形状を立体で記述する。
+** 外部（LOD2）では、uro:UndergroundBuildingを使用し、地下街の幾何形状を立体で記述する。また、立体を構成する境界面を構成する面を、屋根面や外壁面等の地物型を用いて記述する。屋根面や外壁面はcon:AbstractConstructionSurfaceとして定義されている。con:AbstractConstructionSurfaceは抽象地物であり、実装にはこれを継承する地物型（例：屋根面はcon:RoofSurface）を使用する。また、扉面（con:DoorSurface）や窓面（con:WindowSurface）を用いることもできる。
+** 外部（LOD3）では、bldg:Buildingを使用し、地下街の幾何形状を多曲面で記述する。また、地下街は建築部材（bldg:BuildingConstructiveElement）の集まりとして構成され、地下街の多曲面を構成する面は、建築部材を構成する面に一致する。また、扉（con:Door）及び窓（con:Window）を含めることができる。
+* 内部LOD
+** 内部（LOD0）では、uro:UndergroundBuildingを使用し、地下街を部屋（bldg:BuildingRoom）の集まりとして記述する。部屋の幾何形状は、平面又は線で記述する。
+** 内部（LOD1）では、uro:UndergroundBuildingを使用し、地下街を部屋（bldg:BuildingRoom）の集まりとして記述する。部屋の幾何形状は、立体で記述する。
+** 内部（LOD2）では、uro:UndergroundBuildingを使用し、地下街を部屋（bldg:BuildingRoom）の集まりとして記述する。部屋の幾何形状は、立体で記述する。また、立体の境界面を、天井面や内壁等の地物型を用いて記述する。天井面や内壁面はcon:AbstractConstructionSurfaceとして定義されている。con:AbstractConstructionSurfaceは抽象地物であり、実装にはこれを継承する地物型（例：天井面はcon:CeilingSurface）を使用する。また、扉面（con:DoorSurface）や窓面（con:WindowSurface）を用いることもできる。
+** 内部（LOD3）では、uro:UndergroundBuildingを使用し、地下街を部屋（bldg:BuildingRoom）及び建築部材（bldg:BuildingConstructiveElement）の集まりとして記述する。また、扉（con:Door）及び窓（con:Window）を含めることができる。部屋は立体として記述し、建築部材、扉及び窓は多曲面で記述する。
+
+各LODでは、bldg:BuildingPartを使用できる。bldg:BuildingPartは、一つの地下街を二つ以上の部分に分けた地下街の一部であり、bldg:Buildingと同様の属性をもつことができる。例えば、一つの地下街について一部の用途や管理者が異なっているなどの場合に、その地下街を複数に区切り、区切った地下街の部分（bldg:BuildingPart）ごとに属性を与えるために使用する。
+
+ただし、このとき、[underline]##bldg:Buildingを構成するbldg:BuildingPartとは、一体的な建築物（bldg:BuildingPart同士が互いに接して一棟の建築物を構成する）でなければならない。##
+
+また、内部LODでは地下街に付属する階段やエレベータといった設備を、bldg:BuildingInstallationを用いて記述できる。 +
+家具などの設備（bldg:BuildingFurniture）を含めることができる。
+
+なお、bldg:BuildingPartは地下街であるが、bldg:BuildingInstallationは地下街ではなく、地下街の付属物である。
+
+さらに、内部LODでは、部屋のまとまりを階（bldg:Storey）として記述する。また、部屋や階のまとまりを区画（bldg:BuildingUnit）として記述することができる。そのほか、家具などの可動設備（bldg:BuildingFurniture）を含めることができる。
+
+地下街の各LODにおいて使用可能な地物型とその空間属性を<<tab-Q-1>>に示す。
+
+// 地下街モデルの記述に使用する地物型と空間属性
+[[tab-Q-1]]
+include::../../../common/sections/com_ubld_SpatialAttribute.adoc[]
+
+// NOTEのtype=を増やし補足に対応したい
+補足
+
+LOD3は、BIMモデルからの変換を前提とした区分である。測量を前提としたLOD2とは異なり、地物の大きさによる取得の要否ではなく、変換対象となるIFCのクラスによりLODを細分している。LODが上がるにつれ、詳細な地物が含まれるモデルとなる。
+
+
+[[tocQ_02_03]]
+==== 地下街モデルのLOD定義
+
+地下街モデルは、LODごとに、含むべき地物やその取得基準を定めている。
+
+
+[[tocQ_02_03_01]]
+===== 外部LOD0
+
+地下街モデル・外部（LOD0）は、含むべき地物によりLOD0.0及びLOD0.1に細分される。
+
+LOD0.0は地下街の形状を平面に投影したものである。 +
+LOD0.1は、LOD0.0を構成する地下街の外周を壁や扉・窓を表す線分に区切ったものである。
+
+標準製品仕様書は、原則としてLOD0.0を採用する。ただし、ユースケースの必要に応じてLOD0.1を採用できる。
+
+// 地下街モデル・外部（LOD0）の取得イメージ
+[[tab-Q-2]]
+include::../../../common/sections/com_ubld_Acquire_lod0_outdoor.adoc[]
+
+
+[[tocQ_02_03_02]]
+===== 外部LOD1
+
+地下街モデル・外部（LOD1）は、含むべき地物によりLOD1.0及びLOD1.1に細分される。
+
+LOD1.1は、LOD0で作成されたcore:lod0MultiSurface又はcore:lod0MultiCurveにより作成された地下街の外周を示す平面を、一定の高さで地表から下向きに押し出した角柱として表現したものである。 +
+LOD1.1は、LOD1.0の角柱の境界面を、屋根面や壁面などの境界面や扉面等の開口部の境界面に区分したものである。
+
+標準製品仕様書は、原則としてLOD1.0を採用する。ただし、ユースケースの必要に応じてLOD1.1を採用できる。
+
+// 地下街モデル・外部（LOD1）の取得イメージ
+[[tab-Q-3]]
+include::../../../common/sections/com_ubld_Acquire_lod1_outdoor.adoc[]
+
+
+[[tocQ_02_03_03]]
+===== 外部LOD2
+
+地下街モデル・外部（LOD2）は、地下街の外形を立体で表現し、立体を構成する境界面を構成する面を、屋根面や外壁面等の地物型に区分したものである。
+
+地下街モデル・外部（LOD1）と異なり、地下街の頂部や底部の形状が再現される。LOD2は、測量による取得を前提とした区分である。
+
+// 地下街モデル・外部（LOD2）の取得イメージ
+[[tab-Q-4]]
+include::../../../common/sections/com_ubld_Acquire_lod2_outdoor.adoc[]
+
+
+[[tocQ_02_03_04]]
+===== 外部LOD3
+
+地下街モデル・外部（LOD3）は、含むべき地物により、LOD3.0及びLOD3.1に細分される。
+
+これらは、BIMデータからの変換を前提とした区分であり、建築部材の集まりにより建築物の形状を表現する。
+
+標準製品仕様書では原則としてLOD3.0を採用する。ただし、ユースケースの必要に応じてLOD3.1を採用できる。
+
+// 地下街モデル・外部（LOD3）の取得イメージ
+[[tab-Q-5]]
+include::../../../common/sections/com_ubld_Acquire_lod3_outdoor.adoc[]
+
+// 地下街モデル・外部におけるLOD3.0及びLOD3.1の区分
+[[tab-Q-6]]
+include::../../../common/sections/com_ubld_Category_lod3_outdoor.adoc[]
+
+
+[[tocQ_02_03_05]]
+===== 内部LOD0
+
+地下街モデル・内部（LOD0）は、含むべき地物によりLOD0.0及びLOD0.1に細分される。
+
+LOD0.0及びLOD0.1は部屋の形状を平面に投影したものである。
+
+標準製品仕様書は、原則としてLOD0.0を採用する。ただし、ユースケースの必要に応じてLOD0.1を採用できる。
+
+// 地下街モデル・内部（LOD0）の取得イメージ
+[[tab-Q-7]]
+include::../../../common/sections/com_ubld_Acquire_lod0_indoor.adoc[]
+
+
+[[tocQ_02_03_06]]
+===== 内部LOD1
+
+地下街モデル・内部（LOD1）は、含むべき地物によりLOD1.0及びLOD1.1に細分される。
+
+地下街モデル・内部（LOD1）は、LOD0で作成されたcore:lod0MultiSurface又はcore:lod0MultiCurveにより作成された部屋の外周を示す平面を、一定の高さで上向きに押し出した角柱として表現したものである。
+
+標準製品仕様書は、原則としてLOD1.0を採用する。ただし、ユースケースの必要に応じてLOD1.1を採用できる。
+
+// 地下街モデル・内部（LOD1）の取得イメージ
+[[tab-Q-8]]
+include::../../../common/sections/com_ubld_Acquire_lod1_indoor.adoc[]
+
+
+[[tocQ_02_03_07]]
+===== 内部LOD2
+
+地下街モデル・内部（LOD2）は、含むべき地物の大きさによりLOD2.0、LOD2.1及びLOD2.2に細分される。
+
+これらは測量により取得されたデータからの作成を前提とした区分である。
+
+標準製品仕様書は、原則としてLOD2.0を採用する。ただし、ユースケースの必要に応じてLOD2.1又はLOD2.2を採用できる。
+
+// 地下街モデル・内部（LOD2）の取得イメージ
+[[tab-Q-9]]
+include::../../../common/sections/com_ubld_Acquire_lod2_indoor.adoc[]
+
+// 地下街モデル・内部におけるLOD2.0、LOD2.1及びLOD2.2の区分
+[[tab-Q-10]]
+include::../../../common/sections/com_ubld_Category_lod2_indoor.adoc[]
+
+
+[[tocQ_02_03_08]]
+===== 内部LOD3
+
+地下街モデル・内部（LOD3）は、含むべき地物により、LOD3.0、LOD3.1及びLOD3.2に区分される。
+
+これらはBIMデータからの変換を前提とした区分である。
+
+標準製品仕様書では原則としてLOD3.0を採用する。ただし、ユースケースの必要に応じてLOD3.1又はLOD3.2を採用できる。
+
+// 地下街モデル・内部（LOD3）の取得イメージ
+[[tab-Q-11]]
+include::../../../common/sections/com_ubld_Acquire_lod3_indoor.adoc[]
+
+// 地下街モデル・内部におけるLOD3.0、LOD3.1及びLOD3.2の区分
+[[tab-Q-12]]
+include::../../../common/sections/com_ubld_Category_lod3_indoor.adoc[]
+
+
+[[tocQ_02_03_09]]
+===== LODの対照表
+
+CityGML2.0とCityGML3.0では、LOD定義が異なることから、CityGML2.0に準拠した標準製品仕様書第5.1版と、CityGML3.0に準拠した本応用スキーマにおけるLODの細分の定義は異なる。
+
+以下に新旧の対応を示す。
+
+[[fig-Q-2]]
+.外部LOD対照表
+image::../../sources/images/anx_Q_002.png[]
+
+[[fig-Q-3]]
+.外部LOD対照表
+image::../../sources/images/anx_Q_003.png[]
+

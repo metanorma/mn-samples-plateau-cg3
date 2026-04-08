@@ -1,0 +1,162 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+
+|LOD1.1
+|●
+|Bridge
+|-
+|-
+|-
+|-
+|内部LODの場合は、空間属性を持たせない。
+
+|LOD1.1
+|〇
+|BridgePart
+|-
+|-
+|-
+|-
+|内部LODの場合は、空間属性を持たせない。
+
+|LOD1.1
+|●
+|BridgeRoom
+|lod1Solid
+|GM_Solid
+|
+|
+* 床面の上方からの正射影の外周を取得し、床面から一律の高さで上向きに押し出した立体を作成する。
+|
+
+|LOD1.1
+|〇
+|CeilingSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 天井の上からの正射影の外周を取得する。
+* 外周を構成する各頂点に、一律の高さを与える。
+|
+
+|LOD1.1
+|〇
+|InteriorWallSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 内壁面の正射影の外周を取得する。
+* 角となる場所で区切る。
+|
+
+|LOD1.1
+|〇
+|FloorSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 床の正射影の外周を取得する。
+* 外周を構成する各頂点に、一律の高さを与える。
+|
+
+|LOD1.1
+|〇
+|ClosureSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 床面（FloorSurface）、天井面（CeilingSurface）及び内壁面（InteriorWallSurface）を区切る仮想的な境界線に囲まれた水平面又は垂直面を取得する。
+* 水平面として取得する場合、 床面の高さ又は天井面の高さのいずれか一方の一律の高さとする。
+* 垂直面として取得する場合、各頂点は床面の高さ又は天井面の高さのいずれかの高さとする。
+|
+
+|LOD1.1
+|〇
+|BridgeInstallation
+|lod1Solid
+|GM_Solid
+|橋梁内部に存在する付属物
+|
+* 付属物の上方からの正射影の外周を取得し、床面から一律の高さで上向きに押し出した立体を作成する。
+|
+
+|LOD1.1
+|〇
+|DoorSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 扉の正射影の外周を取得する。
+|
+
+|LOD1.1
+|〇
+|WindowSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 窓の正射影の外周を取得する。
+|
+
+|LOD1.1
+|〇
+|Door
+|-
+|-
+|-
+|-
+|-
+
+|LOD1.1
+|〇
+|Window
+|-
+|-
+|-
+|-
+|-
+
+|LOD1.1
+|〇
+|BridgeConstructiveElement
+|lod1Solid
+|GM_Solid
+|橋梁内部に存在する構造上不可欠な部材
+|
+* 構造物の上方からの正射影の外周を取得し、床面から一律の高さで上向きに押し出した立体を作成する。
+|
+
+|LOD1.1
+|〇
+|BridgeFurniture
+|lod1Solid
+|GM_Solid
+|
+|
+* 可動設備の上方からの正射影の外周を取得し、床面から一律の高さで上向きに押し出した立体を作成する。
+|
+
+|LOD1.1
+|〇
+|BridgeInstallation
+|lod1Solid
+|GM_Solid
+|橋梁外部に存在する付属物
+|
+* 付属物の上方からの正射影の外周を取得し、地上から一律の高さで上向きに押し出した立体を作成する。
+|
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

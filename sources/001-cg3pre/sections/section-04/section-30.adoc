@@ -1,0 +1,163 @@
+[[toc4_30]]
+=== 空間スキーマプロファイル
+
+[[toc4_30_01]]
+==== クラス図
+
+[[toc4_30_01_01]]
+===== Spatial Schema（GML）
+
+空間スキーマプロファイルは、地物の空間属性（位置や形状）の記述に使用する型（幾何オブジェクト）を定義する。
+
+応用スキーマに定義された各都市オブジェクトは、lod0からlod3までの幾何形状を記述するときに、幾何オブジェクトを使用する。これは、応用スキーマクラス図では、都市オブジェクトから幾何オブジェクトへの参照として記述される。
+
+[[toc4_30_01_01_01]]
+====== 幾何プリミティブ
+
+[[fig-4-30-1]]
+image::../../sources/images/EAID_5D063860_5A70_4cd9_A91B_4F365EC4984D.png[]
+
+幾何複体(Geometric Complex)とは、互いに素な幾何プリミティブの集合である。
+
+[.source]
+<<jis_x_7107>>
+
+また、幾何集成とは、内部構造をもたない幾何オブジェクトの集まりである。
+
+[.source]
+<<jis_x_7107>>
+
+幾何複体と幾何集成は、いずれも幾何形状の集まりとして表現される。ただし、幾何複体は、集められた幾何形状が互いに重なってはならない。一方、幾何集成は、集められた幾何形状が互いに重なっていてもよい。
+
+
+[[toc4_30_02]]
+==== スキーマ文書
+
+[[toc4_30_02_01]]
+===== Spatial Schema（GML）
+
+[[toc4_30_02_01_01]]
+====== GM_Point
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric primitive",name="GM_Point",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_02]]
+====== GM_OrientablePrimitive
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric primitive",name="GM_OrientablePrimitive",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_03]]
+====== GM_OrientableCurve
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric primitive",name="GM_OrientableCurve",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_04]]
+====== GM_Curve
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric primitive",name="GM_Curve",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_05]]
+====== GM_Ring
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric primitive",name="GM_Ring",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_06]]
+====== GM_SurfaceBoundary
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric primitive",name="GM_SurfaceBoundary",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_07]]
+====== GM_OrientableSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric primitive",name="GM_OrientableSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_08]]
+====== GM_Surface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric primitive",name="GM_Surface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_09]]
+====== GM_Shell
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric primitive",name="GM_Shell",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_10]]
+====== GM_SolidBoundary
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric primitive",name="GM_SolidBoundary",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_11]]
+====== GM_Solid
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric primitive",name="GM_Solid",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_12]]
+====== GM_CompositeCurve
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric complex",name="GM_CompositeCurve",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_13]]
+====== GM_CompositeSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric complex",name="GM_CompositeSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_14]]
+====== GM_PointRef
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Coordinate geometry",name="GM_PointRef",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_15]]
+====== GM_LineString
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Coordinate geometry",name="GM_LineString",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_16]]
+====== GM_Polygon
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Coordinate geometry",name="GM_Polygon",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_17]]
+====== GM_PolyhedralSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Coordinate geometry",name="GM_PolyhedralSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_18]]
+====== GM_TriangulatedSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Coordinate geometry",name="GM_TriangulatedSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_19]]
+====== GM_Tin
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Coordinate geometry",name="GM_Tin",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_20]]
+====== DirectPosition
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Coordinate geometry",name="DirectPosition",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_21]]
+====== GM_Position
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Coordinate geometry",name="GM_Position",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_22]]
+====== GM_PointArray
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Coordinate geometry",name="GM_PointArray",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_23]]
+====== GM_MultiPoint
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric aggregates",name="GM_MultiPoint",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_24]]
+====== GM_MultiCurve
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric aggregates",name="GM_MultiCurve",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_30_02_01_25]]
+====== GM_MultiSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Geometric aggregates",name="GM_MultiSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+

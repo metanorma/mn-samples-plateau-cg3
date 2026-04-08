@@ -1,0 +1,23 @@
+====== RiverFloodingRiskAttribute
+
+<<toc4_09_03_02_01,災害リスクモデルの応用スキーマ文書>>　参照。
+
+====== TsunamiRiskAttribute
+
+<<toc4_09_03_02_02,災害リスクモデルの応用スキーマ文書>>　参照。
+
+====== HighTideRiskAttribute
+
+<<toc4_09_03_02_03,災害リスクモデルの応用スキーマ文書>>　参照。
+
+====== InlandFloodingRiskAttribute
+
+<<toc4_09_03_02_04,災害リスクモデルの応用スキーマ文書>>　参照。
+
+====== ReservoirFloodingRiskAttribute
+
+<<toc4_09_03_02_05,災害リスクモデルの応用スキーマ文書>>　参照。
+
+====== LandSlideRiskAttribute
+
+<<toc4_09_03_02_06,災害リスクモデルの応用スキーマ文書>>　参照。

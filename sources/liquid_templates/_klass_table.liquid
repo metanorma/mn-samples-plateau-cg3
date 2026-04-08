@@ -4,7 +4,7 @@ Initialize global variables and mappings
 ==============================================
 {%- endcomment -%}
 {% assign root = klass.generalization %}
-{% assign citygml_ns = "app,bldg,brid,core,dem,frn,gen,grp,luse,tran,tun,veg,wtr" | split: "," %}
+{% assign citygml_ns = "app,bldg,brid,core,dem,frn,gen,grp,luse,tran,tun,veg,wtr,uro" | split: "," %}
 
 {%- comment -%}Format upper class name{%- endcomment -%}
 {%- capture upper_klass_name -%}
@@ -12,6 +12,11 @@ Initialize global variables and mappings
 {%- endcapture -%}
 {%- if upper_klass_name == ":" -%}
   {%- assign upper_klass_name = "&#x2014;" -%}
+{%- endif -%}
+
+{% assign testUP = root.general.name %}
+{%- if upper_klass_name == "&#x2014;" -%}
+  {%- assign testUP = "&#x2014;" -%}
 {%- endif -%}
 
 {%- comment -%}Format stereotype{%- endcomment -%}
@@ -143,6 +148,59 @@ keyValuePairAttribute=>urf|uro:KeyValuePairAttribute,
 urfDmAttribute=>urf|uro:DmAttribute
 " | strip_newlines | split: "," %}
 
+{% assign mapping_types = "
+Address=>core:Address,
+BreakdownOfNominalArea=>urf:BreakdownOfNominalArea,
+CircularCurveType=>uro:CircularCurveType,
+Color=>core:Color,
+ColorPlusOpacity=>core:ColorPlusOpacity,
+ConditionOfConstructionValue=>uro:ConditionOfConstructionValue,
+ConstructionEvent=>uro:ConstructionEvent,
+ControlPointType=>uro:ControlPointType,
+CountermeasuresCost=>uro:CountermeasuresCost,
+Description=>gml:description,
+doubleBetween0and1=>core:doubleBetween0and1,
+EconomicActivitySumType=>urf:EconomicActivitySumType,
+Elevation=>uro:Elevation,
+Height=>uro:Height,
+HightStatusValue=>uro:HightStatusValue,
+IfcAxis2Placement3D=>uro:IfcAxis2Placement3D,
+IfcClassification=>uro:IfcClassification,
+IfcCoordinateReferenceSystem=>uro:IfcCoordinateReferenceSystem,
+IfcCoordinateReferenceSystemSelect=>uro:IfcCoordinateReferenceSystemSelect,
+IfcElementCompositionEnum=>uro:IfcElementCompositionEnum,
+IfcGeometricRepresentationContext=>uro:IfcGeometricRepresentationContext,
+ifcInternalOrExternalEnum=>uro:ifcInternalOrExternalEnum,
+IfcTransportElementTypeEnum=>uro:IfcTransportElementTypeEnum,
+IfcUnit=>uro:IfcUnit,
+IfcUnitEnum=>uro:IfcUnitEnum,
+integerBetween0and4=>core:integerBetween0and4,
+LandPricePerLandUseType=>urf:LandPricePerLandUseType,
+LongevityMeasures=>uro:LongevityMeasures,
+NumberOfFacilities=>uro:NumberOfFacilities,
+NumberOfHouseholdsType=>urf:NumberOfHouseholdsType,
+Occupancy=>uro:Occupancy,
+ParkHealthAssessment=>uro:ParkHealthAssessment,
+Point=>gml:Point,
+PopulationByAgeAndSexType=>urf:PopulationByAgeAndSexType,
+RelativeToTerrainType=>core:RelativeToTerrainType,
+RelativeToWaterType=>core:RelativeToWaterType,
+RepairsBeforeParkHealthAssessment=>uro:RepairsBeforeParkHealthAssessment,
+SlopeType=>uro:SlopeType,
+StructureDetails=>urf:StructureDetails,
+Surface=>gml:Surface,
+TextureTypeType=>core:TextureTypeType,
+TransformationMatrix2x2=>core:TransformationMatrix2x2,
+TransformationMatrix3x4=>core:TransformationMatrix3x4,
+TransformationMatrix4x4=>core:TransformationMatrix4x4,
+TransitionCurveType=>uro:TransitionCurveType,
+UserDefinedValue=>uro:UserDefinedValue,
+ValueByCodes=>urf:ValueByCodes,
+VerticalCurveType=>uro:VerticalCurveType,
+WeatherObservationType=>urf:WeatherObservationType,
+WrapModeType=>core:WrapModeType
+" | strip_newlines | split: "," %}
+
 {%- comment -%}Configure table columns{%- endcomment -%}
 {%- if klass.has_guidance? -%}
   {%- assign cols_format = "1a,1a,2a,1a" -%}
@@ -157,7 +215,7 @@ urfDmAttribute=>urf|uro:DmAttribute
 [cols="{{ cols_format }}"]
 |===
 h| 型の定義 {{ cols_header }}+| {{ root.definition }}
-h| 上位の型 {{ cols_header }}+| {{ upper_klass_name }}
+h| 上位の型 {{ cols_header }}+| {{ testUP }}
 h| ステレオタイプ {{ cols_header }}+| {{ stereotype }}
 
 {% if root.inherited_props.size > 0 %}
@@ -167,15 +225,72 @@ h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? 
   {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
   {%- capture name_col -%}
     {%- if attr.used? == false -%}
-      ({{ attr_upper_klass_name }}:{{ attr.name }}) +
-      [{{ attr_upper_klass_name }}::{{ attr.gen_name }}]
+      ({{ attr.name }}) +
+      [{{ attr.gen_name }}]
     {%- else -%}
-      {{ attr_upper_klass_name }}:{{ attr.name }} +
-      [{{ attr_upper_klass_name }}::{{ attr.gen_name }}]
+      {{ attr.name }} +
+      [{{ attr.gen_name }}]
     {%- endif -%}
   {%- endcapture -%}
+  {% assign type_col = attr.type %}
+  {% for mapping_type in mapping_types %}
+    {% assign parts = mapping_type | split: "=>" %}
+    {% if parts[0] == attr.type %}
+      {% assign type_col = parts[1] %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  
+    {% assign testType = type_col %}
+    {% if testType contains 'Construction:' %}
+      {% assign testType = testType | replace: 'Construction:', '' %}
+    {% elsif testType contains 'Building:' %}
+      {% assign testType = testType | replace: 'Building:', '' %}
+    {% elsif testType contains 'Bridge:' %}
+      {% assign testType = testType | replace: 'Bridge:', '' %}
+    {% elsif testType contains 'Tunnel:' %}
+      {% assign testType = testType | replace: 'Tunnel:', '' %}
+    {% elsif testType contains 'CityFurniture:' %}
+      {% assign testType = testType | replace: 'CityFurniture:', '' %}
+    {% elsif testType contains 'CityObjectGroup:' %}
+      {% assign testType = testType | replace: 'CityObjectGroup:', '' %}
+    {% elsif testType contains 'LandUse:' %}
+      {% assign testType = testType | replace: 'LandUse:', '' %}
+    {% elsif testType contains 'Relief:' %}
+      {% assign testType = testType | replace: 'Relief:', '' %}
+    {% elsif testType contains 'Transportation:' %}
+      {% assign testType = testType | replace: 'Transportation:', '' %}
+    {% elsif testType contains 'Vegetation:' %}
+      {% assign testType = testType | replace: 'Vegetation:', '' %}
+    {% elsif testType contains 'WaterBody:' %}
+      {% assign testType = testType | replace: 'WaterBody:', '' %}
+    {% elsif testType contains 'Appearance:' %}
+      {% assign testType = testType | replace: 'Appearance:', '' %}
+    {% elsif testType contains 'Generics:' %}
+      {% assign testType = testType | replace: 'Generics:', '' %}
+    {% elsif testType contains 'Dynamizer:' %}
+      {% assign testType = testType | replace: 'Dynamizer:', '' %}
+    {% elsif testType contains 'Versioning:' %}
+      {% assign testType = testType | replace: 'Versioning:', '' %}
+    {% elsif testType contains 'PointCloud:' %}
+      {% assign testType = testType | replace: 'PointCloud:', '' %}
+    {% elsif testType contains 'urc:' %}
+      {% assign testType = testType | replace: 'urc:', '' %}
+    {% elsif testType contains 'uro:' %}
+      {% assign testType = testType | replace: 'uro:', '' %}
+    {% elsif testType contains 'urf:' %}
+      {% assign testType = testType | replace: 'urf:', '' %}
+    {% elsif testType contains 'core:' %}
+      {% assign testType = testType | replace: 'core:', '' %}
+    {% endif %}
+  
+    {% assign testD = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
+    {% if testD == '..*' %}
+      {% assign testD = '0..*' %}
+    {% endif %}
+  
   | {{ name_col }}
-  | {{ attr.type }} [{{ attr.cardinality.min }}..{{ attr.cardinality.max }}]
+  | {{ testType }} [{{ testD }}]
   | {{ attr.definition }}
   {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
 {% endfor %}
@@ -188,15 +303,72 @@ h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? 
   {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
   {%- capture name_col -%}
     {%- if attr.used? == false -%}
-      ({{ attr_upper_klass_name }}:{{ attr.name }}) +
-      [{{ attr_upper_klass_name }}::{{ attr.gen_name }}]
+      ({{ attr.name }}) +
+      [{{ attr.gen_name }}]
     {%- else -%}
-      {{ attr_upper_klass_name }}:{{ attr.name }} +
-      [{{ attr_upper_klass_name }}::{{ attr.gen_name }}]
+      {{ attr.name }} +
+      [{{ attr.gen_name }}]
     {%- endif -%}
   {%- endcapture -%}
+  {% assign type_col = attr.type %}
+  {% for mapping_type in mapping_types %}
+    {% assign parts = mapping_type | split: "=>" %}
+    {% if parts[0] == attr.type %}
+      {% assign type_col = parts[1] %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  
+    {% assign testType = type_col %}
+    {% if testType contains 'Construction:' %}
+      {% assign testType = testType | replace: 'Construction:', '' %}
+    {% elsif testType contains 'Building:' %}
+      {% assign testType = testType | replace: 'Building:', '' %}
+    {% elsif testType contains 'Bridge:' %}
+      {% assign testType = testType | replace: 'Bridge:', '' %}
+    {% elsif testType contains 'Tunnel:' %}
+      {% assign testType = testType | replace: 'Tunnel:', '' %}
+    {% elsif testType contains 'CityFurniture:' %}
+      {% assign testType = testType | replace: 'CityFurniture:', '' %}
+    {% elsif testType contains 'CityObjectGroup:' %}
+      {% assign testType = testType | replace: 'CityObjectGroup:', '' %}
+    {% elsif testType contains 'LandUse:' %}
+      {% assign testType = testType | replace: 'LandUse:', '' %}
+    {% elsif testType contains 'Relief:' %}
+      {% assign testType = testType | replace: 'Relief:', '' %}
+    {% elsif testType contains 'Transportation:' %}
+      {% assign testType = testType | replace: 'Transportation:', '' %}
+    {% elsif testType contains 'Vegetation:' %}
+      {% assign testType = testType | replace: 'Vegetation:', '' %}
+    {% elsif testType contains 'WaterBody:' %}
+      {% assign testType = testType | replace: 'WaterBody:', '' %}
+    {% elsif testType contains 'Appearance:' %}
+      {% assign testType = testType | replace: 'Appearance:', '' %}
+    {% elsif testType contains 'Generics:' %}
+      {% assign testType = testType | replace: 'Generics:', '' %}
+    {% elsif testType contains 'Dynamizer:' %}
+      {% assign testType = testType | replace: 'Dynamizer:', '' %}
+    {% elsif testType contains 'Versioning:' %}
+      {% assign testType = testType | replace: 'Versioning:', '' %}
+    {% elsif testType contains 'PointCloud:' %}
+      {% assign testType = testType | replace: 'PointCloud:', '' %}
+    {% elsif testType contains 'urc:' %}
+      {% assign testType = testType | replace: 'urc:', '' %}
+    {% elsif testType contains 'uro:' %}
+      {% assign testType = testType | replace: 'uro:', '' %}
+    {% elsif testType contains 'urf:' %}
+      {% assign testType = testType | replace: 'urf:', '' %}
+    {% elsif testType contains 'core:' %}
+      {% assign testType = testType | replace: 'core:', '' %}
+    {% endif %}
+  
+    {% assign testD = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
+    {% if testD == '..*' %}
+      {% assign testD = '0..*' %}
+    {% endif %}
+  
   | {{ name_col }}
-  | {{ attr.type }} [{{ attr.cardinality.min }}..{{ attr.cardinality.max }}]
+  | {{ testType }} [{{ testD }}]
   | {{ attr.definition }}
   {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
 {% endfor %}
@@ -217,10 +389,7 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
     {% unless performed %}
       {% for attr in props_with_same_gen %}
         {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
-        {% if attr.type_ns == "gen" %}
-          {% assign attr_upper_klass_name = "gen" %}
-        {% endif %}
-        {% if attr_upper_klass_name == "uro" or citygml_ns contains attr_upper_klass_name %}
+        {% if citygml_ns contains attr_upper_klass_name %}
 
         {% assign name_col_role_and_name = attr_upper_klass_name | append: ":" | append: attr.name %}
         {% assign type_col_role_and_name = attr.type_ns | append: ":" | append: attr.type %}
@@ -233,7 +402,6 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
             {% comment %}Match on package|class|attribute{% endcomment %}
             {% if key[0] == attr_upper_klass_name and key[2] == attr.name and target[1] == type_col_role_and_name %}
               {% assign name_col_role_and_name = target[0] | append: ":" | append: attr.name %}
-              {% comment %} {% assign attr_upper_klass_name = target[0] %} {% endcomment %}
               {% break %}
             {% endif %}
           {% elsif key.size == 1 %}
@@ -245,18 +413,76 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
           {% endif %}
         {% endfor %}
 
+	    {% assign testName = name_col_role_and_name %}
+	    {% if testName contains 'Construction:' %}
+	      {% assign testName = testName | replace: 'Construction:', '' %}
+	    {% elsif testName contains 'Building:' %}
+	      {% assign testName = testName | replace: 'Building:', '' %}
+	    {% elsif testName contains 'Bridge:' %}
+	      {% assign testName = testName | replace: 'Bridge:', '' %}
+	    {% elsif testName contains 'Tunnel:' %}
+	      {% assign testName = testName | replace: 'Tunnel:', '' %}
+	    {% elsif testName contains 'CityFurniture:' %}
+	      {% assign testName = testName | replace: 'CityFurniture:', '' %}
+	    {% elsif testName contains 'CityObjectGroup:' %}
+	      {% assign testName = testName | replace: 'CityObjectGroup:', '' %}
+	    {% elsif testName contains 'LandUse:' %}
+	      {% assign testName = testName | replace: 'LandUse:', '' %}
+	    {% elsif testName contains 'Relief:' %}
+	      {% assign testName = testName | replace: 'Relief:', '' %}
+	    {% elsif testName contains 'Transportation:' %}
+	      {% assign testName = testName | replace: 'Transportation:', '' %}
+	    {% elsif testName contains 'Vegetation:' %}
+	      {% assign testName = testName | replace: 'Vegetation:', '' %}
+	    {% elsif testName contains 'WaterBody:' %}
+	      {% assign testName = testName | replace: 'WaterBody:', '' %}
+	    {% elsif testName contains 'Appearance:' %}
+	      {% assign testName = testName | replace: 'Appearance:', '' %}
+	    {% elsif testName contains 'Generics:' %}
+	      {% assign testName = testName | replace: 'Generics:', '' %}
+	    {% elsif testName contains 'Dynamizer:' %}
+	      {% assign testName = testName | replace: 'Dynamizer:', '' %}
+	    {% elsif testName contains 'Versioning:' %}
+	      {% assign testName = testName | replace: 'Versioning:', '' %}
+	    {% elsif testName contains 'PointCloud:' %}
+	      {% assign testName = testName | replace: 'PointCloud:', '' %}
+	    {% elsif testName contains 'urc:' %}
+	      {% assign testName = testName | replace: 'urc:', '' %}
+	    {% elsif testName contains 'uro:' %}
+	      {% assign testName = testName | replace: 'uro:', '' %}
+	    {% elsif testName contains 'urf:' %}
+	      {% assign testName = testName | replace: 'urf:', '' %}
+	    {% elsif testName contains 'core:' %}
+	      {% assign testName = testName | replace: 'core:', '' %}
+	    {% endif %}
+	
+	    {% assign testD = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
+	    {% if testD == '..*' %}
+	      {% assign testD = '0..*' %}
+	    {% endif %}
+
         {%- capture name_col -%}
           {%- if attr.used? == false -%}
-            ({{  name_col_role_and_name }}) +
-            [{{ attr_upper_klass_name }}::{{ attr.gen_name }}]
+            ({{ testName }}) +
+            [{{ attr.gen_name }}]
           {%- else -%}
-            {{  name_col_role_and_name }} +
-            [{{ attr_upper_klass_name }}::{{ attr.gen_name }}]
+            {{ testName }} +
+            [{{ attr.gen_name }}]
           {%- endif -%}
-        {%- endcapture -%}
+        {%- endcapture -%}        
+        
+        {% assign testdsp = attr.definition %}
+        {% if name_col contains "relatedTo" and name_col_role_and_name  contains "Core" %}
+          {% assign testdsp = "他の都市オブジェクトとの関連。 特定の地物が、自身の構成要素（部品）ではない他の地物と何らかの関係を持つ場合に、その対象となる地物への参照。" %}
+        {% elsif name_col contains "textureParameterization" and name_col_role_and_name  contains "Appearance" %}
+          {% assign testdsp = "座標の割り当てに用いられるテクスチャ座標又は変換行列。" %}
+        {% elsif name_col contains "groupMember" and name_col_role_and_name  contains "CityObjectGroup" %}
+          {% assign testdsp = "都市オブジェクトグループを構成する都市オブジェクト。" %}
+        {% endif %}
+        
         | {{ name_col }}
-        | {{ attr.type_ns }}:{{ attr.type }} [{{ attr.cardinality.min }}..{{ attr.cardinality.max }}]
-        | {{ attr.definition }}
+        | {{ attr.type }} [{{ testD }}]
+        | {{ testdsp }}
         {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
         {% endif %}
       {% endfor %}
@@ -265,16 +491,31 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
         {% unless citygml_ns contains attr_upper_klass_name %}
         {%- capture name_col -%}
           {%- if attr.used? == false -%}
-            ({{ attr_upper_klass_name }}:{{ attr.name }}) +
-            [{{ attr_upper_klass_name }}::{{ attr.gen_name }}]
+            ({{ attr.name }}) +
+            [{{ attr.gen_name }}]
           {%- else -%}
-            {{ attr_upper_klass_name }}:{{ attr.name }} +
-            [{{ attr_upper_klass_name }}::{{ attr.gen_name }}]
+            {{ attr.name }} +
+            [{{ attr.gen_name }}]
           {%- endif -%}
-        {%- endcapture -%}
+        {%- endcapture -%}                
+        
+        {% assign testD = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
+	    {% if testD == '..*' %}
+	      {% assign testD = '0..*' %}
+	    {% endif %}
+        
+        {% assign testdsp = attr.definition %}
+        {% if name_col contains  "relatedTo" and attr_upper_klass_name == "Core" %}
+          {% assign testdsp = "他の都市オブジェクトとの関連。 特定の地物が、自身の構成要素（部品）ではない他の地物と何らかの関係を持つ場合に、その対象となる地物への参照。" %}
+        {% elsif name_col contains "textureParameterization" and attr_upper_klass_name == "Appearance" %}
+          {% assign testdsp = "座標の割り当てに用いられるテクスチャ座標又は変換行列。" %}
+        {% elsif name_col contains "groupMember" and attr_upper_klass_name == "CityObjectGroup" %}
+          {% assign testdsp = "都市オブジェクトグループを構成する都市オブジェクト。" %}
+        {% endif %}
+        
         | {{ name_col }}
-        | {{ attr.type_ns }}:{{ attr.type }} [{{ attr.cardinality.min }}..{{ attr.cardinality.max }}]
-        | {{ attr.definition }}
+        | {{ attr.type }} [{{ testD }}]
+        | {{ testdsp }}
         {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
         {% endunless %}
       {% endfor %}
@@ -303,7 +544,7 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
         {% if attr.type_ns == "gen" %}
           {% assign attr_upper_klass_name = "gen" %}
         {% endif %}
-        {% if attr_upper_klass_name == "uro" or citygml_ns contains attr_upper_klass_name %}
+        {% if citygml_ns contains attr_upper_klass_name %}
 
         {% assign name_col_role_and_name = attr_upper_klass_name | append: ":" | append: attr.name %}
         {% assign type_col_role_and_name = attr.type_ns | append: ":" | append: attr.type %}
@@ -322,24 +563,80 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
             {% comment %}Match on attribute name only{% endcomment %}
             {% if parts[0] == attr.name and target[1] == type_col_role_and_name %}
               {% assign name_col_role_and_name = target[0] | append: ":" | append: attr.name %}
-              {% comment %} {% assign attr_upper_klass_name = target[0] %} {% endcomment %}
               {% break %}
             {% endif %}
           {% endif %}
         {% endfor %}
 
+	    {% assign testName = name_col_role_and_name %}
+	    {% if testName contains 'Construction:' %}
+	      {% assign testName = testName | replace: 'Construction:', '' %}
+	    {% elsif testName contains 'Building:' %}
+	      {% assign testName = testName | replace: 'Building:', '' %}
+	    {% elsif testName contains 'Bridge:' %}
+	      {% assign testName = testName | replace: 'Bridge:', '' %}
+	    {% elsif testName contains 'Tunnel:' %}
+	      {% assign testName = testName | replace: 'Tunnel:', '' %}
+	    {% elsif testName contains 'CityFurniture:' %}
+	      {% assign testName = testName | replace: 'CityFurniture:', '' %}
+	    {% elsif testName contains 'CityObjectGroup:' %}
+	      {% assign testName = testName | replace: 'CityObjectGroup:', '' %}
+	    {% elsif testName contains 'LandUse:' %}
+	      {% assign testName = testName | replace: 'LandUse:', '' %}
+	    {% elsif testName contains 'Relief:' %}
+	      {% assign testName = testName | replace: 'Relief:', '' %}
+	    {% elsif testName contains 'Transportation:' %}
+	      {% assign testName = testName | replace: 'Transportation:', '' %}
+	    {% elsif testName contains 'Vegetation:' %}
+	      {% assign testName = testName | replace: 'Vegetation:', '' %}
+	    {% elsif testName contains 'WaterBody:' %}
+	      {% assign testName = testName | replace: 'WaterBody:', '' %}
+	    {% elsif testName contains 'Appearance:' %}
+	      {% assign testName = testName | replace: 'Appearance:', '' %}
+	    {% elsif testName contains 'Generics:' %}
+	      {% assign testName = testName | replace: 'Generics:', '' %}
+	    {% elsif testName contains 'Dynamizer:' %}
+	      {% assign testName = testName | replace: 'Dynamizer:', '' %}
+	    {% elsif testName contains 'Versioning:' %}
+	      {% assign testName = testName | replace: 'Versioning:', '' %}
+	    {% elsif testName contains 'PointCloud:' %}
+	      {% assign testName = testName | replace: 'PointCloud:', '' %}
+	    {% elsif testName contains 'urc:' %}
+	      {% assign testName = testName | replace: 'urc:', '' %}
+	    {% elsif testName contains 'uro:' %}
+	      {% assign testName = testName | replace: 'uro:', '' %}
+	    {% elsif testName contains 'urf:' %}
+	      {% assign testName = testName | replace: 'urf:', '' %}
+	    {% elsif testName contains 'core:' %}
+	      {% assign testName = testName | replace: 'core:', '' %}
+	    {% endif %}
+
+        {% assign testD = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
+	    {% if testD == '..*' %}
+	      {% assign testD = '0..*' %}
+	    {% endif %}
+
         {%- capture name_col -%}
           {%- if attr.used? == false -%}
-            ({{ name_col_role_and_name }}) +
-            [{{ attr_upper_klass_name }}::{{ attr.gen_name }}]
+            ({{ testName }}) +
+            [{{ attr.gen_name }}]
           {%- else -%}
-            {{ name_col_role_and_name }} +
-            [{{ attr_upper_klass_name }}::{{ attr.gen_name }}]
+            {{ testName }} +
+            [{{ attr.gen_name }}]
           {%- endif -%}
         {%- endcapture -%}
+        {% assign testdsp = attr.definition %}
+        {% if name_col contains "relatedTo" and name_col_role_and_name  contains "Core" %}
+          {% assign testdsp = "他の都市オブジェクトとの関連。 特定の地物が、自身の構成要素（部品）ではない他の地物と何らかの関係を持つ場合に、その対象となる地物への参照。" %}
+        {% elsif name_col contains "textureParameterization" and name_col_role_and_name  contains "Appearance" %}
+          {% assign testdsp = "座標の割り当てに用いられるテクスチャ座標又は変換行列。" %}
+        {% elsif name_col contains "groupMember" and name_col_role_and_name  contains "CityObjectGroup" %}
+          {% assign testdsp = "都市オブジェクトグループを構成する都市オブジェクト。" %}
+        {% endif %}
+        
         | {{ name_col }}
-        | {{ attr.type_ns }}:{{ attr.type }} [{{ attr.cardinality.min }}..{{ attr.cardinality.max }}]
-        | {{ attr.definition }}
+        | {{ attr.type }} [{{ testD }}]
+        | {{ testdsp }}
         {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
         {% endif %}
       {% endfor %}
@@ -348,16 +645,31 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
         {% unless citygml_ns contains attr_upper_klass_name %}
         {%- capture name_col -%}
           {%- if attr.used? == false -%}
-            ({{ attr_upper_klass_name }}:{{ attr.name }}) +
-            [{{ attr_upper_klass_name }}::{{ attr.gen_name }}]
+            ({{ attr.name }}) +
+            [{{ attr.gen_name }}]
           {%- else -%}
-            {{ attr_upper_klass_name }}:{{ attr.name }} +
-            [{{ attr_upper_klass_name }}::{{ attr.gen_name }}]
+            {{ attr.name }} +
+            [{{ attr.gen_name }}]
           {%- endif -%}
         {%- endcapture -%}
+
+        {% assign testD = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
+	    {% if testD == '..*' %}
+	      {% assign testD = '0..*' %}
+	    {% endif %}
+
+        {% assign testdsp = attr.definition %}
+        {% if name_col contains  "relatedTo" and attr_upper_klass_name == "Core" %}
+          {% assign testdsp = "他の都市オブジェクトとの関連。 特定の地物が、自身の構成要素（部品）ではない他の地物と何らかの関係を持つ場合に、その対象となる地物への参照。" %}
+        {% elsif name_col contains "textureParameterization" and attr_upper_klass_name == "Appearance" %}
+          {% assign testdsp = "座標の割り当てに用いられるテクスチャ座標又は変換行列。" %}
+        {% elsif name_col contains "groupMember" and attr_upper_klass_name == "CityObjectGroup" %}
+          {% assign testdsp = "都市オブジェクトグループを構成する都市オブジェクト。" %}
+        {% endif %}
+        
         | {{ name_col }}
-        | {{ attr.type_ns }}:{{ attr.type }} [{{ attr.cardinality.min }}..{{ attr.cardinality.max }}]
-        | {{ attr.definition }}
+        | {{ attr.type }} [{{ testD }}]
+        | {{ testdsp }}
         {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
         {% endunless %}
       {% endfor %}

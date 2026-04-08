@@ -1,0 +1,424 @@
+[[toc4_04]]
+=== 交通（鉄道）モデルの応用スキーマ
+
+鉄道とは、人と物を迅速かつ大量に輸送するため、レールを敷いた専用の通路を用い、その上を車両が円滑に行き来できるように整備された一切の設備とシステムの集合体である。[一般社団法人日本民営鉄道協会]
+
+標準製品仕様書では、鉄道事業法及び軌道法に基づいて敷設された線路を指し、以下を含む。
+
+* 普通鉄道：鉄道事業法又は軌道法に基づいて運行されている鉄道で、特殊軌道及び索道を除いたもの[<<gsi_ops,付録７ 公共測量標準図式>>]
+* 地下鉄：地方公共団体及び東京地下鉄（株）等が管理する地下高速鉄道[<<gsi_ops,付録７ 公共測量標準図式>>]
+* 路面電車：道路上に線路を敷設した鉄道で、主として路面上から直接乗り降りできる車両が運行される鉄道[<<gsi_ops,付録７ 公共測量標準図式>>]
+* モノレール：車両が一本の軌道桁に跨座し、又は懸垂して走行するもの
+* 特殊鉄道：鋼索鉄道、普通鉄道と接続しない工場等特定の地区内の軌道及び採鉱（石）地と工場等を結ぶ専用軌道[<<gsi_ops,付録７ 公共測量標準図式>>]
+* 索道：空中ケーブル、スキーリフト、ベルトコンベヤー及びこれらに類するもの[<<gsi_ops,付録７ 公共測量標準図式>>]
+
+なお、線路とは、列車又は車両を走らせるための通路であって、軌道及びこれを支持するために必要な路盤、構造物を包含する地帯をいう。[<<jis_e_1001>>]
+
+
+[[toc4_04_01]]
+==== 交通（鉄道）モデルのLOD
+
+標準製品仕様書が対象とする交通（鉄道）モデルのLODは、LOD0からLOD3までとする。
+
+[[toc4_04_01_01]]
+===== 交通（鉄道）モデル（LOD0）
+
+[[toc4_04_01_01_01]]
+====== 交通（鉄道）モデル（LOD0）の概要
+
+交通（鉄道）モデル（LOD0）では、鉄道の形状を、中心線により表現する。このとき、中心線の粒度は、属性granularityによって、鉄道敷単位なのか、あるいは軌道単位なのかを表現する。
+
+標準製品仕様書は、原則として交通（鉄道）モデル（LOD0）は軌道の中心線を採用する。ただし、ユースケースの必要に応じて鉄道敷全体の中心線を採用できる。 +
+また、数値地形図との互換性を保つために、レールも採用できる。 +
+レールを採用する場合、公共測量標準図式に従う。（<<toc4_25_01_01,公共測量標準図式のためのLOD0の定義>>）
+
+交通（鉄道）モデル（LOD0）の取得イメージを<<tab-4-4-1>>に示す。
+
+//交通（鉄道）モデル（LOD0）の取得イメージ
+[[tab-4-4-1]]
+include::../../../common/sections/com_rwy_Acquire_lod0.adoc[]
+
+[[toc4_04_01_01_02]]
+====== 交通（鉄道）モデル（LOD0）の定義
+
+交通（鉄道）モデル（LOD0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-4-2]]
+include::../../../common/sections/com_rwy_Definition_lod00.adoc[]
+
+
+[[toc4_04_01_02]]
+===== 交通（鉄道）モデル（LOD1）
+
+[[toc4_04_01_02_01]]
+====== 交通（鉄道）モデル（LOD1）の概要
+
+交通（鉄道）モデル（LOD1）では、鉄道の形状を面により表現する。 +
+属性granularityによって、鉄道内の区分の粒度を表現する。
+
+交通（鉄道）モデル（LOD1）の取得イメージを<<tab-4-4-3>>に示す。
+
+//交通（鉄道）モデル（LOD1）の取得イメージ
+[[tab-4-4-3]]
+include::../../../common/sections/com_rwy_Acquire_lod1.adoc[]
+
+[[fig-4-4-1]]
+.線路の構造
+image::../../sources/images/rwy_001.png[width="400"]
+
+* 軌道：施工基面上の道床（スラブを含む）、軌きょう及び直接これらに付帯する施設をいう。[<<jis_e_1001>>]
+* 道床：レール又はまくらぎを支持し、荷重を路盤に分布する軌道の部分。バラスト、コンクリートなどを用いたものがある。[<<jis_e_1001>>]
+* 軌きょう：レールとまくらぎとを、はしご状に組み立てたもの。[<<jis_e_1001>>]
+* レール：車輪を直接支持、誘導する部材 [<<jis_e_1001>>]
+* まくらぎ：レールを支え、荷重を道床などに分布させる部材。使用目的によって並まくらぎ、橋まくらぎ、分岐まくらぎ、短まくらぎ、縦まくらぎなど、また、材質によって木まくらぎ、PCまくらぎ、鉄まくらぎ、合成まくらぎなどがある。[<<jis_e_1001>>]
+
+[[toc4_04_01_02_02]]
+====== 交通（鉄道）モデル（LOD1.0）の定義
+
+交通（鉄道）モデル（LOD1.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-4-4]]
+include::../../../common/sections/com_rwy_Definition_lod10.adoc[]
+
+[[toc4_04_01_02_03]]
+====== 交通（鉄道）モデル（LOD1.1）の定義
+
+交通（鉄道）モデル（LOD1.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-4-5]]
+include::../../../common/sections/com_rwy_Definition_lod11.adoc[]
+
+[[toc4_04_01_03]]
+===== 交通（鉄道）モデル（LOD2）
+
+[[toc4_04_01_03_01]]
+====== 交通（鉄道）モデル（LOD2）の概要
+
+交通（鉄道）モデル（LOD2）では、鉄道の形状を高さを持った線及び面により表現する。 +
+属性granularityによって、鉄道内の区分の粒度を表現する。
+
+交通（鉄道）モデル（LOD2）は、「高さの取得方法」（<<tab-4-4-7>>）によりLOD2.0、LOD2.1及びLOD2.2に区分する。 +
+また、「鉄道内の区分」（<<tab-4-4-6>>）により属性granularityを区分する。
+
+//交通（鉄道）モデルにおける属性granularityによる「鉄道内の区分」
+[[tab-4-4-6]]
+include::../../../common/sections/com_rwy_Category_lod2.adoc[]
+
+//交通（鉄道）モデルにおけるLOD2.0、LOD2.1及びLOD2.2の「高さの取得方法」
+[[tab-4-4-7]]
+include::../../../common/sections/com_rwy_Category_height_lod2.adoc[]
+
+交通（鉄道）モデル（LOD2）の取得イメージを<<tab-4-4-8>>及び<<tab-4-4-9>>に示す。
+
+//交通（鉄道）モデル（LOD2）の取得イメージ（鉄道内の区分）
+[[tab-4-4-8]]
+include::../../../common/sections/com_rwy_Acquire_lod2_category.adoc[]
+
+//交通（鉄道）モデル（LOD2）の取得イメージ（高さの取得方法）
+[[tab-4-4-9]]
+include::../../../common/sections/com_rwy_Acquire_lod2_height.adoc[]
+
+[[toc4_04_01_03_02]]
+====== 交通（鉄道）モデル（LOD2.0）の定義
+
+交通（鉄道）モデル（LOD2.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-4-10]]
+include::../../../common/sections/com_rwy_Definition_lod20.adoc[]
+
+[[toc4_04_01_03_03]]
+====== 交通（鉄道）モデル（LOD2.1）の定義
+
+交通（鉄道）モデル（LOD2.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-4-11]]
+include::../../../common/sections/com_rwy_Definition_lod21.adoc[]
+
+[[toc4_04_01_03_04]]
+====== 交通（鉄道）モデル（LOD2.2）の定義
+
+交通（鉄道）モデル（LOD2.2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-4-12]]
+include::../../../common/sections/com_rwy_Definition_lod22.adoc[]
+
+
+[[toc4_04_01_04]]
+===== 交通（鉄道）モデル（LOD3）
+
+[[toc4_04_01_04_01]]
+====== 交通（鉄道）モデル（LOD3）の概要
+
+交通（鉄道）モデル（LOD3）では、道路を構成する各部分を区別して外形を三次元的に表現し、鉄道の形状及び空間的広がりが判別可能な程度の面の集まりとして表現する。 +
+なお、各部分はユースケースの必要に応じて細分して表現できる。
+
+交通（鉄道）モデル（LOD3）の取得イメージを<<tab-4-4-13>>に示す。
+
+//交通（鉄道）モデル（LOD3）の取得イメージ
+[[tab-4-4-13]]
+include::../../../common/sections/com_rwy_Acquire_lod3.adoc[]
+
+[[toc4_04_01_04_02]]
+====== 交通（鉄道）モデル（LOD3）の定義
+
+交通（鉄道）モデル（LOD3）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-4-14]]
+include::../../../common/sections/com_rwy_Definition_lod30.adoc[]
+
+[[toc4_04_01_05]]
+===== 各LODにおいて使用可能な地物型と空間属性
+
+交通（鉄道）モデルの各LODにおいて使用可能な地物型と空間属性を<<tab-4-4-15>>に示す。
+
+//交通（鉄道）モデルの記述に使用する地物型と空間属性
+[[tab-4-4-15]]
+include::../../../common/sections/com_rwy_SpatialAttribute.adoc[]
+
+
+
+[[toc4_04_02]]
+==== 交通（鉄道）モデルの応用スキーマクラス図
+
+[[toc4_04_02_01]]
+===== Transportation（CityGML）
+
+<<toc4_03_02_01,Roadの応用スキーマクラス図>>参照。
+
+[[toc4_04_02_02]]
+===== Urban Object（i-UR）
+
+[[toc4_04_02_02_01]]
+====== Railwayの拡張属性
+
+[[fig-4-4-2]]
+image::../../sources/images/EAID_872C03DE_9641_49b2_B143_230CE28BC741.png[]
+
+
+[[toc4_04_03]]
+==== 交通（鉄道）モデルの応用スキーマ文書
+
+[[toc4_04_03_01]]
+===== Transportation（CityGML）
+
+[[toc4_04_03_01_01]]
+====== Railway
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Railway",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+====== TrafficArea
+
+<<toc4_03_03_01_02,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== AuxiliaryTrafficArea
+
+<<toc4_03_03_01_03,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== TrafficSpace
+
+<<toc4_03_03_01_04,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== AuxiliaryTrafficSpace
+
+<<toc4_03_03_01_05,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== ClearanceSpace
+
+<<toc4_03_03_01_06,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== Hole
+
+<<toc4_03_03_01_07,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== HoleSurface
+
+<<toc4_03_03_01_08,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== Section
+
+<<toc4_03_03_01_09,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== Intersection
+
+<<toc4_03_03_01_10,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== Marking
+
+<<toc4_03_03_01_11,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+[[toc4_04_03_02]]
+===== Urban Object（i-UR）
+
+[[toc4_04_03_02_01]]
+====== RailwayRouteAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="RailwayRouteAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_04_03_02_02]]
+====== RailwayTrackAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="RailwayTrackAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_04_03_02_03]]
+====== ControlPoint
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ControlPoint",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_04_03_02_04]]
+====== ControlPointType
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ControlPointType",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_04_03_02_05]]
+====== CircularCurveType
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="CircularCurveType",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_04_03_02_06]]
+====== TransitionCurveType
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TransitionCurveType",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_04_03_02_07]]
+====== VerticalCurveType
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="VerticalCurveType",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_04_03_02_08]]
+====== SlopeType
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="SlopeType",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_04_03_03]]
+===== 施設管理のための拡張属性
+
+// 引用リンク スキーマ文書　施設管理のための拡張属性
+include::../../../common/sections/link_schema_Facility.adoc[]
+
+[[toc4_04_03_04]]
+===== データ品質属性
+
+// 引用リンク スキーマ文書　データ品質属性
+include::../../../common/sections/link_schema_DateQuality.adoc[]
+
+[[toc4_04_03_05]]
+===== 数値地形図のための拡張属性
+
+// 引用リンク スキーマ文書　数値地形図のための拡張属性
+include::../../../common/sections/link_schema_Dm.adoc[]
+
+
+[[toc4_04_04]]
+==== 交通（鉄道）モデルで使用するコードリストと列挙型
+
+[[toc4_04_04_01]]
+===== Transportation（CityGML）
+
+[[Railway_class.xml]]
+====== Railway_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Railway_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Railway_function.xml]]
+====== Railway_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Railway_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+
+====== TrafficArea_function.xml
+
+<<TrafficArea_function.xml,交通（道路）のコードリスト>>　参照。
+
+====== TrafficSpace_function.xml
+
+<<TrafficSpace_function.xml,交通（道路）のコードリスト>>　参照。
+
+====== AuxiliaryTrafficSpace_function.xml
+
+<<AuxiliaryTrafficSpace_function.xml,交通（道路）のコードリスト>>　参照。
+
+====== ClearanceSpace_class.xml
+
+<<ClearanceSpace_class.xml,交通（道路）のコードリスト>>　参照。
+
+====== Hole_class.xml
+
+<<Hole_class.xml,交通（道路）のコードリスト>>　参照。
+
+====== Section_class.xml
+
+<<Section_class.xml,交通（道路）のコードリスト>>　参照。
+
+====== Intersection_class.xml
+
+<<Intersection_class.xml,交通（道路）のコードリスト>>　参照。
+
+====== Marking_class.xml
+
+<<Marking_class.xml,交通（道路）のコードリスト>>　参照。
+
+
+[[toc4_04_04_02]]
+===== Urban Object（i-UR）
+
+[[RailwayRouteAttribute_operatorType.xml]]
+====== RailwayRouteAttribute_operatorType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/RailwayRouteAttribute_operatorType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<nlftp>>
+
+[[RailwayRouteAttribute_railwayType.xml]]
+====== RailwayRouteAttribute_railwayType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/RailwayRouteAttribute_railwayType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<nlftp>>
+
+[[RailwayTrackAttribute_trackType.xml]]
+====== RailwayTrackAttribute_trackType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/RailwayTrackAttribute_trackType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[RailwayTrackAttribute_alignmentType.xml]]
+====== RailwayTrackAttribute_alignmentType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/RailwayTrackAttribute_alignmentType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[ControlPoint_function.xml]]
+====== ControlPoint_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ControlPoint_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[toc4_04_04_03]]
+===== Urban Core（i-UR）
+
+[[Railway_lodType.xml]]
+====== Railway_lodType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Railway_lodType.xml[template="gml_dict_template.liquid",context=dict]
+
+====== DataQualityAttribute_geometrySrcDesc.xml
+
+<<DataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_thematicSrcDesc.xml
+
+<<DataQualityAttribute_thematicSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_appearanceSrcDesc.xml
+
+<<DataQualityAttribute_appearanceSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_srcScale.xml
+
+<<PublicSurveyDataQualityAttribute_srcScale.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
+
+<<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+

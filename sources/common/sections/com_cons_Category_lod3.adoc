@@ -1,0 +1,76 @@
+[cols="a,a,a,a"]
+.その他の構造物モデルにおけるLOD3.0及びLOD3.1の区分
+|===
+| その他の構造物モデル（LOD3）に含むべき地物 | 対応するCityGMLの地物型 | LOD3.0 | LOD3.1
+
+| その他の構造物
+| OtherConstruction
+| ●
+| ●
+
+| 屋根面
+| RoofSurface
+| 　
+| ■
+
+| 外壁面 
+| WallSurface 
+| 　
+| ●
+
+| 底面
+| GroundSurface
+| 　
+| ■
+
+| 屋外床面
+| OuterFloorSurface
+| 　
+| 〇
+
+| 屋外天井面
+| OuterCeilingSurface
+| 　
+| 〇
+
+| 閉鎖面
+| ClosureSurface
+| 　
+| ●
+
+| その他の構造物付属物
+| OtherConstructionInstallation
+| ●
+| ●
+
+| 扉面
+| DoorSurface
+| 　
+| 〇
+
+| 窓面
+| WindowSurface
+| 　
+| 〇
+
+| 扉
+| Door
+| ■
+| ■
+
+| 窓
+| Window
+| ■
+| ■
+
+| 構造上不可欠な要素
+| OtherConstructiveElement
+| ●
+| ●
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

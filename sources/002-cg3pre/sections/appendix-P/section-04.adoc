@@ -1,0 +1,68 @@
+[[tocP_04]]
+=== gen:GenericUnoccupiedSpace
+
+gen:GenericUnoccupiedSpaceは、占用されていない空間を記述するための汎用的な地物型である。 +
+地下埋設物モデルにおいて、地下埋設物の内空を表すために使用する。
+
+
+[[tocP_04_01]]
+==== gen:GenericUnoccupiedSpaceの空間属性
+
+gen:GenericUnoccupiedSpaceは、LOD0からLOD3までの空間属性をもつことができる。これらの空間属性は、地下埋設物モデルの内部のLOD定義に従って使用される。
+
+
+[requirement]
+.地下埋設物モデルにおけるgen:GenericUnoccupiedSpaceの形状定義
+====
+[%metadata]
+identifier:: /req/unf/6
+subject:: 妥当な地下埋設物データセットの要件
+description:: 地下埋設物モデルに使用されるgen:GenericUnoccupiedSpaceの形状は、地下埋設物モデルの内部LOD定義に従う。
+
+====
+
+地下埋設物モデルにおけるgen:GenericUnoccupiedSpaceの空間属性は、地下埋設物の内空を多曲面として表現することを基本とするが、体積の演算が必要となる場合等、ユースケースで必要な場合には立体として表現できる。
+
+また、uro:Cable及びこれを継承する地物型とuro:Apputenanceの内部の形状は、ユースケースの必要に応じて取得の要否を決定してよい。
+
+
+[[tocP_04_01_01]]
+===== 外形と内部空間の表現
+
+地下埋設物モデルでは、外形を表現するためにuro:UtilityNetworkElementを用い、内形を表現するためにgen:GenericUnoccupiedSpaceを使用する。これらを組み合わせることで、地下埋設物の外形と内形を表現することができる（<<fig-P-6>>）。
+
+[[fig-P-6]]
+.地下埋設物モデルにおける外部と内部の表現イメージ
+image::../../sources/images/anx_P_006.png[width="300"]
+
+
+[[tocP_04_02]]
+==== 地下埋設物の主題属性
+
+地下埋設物は、都市設備（frn:CityFurniture）を継承して定義される。そのため、地下埋設物の主題属性には、各地物型の属性として定義された属性以外に、都市設備から継承する、都市設備に関する詳細な情報を格納するための属性（uro:cityFurnitureDetailAttribute）、作成したデータの品質に関する情報を格納するための属性（uro:DataQualityAttribute）、都市設備の位置や識別に関する属性（uro:frnFacilityIdAttribute）、特定の分野における施設区分に関する属性（uro:frnFacilityTypeAttribute）、その分野における施設管理に必要な属性
+（uro:frnFacilityAttribute）及び公共測量標準図式に従った表現に必要となる属性（uro:frnDmAttribute）をもつことができる。
+
+
+[[tocP_04_02_01]]
+===== データ品質属性（urc:DataQualityAttribute）
+
+使用した原典資料やそれに基づくデータの品質、また、採用したLODは、データセットのメタデータに記録できる。ただし、データセット全体に対して一つのメタデータを作成することが基本となり、個々の都市オブジェクトの品質を記録することは困難である。
+
+そこで、標準製品仕様書では、個々のデータに対してデータ品質に関する情報を記述するための属性として、「データ品質属性」（urc:DataQualityAttribute）を定義している。データ品質属性は、属性としてデータ作成に使用した原典資料の地図情報レベル、その他原典資料の諸元及び精緻化したLODをもつ。
+
+3D都市モデルに含まれる全ての地下埋設物オブジェクトは、このデータ品質属性を必ず作成しなければならない。
+
+
+[[tocP_04_02_02]]
+===== ADEで拡張された属性の記述
+
+// 付属書P内にCityFurnitureDetailAttribute（Oに追加してリンク飛ばすでもよい）や、施設管理属性の記載なしのためリンク張れない。
+
+CityGML3.0では、地物型ごとに、属性を拡張するためのデータ型ADEOfXXX（XXXには地物型の名称が入る）が用意されている。また、拡張したデータ型を地物の属性として記述するための主題属性adeOfXXX（XXXには地物型の名称が入る）も用意されている。例えば、建築物（Building）という地物型に属性を追加したい場合、ADEOfBuildingを使う。このデータ型を継承して新しい属性を定義することで、主題属性adeOfBuildingの型として記述できるようになる。
+
+ここで、地下埋設物のCityFurnitureDetailAttribute、<<tocP_04_02_01,データ品質属性>>、施設管理属性等の主題属性は、上述の仕組みを使って拡張して定義されたデータ型である。これらのデータ型を記述する場合には、拡張した地物型に対応する主題属性adeOfXXX（XXXには地物型の名称が入る）の型として記述しなければならない。
+
+例えば、都市設備から継承する属性である、CityFurnitureDetailAttributeはADEOfCityFurnitureを継承して定義されているため、adeOfCityFurnitureの型として記述する。また、<<tocP_04_02_01,データ品質属性>>は、ADEOfAbstractCityObjectを継承して定義されているため、adeOfAbstractCityObjectの型として記述する。
+
+このように、ADEで拡張された属性が、どの地物型を拡張して定義されているかによって、主題属性として値を記述する場所が異なることに注意が必要である。
+

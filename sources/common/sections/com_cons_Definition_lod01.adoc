@@ -1,0 +1,150 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD0.1
+|●
+|OtherConstruction
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 構造物の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|■
+|RoofSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 構造物の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|WallSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 外壁の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|■
+|GroundSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 地表面と外壁面との交線を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|OuterFloorSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 外壁のうち、上向きとなる面の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|OuterCeilingSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 外壁のうち、下向きとなる面の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|ClosureSurface
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 底面（GroundSurface）、屋根面（RoofSurface）、屋外床面（OuterFloorSurface）、屋外天井面（OuterCeilingSurface）及び外壁面（WallSurface）を区切る仮想的な境界線に囲まれた水平面又は垂直面を取得する。
+* 水平面として取得する場合、底面の高さ又は屋根面の高さのいずれか一方の一律の高さとする。
+* 垂直面として取得する場合、各頂点は底面の高さ又は屋根面の高さのいずれかの高さとする。
+|
+
+|LOD0.1
+|〇
+|OtherConstructionInstallation
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 付属物の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|DoorSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 扉の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|WindowSurface
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 窓の正射影の外周を線として取得する。
+* 高さは0とする。
+|
+
+|LOD0.1
+|〇
+|Door
+|-
+|-
+|-
+|-
+|
+
+|LOD0.1
+|〇
+|Window
+|-
+|-
+|-
+|-
+|
+
+|LOD0.1
+|〇
+|OtherConstructiveElement
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 構造物の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

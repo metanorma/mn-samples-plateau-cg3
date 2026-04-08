@@ -1,0 +1,16 @@
+[cols="1a,9a",options="noheader"]
+.交通（航路）モデル（LOD0）の取得イメージ
+|===
+h| LOD ^h| LOD0
+h| 取得例
+^.^|
+image::../../sources/images/wwy_Acquire_lod00.png[]
+
+h| 説明
+|中心線を取得する。高さは0とする。 +
+このとき、属性granularityによって、この航路の区域全体又は進行方向単位なのか、あるいは航路単位なのかを表現する。 +
+granularity=wayの場合は、航路の区域全体又は航路の進行方向単位の中心線を表現する。 +
+さらに、中心線の粒度を詳細に区分するために、属性functionを使用する。 +
+granularity=laneの場合は、航路単位の中心線を表現する。
+
+|===

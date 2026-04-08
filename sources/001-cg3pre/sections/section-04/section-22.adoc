@@ -1,0 +1,131 @@
+[[toc4_22]]
+=== アピアランスモデルの応用スキーマ
+
+アピアランスとは、地物の表面の外観に関する情報である。
+
+[.source]
+<<citygml_30_encoding>>
+
+建築物の壁面等の都市オブジェクトの表面にテクスチャを重畳する場合には、Appearanceモジュールに定義されたParameraterizedTextureを使用する。標準製品仕様書で定義するテクスチャの応用スキーマは、CityGMLのAppearanceモジュールから、ParameterizedTextureを使用するために必要となる型のみを矛盾なく抽出したプロファイルである。
+
+[[toc4_22_01]]
+==== アピアランスモデルのLOD
+
+標準製品仕様書では、アピアランスモデルのLODは設定していない。
+
+[[toc4_22_02]]
+==== アピアランスモデルの応用スキーマクラス図
+
+[[toc4_22_02_01]]
+===== Apperance（CityGML）
+
+Appearanceパッケージは、地物の表面の情報を地物型として定義する。X3DMaterialは地物の表面の色を定義する地物型であり、ParameterizedTextureは、地物の表面に貼りつける画像を指定する地物型である。
+
+[[fig-4-22-1]]
+image::../../sources/images/EAID_9E21C99D_ED51_47f8_90E4_7CDA94BEDAC4.png[]
+
+
+[[toc4_22_03]]
+==== アピアランスモデルの応用スキーマ文書
+
+[[toc4_22_03_01]]
+===== Appearance（CityGML）
+
+[[toc4_22_03_01_01]]
+====== Appearance
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="Appearance",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_22_03_01_02]]
+====== ParameterizedTexture
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="ParameterizedTexture",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_22_03_01_03]]
+====== TexCoordList
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="TexCoordList",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_22_03_01_04]]
+====== TexCoordGen
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="TexCoordGen",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_22_03_01_05]]
+====== X3DMaterial
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="X3DMaterial",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_22_03_01_06]]
+====== GeoreferencedTexture
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="GeoreferencedTexture",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+//[[toc4_22_03_01_07]]
+//====== TextureAssociation
+
+//※uml:AssociationClass（関連クラス）のためklass非対応の可能性あり
+
+//lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="TextureAssociation",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+//※↓↓↓BasicTypeを掲載するか確認する↓↓↓※
+
+[[toc4_22_03_01_08]]
+====== Color
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="Color",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_22_03_01_09]]
+====== ColorPlusOpacity
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="ColorPlusOpacity",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_22_04]]
+==== アピアランスモデルで使用するコードリストと列挙型
+
+[[toc4_22_04_01]]
+===== Appearance（CityGML）
+
+[[Appearance_mimeType.xml]]
+====== Appearance_mimeType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Appearance_mimeType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<citygml_20,annex="C.6">>
+
+[[TextureTypeType]]
+====== TextureTypeType
+
+[cols="3a,22a"]
+|===
+| 列挙型 | TextureTypeType
+
+h| 値 h| 説明
+| specific | 特定のオブジェクトのための画像
+| typical | 典型的な画像
+| unknown | 不明
+
+|===
+
+[.source]
+<<citygml_20>>
+
+[[WrapModeType]]
+====== WrapModeType
+
+[cols="3a,22a"]
+|===
+| 列挙型 | WrapModeType
+
+h| 値 h| 説明
+| none | 画像は繰り返されない
+| wrap | 画像が繰り返される
+| mirror | 画像は鏡面対称で繰り返される
+| clamp | フレームが引き延ばされる
+| border | 指定された境界線色で塗りつぶされる
+
+|===
+
+[.source]
+<<citygml_20>>

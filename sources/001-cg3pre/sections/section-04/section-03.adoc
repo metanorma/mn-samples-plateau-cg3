@@ -1,0 +1,477 @@
+[[toc4_03]]
+=== 交通（道路）モデルの応用スキーマ
+
+道路とは、一般交通の用に供する道であり、道路法第3条に示された道路の種類及び建築基準法第42条の定義を含む。
+
+
+[[toc4_03_01]]
+==== 交通（道路）モデルのLOD
+
+標準製品仕様書が対象とする交通（道路）モデルのLODは、LOD0からLOD3までとする。
+
+[[toc4_03_01_01]]
+===== 交通（道路）モデル（LOD0）
+
+[[toc4_03_01_01_01]]
+====== 交通（道路）モデル（LOD0）の概要
+
+交通（道路）モデル（LOD0）では、道路の形状を中心線により表現する。 +
+このとき、属性granularityによって、道路全体又は上下線単位なのか、あるいは車線単位なのかを表現する。 +
+granularity=wayの場合は、道路全体又は車道及び歩道の中心線を表現する。 +
+さらに、中心線の粒度を詳細に区分するために属性fuctionを使用する。 +
+granularity=laneの場合は、車線及び歩道の中心線を表現する。 +
+標準製品仕様書は、原則として道路全幅の中心線を採用する。ただし、ユースケースの必要に応じて他の粒度の中心線を採用できる。 +
+また、数値地形図との互換性を保つために、道路縁を採用できる。
+
+道路縁を採用する場合、「<<gsi_ops,作業規程の準則 付録７ 公共測量標準図式>>」（以下、「公共測量標準図式」という）に従う。（<<toc4_25_01_01,公共測量標準図式のためのLOD0の定義>>） 
+
+道路縁とは、「道路法第2条第1項に規定された道路にあっては道路構造令に定める歩道、自転車道、車道、中央帯、路肩、又は植樹帯等で構成される道路の部分で最も外側の線（植樹帯が最も外側にある場合には、当該植樹帯を除いた道路の最も外側の線をいう。）、道路法第2条第1項に規定する以外の道路にあってはこれに準ずる線」をいう。[<<gsi_ops,公共測量標準図式>>]
+
+交通（道路）モデル（LOD0）の取得イメージを<<tab-4-3-1>>に示す。
+
+//交通（道路）モデル（LOD0）の取得イメージ
+[[tab-4-3-1]]
+include::../../../common/sections/com_road_Acquire_lod0.adoc[]
+
+[[toc4_03_01_01_02]]
+====== 交通（道路）モデル（LOD0）の定義
+
+交通（道路）モデル（LOD0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-3-2]]
+include::../../../common/sections/com_road_Definition_lod00.adoc[]
+
+
+[[toc4_03_01_02]]
+===== 交通（道路）モデル（LOD1）
+
+[[toc4_03_01_02_01]]
+====== 交通（道路）モデル（LOD1）の概要
+
+交通（道路）モデル（LOD1）では、道路の形状を面により表現する。 +
+属性granularityによって、道路内の区分の粒度を表現する。
+
+交通（道路）モデル（LOD1）の取得イメージを<<tab-4-3-3>>に示す。
+
+//交通（道路）モデル（LOD1）の取得イメージ
+[[tab-4-3-3]]
+include::../../../common/sections/com_road_Acquire_lod1.adoc[]
+
+車道部とは、主として自動車が利用する道路の部分で、車線、すりつけ区間、分離帯が切断された車道の部分、側帯、路肩、停車帯、待避所、乗合自動車停車所、非常駐車帯、副道を含む。
+
+[.source]
+<<nilim_kiban_dps,道路基盤地図情報（整備促進版）製品仕様書（案）>>
+
+車道交差部とは、十字路、丁字路、その他2つ以上の車道が交わる部分をいう。
+
+[.source]
+<<nilim_kiban_dps,道路基盤地図情報（整備促進版）製品仕様書（案）>>
+
+歩道部とは、専ら歩行者と自転車の通行の用に供するため、工作物により車道部と区画して設置される道路の部分で、自転車道、自転車歩行者道、歩道を含む。
+
+[.source]
+<<nilim_kiban_dps,道路基盤地図情報（整備促進版）製品仕様書（案）>>
+
+島とは、車両の走行を制御し、安全な交通を確保するために設置される分離帯及び交通島の部分をいう。
+
+[.source]
+<<nilim_kiban_dps,道路基盤地図情報（整備促進版）製品仕様書（案）>>
+
+[[toc4_03_01_02_02]]
+====== 交通（道路）モデル（LOD1）の定義
+
+交通（道路）モデル（LOD1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-3-4]]
+include::../../../common/sections/com_road_Definition_lod10.adoc[]
+
+
+[[toc4_03_01_03]]
+===== 交通（道路）モデル（LOD2）
+
+[[toc4_03_01_03_01]]
+====== 交通（道路）モデル（LOD2）の概要
+
+交通（道路）モデル（LOD2）では、道路の形状を高さを持った面により表現する。 +
+属性granularityによって、道路内の区分の粒度を表現する。
+
+交通（道路）モデル（LOD2）は、「高さの取得方法」（<<tab-4-3-6>>）の組み合わせが異なるLOD2.0、LOD2.1及びLOD2.2に区分する。 +
+また、「道路内の区分」（<<tab-4-3-5>>）により属性granularityを区分する。 +
+標準製品仕様は、原則としてLOD2.0とする。ただし、ユースケースの必要に応じて、LOD2.1及びLOD2.2を採用できる。
+
+//交通（道路）モデルにおける属性granularityによる「道路内の区分」
+[[tab-4-3-5]]
+include::../../../common/sections/com_road_Category_lod2.adoc[]
+
+//交通（道路）モデルにおけるLOD2.0、LOD2.1及びLOD2.2の「高さの取得方法」
+[[tab-4-3-6]]
+include::../../../common/sections/com_road_Category_height_lod2.adoc[]
+
+
+交通（道路）モデル（LOD2）の取得イメージを<<tab-4-3-7>>及び<<tab-4-3-8>>に示す。
+
+//交通（道路）モデル（LOD2）の取得イメージ（道路内の区分）
+[[tab-4-3-7]]
+include::../../../common/sections/com_road_Acquire_lod2_category.adoc[]
+
+//交通（道路）モデル（LOD2）の取得イメージ（高さの取得方法）
+[[tab-4-3-8]]
+include::../../../common/sections/com_road_Acquire_lod2_height.adoc[]
+
+
+[[toc4_03_01_03_02]]
+====== 交通（道路）モデル（LOD2.0）の定義
+
+交通（道路）モデル（LOD2.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-3-9]]
+include::../../../common/sections/com_road_Definition_lod20.adoc[]
+
+[[toc4_03_01_03_03]]
+====== 交通（道路）モデル（LOD2.1）の定義
+
+交通（道路）モデル（LOD2.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-3-10]]
+include::../../../common/sections/com_road_Definition_lod21.adoc[]
+
+[[toc4_03_01_03_04]]
+====== 交通（道路）モデル（LOD2.2）の定義
+
+交通（道路）モデル（LOD2.2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-3-11]]
+include::../../../common/sections/com_road_Definition_lod22.adoc[]
+
+
+[[toc4_03_01_04]]
+===== 交通（道路）モデル（LOD3）
+
+[[toc4_03_01_04_01]]
+====== 交通（道路）モデル（LOD3）の概要
+
+交通（道路）モデル（LOD3）では、道路を構成する各部分を区別して外形を三次元的に表現し、道路の形状及び空間的広がりが判別可能な程度の面の集まりとして表現する。 +
+なお、各部分はユースケースの必要に応じて細分して表現できる。
+
+交通（道路）モデル（LOD3）の取得イメージを<<tab-4-3-12>>に示す。
+
+//交通（道路）モデル（LOD3）の取得イメージ
+[[tab-4-3-12]]
+include::../../../common/sections/com_road_Acquire_lod3.adoc[]
+
+[[toc4_03_01_04_02]]
+====== 交通（道路）モデル（LOD3）の定義
+
+交通（道路）モデル（LOD3）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-3-13]]
+include::../../../common/sections/com_road_Definition_lod30.adoc[]
+
+
+[[toc4_03_01_05]]
+===== 各LODにおいて使用可能な地物型と空間属性
+
+交通（道路）モデルの各LODにおいて使用可能な地物型と空間属性を<<tab-4-3-14>>に示す。
+
+//交通（道路）モデルの記述に使用する地物型と空間属性
+[[tab-4-3-14]]
+include::../../../common/sections/com_road_SpatialAttribute.adoc[]
+
+
+[[toc4_03_02]]
+==== 交通（道路）モデルの応用スキーマクラス図
+
+[[toc4_03_02_01]]
+===== Transportation（CityGML）
+
+Transportationパッケージは、交通に関する地物型を定義する。
+
+標準製品仕様では、道路（Road）、広場（Square）、徒歩道（Track）、鉄道（Railway）及び航路（Waterway）を定義する。
+
+これらは、道路を構成する歩道や車道のような通行可能な領域（TrafficArea）と、道路における路肩のように、これを補助する役割をもつ領域（AuxiliaryTrafficArea）の集まりとして構成できる。
+
+[[fig-4-3-1]]
+image::../../sources/images/EAID_DFE39C85_A894_4c08_AD96_612FC7DB12B1.png[]
+
+
+[[toc4_03_02_02]]
+===== Urban Object（i-UR）
+
+[[toc4_03_02_02_01]]
+====== Roadの拡張属性
+
+[[fig-4-3-2]]
+image::../../sources/images/EAID_26DF479A_6A09_488e_9100_1EB75AA85547.png[]
+
+[[toc4_03_02_02_02]]
+====== TrafficArea の拡張属性
+
+[[fig-4-3-3]]
+image::../../sources/images/EAID_08E92668_C843_4fb6_9CCD_CBBE5614436B.png[]
+
+
+[[toc4_03_03]]
+==== 交通（道路）モデルの応用スキーマ文書
+
+[[toc4_03_03_01]]
+===== Transportation（CityGML）
+
+[[toc4_03_03_01_01]]
+====== Road
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Road",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_03_03_01_02]]
+====== TrafficArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="TrafficArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_03_03_01_03]]
+====== AuxiliaryTrafficArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="AuxiliaryTrafficArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_03_03_01_04]]
+====== TrafficSpace
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="TrafficSpace",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_03_03_01_05]]
+====== AuxiliaryTrafficSpace
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="AuxiliaryTrafficSpace",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_03_03_01_06]]
+====== ClearanceSpace
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="ClearanceSpace",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_03_03_01_07]]
+====== Hole
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Hole",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_03_03_01_08]]
+====== HoleSurface
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="HoleSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_03_03_01_09]]
+====== Section
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Section",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_03_03_01_10]]
+====== Intersection
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Intersection",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_03_03_01_11]]
+====== Marking
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Marking",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+
+[[toc4_03_03_02]]
+===== Urban Object（i-UR）
+
+[[toc4_03_03_02_01]]
+====== RoadStructureAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="RoadStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_03_03_02_02]]
+====== TrafficVolumeAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TrafficVolumeAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_03_03_02_03]]
+====== TrafficAreaStructureAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TrafficAreaStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+
+[[toc4_03_03_03]]
+===== 施設管理のための拡張属性
+
+// 引用リンク スキーマ文書　施設管理のための拡張属性
+include::../../../common/sections/link_schema_Facility.adoc[]
+
+[[toc4_03_03_04]]
+===== データ品質属性
+
+// 引用リンク スキーマ文書　データ品質属性
+include::../../../common/sections/link_schema_DateQuality.adoc[]
+
+[[toc4_03_03_05]]
+===== 数値地形図のための拡張属性
+
+// 引用リンク スキーマ文書　数値地形図のための拡張属性
+include::../../../common/sections/link_schema_Dm.adoc[]
+
+
+[[toc4_03_04]]
+==== 交通（道路）で使用するコードリストと列挙型
+
+[[toc4_03_04_01]]
+===== Transportation（CityGML）
+
+[[Road_class.xml]]
+====== Road_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Road_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Road_function.xml]]
+====== Road_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Road_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<jp_road_law>>
+
+[.source]
+<<jp_building_law>>
+
+
+[[Road_usage.xml]]
+====== Road_usage.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Road_usage.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_emergency_roads>>
+
+[.source]
+<<mlit_local_disaster>>
+
+
+[[TrafficArea_function.xml]]
+====== TrafficArea_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TrafficArea_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<nilim_kiban_dps>>
+
+
+[[AuxiliaryTrafficArea_function.xml]]
+====== AuxiliaryTrafficArea_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/AuxiliaryTrafficArea_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<nilim_kiban_dps>>
+
+
+[[TrafficArea_surfaceMaterial.xml]]
+====== TrafficArea_surfaceMaterial.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TrafficArea_surfaceMaterial.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_road_upkeep>>
+
+
+[[AuxiliaryTrafficArea_surfaceMaterial.xml]]
+====== AuxiliaryTrafficArea_surfaceMaterial.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/AuxiliaryTrafficArea_surfaceMaterial.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_road_upkeep>>
+
+[[TrafficSpace_function.xml]]
+====== TrafficSpace_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TrafficSpace_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[AuxiliaryTrafficSpace_function.xml]]
+====== AuxiliaryTrafficSpace_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/AuxiliaryTrafficSpace_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[ClearanceSpace_class.xml]]
+====== ClearanceSpace_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ClearanceSpace_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Hole_class.xml]]
+====== Hole_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Hole_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Section_class.xml]]
+====== Section_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Section_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Intersection_class.xml]]
+====== Intersection_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Intersection_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Marking_class.xml]]
+====== Marking_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Marking_class.xml[template="gml_dict_template.liquid",context=dict]
+
+
+[[toc4_03_04_02]]
+===== Urban Object（i-UR）
+
+[[RoadStructureAttribute_widthType.xml]]
+====== RoadStructureAttribute_widthType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/RoadStructureAttribute_widthType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_foundation_reqs>>
+
+
+[[RoadStructureAttribute_sectionType.xml]]
+====== RoadStructureAttribute_sectionType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/RoadStructureAttribute_sectionType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[toc4_03_04_03]]
+===== Urban Core（i-UR）
+
+[[Road_lodType.xml]]
+====== Road_lodType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Road_lodType.xml[template="gml_dict_template.liquid",context=dict]
+
+====== DataQualityAttribute_geometrySrcDesc.xml
+
+<<DataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_thematicSrcDesc.xml
+
+<<DataQualityAttribute_thematicSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_appearanceSrcDesc.xml
+
+<<DataQualityAttribute_appearanceSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_srcScale.xml
+
+<<PublicSurveyDataQualityAttribute_srcScale.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
+
+<<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+
+[[TrafficDirectionValue]]
+====== TrafficDirectionValue
+
+[cols="a,a"]
+|===
+| 列挙型 | TrafficDirectionValue
+
+h| 値 h| 説明
+| forwards | 前
+| backwards | 後
+| both | 双方向
+
+|===

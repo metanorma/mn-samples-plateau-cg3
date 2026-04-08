@@ -1,0 +1,390 @@
+[[toc4_05]]
+=== 交通（徒歩道）モデルの応用スキーマ
+
+徒歩道とは、公共測量標準図式における徒歩道及び庭園路（ただし、庭園路のうち、自動車ターミナル内の道路は、広場として取得するため、徒歩道には含まない）をいう。
+
+ここで、公共測量標準図式における徒歩道とは、「道路縁及び軽車道に接続するもの、登山、観光等に利用されるもの、神社等主要な地点へ到達するもの、耕地の区画等の景観を表現するために必要なもの」であり、庭園路とは、「公園、住宅地等で自動車の通行を規制している道路及び工場等特定の敷地内の道路」である。
+
+
+[[toc4_05_01]]
+==== 交通（徒歩道）モデルのLOD
+
+標準製品仕様書が対象とする交通（徒歩道）モデルのLODは、LOD0からLOD3までとする。
+
+[[toc4_05_01_01]]
+===== 交通（徒歩道）モデル（LOD0）
+
+[[toc4_05_01_01_01]]
+====== 交通（徒歩道）モデル（LOD0）の概要
+
+交通（徒歩道）モデル（LOD0）では、徒歩道の形状を中心線により表現する。 +
+このとき、属性granularityによって、徒歩道全体又は上下線単位なのか、あるいは車線単位なのかを表現する。 +
+granularity=wayの場合は、徒歩道全体又は車道及び歩道の中心線を表現する。 +
+さらに、中心線の粒度を詳細に区分するために属性fuctionを使用する。 +
+granularity=laneの場合は、車線及び歩道の中心線を表現する。 +
+標準製品仕様書は、原則として徒歩道全幅の中心線を採用する。ただし、ユースケースの必要に応じて他の粒度の中心線を採用できる。 +
+また、数値地形図との互換性を保つために、徒歩道縁を採用できる。
+
+徒歩道縁を採用する場合、公共測量法準図式に従う。（<<toc4_25_01_01,公共測量標準図式のためのLOD0の定義>>）
+
+交通（徒歩道）モデル（LOD0）の取得イメージを<<tab-4-5-1>>に示す。
+
+//交通（徒歩道）モデル（LOD0）の取得イメージ
+[[tab-4-5-1]]
+include::../../../common/sections/com_trk_Acquire_lod0.adoc[]
+
+[[toc4_05_01_01_02]]
+====== 交通（徒歩道）モデル（LOD0）の定義
+
+交通（徒歩道）モデル（LOD0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-5-2]]
+include::../../../common/sections/com_trk_Definition_lod00.adoc[]
+
+
+[[toc4_05_01_02]]
+===== 交通（徒歩道）モデル（LOD1）
+
+[[toc4_05_01_02_01]]
+====== 交通（徒歩道）モデル（LOD1）の概要
+
+交通（徒歩道）モデル（LOD1）では、徒歩道の形状を面により表現する。 +
+属性granularityによって、徒歩道内の区分の粒度を表現する。
+
+交通（徒歩道）モデル（LOD1）の取得イメージを<<tab-4-5-3>>に示す。
+
+//交通（徒歩道）モデル（LOD1）の取得イメージ
+[[tab-4-5-3]]
+include::../../../common/sections/com_trk_Acquire_lod1.adoc[]
+
+車道部とは、主として自動車が利用する道路の部分で、車線、すりつけ区間、分離帯が切断された車道の部分、側帯、路肩、停車帯、待避所、乗合自動車停車所、非常駐車帯、副道を含む。
+
+[.source]
+<<nilim_kiban_dps,道路基盤地図情報（整備促進版）製品仕様書（案）>>
+
+
+車道交差部とは、十字路、丁字路、その他2つ以上の車道が交わる部分をいう。
+
+[.source]
+<<nilim_kiban_dps,道路基盤地図情報（整備促進版）製品仕様書（案）>>
+
+
+歩道部とは、専ら歩行者と自転車の通行の用に供するため、工作物により車道部と区画して設置される道路の部分で、自転車道、自転車歩行者道、歩道を含む。
+
+[.source]
+<<nilim_kiban_dps,道路基盤地図情報（整備促進版）製品仕様書（案）>>
+
+
+島とは、車両の走行を制御し、安全な交通を確保するために設置される分離帯及び交通島の部分をいう。
+
+[.source]
+<<nilim_kiban_dps,道路基盤地図情報（整備促進版）製品仕様書（案）>>
+
+[[toc4_05_01_02_02]]
+====== 交通（徒歩道）モデル（LOD1）の定義
+
+交通（徒歩道）モデル（LOD1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-5-4]]
+include::../../../common/sections/com_trk_Definition_lod10.adoc[]
+
+
+[[toc4_05_01_03]]
+===== 交通（徒歩道）モデル（LOD2）
+
+[[toc4_05_01_03_01]]
+====== 交通（徒歩道）モデル（LOD2）の概要
+
+交通（徒歩道）モデル（LOD2）では、徒歩道の形状を高さを持った面により表現する。 +
+属性granularityによって、徒歩道内の区分の粒度を表現する。
+
+交通（徒歩道）モデル（LOD2）は、「高さの取得方法」（<<tab-4-5-6>>）によりLOD2.0、LOD2.1及びLOD2.2に区分する。 +
+また、「徒歩道内の区分」（<<tab-4-5-5>>）により属性granularityを区分する。 +
+標準製品仕様は、原則としてLOD2.0とする。ただし、ユースケースの必要に応じて、LOD2.1及びLOD2.2を採用できる。
+
+//交通（徒歩道）モデルにおける属性granularityによる「徒歩道内の区分」
+[[tab-4-5-5]]
+include::../../../common/sections/com_trk_Category_lod2.adoc[]
+
+//交通（徒歩道）モデルにおけるLOD2.0、LOD2.1及びLOD2.2の「高さの取得方法」
+[[tab-4-5-6]]
+include::../../../common/sections/com_trk_Category_height_lod2.adoc[]
+
+
+交通（徒歩道）モデル（LOD2）の取得イメージを<<tab-4-5-7>>及び<<tab-4-5-8>>に示す。
+
+//交通（徒歩道）モデル（LOD2）の取得イメージ（徒歩道内の区分）
+[[tab-4-5-7]]
+include::../../../common/sections/com_trk_Acquire_lod2_category.adoc[]
+
+//交通（徒歩道）モデル（LOD2）の取得イメージ（高さの取得方法）
+[[tab-4-5-8]]
+include::../../../common/sections/com_trk_Acquire_lod2_height.adoc[]
+
+[[toc4_05_01_03_02]]
+====== 交通（徒歩道）モデル（LOD2.0）の定義
+
+交通（徒歩道）モデル（LOD2.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-5-9]]
+include::../../../common/sections/com_trk_Definition_lod20.adoc[]
+
+[[toc4_05_01_03_03]]
+====== 交通（徒歩道）モデル（LOD2.1）の定義
+
+交通（徒歩道）モデル（LOD2.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-5-10]]
+include::../../../common/sections/com_trk_Definition_lod21.adoc[]
+
+[[toc4_05_01_03_04]]
+====== 交通（徒歩道）モデル（LOD2.2）の定義
+
+交通（徒歩道）モデル（LOD2.2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-5-11]]
+include::../../../common/sections/com_trk_Definition_lod22.adoc[]
+
+[[toc4_05_01_04]]
+===== 交通（徒歩道）モデル（LOD3）
+
+[[toc4_05_01_04_01]]
+====== 交通（徒歩道）モデル（LOD3）の概要
+
+交通（道路）モデル（LOD3）では、徒歩道を構成する各部分を区別して外形を三次元的に表現し、徒歩道の形状及び空間的広がりが判別可能な程度の面の集まりとして表現する。 +
+なお、各部分はユースケースの必要に応じて細分して表現できる。
+
+交通（徒歩道）モデル（LOD3）の取得イメージを<<tab-4-5-12>>に示す。
+
+//交通（徒歩道）モデル（LOD3）の取得イメージ
+[[tab-4-5-12]]
+include::../../../common/sections/com_trk_Acquire_lod3.adoc[]
+
+[[toc4_05_01_04_02]]
+====== 交通（徒歩道）モデル（LOD3）の定義
+
+交通（徒歩道）モデル（LOD3）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-5-13]]
+include::../../../common/sections/com_trk_Definition_lod30.adoc[]
+
+[[toc4_05_01_05]]
+===== 各LODにおいて使用可能な地物型と空間属性
+
+交通（徒歩道）モデルの各LODにおいて使用可能な地物型と空間属性を<<tab-4-5-14>>に示す。
+
+//交通（徒歩道）モデルの記述に使用する地物型と空間属性
+[[tab-4-5-14]]
+include::../../../common/sections/com_trk_SpatialAttribute.adoc[]
+
+
+[[toc4_05_02]]
+==== 交通（徒歩道）モデルの応用スキーマクラス図
+
+[[toc4_05_02_01]]
+===== Transportation （CityGML）
+
+<<toc4_03_02_01,Roadの応用スキーマクラス図>>参照。
+
+[[toc4_05_02_02]]
+===== Urban Object （i-UR）
+
+[[toc4_05_02_02_01]]
+====== Trackの拡張属性
+
+[[fig-4-5-1]]
+image::../../sources/images/EAID_7FB25AD2_4A3A_466b_9F71_87840482E05F.png[]
+
+
+[[toc4_05_03]]
+==== 交通（徒歩道）モデルの応用スキーマ文書
+
+[[toc4_05_03_01]]
+===== Transportation（CityGML）
+
+[[toc4_05_03_01_01]]
+====== Track
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Track",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+====== TrafficArea
+
+<<toc4_03_03_01_02,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== AuxiliaryTrafficArea
+
+<<toc4_03_03_01_03,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== TrafficSpace
+
+<<toc4_03_03_01_04,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== AuxiliaryTrafficSpace
+
+<<toc4_03_03_01_05,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== ClearanceSpace
+
+<<toc4_03_03_01_06,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== Hole
+
+<<toc4_03_03_01_07,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== HoleSurface
+
+<<toc4_03_03_01_08,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== Section
+
+<<toc4_03_03_01_09,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== Intersection
+
+<<toc4_03_03_01_10,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+====== Marking
+
+<<toc4_03_03_01_11,交通（道路）モデルの応用スキーマ文書>>　参照。
+
+[[toc4_05_03_02]]
+===== Urban Object（i-UR）
+
+[[toc4_05_03_02_01]]
+====== TrackAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TrackAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_05_03_03]]
+===== 施設管理のための拡張属性
+
+// 引用リンク スキーマ文書　施設管理のための拡張属性
+include::../../../common/sections/link_schema_Facility.adoc[]
+
+[[toc4_05_03_04]]
+===== データ品質属性
+
+// 引用リンク スキーマ文書　データ品質属性
+include::../../../common/sections/link_schema_DateQuality.adoc[]
+
+[[toc4_05_03_05]]
+===== 数値地形図のための拡張属性
+
+// 引用リンク スキーマ文書　数値地形図のための拡張属性
+include::../../../common/sections/link_schema_Dm.adoc[]
+
+
+[[toc4_05_04]]
+==== 交通（徒歩道）モデルで使用するコードリストと列挙型
+
+[[toc4_05_04_01]]
+===== Transportation（CityGML）
+
+[[Track_class.xml]]
+====== Track_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Track_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Track_function.xml]]
+====== Track_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Track_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_ops,付録７ 公共測量標準図式>>
+
+====== TrafficArea_function.xml
+
+<<TrafficArea_function.xml,交通（道路）のコードリスト>>　参照。
+
+====== AuxiliaryTrafficArea_function.xml
+
+<<AuxiliaryTrafficArea_function.xml,交通（道路）のコードリスト>>　参照。
+
+====== TrafficArea_surfaceMaterial.xml
+
+<<TrafficArea_surfaceMaterial.xml,交通（道路）のコードリスト>>　参照。
+
+====== AuxiliaryTrafficArea_surfaceMaterial.xml
+
+<<AuxiliaryTrafficArea_surfaceMaterial.xml,交通（道路）のコードリスト>>　参照。
+
+====== TrafficSpace_function.xml
+
+<<TrafficSpace_function.xml,交通（道路）のコードリスト>>　参照。
+
+====== AuxiliaryTrafficSpace_function.xml
+
+<<AuxiliaryTrafficSpace_function.xml,交通（道路）のコードリスト>>　参照。
+
+====== ClearanceSpace_class.xml
+
+<<ClearanceSpace_class.xml,交通（道路）のコードリスト>>　参照。
+
+====== Hole_class.xml
+
+<<Hole_class.xml,交通（道路）のコードリスト>>　参照。
+
+====== Section_class.xml
+
+<<Section_class.xml,交通（道路）のコードリスト>>　参照。
+
+====== Intersection_class.xml
+
+<<Intersection_class.xml,交通（道路）のコードリスト>>　参照。
+
+====== Marking_class.xml
+
+<<Marking_class.xml,交通（道路）のコードリスト>>　参照。
+
+
+[[toc4_05_04_02]]
+===== Urban Object（i-UR）
+
+[[TrackAttribute_adminType.xml]]
+====== TrackAttribute_adminType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TrackAttribute_adminType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_foundation_map_dps>>
+
+[[TrackAttribute_structureType.xml]]
+====== TrackAttribute_structureType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TrackAttribute_structureType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_foundation_map_dps>>
+
+[[TrackAttribute_widthType.xml]]
+====== TrackAttribute_widthType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TrackAttribute_widthType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_foundation_map_dps>>
+
+[[toc4_05_04_03]]
+===== Urban Core（i-UR）
+
+====== DataQualityAttribute_geometrySrcDesc.xml
+
+<<DataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_thematicSrcDesc.xml
+
+<<DataQualityAttribute_thematicSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_appearanceSrcDesc.xml
+
+<<DataQualityAttribute_appearanceSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_srcScale.xml
+
+<<PublicSurveyDataQualityAttribute_srcScale.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
+
+<<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+

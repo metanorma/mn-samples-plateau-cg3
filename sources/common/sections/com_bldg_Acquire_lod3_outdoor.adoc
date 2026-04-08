@@ -1,0 +1,17 @@
+[cols="1a,3a,3a",options="noheader"]
+.建築物モデル・外部（LOD3）の取得イメージ
+|===
+h| LOD ^h| LOD3.0 ^h| LOD3.1
+h| 取得例
+^.^| 
+image::../../sources/images/bldg_Acquire_lod30_out.png[]
+^.^| 
+image::../../sources/images/bldg_Acquire_lod31_out.png[]
+
+h| 説明
+| 建築物が、建築部材の集まりとして表現される。
+| 建築物が、建築部材の集まりとして表現される。 +
+さらに、建築物を構成する面が、境界面や付属物等に区分される。
+
+|===
+

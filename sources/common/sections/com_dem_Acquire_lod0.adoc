@@ -1,0 +1,15 @@
+[cols="1a,3a,3a",options="noheader"]
+.地形モデル（LOD0）の取得イメージ
+|===
+h| LOD 2+^h| LOD0
+h| 取得例
+^.^|
+image::../../sources/images/dem_Acquire_lod00_01.png[width="100"]
+^.^|
+image::../../sources/images/dem_Acquire_lod00_02.png[width="100"]
+
+h| 説明
+| 地物の位置を点として取得する。
+| 等値線を取得する。高さは0とする。
+
+|===

@@ -1,0 +1,30 @@
+[cols="1a,3a,3a,3a",options="noheader"]
+.交通（鉄道）モデル（LOD2）の取得イメージ（鉄道内の区分）
+|===
+h| LOD ^h| LOD2.0 ^h| LOD2.1 ^h| LOD2.2
+h| 取得例
+^.^|
+image::../../sources/images/rwy_Acquire_lod20.png[]
+^.^|
+image::../../sources/images/rwy_Acquire_lod21.png[]
+^.^|
+image::../../sources/images/rwy_Acquire_lod22.png[]
+
+h| 説明
+|軌道中心線、レールに囲まれた範囲及び道床を面として取得する。 +
+なお、軌道ごとに一つの地物とする。このとき、属性granularityはlaneとなる。 +
+交通空間（TrafficSpace）はTrafficAreaを底面とし、建築限界の範囲を立体として表現できる。 +
+また、交通補助空間（AuxiliaryTrafficSpace）はAuxiliaryTrafficAreaを底面とし、建築限界の範囲を立体として表現できる。
+さらに、離隔空間（ClearanceSpace）は建築限界の上面を底面とし、無人航空機が飛行可能な範囲を立体として表現できる。
+
+|軌道中心線、レールに囲まれた範囲（レールの内側）、道床に加え、レールを取得する。また、道床外の鉄道用地を交通補助領域として取得できる。このとき、属性granularityはlaneとなる。 +
+交通空間（TrafficSpace）はTrafficAreaを底面とし、建築限界の範囲を立体として表現できる。 +
+また、交通補助空間（AuxiliaryTrafficSpace）はAuxiliaryTrafficAreaを底面とし、建築限界の範囲を立体として表現できる。
+さらに、離隔空間（ClearanceSpace）は建築限界の上面を底面とし、無人航空機が飛行可能な範囲を立体として表現できる。
+
+|軌道中心線、レールに囲まれた範囲、道床に加え、レールを取得する。また、道床外の鉄道用地を交通補助領域として取得する。道床及び道床外の鉄道用地を、ユースケースの必要に応じて細分できる。 +
+このとき、属性granularityはlaneとなる。 +
+交通空間（TrafficSpace）はTrafficAreaを底面とし、建築限界の範囲を立体として表現できる。 +
+また、交通補助空間（AuxiliaryTrafficSpace）はAuxiliaryTrafficAreaを底面とし、建築限界の範囲を立体として表現できる。
+さらに、離隔空間（ClearanceSpace）は建築限界の上面を底面とし、無人航空機が飛行可能な範囲を立体として表現できる。
+|===

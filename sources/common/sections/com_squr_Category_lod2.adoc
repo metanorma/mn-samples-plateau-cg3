@@ -1,0 +1,78 @@
+[cols="a,a,a,a,a"]
+.交通（広場）モデルにおける属性granularityによる「広場内の区分」
+|===
+| 交通（広場）モデル（LOD2）に含むべき地物 | 対応するCityGMLの地物型 | granularity=way（道路全幅）| granularity=way（上下線単位）| granularity=lane（車線単位）
+
+| 広場
+| Square
+| ●
+| ●
+| ●
+
+| 車道部
+| TrafficArea
+| 
+| ●
+| ●
+
+| 車線
+| TrafficArea
+| 
+| 
+| ●
+
+| 車道交差部
+| TrafficArea
+| 
+| ●
+| ●
+
+| 歩道部
+| TrafficArea
+| 
+| ●
+| ●
+
+| すりつけ区間、踏切道、軌道敷、待避所、副道、自動車駐車場（走路）、自転車駐車場（走路）
+| TrafficArea
+| 
+| 
+| 〇
+
+| 歩道、自転車歩行者道、自転車道
+| TrafficArea
+| 
+| 
+| 〇
+
+| 島
+| AuxiliaryTrafficArea
+| 
+| ●
+| ●
+
+| 歩道部上の植栽
+| AuxiliaryTrafficArea
+| 
+| 
+| ●
+
+| 非常駐車帯、中央帯、側帯、路肩、停車帯、乗合自動車停車所、自動車駐車場（駐車区画）、自転車駐車場（駐車区画）
+| AuxiliaryTrafficArea
+| 
+| 
+| 〇
+
+| 交通島、分離帯、植樹帯、路面電車停車所
+| AuxiliaryTrafficArea
+| 
+| 
+| 〇
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）
+

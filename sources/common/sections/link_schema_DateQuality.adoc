@@ -1,0 +1,15 @@
+====== DataQualityAttribute
+
+<<toc4_27_03_03_01, データ集合の応用スキーマ文書>>　参照。
+
+====== ExteriorDataQualityAttribute
+
+<<toc4_27_03_03_02, データ集合の応用スキーマ文書>>　参照。
+
+====== InteriorDataQualityAttribute
+
+<<toc4_27_03_03_03, データ集合の応用スキーマ文書>>　参照。
+
+====== PublicSurveyDataQualityAttribute
+
+<<toc4_27_03_03_04, データ集合の応用スキーマ文書>>　参照。

@@ -1,0 +1,18 @@
+[[tocH]]
+[appendix]
+== 妥当な航路オブジェクト
+
+include::../sections/appendix-H/section-01.adoc[]
+
+include::../sections/appendix-H/section-02.adoc[]
+
+include::../sections/appendix-H/section-03.adoc[]
+
+include::../sections/appendix-H/section-04.adoc[]
+
+include::../sections/appendix-H/section-05.adoc[]
+
+include::../sections/appendix-H/section-06.adoc[]
+
+include::../sections/appendix-H/section-07.adoc[]
+

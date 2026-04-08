@@ -1,0 +1,95 @@
+[cols="a,a,a,a"]
+.地下街モデル・外部におけるLOD3.0及びLOD3.1の区分
+|===
+| 建築物モデル（LOD3）に含むべき地物 | 対応するCityGMLの地物型 | LOD3.0 | LOD3.1
+
+| 建築物 
+| UndergroundBuilding 
+| ● 
+| ● 
+
+| 建築物部分
+| BuildingPart
+| 　
+| ■ footnoteblock:[fn_undergroundbuilding_outdoorcategory_lod3_ext_01]
+
+| 屋根 
+| RoofSurface 
+| 　
+| 〇
+
+| 外壁面・軒裏 
+| WallSurface 
+| 　
+| 〇
+
+
+| 底面 
+| GroundSurface 
+| 　
+| 〇 
+
+| 屋外床面 
+| OuterFloorSurface
+| 　
+| 　
+
+| 屋外天井面 
+| OuterCeilingSurface
+| 　
+| 　
+
+| 閉鎖面
+| ClosureSurfacce
+| 　
+| ■ footnoteblock:[fn_undergroundbuilding_outdoorcategory_lod3_ext_02]
+
+| 建築物付属物
+| BuildingInstallation
+| 　
+| 　
+
+| 扉面
+| DoorSurface
+| 　
+| 〇
+
+| 窓面
+| WindowSurface
+| 　
+| 〇
+
+| 扉
+| Door
+| ■
+| ■
+
+| 窓
+| Window
+| ■
+| ■
+
+| 建築物部材
+| BuildingConstructiveElement
+| ●
+| ●
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）
+
+
+[[fn_undergroundbuilding_outdoorcategory_lod3_ext_01]]
+[NOTE]
+--
+一棟の建築物を主題属性の異なる複数の部分に分ける場合に必須とする。
+--
+
+[[fn_undergroundbuilding_outdoorcategory_lod3_ext_02]]
+[NOTE]
+--
+BuildingPartを使用する場合に必須とする。
+--

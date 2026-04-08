@@ -1,0 +1,40 @@
+[cols="1a,3a,3a",options="noheader"]
+.植生モデル（LOD2）の取得イメージ
+|===
+h| LOD 2+^h| LOD2.0
+h| 取得例
+^.^|
+image::../../sources/images/veg_Acquire_lod20_01.png[width=200]
+^.^|
+image::../../sources/images/veg_Acquire_lod20_02.png[]
+
+h| 説明
+| 樹冠と樹幹をそれぞれ簡略化した立体 footnoteblock:[fn_tree_model_simplify] を組み合わせた立体として表現する。
+| 植被の表層の高さを取得し、比高3m以上を再現した立体として表現する。 +
+モデルは特徴点を結ぶ三角網から構成される面を立体として表現する。
+
+h| LOD 2+^h| LOD2.1
+h| 取得例
+^.^|
+image::../../sources/images/veg_Acquire_lod21_01.png[width=200]
+^.^|
+image::../../sources/images/veg_Acquire_lod21_02.png[]
+
+h| 説明
+| 樹冠及び樹幹の外形を構成する特徴点 footnoteblock:[fn_tree_height] により作成した立体。
+| 植被の表層の高さを取得し、比高1m以上を再現した立体として表現する。 +
+モデルは特徴点を結ぶ三角網から構成される面を立体として表現する。
+
+|===
+
+[[fn_tree_model_simplify]]
+[NOTE]
+--
+簡略化した立体とは、楕円体、球体、円錐、角錐、角柱、円柱などの単純な立体図形とする。
+--
+
+[[fn_tree_height]]
+[NOTE]
+--
+一定高さごとに樹冠の横断面を作成し、この頂点を結び外形を構成する（樹冠内部の主枝等の表現は行わない。）が、ユースケースの必要に応じて詳細化してよい。
+--

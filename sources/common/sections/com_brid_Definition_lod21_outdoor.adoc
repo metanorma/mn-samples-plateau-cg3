@@ -1,0 +1,238 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD2.1
+|■
+|Bridge
+|lod2Solid
+|GM_Solid
+|道路橋、鉄道橋、桟道橋、横断歩道橋、ペデストリアンデッキ、徒橋、跨線橋
+|
+* 屋根面（RoofSurface）、外壁面（WallSurface）、底面（GroundSurface）、屋外床面（OuterFloorSurface）、屋外天井面（OuterCeilingSurface）及び閉鎖面（ClosureSurface）を境界面とする立体を作成する。
+|
+* 道路橋、桟道橋及び鉄道橋は、床版及び主桁を対象とする。
+* 横断歩道橋、ペデストリアンデッキ、徒橋、跨線橋は、上部工、階段、及び踊り場を対象とする。
+
+|LOD2.1
+|■
+|Bridge
+|lod2MultiSurface
+|GM_MultiSurface
+|道路橋、鉄道橋、桟道橋、横断歩道橋、ペデストリアンデッキ、徒橋、跨線橋
+|
+* 屋根面（RoofSurface）、外壁面（WallSurface）、底面（GroundSurface）、屋外床面（OuterFloorSurface）、屋外天井面（OuterCeilingSurface）及び閉鎖面（ClosureSurface）を境界面とする立体を作成する。
+|
+* 道路橋、桟道橋及び鉄道橋は、床版及び主桁を対象とする。
+* 横断歩道橋、ペデストリアンデッキ、徒橋、跨線橋は、上部工、階段、及び踊り場を対象とする。
+
+|LOD2.1
+|■
+|BridgePart
+|lod2Solid
+|GM_Solid
+|
+* 一つの橋梁を、主題属性の異なる複数の部分に分ける場合に必須とする。
+* 階段やスロープのある横断歩道橋、ペデストリアンデッキ及び跨線橋の場合は必須とする。
+|
+* 屋根面（RoofSurface）、外壁面（WallSurface）、底面（GroundSurface）、屋外床面（OuterFloorSurface）、屋外天井面（OuterCeilingSurface）及び閉鎖面（ClosureSurface）を境界面とする立体を作成する。
+|
+* 本体を構造上分けて作成する場合は任意とする。（横断歩道橋の場合は階段、スロープ、踊り場を分ける場合に使用する）
+* 階段の段を表現する。
+* 道路橋、桟道橋及び鉄道橋の場合、階段、スロープ、踊り場は付属物（BridgeInstallation）となる。
+
+|LOD2.1
+|■
+|BridgePart
+|lod2MultiSurface
+|GM_MultiSurface
+|
+* 一つの橋梁を、主題属性の異なる複数の部分に分ける場合に必須とする。
+* 階段やスロープのある横断歩道橋、ペデストリアンデッキ及び跨線橋の場合は必須とする。
+|
+* 屋根面（RoofSurface）、外壁面（WallSurface）、底面（GroundSurface）、屋外床面（OuterFloorSurface）、屋外天井面（OuterCeilingSurface）及び閉鎖面（ClosureSurface）を境界面とする立体を作成する。
+|
+* 本体を構造上分けて作成する場合は任意とする。（横断歩道橋の場合は階段、スロープ、踊り場を分ける場合に使用する）
+* 階段の段を表現する。
+* 道路橋、桟道橋及び鉄道橋の場合、階段、スロープ、踊り場は付属物（BridgeInstallation）となる。
+
+|LOD2.1
+|■
+|RoofSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|屋根が存在する場合に必須とする。
+|
+* 屋根の上方からの正射影の外周を取得し、棟（屋根の頂部であり、屋根の分水嶺となる箇所）及び谷（屋根と屋根のつなぎの谷状の部分）で区切る。
+* 区切った面の各頂点に屋根の高さを与える。
+|
+* 屋根の棟及び谷で区切ることにより、屋根の傾斜や向きを再現する。
+* 上部工、階段、踊り場の全体が屋根で覆われている場合を対象とする。庇は、BridgeInstallationとして取得する。
+* 曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD2.1
+|●
+|WallSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|
+|
+* 橋梁の外形のうち、屋根面（RoofSurface）、底面（GroundSurface）、屋外床面（OuterFloorSurface）、屋外天井面（OuterCeilingSurface）及び閉鎖面（ClosureSurface）以外の面を取得する。
+
+【道路橋、桟道橋及び鉄道橋の場合】
+
+* 床版及び主桁の外形のうち、側面を取得する。
+
+【横断歩道橋、ペデストリアンデッキ及び跨線橋の場合】
+
+* 上部工、階段及び踊り場の外形を構成する面のうち、側面を取得する。
+|
+
+|LOD2.1
+|■
+|GroundSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|
+|
+* 橋梁の側面と、地表との交線により囲まれた面を取得する。
+* 面の各頂点に、地表面の高さを与える。
+|
+
+|LOD2.1
+|■
+|OuterFloorSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|屋根が存在しない場合に必須とする。
+|
+* 床版の上方からの正射影の外周を取得する。
+* 外周の各頂点に床版の高さ（舗装の高さ）を与える。
+|
+
+|LOD2.1
+|■
+|OuterCeilingSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|WallSurfaceとの区分が必要な場合に必須とする。
+|
+* 橋梁の外形を構成する下向きの面のうち、GroundSurface以外を取得する。
+* 橋梁の床版・主桁部分の外壁のうち、下向きとなる面の外周を取得する。
+* 面の各頂点に、外壁の高さを与える。
+|
+
+|LOD2.1
+|■
+|ClosureSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|
+* BridgePartを使用する場合は必須とする。
+* 窓や扉のない開口部がある場合に使用する。
+|
+* BridgePartとBridgePartの境界面を取得する。
+* 開口部の外周を面として取得する。
+|
+
+|LOD2.1
+|〇
+|BridgeInstallation
+|lod2MultiSurface
+|GM_MultiSurface
+|高欄、地覆、親柱、庇、庇の柱、エレベータ、エスカレータ、手すり、階段、踊り場、スロープ
+|
+* 構造物の外形（外側から見える形）を構成する面を取得する
+* 面の各頂点に構造物の高さを与える。ただし、階段は上端と下端をつなぐスロープとして表現する。
+|
+
+|LOD2.1
+|〇
+|BridgeInstallation
+|lod2MultiSurface
+|GM_MultiSurface
+|階段、踊り場、スロープ
+|【道路橋の場合】
+
+* 付属物の外形（外側から見える形）を構成する面を取得する。
+* 面の各頂点に屋外付属物の高さを与える。ただし、階段は上端と下端をつなぐスロープとして表現する。
+|横断歩道橋、ペデストリアンデッキ及び跨線橋の場合は階段、踊り場、スロープはBridgePartとして取得する。
+
+|LOD2.1
+|〇
+|DoorSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|ユースケースの必要に応じて作成する
+|
+* 扉の外周を取得する。
+|
+
+|LOD2.1
+|〇
+|WindowSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|ユースケースの必要に応じて作成する
+|
+* 窓の外周を取得する。
+|
+
+|LOD2.1
+|〇
+|Door
+|-
+|-
+|-
+|-
+|-
+
+|LOD2.1
+|〇
+|Window
+|-
+|-
+|-
+|-
+|-
+
+|LOD2.1
+|〇
+|BridgeConstructiveElement
+|lod2MultiSurface
+|GM_MultiSurface
+|トラス、アーチ、パイロン
+|【道路橋、鉄道橋の場合】
+
+* 構造物の外形（外側から見える形）を構成する面を取得する。
+* 面の各頂点に構造物の高さを与える。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|LOD2.1
+|〇
+|BridgeConstructiveElement
+|lod2MultiSurface
+|GM_MultiSurface
+|吊材、ケーブル
+|
+* 同一の支間に存在する吊材、同一のパイロンに定着されたケーブルを包含する面として取得する。
+* 面の各頂点に構造物の高さを与える。
+|一本ずつ取得せず、まとめて取得してもよい。
+
+|LOD2.1
+|〇
+|BridgeConstructiveElement
+|lod2MultiSurface
+|GM_MultiSurface
+|橋脚、橋台
+|
+* 構造物の外形（外側から見える形）を構成する面を取得する。
+* 面の各頂点に構造物の高さを与える。
+|曲面の場合は、データセットが採用する地図情報レベルの水平及び高さの誤差の標準偏差に収まるよう平面に分割する。
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

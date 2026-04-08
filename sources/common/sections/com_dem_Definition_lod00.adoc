@@ -1,0 +1,67 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD0
+|●
+|ReliefFeature
+|―
+|―
+|等高線、凹地、土がけ、雨裂、急斜面、洞口、岩がけ、露岩、散岩、さんご礁
+|
+* BreaklineRelief又はMassPointReliefの集まりとして取得する。
+* 高さは0とする。
+|
+
+
+* ReliefFeatureは地物の集まりとして表現し、空間属性はもたない。
+* 同一の地物型の集まりでなければならない。
+
+
+|LOD0
+|
+|TINRelief
+|tin
+|
+|
+|
+|対象外
+
+|LOD0
+|■
+|MassPointRelief
+|reliefPoints
+|GM_MultiPoint
+|岩がけ、土がけ、散岩
+|
+* 地物の位置を点として取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|BreaklineRelief
+|breaklines
+|GM_MultiCurve
+|等高線、凹地
+|
+* 等値線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|RasterRelief
+|grid
+|CV_DiscreteGridPointCoverage
+|
+|
+* 正方格子として取得する。
+|各格子に対応する標高値をリストとして持つ。
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

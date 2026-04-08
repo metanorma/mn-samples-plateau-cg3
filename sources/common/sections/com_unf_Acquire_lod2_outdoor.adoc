@@ -1,0 +1,89 @@
+[cols="4a,9a,9a,9a,9a",options="noheader"]
+.地下埋設物モデル・外部（LOD2）の取得イメージ
+|===
+h| LOD 4+^h| LOD2.0
+h| 取得例
+|
+image::../../sources/images/unf_Acquire_lod20_out_01.png[]
+|
+image::../../sources/images/unf_Acquire_lod20_out_02.png[]
+|
+image::../../sources/images/unf_Acquire_lod20_out_03.png[]
+|
+image::../../sources/images/unf_Acquire_lod20_out_04.png[]
+
+h| 説明 
+| 管路の上方からの正射影の外周を、管路が埋設された深さから、管径の大きさで下向きに押し出した立体として表現する。
+| 複数まとまって埋設されている管路の最外縁を外周とし、その上方からの正射影を、管路が埋設された深さから、管径の合計の大きさで、下向きに押し出した立体として表現する。
+| ケーブルの上方からの正射影の外周を、ケーブルが埋設された深さからケーブルの径の大きさで下向きに押し出した立体として表現する。
+| 複数まとまって埋設されているケーブルの最外縁を外周とし、その上方からの正射影を、ケーブルが埋設された深さからケーブルの径の合計の大きさで下向きに押し出した立体として表現する。
+
+h| LOD 4+^h| LOD2.0
+h| 取得例
+|
+image::../../sources/images/unf_Acquire_lod20_out_05.png[]
+|
+image::../../sources/images/unf_Acquire_lod20_out_06.png[]
+|
+image::../../sources/images/unf_Acquire_lod20_out_07.png[]
+|
+image::../../sources/images/unf_Acquire_lod20_out_08.png[]
+
+h| 説明
+| 構造物の上方からの正射影の外周を取得し、構造物が埋設された深さから構造物の高さで下向きに押し出した立体を作成する。
+| 弁栓類、ガバナ等の設備を包含する矩形の正射影を、設備が埋設された深さから設備の高さで下向きに押し出した立体として表現する。
+| マンホール本体の上方からの正射影の外周 footnoteblock:[fn_manhole_circumference] を、地表面からマンホールの深さで下向きに押し出した立体を作成する。
+| ハンドホールの規格により定まる外径とハンドホールの中心をもとに推定したハンドホール本体の上方からの正射影の外周を、地表面からハンドホールの深さで下向きに押し出した立体を作成する。
+
+h| LOD 4+^h| LOD2.1
+h| 取得例
+|
+image::../../sources/images/unf_Acquire_lod21_out_01.png[]
+|
+image::../../sources/images/unf_Acquire_lod21_out_02.png[]
+|
+image::../../sources/images/unf_Acquire_lod21_out_03.png[]
+|
+image::../../sources/images/unf_Acquire_lod21_out_04.png[]
+
+h| 説明
+| 管路の外形を構成する面を取得する。
+| 複数まとまって埋設されている管路も、個々の管路の外形を構成する面を取得する。
+| ケーブルの外形を構成する面を取得する。
+| 複数まとまって埋設されているケーブルも、個々のケーブルの外形を構成する面を取得する。
+
+h| LOD 4+^h| LOD2.1
+h| 取得例
+|
+image::../../sources/images/unf_Acquire_lod21_out_05.png[]
+|
+image::../../sources/images/unf_Acquire_lod21_out_06.png[]
+|
+image::../../sources/images/unf_Acquire_lod21_out_07.png[]
+|
+image::../../sources/images/unf_Acquire_lod21_out_08.png[]
+
+h| 説明
+| 構造物の外形を構成する面を取得する。 +
+なお、構造物に格納されている管路も、個々の管路の外形を構成する面を取得する。
+| 弁栓類、ガバナ等の設備の主要な構造を、直方体及び円柱の組合せにより簡略化し、外形を構成する面を取得する。
+| マンホール本体の外形を構成する面を取得する。設備の横断面形状の変化を表現する（<<tab-4-15-10>>）。
+| ハンドホール本体の外形を構成する面を取得する。設備の横断面形状の変化を表現する。
+
+h| LOD 4+^h| LOD2.2
+h| 取得例
+4+^.^|
+image::../../sources/images/unf_Acquire_lod22_out.png[width="150"]
+
+h|説明
+4+|弁栓類、ガバナ等の設備の外形を構成する面を取得する。 +
+LOD2.1では、直方体及び円柱の組合せにより簡略化して形状を表現していたが、LOD2.2では、簡略化せずに取得する。
+
+|===
+
+[[fn_manhole_circumference]]
+[NOTE]
+--
+マンホール本体の外周は、マンホールの規格により定まる「外径」と「マンホールの中心」をもとに推定してよい。「マンホールの中心」とは、原典資料から入手できるマンホール本体又はマンホールの蓋の中心を指す。
+--
+

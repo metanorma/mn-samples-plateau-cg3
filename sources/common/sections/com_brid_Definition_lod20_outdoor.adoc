@@ -1,0 +1,163 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD2.0
+|■
+|Bridge
+|lod2MultiSurface
+|GM_MultiSurface
+|道路橋、桟道橋、鉄道橋、横断歩道橋、ペデストリアンデッキ、徒橋、跨線橋
+|
+* 屋外床面（OuterFloorSurface）、屋根面（RoofSurface）及び外壁面（WallSurface）の集まりとして作成する。
+|
+* 道路橋、桟道橋及び鉄道橋は、床版及び主桁を対象とする。
+* 横断歩道橋、ペデストリアンデッキ、徒橋、跨線橋は、上部工（床版及び主桁）、階段、及び踊り場を対象とする。
+* 屋根がある場合は、LOD2.1のみとする。
+
+|LOD2.0
+|■
+|Bridge
+|lod2Solid
+|GM_Solid
+|道路橋、桟道橋、鉄道橋、横断歩道橋、ペデストリアンデッキ、徒橋、跨線橋
+|
+* 屋外床面（OuterFloorSurface）、屋根面（RoofSurface）及び外壁面（WallSurface）の立体として作成する。
+|
+* 道路橋、桟道橋及び鉄道橋は、床版及び主桁を対象とする。
+* 横断歩道橋、ペデストリアンデッキ、徒橋、跨線橋は、上部工（床版及び主桁）、階段、及び踊り場を対象とする。
+* 屋根がある場合は、LOD2.1のみとする。
+
+|LOD2.0
+|■
+|BridgePart
+|lod2MultiSurface
+|GM_MultiSurface
+|一つの橋梁を、主題属性の異なる複数の部分に分ける場合は必須とする。
+|
+* 屋外床面（OuterFloorSurface）及び屋根面（RoofSurface）の集まりとして作成する。
+|
+
+* 取得方法が異なる場合は、BridgePartを使用し、それぞれに主題属性として品質の情報を記録する。
+
+|LOD2.0
+|
+|RoofSurface
+|
+|
+|
+|
+|対象外
+
+|LOD2.0
+|
+|WallSurface
+|
+|
+|
+|
+|対象外
+
+|LOD2.0
+|
+|GroundSurface
+|
+|
+|
+|
+|対象外
+
+|LOD2.0
+|■
+|OuterFloorSurface
+|lod2MultiSurface
+|GM_MultiSurface
+|屋根が存在しない場合は必須とする。
+|【道路橋、桟道橋及び鉄道橋の場合】
+
+* 床版の上方からの正射影の外周を取得する。
+* 外周の各頂点に橋梁の床版の高さ（舗装の高さ）を与える。
+
+【横断歩道橋、ペデストリアンデッキ、徒橋、跨線橋の場合】
+
+* 上部工、階段及び踊り場の外周を取得し、外周の各頂点に構造物の高さを与える。
+|
+
+|LOD2.0
+|
+|OuterCeilingSurface
+|
+|
+|
+|
+|対象外
+
+|LOD2.0
+|
+|ClosureSurface
+|
+|
+|
+|
+|対象外
+
+|LOD2.0
+|
+|BridgeInstallation
+|
+|
+|
+|
+|対象外
+
+|LOD2.0
+|
+|DoorSurface
+|
+|
+|
+|
+|対象外
+
+|LOD2.0
+|
+|WindowSurface
+|
+|
+|
+|
+|対象外
+
+|LOD2.0
+|
+|Door
+|
+|
+|
+|
+|対象外
+
+|LOD2.0
+|
+|Window
+|
+|
+|
+|
+|対象外
+
+|LOD2.0
+|
+|BridgeConstructiveElement
+|
+|
+|
+|
+|対象外
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

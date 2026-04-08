@@ -1,0 +1,71 @@
+[[tocM_06]]
+=== tun:TunnelInstallation
+
+tun:TunnelInstallationは、トンネル本体の外側又は内側に設置され、トンネルの外観を特徴づける恒久的な設備を記述するために用いる。トンネルの付帯的な設備であり、主要な部分であってはならない。
+
+トンネルの付属物には以下を含む。ただし、全て外部に設置され、トンネルと接するもののみを対象とする。
+
+避難連絡坑、受変電設備、予備電源設備、排水設備、換気設備、排水設備、監視制御設備、通報装置、非常用警報装置、消火設備、避難誘導設備、その他。
+
+ただし、ユースケースの要求に応じて、取得対象とする付属物を限定してもよく、また、付属物として取得せずトンネルの一部として取得してもよい。
+
+
+[[tocM_06_01]]
+==== トンネル付属物の空間属性
+
+
+[[tocM_06_01_01]]
+===== トンネル付属物の屋内外の区分
+
+tun:TunnelInstallationは、トンネルの外側に設置される場合と、トンネルの内側に設置される場合とある。 +
+tun:TunnelInstallationの外部・内部の区分は、属性con:relationToConstructionにより行う。 +
+この属性は、上位の地物型であるcon:AbstractInstallationから継承する。
+
+属性con:relationToConstructionの値は、列挙型であるcon:RelationToConstructionにより定義される。
+
+* inside：この付属物は、トンネルの内部に存在する。
+* outside：この付属物は、トンネルの外部に存在する。
+* bothInsideAndOutside：この付属物は、トンネルの内部と外部の両方に存在する。
+
+
+[[tocM_06_01_02]]
+===== LOD0
+
+tun:TunnelInstallationは多曲面（core:lod0MultiSurface）として表現する。
+
+
+[[tocM_06_01_03]]
+===== LOD1
+
+tun:TunnelInstallationは立体（core:lod1Solid）として表現する。
+
+
+[[tocM_06_01_04]]
+===== LOD2
+
+tun:TunnelInstallationは多曲面（core:lod2MultiSurface）として表現する。
+
+
+[[tocM_06_01_05]]
+===== LOD3
+
+tun:TunnelInstallationは多曲面（core:lod3MultiSurface）として表現する。
+
+
+[requirement]
+.tun:TunnelInstallationの空間属性タイプ
+====
+[%metadata]
+identifier:: /req/tun/11
+subject:: 妥当なトンネルデータセットの要件
+description:: tun:TunnelInstallationのの型は、LODに応じた型を選択する。
+part:: LOD0：gml:MultiSurfaceを使用することを原則とする。
+part:: LOD1：gml:Solidとする。
+part:: LOD2：gml:MultiSurfaceを使用することを原則とする。
+part:: LOD3：gml:MultiSurfaceを使用することを原則とする。
+====
+
+ある程度の広がりをもつ地物は、曲面の集まり又は立体を使用する。CityGMLでは、曲面や立体だけではなく、点や曲線も使用可能である。しかしながら3D都市モデルでは、3次元での利用を想定し、付属物の形状に使用可能な幾何オブジェクトを曲面又は立体に限定する。
+
+LOD1の場合は、立体（gml:Solid）を使用しなければならない。 LOD0、LOD2及びLOD3は、原則として面の集まり（gml:MultiSurface）を使用する。ただし、ユースケースの必要に応じて、LOD0ではgml:MultiCurveを、LOD2及びLOD3ではgml:Solidを使用できる。
+

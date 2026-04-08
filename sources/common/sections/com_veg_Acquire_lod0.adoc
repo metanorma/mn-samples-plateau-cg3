@@ -1,0 +1,18 @@
+[cols="1a,3a,3a",options="noheader"]
+.植生モデル（LOD0）の取得イメージ
+|===
+h| LOD 2+^h| LOD0
+h| 取得例
+^.^|
+image::../../sources/images/veg_Acquire_lod00_01.png[width="150"]
+^.^|
+image::../../sources/images/veg_Acquire_lod00_02.png[width="150"]
+
+h| 説明
+| 樹冠の正射影の外周を取得する。
+高さは0とする。
+
+| 植被の正射影の外周を取得する。
+高さは0とする。
+
+|===

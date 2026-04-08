@@ -1,0 +1,726 @@
+[[toc4_02]]
+=== 建築物モデルの応用スキーマ
+
+建築物は、普通建物、堅ろう建物、普通無壁舎及び堅ろう無壁舎をいう。普通建物とは、3階未満の建物及び3階以上の木造等で建築された建物をいう。堅ろう建物とは、鉄筋コンクリート等で建築された建物で、地上3階以上又は3階相当以上の高さのものやスタンドを備えた競技場をいう。普通無壁舎とは、側壁のない建物、温室及び工場内の建物類似の構築物で、3階未満のものをいう。堅ろう無壁舎とは、鉄筋コンクリート等で建築された側壁のない建物及び建物類似の構築物で、地上3階以上又は3階相当以上の高さのものをいう。
+
+[.source]
+<<gsi_ops,作業規程の準則 付録７ 公共測量標準図式>>
+
+[[toc4_02_01]]
+==== 建築物モデルのLOD
+
+標準製品仕様書が対象とする建築物モデルのLODは、LOD0からLOD3までとする。このとき、LODには外部（屋外）と内部（屋内）がそれぞれ存在する。
+
+[[toc4_02_01_01]]
+===== 建築物モデル（LOD0）
+
+[[toc4_02_01_01_01]]
+====== 建築物モデル（LOD0）の概要
+
+建築物モデル（LOD0）では、建築物の形状を面又は線により表現する。
+
+建築物モデル・外部（LOD0）の取得イメージを<<tab-4-2-1>>に、建築物モデル・内部（LOD0）の取得イメージを<<tab-4-2-2>>に示す。
+
+//建築物モデル・外部（LOD0）の取得イメージ
+[[tab-4-2-1]]
+include::../../../common/sections/com_bldg_Acquire_lod0_outdoor.adoc[]
+
+//建築物モデル・内部（LOD0）の取得イメージ
+[[tab-4-2-2]]
+include::../../../common/sections/com_bldg_Acquire_lod0_indoor.adoc[]
+
+[[toc4_02_01_01_02]]
+====== 建築物モデル・外部（LOD0.0）の定義
+
+建築物モデル・外部（LOD0.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-3]]
+include::../../../common/sections/com_bldg_Definition_lod00_outdoor.adoc[]
+
+[[toc4_02_01_01_03]]
+====== 建築物モデル・内部（LOD0.0）の定義
+
+建築物モデル・内部（LOD0.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-4]]
+include::../../../common/sections/com_bldg_Definition_lod00_indoor.adoc[]
+
+[[toc4_02_01_01_04]]
+====== 建築物モデル・外部（LOD0.1）の定義
+
+建築物モデル・外部（LOD0.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-5]]
+include::../../../common/sections/com_bldg_Definition_lod01_outdoor.adoc[]
+
+[[toc4_02_01_01_05]]
+====== 建築物モデル・内部（LOD0.1）の定義
+
+建築物モデル・内部（LOD0.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-6]]
+include::../../../common/sections/com_bldg_Definition_lod01_indoor.adoc[]
+
+
+[[toc4_02_01_02]]
+===== 建築物モデル（LOD1）
+
+[[toc4_02_01_02_01]]
+====== 建築物モデル（LOD1）の概要
+
+建築物モデル（LOD1）では、建築物の形状を、面を一律の高さで上向きに押し出した立体により表現する。
+
+建築物モデル・外部（LOD1）の取得イメージを<<tab-4-2-7>>に、建築物モデル・内部（LOD1）の取得イメージを<<tab-4-2-8>>に示す。
+
+//建築物モデル・外部（LOD1）の取得イメージ
+[[tab-4-2-7]]
+include::../../../common/sections/com_bldg_Acquire_lod1_outdoor.adoc[]
+
+//建築物モデル・内部（LOD1）の取得イメージ
+[[tab-4-2-8]]
+include::../../../common/sections/com_bldg_Acquire_lod1_indoor.adoc[]
+
+
+
+[[toc4_02_01_02_02]]
+====== 建築物モデル・外部（LOD1.0）の定義
+
+建築物モデル・外部（LOD1.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-9]]
+include::../../../common/sections/com_bldg_Definition_lod10_outdoor.adoc[]
+
+[[toc4_02_01_02_03]]
+====== 建築物モデル・内部（LOD1.0）の定義
+
+建築物モデル・内部（LOD1.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-10]]
+include::../../../common/sections/com_bldg_Definition_lod10_indoor.adoc[]
+
+[[toc4_02_01_02_04]]
+====== 建築物モデル・外部（LOD1.1）の定義
+
+建築物モデル・外部（LOD1.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-11]]
+include::../../../common/sections/com_bldg_Definition_lod11_outdoor.adoc[]
+
+[[toc4_02_01_02_05]]
+====== 建築物モデル・内部（LOD1.1）の定義
+
+建築物モデル・内部（LOD1.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-12]]
+include::../../../common/sections/com_bldg_Definition_lod11_indoor.adoc[]
+
+
+[[toc4_02_01_03]]
+===== 建築物モデル（LOD2）
+
+[[toc4_02_01_03_01]]
+====== 建築物モデル（LOD2）の概要
+
+建築物モデル（LOD2）では、建築物の形状を、屋根形状を含む立体として表現し、立体の境界面を、屋根面、外壁面及び底面に区分するとともに、建築物の外側の付属物を区分する。 +
+また、属性granularityによって、軒の再現有無、開口部の再現有無及び付属物の再現有無を表現する。
+
+建築物モデル（LOD2）は、含むべき地物により、外部LOD2.0、外部LOD2.1、外部LOD2.2、外部LOD2.3及び内部LOD2.0、内部LOD2.1、内部LOD2.2に区分する（<<tab-4-2-13>>、<<tab-4-2-14>>）。 +
+外部LOD2.0、外部LOD2.1、外部LOD2.2及び外部LOD2.3は、航空写真等上空から取得したデータの利用を前提とした区分であり、屋根形状を含む建築物の上面を詳細化する。 +
+ただし、軒の再現又は開口部の再現を行う場合は、MMSによる点群や画像等、側面から取得したデータの利用が前提となり、外壁面や開口部を含む建築物の側面を詳細化する。 +
+標準製品仕様書は、原則として外部LOD2.0を採用する。ただし、ユースケースの必要に応じて外部LOD2.1、外部LOD2.2又は外部LOD2.3を採用できる。
+
+内部LOD2.0、内部LOD2.1、内部LOD2.2は、測量データの利用を前提とした区分である。 +
+標準製品仕様書は、原則として内部LOD2.0を採用する。ただし、ユースケースの必要に応じて内部LOD2.1又は内部LOD2.2を採用できる。
+
+//建築物モデル・外部におけるLOD2.0、LOD2.1、LOD2.2及びLOD2.3の区分
+[[tab-4-2-13]]
+include::../../../common/sections/com_bldg_Category_lod2_outdoor.adoc[]
+
+//建築物モデル・内部におけるLOD2.0、LOD2.1及びLOD2.2の区分
+[[tab-4-2-14]]
+include::../../../common/sections/com_bldg_Category_lod2_indoor.adoc[]
+
+
+建築物モデル（LOD2）に含むべき地物は、建築物の以下に示す部分をいう。
+
+[[fig-4-2-1]]
+.建築物モデル（LOD2）に含むべき地物
+image::../../sources/images/bldg_001.png[]
+
+建築物モデル・外部（LOD2）の取得イメージを<<tab-4-2-15>>に、建築物モデル・内部（LOD2）の取得イメージを<<tab-4-2-16>>に示す。
+
+//建築物モデル・外部（LOD2）の取得イメージ
+[[tab-4-2-15]]
+include::../../../common/sections/com_bldg_Acquire_lod2_outdoor.adoc[]
+
+//建築物モデル・内部（LOD2）の取得イメージ
+[[tab-4-2-16]]
+include::../../../common/sections/com_bldg_Acquire_lod2_indoor.adoc[]
+
+建築物モデル・外部（LOD2）にて軒の再現又は開口部の再現を行う場合は、建築物モデル・外部（LOD2）に含むべき地物に加え、開口部（窓及び扉）が追加される。また、建築物の側面が詳細化されるが、屋根の外周と外壁面との距離や外壁面の大きさにより、各LODにおいて表現される内容が異なる（<<fig-4-2-1>>）。
+
+
+[[toc4_02_01_03_02]]
+====== 建築物モデル・外部（LOD2.0）の定義
+
+建築物モデル・外部（LOD2.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-17]]
+include::../../../common/sections/com_bldg_Definition_lod20_outdoor.adoc[]
+
+[[toc4_02_01_03_03]]
+====== 建築物モデル・内部（LOD2.0）の定義
+
+建築物モデル・内部（LOD2.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-18]]
+include::../../../common/sections/com_bldg_Definition_lod20_indoor.adoc[]
+
+[[toc4_02_01_03_04]]
+====== 建築物モデル・外部（LOD2.1）の定義
+
+建築物モデル・外部（LOD2.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-19]]
+include::../../../common/sections/com_bldg_Definition_lod21_outdoor.adoc[]
+
+[[toc4_02_01_03_05]]
+====== 建築物モデル・内部（LOD2.1）の定義
+
+建築物モデル・内部（LOD2.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-20]]
+include::../../../common/sections/com_bldg_Definition_lod21_indoor.adoc[]
+
+[[toc4_02_01_03_06]]
+====== 建築物モデル・外部（LOD2.2）の定義
+
+建築物モデル・外部（LOD2.2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-21]]
+include::../../../common/sections/com_bldg_Definition_lod22_outdoor.adoc[]
+
+[[toc4_02_01_03_07]]
+====== 建築物モデル・内部（LOD2.2）の定義
+
+建築物モデル・内部（LOD2.2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-22]]
+include::../../../common/sections/com_bldg_Definition_lod22_indoor.adoc[]
+
+[[toc4_02_01_03_08]]
+====== 建築物モデル・外部（LOD2.3）の定義
+
+建築物モデル・外部（LOD2.3）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-23]]
+include::../../../common/sections/com_bldg_Definition_lod23_outdoor.adoc[]
+
+
+[[toc4_02_01_04]]
+===== 建築物モデル（LOD3）
+
+[[toc4_02_01_04_01]]
+====== 建築物モデル（LOD3）の概要
+
+建築物モデル（LOD3）は、含むべき地物により、外部LOD3.0、外部LOD3.1及び内部LOD3.0、内部LOD3.1、内部LOD3.2に分かれる（<<tab-4-2-24>>、<<tab-4-2-25>>）。
+
+外部LOD3.0及び外部LOD3.1は、BIMデータからの変換を前提とした区分である。 +
+標準製品仕様書は、原則として外部LOD3.0を採用する。ただし、ユースケースの必要に応じて外部LOD3.1を採用できる。
+
+内部LOD3.0、内部LOD3.1及び内部LOD3.2は、BIMデータからの変換を前提とした区分である。 +
+標準製品仕様書は、原則として内部LOD3.0を採用する。ただし、ユースケースの必要に応じて内部LOD3.1又は内部LOD3.2を採用できる。
+
+//建築物モデル・外部におけるLOD3.0及びLOD3.1の区分
+[[tab-4-2-24]]
+include::../../../common/sections/com_bldg_Category_lod3_outdoor.adoc[]
+
+//建築物モデル・内部におけるLOD3.0、LOD3.1及びLOD3.2の区分
+[[tab-4-2-25]]
+include::../../../common/sections/com_bldg_Category_lod3_indoor.adoc[]
+
+
+[[fig-4-2-2]]
+.建築物モデル（LOD3）に含むべき地物と取得基準
+image::../../sources/images/bldg_002.png[]
+
+建築物モデル・外部（LOD3）の取得イメージを<<tab-4-2-26>>に、建築物モデル・内部（LOD3）の取得イメージを、<<tab-4-2-27>>に示す。
+
+//建築物モデル・外部（LOD3）の取得イメージ
+[[tab-4-2-26]]
+include::../../../common/sections/com_bldg_Acquire_lod3_outdoor.adoc[]
+
+//建築物モデル・内部（LOD3）の取得イメージ
+[[tab-4-2-27]]
+include::../../../common/sections/com_bldg_Acquire_lod3_indoor.adoc[]
+
+
+[[toc4_02_01_04_02]]
+====== 建築物モデル・外部（LOD3.0）の定義
+
+建築物モデル・外部（LOD3.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-28]]
+include::../../../common/sections/com_bldg_Definition_lod30_outdoor.adoc[]
+
+[[toc4_02_01_04_03]]
+====== 建築物モデル・内部（LOD3.0）の定義
+
+建築物モデル・内部（LOD3.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-29]]
+include::../../../common/sections/com_bldg_Definition_lod30_indoor.adoc[]
+
+[[toc4_02_01_04_04]]
+====== 建築物モデル・外部（LOD3.1）の定義
+
+建築物モデル・外部（LOD3.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-30]]
+include::../../../common/sections/com_bldg_Definition_lod31_outdoor.adoc[]
+
+[[toc4_02_01_04_05]]
+====== 建築物モデル・内部（LOD3.1）の定義
+
+建築物モデル・内部（LOD3.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-31]]
+include::../../../common/sections/com_bldg_Definition_lod31_indoor.adoc[]
+
+[[toc4_02_01_04_06]]
+====== 建築物モデル・内部（LOD3.2）の定義
+
+建築物モデル・内部（LOD3.2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-2-32]]
+include::../../../common/sections/com_bldg_Definition_lod32_indoor.adoc[]
+
+
+[[toc4_02_01_05]]
+===== 各LODにおいて使用可能な地物型と空間属性
+
+建築物モデルの各LODにおいて使用可能な地物型と空間属性を<<tab-4-2-33>>に示す。
+
+//建築物モデルの記述に使用する地物型と空間属性
+[[tab-4-2-33]]
+include::../../../common/sections/com_bldg_SpatialAttribute.adoc[]
+
+
+<<<
+[[toc4_02_02]]
+==== 建築物の応用スキーマクラス図
+
+[[toc4_02_02_01]]
+===== Building（CityGML）
+
+[[fig-4-2-3]]
+image::../../sources/images/EAID_FFF8F094_4A8B_47aa_B223_D755D08C360E.png[]
+
+<<<
+[[toc4_02_02_02]]
+===== Urban Object（i-UR）
+
+[[toc4_02_02_02_01]]
+====== Buildingの拡張属性
+
+建築物モデルに付与する詳細な属性のためのデータ型を定義する。
+
+[[fig-4-2-4]]
+image::../../sources/images/EAID_172B1476_92A5_44fb_AAEE_769C38E117D7.png[]
+
+<<<
+[[toc4_02_02_02_02]]
+====== 屋内ナビゲーションのための拡張属性
+
+[[fig-4-2-5]]
+image::../../sources/images/EAID_607A3B34_6E8B_4387_97F6_2794E8F47A51.png[]
+
+<<<
+[[toc4_02_03]]
+==== 建築物の応用スキーマ文書
+
+[[toc4_02_03_01]]
+===== Building（CityGML）
+
+[[toc4_02_03_01_01]]
+====== Building
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="Building",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_01_02]]
+====== BuildingPart
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingPart",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_01_03]]
+====== BuildingRoom
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingRoom",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_01_04]]
+====== BuildingInstallation
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingInstallation",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_01_05]]
+====== BuildingFurniture
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingFurniture",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_01_06]]
+====== BuildingConstructiveElement
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingConstructiveElement",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_01_07]]
+====== BuildingUnit
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingUnit",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_01_08]]
+====== Storey
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="Storey",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_01_09]]
+====== RoomHeight
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="RoomHeight",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+// ※Constructionのクラスは省略する？
+
+====== RoofSurface
+
+<<toc4_13_03_01_02,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== WallSurface
+
+<<toc4_13_03_01_03,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== GroundSurface
+
+<<toc4_13_03_01_04,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== OuterCeilingSurface
+
+<<toc4_13_03_01_05,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== OuterFloorSurface
+
+<<toc4_13_03_01_06,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== InteriorWallSurface
+
+<<toc4_13_03_01_07,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== CeilingSurface
+
+<<toc4_13_03_01_08,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== FloorSurface
+
+<<toc4_13_03_01_09,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== Window
+
+<<toc4_13_03_01_10,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== WindowSurface
+
+<<toc4_13_03_01_11,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== Door
+
+<<toc4_13_03_01_12,Constructionモデルの応用スキーマ文書>>　参照。
+
+====== DoorSurface
+
+<<toc4_13_03_01_13,Constructionモデルの応用スキーマ文書>>　参照。
+
+
+[[toc4_02_03_02]]
+===== Urban Object（i-UR）
+
+CityGMLを拡張し、Buildingに詳細な属性を付与するのためのデータ型を定義する。
+
+[[toc4_02_03_02_01]]
+====== BuildingIDAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="BuildingIDAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_02_02]]
+====== BuildingDetailAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="BuildingDetailAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_02_03]]
+====== LargeCustomerFacilityAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="LargeCustomerFacilityAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_02_04]]
+====== RealEstateIDAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="RealEstateIDAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_03]]
+===== 建築物モデル（室内）の拡張属性
+
+本項では、屋内ナビゲーションのためのデータ型の定義を示す。なお、「3次元屋内地理空間情報データ仕様書（案）」（<<gsi_dps>>）に定義されたプロパティセットに対応する。
+
+[[toc4_02_03_03_01]]
+====== IndoorFacilityAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorFacilityAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_03_02]]
+====== IndoorFurnishingAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorFurnishingAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_03_03]]
+====== IndoorPublicTagAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorPublicTagAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_03_04]]
+====== IndoorSpaceAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorSpaceAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_03_05]]
+====== IndoorStoreyAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorStoreyAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_03_06]]
+====== IndoorTactileTileAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorTactileTileAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_03_07]]
+====== IndoorZoneAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorZoneAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_02_03_04]]
+===== 施設管理のための拡張属性
+
+// 引用リンク スキーマ文書　施設管理のための拡張属性
+include::../../../common/sections/link_schema_Facility.adoc[]
+
+[[toc4_02_03_05]]
+===== 災害リスク属性
+
+// 引用リンク スキーマ文書　災害リスク属性
+include::../../../common/sections/link_schema_Risk.adoc[]
+
+
+[[toc4_02_03_06]]
+===== データ品質属性
+
+// 引用リンク スキーマ文書　データ品質属性
+include::../../../common/sections/link_schema_DateQuality.adoc[]
+
+[[toc4_02_03_07]]
+===== 数値地形図のための拡張属性
+
+// 引用リンク スキーマ文書　数値地形図のための拡張属性
+include::../../../common/sections/link_schema_Dm.adoc[]
+
+
+
+[[toc4_02_04]]
+==== 建築物で使用するコードリストと列挙型
+
+[[toc4_02_04_01]]
+===== Building（CityGML）
+
+[[Building_class.xml]]
+====== Building_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Building_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_map_level_dps>>
+
+[[Building_usage.xml]]
+====== Building_usage.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Building_usage.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_foundation_reqs>>
+
+[[Building_roofType.xml]]
+====== Building_roofType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Building_roofType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<citygml_20,annex="C.1">>
+
+[.source]
+<<iso_6707-1>>.
+
+[[BuildingSubdivision_class.xml]]
+====== BuildingSubdivision_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/BuildingSubdivision_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[[BuildingSubdivision_function.xml]]
+====== BuildingSubdivision_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/BuildingSubdivision_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[BuildingSubdivision_usage.xml]]
+====== BuildingSubdivision_usage.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/BuildingSubdivision_usage.xml[template="gml_dict_template.liquid",context=dict]
+
+[[BuildingConstructiveElement_function.xml]]
+====== BuildingConstructiveElement_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/BuildingConstructiveElement_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[BuildingInstallation_class.xml]]
+====== BuildingInstallation_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/BuildingInstallation_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<citygml_20,annex="C.1">>
+
+[[BuildingInstallation_function.xml]]
+====== BuildingInstallation_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/BuildingInstallation_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<citygml_20,annex="C.1">>
+
+[.source]
+<<iso_6707-1>>
+
+
+[[Room_class.xml]]
+====== Room_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Room_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<uniclass>>
+
+[[Room_function.xml]]
+====== Room_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Room_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<uniclass>>
+
+[[BuildingFurniture_class.xml]]
+====== BuildingFurniture_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/BuildingFurniture_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<uniclass>>
+
+[[BuildingFurniture_function.xml]]
+====== BuildingFurniture_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/BuildingFurniture_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<uniclass>>
+
+[[RoomElevationReference.xml]]
+====== RoomElevationReference.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/RoomElevationReference.xml[template="gml_dict_template.liquid",context=dict]
+
+[[toc4_02_04_02]]
+===== Urban Object（i-UR）
+
+[[BuildingDetailAttribute_detailedUsage.xml]]
+====== BuildingDetailAttribute_detailedUsage.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/BuildingDetailAttribute_detailedUsage.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_foundation_reqs>>
+
+[[BuildingDetailAttribute_buildingStructureType.xml]]
+====== BuildingDetailAttribute_buildingStructureType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/BuildingDetailAttribute_buildingStructureType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_foundation_reqs>>
+
+[[BuildingDetailAttribute_fireproofStructureType.xml]]
+====== BuildingDetailAttribute_fireproofStructureType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/BuildingDetailAttribute_fireproofStructureType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_foundation_reqs>>
+
+[[BuildingDetailAttribute_vacancy.xml]]
+====== BuildingDetailAttribute_vacancy.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/BuildingDetailAttribute_vacancy.xml[template="gml_dict_template.liquid",context=dict]
+
+
+[[LargeCustomerFacilityAttribute_class.xml]]
+====== LargeCustomerFacilityAttribute_class.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/LargeCustomerFacilityAttribute_class.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_foundation_reqs>>
+
+[[Common_indoorSource.xml]]
+====== Common_indoorSource.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_indoorSource.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_dps>>
+
+[[IndoorTactileTileAttribute_category.xml]]
+====== IndoorTactileTileAttribute_category.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/IndoorTactileTileAttribute_category.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_dps>>
+
+[[IndoorTactileTileAttribute_roof.xml]]
+====== IndoorTactileTileAttribute_roof.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/IndoorTactileTileAttribute_roof.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_dps>>
+
+[[IndoorSpaceAttribute_tollType.xml]]
+====== IndoorSpaceAttribute_tollType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/IndoorSpaceAttribute_tollType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<gsi_dps>>
+
+[[toc4_02_04_03]]
+===== Urban Core（i-UR）
+
+[[Building_lodType.xml]]
+====== Building_lodType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Building_lodType.xml[template="gml_dict_template.liquid",context=dict]
+
+// 引用リンク codelist　DataQualityAttribute
+include::../../../common/sections/link_codelist_DateQuality.adoc[]
+

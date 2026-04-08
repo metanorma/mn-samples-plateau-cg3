@@ -1,0 +1,18 @@
+[cols="1a,3a,3a,3a",options="noheader"]
+.地形モデル（LOD1）の取得イメージ
+|===
+h| LOD 3+^h| LOD1
+h| 取得例
+^.^|
+image::../../sources/images/dem_Acquire_lod10_01.png[width="150"]
+^.^|
+image::../../sources/images/dem_Acquire_lod10_02.png[width="150"]
+^.^|
+image::../../sources/images/dem_Acquire_lod10_03.png[width="150"]
+
+h| 説明
+| 地形を、標高をもつ点の集まりとして表現する。
+| 地形を、標高をもつ任意の三点で構成される三角形の集合として表現する。
+| 地形を、標高を属性としてもつ正方格子として表現する。
+
+|===

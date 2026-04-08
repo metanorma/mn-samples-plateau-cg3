@@ -1,0 +1,120 @@
+[[toc4_28]]
+=== ダイナマイザモデルの応用スキーマ
+
+Dynamizerモジュールは、都市オブジェクトが持つ属性値の時系列変化を表現する方法を規定している。
+
+[[toc4_28_01]]
+==== ダイナマイザモデルのLOD
+
+ダイナマイザは自身の空間属性をもたないため、LODは定義しない。
+
+[[toc4_28_02]]
+==== ダイナマイザモデルの応用スキーマクラス図
+
+Dynamizerは、センサー等から取得される時系列データを入力として、都市オブジェクトがもつ特定の属性の静的な値を、動的（時間依存）な値で上書きするための地物型である。
+
+[[toc4_28_02_01]]
+===== Dynamizer（CityGML）
+
+[[fig-4-28-1]]
+image::../../sources/images/EAID_74DB2087_E1FC_42a7_A349_2D89BED649A5.png[]
+
+
+[[toc4_28_03]]
+==== ダイナマイザモデルの応用スキーマ文書
+
+[[toc4_28_03_01]]
+===== Dynamizer（CityGML）
+
+[[toc4_28_03_01_01]]
+====== Dynamizer
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="Dynamizer",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_28_03_01_02]]
+====== CompositeTimeseries
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="CompositeTimeseries",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_28_03_01_03]]
+====== GenericTimeseries
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="GenericTimeseries",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_28_03_01_04]]
+====== StandardFileTimeseries
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="StandardFileTimeseries",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_28_03_01_05]]
+====== TabulatedFileTimeseries
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TabulatedFileTimeseries",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_28_03_01_06]]
+====== SensorConnection
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="SensorConnection",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_28_03_01_07]]
+====== TimeseriesComponent
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TimeseriesComponent",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_28_03_01_08]]
+====== TimeValuePair
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TimeValuePair",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+
+
+[[toc4_28_04]]
+==== ダイナマイザモデルで使用するコードリストと列挙型
+
+[[toc4_28_04_01]]
+===== Dynamizer（CityGML）
+
+[[Timeseries_mimeType.xml]]
+====== Timeseries_mimeType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Timeseries_mimeType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[StandardFileTimeseries_fileType.xml]]
+====== StandardFileTimeseries_fileType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/StandardFileTimeseries_fileType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[TabulatedFileTimeseries_fileType.xml]]
+====== TabulatedFileTimeseries_fileType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TabulatedFileTimeseries_fileType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[SensorConnection_connectionType.xml]]
+====== SensorConnection_connectionType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/SensorConnection_connectionType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[SensorConnection_authType.xml]]
+====== SensorConnection_authType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/SensorConnection_authType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[TimeseriesTypeValue]]
+====== TimeseriesTypeValue
+
+[cols="a,a"]
+|===
+| 列挙型 | TimeseriesTypeValue
+
+h| 値 h| 説明
+| int |GenericTimeseriesの値の型が整数型である。
+| double | GenericTimeseriesの値の型が実数型である。
+| string | GenericTimeseriesの値の型が文字列型である。
+| geometry | GenericTimeseriesの値が幾何オブジェクトである。
+| uri | GenericTimeseriesの値の型が識別子型である。
+| bool | GenericTimeseriesの値の型が真偽値型である。
+| implicitGeometry | GenericTimeseriesの値の型がImplicitGeometry型である。
+| appearance | GenericTimeseriesの値の型がAppearance型である。
+
+|===
+

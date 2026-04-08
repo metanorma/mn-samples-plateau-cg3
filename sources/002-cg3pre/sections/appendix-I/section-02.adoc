@@ -1,0 +1,38 @@
+[[tocI_02]]
+=== 土地利用の記述とLOD
+
+
+[[tocI_02_01]]
+==== 使用可能な地物型とLOD
+
+土地利用とは、都市計画基礎調査の土地利用現況をいう。 +
+土地利用の記述には、CityGMLのLandUseモジュールに定義された、luse:LandUseを使用する。luse:LandUseは、詳細度（LOD）ごとに、使用すべき地物型やその空間属性が異なる。
+
+標準製品仕様書では、土地利用モデルのLODは、LOD1のみを対象とする。このとき、LODには外部・内部の区別はない。
+
+
+[requirement]
+.土地利用モデル記述のLOD対応条件
+====
+[%metadata]
+identifier:: /req/luse/1
+subject:: 妥当な土地利用データセットの要件
+description:: 土地利用モデルの記述には、指定されたLODに対応する地物型及び空間属性を使用する。
+====
+
+土地利用モデルの各LODにおいて使用可能な地物型と空間属性を、<<tab-I-1>>に示す。
+
+// 土地利用モデルの記述に使用する地物型と空間属性
+[[tab-I-1]]
+include::../../../common/sections/com_luse_SpatialAttribute.adoc[]
+
+
+[[tocI_02_02]]
+==== 土地利用モデルのLOD
+
+土地利用モデル（LOD1）では、土地の形状を、高さをもたない面として表現する。
+
+// 土地利用モデル（LOD1）の取得イメージ
+[[tab-I-2]]
+include::../../../common/sections/com_luse_Acquire_lod1.adoc[]
+

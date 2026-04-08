@@ -1,0 +1,285 @@
+[[toc4_09]]
+=== 災害リスクモデルの応用スキーマ
+
+災害リスクとは、標準製品仕様書では、以下の7種類を指す。
+
+* 洪水浸水想定区域図データ電子化ガイドラインが対象とする「洪水浸水想定区域」
+* <<mlit_int_flood_guidelines,内水浸水想定区域図作成マニュアル（案）>>に定める「内水浸水想定区域」
+* 水防法第14条の3第1項に定める「高潮浸水想定区域」
+* 津波防災地域づくりに関する法律第8条第1項に定める「津波浸水想定」
+* <<maff_reservoir_hazard_maps,ため池ハザードマップ作成の手引き（案）>>に定める「ため池ハザードマップ」
+* 土砂災害警戒区域等における土砂災害防止対策の推進に関する法律第7条第1項に定める「土砂災害警戒区域」
+* 土砂災害警戒区域等における土砂災害防止対策の推進に関する法律第9条第1項に定める「土砂災害特別警戒区域」
+
+「洪水浸水想定区域」は、水防法第14条第1項に定める洪水浸水想定区域のほか、これに類する河川が氾濫した場合に浸水が想定される区域を含む。
+
+また、「内水浸水想定区域」は、水防法に基づく想定最大規模降雨に対する内水による浸水が想定される区域（水防法第14条の2第1項に定める「雨水出水浸水想定区域」）、地域の既往最大降雨や他地域での大規模な降雨など一定の被害が想定される降雨に対する内水による浸水が想定される区域及び計画降雨等に対する内水による浸水が想定される区域を含む。
+
+標準製品仕様書では、洪水浸水想定区域、内水浸水想定区域、高潮浸水想定区域及び津波浸水想定を「災害リスク（浸水）モデル」、土砂災害警戒区域及び土砂災害特別警戒区域を「災害リスク（土砂災害）モデル」と区分する。
+
+[[toc4_09_01]]
+==== 災害リスクモデルのLOD
+
+標準製品仕様書が対象とする災害リスク（浸水）モデル及び災害リスク（土砂災害）モデルのLODは、LOD1とする。
+
+[[toc4_09_01_01]]
+===== 災害リスク（浸水）モデル（LOD1）
+
+[[toc4_09_01_01_01]]
+====== 災害リスク（浸水）モデル（LOD1）の概要
+
+災害リスク（浸水）モデル（LOD1）では、浸水面を表現する。
+
+災害リスク（浸水）モデル（LOD1）の取得イメージを<<tab-4-9-1>>に示す。
+
+//災害リスク（浸水）モデル（LOD1）の取得イメージ
+[[tab-4-9-1]]
+include::../../../common/sections/com_risk_Acquire_lod1_flooding.adoc[]
+
+[[toc4_09_01_01_02]]
+====== 災害リスク（浸水）モデル（LOD1）の定義
+
+災害リスク（浸水）モデル（LOD1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+include::../../../common/sections/com_risk_Definition_lod10_flooding.adoc[]
+
+
+[[toc4_09_01_02]]
+===== 災害リスク（土砂災害）モデル（LOD1）
+
+[[toc4_09_01_02_01]]
+====== 災害リスク（土砂災害）モデル（LOD1）の概要
+
+災害リスク（土砂災害）モデル（LOD1）では、区域を表現する。
+
+災害リスク（土砂災害）モデル（LOD1）の取得イメージを<<tab-4-9-2>>に示す。
+
+//災害リスク（土砂災害）モデル（LOD1）の取得イメージ
+[[tab-4-9-2]]
+include::../../../common/sections/com_risk_Acquire_lod1_landslide.adoc[]
+
+[[toc4_09_01_02_02]]
+====== 災害リスク（土砂災害）モデル（LOD1）の定義
+
+災害リスク（土砂災害）モデル（LOD1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+include::../../../common/sections/com_risk_Definition_lod10_landslide.adoc[]
+
+[[toc4_09_01_03]]
+===== 各LODにおいて使用可能な地物型と空間属性
+
+災害リスクモデルの各LODにおいて使用可能な地物型と空間属性を<<tab-4-9-3>>に示す。
+
+//災害リスクモデルの記述に使用する地物型と空間属性
+[[tab-4-9-3]]
+include::../../../common/sections/com_risk_SpatialAttribute.adoc[]
+
+
+[[toc4_09_02]]
+==== 災害リスクモデルの応用スキーマクラス図
+
+[[toc4_09_02_01]]
+===== WaterBody（CityGML）
+
+災害リスク（浸水）モデル（LOD1）で表現する浸水面の記述には、CityGMLのWaterBodyを使用する。
+
+[[fig-4-9-1]]
+image::../../sources/images/EAID_69A26A1E_1FD3_4f32_A18D_3E79F3674D96.png[]
+
+[[toc4_09_02_02]]
+===== Urban Core （i-UR）
+
+[[toc4_09_02_02_01]]
+====== 災害リスク属性
+
+[[fig-4-9-2]]
+image::../../sources/images/EAID_15A06B43_62C1_4916_B43D_4747C39545D9.png[]
+
+[[toc4_09_02_03]]
+===== Urban Function（i-UR）
+
+災害リスク（土砂災害）モデルは、:SedimentDisasterProneAreaを使用して記述する。
+
+[[fig-4-9-3]]
+image::../../sources/images/EAID_EAB02F94_75F9_417e_954E_16831D25E78F.png[]
+
+
+[[toc4_09_03]]
+==== 災害リスクモデルの応用スキーマ文書
+
+[[toc4_09_03_01]]
+===== WaterBody（CityGML）
+
+[[toc4_09_03_01_01]]
+====== WaterBody
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="WaterBody",name="WaterBody",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_09_03_02]]
+===== 災害リスク属性
+
+[[toc4_09_03_02_01]]
+====== RiverFloodingRiskAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="RiverFloodingRiskAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_09_03_02_02]]
+====== TsunamiRiskAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="TsunamiRiskAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_09_03_02_03]]
+====== HighTideRiskAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="HighTideRiskAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_09_03_02_04]]
+====== InlandFloodingRiskAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="InlandFloodingRiskAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_09_03_02_05]]
+====== ReservoirFloodingRiskAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="ReservoirFloodingRiskAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_09_03_02_06]]
+====== LandSlideRiskAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="LandSlideRiskAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_09_03_02_99]]
+===== データ品質属性
+
+// 引用リンク スキーマ文書　データ品質属性
+include::../../../common/sections/link_schema_DateQuality.adoc[]
+
+[[toc4_09_03_03]]
+===== Urban Function（i-UR）
+
+[[toc4_09_03_03_01]]
+====== SedimentDisasterProneArea
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SedimentDisasterProneArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+
+
+[[toc4_09_04]]
+==== 災害リスクモデルで使用するコードリストと列挙型
+
+[[toc4_09_04_01]]
+===== WaterBody（CityGML）
+
+====== WaterBody_class.xml
+
+<<WaterBody_class.xml,水部モデルのコードリスト>>　参照。
+
+[[WaterBody_function.xml]]
+====== WaterBody_function.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/WaterBody_function.xml[template="gml_dict_template.liquid",context=dict]
+
+[[toc4_09_04_02]]
+===== Urban Core （i-UR）
+
+[[RiverFloodingRiskAttribute_adminType.xml]]
+====== RiverFloodingRiskAttribute_adminType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/RiverFloodingRiskAttribute_adminType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_deluge_guidelines>>
+
+[[RiverFloodingRiskAttribute_scale.xml]]
+====== RiverFloodingRiskAttribute_scale.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/RiverFloodingRiskAttribute_scale.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_deluge_guidelines>>
+
+[[RiverFloodingRiskAttribute_rank.xml]]
+====== RiverFloodingRiskAttribute_rank.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/RiverFloodingRiskAttribute_rank.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_deluge_guidelines>>
+
+[[TsunamiRiskAttribute_rank.xml]]
+====== TsunamiRiskAttribute_rank.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TsunamiRiskAttribute_rank.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_tsunami_guidelines>>
+
+[[HighTideRiskAttribute_rank.xml]]
+====== HighTideRiskAttribute_rank.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/HighTideRiskAttribute_rank.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_tide_guidelines>>
+
+[[InlandFloodingRiskAttribute_rank.xml]]
+====== InlandFloodingRiskAttribute_rank.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/InlandFloodingRiskAttribute_rank.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_int_flood_guidelines>>
+
+[[ReservoirFloodingRiskAttribute_rank.xml]]
+====== ReservoirFloodingRiskAttribute_rank.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ReservoirFloodingRiskAttribute_rank.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<maff_reservoir_hazard_maps>>
+
+====== DataQualityAttribute_geometrySrcDesc.xml
+
+<<DataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_thematicSrcDesc.xml
+
+<<DataQualityAttribute_thematicSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_appearanceSrcDesc.xml
+
+<<DataQualityAttribute_appearanceSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_srcScale.xml
+
+<<PublicSurveyDataQualityAttribute_srcScale.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
+
+<<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+[[toc4_09_04_03]]
+===== Urban Function（i-UR）
+
+[[LandSlideRiskAttribute_description.xml]]
+====== LandSlideRiskAttribute_description.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/LandSlideRiskAttribute_description.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_ks_ps_a33>>
+
+[[LandSlideRiskAttribute_areaType.xml]]
+====== LandSlideRiskAttribute_areaType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/LandSlideRiskAttribute_areaType.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<mlit_ks_ps_a33>>
+
+[[LandSlideRiskAttribute_status.xml]]
+====== LandSlideRiskAttribute_status.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/LandSlideRiskAttribute_status.xml[template="gml_dict_template.liquid",context=dict]
+
+

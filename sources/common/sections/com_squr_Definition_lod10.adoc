@@ -1,0 +1,230 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD1
+|●
+|Square
+|-
+|-
+|-
+|-
+|空間属性を持たせない。
+
+|LOD1
+|●
+|TrafficSpace
+|-
+|-
+|-
+|-
+|空間属性を持たせなくてもよい。
+
+|LOD1
+|〇
+|TrafficSpace
+|lod1Solid
+|GM_Solid
+|
+|【granularityがlaneの場合の取得方法】
+
+* TrafficAreaを底面とし、底面から一律の高さで上向きに押し出した立体を作成する。
+* 底面の高さは0とする。
+
+【granularityがwayの場合の取得方法】
+
+* TrafficAreaを底面とし、底面から一律の高さで上向きに押し出した立体を作成する。
+* 底面の高さは0とする。
+|
+
+|LOD1
+|■
+|AuxiliaryTrafficSpace
+|-
+|-
+|granularityがlaneの場合又は島を区分する場合は必須とする。
+|-
+|空間属性を持たせなくてもよい。
+
+|LOD1
+|〇
+|AuxiliaryTrafficSpace
+|lod1Solid
+|GM_Solid
+|
+|【granularityがlaneの場合の取得方法】
+
+* AuxiliaryTrafficAreaを底面とし、底面から一律の高さで上向きに押し出した立体を作成する。
+* 底面の高さは0とする。
+
+【granularityがwayの場合の取得方法】
+
+* AuxiliaryTrafficAreaを底面とし、底面から一律の高さで上向きに押し出した立体を作成する。
+* 底面の高さは0とする。
+|一律の高さは、建築限界の高さを原則とする。
+
+|LOD1
+|〇
+|ClearanceSpace
+|lod1Solid
+|GM_Solid
+|
+|【granularityがlaneの場合の取得方法】
+
+* 建築限界の上面を底面とし、底面から一律の高さで上向きに押し出した立体を作成する。
+
+【granularityがwayの場合の取得方法】
+
+* 建築限界の上面を底面とし、底面から一律の高さで上向きに押し出した立体を作成する。
+|一律の高さは、無人航空機が飛行可能な高さを原則とする。
+
+|LOD1
+|■
+|AuxiliaryTrafficArea
+|lod1MultiSurface
+|GM_MultiSurface
+|島
+|【granularityがlaneの場合の取得方法】
+
+* 島の外周を取得する。
+* 高さは0とする。
+
+【granularityがwayかつ道路全幅として表現する場合の取得方法】
+
+* 取得しない。
+
+【granularityがwayかつ歩道と車道を区分し表現する場合の取得方法】
+
+* 島の外周を取得する。
+* 高さは0とする。
+|島を区分する場合は必須とする。
+
+|LOD1
+|〇
+|Marking
+|lod1MultiSurface
+|GM_MultiSurface
+|
+|
+* 交通の規制等が設定されている概念的な範囲を面として取得する。
+* 高さは0とする。
+|
+
+|LOD1
+|〇
+|Hole
+|lod1Solid
+|GM_Solid
+|マンホール、排水溝
+|
+* 穴の上方からの正射影の外周を取得し、地上から一律の高さで下向きに押し出した立体を作成する。
+|都市設備モデル又は地下埋設物モデルにて同一マンホール及び排水溝を作成している場合は、空間属性を参照することができる。
+
+|LOD1
+|〇
+|HoleSurface
+|lod1MultiSurface
+|GM_MultiSurface
+|マンホール、排水溝
+|
+* 穴の上方からの正射影の外周を取得する。
+|
+
+|LOD1
+|●
+|TrafficArea
+|lod1MultiSurface
+|GM_MultiSurface
+|車道部
+|【granularityがlaneの場合の取得方法】
+
+* 車線の境界をつないだ面を作成し、車道交差部を除く面を取得する。
+* 高さは0とする。
+
+【granularityがwayかつ道路全幅として表現する場合の取得方法】
+
+* 道路全幅の境界をつないだ面を作成し、車道交差部を除く面を取得する。
+* 高さは0とする。
+
+【granularityがwayかつ歩道と車道を区分し表現する場合の取得方法】
+
+* 車道の境界をつないだ面を作成し、車道交差部を除く面を取得する。
+* 高さは0とする。
+|面の粒度を詳細に区分するために属性fuctionを使用する。
+
+|LOD1
+|●
+|TrafficArea
+|lod1MultiSurface
+|GM_MultiSurface
+|車道交差部（隅切りがある場合）
+|【granularityがlaneの場合の取得方法】
+
+* 隅切りに囲まれた車道部を取得する。
+* 高さは0とする。
+
+【granularityがwayかつ道路全幅として表現する場合の取得方法】
+
+* 隅切りに囲まれた道路全幅部を取得する。
+* 高さは0とする。
+
+【granularityがwayかつ歩道と車道を区分し表現する場合の取得方法】
+
+* 隅切りに囲まれた車道部を取得する。
+* 高さは0とする。
+|隅切りとは、道路構造令第27条第2項に示された、道路が同一平面で交差又は接続する場合に、隅角部を切り取り、適当な見とおしができる構造としたものをいう。
+また、建築基準法施行規則第144条の4第1項第2号に示される隅切りを含む。
+
+image::../../sources/images/tran_001.png[]
+
+面の粒度を詳細に区分するために属性fuctionを使用する。
+
+|LOD1
+|●
+|TrafficArea
+|lod1MultiSurface
+|GM_MultiSurface
+|車道交差部（隅切りが無い場合）
+|【granularityがlaneの場合の取得方法】
+
+* 交差する道路の道路縁が接する点を結ぶ線に囲まれた車道部を取得する。
+* 高さは0とする。
+
+【granularityがwayかつ道路全幅として表現する場合の取得方法】
+
+* 交差する道路の道路縁が接する点を結ぶ線に囲まれた道路全幅部を取得する。
+* 高さは0とする。
+
+【granularityがwayかつ歩道と車道を区分し表現する場合の取得方法】
+
+* 交差する道路の道路縁が接する点を結ぶ線に囲まれた車道部を取得する。
+* 高さは0とする。
+|
+
+|LOD1
+|●
+|TrafficArea
+|lod1MultiSurface
+|GM_MultiSurface
+|歩道部
+|【granularityがlaneの場合の取得方法】
+
+* 歩道の境界をつないだ面を取得する。
+* 高さは0とする。
+
+【granularityがwayかつ道路全幅として表現する場合の取得方法】
+
+* 取得しない。
+
+【granularityがwayかつ歩道と車道を区分し表現する場合の取得方法】
+
+* 歩道の境界をつないだ面を取得する。
+* 高さは0とする。
+|
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

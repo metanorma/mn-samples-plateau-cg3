@@ -1,0 +1,11 @@
+[[toc6]]
+== 成果品とりまとめ
+
+include::../sections/section-06/section-01.adoc[]
+
+include::../sections/section-06/section-02.adoc[]
+
+include::../sections/section-06/section-03.adoc[]
+
+include::../sections/section-06/section-04.adoc[]
+

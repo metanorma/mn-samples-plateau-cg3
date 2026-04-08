@@ -1,0 +1,398 @@
+[[toc4_15]]
+=== 地下埋設物モデルの応用スキーマ
+
+地下埋設物とは、ユーティリティネットワークなどのサービスの一部として、または地表の構造物を支えるために、地表下に埋め込まれた構築物又は構造物をいう。
+
+[.source]
+<<ogc_23-024>>
+
+[[toc4_15_01]]
+==== 地下埋設物モデルのLOD
+
+標準製品仕様書が対象とする地下埋設物モデルのLODは、LOD0からLOD3までとする。このとき、LODには外部と内部がそれぞれ存在する。
+
+[[toc4_15_01_01]]
+===== 地下埋設物モデル（LOD0）
+
+[[toc4_15_01_01_01]]
+====== 地下埋設物モデル（LOD0）の概要
+
+地下埋設物モデル（LOD0）では、地下埋設物の形状を、点、線及び面により表現する。
+
+地下埋設物モデル・外部（LOD0）の取得イメージを<<tab-4-15-1>>に、地下埋設物モデル・内部（LOD0）の取得イメージを<<tab-4-15-2>>に示す。
+
+//地下埋設物モデル・外部（LOD0）の取得イメージ
+[[tab-4-15-1]]
+include::../../../common/sections/com_unf_Acquire_lod0_outdoor.adoc[]
+
+//地下埋設物モデル・内部（LOD0）の取得イメージ
+[[tab-4-15-2]]
+include::../../../common/sections/com_unf_Acquire_lod0_indoor.adoc[]
+
+[[toc4_15_01_01_02]]
+====== 地下埋設物モデル・外部（LOD0）の定義
+
+地下埋設物モデル・外部（LOD0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-15-3]]
+include::../../../common/sections/com_unf_Definition_lod00_outdoor.adoc[]
+
+[[toc4_15_01_01_03]]
+====== 地下埋設物モデル・内部（LOD0）の定義
+
+地下埋設物モデル・内部（LOD0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-15-4]]
+include::../../../common/sections/com_unf_Definition_lod00_indoor.adoc[]
+
+[[toc4_15_01_02]]
+===== 地下埋設物モデル（LOD1）
+
+[[toc4_15_01_02_01]]
+====== 地下埋設物モデル（LOD1）の概要
+
+地下埋設物モデル（LOD1）では、地下埋設物の形状を、立体により表現する。
+
+地下埋設物モデル・外部（LOD1）の取得イメージを<<tab-4-15-5>>に、地下埋設物モデル・内部（LOD1）の取得イメージを<<tab-4-15-6>>に示す。
+
+//地下埋設物モデル・外部（LOD1）の取得イメージ
+[[tab-4-15-5]]
+include::../../../common/sections/com_unf_Acquire_lod1_outdoor.adoc[]
+
+//地下埋設物モデル・内部（LOD1）の取得イメージ
+[[tab-4-15-6]]
+include::../../../common/sections/com_unf_Acquire_lod1_indoor.adoc[]
+
+[[toc4_15_01_02_02]]
+====== 地下埋設物モデル・外部（LOD1）の定義
+
+地下埋設物モデル・外部（LOD1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-15-7]]
+include::../../../common/sections/com_unf_Definition_lod10_outdoor.adoc[]
+
+[[toc4_15_01_02_03]]
+====== 地下埋設物モデル・内部（LOD1）の定義
+
+地下埋設物モデル・内部（LOD1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-15-8]]
+include::../../../common/sections/com_unf_Definition_lod10_indoor.adoc[]
+
+
+[[toc4_15_01_03]]
+===== 地下埋設物モデル（LOD2）
+
+[[toc4_15_01_03_01]]
+====== 地下埋設物モデル（LOD2）の概要
+
+地下埋設物モデル（LOD2）では、地下埋設物の形状を、立体により表現する。 +
+地下埋設物モデル・外部（LOD2）は、埋設物の形状の詳細度によりLOD2.0、LOD2.1及びLOD2.2に区分する。 +
+標準製品仕様書は、原則としてLOD2.0を採用する。ただし、ユースケースの必要に応じてLOD2.1又はLOD2.2を採用できる。
+
+地下埋設物モデル・外部（LOD2）の取得イメージを<<tab-4-15-9>>に、地下埋設物モデル・内部（LOD2）の取得イメージを<<tab-4-15-11>>に、マンホールの取得イメージを<<tab-4-15-10>>に示す。
+
+//地下埋設物モデル・外部（LOD2）の取得イメージ
+[[tab-4-15-9]]
+include::../../../common/sections/com_unf_Acquire_lod2_outdoor.adoc[]
+
+//地下埋設物モデル（LOD2.1）の取得イメージ（マンホール）
+[[tab-4-15-10]]
+include::../../../common/sections/com_unf_Acquire_lod21_manhole.adoc[]
+
+外部LOD2.0の場合、マンホール本体の中心とマンホール蓋の中心が異なる場合で、マンホール蓋の中心を使用して外周を推定する場合は、推定した外周とマンホール本体の外周が異なることに留意する必要がある。
+
+例えば、<<fig-4-15-1>>の左図のように、マンホール本体の片側が傾斜している場合は、マンホール蓋の中心とマンホール本体の中心が異なる。そのため、マンホール蓋の中心から推定した外周とこれを押し出して作成する立体は、マンホール本体の外周やこれを押し出して作成する立体と異なる。マンホール蓋の中心から推定した外周を押し出して作成する立体は、マンホール本体を包含する立体にはならない。<<fig-4-15-1>>右図のように、マンホール本体が円筒形の場合は、マンホール蓋の中心とマンホール本体の中心が一致するため、推定により作成した外周とこれを押し出して作成する立体も一致する。
+
+[[fig-4-15-1]]
+.マンホールの取得の差異
+image::../../sources/images/unf_001.png[]
+
+//地下埋設物モデル・内部（LOD2）の取得イメージ
+[[tab-4-15-11]]
+include::../../../common/sections/com_unf_Acquire_lod2_indoor.adoc[]
+
+[[toc4_15_01_03_02]]
+====== 地下埋設物モデル・外部（LOD2.0）の定義
+
+地下埋設物モデル・外部（LOD2.0）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-15-12]]
+include::../../../common/sections/com_unf_Definition_lod20_outdoor.adoc[]
+
+[[toc4_15_01_03_03]]
+====== 地下埋設物モデル・外部（LOD2.1）の定義
+
+地下埋設物モデル・外部（LOD2.1）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-15-13]]
+include::../../../common/sections/com_unf_Definition_lod21_outdoor.adoc[]
+
+[[toc4_15_01_03_04]]
+====== 地下埋設物モデル・外部（LOD2.2）の定義
+
+地下埋設物モデル・外部（LOD2.2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-15-14]]
+include::../../../common/sections/com_unf_Definition_lod22_outdoor.adoc[]
+
+[[toc4_15_01_03_05]]
+====== 地下埋設物モデル・内部（LOD2）の定義
+
+地下埋設物モデル・内部（LOD2）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-15-15]]
+include::../../../common/sections/com_unf_Definition_lod20_indoor.adoc[]
+
+
+[[toc4_15_01_04]]
+===== 地下埋設物モデル（LOD3）
+
+[[toc4_15_01_04_01]]
+====== 地下埋設物モデル（LOD3）の概要
+
+地下埋設物モデル（LOD3）では、地下埋設物の形状を、詳細な面の集まりとして表現する。
+
+地下埋設物モデル・外部（LOD3）の取得イメージを<<tab-4-15-16>>に、地下埋設物モデル・内部（LOD3）の取得イメージを<<tab-4-15-17>>に示す。
+
+//地下埋設物モデル・外部（LOD3）の取得イメージ
+[[tab-4-15-16]]
+include::../../../common/sections/com_unf_Acquire_lod3_outdoor.adoc[]
+
+//地下埋設物モデル・内部（LOD3）の取得イメージ
+[[tab-4-15-17]]
+include::../../../common/sections/com_unf_Acquire_lod3_indoor.adoc[]
+
+[[toc4_15_01_04_02]]
+====== 地下埋設物モデル・外部（LOD3）の定義
+
+地下埋設物モデル・外部（LOD3）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-15-18]]
+include::../../../common/sections/com_unf_Definition_lod30_outdoor.adoc[]
+
+[[toc4_15_01_04_03]]
+====== 地下埋設物モデル・内部（LOD3）の定義
+
+地下埋設物モデル・内部（LOD3）の定義として、含むべき地物型、各地物型の空間属性の型、取得基準、取得方法及び補足を示す。
+
+[[tab-4-15-19]]
+include::../../../common/sections/com_unf_Definition_lod30_indoor.adoc[]
+
+
+[[toc4_15_01_05]]
+===== 各LODにおいて使用可能な地物型と空間属性
+
+地下埋設物モデルの各LODにおいて使用可能な地物型と空間属性を<<tab-4-15-20>>に示す。
+
+//地下埋設物モデルの記述に使用する地物型と空間属性
+[[tab-4-15-20]]
+include::../../../common/sections/com_unf_SpatialAttribute.adoc[]
+
+
+[[toc4_15_02]]
+==== 地下埋設物モデルの応用スキーマクラス図
+
+[[toc4_15_02_01]]
+===== Urban Object（i-UR）
+
+[[fig-4-15-2]]
+image::../../sources/images/EAID_104C1085_5A90_4831_A822_92BC5EA209E2.png[]
+
+
+[[toc4_15_03]]
+==== 地下埋設物モデルの応用スキーマ文書
+
+[[toc4_15_03_01]]
+===== Urban Object（i-UR）
+
+[[toc4_15_03_01_01]]
+====== WaterPipe
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="WaterPipe",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_02]]
+====== SewerPipe
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="SewerPipe",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_03]]
+====== ThermalPipe
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ThermalPipe",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_04]]
+====== OilGasChemicalsPipe
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OilGasChemicalsPipe",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_05]]
+====== Pipe
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Pipe",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_06]]
+====== Duct
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Duct",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_07]]
+====== TelecommunicationsCable
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TelecommunicationsCable",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_08]]
+====== ElectricityCable
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ElectricityCable",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_09]]
+====== Cable
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Cable",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_10]]
+====== Appurtenance
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Appurtenance",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_11]]
+====== Manhole
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Manhole",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_12]]
+====== Handhole
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Handhole",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_13]]
+====== OffsetDepth
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OffsetDepth",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_14]]
+====== ThematicShape
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ThematicShape",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+[[toc4_15_03_01_15]]
+====== LengthAttribute
+
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="LengthAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+
+====== CityFurnitureDetailAttribute
+
+<<toc4_14_03_02_01,都市設備モデルの応用スキーマ文書>>　参照。
+
+[[toc4_15_03_02]]
+===== 施設管理のための拡張属性
+
+// 引用リンク スキーマ文書　施設管理のための拡張属性
+include::../../../common/sections/link_schema_Facility.adoc[]
+
+[[toc4_15_03_03]]
+===== データ品質属性
+
+// 引用リンク スキーマ文書　データ品質属性
+include::../../../common/sections/link_schema_DateQuality.adoc[]
+
+[[toc4_15_03_04]]
+===== 数値地形図のための拡張属性
+
+// 引用リンク スキーマ文書　数値地形図のための拡張属性
+include::../../../common/sections/link_schema_Dm.adoc[]
+
+
+[[toc4_15_04]]
+==== 地下埋設物モデルで使用するコードリストと列挙型
+
+[[toc4_15_04_01]]
+===== Urban Object（i-UR）
+
+[[UtilityNetworkElement_occupierType.xml]]
+====== UtilityNetworkElement_occupierType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UtilityNetworkElement_occupierType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[UtilityNetworkElement_occupierName.xml]]
+====== UtilityNetworkElement_occupierName.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UtilityNetworkElement_occupierName.xml[template="gml_dict_template.liquid",context=dict]
+
+[[UtilityNetworkElement_yearType.xml]]
+====== UtilityNetworkElement_yearType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UtilityNetworkElement_yearType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[UtilityNetworkElement_administrator.xml]]
+====== UtilityNetworkElement_administrator.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UtilityNetworkElement_administrator.xml[template="gml_dict_template.liquid",context=dict]
+
+[[UtilityNetworkElement_material.xml]]
+====== UtilityNetworkElement_material.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UtilityNetworkElement_material.xml[template="gml_dict_template.liquid",context=dict]
+
+[.source]
+<<jswa_sewage_system>>
+
+[[Pipe_sleeveType.xml]]
+====== Pipe_sleeveType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Pipe_sleeveType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Appurtenance_appurtenanceType.xml]]
+====== Appurtenance_appurtenanceType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Appurtenance_appurtenanceType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[UtilityNodeContainer_containerType.xml]]
+====== UtilityNodeContainer_containerType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UtilityNodeContainer_containerType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[ThematicShape_heightType.xml]]
+====== ThematicShape_heightType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/ThematicShape_heightType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[LengthAttribute_measureType.xml]]
+====== LengthAttribute_measureType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/LengthAttribute_measureType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[LengthAttribute_phaseType.xml]]
+====== LengthAttribute_phaseType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/LengthAttribute_phaseType.xml[template="gml_dict_template.liquid",context=dict]
+
+[[toc4_15_04_02]]
+===== Urban Core（i-UR）
+
+[[UtilityNetworkElement_lodType.xml]]
+====== UtilityNetworkElement_lodType.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UtilityNetworkElement_lodType.xml[template="gml_dict_template.liquid",context=dict]
+
+====== DataQualityAttribute_geometrySrcDesc.xml
+
+<<DataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_thematicSrcDesc.xml
+
+<<DataQualityAttribute_thematicSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== DataQualityAttribute_appearanceSrcDesc.xml
+
+<<DataQualityAttribute_appearanceSrcDesc.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_srcScale.xml
+
+<<PublicSurveyDataQualityAttribute_srcScale.xml,データ集合のコードリスト>>　参照。
+
+====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
+
+<<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
+

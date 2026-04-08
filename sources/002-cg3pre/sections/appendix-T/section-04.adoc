@@ -1,0 +1,47 @@
+[[tocT_04]]
+=== wtr:AbstractWaterBoundarySurface
+
+wtr:AbstractWaterBoundarySurfaceは、水部（wtr:WaterBody）の境界面の記述に使用する地物型である。
+
+wtr:AbstractWaterBoundarySurfaceは、抽象地物であり、実装においては、この下位型の具象となる地物型を使用する。 +
+wtr:AbstractWaterBoundarySurfaceの下位型には、以下の地物型がある。
+
+* wtr:WaterSurface：水面
+* wtr:WaterGroundSurface：水底面。また、水中に存在する構造物と水部の境界面としても使用できる。
+
+なお、水部の境界面として、行政界のような仮想的な境界を用いたい場合は、Coreモジュールに定義されたcore:ClosureSurface（閉鎖面）を使用する。
+
+[[tocT_04_01]]
+==== wtr:AbstractWaterBoundarySurfaceの空間属性
+
+wtr:AbstractWaterBoundarySurfaceは、水部モデル（LOD1）、水部モデル（LOD2）及び水部モデル（LOD3）において使用する。
+
+
+[[tocT_04_01_01]]
+===== LOD1
+
+水部モデル（LOD1）では、wtr:WaterSurfaceのみを使用する。 +
+wtr:WaterSurfaceの空間属性は、LOD1において、多曲面（core:lod1MultiSurface）となる。 +
+このとき、このwtr:WaterSurfaceを部品として持つwtr:WaterBodyの空間属性は、空となる。
+
+
+[[tocT_04_01_02]]
+===== LOD2
+
+水部モデル（LOD2）では、wtr:WaterSurface及びwtr:WaterGroundSurfaceを使用する。 +
+wtr:WaterSurface及びwtr:WaterGroundSurfaceの空間属性は、LOD2において多曲面（core:lod2MultiSurface）となる。 +
+このとき、wtr:WaterSurface及びwtr:WaterGroundSurfaceの空間属性を構成する多角形（gml:Polygon）は、wtr:WaterBodyの空間属性である立体（gml:Solid）を構成する境界面として外部参照される。
+
+LOD2は、測量により得られたデータをもとに作成することを前提とした区分である。
+
+
+[[tocT_04_01_03]]
+===== LOD3
+
+水部モデル（LOD3）では、wtr:WaterSurface及びwtr:WaterGroundSurfaceを使用する。 +
+wtr:WaterSurface及びwtr:WaterGroundSurfaceの空間属性は、LOD3において多曲面（core:lod3MultiSurface）となる。 +
+このとき、wtr:WaterSurface及びwtr:WaterGroundSurfaceの空間属性を構成する多角形（gml:Polygon）は、wtr:WaterBodyの空間属性である立体（gml:Solid）を構成する境界面として外部参照される。
+
+LOD3は、BIM/CIMやCADデータを用いて作成することを前提とした区分である。 +
+例えば、運河のCADデータを用いて水部モデルを作成する場合、橋梁のBIMデータを用いて、水中に存在する橋脚を除いた水部モデルを作成する場合にLOD3を適用する。
+

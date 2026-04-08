@@ -1,0 +1,12 @@
+[[tocI]]
+[appendix]
+== 妥当な土地利用オブジェクト
+
+include::../sections/appendix-I/section-01.adoc[]
+
+include::../sections/appendix-I/section-02.adoc[]
+
+include::../sections/appendix-I/section-03.adoc[]
+
+include::../sections/appendix-I/section-04.adoc[]
+

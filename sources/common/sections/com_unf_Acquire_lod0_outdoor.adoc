@@ -1,0 +1,50 @@
+[cols="5a,9a,9a,9a,9a,9a",options="noheader"]
+.地下埋設物モデル・外部（LOD0）の取得イメージ
+|===
+h| LOD 5+^h| LOD0
+h| 取得例
+^.^|
+image::../../sources/images/unf_Acquire_lod00_out_01.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod00_out_02.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod00_out_03.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod00_out_04.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod00_out_05.png[]
+
+h| 説明
+| 指定された管径よりも小さい管路は、管路の中心線を取得する。 +
+高さは0とする。
+| 指定された管径よりも大きい管路は、管路の外周を取得する。 +
+高さは0とする。
+| 複数まとめて埋設されている管路の中心線を取得する。 +
+高さは0とする。
+| ケーブルの中心線を取得する。 +
+高さは0とする。
+| 複数まとめて埋設されているケーブルの中心線を取得する。 +
+高さは0とする。
+
+h| LOD 5+^h| LOD0
+h| 取得例
+2+^.^|
+image::../../sources/images/unf_Acquire_lod00_out_06.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod00_out_07.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod00_out_08.png[]
+^.^|
+image::../../sources/images/unf_Acquire_lod00_out_09.png[]
+
+h|説明
+2+| トラフ（コンクリート製の樋）等構造物に格納されている場合は、その大きさにより中心線もしくは外周を取得する。 +
+高さは0とする。
+| 弁栓類、ガバナ等の設備の中心位置を取得する。 +
+高さは0とする。
+| マンホールの蓋の中心位置を取得する。 +
+高さは0とする。
+| ハンドホールの蓋の中心位置を取得する。 +
+高さは0とする。
+
+|===

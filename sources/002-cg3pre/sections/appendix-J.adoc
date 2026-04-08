@@ -1,0 +1,14 @@
+[[tocJ]]
+[appendix]
+== 妥当な災害リスクオブジェクト
+
+include::../sections/appendix-J/section-01.adoc[]
+
+include::../sections/appendix-J/section-02.adoc[]
+
+include::../sections/appendix-J/section-03.adoc[]
+
+include::../sections/appendix-J/section-04.adoc[]
+
+include::../sections/appendix-J/section-05.adoc[]
+

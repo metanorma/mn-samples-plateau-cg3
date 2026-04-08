@@ -1,0 +1,16 @@
+[cols="1a,9a",options="noheader"]
+.交通（鉄道）モデル（LOD0）の取得イメージ
+|===
+h| LOD ^h| LOD0
+h| 取得例
+^.^|
+image::../../sources/images/rwy_Acquire_lod00.png[width="300"]
+
+h| 説明
+|
+中心線又は外周線を取得する。高さは0とする。 +
+このとき、属性granularityによって、鉄道敷単位なのか、あるいは軌道単位なのかを表現する。 +
+granularity=wayの場合は、鉄道敷全体の中心線を表現する。 +
+granularity=laneの場合は、軌道の中心線を表現する。
+
+|===

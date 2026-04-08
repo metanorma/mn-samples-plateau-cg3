@@ -1,0 +1,23 @@
+[cols="1a,1a,1a,1a",options="noheader"]
+.交通（徒歩道）モデル（LOD2）の取得イメージ（徒歩道内の区分）
+|===
+h| LOD2.0（granularity=way） h| LOD2.0（granularity=lane） h| LOD2.1（granularity=lane） h| LOD2.2（granularity=lane）
+| 車道部、車道交差部、島及び歩道部を区分する。
+| LOD2.0（granularity=way）の区分を細分する。 +
+車道部のうち、車線を区分する。
+| LOD2.0（granularity=lane）の区分を細分する。 +
+歩道部のうち、植栽を区分する。
+| LOD2.1（granularity=lane）の区分を細分する。細分はユースケースに応じて決定する。
+
+^.^|
+image::../../sources/images/tran_Acquire_lod20_01.png[]
+^.^|
+image::../../sources/images/tran_Acquire_lod20_02.png[]
+^.^|
+image::../../sources/images/tran_Acquire_lod21.png[]
+^.^|
+image::../../sources/images/tran_Acquire_lod22.png[]
+
+|===
+
+NOTE: 青色着色している徒歩道内の区分は、当該LODにおいて新たに区別ができるようになる区分である。

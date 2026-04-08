@@ -1,0 +1,9 @@
+[[toc4]]
+== 原典資料の収集
+
+include::../sections/section-04/section-01.adoc[]
+
+include::../sections/section-04/section-02.adoc[]
+
+include::../sections/section-04/section-03.adoc[]
+

@@ -1,0 +1,139 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD3
+|●
+|TrafficSpace
+|-
+|-
+|-
+|-
+|空間属性を持たせなくてもよい。
+
+|LOD3
+|〇
+|TrafficSpace
+|lod3Solid
+|GM_Solid
+|
+|【granularityがlaneの場合の取得方法】
+
+* TrafficAreaを底面とし、建築限界の範囲を立体として作成する。
+
+【granularityがwayの場合の取得方法】
+
+* TrafficAreaを底面とし、建築限界の範囲を立体として作成する。
+|
+
+|LOD3
+|〇
+|AuxiliaryTrafficSpace
+|lod3Solid
+|GM_Solid
+|
+|【granularityがlaneの場合の取得方法】
+
+* AuxiliaryTrafficAreaを底面とし、建築限界の範囲を立体として作成する。
+
+【granularityがwayの場合の取得方法】
+
+* AuxiliaryTrafficAreaを底面とし、建築限界の範囲を立体として作成する。
+|島を区分する場合は必須とする。
+
+|LOD3
+|〇
+|ClearanceSpace
+|lod3Solid
+|GM_Solid
+|
+|【granularityがlaneの場合の取得方法】
+
+* 建築限界の上面を底面とし、無人航空機が飛行可能な範囲を立体として作成する。
+
+【granularityがwayの場合の取得方法】
+
+* 建築限界の上面を底面とし、無人航空機が飛行可能な範囲を立体として作成する。
+|
+
+|LOD3
+|●
+|TrafficArea
+|lod3MultiSurface
+|GM_MultiSurface
+|
+|【granularityがlaneの場合の取得方法】
+
+* 歩道の境界及び車線の境界をつないだ面を取得する。
+* 高さは路面高さとする。
+
+【granularityがwayかつ道路全幅として表現する場合の取得方法】
+
+* 道路全幅の境界をつないだ面を取得する。
+* 高さは路面高さとする。
+
+【granularityがwayかつ歩道と車道を区分し表現する場合の取得方法】
+
+* 歩道の境界及び車道の境界をつないだ面を取得する。
+* 高さは路面高さとする。
+|ユースケースの必要に応じて、車道部、車線、歩道部を細分する。
+
+|LOD3
+|■
+|AuxiliaryTrafficArea
+|lod3MultiSurface
+|GM_MultiSurface
+|島を区分する場合は必須とする。
+|【granularityがlaneの場合の取得方法】
+
+* 島及び植栽の上端の外周を面として取得する。
+* 島及び植栽の下端の外周と島及び植栽の上端の外周に囲まれた面を取得する。
+* 島及び植栽の下端の外周の各頂点には、路面の高さを与え、上端の外周の各頂点には、島及び植栽の上端の高さを与える。
+* 車道端、区画線又は道路標示をつないだ面を取得する。
+
+【granularityがwayかつ道路全幅として表現する場合の取得方法】
+
+* 取得しない。
+
+【granularityがwayかつ歩道と車道を区分し表現する場合の取得方法】
+
+* 島のつないだ面を取得する。
+* 高さは路面高さとする。
+|ユースケースの必要に応じて、島、植栽、車道部を細分する。
+
+|LOD3
+|〇
+|Marking
+|lod3MultiSurface
+|GM_MultiSurface
+|
+|
+* 交通の規制等が設定されている概念的な範囲を面として取得し、面の各頂点に、路面上の高さを与える。
+|
+
+|LOD3
+|〇
+|Hole
+|lod3Solid
+|GM_Solid
+|
+|
+* 穴の外形を立体として取得する。
+|都市設備モデル又は地下埋設物モデルにて同一マンホール及び排水溝を作成している場合は、空間属性を参照することができる。
+
+|LOD3
+|〇
+|HoleSurface
+|lod3MultiSurface
+|GM_MultiSurface
+|マンホール、排水溝
+|
+* 穴の外形により囲まれた路面上の面を取得する。
+|
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

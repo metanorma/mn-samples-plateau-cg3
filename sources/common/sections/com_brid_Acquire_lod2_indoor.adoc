@@ -1,0 +1,15 @@
+[cols="1a,9a",options="noheader"]
+.橋梁モデル・内部（LOD2）の取得イメージ
+|===
+h| LOD ^h| LOD2
+h| 取得例
+^.^|
+image::../../sources/images/brid_Acquire_lod20_in.png[wudth="280"]
+
+h| 説明
+| 橋梁の内部を部屋（BridgeRoom）に区切り、各部屋の形状を立体として表現する天井面（CeilingSurface）、内壁面（InteriorWallSurface）、閉鎖面（ClosureSurface）、床面（FloorSurface）を境界面とする立体を作成する。 +
+階段及び踊り場は分けて取得できる。 +
+階段の個々の段は取得せず、下端と上端を結んだ面として表現する。柱など構造上重要な部材（BridgeConstructionElement）を表現する。 +
+上図では、橋脚内部を表現している。
+
+|===

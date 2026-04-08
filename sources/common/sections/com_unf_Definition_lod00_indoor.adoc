@@ -1,0 +1,288 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD0
+|■
+|GenericUnoccupiedSpace
+|lod0Point
+|GM_Point
+|
+|
+* 地下埋設物の内部を表現する点の形状を取得する。
+|
+
+|LOD0
+|■
+|GenericUnoccupiedSpace
+|lod0MultiCurve
+|GM_MultiCurve
+|
+|
+* 地下埋設物の内部を表現する線の形状を統合し、線の集まりとして表現する。
+|
+
+|LOD0
+|■
+|GenericUnoccupiedSpace
+|lod0MultiSurface
+|GM_MultiSurface
+|
+|
+* 地下埋設物の内部を構成する面の形状を統合し、面の集まりとして表現する。
+|
+
+
+
+|LOD0
+|■
+|TelecommunicationsCable
+|lod0MultiCurve
+|GM_MultiCurve
+|単独で直接埋設されている通信ケーブル
+|
+* ケーブルの中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|TelecommunicationsCable
+|lod0MultiCurve
+|GM_MultiCurve
+|まとまって直接埋設されている通信ケーブル
+|
+* ケーブル全体の中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|ElectricityCable
+|lod0MultiCurve
+|GM_MultiCurve
+|単独で直接埋設されている電気ケーブル
+|
+* ケーブルの中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|ElectricityCable
+|lod0MultiCurve
+|GM_MultiCurve
+|まとまって直接埋設されている電気ケーブル
+|
+* ケーブル全体の中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|Cable
+|lod0MultiCurve
+|GM_MultiCurve
+|単独で直接埋設されているその他のケーブル
+|
+* ケーブルの中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|Cable
+|lod0MultiCurve
+|GM_MultiCurve
+|まとまって埋設されているその他のケーブル
+|
+* ケーブル全体の中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|WaterPipe
+|lod0MultiCurve
+|GM_MultiCurve
+|指定された管径よりも小さい水道管
+|
+* 管路の中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|WaterPipe
+|lod0MultiSurface
+|GM_MultiSurface
+|指定された管径よりも大きい水道管
+|
+* 管路の内縁を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|SewerPipe
+|lod0MultiCurve
+|GM_MultiCurve
+|指定された管径よりも小さい下水管
+|
+* 管路の中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|SewerPipe
+|lod0MultiSurface
+|GM_MultiSurface
+|指定された管径よりも大きい下水管
+|
+* 管路の内縁を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|ThermalPipe
+|lod0MultiCurve
+|GM_MultiCurve
+|指定された管径よりも小さい熱供給管
+|
+* 管路の中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|ThermalPipe
+|lod0MultiSurface
+|GM_MultiSurface
+|指定された管径よりも大きい熱供給管
+|
+* 管路の内縁を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|OilGasChemicalsPipe
+|lod0MultiCurve
+|GM_MultiCurve
+|指定された管径よりも小さいガス管
+|
+* 管路の中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|OilGasChemicalsPipe
+|lod0MultiSurface
+|GM_MultiSurface
+|指定された管径よりも大きいガス管
+|
+* 管路の内縁を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|Pipe
+|lod0MultiCurve
+|GM_MultiCurve
+|単独で埋設されているその他の管路
+|
+* 管路の中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|Pipe
+|lod0MultiCurve
+|GM_MultiCurve
+|まとまって埋設されているその他の管路
+|
+* 管路全体の中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|Pipe
+|lod0MultiSurface
+|GM_MultiSurface
+|指定された管径よりも大きいその他の管路
+|
+* 管路の内縁を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|Duct
+|lod0MultiCurve
+|GM_MultiCurve
+|指定された幅径よりも小さいトラフ
+|
+* 構造物の中心線を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|Duct
+|lod0MultiSurface
+|GM_MultiSurface
+|
+* 指定された幅径よりも大きいトラフ
+* とう道、CAB、CCBOX
+|
+* 構造物の内縁を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|Appurtenance
+|lod0Point
+|GM_Point
+|
+* 弁栓類、消火栓、空気弁、その他配水弁栓、加圧ポンプ、計測施設、テレメータ
+* ガバナ、バルブ、水取器
+|
+* 設備の中心位置を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|Manhole
+|lod0Point
+|GM_Point
+|マンホール
+|
+* マンホール本体の中心位置を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|■
+|Handhole
+|lod0Point
+|GM_Point
+|ハンドホール
+|
+* ハンドホール本体の中心位置を取得する。
+* 高さは0とする。
+|
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）

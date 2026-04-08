@@ -1,0 +1,33 @@
+= Standard Data Product Specification for 3D City Model
+:docnumber: 1
+:edition: 1
+:revdate: 2026-03-26
+:published-date: 2026-03-26
+:copyright-year: 2026
+:language: ja
+:title-intro-ja: 3D都市モデル導入のためのガイドブック
+:title-main-ja: 3D都市モデル標準製品仕様書
+:publisher: 国土交通省　都市局
+:sponsor: （協力）内閣府　地方創生推進事務局
+:title-intro-en: Handbook of 3D City Models
+:title-main-en: Standard Data Product Specification for 3D City Model
+:doctype: handbook
+:coverpage-image: images/coverpage.png
+:imagedir: images
+:i18nyaml: config/plateau_i18n-ja.yaml
+:mn-document-class: plateau
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+:sort-biblio: false
+
+include::change-history-03pre.adoc[]
+
+include::abstract-03pre.adoc[]
+
+include::sections/section-04.adoc[]
+
+include::bibliography-03pre.adoc[]
+
+include::conclusion-03pre.adoc[]
+

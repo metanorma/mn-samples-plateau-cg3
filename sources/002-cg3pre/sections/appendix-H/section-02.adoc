@@ -1,0 +1,98 @@
+[[tocH_02]]
+=== 航路の記述とLOD
+
+[[tocH_02_01]]
+==== 交通（航路）モデル
+
+航路とは、船舶の通路として法令で定める海域である。標準製品仕様書では、原則として、以下に示す港則法や海上交通安全法によって規定される航路を対象とする。
+
+* 港則法施行規則第8条
+* 海上交通安全法第2条
+
+航路の記述には、CityGMLに定義された、tran:Waterwayを使用する。
+
+標準製品仕様書では、交通（航路）モデルのLODは、LOD0及びLOD1を対象とする。このとき、LODには外部・内部の区別はない。
+
+[[fig-H-1]]
+.交通（航路）モデルの概要
+image::../../sources/images/anx_H_001.png[]
+
+交通（航路）モデルは、高さを持たない。航路オブジェクトを3次元の地形データに貼り付けることで3次元的に表示して利用することを想定している。
+
+* 交通（航路）モデル（LOD0）は、航路の形状を多曲線（線の集まり）により表現する。
+* 交通（航路）モデル（LOD1）は、航路の形状を、高さを持たない多曲面（面の集まり）により表現する。
+
+LOD0では、航路のネットワーク、LOD1では、航路の形状を、高さを持たない多曲面で表現する。
+これに加えて、LOD1では、船舶が航行可能な空間や、無人航空機が飛行可能な空間を立体として表現することができる。
+
+
+[[tocH_02_02]]
+==== 使用可能な地物型とLOD
+
+交通（航路）モデルは、LODごとに、使用すべき地物型やその空間属性が異なる。
+
+[requirement]
+.航路記述のLOD対応条件
+====
+[%metadata]
+identifier:: /req/wwy/1
+subject:: 妥当な交通（航路）データセットの要件
+description:: 航路の記述には、指定されたLODに対応する地物型及び空間属性を使用する。
+====
+
+航路の記述には、tran:Waterwayを用いる。CityGML3.0において、tran:Waterwayは、航路空間を表す。この航路空間は、交通のために使用される交通空間（tran:TrafficSpace）と一致する。また、交通空間上空の障害物のない空間（tran:ClearanceSpace）に分けることもできる。
+
+tran:TrafficSpaceが表す空間の底面は、交通領域（tran:TrafficArea）である。
+
+さらに、複数の空間を、区間（tran:Section）や交差点（tran:Intersection）としてグループ化できる。
+
+ここで、航路は航行可能な区域のみが指定されていることから、航路にはtran:AuxiliaryTrafficSpaceやtran:AuxiliaryTrafficAreaに該当する空間・領域は存在しない。そこで、標準製品仕様書ではtran:AuxiliaryTrafficSpace及びtran:AuxiliaryTrafficAreaを対象外としている。
+
+航路の各LODにおいて使用可能な地物型と空間属性を、<<tab-H-1>>に示す。
+
+// 交通（航路）モデルの記述に使用する地物型と空間属性
+[[tab-H-1]]
+include::../../../common/sections/com_wwy_SpatialAttribute.adoc[]
+
+
+[[tocH_02_03]]
+==== 交通（航路）モデルのLOD定義
+
+交通（航路）モデルは、LODごとに、含むべき地物やその取得基準を定めている。
+
+
+[[tocH_02_03_01]]
+===== LOD0
+
+交通（航路）モデル（LOD0）は、航路の形状を、高さを持たない中心線として記述する。 +
+中心線の記述には、tran:TrafficAreaの空間属性（core:lod0MultiCurve）を使用する。 +
+tran:TrafficSpaceの属性tran:granularityが“way”の場合、この航路は進行方向によって分かれてはおらず、“lane”の場合は進行方向によって分かれる。
+
+// 交通（航路）モデル（LOD0）の取得イメージ
+[[tab-H-2]]
+include::../../../common/sections/com_wwy_Acquire_lod0.adoc[]
+
+
+[[tocH_02_03_02]]
+===== LOD1
+
+交通（航路）モデル（LOD1）は、航路の形状を、高さを持たない面として記述する。 +
+面の記述には、tran:TrafficAreaの空間属性（core:lod1MultiSurface）を使用する。 +
+tran:TrafficSpaceの属性tran:granularityが“way”の場合、この航路は進行方向によって分かれてはおらず、“lane”の場合は進行方向によって分かれる。
+
+// 交通（航路）モデル（LOD1）の取得イメージ
+[[tab-H-3]]
+include::../../../common/sections/com_wwy_Acquire_lod1.adoc[]
+
+
+[[tocH_02_03_03]]
+===== LODの対照表
+
+CityGML2.0とCityGML3.0では、LOD定義が異なることから、CityGML2.0に準拠した標準製品仕様書第5.1版と、CityGML3.0に準拠した本応用スキーマにおけるLODの細分の定義は異なる。
+
+以下に新旧の対応を示す。
+
+[[fig-H-2]]
+.LOD対照表
+image::../../sources/images/anx_H_002.png[]
+

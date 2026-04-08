@@ -1,0 +1,298 @@
+[[tocK_03]]
+=== 都市計画の区域を表す地物型
+
+都市計画で決定される区域を表す地物型は、urf:Zoneを継承して定義される。
+
+[[tab-K-3]]
+.都市計画の区域を表す地物型
+[cols="3a,3a,3a,37a,37a,37a"]
+|===
+4+|  都市計画の区域 |  対応する地物型 |  補足
+
+4+| 都市計画区域 | urf:UrbanPlanningArea | 
+4+| 準都市計画区域 | urf:QuasiUrbanPlanningArea |
+4+| 区域区分 | urf:AreaClassification | 
+4+| 地域地区 | urf:DistrictsAndZones |
+.27+| 3+| 用途地域 | urf:UseDistrict |
+3+| 特別用途地区 | urf:SpecialUseDistrict |
+3+| 特定用途制限地域 | urf:SpecialUseRestrictionDistrict |
+3+| 特例容積率適用地区 | urf:ExceptionalFloorAreaRateDistrict |
+3+| 高層住居誘導地区 | urf:HighRiseResidentialAttractionDistrict |
+3+| 高度地区 | urf:HeightControlDistrict |
+3+| 高度利用地区 | urf:HighLevelUseDistrict |
+3+| 特定街区 | urf:SpecifiedBlock |
+3+| 都市再生特別地区 | urf:SpecialUrbanRenaissanceDistrict |
+3+| 居住調整地域 | urf:HousingControlArea |
+3+| 居住環境向上用途誘導地区 | urf:ResidentialEnvironmentImprovementDistrict |
+3+| 特定用途誘導地区 | urf:SpecialUseAttractionDistrict |
+3+| 防火地域又は準防火地域 | urf:FirePreventionDistrict |属性urf:functionを用いて区分する。
+3+| 特定防災街区整備地区 | urf:SpecifiedDisasterPreventionBlockImprovementZone |
+3+| 景観地区 | urf:LandscapeZone |
+3+| 風致地区 | urf:ScenicDistrict |
+3+| 駐車場整備地区 | urf:ParkingPlaceDevelopmentZone |
+3+| 臨港地区 | urf:PortZone |
+3+| 歴史的風土特別保存地区 | urf:SpecialZoneForPreservationOfHistoricalLandscape |
+3+| 第一種歴史的風土保存地区 +
+又は第二種歴史的風土保存地区
+| urf:ZoneForPreservationOfHistoricalLandscape |属性urf:functionを用いて区分する。
+3+| 緑地保全地域 | urf:GreenSpaceConservationDistrict |
+3+| 特別緑地保全地域 | urf:SpecialGreenSpaceConservationDistrict |
+3+| 緑化地域 | urf:TreePlantingDistrict |
+3+| 流通業務地区 | urf:DistributionBusinessZone |
+3+| 生産緑地地区 | urf:ProductiveGreenZone |
+3+| 伝統的建造物群保存地区 | urf:ConservationZoneForClustersOfTraditionalStructures |
+3+| 航空機騒音障害防止地区 +
+又は航空機騒音障害防止特別地区
+| urf:AircraftNoiseControlZone |属性urf:functionを用いて区分する。
+4+| 促進区域 | urf:ProjectPromotionArea | 
+.4+| 3+| 市街地再開発促進区域 | urf:UrbanRedevelopmentPromotionArea |
+3+| 土地区画整理促進区域 | urf:LandReadjustmentPromotionArea |
+3+| 住宅街区整備促進区域 | urf:ResidentialBlockConstructionPromotionArea |
+3+| 拠点業務市街地整備土地区画整理促進区域 | urf:LandReadjustmentPromotionAreasForCoreBusinessUrbanDevelopment |
+4+| 遊休土地転換利用促進地区 | urf:UnusedLandUsePromotionArea | 
+4+| 被災市街地復興推進地域 | urf:UrbanDisasterRecoveryPromotionArea | 
+4+| 都市施設 | urf:UrbanFacility | .17+|
+3+| 交通施設 | urf:TrafficFacility | 
+3+| 公共空地 | urf:OpenSpaceForPublicUse | 
+3+| 供給施設 | urf:SupplyFacility | 
+3+| 処理施設 | urf:TreatmentFacility | 
+3+| 水路 | urf:Waterway |
+3+| 教育文化施設 | urf:EducationalAndCulturalFacility |
+3+| 医療施設 | urf:MedicalFacility | 
+3+| 社会福祉施設 | urf:SocialWelfareFacility | 
+3+| 市場、と畜場、火葬場 | urf:MarketsSlaughterhousesCrematoria | 
+3+| 一団地の住宅施設 | urf:CollectiveHousingFacilities |
+3+| 一団地の官公庁施設 | urf:CollectiveGovernmentAndPublicOfficeFacilities |
+3+| 流通業務団地 | urf:DistributionBusinessPark |
+3+| 一団地の津波防災拠点市街地形成施設 | urf:CollectiveFacilitiesForTsunamiDisasterPrevention |
+3+| 一団地の復興再生拠点市街地形成施設 | urf:CollectiveFacilitiesForReconstructionAndRevitalization |
+3+| 一団地の復興拠点市街地形成施設 | urf:CollectiveFacilitiesForReconstruction |
+3+| 一団地の都市安全確保拠点施設 | urf:CollectiveUrbanDisasterPreventionFacilities |
+3+| 政令で定める都市施設 | urf:UrbanFacilityStipulatedByCabinetOrder |防風施設等は、属性urf:functionを用いて区分する。
+4+| 市街地開発事業 | urf:UrbanDevelopmentProject | 
+.8+| 3+| 土地区画整理事業 | urf:LandReadjustmentProject |
+3+| 新住宅市街地開発事業 | urf:NewHousingAndUrbanDevelopmentProject |
+3+| 工業団地造成事業 | urf:IndustrialParkDevelopmentProject |
+3+| 市街地再開発事業 | urf:UrbanRedevelopmentProject |
+3+| 新都市基盤整備事業 | urf:NewUrbanInfrastructureProject |
+3+| 住宅街区整備事業 | urf:ResidentialBlockConstructionProject |
+3+| 防災街区整備事業 | urf:DisasterPreventionBlockImprovementProject |
+3+| 市街地改造事業 | urf:UrbanRenewalProject |
+4+| 市街地開発事業等の予定区域 | urf:ScheduledAreaForUrbanDevelopmentProject |  .6+|
+3+| 新住宅市街地開発事業の予定区域 | urf:ScheduledAreaForNewHousingAndUrbanDevelopmentProjects |
+3+| 工業団地造成事業の予定区域 | urf:ScheduledAreaForIndustrialParkDevelopmentProjects |
+3+| 新都市基盤整備事業の予定区域 | urf:ScheduledAreaForNewUrbanInfrastructureProjects |
+3+| 一団地の住宅施設の予定区域 | urf:ScheduledAreaForCollectiveHousingFacilities |
+3+| 一団地の官公庁施設の予定区域 | urf:ScheduledAreaForCollectiveGovernmentAndPublicOfficeFacilities |
+3+| 流通業務団地の予定区域 | urf:ScheduledAreaForDistributionBusinessPark |
+4+| 地区計画等 | .|
+.19+| 3+| 地区計画 | urf:DistrictPlan |
+.2+| 2+| 地区整備計画 | urf:DistrictDevelopmentPlan |
+| | 地区施設 | urf:DistrictFacility |属性urf:functionを用いて区分する。
+3+| 沿道地区計画 | urf:RoadsideDistrictPlan |
+.2+| 2+| 沿道地区整備計画 | urf:RoadsideDistrictImprovementPlan |
+| | 沿道地区施設 | urf:DistrictFacility |属性urf:functionを用いて区分する。
+3+| 集落地区計画 | urf:RuralDistrictPlan |
+.2+| 2+| 集落地整備計画 | urf:RuralDistrictImprovementPlan |
+| | 集落地区施設 | urf:DistrictFacility |属性urf:functionを用いて区分する。
+3+| 歴史的風致維持向上地区計画 | urf:HistoricSceneryMaintenanceAndImprovementDistrictPlan |
+| 2+| 歴史的風致維持向上地区整備計画 | urf:DistrictImprovementPlanForHistoricSceneryMaintenanceAndImprovementDistrict |
+3+| 防災街区整備地区計画 | urf:DisasterPreventionBlockImprovementZonePlan |
+.4+| 2+| 特定建築物地区整備計画 | urf:SpecifiedBuildingZoneImprovementPlan |
+| | 特定地区防災施設 | urf:ZonalDisasterPreventionFacility |
+2+| 防災街区整備地区整備計画 | urf:DistrictImprovementPlanForDisasterPreventionBlockImprovementZonePlan |
+| | 地区防災施設 | urf:ZonalDisasterPreventionFacility |
+3+| 立地適正化計画 | | 
+.2+| 2+| 都市機能誘導区域 | urf:UrbanFunctionAttractionArea |
+2+| 居住誘導区域 | urf:ResidenceAttractionArea |
+
+|===
+
+
+[[tocK_03_01]]
+==== 都市計画決定情報の空間属性
+
+標準製品仕様書では、都市計画決定情報モデルのLODは、LOD1のみを対象としている。
+
+
+[[tocK_03_01_01]]
+===== LOD1
+
+都市計画決定情報の空間属性は、都市計画の区域と一致し、gml:MultiSurfaceを用いて記述する。 +
+また、都市計画の区域の境界を区域界（urf:Boundary）として記述する場合は、gml:MultiCurveを用いる。 +
+都市施設の立体的な範囲（urf:ThreeDimensionalExtent）を記述する場合は、gml:MultiSurfaceを用いて記述する。なお、区域及びその境界は高さをもたない（高さは0とする）。
+
+
+[[tocK_03_02]]
+==== 都市計画決定情報の主題属性
+
+都市計画決定情報の主題属性は、都市計画に定める項目及び定めることができる項目である。
+
+
+[[tocK_03_02_01]]
+===== 属性として記述することが難しい項目の取り扱い
+
+都市計画に定める項目には、定型化されていない場合や図表で作成されている場合があり、都市計画決定情報モデルに含めることが難しい場合がある。 +
+このような場合は、以下のように対応する。
+
+* 自治体のウェブサイト等から都市計画決定に関わる計画書や計画図が公開されている場合：公開されている外部ファイルへのURLを記述する。
+* 都市計画決定に関わる計画書や計画図が公開されていない場合：当該情報を閲覧・入手するための方法を記載する。
+
+
+[requirement]
+.都市計画図書からの主題属性入力
+====
+[%metadata]
+identifier:: /att/urf/1
+subject:: 妥当な都市計画決定情報データセットの要件
+class:: 留意事項
+[statement]
+--
+都市計画図書の多くは紙資料として管理されており、資料の収集やデータの入力に労力を要する。また、文章や図表として記載されており、GISデータとしてデータ化することが困難な情報も含まれる。そのため、主題属性の入力対象は、これにかかる作業量も考慮し、決定する必要がある。
+--
+====
+
+
+[[tocK_03_02_02]]
+===== 都市計画の当初決定年月日及び告示番号と最終（最新）決定年月日及び告示番号
+
+都市計画は、社会経済情勢の変化を踏まえ、適時適切な見直しが行われる。このような変化を把握するための情報として、当初の告示番号を記録する属性urf:notificationNumberと、当初の決定年月日を記録する属性urf:validFromがある。また、見直し後の最終（最新）の告示番号を記録する属性urf:finalNotificationNumberとその日付を記録する属性urf:finalNotificationDateがある。
+
+当初の決定と最終（最新）の決定との間のより詳細な変遷を記録する場合には、属性urf:validFromとurf:validFromType、また、urf:validToとurf:validToTypeを使用する（<<tocK_03_02_03>>参照）。
+
+なお、最終（最新）の都市計画において指定された都市計画の区域は、属性urf:notificationNumberと属性urf:finalNotificationNumberの値が一致する。
+
+また、当初の告示番号が不明な場合、属性urf:notificationNumberの値は「Null」を入力する。当初の決定年月日が不明な場合、属性urf:validFromの値は「0001-01-01」とする。
+
+
+[[tocK_03_02_03]]
+===== 都市計画決定情報の変遷の表現
+
+都市計画には、新規に決定される場合、変更される場合、また、変更に伴い実質廃止される場合がある。このような時間の経過に伴う都市計画の変遷を、属性urf:validFromとurf:validFromType、また、urf:validToとurf:validToTypeにより記述できる。
+
+属性urf:validFromは、その都市計画が効力を生じる日付（xs:date）を記述する。属性urf:validFromTypeは、この日付が「決定」又は「変更」であるかを区別するために用いる。
+
+
+[requirement]
+.都市計画の効力日付と種類記述条件
+====
+[%metadata]
+identifier:: /req/urf/3
+subject:: 妥当な都市計画決定情報データセットの要件
+description:: この都市計画の効力が生じる日付を属性urf:validFromに記述し、そのときの都市計画の種類（新規又は変更）を属性urf:validFromTypeに記述する。
+====
+
+都市計画の変更や廃止により都市計画が効力を失った日付（xs:date）は、属性urf:validToにより記述できる。また、その時の都市計画の区分（変更又は廃止）は、属性urf:validToTypeにより記述できる。
+
+例えば、ある都市計画が新規に決定され、その後、変更され、さらに変更された内容が廃止されたとする（<<fig-K-1>>）。この場合、当初の都市計画のurf:validFromには決定された日付が入り、urf:validFromTypeは「決定」となる。また、urf:validToには、変更により効力を失った日付が入る。このときのurf:validToTypeは「変更」となる。また、変更後の都市計画のurf:validFromには決定された日付が入り、urf:validFromTypeは「変更」となる。また、urf:validToには、廃止により効力を失った日付が入る。このときのurf:validToTypeは「廃止」となる。
+
+[[fig-K-1]]
+.都市計画の変遷
+image::../../sources/images/anx_K_001.png[width="500"]
+
+
+[requirement]
+.urf:validTo及びurf:validToTypeの運用
+====
+[%metadata]
+identifier:: /att/urf/2
+subject:: 妥当な都市計画決定情報データセットの要件
+class:: 留意事項
+[statement]
+--
+都市計画の効力を生じる日付（urf:validFrom）及びその都市計画の区分（urf:validFromType）は運用上必須とするが、都市計画が効力を失う日付（urf:validTo）及びその都市計画の区分（urf:validToType）は、任意の属性とする。都市計画の変遷を無効となった区域も含めて把握したい場合には、urf:validTo及びurf:validToTypeを整備することで、その変遷の把握が容易となる。
+--
+====
+
+
+[[tocK_03_02_04]]
+===== 構造化された属性の使用
+
+都市施設は、その種類によって都市計画に定める事項が異なる場合がある。例えば、交通施設の場合、道路は種別及び車線の数（車線のない道路である場合を除く。）その他の構造が必要であるが、自動車ターミナルの場合は種別及び面積が必要となる。
+
+標準製品仕様書では、道路や自動車ターミナルといった都市計画法第11条第1項各号に挙げられた都市施設の種類ごとに、都市計画に定める事項が異なる場合にはこれらを都市施設の種類ごとにデータ型として構造化している。都市施設の種類は、属性urf:functionによって分かる。そのため、属性urf:functionの値により、使用すべきデータ型が限定される。例えば、属性urf:functionの値が「道路」を示す場合には、道路のために構造化されたデータ型を使用できる。
+
+
+[requirement]
+.都市施設データ型の一致条件
+====
+[%metadata]
+identifier:: /req/urf/4
+subject:: 妥当な都市計画決定情報データセットの要件
+description:: 都市施設ごとに構造化されたデータ型は、都市施設の属性urf:functionと一致していなければならない。
+====
+
+
+[[tocK_03_02_05]]
+===== ADEで拡張された属性の記述
+
+CityGML3.0では、地物型ごとに、属性を拡張するためのデータ型ADEOfXXX（XXXには地物型の名称が入る）が用意されている。また、拡張したデータ型を地物の属性として記述するための主題属性adeOfXXX（XXXには地物型の名称が入る）も用意されている。例えば、建築物（Building）という地物型に属性を追加したい場合、ADEOfBuildingを使う。このデータ型を継承して新しい属性を定義することで、主題属性adeOfBuildingの型として記述できるようになる。
+
+ここで、都市計画決定情報のデータ品質属性は、上述の仕組みを使って拡張して定義されたデータ型である。これらのデータ型を記述する場合には、拡張した地物型に対応する主題属性adeOfXXX（XXXには地物型の名称が入る）の型として記述しなければならない。
+
+データ品質属性は、ADEOfAbstractCityObjectを継承して定義されているため、adeOfAbstractCityObjectの型として記述する。
+
+このように、ADEで拡張された属性が、どの地物型を拡張して定義されているかによって、主題属性として値を記述する場所が異なることに注意が必要である。
+
+
+[[tocK_03_03]]
+==== 都市計画決定情報の階層構造
+
+都市計画決定情報には、地物の階層構造（包含関係）が定義されている。階層構造をもつ場合は、全体となる地物の一部として、部品となる地物を記述できる。階層構造は、応用スキーマクラス図において、集成の関連で記述される。
+
+階層構造をもつ地物の組み合わせを<<tab-K-4>>に示す。
+
+[[tab-K-4]]
+[cols="a,a,a"]
+.階層構造をもつ地物の組合せ
+|===
+| 全体となる地物 | 部品となる地物 | 説明
+
+| urf:Zoneを継承する全ての地物
+| urf:Boundary（境界）
+| 区域と区域の境界との関係。
+
+| urf:UrbanFacility（都市施設）を継承する地物型のうち、都市計画法施行令第6条の2に掲げられる都市施設を表す地物型
+| urf:ThreeDimentionalExtent（立体的な範囲）
+| 都市施設と、都市施設に定められた立体的な範囲との関係。
+
+| urf:AbstractDistrictPlan（地区計画等）を継承する地物型
+| urf:PromotionArea（再開発等促進区、開発整備促進区、沿道再開発等促進区）
+| 地区計画等と、地区計画等に定める再開発等促進区、開発整備促進区、沿道再開発促進区との関係。
+
+| urf:AbstractDistrictPlan（地区計画等）を継承する地物型
+| urf:DistrictDevelopmentPlan（地区整備計計画）及びこれを継承する地物型
+| 地区計画等と地区計画等において定められた地区整備計画との関係。
+
+| urf:DistrictDevelopmentPlan及びこれを継承する地物型
+| urf:District（地区）
+| 地区整備計画と、地区整備計画において定められる、建築物等の用途の制限等都市計画法第12条の5第7項第2号に掲げられた事項が設定された地区との関係。
+
+| urf:DistrictDevelopmentPlan及びこれを継承する地物型
+| urf:DistrictFacility
+| 地区整備計画と、地区整備計画において定められる地区施設との関係。
+
+| urf:DisasterPreventionBlockImprovementZonePlan（防災街区整備地区計画）
+| urf:ZonalDisasterPreventionFacility（地区防災施設）
+| 防災街区整備地区計画と、防災街区整備地区計画において定められる地区防災施設との関係。
+
+|===
+
+階層構造をもつ地物の組み合わせをCityGML形式に符号化する際には、部品となる地物を全体となる地物の子要素として出力しなければならない。
+
+
+[requirement]
+.階層構造地物の符号化条件
+====
+[%metadata]
+identifier:: /req/urf/5
+subject:: 妥当な都市計画決定情報データセットの要件
+description:: 階層構造をもつ地物の組み合わせでは、部品となる地物が全体となる地物の子要素として符号化しなければならない。
+====
+
+<<fig-K-2>>に例を示す。urf:DistrictDevelopmentPlan（地区整備計画）とurf:District（地区）との間には、応用スキーマ図では集約で関連付けられ、urf:DistrictDevelopmentPlanが全体、urf:Districtが部品として定義されている。この場合、CityGML形式に符号化する際にはurf:DistrictDevelopmentPlanのタグの子要素としてurf:Districtが出現しなければならない。
+
+[[fig-K-2]]
+.階層構造をもつ地物のXMLインスタンス
+image::../../sources/images/anx_K_002.png[]
+

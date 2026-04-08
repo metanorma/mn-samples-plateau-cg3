@@ -1,0 +1,32 @@
+[cols="1a,1a,1a,1a,1a,3a,3a,3a"]
+|===
+|LOD|必須|地物型|関連役割名|空間属性の型|取得基準|取得方法|補足
+
+|LOD0
+|●
+|SolitaryVegetationObject
+|lod0MultiSurface
+|GM_MultiSurface
+|1本1本の樹木を個々に識別する場合
+|
+* 樹冠の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|LOD0
+|●
+|PlantCover
+|lod0MultiSurface
+|GM_MultiSurface
+|複数の植物が混生し、個々の植物を識別しない場合
+|
+* 植被の正射影の外周を取得する。
+* 高さは0とする。
+|
+
+|===
+
+[%key]
+●:: 必須
+■:: 条件付必須
+〇:: 任意（ユースケースに応じて要否を決定してよい）
