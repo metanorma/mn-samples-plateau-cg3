@@ -21,13 +21,13 @@
 :data-uri-image:
 :sort-biblio: false
 
-include::change-history-03pre.adoc[]
+include::change-history-cg03pre.adoc[]
 
-include::abstract-03pre.adoc[]
+include::abstract-cg03pre.adoc[]
 
 include::sections/section-04.adoc[]
 
-include::bibliography-03pre.adoc[]
+include::bibliography-cg03pre.adoc[]
 
-include::conclusion-03pre.adoc[]
+include::conclusion-cg03pre.adoc[]
 
