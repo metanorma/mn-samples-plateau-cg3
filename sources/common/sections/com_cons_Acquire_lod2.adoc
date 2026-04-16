@@ -17,7 +17,7 @@ h| 取得例
 ^.^|
 image::../../sources/images/cons_Acquire_lod21_01.png[width="250"]
 ^.^|
-image::../../sources/images/cons_Acquire_lod21_01.png[width="250"]
+image::../../sources/images/cons_Acquire_lod21_02.png[width="250"]
 
 h| 説明
 2+| LOD2.1では、水門や堰のように、単独で設置される構造物の場合、LOD2.0の形状から、側面を詳細化した立体として表現する。 +
