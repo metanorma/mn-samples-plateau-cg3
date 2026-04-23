@@ -18,6 +18,6 @@ h| 説明
 | LOD3.0では部屋を構成する面を境界面に分割又は区分しないのに対し、LOD3.1では、立体を構成する面の全部又は一部を境界面に分割し、区分することができる。 +
 また、窓及び扉についても窓面（WindowSurface）、扉面（DoorSurface）によって境界面に区分することができる。
 さらに、内部に存在する付属物（BuildingInstallation）、内部に存在する家具（BuildingFurniture）を作成することができる。
-| LOD3.2では内部に存在する付属物（BridgeInstallation）の作成が必須となる。
+| LOD3.2では内部に存在する付属物（BuildingInstallation）の作成が必須となる。
 
 |===

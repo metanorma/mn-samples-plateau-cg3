@@ -61,7 +61,7 @@ description:: トンネルの記述には、指定されたLODに対応する地
 
 また、トンネルモデル・外部（LOD1）において、トンネル内に傾斜があり、入口と出口の標高が異なる場合には、複数の区間に分けて記述することで、より実際に近い形状で表現することができる。
 
-ただし、このとき、tun:Tunnelを構成するtun:TunnelPartとは、一体的な建築物（tun:TunnelPart同士が互いに接して一棟の建築物を構成する）でなければならない。
+ただし、このとき、[underline]##tun:Tunnelを構成するtun:TunnelPartとは、一体的な建築物（tun:TunnelPart同士が互いに接して一棟の建築物を構成する）でなければならない。##
 
 また、各LODではトンネルに付属する階段や管理用通路といった設備を、tun:TunnelInstallationを用いて記述できる。なお、tun:TunnelPartはトンネルであるが、tun:TunnelInstallationはトンネルではなく、トンネルの付属物である。外部LODで使用する場合、tun:TunnelInstallationは屋外の付属物であり、内部LODで使用する場合は屋内の付属物となる。
 

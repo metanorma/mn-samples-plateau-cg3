@@ -94,11 +94,11 @@ image::../../sources/images/EAID_D0DDCE77_D82A_4c13_8569_E22EAC808DA4.png[]
 * pcl:pointFileSrsNameには、三次元点群データの座標参照系を記述する。記述方法はEPSG:``[EPSGコード]``とする。
 ** ``[EPSGコード]``は、EPSGにより指定された半角数字の組合せによる識別子であり、6697とする。
 *  pcl:pointsには、インライン記述する三次元点群データの座標値を記述する。
-・ 座標値は、日本測地系2011における経緯度座標系と東京湾平均海面を基準とする標高の複合座標参照系（EPSG:6697）を用い、gml:MultiPointにて記述する。
+** 座標値は、日本測地系2011における経緯度座標系と東京湾平均海面を基準とする標高の複合座標参照系（EPSG:6697）を用い、gml:MultiPointにて記述する。
 * uro:classには、三次元点群データの種類を記述する。
-・ 三次元点群データの種類は、生成データ、計測データの識別をするための属性であり、コードリスト（PointCloudSpecAttribute_class.xml）から選択する。
+** 三次元点群データの種類は、生成データ、計測データの識別をするための属性であり、コードリスト（PointCloudSpecAttribute_class.xml）から選択する。
 *  uro:functionには、三次元点群データの計測方法を記述する。
-・ uro:classが計測データの場合に記述することができ、コードリスト
+** uro:classが計測データの場合に記述することができ、コードリスト
 （PointCloudSpecAttribute_function.xml）から選択する。
 * uro:srcScaleには、原典の三次元点群データの地図情報レベルを記述する。
 * uro:srcHorizontalAccuracyには、原典の三次元点群データの水平精度を記述する。単位はｍとする。
@@ -106,9 +106,9 @@ image::../../sources/images/EAID_D0DDCE77_D82A_4c13_8569_E22EAC808DA4.png[]
 *  uro:srcRequiredPointDensityには、原典の三次元点群データの要求点密度を記述する。単位は点/m2とする。
 ** 要求点密度とは、作成時に満たすべき点密度を指し、原典の三次元点群データの作成時
 *  uro:srcFilteringCriteriaには、原典の三次元点群データのフィルタリングの状況を記述する。
-・ フィルタリングした項目をコードリスト（PointCloudSpecAttribute_srcFilteringCriteria.xml）から複数選択する。
+** フィルタリングした項目をコードリスト（PointCloudSpecAttribute_srcFilteringCriteria.xml）から複数選択する。
 *  uro:srcGridIntervalには、原典の三次元点群データの格子間隔を記述する。単位はm又はdegとする。
-・ 原典の三次元点群データがグリッドデータの場合にその格子間隔を記述する。
+** 原典の三次元点群データがグリッドデータの場合にその格子間隔を記述する。
 *  uro:isIntensityには、三次元点群データにIntensity（反射強度）の情報が含まれているか否かを記述する。
 ** 三次元点群データを外部参照する場合に記述することができる。
 * uro:spectralBandSetには、三次元点群データに含まれる波長スペクトル情報（RGBやNIR等）を示すコードを記述する。
@@ -121,7 +121,7 @@ image::../../sources/images/EAID_D0DDCE77_D82A_4c13_8569_E22EAC808DA4.png[]
 * uro:customClassificationTypeには、三次元点群データを独自にクラス分類している場合に使用しているクラス分類コードをコードリスト（PointCloudSpecAttribute_customClassificationType.xml）として作成し選択する。
 ** 三次元点群データを外部参照する場合に記述することができる。
 * uro:pointCloudAssociationMethodには、三次元点群データと都市オブジェクトの対応づけの方法をコードリスト（PointCloudSpecAttribute_pointCloudAssociationMethod.xml）から選択する。
-・ 対応づけの方法は、<<tocV_03_03>>の三次元点群データの抽出手法のメリットデメリットを確認し、ユースケースに適する手法を選択する。
+** 対応づけの方法は、<<tocV_03_03>>の三次元点群データの抽出手法のメリットデメリットを確認し、ユースケースに適する手法を選択する。
 *  uro:pointSubsamplingInfoには、三次元点群データの間引きの情報を記述する。
 ** コードリスト（PointCloudSpecAttribute_pointSubsamplingInfo.xml）から選択する。
 

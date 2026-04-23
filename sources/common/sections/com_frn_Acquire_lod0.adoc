@@ -4,7 +4,7 @@
 h| LOD ^h| LOD0 
 h| 取得例
 ^.^|
-image::../../sources/images/frn_Acquire_lod00.png[width="20"]
+image::../../sources/images/frn_Acquire_lod00.png[]
 
 h| 説明
 | 外周を取得する。
