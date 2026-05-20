@@ -58,7 +58,7 @@ image::../../sources/images/EAID_D0DDCE77_D82A_4c13_8569_E22EAC808DA4.png[]
 
 
 外部ファイル参照
-<uro:pointCloud>
+<pcl:pointCloud>
   <pcl:PointCloud gml:id=pcl_[UUID]>
     <pcl:mimeType>[三次元点群データのファイルタイプ]</ pcl:mimeType>
     <pcl:pointFile>[三次元点群データへの相対パス]</ pcl:pointFile>
