@@ -44,8 +44,8 @@ image::../../sources/images/EAID_D0DDCE77_D82A_4c13_8569_E22EAC808DA4.png[]
         <uro:class codeSpace="../../codelists/PointCloudSpecAttribute_class.xml">1</uro:class>
         <uro:function codeSpace="../../codelists/PointCloudSpecAttribute_function.xml">2</uro: function>
         <uro:srcScale codeSpace="../../codelists/PointCloudSpecAttribute_srcScale.xml">2500</uro: srcScale>
-        <uro:srcHorizontalAccuracy uom="m">0.5</uro:srcHorizontalAccuracy>
-        <uro:srcVerticalAccuracy uom="m">1.0</uro:srcVerticalAccuracy>
+        <uro:srcRequiredHorizontalAccuracy uom="m">0.5</uro:srcRequiredHorizontalAccuracy>
+        <uro:srcRequiredVerticalAccuracy uom="m">1.0</uro:srcRequiredVerticalAccuracy>
         <uro:srcRequiredPointDensity uom="点/m2">400</uro:srcRequiredPointDensity>
         <uro:srcFilteringCriteria codeSpace="../../codelists/PointCloudSpecAttribute_srcFilteringCriteria. xml">1</uro:srcFilteringCriteria>
         <uro:srcGridInterval uom="m">1</uro:srcGridInterval>
@@ -68,8 +68,8 @@ image::../../sources/images/EAID_D0DDCE77_D82A_4c13_8569_E22EAC808DA4.png[]
         <uro:class codeSpace="../../codelists/PointCloudSpecAttribute_class.xml">1</uro:class>
         <uro:function codeSpace="../../codelists/PointCloudSpecAttribute_function.xml">2</uro: function>
         <uro:srcScale codeSpace="../../codelists/PointCloudSpecAttribute_srcScale.xml">2500</uro: srcScale>
-        <uro:srcHorizontalAccuracy uom="m">0.5</uro:srcHorizontalAccuracy>
-        <uro:srcVerticalAccuracy uom="m">1.0</uro:srcVerticalAccuracy>
+        <uro:srcRequiredHorizontalAccuracy uom="m">0.5</uro:srcRequiredHorizontalAccuracy>
+        <uro:srcRequiredVerticalAccuracy uom="m">1.0</uro:srcRequiredVerticalAccuracy>
         <uro:srcRequiredPointDensity uom="点/m2">400</uro:srcRequiredPointDensity>
         <uro:srcFilteringCriteria codeSpace="../../codelists/PointCloudSpecAttribute_srcFilteringCriteria. xml">1</uro:srcFilteringCriteria>
         <uro:srcGridInterval uom="m">1</uro:srcGridInterval>
@@ -101,8 +101,8 @@ image::../../sources/images/EAID_D0DDCE77_D82A_4c13_8569_E22EAC808DA4.png[]
 ** uro:classが計測データの場合に記述することができ、コードリスト
 （PointCloudSpecAttribute_function.xml）から選択する。
 * uro:srcScaleには、原典の三次元点群データの地図情報レベルを記述する。
-* uro:srcHorizontalAccuracyには、原典の三次元点群データの水平精度を記述する。単位はｍとする。
-* uro:srcVerticalAccuracyには、原典の三次元点群データの垂直精度を記述する。単位はｍとする。
+* uro:srcRequiredHorizontalAccuracyには、原典の三次元点群データの水平精度を記述する。単位はｍとする。
+* uro:srcRequiredVerticalAccuracyには、原典の三次元点群データの垂直精度を記述する。単位はｍとする。
 *  uro:srcRequiredPointDensityには、原典の三次元点群データの要求点密度を記述する。単位は点/m2とする。
 ** 要求点密度とは、作成時に満たすべき点密度を指し、原典の三次元点群データの作成時
 *  uro:srcFilteringCriteriaには、原典の三次元点群データのフィルタリングの状況を記述する。
