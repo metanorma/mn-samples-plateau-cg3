@@ -32,7 +32,7 @@ Dynamizerは、センサーとの接続情報又は時系列データのいず�
   <dyn:endTime>[適用終了時刻]</dyn:endTime>
   <dyn:sensorConnection>
     <dyn:SensorConnection>
-      <dyn:connectionType>[接続種別]</dyn:connectionType>
+      <dyn:connectionType codeSpace="../../codelists/SensorConnection_connectionType.xml">[接続種別]</dyn:connectionType>
       <dyn:observationProperty>[観測対象（属性名等）]</dyn:observationProperty>
       <dyn:uom>[単位（任意）]</dyn:uom>
       <dyn:baseURL>[センサーAPIのURL（任意）]</dyn:baseURL>
@@ -80,8 +80,8 @@ Dynamizerは、センサーとの接続情報又は時系列データのいず�
       <dyn:observationProperty>[観測対象（属性名等）]</dyn:observationProperty>
       <dyn:uom>[単位（任意）]</dyn:uom>
       <dyn:fileLocation>[時系列データファイルへの参照（URI）]</dyn:fileLocation>
-      <dyn:fileType>[時系列データの形式]</dyn:fileType>
-      <dyn:mimeType>[MIME type（任意）]</dyn:mimeType>
+      <dyn:fileType codeSpace="../../codelists/StandardFileTimeseries_fileType.xml">[時系列データの形式]</dyn:fileType>
+      <dyn:mimeType codeSpace="../../codelists/Timeseries_mimeType.xml">[MIME type（任意）]</dyn:mimeType>
     </dyn:StandardFileTimeseries>
   </dyn:dynamicData>
 </dyn:Dynamizer>
