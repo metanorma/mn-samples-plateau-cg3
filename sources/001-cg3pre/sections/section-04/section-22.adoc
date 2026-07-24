@@ -24,6 +24,25 @@ Appearanceパッケージは、地物の表面の情報を地物型として定�
 [[fig-4-22-1]]
 image::../../sources/images/EAID_9E21C99D_ED51_47f8_90E4_7CDA94BEDAC4.png[]
 
+==== TEST: uml:DataType
+[lutaml_xmi_uml,index=my-xmi-index]
+--
+{% assign root_package = context.packages.first %}
+
+{% assign my_pkg = root_package.packages | where: "name", "ISO TC211" | first %}
+
+{% assign my_pkg_pkg = my_pkg.packages | where: "name", "ISO 19153 All" | first %}
+
+{% assign my_pkg_pkg_pkg = my_pkg_pkg.packages | where: "name", "ISO 19153:2013 Geospatial Digital Rights Management Reference Model (GeoDRM RM)" | first %}
+
+{% assign my_pkg_pkg_pkg_pkg = my_pkg_pkg_pkg.packages | where: "name", "Logical Model" | first %}
+
+{% assign my_pkg_pkg_pkg_pkg_pkg = my_pkg_pkg_pkg_pkg.packages | where: "name", "GeoLicense" | first %}
+
+{% assign datatype = my_pkg_pkg_pkg_pkg_pkg.data_types | where: "name", "DataType1NameValuePair" | first %}
+
+{% render "packages_data_type", klass: datatype %}
+--
 
 [[toc4_22_03]]
 ==== アピアランスモデルの応用スキーマ文書
