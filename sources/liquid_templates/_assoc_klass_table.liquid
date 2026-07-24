@@ -1,0 +1,53 @@
+{%- comment -%}
+==============================================
+Initialize global variables and mappings
+==============================================
+{%- endcomment -%}
+
+{%- comment -%}Format upper class name{%- endcomment -%}
+{%- capture upper_klass_name -%}
+{{ klass.generalization.general.name }}
+{%- endcapture -%}
+{%- if upper_klass_name == "" -%}
+  {%- assign upper_klass_name = "&#x2014;" -%}
+{%- endif -%}
+
+{%- comment -%}Format stereotype{%- endcomment -%}
+{%- capture stereotype -%}«{{ klass.stereotype }}»{%- endcapture -%}
+{%- if stereotype == "«»" -%}
+  {%- assign stereotype = " " -%}
+{%- endif -%}
+
+{%- comment -%}Configure table columns{%- endcomment -%}
+{%- if klass.has_guidance? -%}
+  {%- assign cols_format = "1a,1a,2a,1a" -%}
+  {%- assign cols_number = 4 -%}
+  {%- assign cols_header = 3 -%}
+{%- else -%}
+  {%- assign cols_format = "1a,1a,2a" -%}
+  {%- assign cols_number = 3 -%}
+  {%- assign cols_header = 2 -%}
+{%- endif -%}
+
+[cols="{{ cols_format }}"]
+|===
+h| 型の定義 {{ cols_header }}+| {{ klass.definition }}
+h| 上位の型 {{ cols_header }}+| {{ upper_klass_name }}
+h| ステレオタイプ {{ cols_header }}+| {{ stereotype }}
+
+{% if klass.owned_attributes.size > 0 %}
+{{ cols_number }}+h| 自身に定義された属性
+h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? %} h| 補足{%- endif %}
+{% for attr in klass.owned_attributes %}
+  {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
+  {% if attr_cardinality == '..*' %}
+    {% assign attr_cardinality = '0..*' %}
+  {% endif %}
+  
+  | {{ attr.name }}
+  | {{ attr.type }} [{{ attr_cardinality }}]
+  | {{ attr.definition }}
+  {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
+{% endfor %}
+{% endif %}
+|===

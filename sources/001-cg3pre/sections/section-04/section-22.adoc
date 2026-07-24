@@ -80,12 +80,12 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="A
 
 lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="GeoreferencedTexture",template="../../sources/liquid_templates/_klass_table.liquid"]
 
-//[[toc4_22_03_01_07]]
-//====== TextureAssociation
+[[toc4_22_03_01_07]]
+====== TextureAssociation
 
 //※uml:AssociationClass（関連クラス）のためklass非対応の可能性あり
 
-//lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="TextureAssociation",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[name="TextureAssociation",template="../../sources/liquid_templates/_assoc_klass_table.liquid"]
 
 //※↓↓↓BasicTypeを掲載するか確認する↓↓↓※
 
