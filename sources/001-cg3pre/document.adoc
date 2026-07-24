@@ -20,6 +20,8 @@
 :data-uri-image:
 :sort-biblio: false
 
+:lutaml-xmi-index:my-xmi-index;../xmi/plateau_all_packages_export.xmi;config=../config/lutaml_xmi_uml_config.yml
+
 include::sections/change-history.adoc[]
 
 include::sections/abstract-01.adoc[]
