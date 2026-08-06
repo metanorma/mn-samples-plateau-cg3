@@ -2,7 +2,7 @@ name: docker
 
 on:
   push:
-    branches: [ main, firelight-test-march-2025 ]
+    branches: [ main ]
   pull_request:
   workflow_dispatch:
 
@@ -48,7 +48,7 @@ jobs:
     strategy:
       matrix:
         env: [{ name: 'ghp', prefix: '/mn-samples-plateau-cg3/' }, { name: 'mlit', prefix: '/' }]
-        document: [{ dir: "001", url: "plateaudocument" }, { dir: "002", url: "plateaudocument02" }]
+        document: [{ dir: "001-cg3pre", url: "plateaudocument" }, { dir: "002-cg3pre", url: "plateaudocument02" }]
     name: Firelight build - Document ${{ matrix.document.dir }} on ${{ matrix.env.name }}
 
     steps:
@@ -66,7 +66,7 @@ jobs:
 
       - name: "Firelight: commit document ${{ matrix.document.dir }}"
         run: |
-          git add documents/${{ matrix.document.dir }}-v5/document.presentation.xml
+          git add documents/${{ matrix.document.dir }}/document.presentation.xml
           git commit -m "Commit presentation XML"
 
       - name: "Firelight: prepare config for document ${{ matrix.document.dir }}"
