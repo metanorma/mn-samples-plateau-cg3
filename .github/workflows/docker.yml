@@ -74,7 +74,7 @@ jobs:
           cat <<'EOF' >> anafero-config.json
           {
             "version": "0.1",
-            "entryPoint": "file:documents/${{ matrix.document.dir }}-v5/document.presentation.xml",
+            "entryPoint": "file:documents/${{ matrix.document.dir }}/document.presentation.xml",
             "storeAdapters": [
               "git+https://github.com/metanorma/firelight#main/packages/metanorma-xml-store"
             ],
