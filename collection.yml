@@ -15,7 +15,7 @@ bibdata:
     owner:
       name: MLIT Project PLATEAU
       abbreviation: MLIT
-    from: 2024
+    from: 2026
 format:
   - xml
   - html
@@ -28,6 +28,6 @@ manifest:
     - title: PLATEAU Handbook 001 v6_draft
       file: sources/001-cg3pre/document.adoc
       sectionsplit: true
-    - title: PLATEAU Handbook 002 v6_draft
-      file: sources/002-cg3pre/document.adoc
-      sectionsplit: true
+    # - title: PLATEAU Handbook 002 v6_draft
+    #   file: sources/002-cg3pre/document.adoc
+    #   sectionsplit: true
