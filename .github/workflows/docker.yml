@@ -38,6 +38,7 @@ jobs:
       - name: Cache or generate Metanorma XML
         uses: actions-mn/build-and-publish@v2
         with:
+          use-bundler: true
           agree-to-terms: true
           destination: artifact
           artifact-name: mn
