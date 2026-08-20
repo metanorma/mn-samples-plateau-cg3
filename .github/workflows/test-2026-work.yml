@@ -1,0 +1,47 @@
+name: test-2026-work
+
+on:
+  push:
+    branches: [ 2026-plateau-work ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  packages: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: true
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.4
+          bundler-cache: true
+
+      - name: Generate Metanorma collection
+        run: bundle exec metanorma collection collection.yml --agree-to-terms
+
+      - name: Upload collection artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: collection
+          path: |
+            index.html
+            *_index.html
+            document*.html
+            collection.presentation.xml
+            sources/001-cg3pre/cover.html
+            sources/001-cg3pre/index.html
