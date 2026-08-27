@@ -37,6 +37,8 @@ jobs:
 
       - name: Cache or generate Metanorma XML
         uses: actions-mn/build-and-publish@v2
+        env:
+          JAVA_OPTS: "-Xmx5g"
         with:
           use-bundler: true
           agree-to-terms: true
