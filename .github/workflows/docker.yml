@@ -37,6 +37,7 @@ jobs:
 
       - name: Cache or generate Metanorma XML
         uses: actions-mn/build-and-publish@v2
+        timeout-minutes: 150
         env:
           JAVA_OPTS: "-Xmx5g"
         with:
