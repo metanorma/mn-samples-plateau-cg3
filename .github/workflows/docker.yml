@@ -35,22 +35,36 @@ jobs:
       - name: Print Metanorma version
         run: bundle exec metanorma --version
 
-      - name: Cache or generate Metanorma XML
-        uses: actions-mn/build-and-publish@v2
-        timeout-minutes: 150
-        env:
-          JAVA_OPTS: "-Xmx5g"
+      # - name: Cache or generate Metanorma XML
+      #   uses: actions-mn/build-and-publish@v2
+      #   timeout-minutes: 150
+      #   env:
+      #     JAVA_OPTS: "-Xmx5g"
+      #   with:
+      #     use-bundler: true
+      #     agree-to-terms: true
+      #     strict: false
+      #     destination: artifact
+      #     artifact-name: mn
+      #     cache-site-for-manifest: metanorma.yml
+      #     cache-extra-input: |
+      #       sources/xmi/**
+      #       sources/liquid_templates/**
+      #       sources/guidance/**
+      - id: site-gen
+        uses: actions-mn/site-gen@v2
         with:
-          use-bundler: true
           agree-to-terms: true
+          install-fonts: true
+          continue-without-fonts: true
+          use-bundler: true
           strict: false
-          destination: artifact
-          artifact-name: mn
-          cache-site-for-manifest: metanorma.yml
-          cache-extra-input: |
-            sources/xmi/**
-            sources/liquid_templates/**
-            sources/guidance/**
+          progress: true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mn
+          path: _site
+          if-no-files-found: error
 
   fl-build:
     runs-on: ubuntu-latest
