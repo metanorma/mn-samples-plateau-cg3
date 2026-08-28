@@ -28,6 +28,6 @@ manifest:
     - title: PLATEAU Handbook 001 v6_draft
       file: sources/001-cg3pre/document.adoc
       sectionsplit: true
-    # - title: PLATEAU Handbook 002 v6_draft
-    #   file: sources/002-cg3pre/document.adoc
-    #   sectionsplit: true
+    - title: PLATEAU Handbook 002 v6_draft
+      file: sources/002-cg3pre/document.adoc
+      sectionsplit: true
