@@ -31,17 +31,33 @@ jobs:
           ruby-version: 3.4
           bundler-cache: true
 
-      - name: Generate Metanorma collection
-        run: bundle exec metanorma collection collection.yml --agree-to-terms
+      # - name: Generate Metanorma collection
+      #   run: bundle exec metanorma collection collection.yml --agree-to-terms
 
-      - name: Upload collection artifacts
-        uses: actions/upload-artifact@v4
+      # - name: Upload collection artifacts
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: collection
+      #     path: |
+      #       index.html
+      #       *_index.html
+      #       document*.html
+      #       collection.presentation.xml
+      #       sources/001-cg3pre/cover.html
+      #       sources/001-cg3pre/index.html
+
+      - name: Cache or generate Metanorma XML
+        uses: actions-mn/build-and-publish@v2
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
         with:
-          name: collection
-          path: |
-            index.html
-            *_index.html
-            document*.html
-            collection.presentation.xml
-            sources/001-cg3pre/cover.html
-            sources/001-cg3pre/index.html
+          use-bundler: true
+          agree-to-terms: true
+          strict: false
+          destination: artifact
+          artifact-name: mn
+          cache-site-for-manifest: metanorma.yml
+          cache-extra-input: |
+            sources/xmi/**
+            sources/liquid_templates/**
+            sources/guidance/**
