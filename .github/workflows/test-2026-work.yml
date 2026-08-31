@@ -32,16 +32,25 @@ jobs:
           bundler-cache: true
 
       - name: Generate Metanorma collection
-        run: bundle exec metanorma collection collection.yml --agree-to-terms
+        # run: bundle exec metanorma collection collection.yml --agree-to-terms
+        run: bundle exec metanorma sources/001-cg3pre/document.adoc --agree-to-terms
 
       - name: Upload collection artifacts
         uses: actions/upload-artifact@v4
         with:
           name: collection
+          # path: |
+          #   index.html
+          #   *_index.html
+          #   document*.html
+          #   collection.presentation.xml
+          #   sources/001-cg3pre/cover.html
+          #   sources/001-cg3pre/index.html
           path: |
-            index.html
-            *_index.html
-            document*.html
-            collection.presentation.xml
-            sources/001-cg3pre/cover.html
-            sources/001-cg3pre/index.html
+            sources/001-cg3pre/document.err.html
+            sources/001-cg3pre/document.html
+            sources/001-cg3pre/document.pdf
+            sources/001-cg3pre/document.pdf.err
+            sources/001-cg3pre/document.presentation.xml
+            sources/001-cg3pre/document.rxl
+            sources/001-cg3pre/document.xml
