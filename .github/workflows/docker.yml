@@ -53,6 +53,9 @@ jobs:
       #       sources/guidance/**
       - id: site-gen
         uses: actions-mn/site-gen@v2
+        env:
+          JAVA_OPTS: "-Xmx6g"
+          NODE_OPTIONS: "--max-old-space-size=6144"
         with:
           agree-to-terms: true
           install-fonts: true
