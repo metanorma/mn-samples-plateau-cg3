@@ -166,7 +166,7 @@ h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? 
 {% for attr in root.inherited_props %}
   {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
   {%- capture name_col -%}
-    {%- if attr.used? == false -%}
+    {%- if attr.used? == "false" -%}
       ({{ attr.name }}) +
       [{{ attr.gen_name }}]
     {%- else -%}
@@ -184,7 +184,7 @@ h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? 
   | {{ name_col }}
   | {{ type_col }} [{{ attr_cardinality }}]
   | {{ attr.definition }}
-  {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
+  {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == "false" %}tr-style:[background-color: grey]{% endif %}
 {% endfor %}
 {% endif %}
 
@@ -194,7 +194,7 @@ h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? 
 {% for attr in root.owned_props %}
   {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
   {%- capture name_col -%}
-    {%- if attr.used? == false -%}
+    {%- if attr.used? == "false" -%}
       ({{ attr.name }}) +
       [{{ attr.gen_name }}]
     {%- else -%}
@@ -212,7 +212,7 @@ h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? 
   | {{ name_col }}
   | {{ type_col }} [{{ attr_cardinality }}]
   | {{ attr.definition }}
-  {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
+  {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == "false" %}tr-style:[background-color: grey]{% endif %}
 {% endfor %}
 {% endif %}
 
@@ -261,7 +261,7 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
         {% endif %}
 
         {%- capture name_col -%}
-          {%- if attr.used? == false -%}
+          {%- if attr.used? == "false" -%}
             ({{ name_col_role_and_name  | split: ":" | last }}) +
             [{{ attr.gen_name }}]
           {%- else -%}
@@ -282,14 +282,14 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
         | {{ name_col }}
         | {{ attr.type }} [{{ attr_cardinality }}]
         | {{ testdsp }}
-        {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
+        {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == "false" %}tr-style:[background-color: grey]{% endif %}
         {% endif %}
       {% endfor %}
       {% for attr in props_with_same_gen %}
         {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
         {% unless citygml_ns contains attr_upper_klass_name %}
         {%- capture name_col -%}
-          {%- if attr.used? == false -%}
+          {%- if attr.used? == "false" -%}
             ({{ attr.name }}) +
             [{{ attr.gen_name }}]
           {%- else -%}
@@ -315,7 +315,7 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
         | {{ name_col }}
         | {{ attr.type }} [{{ attr_cardinality }}]
         | {{ testdsp }}
-        {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
+        {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == "false" %}tr-style:[background-color: grey]{% endif %}
         {% endunless %}
       {% endfor %}
       {% assign performed = true %}
@@ -373,7 +373,7 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
       {% endif %}
 
         {%- capture name_col -%}
-          {%- if attr.used? == false -%}
+          {%- if attr.used? == "false" -%}
             ({{ attr.name }}) +
             [{{ attr.gen_name }}]
           {%- else -%}
@@ -393,14 +393,14 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
         | {{ name_col }}
         | {{ attr.type }} [{{ attr_cardinality }}]
         | {{ testdsp }}
-        {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
+        {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == "false" %}tr-style:[background-color: grey]{% endif %}
         {% endif %}
       {% endfor %}
       {% for attr in props_with_same_gen %}
         {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
         {% unless citygml_ns contains attr_upper_klass_name %}
         {%- capture name_col -%}
-          {%- if attr.used? == false -%}
+          {%- if attr.used? == "false" -%}
             ({{ attr.name }}) +
             [{{ attr.gen_name }}]
           {%- else -%}
@@ -426,7 +426,7 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
         | {{ name_col }}
         | {{ attr.type }} [{{ attr_cardinality }}]
         | {{ testdsp }}
-        {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
+        {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == "false" %}tr-style:[background-color: grey]{% endif %}
         {% endunless %}
       {% endfor %}
       {% assign performed = true %}
