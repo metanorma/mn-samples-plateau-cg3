@@ -2094,10 +2094,10 @@ classes:
 - name: "::EA_Model::Model::CityGML::Building::Building"
   attributes:
   - name: Core:featureID
-    used: false
+    used: true
     guidance: この属性は使用されていません。
   - name: Core:identifier
-    used: false
+    used: true
     guidance: この属性は使用されていません。
   - name: Core:name
     used: false

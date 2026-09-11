@@ -345,7 +345,7 @@ image::../../sources/images/EAID_607A3B34_6E8B_4387_97F6_2794E8F47A51.png[]
 [[toc4_02_03_01_01]]
 ====== Building
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="Building",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="Building",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_full.yaml"]
 
 [[toc4_02_03_01_02]]
 ====== BuildingPart
