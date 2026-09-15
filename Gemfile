@@ -37,3 +37,10 @@ gem "relaton-render", git: "https://github.com/relaton/relaton-render", branch: 
 
 gem "debug"
 gem "sassc-embedded"
+
+# Pin lutaml-model and moxml to avoid incompatibility between
+# metanorma-document-0.2.9's monkey-patch (children arity 1) and
+# moxml-0.5.x's children(node, entity_bearing:) (arity 2).
+# lutaml-model 0.8.19 is the last version using moxml ~> 0.1.x.
+gem "lutaml-model", "~> 0.8.0", "< 0.8.20"
+gem "moxml", "~> 0.1.0"
