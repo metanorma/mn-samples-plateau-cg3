@@ -2,7 +2,7 @@ name: docker
 
 on:
   push:
-    branches: [ main, 2026-plateau-work ]
+    branches: [ main ]
   pull_request:
   workflow_dispatch:
 
@@ -23,7 +23,7 @@ jobs:
       - name: Set up Swap Space
         uses: pierotofy/set-swap-space@v1.0
         with:
-          swap-size-gb: 10 # Adds 10GB of virtual memory
+          swap-size-gb: 11 # Adds 11GB of virtual memory
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -58,9 +58,9 @@ jobs:
       #       sources/guidance/**
       - id: site-gen
         uses: actions-mn/site-gen@v2
-        env:
-          JAVA_OPTS: "-Xmx6g"
-          NODE_OPTIONS: "--max-old-space-size=6144"
+        # env:
+        #   JAVA_OPTS: "-Xmx6g"
+        #   NODE_OPTIONS: "--max-old-space-size=6144"
         with:
           agree-to-terms: true
           install-fonts: true
