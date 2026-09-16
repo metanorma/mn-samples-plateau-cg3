@@ -32,7 +32,9 @@ gem "metanorma-iso", git: "https://github.com/metanorma/metanorma-iso", ref: "8b
 gem "metanorma-jis", git: "https://github.com/metanorma/metanorma-jis", branch: "main"
 gem "metanorma-plateau", git: "https://github.com/metanorma/metanorma-plateau", branch: "main"
 gem "metanorma-utils", git: "https://github.com/metanorma/metanorma-utils", branch: "main"
-gem "relaton-render", git: "https://github.com/relaton/relaton-render", branch: "main"
+# Pin ref of the gem relaton-render to commit 932b921 to
+# fix uninitialized constant Relaton::Render::General (NameError)
+gem "relaton-render", git: "https://github.com/relaton/relaton-render", ref: "932b921"
 # gem "ea", git: "https://github.com/lutaml/ea", branch: "main"
 
 gem "debug"
