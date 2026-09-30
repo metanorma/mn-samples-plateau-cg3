@@ -1,62 +1,45 @@
-{% assign is_klass_spare = klass.name | slice: 0,5 %}
-{% if is_klass_spare == 'old: ' %}{% continue %}
-{% elsif is_klass_spare == 'Spare' %}{% continue %}
-{% endif %}
-{% assign klass_name = klass.name | downcase | replace: ':', '' | replace: ' ', '_' %}
-[[section-{{ klass.xmi_id }}]]
-.Definition table of &#8220;{{ klass.name }}&#8221;
-[width="100%",cols="a,a,a,a,a,a,a,a"]
+
+{%- capture stereotype -%}«{{ klass.stereotype | default: 'DataType' }}»{%- endcapture -%}
+
+{%- capture upper_klass_name -%}{{ klass.generalization.general.name }}{%- endcapture -%}
+{%- if upper_klass_name == "" -%}
+  {%- assign upper_klass_name = "&#x2014;" -%}
+{%- endif -%}
+
+{% assign owned_props = klass.generalization.owned_props %}
+{% assign assoc_props = klass.generalization.assoc_props %}
+
+[cols="1a,1a,2a"]
 |===
+h| 型の定義 2+| {{ klass.definition | html2adoc }}
+h| 上位の型 2+| {{ upper_klass_name }}
+h| ステレオタイプ 2+| {{ stereotype }}
 
-h|Name: 7+| {{ klass.name }}
-
-h|Definition: 7+| {{ klass.definition | html2adoc }}
-
-h|Stereotype: 7+| {{ klass.stereotype | default: 'interface' }}
-
-{% assign inherited = klass.associations | where: "member_end_type", "inheritance" %}
-{% if inherited.size > 0 %}
-h|Inheritance from: 7+| {{ inherited | map: 'member_end' | join: ", " }}
-{% endif %}
-
-{% assign generalizations = klass.associations | where: "member_end_type", "generalization" %}
-{% if generalizations.size > 0 %}
-h|Generalization of: 7+| {{ generalizations | map: 'member_end' | join: ", " }}
-{% endif %}
-
-h|Abstract: 7+| {% if klass.is_abstract %}True{% else %}False{% endif %}
-{% assign aggregations = klass.associations | where: "member_end_type", "aggregation" %}
-{% if aggregations.size > 0 %}
-.{{aggregations.size | plus: 1}}+h|Associations:
-4+| _Association with_
-| _Obligation_
-| _Maximum occurrence_
-| _Provides_
-
-{% for assoc in aggregations %}
-4+| {{assoc.member_end}}
-| {% if assoc.member_end_cardinality %}{{ assoc.member_end_cardinality.min }}{% endif %}
-| {% if assoc.member_end_cardinality %}{{ assoc.member_end_cardinality.max }}{% endif %}
-| {{ assoc.member_end_attribute_name }}
-
+{% if owned_props.size > 0 %}
+3+h| 自身に定義された属性
+h| 属性名 h| 属性の型及び多重度 h| 定義
+{% for attr in owned_props %}
+  {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
+  {% if attr_cardinality == '..*' %}
+    {% assign attr_cardinality = '0..*' %}
+  {% endif %}
+| {{ attr.name }}
+| {{ attr.type }} {% if attr.cardinality %}[{{ attr_cardinality }}]{% endif %}
+| {{ attr.definition | html2adoc }}
 {% endfor %}
-{% else %}
-h| Associations: 7+| (none)
 {% endif %}
 
-{% if klass.attributes.size > 0 %}
-.{{klass.attributes.size | plus: 1}}+h| Values:
-| _Name_
-6+| _Definition_
-
-{% for value in klass.attributes %}
-| {{value.name}}
-6+| {{ value.definition | html2adoc }}
-
+{% if assoc_props.size > 0 %}
+3+h| 自身に定義された関連役割
+h| 関連役割名 h| 関連役割の型及び多重度 h| 定義
+{% for attr in assoc_props %}
+  {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
+  {% if attr_cardinality == '..*' %}
+    {% assign attr_cardinality = '0..*' %}
+  {% endif %}
+| {{ attr.name }}
+| {{ attr.type }} {% if attr.cardinality %}[{{ attr_cardinality }}]{% endif %}
+| {{ attr.definition | html2adoc }}
 {% endfor %}
-{% else %}
-h| Values:
-7+| (none)
 {% endif %}
-
 |===
