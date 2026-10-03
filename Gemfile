@@ -1,64 +1,49 @@
 source "https://rubygems.org"
 
-# Every git gem below is pinned to the exact revision validated by the green
-# docker workflow run 36686998573 (2026-09-30, render-datatype-tables @
-# d1016052). Together with the committed Gemfile.lock this keeps CI
-# reproducible — floating `branch: "main"` deps previously broke the
-# deployment when upstream changed (issue #14).
-
-gem "metanorma-cli"
+gem "metanorma-cli", git: "https://github.com/metanorma/metanorma-cli", branch: "main" # fleet pins for the 1.3-era flavors
+# metanorma 2.5.5 needs Metanorma::Core::Flavors; rubygems' metanorma-core 0.2.3 lacks it
+gem "metanorma-core", git: "https://github.com/metanorma/metanorma-core", branch: "main"
 gem "ffi"
 
-gem "html2doc", github: "metanorma/html2doc", ref: "4b54dfaf9c96ec6535fed2847bed1c37aa64c49b"
-gem "isodoc-i18n", github: "metanorma/isodoc-i18n", ref: "2f8c4e53d1f14778a08dbd43a7a255100aacc329"
-# feat/extend-lutaml-klass-table as of the green run
-gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", ref: "98a37630d63c787a96400c31be5a63e1d0554e5c"
-
-# Pin ref of the gem relaton-render to commit 932b921 to
-# fix uninitialized constant Relaton::Render::General (NameError)
-gem "relaton-render", github: "relaton/relaton-render", ref: "932b921"
-
-# feat/flavor-table as of the green run (fixes flavor table issue in
-# metanorma-core; iso main registers flavors via Metanorma::Core::Flavors)
-gem "metanorma-core", github: "metanorma/metanorma-core", ref: "2769a00c38dcb47a457a833471cb991c53ec4f75"
-
-gem "metanorma-utils", github: "metanorma/metanorma-utils", ref: "5fda52af4a09cd3492911beb192e71879659491f"
-gem "metanorma-jis", github: "metanorma/metanorma-jis", ref: "d4f18b93d68b96b2a32b69b35ba95a4594106a30"
-gem "metanorma-itu", github: "metanorma/metanorma-itu", ref: "ac05b328e2de1880d88433d3467db215e20378f9"
-gem "metanorma-iec", github: "metanorma/metanorma-iec", ref: "988fb3bca05eb3286e23783a1e7898f1a4aaa06b"
-gem "metanorma-ieee", github: "metanorma/metanorma-ieee", ref: "e8f24ab637657fd7b2f31c09979a61e1c150b9a1"
-gem "metanorma-plateau", github: "metanorma/metanorma-plateau", ref: "6224318a92cd6b3f623455d643dbb418703e0ed0"
-gem "metanorma-iso", github: "metanorma/metanorma-iso", ref: "9b262b719d50f08c3e39bb316c60b4902d216375"
-gem "isodoc", github: "metanorma/isodoc", ref: "d75b68711b01b548aad85cf378bee532d02cd945"
-
-# TEMPORARY: cross-PR branch pins so CI can resolve the in-flight
-# metanorma-standoc namespace rename (Metanorma::Standoc::Document)
-# and the pubid-2 / relaton-bib 2.2 / metanorma-document 0.5 chain.
-# Revert each pin once the corresponding PR merges:
-#   - https://github.com/metanorma/metanorma-standoc/pull/1232
-#   - https://github.com/metanorma/metanorma-document/pull/45
-gem "metanorma-standoc", github: "metanorma/metanorma-standoc", ref: "ec98d74da0d260fd77557e2f04a20884f6d4a2c7"
-gem "metanorma-document", github: "metanorma/metanorma-document", ref: "d1ff9f06b72b1daccfab54799286777a05c8b22b"
-
-# Fix pubid v2 issues
-gem "relaton", "= 3.0.0.pre.alpha.4"
-gem "pubid", "= 2.0.0.pre.alpha.13"
-
-# Exact versions from the green run — later releases broke the build
-gem "lutaml-model", "= 0.8.85"
-gem "moxml", "= 0.5.96"
-gem "leptris", "= 1.9.273.1"
-gem "yeptris", "= 0.6.26.2", force_ruby_platform: true
-gem "ea", "= 0.6.12"
-gem "expressir", "= 2.4.27"
-gem "glossarist", "= 2.14.0"
-gem "lutaml-hal", "= 0.2.5"
-gem "lutaml-lml", "= 0.1.5"
-gem "lutaml-store", "= 0.2.4"
-gem "parsanol", "= 1.3.56"
-gem "tzinfo-data", "= 1.2026.4"
-gem "word-to-markdown", "= 1.2.0"
-
-gem "sassc-embedded"
+gem "html2doc", git: "https://github.com/metanorma/html2doc", branch: "main"
+gem "isodoc-i18n", git: "https://github.com/metanorma/isodoc-i18n", branch: "main"
+gem "isodoc", git: "https://github.com/metanorma/isodoc", branch: "main"
+gem "metanorma-standoc", git: "https://github.com/metanorma/metanorma-standoc", branch: "fix/sectioned-semantic"
+gem "metanorma-document", git: "https://github.com/metanorma/metanorma-document", branch: "main"
+gem "metanorma", git: "https://github.com/metanorma/metanorma", branch: "main"
+gem "metanorma-iso", git: "https://github.com/metanorma/metanorma-iso", branch: "main"
+gem "metanorma-plateau", git: "https://github.com/metanorma/metanorma-plateau", branch: "main"
+# utils#55: GcBudget + in-place asciidoctor table cell buffer (asciidoctor 2.0.x
+# rebuilds the whole cell buffer per appended line = O(N^2); asciidoctor is
+# third-party so the fix is carried in our gem, self-disarming at their fix)
+gem "metanorma-utils", git: "https://github.com/metanorma/metanorma-utils", branch: "perf/asciidoctor-table-buffer"
+gem "mn-requirements", git: "https://github.com/metanorma/mn-requirements", branch: "main"
 gem "debug"
-gem "irb"
+gem "sassc-embedded"
+
+# flavors referenced by the cg3 handbook corpus (citations to JIS/IEC/IEEE/ITU);
+# their gemspecs omit the pubid-* runtime deps
+gem "metanorma-iec"
+gem "metanorma-ieee"
+gem "metanorma-itu"
+gem "metanorma-jis", git: "https://github.com/metanorma/metanorma-jis", branch: "fix/restore-1-2-numbering" # PR 523: 1.2.1 + pubid unpin
+
+# hyperperformance line: git-main for the whole lutaml family
+gem "lutaml-model", github: "lutaml/lutaml-model", branch: "main"
+gem "moxml", github: "lutaml/moxml", branch: "fix/detached-parent-link" # 0.5.97 pin lifted (#308 fixed in 0.5.101); #317 branch until release (0.5.102 stale-parent-link crash)
+gem "leptris" # 1.9.282.0 pin lifted - the malloc regression was moxml#308 (leptris-ruby#362 misattribution)
+gem "ea", github: "lutaml/ea", ref: "a60688f" # bisect: pre-2216da0
+gem "xmi", github: "lutaml/xmi", branch: "main"
+gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "main"
+
+# monogems: relaton + pubid at git main (the metanorma gems already depend on
+# these names; released rubygems snapshots lag the monogem APIs)
+gem "relaton", github: "relaton/relaton", branch: "main"
+gem "relaton-cli", github: "relaton/relaton", branch: "main", glob: "gems/relaton-cli/relaton-cli.gemspec"
+gem "pubid", github: "pubid/pubid", branch: "main"
+# released relaton-render 1.3.0 still pulls the relaton-bib fragment, whose
+# Relaton::RequestError redefinition clashes with the relaton monogem
+# (superclass mismatch); render main depends on the monogem directly.
+# PINNED to a959df8: render main @8b9ef85 (PR #88) dropped
+# Relaton::Render::General, which isodoc main subclasses — NameError at boot
+gem "relaton-render" # 1.3 line; 1.4.0.pre.alpha.2 blocked by isodoc main s ~> 1.3.0 floor
