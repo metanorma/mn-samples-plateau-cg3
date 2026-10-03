@@ -17,6 +17,7 @@
 :mn-document-class: plateau
 :mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:
+:sectioned-semantic:
 :data-uri-image:
 :sort-biblio: false
 
