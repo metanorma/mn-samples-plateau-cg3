@@ -24,6 +24,26 @@ Appearanceパッケージは、地物の表面の情報を地物型として定�
 [[fig-4-22-1]]
 image::../../sources/images/EAID_9E21C99D_ED51_47f8_90E4_7CDA94BEDAC4.png[]
 
+// [sliced-run] ==== TEST: uml:DataType
+// [sliced-run] lutaml_xmi_uml index block disabled for the sliced compile
+// [sliced-run] 
+// [sliced-run] {% assign root_package = context.packages.first %}
+// [sliced-run] 
+// [sliced-run] {% assign my_pkg = root_package.packages | where: "name", "ISO TC211" | first %}
+// [sliced-run] 
+// [sliced-run] {% assign my_pkg_pkg = my_pkg.packages | where: "name", "ISO 19153 All" | first %}
+// [sliced-run] 
+// [sliced-run] {% assign my_pkg_pkg_pkg = my_pkg_pkg.packages | where: "name", "ISO 19153:2013 Geospatial Digital Rights Management Reference Model (GeoDRM RM)" | first %}
+// [sliced-run] 
+// [sliced-run] {% assign my_pkg_pkg_pkg_pkg = my_pkg_pkg_pkg.packages | where: "name", "Logical Model" | first %}
+// [sliced-run] 
+// [sliced-run] {% assign my_pkg_pkg_pkg_pkg_pkg = my_pkg_pkg_pkg_pkg.packages | where: "name", "GeoLicense" | first %}
+// [sliced-run] 
+// [sliced-run] {% assign datatype = my_pkg_pkg_pkg_pkg_pkg.data_types | where: "name", "DataType1NameValuePair" | first %}
+// [sliced-run] 
+// [sliced-run] {% render "packages_data_type", klass: datatype %}
+// [sliced-run] 
+
 [[toc4_22_03]]
 ==== アピアランスモデルの応用スキーマ文書
 
@@ -43,12 +63,12 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="A
 [[toc4_22_03_01_03]]
 ====== TexCoordList
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="TexCoordList",template="../../sources/liquid_templates/_packages_data_type.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="TexCoordList",template="../../sources/liquid_templates/_klass_table.liquid"]
 
 [[toc4_22_03_01_04]]
 ====== TexCoordGen
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="TexCoordGen",template="../../sources/liquid_templates/_packages_data_type.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="TexCoordGen",template="../../sources/liquid_templates/_klass_table.liquid"]
 
 [[toc4_22_03_01_05]]
 ====== X3DMaterial

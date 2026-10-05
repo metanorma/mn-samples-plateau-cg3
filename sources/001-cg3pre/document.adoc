@@ -17,9 +17,10 @@
 :mn-document-class: plateau
 :mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:
-:sectioned-semantic:
+// :sectioned-semantic: # parked on leptris#1528: cleanup-on-leptris segfaults (leptris_xpath_compiled_eval); classic path is the validated green route
 :data-uri-image:
 :sort-biblio: false
+:lutaml-ea-xmi-load: partial
 
 include::sections/change-history.adoc[]
 

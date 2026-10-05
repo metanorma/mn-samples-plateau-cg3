@@ -8,11 +8,11 @@ gem "ffi"
 gem "html2doc", git: "https://github.com/metanorma/html2doc", branch: "main"
 gem "isodoc-i18n", git: "https://github.com/metanorma/isodoc-i18n", branch: "main"
 gem "isodoc", git: "https://github.com/metanorma/isodoc", branch: "main"
-gem "metanorma-standoc", git: "https://github.com/metanorma/metanorma-standoc", branch: "fix/sectioned-semantic"
+gem "metanorma-standoc", git: "https://github.com/metanorma/metanorma-standoc", branch: "perf/cleanup-gc-budget" # #1266 sectioned-semantic + #1269 GcBudget + XmiSlices registration
 gem "metanorma-document", git: "https://github.com/metanorma/metanorma-document", branch: "main"
 gem "metanorma", git: "https://github.com/metanorma/metanorma", branch: "main"
-gem "metanorma-iso", git: "https://github.com/metanorma/metanorma-iso", branch: "main"
-gem "metanorma-plateau", git: "https://github.com/metanorma/metanorma-plateau", branch: "main"
+gem "metanorma-iso", git: "https://github.com/metanorma/metanorma-iso", branch: "perf/validate-gc-budget" # iso#1653: bounded GC window in asset_style
+gem "metanorma-plateau", git: "https://github.com/metanorma/metanorma-plateau", branch: "fix/lazy-load-relaton-render" # metanorma-plateau#407
 # utils#55: GcBudget + in-place asciidoctor table cell buffer (asciidoctor 2.0.x
 # rebuilds the whole cell buffer per appended line = O(N^2); asciidoctor is
 # third-party so the fix is carried in our gem, self-disarming at their fix)
@@ -21,29 +21,44 @@ gem "mn-requirements", git: "https://github.com/metanorma/mn-requirements", bran
 gem "debug"
 gem "sassc-embedded"
 
-# flavors referenced by the cg3 handbook corpus (citations to JIS/IEC/IEEE/ITU);
-# their gemspecs omit the pubid-* runtime deps
-gem "metanorma-iec"
-gem "metanorma-ieee"
-gem "metanorma-itu"
-gem "metanorma-jis", git: "https://github.com/metanorma/metanorma-jis", branch: "fix/restore-1-2-numbering" # PR 523: 1.2.1 + pubid unpin
+# ogc/itu/ieee/iho main carry the relaton-render path-shadowing fixes (their
+# lib/relaton/render/*.rb shadowed relaton-render's require paths and booted
+# the deleted Render::Parse at boot: metanorma-ogc#1014, metanorma-itu#861,
+# metanorma-ieee#816, metanorma-iho#547); flip these pins to branch: "main"
+# once they merge
+gem "metanorma-ogc", github: "metanorma/metanorma-ogc",
+    ref: "3e27e9f87b4300d8995ea9a3d98b10b8d82d0c17"
+gem "metanorma-itu", github: "metanorma/metanorma-itu",
+    ref: "eceb3fbd7720c179ad534c3a26b5a762fbde0f6f"
+gem "metanorma-ieee", github: "metanorma/metanorma-ieee",
+    ref: "6af0ea64a4444c7b201dedb7eb06e5bbceaa4f70"
+gem "metanorma-iho", github: "metanorma/metanorma-iho",
+    ref: "dfcc029ab2e83a1fe4248d382e71b85998275225" # metanorma-iho#547
+gem "metanorma-bipm", github: "metanorma/metanorma-bipm",
+    ref: "43b63a2346d4d9b22c966e0d7a5e0e3c7251ec60" # metanorma-bipm#694
+gem "metanorma-ietf", github: "metanorma/metanorma-ietf", branch: "main" # main replaced its relaton-render stack natively
+# cli pulls iec transitively at 2.9.0, whose front.rb requires the removed
+# standalone pubid-iec; iec main loads IEC identifiers through the pubid
+# monogem instead
+gem "metanorma-iec", github: "metanorma/metanorma-iec",
+    ref: "79d56ed6f969f5b52e9240a42ed77ee230e158c1" # metanorma-iec#594
+gem "metanorma-jis", git: "https://github.com/metanorma/metanorma-jis", branch: "fix/lazy-load-relaton-render" # stacked on PR 523 (1.2.1 + pubid unpin); metanorma-jis#525
 
 # hyperperformance line: git-main for the whole lutaml family
 gem "lutaml-model", github: "lutaml/lutaml-model", branch: "main"
-gem "moxml", github: "lutaml/moxml", branch: "fix/detached-parent-link" # 0.5.97 pin lifted (#308 fixed in 0.5.101); #317 branch until release (0.5.102 stale-parent-link crash)
-gem "leptris" # 1.9.282.0 pin lifted - the malloc regression was moxml#308 (leptris-ruby#362 misattribution)
-gem "ea", github: "lutaml/ea", ref: "a60688f" # bisect: pre-2216da0
+gem "moxml", github: "lutaml/moxml", branch: "perf/node-set-intersection" # NodeSet set-ops + mutator adoption (moxml#317 line), unreleased at 0.5.105
+gem "leptris", "1.9.292.0" # newest published build; testing whether the sectioned-cleanup segfault (leptris_xpath_compiled_eval) survives it; v1.9.300-.302 exist only as tags, not on rubygems
+gem "ea", github: "lutaml/ea", branch: "perf/xmi-slicer" # Ea::Xmi::Slicer
 gem "xmi", github: "lutaml/xmi", branch: "main"
-gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "main"
+gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "perf/xmi-slices" # per-class XMI slices (:lutaml-xmi-slices:)
 
 # monogems: relaton + pubid at git main (the metanorma gems already depend on
 # these names; released rubygems snapshots lag the monogem APIs)
 gem "relaton", github: "relaton/relaton", branch: "main"
 gem "relaton-cli", github: "relaton/relaton", branch: "main", glob: "gems/relaton-cli/relaton-cli.gemspec"
 gem "pubid", github: "pubid/pubid", branch: "main"
-# released relaton-render 1.3.0 still pulls the relaton-bib fragment, whose
-# Relaton::RequestError redefinition clashes with the relaton monogem
-# (superclass mismatch); render main depends on the monogem directly.
-# PINNED to a959df8: render main @8b9ef85 (PR #88) dropped
-# Relaton::Render::General, which isodoc main subclasses — NameError at boot
-gem "relaton-render" # 1.3 line; 1.4.0.pre.alpha.2 blocked by isodoc main s ~> 1.3.0 floor
+# relaton-render main: the ISO 690 rewrite line; light deps (relaton became a
+# development dependency), so it coexists with the relaton monogem. The
+# released 1.3 line still pulls the relaton-bib fragment, whose
+# Relaton::RequestError redefinition clashes with the monogem.
+gem "relaton-render", github: "relaton/relaton-render", branch: "main"
