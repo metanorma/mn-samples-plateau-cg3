@@ -32,10 +32,10 @@ GIT
 
 GIT
   remote: https://github.com/lutaml/moxml.git
-  revision: 9ba4b9b303c127967ed0169f33fd5bed5e1df76a
-  branch: perf/node-set-intersection
+  revision: cd7a7fa53f0268169a7f81cb38993451d1b6f05a
+  branch: main
   specs:
-    moxml (0.5.106)
+    moxml (0.5.107)
 
 GIT
   remote: https://github.com/lutaml/xmi.git
@@ -264,7 +264,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-plateau
-  revision: 1c754997b4750bbbffadc9cbb72ff8e7e662f648
+  revision: df6fb8b399cc286bf4b0f4c5b43c91b0e63ec3d7
   branch: fix/lazy-load-relaton-render
   specs:
     metanorma-plateau (1.3.1)
@@ -273,10 +273,10 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-plugin-lutaml.git
-  revision: 5b0bcf6d44f70e7086364ffcde2c6802f4e6df7e
-  branch: perf/xmi-slices
+  revision: 53be0b742c8e07001af80c79a6b87a9af3f29767
+  branch: main
   specs:
-    metanorma-plugin-lutaml (0.7.53)
+    metanorma-plugin-lutaml (0.7.54)
       asciidoctor
       coradoc (~> 1.1.8)
       ea (>= 0.6.41)
@@ -291,8 +291,8 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-standoc
-  revision: 21fe42a2cd694cfa0fe9a37bea8f98f74d48636c
-  branch: perf/cleanup-gc-budget
+  revision: 3df042a983f5c91dec18c0230583fad5a43ac934
+  branch: main
   specs:
     metanorma-standoc (3.5.0)
       addressable (~> 2.8)
@@ -1398,4 +1398,4 @@ DEPENDENCIES
   xmi!
 
 BUNDLED WITH
-   2.6.9
+   2.5.22
