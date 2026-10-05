@@ -32,7 +32,7 @@ GIT
 
 GIT
   remote: https://github.com/lutaml/moxml.git
-  revision: cd7a7fa53f0268169a7f81cb38993451d1b6f05a
+  revision: b3ed20636f82fd64b668096ec2db772c4ef3828e
   branch: main
   specs:
     moxml (0.5.107)
@@ -431,7 +431,7 @@ GEM
       yeptris (~> 0.6.28)
     chemicalml (0.3.0)
       lutaml-model (~> 0.8.0)
-    cldr-plurals-runtime-rb (1.1.0)
+    cldr-plurals-runtime-rb (1.2.0)
     cliver (0.3.2)
     cnccs (0.1.6)
     concurrent-ruby (1.3.8)
@@ -1398,4 +1398,4 @@ DEPENDENCIES
   xmi!
 
 BUNDLED WITH
-   2.5.22
+   2.6.9
