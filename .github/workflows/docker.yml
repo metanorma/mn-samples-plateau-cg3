@@ -37,7 +37,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.4"
+          ruby-version: "3.3" # the validated stack (lock resolved + byte-parity under 3.3; sqlite3 1.7.3 lacks ruby-3.4 builds)
           working-directory: .
           bundler-cache: true
 
