@@ -58,42 +58,42 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="G
 [[toc4_21_03_01_05]]
 ====== StringAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="StringAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="StringAttribute",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_21_03_01_06]]
 ====== IntAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="IntAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="IntAttribute",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_21_03_01_07]]
 ====== DoubleAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="DoubleAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="DoubleAttribute",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_21_03_01_08]]
 ====== DateAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="DateAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="DateAttribute",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_21_03_01_09]]
 ====== UriAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="UriAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="UriAttribute",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_21_03_01_10]]
 ====== MeasureAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="MeasureAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="MeasureAttribute",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_21_03_01_11]]
 ====== CodeAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="CodeAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="CodeAttribute",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_21_03_01_12]]
 ====== GenericAttributeSet
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="GenericAttributeSet",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Generics",name="GenericAttributeSet",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 
 [[toc4_21_04]]

@@ -82,27 +82,27 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="C
 [[toc4_27_03_01_04]]
 ====== XALAddress
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="XALAddress",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="XALAddress",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_27_03_01_05]]
 ====== ExternalReference
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="ExternalReference",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="ExternalReference",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_27_03_01_06]]
 ====== Occupancy
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="Occupancy",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="Occupancy",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_27_03_01_07]]
 ====== QualifiedArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="QualifiedArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="QualifiedArea",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_27_03_01_08]]
 ====== QualifiedVolume
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="QualifiedVolume",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="QualifiedVolume",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 // [[toc4_27_03_01_09]]
 // ====== CityObjectRelation
@@ -123,12 +123,12 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="C
 [[toc4_27_03_01_11]]
 ====== CityModelMember
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="CityModelMember",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="CityModelMember",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_27_03_01_12]]
 ====== DoubleOrNilReason
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="DoubleOrNilReason",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Core",name="DoubleOrNilReason",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_27_03_01_13]]
 ====== NilReason
