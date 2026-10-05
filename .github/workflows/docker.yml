@@ -21,7 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Gemfile.lock is committed: install exactly what it pins and fail
-      # loudly on Gemfile/lock drift instead of re-resolving git branches
+      # loudly on Gemfile/lock drift instead of re-resolving (an unpinned
+      # relaton-render once let a 3.0.0 pre-alpha slip in at install time)
       BUNDLE_FROZEN: "true"
     steps:
       - name: Set up Swap Space

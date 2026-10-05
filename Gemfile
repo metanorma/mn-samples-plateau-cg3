@@ -54,11 +54,19 @@ gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", bran
 
 # monogems: relaton + pubid at git main (the metanorma gems already depend on
 # these names; released rubygems snapshots lag the monogem APIs)
-gem "relaton", github: "relaton/relaton", branch: "main"
-gem "relaton-cli", github: "relaton/relaton", branch: "main", glob: "gems/relaton-cli/relaton-cli.gemspec"
+# the plateau corpus stack: relaton alpha.4 fragment + relaton-render 1.3 line -
+# the combination the citation rendering (site-gen) actually works with;
+# relaton-render main dropped the flavor-render base classes (Render::I18n et al.)
+gem "relaton", "= 3.0.0.pre.alpha.4"
+gem "relaton-cli", github: "relaton/relaton", tag: "v3.0.0.pre.alpha.4", glob: "gems/relaton-cli/relaton-cli.gemspec"
 gem "pubid", github: "pubid/pubid", branch: "main"
 # relaton-render main: the ISO 690 rewrite line; light deps (relaton became a
 # development dependency), so it coexists with the relaton monogem. The
 # released 1.3 line still pulls the relaton-bib fragment, whose
 # Relaton::RequestError redefinition clashes with the monogem.
-gem "relaton-render", github: "relaton/relaton-render", branch: "main"
+# relaton-render 1.3 line: render main dropped Render::General that the flavor
+# stacks subclass; released 1.3 has it and coexists with the fragment relaton.
+# PINNED to = 1.3.0: unpinned, the resolver grabs the 3.0.0 pre-alphas, which
+# also dropped Render::I18n (metanorma-plateau's render-plateau/i18n.rb
+# subclasses it -> NameError: uninitialized constant Relaton::Render::I18n)
+gem "relaton-render", "= 1.3.0"
