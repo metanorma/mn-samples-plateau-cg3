@@ -85,8 +85,7 @@ jobs:
     strategy:
       matrix:
         env: [{ name: 'ghp', prefix: '/mn-samples-plateau-cg3/' }, { name: 'mlit', prefix: '/' }]
-        # 002 rejoins the matrix with its collection entry (see metanorma.yml)
-        document: [{ dir: "001-cg3pre", url: "plateaudocument" }]
+        document: [{ dir: "001-cg3pre", url: "plateaudocument" }, { dir: "002-cg3pre", url: "plateaudocument02" }]
     name: Firelight build - Document ${{ matrix.document.dir }} on ${{ matrix.env.name }}
 
     steps:
