@@ -17,7 +17,9 @@
 :mn-document-class: plateau
 :mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:
-// :sectioned-semantic: # parked on leptris#1528: cleanup-on-leptris segfaults (leptris_xpath_compiled_eval); classic path is the validated green route
+// :sectioned-semantic: # safe since leptris v1.9.304 (leptris#1528 fixed by deep-copy adoption),
+// but the adoption copies make cleanup exceed the 7 GB budget on this corpus
+// (fatal allocation failure at ~396 s); the classic path is the 7 GB-validated route
 :data-uri-image:
 :sort-biblio: false
 :lutaml-ea-xmi-load: partial
