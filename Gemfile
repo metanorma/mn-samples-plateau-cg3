@@ -48,7 +48,7 @@ gem "metanorma-jis", git: "https://github.com/metanorma/metanorma-jis", branch: 
 gem "lutaml-model", github: "lutaml/lutaml-model", branch: "main"
 gem "moxml", github: "lutaml/moxml", branch: "perf/node-set-intersection" # NodeSet set-ops + mutator adoption (moxml#317 line), unreleased at 0.5.105
 gem "leptris", "1.9.304" # v1.9.304: leptris#1528 fixed (cross-document splice adoption); #1528 was the sectioned-cleanup segfault
-gem "ea", github: "lutaml/ea", branch: "perf/xmi-slicer" # Ea::Xmi::Slicer
+gem "ea", github: "lutaml/ea", ref: "911fb535dd0d0154a1d33b1c75e33b56f45d9301" # ea#86 merged to main (0.6.45): Ea::Xmi partial loading; perf/xmi-slicer flipped in
 gem "xmi", github: "lutaml/xmi", branch: "main"
 gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "perf/xmi-slices" # per-class XMI slices (:lutaml-xmi-slices:)
 

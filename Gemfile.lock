@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/lutaml/ea.git
-  revision: baabc7ee1433ef8d0312720817eb67f1f46bd355
-  branch: perf/xmi-slicer
+  revision: 911fb535dd0d0154a1d33b1c75e33b56f45d9301
+  ref: 911fb535dd0d0154a1d33b1c75e33b56f45d9301
   specs:
-    ea (0.6.36)
+    ea (0.6.45)
       benchmark
       liquid
       lutaml-model
@@ -218,7 +218,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-iso
-  revision: 110bf862d644253ce6c7ab5f9e65e040778f355a
+  revision: 01be5e3a9e82a54490c5ee235edb3875f31f3f05
   branch: perf/validate-gc-budget
   specs:
     metanorma-iso (3.5.0)
@@ -244,7 +244,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-jis
-  revision: 3fd6251ca8005bfc56b5f46d7c303195cb21e86a
+  revision: 615a2217726e43bbdc2c2ebce9f08ce1f5b9dea8
   branch: fix/lazy-load-relaton-render
   specs:
     metanorma-jis (1.2.0)
@@ -273,13 +273,13 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-plugin-lutaml.git
-  revision: 2a81a5b7af121b7ef472c9937ea4d7f75de53958
+  revision: 5b0bcf6d44f70e7086364ffcde2c6802f4e6df7e
   branch: perf/xmi-slices
   specs:
     metanorma-plugin-lutaml (0.7.53)
       asciidoctor
       coradoc (~> 1.1.8)
-      ea
+      ea (>= 0.6.41)
       expressir (~> 2.3, >= 2.3.5)
       isodoc
       liquid
@@ -291,7 +291,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-standoc
-  revision: 4ebdfd66af920d3d8889e7a107c17e12dad83744
+  revision: 21fe42a2cd694cfa0fe9a37bea8f98f74d48636c
   branch: perf/cleanup-gc-budget
   specs:
     metanorma-standoc (3.5.0)
@@ -389,15 +389,15 @@ GEM
       multi_json (~> 1.0)
       net-http-persistent
     ansi (1.6.0)
-    asciichem (0.29.2)
+    asciichem (0.30.1)
       chemicalml (~> 0.3.0)
       elkrb (~> 1.0)
-      lutaml-model (>= 0.8, < 2)
+      lutaml-model (~> 0.8)
       mml (~> 2.3)
-      nokogiri (~> 1.16)
+      moxml (~> 0.5)
       parslet (~> 2.0)
-      plurimath (~> 0.8)
-      relaton-bib (>= 0.1, < 3)
+      plurimath (~> 0.11)
+      relaton-bib (~> 2.1)
       thor (~> 1.3)
     asciidoctor (2.0.26)
     ast (2.4.3)
@@ -829,7 +829,7 @@ GEM
       lutaml-model
       lutaml-store (~> 0.3)
       rainbow (~> 3.0)
-    lutaml-lml (0.1.8)
+    lutaml-lml (0.2.0)
       lutaml-model (~> 0.8.0)
       moxml (>= 0.1.24)
       parsanol (~> 1.3.57)
@@ -1398,4 +1398,4 @@ DEPENDENCIES
   xmi!
 
 BUNDLED WITH
-   2.5.22
+   2.6.9
