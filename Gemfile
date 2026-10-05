@@ -8,11 +8,11 @@ gem "ffi"
 gem "html2doc", git: "https://github.com/metanorma/html2doc", branch: "main"
 gem "isodoc-i18n", git: "https://github.com/metanorma/isodoc-i18n", branch: "main"
 gem "isodoc", git: "https://github.com/metanorma/isodoc", branch: "main"
-gem "metanorma-standoc", git: "https://github.com/metanorma/metanorma-standoc", branch: "perf/cleanup-gc-budget" # #1266 sectioned-semantic + #1269 GcBudget + XmiSlices registration
+gem "metanorma-standoc", git: "https://github.com/metanorma/metanorma-standoc", branch: "main" # #1269 merged: GC budget + partial-load preprocessor registration
 gem "metanorma-document", git: "https://github.com/metanorma/metanorma-document", branch: "main"
 gem "metanorma", git: "https://github.com/metanorma/metanorma", branch: "main"
 gem "metanorma-iso", git: "https://github.com/metanorma/metanorma-iso", branch: "perf/validate-gc-budget" # iso#1653: bounded GC window in asset_style
-gem "metanorma-plateau", git: "https://github.com/metanorma/metanorma-plateau", branch: "fix/lazy-load-relaton-render" # metanorma-plateau#407
+gem "metanorma-plateau", git: "https://github.com/metanorma/metanorma-plateau", branch: "fix/lazy-load-relaton-render" # metanorma-plateau#407 + #408 (Jis render require)
 # utils#55: GcBudget + in-place asciidoctor table cell buffer (asciidoctor 2.0.x
 # rebuilds the whole cell buffer per appended line = O(N^2); asciidoctor is
 # third-party so the fix is carried in our gem, self-disarming at their fix)
@@ -46,11 +46,11 @@ gem "metanorma-jis", git: "https://github.com/metanorma/metanorma-jis", branch: 
 
 # hyperperformance line: git-main for the whole lutaml family
 gem "lutaml-model", github: "lutaml/lutaml-model", branch: "main"
-gem "moxml", github: "lutaml/moxml", branch: "perf/node-set-intersection" # NodeSet set-ops + mutator adoption (moxml#317 line), unreleased at 0.5.105
+gem "moxml", github: "lutaml/moxml", branch: "main" # moxml#324 merged: NodeSet set-ops + mutator adoption
 gem "leptris", "1.9.304" # v1.9.304: leptris#1528 fixed (cross-document splice adoption); #1528 was the sectioned-cleanup segfault
 gem "ea", github: "lutaml/ea", ref: "911fb535dd0d0154a1d33b1c75e33b56f45d9301" # ea#86 merged to main (0.6.45): Ea::Xmi partial loading; perf/xmi-slicer flipped in
 gem "xmi", github: "lutaml/xmi", branch: "main"
-gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "perf/xmi-slices" # per-class XMI slices (:lutaml-xmi-slices:)
+gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "main" # plugin#311 merged (0.7.54): partial load via lutaml-ea-xmi-load
 
 # monogems: relaton + pubid at git main (the metanorma gems already depend on
 # these names; released rubygems snapshots lag the monogem APIs)
