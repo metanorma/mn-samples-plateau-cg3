@@ -244,7 +244,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-jis
-  revision: 615a2217726e43bbdc2c2ebce9f08ce1f5b9dea8
+  revision: a2acb4e218b1e4b677b2335b958c8c42d206ff13
   branch: fix/lazy-load-relaton-render
   specs:
     metanorma-jis (1.2.0)
