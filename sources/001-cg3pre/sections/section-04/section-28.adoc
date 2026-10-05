@@ -54,17 +54,17 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="D
 [[toc4_28_03_01_06]]
 ====== SensorConnection
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="SensorConnection",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="SensorConnection",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_28_03_01_07]]
 ====== TimeseriesComponent
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TimeseriesComponent",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TimeseriesComponent",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_28_03_01_08]]
 ====== TimeValuePair
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TimeValuePair",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TimeValuePair",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 
 

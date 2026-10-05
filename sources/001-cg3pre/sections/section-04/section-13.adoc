@@ -298,17 +298,17 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="C
 [[toc4_13_03_01_14]]
 ====== Elevation
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Elevation",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Elevation",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_13_03_01_15]]
 ====== Height
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Height",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Height",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_13_03_01_16]]
 ====== ConstructionEvent
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="ConstructionEvent",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="ConstructionEvent",template="../../sources/liquid_templates/_packages_data_type.liquid"]
 
 [[toc4_13_03_02]]
 ===== Urban Object（i-UR）
