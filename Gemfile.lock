@@ -1,20 +1,4 @@
 GIT
-  remote: https://github.com/lutaml/ea.git
-  revision: 911fb535dd0d0154a1d33b1c75e33b56f45d9301
-  ref: 911fb535dd0d0154a1d33b1c75e33b56f45d9301
-  specs:
-    ea (0.6.45)
-      benchmark
-      liquid
-      lutaml-model
-      lutaml-path
-      nokogiri (~> 1.18)
-      rubyzip
-      sqlite3
-      thor (~> 1.4)
-      xmi (~> 0.7.5)
-
-GIT
   remote: https://github.com/lutaml/lutaml-model.git
   revision: 07fe7956c4ac583fc406ba7c593a6291c9fcb633
   branch: main
@@ -218,8 +202,8 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-iso
-  revision: 01be5e3a9e82a54490c5ee235edb3875f31f3f05
-  branch: perf/validate-gc-budget
+  revision: 747f00e87fef4df0172ec7c9362074e1e765fdb5
+  branch: main
   specs:
     metanorma-iso (3.5.0)
       metanorma-document (~> 0.5.0)
@@ -243,9 +227,9 @@ GIT
       tzinfo-data
 
 GIT
-  remote: https://github.com/metanorma/metanorma-jis
-  revision: a2acb4e218b1e4b677b2335b958c8c42d206ff13
-  branch: fix/lazy-load-relaton-render
+  remote: https://github.com/metanorma/metanorma-jis.git
+  revision: 9434203bdf56b982b88be819cfa682da7395e3ae
+  ref: 9434203bdf56b982b88be819cfa682da7395e3ae
   specs:
     metanorma-jis (1.2.0)
       japanese_calendar (~> 0)
@@ -263,9 +247,9 @@ GIT
       metanorma-standoc (~> 3.5.0)
 
 GIT
-  remote: https://github.com/metanorma/metanorma-plateau
-  revision: df6fb8b399cc286bf4b0f4c5b43c91b0e63ec3d7
-  branch: fix/lazy-load-relaton-render
+  remote: https://github.com/metanorma/metanorma-plateau.git
+  revision: ebd71e80a45067b6fde3af7185b12d78fd64658a
+  ref: ebd71e80a45067b6fde3af7185b12d78fd64658a
   specs:
     metanorma-plateau (1.3.1)
       metanorma-jis (>= 1.1.6)
@@ -353,17 +337,20 @@ GIT
       parslet
 
 GIT
-  remote: https://github.com/relaton/relaton.git
-  revision: 35bdf3431f50cd5efccd19dbdd031c07f6a5edad
-  tag: v3.0.0.pre.alpha.4
-  glob: gems/relaton-cli/relaton-cli.gemspec
+  remote: https://github.com/relaton/relaton-render.git
+  revision: 247cfc03408fb0ced0c9a98e6c5f0636f71d1e7a
+  branch: main
   specs:
-    relaton-cli (3.0.0.pre.alpha.4)
+    relaton-render (1.3.0)
+      base64
+      bigdecimal
+      isodoc-i18n (~> 1.5.0)
       liquid (~> 5)
-      pubid (~> 2.0.0.pre.alpha.11)
-      relaton (= 3.0.0.pre.alpha.4)
-      thor
-      thor-hollaback
+      metanorma-utils (~> 2)
+      nokogiri
+      relaton-bib (>= 2.0.0.pre.alpha.6, < 3)
+      twitter_cldr
+      tzinfo-data
 
 GEM
   remote: https://rubygems.org/
@@ -462,6 +449,16 @@ GEM
       addressable (~> 2.8)
       base64 (~> 0.3)
     drb (2.2.3)
+    ea (0.6.45)
+      benchmark
+      liquid
+      lutaml-model
+      lutaml-path
+      nokogiri (~> 1.18)
+      rubyzip
+      sqlite3
+      thor (~> 1.4)
+      xmi (~> 0.7.5)
     ebnf (2.6.0)
       base64 (~> 0.2)
       htmlentities (~> 4.3)
@@ -1075,6 +1072,12 @@ GEM
       relaton-core (~> 0.0.8)
       relaton-logger (~> 0.2.0)
       rfcxml (~> 0.4.3)
+    relaton-cli (3.0.0.pre.alpha.4)
+      liquid (~> 5)
+      pubid (~> 2.0.0.pre.alpha.11)
+      relaton (= 3.0.0.pre.alpha.4)
+      thor
+      thor-hollaback
     relaton-core (0.0.13)
       nokogiri (>= 1.16)
       psych (~> 5.2.0)
@@ -1086,16 +1089,6 @@ GEM
       uuidtools
     relaton-logger (0.2.4)
       logger (~> 1.6)
-    relaton-render (1.3.0)
-      base64
-      bigdecimal
-      isodoc-i18n (~> 1.5.0)
-      liquid (~> 5)
-      metanorma-utils (~> 2)
-      nokogiri
-      relaton-bib (>= 2.0.0.pre.alpha.6, < 3)
-      twitter_cldr
-      tzinfo-data
     reline (0.7.0)
       io-console (~> 0.5)
     reverse_markdown (2.1.1)
@@ -1364,7 +1357,7 @@ PLATFORMS
 
 DEPENDENCIES
   debug
-  ea!
+  ea (= 0.6.45)
   ffi
   html2doc!
   isodoc!
@@ -1392,8 +1385,8 @@ DEPENDENCIES
   moxml!
   pubid!
   relaton (= 3.0.0.pre.alpha.4)
-  relaton-cli!
-  relaton-render (= 1.3.0)
+  relaton-cli (= 3.0.0.pre.alpha.4)
+  relaton-render!
   sassc-embedded
   xmi!
 

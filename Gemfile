@@ -11,8 +11,8 @@ gem "isodoc", git: "https://github.com/metanorma/isodoc", branch: "main"
 gem "metanorma-standoc", git: "https://github.com/metanorma/metanorma-standoc", branch: "main" # #1269 merged: GC budget + partial-load preprocessor registration
 gem "metanorma-document", git: "https://github.com/metanorma/metanorma-document", branch: "main"
 gem "metanorma", git: "https://github.com/metanorma/metanorma", branch: "main"
-gem "metanorma-iso", git: "https://github.com/metanorma/metanorma-iso", branch: "perf/validate-gc-budget" # iso#1653: bounded GC window in asset_style
-gem "metanorma-plateau", git: "https://github.com/metanorma/metanorma-plateau", branch: "fix/lazy-load-relaton-render" # metanorma-plateau#407 + #408 (Jis render require)
+gem "metanorma-iso", git: "https://github.com/metanorma/metanorma-iso", branch: "main" # iso#1653 merged (bounded GC window)
+gem "metanorma-plateau", github: "metanorma/metanorma-plateau", ref: "ebd71e80a45067b6fde3af7185b12d78fd64658a" # the tree plateau#409 merges; flip to branch:main at PR
 # utils#55: GcBudget + in-place asciidoctor table cell buffer (asciidoctor 2.0.x
 # rebuilds the whole cell buffer per appended line = O(N^2); asciidoctor is
 # third-party so the fix is carried in our gem, self-disarming at their fix)
@@ -42,13 +42,13 @@ gem "metanorma-ietf", github: "metanorma/metanorma-ietf", branch: "main" # main 
 # monogem instead
 gem "metanorma-iec", github: "metanorma/metanorma-iec",
     ref: "79d56ed6f969f5b52e9240a42ed77ee230e158c1" # metanorma-iec#594
-gem "metanorma-jis", git: "https://github.com/metanorma/metanorma-jis", branch: "fix/lazy-load-relaton-render" # stacked on PR 523 (1.2.1 + pubid unpin); metanorma-jis#525
+gem "metanorma-jis", github: "metanorma/metanorma-jis", ref: "9434203bdf56b982b88be819cfa682da7395e3ae" # the tree jis#523 merges; flip to branch:main at PR
 
 # hyperperformance line: git-main for the whole lutaml family
 gem "lutaml-model", github: "lutaml/lutaml-model", branch: "main"
 gem "moxml", github: "lutaml/moxml", branch: "main" # moxml#324 merged: NodeSet set-ops + mutator adoption
 gem "leptris", "1.9.304" # v1.9.304: leptris#1528 fixed (cross-document splice adoption); #1528 was the sectioned-cleanup segfault
-gem "ea", github: "lutaml/ea", ref: "911fb535dd0d0154a1d33b1c75e33b56f45d9301" # ea#86 merged to main (0.6.45): Ea::Xmi partial loading; perf/xmi-slicer flipped in
+gem "ea", "= 0.6.45" # released; Ea::Xmi partial loading (ea#86)
 gem "xmi", github: "lutaml/xmi", branch: "main"
 gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "main" # plugin#311 merged (0.7.54): partial load via lutaml-ea-xmi-load
 
@@ -58,7 +58,7 @@ gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", bran
 # the combination the citation rendering (site-gen) actually works with;
 # relaton-render main dropped the flavor-render base classes (Render::I18n et al.)
 gem "relaton", "= 3.0.0.pre.alpha.4"
-gem "relaton-cli", github: "relaton/relaton", tag: "v3.0.0.pre.alpha.4", glob: "gems/relaton-cli/relaton-cli.gemspec"
+gem "relaton-cli", "= 3.0.0.pre.alpha.4" # released
 gem "pubid", github: "pubid/pubid", branch: "main"
 # relaton-render main: the ISO 690 rewrite line; light deps (relaton became a
 # development dependency), so it coexists with the relaton monogem. The
@@ -69,4 +69,4 @@ gem "pubid", github: "pubid/pubid", branch: "main"
 # PINNED to = 1.3.0: unpinned, the resolver grabs the 3.0.0 pre-alphas, which
 # also dropped Render::I18n (metanorma-plateau's render-plateau/i18n.rb
 # subclasses it -> NameError: uninitialized constant Relaton::Render::I18n)
-gem "relaton-render", "= 1.3.0"
+gem "relaton-render", github: "relaton/relaton-render", branch: "main" # render-3x line: #111 i18n fallback + #115 per-item language; pin released once it ships
