@@ -69,4 +69,4 @@ gem "pubid", github: "pubid/pubid", branch: "main"
 # PINNED to = 1.3.0: unpinned, the resolver grabs the 3.0.0 pre-alphas, which
 # also dropped Render::I18n (metanorma-plateau's render-plateau/i18n.rb
 # subclasses it -> NameError: uninitialized constant Relaton::Render::I18n)
-gem "relaton-render", github: "relaton/relaton-render", branch: "main" # render-3x line: #111 i18n fallback + #115 per-item language; pin released once it ships
+gem "relaton-render", "= 3.0.0.pre.alpha.19" # released render-3x line: #111 i18n fallback, #115 per-item language, 1.x renderings contract restored
