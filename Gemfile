@@ -58,7 +58,7 @@ gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", bran
 # the combination the citation rendering (site-gen) actually works with;
 # relaton-render main dropped the flavor-render base classes (Render::I18n et al.)
 gem "relaton", "= 3.0.0.pre.alpha.4"
-gem "relaton-cli", "= 3.0.0.pre.alpha.4" # released
+gem "relaton-cli", github: "relaton/relaton", tag: "v3.0.0.pre.alpha.4", glob: "gems/relaton-cli/relaton-cli.gemspec" # the released gem declares pubid (~> 2.0.0.pre.alpha.13), a prerelease dep the rubygems API does not advertise — fresh installs fail the API check against pubid main; revisit when relaton-cli releases past it
 gem "pubid", github: "pubid/pubid", branch: "main"
 # relaton-render main: the ISO 690 rewrite line; light deps (relaton became a
 # development dependency), so it coexists with the relaton monogem. The
