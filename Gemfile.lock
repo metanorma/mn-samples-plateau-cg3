@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/lutaml/lutaml-model.git
-  revision: 07fe7956c4ac583fc406ba7c593a6291c9fcb633
+  revision: 77bc41ee84a2c844062f403d69124627006ff843
   branch: main
   specs:
     lutaml-model (0.8.94)
@@ -16,10 +16,10 @@ GIT
 
 GIT
   remote: https://github.com/lutaml/moxml.git
-  revision: b3ed20636f82fd64b668096ec2db772c4ef3828e
+  revision: a6754231cbc650a892f2305ac3cf15a607a2fd7e
   branch: main
   specs:
-    moxml (0.5.107)
+    moxml (0.5.111)
 
 GIT
   remote: https://github.com/lutaml/xmi.git
@@ -335,22 +335,6 @@ GIT
       lutaml-model
       parsanol (>= 1.3.62)
       parslet
-
-GIT
-  remote: https://github.com/relaton/relaton-render.git
-  revision: 247cfc03408fb0ced0c9a98e6c5f0636f71d1e7a
-  branch: main
-  specs:
-    relaton-render (1.3.0)
-      base64
-      bigdecimal
-      isodoc-i18n (~> 1.5.0)
-      liquid (~> 5)
-      metanorma-utils (~> 2)
-      nokogiri
-      relaton-bib (>= 2.0.0.pre.alpha.6, < 3)
-      twitter_cldr
-      tzinfo-data
 
 GEM
   remote: https://rubygems.org/
@@ -1089,6 +1073,12 @@ GEM
       uuidtools
     relaton-logger (0.2.4)
       logger (~> 1.6)
+    relaton-render (3.0.0.pre.alpha.19)
+      htmlentities
+      liquid (~> 5)
+      lutaml-model
+      nokogiri
+      twitter_cldr
     reline (0.7.0)
       io-console (~> 0.5)
     reverse_markdown (2.1.1)
@@ -1386,7 +1376,7 @@ DEPENDENCIES
   pubid!
   relaton (= 3.0.0.pre.alpha.4)
   relaton-cli (= 3.0.0.pre.alpha.4)
-  relaton-render!
+  relaton-render (= 3.0.0.pre.alpha.19)
   sassc-embedded
   xmi!
 
