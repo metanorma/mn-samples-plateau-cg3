@@ -17,7 +17,10 @@
 :mn-document-class: plateau
 :mn-output-extensions: xml,html,pdf,rxl
 :local-cache-only:
-:sectioned-semantic:
+// :sectioned-semantic: parked: the leptris 1.9.304 cross-document adoption fix
+// (leptris#1528) deep-copies every splice; cleanup exceeds the runner budget
+// (fatal alloc in passthrough_cleanup, run 37416909910). Unlocks with
+// leptris#1548 move/steal adoption for doomed scratch documents.
 :data-uri-image:
 :sort-biblio: false
 :lutaml-ea-xmi-load: partial
