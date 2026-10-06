@@ -20,9 +20,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Gemfile.lock is committed: install exactly what it pins and fail
-      # loudly on Gemfile/lock drift instead of re-resolving (an unpinned
-      # relaton-render once let a 3.0.0 pre-alpha slip in at install time)
+      # Gemfile.lock is committed: install exactly what it pins
       BUNDLE_FROZEN: "true"
     steps:
       - name: Set up Swap Space
@@ -38,7 +36,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3" # the validated stack (lock resolved + byte-parity under 3.3; sqlite3 1.7.3 lacks ruby-3.4 builds)
+          ruby-version: "3.3"
           working-directory: .
           bundler-cache: true
 
