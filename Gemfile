@@ -16,7 +16,7 @@ gem "metanorma-plateau", git: "https://github.com/metanorma/metanorma-plateau", 
 # utils#55: GcBudget + in-place asciidoctor table cell buffer (asciidoctor 2.0.x
 # rebuilds the whole cell buffer per appended line = O(N^2); asciidoctor is
 # third-party so the fix is carried in our gem, self-disarming at their fix)
-gem "metanorma-utils", git: "https://github.com/metanorma/metanorma-utils", branch: "perf/asciidoctor-table-buffer"
+gem "metanorma-utils", git: "https://github.com/metanorma/metanorma-utils", branch: "main" # utils#55 merged (GcBudget + table cell buffer); #56 pending
 gem "mn-requirements", git: "https://github.com/metanorma/mn-requirements", branch: "main"
 gem "debug"
 gem "sassc-embedded"

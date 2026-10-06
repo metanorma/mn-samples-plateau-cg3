@@ -318,8 +318,8 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-utils
-  revision: 391b0b4839e74e90ccc5397bdfc795fb1c974ead
-  branch: perf/asciidoctor-table-buffer
+  revision: 57b01769a8b4e385ba238ad7b8a5194ab60547ef
+  branch: main
   specs:
     metanorma-utils (2.0.7)
       asciidoctor (>= 2)
@@ -1398,4 +1398,4 @@ DEPENDENCIES
   xmi!
 
 BUNDLED WITH
-   2.6.9
+   2.5.22
