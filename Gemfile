@@ -12,7 +12,7 @@ gem "metanorma-standoc", git: "https://github.com/metanorma/metanorma-standoc", 
 gem "metanorma-document", git: "https://github.com/metanorma/metanorma-document", branch: "main"
 gem "metanorma", git: "https://github.com/metanorma/metanorma", branch: "main"
 gem "metanorma-iso", git: "https://github.com/metanorma/metanorma-iso", branch: "main" # iso#1653 merged (bounded GC window)
-gem "metanorma-plateau", github: "metanorma/metanorma-plateau", ref: "ebd71e80a45067b6fde3af7185b12d78fd64658a" # the tree plateau#409 merges; flip to branch:main at PR
+gem "metanorma-plateau", github: "metanorma/metanorma-plateau", branch: "main"
 # utils#55: GcBudget + in-place asciidoctor table cell buffer (asciidoctor 2.0.x
 # rebuilds the whole cell buffer per appended line = O(N^2); asciidoctor is
 # third-party so the fix is carried in our gem, self-disarming at their fix)
@@ -42,12 +42,12 @@ gem "metanorma-ietf", github: "metanorma/metanorma-ietf", branch: "main" # main 
 # monogem instead
 gem "metanorma-iec", github: "metanorma/metanorma-iec",
     ref: "79d56ed6f969f5b52e9240a42ed77ee230e158c1" # metanorma-iec#594
-gem "metanorma-jis", github: "metanorma/metanorma-jis", ref: "9434203bdf56b982b88be819cfa682da7395e3ae" # the tree jis#523 merges; flip to branch:main at PR
+gem "metanorma-jis", github: "metanorma/metanorma-jis", branch: "main"
 
 # hyperperformance line: git-main for the whole lutaml family
 gem "lutaml-model", github: "lutaml/lutaml-model", branch: "main"
 gem "moxml", github: "lutaml/moxml", branch: "main" # moxml#324 merged: NodeSet set-ops + mutator adoption
-gem "leptris", "1.9.304" # v1.9.304: leptris#1528 fixed (cross-document splice adoption); #1528 was the sectioned-cleanup segfault
+gem "leptris", "1.9.317" # v1.9.304: leptris#1528 fixed (cross-document splice adoption); #1528 was the sectioned-cleanup segfault
 gem "ea", "= 0.6.45" # released; Ea::Xmi partial loading (ea#86)
 gem "xmi", github: "lutaml/xmi", branch: "main"
 gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "main" # plugin#311 merged (0.7.54): partial load via lutaml-ea-xmi-load
