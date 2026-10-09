@@ -21,27 +21,23 @@ gem "mn-requirements", git: "https://github.com/metanorma/mn-requirements", bran
 gem "debug"
 gem "sassc-embedded"
 
-# ogc/itu/ieee/iho main carry the relaton-render path-shadowing fixes (their
+# ogc/itu/ieee/iho carried relaton-render path-shadowing fixes (their
 # lib/relaton/render/*.rb shadowed relaton-render's require paths and booted
-# the deleted Render::Parse at boot: metanorma-ogc#1014, metanorma-itu#861,
-# metanorma-ieee#816, metanorma-iho#547); flip these pins to branch: "main"
-# once they merge
-gem "metanorma-ogc", github: "metanorma/metanorma-ogc",
-    ref: "3e27e9f87b4300d8995ea9a3d98b10b8d82d0c17"
-gem "metanorma-itu", github: "metanorma/metanorma-itu",
-    ref: "eceb3fbd7720c179ad534c3a26b5a762fbde0f6f"
+# the deleted Render::Parse at boot). ogc#1014, itu#861, bipm#694 and
+# iec#594 merged: on main. ieee#816 and iho#547 are still open: pinned at
+# the shadowing fixes until they do
+gem "metanorma-ogc", github: "metanorma/metanorma-ogc", branch: "main"
+gem "metanorma-itu", github: "metanorma/metanorma-itu", branch: "main"
 gem "metanorma-ieee", github: "metanorma/metanorma-ieee",
-    ref: "6af0ea64a4444c7b201dedb7eb06e5bbceaa4f70"
+    ref: "6af0ea64a4444c7b201dedb7eb06e5bbceaa4f70" # metanorma-ieee#816 pending
 gem "metanorma-iho", github: "metanorma/metanorma-iho",
-    ref: "dfcc029ab2e83a1fe4248d382e71b85998275225" # metanorma-iho#547
-gem "metanorma-bipm", github: "metanorma/metanorma-bipm",
-    ref: "43b63a2346d4d9b22c966e0d7a5e0e3c7251ec60" # metanorma-bipm#694
+    ref: "dfcc029ab2e83a1fe4248d382e71b85998275225" # metanorma-iho#547 pending
+gem "metanorma-bipm", github: "metanorma/metanorma-bipm", branch: "main"
 gem "metanorma-ietf", github: "metanorma/metanorma-ietf", branch: "main" # main replaced its relaton-render stack natively
 # cli pulls iec transitively at 2.9.0, whose front.rb requires the removed
 # standalone pubid-iec; iec main loads IEC identifiers through the pubid
-# monogem instead
-gem "metanorma-iec", github: "metanorma/metanorma-iec",
-    ref: "79d56ed6f969f5b52e9240a42ed77ee230e158c1" # metanorma-iec#594
+# monogem instead (iec#594 merged)
+gem "metanorma-iec", github: "metanorma/metanorma-iec", branch: "main"
 gem "metanorma-jis", github: "metanorma/metanorma-jis", branch: "main"
 
 # hyperperformance line: git-main for the whole lutaml family
