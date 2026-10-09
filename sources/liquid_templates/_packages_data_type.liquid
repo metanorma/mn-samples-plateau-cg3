@@ -6,7 +6,7 @@
   {%- assign upper_klass_name = "&#x2014;" -%}
 {%- endif -%}
 
-{% assign owned_props = klass.generalization.owned_props %}
+{% assign owned_props = klass.generalization.owned_props | default: klass.owned_attributes %}
 {% assign assoc_props = klass.generalization.assoc_props %}
 
 [cols="1a,1a,2a"]
