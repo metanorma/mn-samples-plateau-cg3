@@ -1,20 +1,4 @@
 GIT
-  remote: https://github.com/lutaml/lutaml-model.git
-  revision: 77bc41ee84a2c844062f403d69124627006ff843
-  branch: main
-  specs:
-    lutaml-model (0.8.94)
-      base64
-      bigdecimal
-      canon
-      concurrent-ruby
-      liquid (>= 4.0, < 6.0)
-      moxml (~> 0.5.84)
-      ostruct
-      rubyzip (~> 3.7)
-      thor
-
-GIT
   remote: https://github.com/lutaml/moxml.git
   revision: a6754231cbc650a892f2305ac3cf15a607a2fd7e
   branch: main
@@ -100,8 +84,8 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-bipm.git
-  revision: 43b63a2346d4d9b22c966e0d7a5e0e3c7251ec60
-  ref: 43b63a2346d4d9b22c966e0d7a5e0e3c7251ec60
+  revision: e1450906498e4482befed97c1e391eeb681ecc80
+  branch: main
   specs:
     metanorma-bipm (2.9.0)
       metanorma-generic (~> 3.5.0)
@@ -166,8 +150,8 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-iec.git
-  revision: 79d56ed6f969f5b52e9240a42ed77ee230e158c1
-  ref: 79d56ed6f969f5b52e9240a42ed77ee230e158c1
+  revision: 1d6d9d104d64a9e1e52b07ae8e20f392b5a0e462
+  branch: main
   specs:
     metanorma-iec (2.9.0)
       metanorma-iso
@@ -175,8 +159,8 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-ieee.git
-  revision: 6af0ea64a4444c7b201dedb7eb06e5bbceaa4f70
-  ref: 6af0ea64a4444c7b201dedb7eb06e5bbceaa4f70
+  revision: 70c40704f59fd4b5780ef868fb3fd51b237773e7
+  branch: main
   specs:
     metanorma-ieee (1.7.0)
       metanorma-standoc
@@ -194,8 +178,8 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-iho.git
-  revision: dfcc029ab2e83a1fe4248d382e71b85998275225
-  ref: dfcc029ab2e83a1fe4248d382e71b85998275225
+  revision: 4e932744631bdc7d9c8d92ab9011aebee5f92252
+  branch: main
   specs:
     metanorma-iho (1.4.0)
       metanorma-generic (~> 3.5.0)
@@ -216,8 +200,8 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-itu.git
-  revision: eceb3fbd7720c179ad534c3a26b5a762fbde0f6f
-  ref: eceb3fbd7720c179ad534c3a26b5a762fbde0f6f
+  revision: 7a7b6575b5f6c2d48338c5690eeac0579fa3cd5e
+  branch: main
   specs:
     metanorma-itu (2.9.2)
       metanorma-iso (>= 3.4.2)
@@ -239,8 +223,8 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-ogc.git
-  revision: 3e27e9f87b4300d8995ea9a3d98b10b8d82d0c17
-  ref: 3e27e9f87b4300d8995ea9a3d98b10b8d82d0c17
+  revision: 0c1cf0daea89fa893d056f855fcf04e6503506d8
+  branch: main
   specs:
     metanorma-ogc (2.10.0)
       iso-639
@@ -829,6 +813,16 @@ GEM
       moxml (>= 0.1.24)
       parsanol (~> 1.3.57)
       ruby-graphviz
+    lutaml-model (0.8.97)
+      base64
+      bigdecimal
+      canon
+      concurrent-ruby
+      liquid (>= 4.0, < 6.0)
+      moxml (~> 0.5.84)
+      ostruct
+      rubyzip (~> 3.7)
+      thor
     lutaml-path (0.1.0)
       parslet
     lutaml-store (0.3.2)
@@ -1325,6 +1319,8 @@ GEM
       ffi (~> 1.15)
 
 PLATFORMS
+  aarch64-darwin
+  aarch64-linux
   aarch64-linux-android
   aarch64-linux-gnu
   aarch64-linux-musl
@@ -1345,6 +1341,8 @@ PLATFORMS
   ruby
   s390x-linux
   s390x-linux-musl
+  x64-mingw-ucrt
+  x64-mingw32
   x86-linux-gnu
   x86-linux-musl
   x86_64-darwin
@@ -1361,7 +1359,7 @@ DEPENDENCIES
   isodoc!
   isodoc-i18n!
   leptris (= 1.9.317)
-  lutaml-model!
+  lutaml-model (= 0.8.97)
   metanorma!
   metanorma-bipm!
   metanorma-cli!
