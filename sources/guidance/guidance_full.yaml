@@ -12886,7 +12886,7 @@ classes:
     used: false
     guidance: 未利用
   - name: Core:newFeature
-    used: false
+    used: true
     guidance: 未利用
   - name: Core:oldFeature
     used: false

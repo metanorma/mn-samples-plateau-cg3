@@ -9,15 +9,27 @@
 {% assign owned_props = klass.generalization.owned_props | default: klass.owned_attributes %}
 {% assign assoc_props = klass.generalization.assoc_props %}
 
-[cols="1a,1a,2a"]
+{%- assign guidance_column = false -%}
+{%- assign guidance_row_style = "tr-style:[background-color: lightyellow]" -%}
+{%- if klass.has_guidance? and guidance_column -%}
+  {%- assign cols_format = "1a,1a,2a,1a" -%}
+  {%- assign cols_number = 4 -%}
+  {%- assign cols_header = 3 -%}
+{%- else -%}
+  {%- assign cols_format = "1a,1a,2a" -%}
+  {%- assign cols_number = 3 -%}
+  {%- assign cols_header = 2 -%}
+{%- endif -%}
+
+[cols="{{ cols_format }}"]
 |===
-h| 型の定義 2+| {{ klass.definition | html2adoc }}
-h| 上位の型 2+| {{ upper_klass_name }}
-h| ステレオタイプ 2+| {{ stereotype }}
+h| 型の定義 {{ cols_header }}+| {{ klass.definition | html2adoc }}
+h| 上位の型 {{ cols_header }}+| {{ upper_klass_name }}
+h| ステレオタイプ {{ cols_header }}+| {{ stereotype }}
 
 {% if owned_props.size > 0 %}
-3+h| 自身に定義された属性
-h| 属性名 h| 属性の型及び多重度 h| 定義
+{{ cols_number }}+h| 自身に定義された属性
+h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? and guidance_column -%} h| 補足{%- endif %}
 {% for attr in owned_props %}
   {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
   {% if attr_cardinality == '..*' %}
@@ -26,12 +38,13 @@ h| 属性名 h| 属性の型及び多重度 h| 定義
 | {{ attr.name }}
 | {{ attr.type }} {% if attr.cardinality %}[{{ attr_cardinality }}]{% endif %}
 | {{ attr.definition | html2adoc }}
+{% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
 {% endfor %}
 {% endif %}
 
 {% if assoc_props.size > 0 %}
-3+h| 自身に定義された関連役割
-h| 関連役割名 h| 関連役割の型及び多重度 h| 定義
+{{ cols_number }}+h| 自身に定義された関連役割
+h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.has_guidance? and guidance_column -%} h| 補足{%- endif %}
 {% for attr in assoc_props %}
   {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
   {% if attr_cardinality == '..*' %}
@@ -40,6 +53,7 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義
 | {{ attr.name }}
 | {{ attr.type }} {% if attr.cardinality %}[{{ attr_cardinality }}]{% endif %}
 | {{ attr.definition | html2adoc }}
+{% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
 {% endfor %}
 {% endif %}
 |===

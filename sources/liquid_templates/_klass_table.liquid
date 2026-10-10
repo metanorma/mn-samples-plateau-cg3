@@ -187,7 +187,7 @@ h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? 
   | {{ name_col }}
   | {{ type_col }} [{{ attr_cardinality }}]
   | {{ attr.definition }}
-  {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
+  {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
 {% endfor %}
 {% endif %}
 
@@ -216,7 +216,7 @@ h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? 
   | {{ name_col }}
   | {{ type_col }} [{{ attr_cardinality }}]
   | {{ attr.definition }}
-  {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
+  {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
 {% endfor %}
 {% endif %}
 
@@ -287,7 +287,7 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
         | {{ name_col }}
         | {{ attr.type }} [{{ attr_cardinality }}]
         | {{ testdsp }}
-        {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
+        {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
         {% endif %}
       {% endfor %}
       {% for attr in props_with_same_gen %}
@@ -320,7 +320,7 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
         | {{ name_col }}
         | {{ attr.type }} [{{ attr_cardinality }}]
         | {{ testdsp }}
-        {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
+        {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
         {% endunless %}
       {% endfor %}
       {% assign performed = true %}
@@ -399,7 +399,7 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
         | {{ name_col }}
         | {{ attr.type }} [{{ attr_cardinality }}]
         | {{ testdsp }}
-        {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
+        {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
         {% endif %}
       {% endfor %}
       {% for attr in props_with_same_gen %}
@@ -432,7 +432,7 @@ h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.ha
         | {{ name_col }}
         | {{ attr.type }} [{{ attr_cardinality }}]
         | {{ testdsp }}
-        {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
+        {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
         {% endunless %}
       {% endfor %}
       {% assign performed = true %}
