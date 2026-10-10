@@ -30,17 +30,17 @@ image::../../sources/images/EAID_30A8A476_A964_45dd_9D4D_50B2B425901C.png[]
 [[toc4_29_03_01_01]]
 ====== Version
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Versioning",name="Version",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Versioning",name="Version",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_vers.yaml"]
 
 [[toc4_29_03_01_02]]
 ====== VersionTransition
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Versioning",name="VersionTransition",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Versioning",name="VersionTransition",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_vers.yaml"]
 
 [[toc4_29_03_01_03]]
 ====== Transaction
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Versioning",name="Transaction",template="../../sources/liquid_templates/_packages_data_type.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Versioning",name="Transaction",template="../../sources/liquid_templates/_packages_data_type.liquid",guidance="../../sources/guidance/guidance_full.yaml"]
 
 
 [[toc4_29_04]]

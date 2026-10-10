@@ -1,0 +1,35 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::Versioning::Version"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractVersion
+    used: true
+    guidance: 未利用
+  - name: Versioning:adeOfVersion
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Versioning::VersionTransition"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractVersionTransition
+    used: true
+    guidance: 未利用
+  - name: Versioning:adeOfVersionTransition
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::CityObjectGroup::Role"
+  attributes:
+  - name: Core:role
+    used: true
+    guidance: 未利用

@@ -1,0 +1,60 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::Appearance::Appearance"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractAppearance
+    used: true
+    guidance: 未利用
+  - name: Appearance:adeOfAppearance
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::ParameterizedTexture"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractSurfaceData
+    used: true
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractTexture
+    used: true
+    guidance: 未利用
+  - name: Appearance:adeOfParameterizedTexture
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::X3DMaterial"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractSurfaceData
+    used: true
+    guidance: 未利用
+  - name: Appearance:adeOfX3DMaterial
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::GeoreferencedTexture"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractSurfaceData
+    used: true
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractTexture
+    used: true
+    guidance: 未利用
+  - name: Appearance:adeOfGeoreferencedTexture
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::TexCoordGen"
+  attributes:
+  - name: Appearance:crs
+    used: true
+    guidance: 未利用

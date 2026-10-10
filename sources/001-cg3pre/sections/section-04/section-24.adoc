@@ -31,11 +31,12 @@ image::../../sources/images/EAID_CCE69980_0DDD_4975_9104_054B018BAA96.png[]
 
 lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="CityObjectGroup",name="CityObjectGroup",template="../../sources/liquid_templates/_klass_table.liquid"]
 
-//[[toc4_24_03_01_02]]
-//====== Role
+[[toc4_24_03_01_02]]
+====== Role
 //※uml:AssociationClass（関連クラス）のためklass非対応の可能性あり
 
-//lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="CityObjectGroup",name="Role",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="CityObjectGroup",name="Role",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_vers.yaml"]
+//lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="CityObjectGroup",name="Role",template="../../sources/liquid_templates/_assoc_klass_table.liquid",guidance="../../sources/guidance/guidance_vers.yaml"]
 
 
 [[toc4_24_04]]
