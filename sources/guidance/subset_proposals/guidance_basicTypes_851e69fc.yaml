@@ -1,0 +1,245 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::booleanList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::booleanOrNilReason"
+  attributes:
+  - name: basicTypes:value
+    used: false
+    guidance: 未利用
+  - name: basicTypes:nilReason
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::booleanOrNilReasonList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::Code"
+  attributes:
+  - name: Text:characterSet
+    used: false
+    guidance: 未利用
+  - name: Text:elements
+    used: false
+    guidance: 未利用
+  - name: Text:maxLength
+    used: false
+    guidance: 未利用
+  - name: Text:size
+    used: false
+    guidance: 未利用
+  - name: basicTypes:codespace
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::CodeList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+  - name: basicTypes:codeSpace
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::CodeOrNilReasonList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+  - name: basicTypes:codeSpace
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::Coordinates"
+  attributes:
+  - name: Text:characterSet
+    used: false
+    guidance: 未利用
+  - name: Text:elements
+    used: false
+    guidance: 未利用
+  - name: Text:maxLength
+    used: false
+    guidance: 未利用
+  - name: Text:size
+    used: false
+    guidance: 未利用
+  - name: basicTypes:decimal
+    used: false
+    guidance: 未利用
+  - name: basicTypes:cs
+    used: false
+    guidance: 未利用
+  - name: basicTypes:ts
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::doubleList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::doubleOrNilReason"
+  attributes:
+  - name: basicTypes:value
+    used: false
+    guidance: 未利用
+  - name: basicTypes:nilReason
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::doubleOrNilReasonList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::integerList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::integerOrNilReason"
+  attributes:
+  - name: basicTypes:value
+    used: false
+    guidance: 未利用
+  - name: basicTypes:nilReason
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::integerOrNilReasonList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::MeasureList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+  - name: basicTypes:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::MeasureOrNilReason"
+  attributes:
+  - name: basicTypes:value
+    used: false
+    guidance: 未利用
+  - name: basicTypes:nilReason
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::MeasureOrNilReasonList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+  - name: basicTypes:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::NameList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::NameOrNilReason"
+  attributes:
+  - name: basicTypes:value
+    used: false
+    guidance: 未利用
+  - name: basicTypes:nilReason
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::NameOrNilReasonList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::NCNameList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::NilReason"
+  attributes:
+  - name: basicTypes:NilReasonEnumeration
+    used: false
+    guidance: 未利用
+  - name: basicTypes:URI
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::NilReasonEnumeration"
+  attributes:
+  - name: basicTypes:inapplicable
+    used: false
+    guidance: 未利用
+  - name: basicTypes:missing
+    used: false
+    guidance: 未利用
+  - name: basicTypes:template
+    used: false
+    guidance: 未利用
+  - name: basicTypes:unknown
+    used: false
+    guidance: 未利用
+  - name: basicTypes:withheld
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::PositiveInteger"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::QNameList"
+  attributes:
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+  - name: basicTypes:list
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::stringOrNilReason"
+  attributes:
+  - name: basicTypes:value
+    used: false
+    guidance: 未利用
+  - name: basicTypes:nilReason
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::basicTypes::URI"
+  attributes:
+  - name: Text:characterSet
+    used: false
+    guidance: 未利用
+  - name: Text:elements
+    used: false
+    guidance: 未利用
+  - name: Text:maxLength
+    used: false
+    guidance: 未利用
+  - name: Text:size
+    used: false
+    guidance: 未利用

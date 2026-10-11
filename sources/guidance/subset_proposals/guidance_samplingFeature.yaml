@@ -1,0 +1,29 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Sampling Features::samplingFeature::SF_SamplingFeature"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Sampling Features::samplingFeature::SF_SamplingFeatureCollection"
+  attributes:
+  - name: samplingFeature:member
+    used: false
+    guidance: 未利用

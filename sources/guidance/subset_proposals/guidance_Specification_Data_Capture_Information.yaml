@@ -1,0 +1,11 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:2007 Data Product
+    Specifications::Specification Data Capture Information::DPS_DataCaptureInformation"
+  attributes:
+  - name: Specification Data Capture Information:dataCaptureStatement
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:captureScope
+    used: false
+    guidance: 未利用

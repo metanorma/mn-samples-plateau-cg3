@@ -1,0 +1,26 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecDataQuality::ConformanceQualityLevel"
+  attributes:
+  - name: SpecDataQuality:requirementId
+    used: false
+    guidance: 未利用
+  - name: SpecDataQuality:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecDataQuality::DataQuality"
+  attributes:
+  - name: SpecDataQuality:dataQuality
+    used: false
+    guidance: 未利用
+  - name: SpecScope:scope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecDataQuality::DataQualitySection"
+  attributes:
+  - name: SpecDataQuality:dataQuality
+    used: false
+    guidance: 未利用

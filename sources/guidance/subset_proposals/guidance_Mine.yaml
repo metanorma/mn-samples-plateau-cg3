@@ -1,0 +1,8 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Coverage::Mine::Mine"
+  attributes:
+  - name: Discrete Coverages:oreGrade
+    used: false
+    guidance: 未利用

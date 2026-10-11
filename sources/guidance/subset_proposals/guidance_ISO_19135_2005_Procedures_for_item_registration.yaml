@@ -1,0 +1,425 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_AdditionInformation"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:justification
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:status
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:disposition
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:registerManagerNotes
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:sponsor
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_AlternativeExpression"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:definition
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:description
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:locale
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_AlternativeName"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:locale
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_AmendmentInformation"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:justification
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:status
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:disposition
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:registerManagerNotes
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:amendmentType
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:sponsor
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_ClarificationInformation"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:justification
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:status
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:disposition
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:registerManagerNotes
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:proposedChange
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:sponsor
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_FieldOfApplication"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_ItemClass"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:technicalStandard
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_Locale"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:language
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:country
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:characterEncoding
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:citation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_ProposalManagementInformation"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:justification
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:status
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:disposition
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:registerManagerNotes
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:sponsor
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_Reference"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:itemIdentifierAtSource
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:similarity
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:referenceText
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:notes
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:sourceCitation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_ReferenceSource"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:citation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_Register"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:contentSummary
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:operatingLanguage
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeLanguages
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:version
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateOfLastChange
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:citation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:containedItem
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:containedItemClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:manager
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:owner
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:submitter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_RegisterItem"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:status
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:definition
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:description
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:additionInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:amendmentInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:clarificationInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:itemClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationLineage
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationSource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_RegisterManager"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:contact
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_RegisterOwner"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:contact
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_SimilarityToSource"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:identical
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:restyled
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:contextAdded
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:generalization
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specialization
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:unspecified
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_SubmittingOrganization"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:contact
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_SubregisterDescription"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:status
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:definition
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:description
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:operatingLanguage
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:additionInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:amendmentInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:clarificationInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:itemClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationLineage
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationSource
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:containedItemClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:subregisterManager
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135:2005 Procedures for
+    item registration::RE_Version"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:versionNumber
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:versionDate
+    used: false
+    guidance: 未利用

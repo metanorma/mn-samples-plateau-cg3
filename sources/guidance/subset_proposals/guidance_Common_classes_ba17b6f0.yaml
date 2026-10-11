@@ -1,0 +1,155 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Common classes::MD_BrowseGraphic"
+  attributes:
+  - name: Common classes:fileName
+    used: false
+    guidance: 未利用
+  - name: Common classes:fileDescription
+    used: false
+    guidance: 未利用
+  - name: Common classes:fileType
+    used: false
+    guidance: 未利用
+  - name: Common classes:imageConstraints
+    used: false
+    guidance: 未利用
+  - name: Common classes:linkage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Common classes::MD_Identifier"
+  attributes:
+  - name: Common classes:authority
+    used: false
+    guidance: 未利用
+  - name: Common classes:code
+    used: false
+    guidance: 未利用
+  - name: Common classes:codeSpace
+    used: false
+    guidance: 未利用
+  - name: Common classes:version
+    used: false
+    guidance: 未利用
+  - name: Common classes:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Common classes::MD_Scope"
+  attributes:
+  - name: Common classes:level
+    used: false
+    guidance: 未利用
+  - name: Common classes:extent
+    used: false
+    guidance: 未利用
+  - name: Common classes:levelDescription
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Common classes::MD_ScopeCode"
+  attributes:
+  - name: Common classes:attribute
+    used: false
+    guidance: 未利用
+  - name: Common classes:attributeType
+    used: false
+    guidance: 未利用
+  - name: Common classes:collectionHardware
+    used: false
+    guidance: 未利用
+  - name: Common classes:collectionSession
+    used: false
+    guidance: 未利用
+  - name: Common classes:dataset
+    used: false
+    guidance: 未利用
+  - name: Common classes:series
+    used: false
+    guidance: 未利用
+  - name: Common classes:nonGeographicDataset
+    used: false
+    guidance: 未利用
+  - name: Common classes:dimensionGroup
+    used: false
+    guidance: 未利用
+  - name: Common classes:feature
+    used: false
+    guidance: 未利用
+  - name: Common classes:featureType
+    used: false
+    guidance: 未利用
+  - name: Common classes:propertyType
+    used: false
+    guidance: 未利用
+  - name: Common classes:fieldSession
+    used: false
+    guidance: 未利用
+  - name: Common classes:software
+    used: false
+    guidance: 未利用
+  - name: Common classes:service
+    used: false
+    guidance: 未利用
+  - name: Common classes:model
+    used: false
+    guidance: 未利用
+  - name: Common classes:tile
+    used: false
+    guidance: 未利用
+  - name: Common classes:metadata
+    used: false
+    guidance: 未利用
+  - name: Common classes:initiative
+    used: false
+    guidance: 未利用
+  - name: Common classes:sample
+    used: false
+    guidance: 未利用
+  - name: Common classes:document
+    used: false
+    guidance: 未利用
+  - name: Common classes:repository
+    used: false
+    guidance: 未利用
+  - name: Common classes:aggregate
+    used: false
+    guidance: 未利用
+  - name: Common classes:product
+    used: false
+    guidance: 未利用
+  - name: Common classes:collection
+    used: false
+    guidance: 未利用
+  - name: Common classes:coverage
+    used: false
+    guidance: 未利用
+  - name: Common classes:application
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Common classes::MD_ScopeDescription"
+  attributes:
+  - name: Common classes:attributes
+    used: false
+    guidance: 未利用
+  - name: Common classes:features
+    used: false
+    guidance: 未利用
+  - name: Common classes:featureInstances
+    used: false
+    guidance: 未利用
+  - name: Common classes:attributeInstances
+    used: false
+    guidance: 未利用
+  - name: Common classes:dataset
+    used: false
+    guidance: 未利用
+  - name: Common classes:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Common classes::URI"
+  attributes: []

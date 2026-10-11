@@ -1,0 +1,65 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19155 All::ISO 19155:2012 Place Identifier
+    Architecture::PI_Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19155 All::ISO 19155:2012 Place Identifier
+    Architecture::PI_MatchedPISet"
+  attributes:
+  - name: ISO 19155:2012 Place Identifier Architecture:equivalent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19155 All::ISO 19155:2012 Place Identifier
+    Architecture::PI_MatchingService"
+  attributes:
+  - name: ISO 19155:2012 Place Identifier Architecture:rs
+    used: false
+    guidance: 未利用
+  - name: ISO 19155:2012 Place Identifier Architecture:table
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19155 All::ISO 19155:2012 Place Identifier
+    Architecture::PI_MatchingTable"
+  attributes:
+  - name: ISO 19155:2012 Place Identifier Architecture:rs
+    used: false
+    guidance: 未利用
+  - name: ISO 19155:2012 Place Identifier Architecture:set
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19155 All::ISO 19155:2012 Place Identifier
+    Architecture::PI_PlaceIdentifier"
+  attributes:
+  - name: ISO 19155:2012 Place Identifier Architecture:rs
+    used: false
+    guidance: 未利用
+  - name: ISO 19155:2012 Place Identifier Architecture:value
+    used: false
+    guidance: 未利用
+  - name: ISO 19155:2012 Place Identifier Architecture:validPeriod
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19155 All::ISO 19155:2012 Place Identifier
+    Architecture::PI_ReferenceSystem"
+  attributes:
+  - name: ISO 19155:2012 Place Identifier Architecture:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19155:2012 Place Identifier Architecture:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: ISO 19155:2012 Place Identifier Architecture:definition
+    used: false
+    guidance: 未利用
+  - name: ISO 19155:2012 Place Identifier Architecture:pi
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19155 All::ISO 19155:2012 Place Identifier
+    Architecture::PI_RSService"
+  attributes:
+  - name: ISO 19155:2012 Place Identifier Architecture:rs
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19155 All::ISO 19155:2012 Place Identifier
+    Architecture::PI_Service"
+  attributes: []

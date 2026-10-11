@@ -1,0 +1,65 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ValueObjectTypes::LC_PermittedIntegerValueType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ValueObjectTypes::LC_PermittedPercentageRange"
+  attributes:
+  - name: LC_ValueObjectTypes:baseValue
+    used: false
+    guidance: 未利用
+  - name: LC_ValueObjectTypes:maxValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ValueObjectTypes::LC_PermittedPercentageValue"
+  attributes:
+  - name: LC_ValueObjectTypes:baseValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ValueObjectTypes::LC_PermittedPercentageValueType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ValueObjectTypes::LC_PermittedPosIntegerRange"
+  attributes:
+  - name: LC_ValueObjectTypes:baseValue
+    used: false
+    guidance: 未利用
+  - name: LC_ValueObjectTypes:maxValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ValueObjectTypes::LC_PermittedPosIntegerValue"
+  attributes:
+  - name: LC_ValueObjectTypes:baseValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ValueObjectTypes::LC_PermittedPosRealRange"
+  attributes:
+  - name: LC_ValueObjectTypes:baseValue
+    used: false
+    guidance: 未利用
+  - name: LC_ValueObjectTypes:maxValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ValueObjectTypes::LC_PermittedPosRealValue"
+  attributes:
+  - name: LC_ValueObjectTypes:baseValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ValueObjectTypes::LC_PermittedRealValue"
+  attributes:
+  - name: LC_ValueObjectTypes:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ValueObjectTypes::LC_PermittedRealValueType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ValueObjectTypes::LC_ValueObject"
+  attributes: []

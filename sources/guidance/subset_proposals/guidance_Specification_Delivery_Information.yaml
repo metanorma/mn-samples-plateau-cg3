@@ -1,0 +1,50 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:2007 Data Product
+    Specifications::Specification Delivery Information::DPS_DeliveryFormat"
+  attributes:
+  - name: Specification Delivery Information:formatName
+    used: false
+    guidance: 未利用
+  - name: Specification Delivery Information:version
+    used: false
+    guidance: 未利用
+  - name: Specification Delivery Information:specification
+    used: false
+    guidance: 未利用
+  - name: Specification Delivery Information:fileStructure
+    used: false
+    guidance: 未利用
+  - name: Specification Delivery Information:language
+    used: false
+    guidance: 未利用
+  - name: Specification Delivery Information:characterSet
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:2007 Data Product
+    Specifications::Specification Delivery Information::DPS_DeliveryInformation"
+  attributes:
+  - name: Specification Delivery Information:deliveryFormat
+    used: false
+    guidance: 未利用
+  - name: Specification Delivery Information:deliveryMedium
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:deliveryScope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:2007 Data Product
+    Specifications::Specification Delivery Information::DPS_DeliveryMedium"
+  attributes:
+  - name: Specification Delivery Information:unitsOfDelivery
+    used: false
+    guidance: 未利用
+  - name: Specification Delivery Information:transferSize
+    used: false
+    guidance: 未利用
+  - name: Specification Delivery Information:mediumName
+    used: false
+    guidance: 未利用
+  - name: Specification Delivery Information:otherDeliveryInformation
+    used: false
+    guidance: 未利用

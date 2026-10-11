@@ -1,0 +1,29 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::RadiometryCalibrationFacility::CA_2DReflectanceTarget"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::RadiometryCalibrationFacility::CA_3DReflectanceTarget"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::RadiometryCalibrationFacility::CA_Active"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::RadiometryCalibrationFacility::CA_ObjectToObject"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::RadiometryCalibrationFacility::CA_Passive"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::RadiometryCalibrationFacility::CA_RadiometryCalibrationFacility"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::RadiometryCalibrationFacility::CA_RadiometryInFlight"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::RadiometryCalibrationFacility::CA_RadiometryLaboratory"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::RadiometryCalibrationFacility::CA_RadiometryTestRange"
+  attributes: []

@@ -1,0 +1,314 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Russian Federation (Profile D8)::RF_ConstructionType"
+  attributes:
+  - name: Russian Federation (Profile D8):pipeline
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):bridge
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):tunnel
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Russian Federation (Profile D8)::RF_LandParcel"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):parcelID
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Russian Federation (Profile D8)::RF_LegalSpaceBuilding"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):buildingID
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Russian Federation (Profile D8)::RF_LegalSpaceBuildingUnit"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):buildingUnitID
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+  - name: 'Russian Federation (Profile D8):'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Russian Federation (Profile D8)::RF_LegalSpaceOtherConstruction"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):constructionID
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Russian Federation (Profile D8)::RF_LegalSpaceUnfinshed"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):unfinishedID
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):type
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):start
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):endExpected
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Russian Federation (Profile D8)::RF_UnfinishedType"
+  attributes:
+  - name: Russian Federation (Profile D8):building
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):pipeline
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):bridge
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):tunnel
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Russian Federation (Profile D8)::RF_ConstructionType"
+  attributes:
+  - name: Russian Federation (Profile D8):pipeline
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):bridge
+    used: false
+    guidance: 未利用
+  - name: Russian Federation (Profile D8):tunnel
+    used: false
+    guidance: 未利用

@@ -1,0 +1,24 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:2007 Data Product
+    Specifications::Specification Content and Structure::Specification Coverages and
+    Images::DPS_CoverageInformation"
+  attributes:
+  - name: Specification Content and Structure:narrativeDescription
+    used: false
+    guidance: 未利用
+  - name: Specification Coverages and Images:coverageID
+    used: false
+    guidance: 未利用
+  - name: Specification Coverages and Images:coverageDescription
+    used: false
+    guidance: 未利用
+  - name: Specification Coverages and Images:coverageType
+    used: false
+    guidance: 未利用
+  - name: Specification Coverages and Images:specification
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:contentScope
+    used: false
+    guidance: 未利用

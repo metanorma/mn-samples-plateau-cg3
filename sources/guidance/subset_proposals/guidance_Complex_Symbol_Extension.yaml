@@ -1,0 +1,68 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Complex Symbol Extension::SY_RepeatedPointSymbolLineStyle"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Complex Symbol Extension:unitLength
+    used: false
+    guidance: 未利用
+  - name: Complex Symbol Extension:masking
+    used: false
+    guidance: 未利用
+  - name: Complex Symbol Extension:placement
+    used: false
+    guidance: 未利用
+  - name: Complex Symbol Extension:orientation
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+  - name: Symbol:patternIcon
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Complex Symbol Extension::SY_HatchFill"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Complex Symbol Extension:direction
+    used: false
+    guidance: 未利用
+  - name: Complex Symbol Extension:interval
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+  - name: Symbol:hatchElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Complex Symbol Extension::SY_PatternFill"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Complex Symbol Extension:tileOffset
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+  - name: Symbol:patternIcon
+    used: false
+    guidance: 未利用

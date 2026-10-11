@@ -1,0 +1,142 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::Other Location Services::Directory::DI_AbstractLocation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Informative::Other Location Services::Directory::DI_DirectoryRequest"
+  attributes:
+  - name: Directory:directoryType[1..*]
+    used: false
+    guidance: 未利用
+  - name: Directory:name[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:category[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:code[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:address[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:keywords[0..*]
+    used: false
+    guidance: 未利用
+  - name: Directory:proximityType[0..*]
+    used: false
+    guidance: 未利用
+  - name: Directory:sourceLocation[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:minDistance[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:maxDistance[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:hotZone[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:maxResponses
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Other Location Services::Directory::DI_DirectoryResponse"
+  attributes:
+  - name: Directory:directoryType
+    used: false
+    guidance: 未利用
+  - name: Directory:name
+    used: false
+    guidance: 未利用
+  - name: Directory:type
+    used: false
+    guidance: 未利用
+  - name: Directory:description
+    used: false
+    guidance: 未利用
+  - name: Directory:address
+    used: false
+    guidance: 未利用
+  - name: Directory:email[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:web
+    used: false
+    guidance: 未利用
+  - name: Directory:map
+    used: false
+    guidance: 未利用
+  - name: Directory:otherInfo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Other Location Services::Directory::DI_DirectoryType"
+  attributes:
+  - name: Directory:yellowPages-business
+    used: false
+    guidance: 未利用
+  - name: Directory:greenPages
+    used: false
+    guidance: 未利用
+  - name: Directory:bluePages-government
+    used: false
+    guidance: 未利用
+  - name: Directory:whitePages-names
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Other Location Services::Directory::DI_Location"
+  attributes:
+  - name: Directory:position[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:address[0..1]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Other Location Services::Directory::DI_PointOfInterest"
+  attributes:
+  - name: Directory:name
+    used: false
+    guidance: 未利用
+  - name: Directory:type
+    used: false
+    guidance: 未利用
+  - name: Directory:category
+    used: false
+    guidance: 未利用
+  - name: Directory:code
+    used: false
+    guidance: 未利用
+  - name: Directory:description[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:phoneNumber[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:keywords[0..*]
+    used: false
+    guidance: 未利用
+  - name: Directory:email[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:infoURL[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:mapURL[0..1]
+    used: false
+    guidance: 未利用
+  - name: Directory:location
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Other Location Services::Directory::DI_ProximityType"
+  attributes:
+  - name: Directory:linearDistance
+    used: false
+    guidance: 未利用
+  - name: Directory:boundingPolygon
+    used: false
+    guidance: 未利用
+  - name: Directory:drivingDistance
+    used: false
+    guidance: 未利用
+  - name: Directory:walkingDistance
+    used: false
+    guidance: 未利用

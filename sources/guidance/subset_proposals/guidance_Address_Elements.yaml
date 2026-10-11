@@ -1,0 +1,176 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_Addressee"
+  attributes:
+  - name: Address Elements:name
+    used: false
+    guidance: 未利用
+  - name: Address Elements:prefix
+    used: false
+    guidance: 未利用
+  - name: Address Elements:postfix
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_AddressElement"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_Building"
+  attributes:
+  - name: Address Elements:number
+    used: false
+    guidance: 未利用
+  - name: Address Elements:subdivision
+    used: false
+    guidance: 未利用
+  - name: Address Elements:buildingName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_ListNamedPlaces"
+  attributes:
+  - name: Address Elements:name
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_NamedPlace"
+  attributes:
+  - name: Address Elements:name
+    used: false
+    guidance: 未利用
+  - name: Address Elements:regionOrCountry
+    used: false
+    guidance: 未利用
+  - name: Address Elements:level
+    used: false
+    guidance: 未利用
+  - name: Address Elements:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_NamedPlaceClassification"
+  attributes:
+  - name: Address Elements:country
+    used: false
+    guidance: 未利用
+  - name: Address Elements:countrySubdividsion
+    used: false
+    guidance: 未利用
+  - name: Address Elements:countrySecondarySubdivision
+    used: false
+    guidance: 未利用
+  - name: Address Elements:municipality
+    used: false
+    guidance: 未利用
+  - name: Address Elements:municipalitySubdivision
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_NumberRange"
+  attributes:
+  - name: Address Elements:first
+    used: false
+    guidance: 未利用
+  - name: Address Elements:last
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_PhoneNumber"
+  attributes:
+  - name: Address Elements:number
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_PostalCode"
+  attributes:
+  - name: Address Elements:code
+    used: false
+    guidance: 未利用
+  - name: Address Elements:addonCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_RegionCode"
+  attributes:
+  - name: Address Elements:AT
+    used: false
+    guidance: 未利用
+  - name: Address Elements:BE
+    used: false
+    guidance: 未利用
+  - name: Address Elements:CA
+    used: false
+    guidance: 未利用
+  - name: Address Elements:ES
+    used: false
+    guidance: 未利用
+  - name: Address Elements:GB
+    used: false
+    guidance: 未利用
+  - name: Address Elements:US
+    used: false
+    guidance: 未利用
+  - name: Address Elements:VA
+    used: false
+    guidance: 未利用
+  - name: Address Elements:US-VA
+    used: false
+    guidance: 未利用
+  - name: Address Elements:CA-NB
+    used: false
+    guidance: 未利用
+  - name: Address Elements:CA-NT
+    used: false
+    guidance: 未利用
+  - name: Address Elements:CA-NU
+    used: false
+    guidance: 未利用
+  - name: Address Elements:...
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_Street"
+  attributes:
+  - name: Address Elements:directionalPrefix
+    used: false
+    guidance: 未利用
+  - name: Address Elements:typePrefix
+    used: false
+    guidance: 未利用
+  - name: Address Elements:officialName
+    used: false
+    guidance: 未利用
+  - name: Address Elements:trailingSpaces
+    used: false
+    guidance: 未利用
+  - name: Address Elements:typeSuffix
+    used: false
+    guidance: 未利用
+  - name: Address Elements:directionalSuffix
+    used: false
+    guidance: 未利用
+  - name: Address Elements:muniQuadrant
+    used: false
+    guidance: 未利用
+  - name: Address Elements:postalCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_StreetAddress"
+  attributes:
+  - name: Address Elements:location
+    used: false
+    guidance: 未利用
+  - name: Address Elements:street
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_StreetIntersection"
+  attributes:
+  - name: Address Elements:streets
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Address Model::Address Elements::AD_StreetLocation"
+  attributes: []

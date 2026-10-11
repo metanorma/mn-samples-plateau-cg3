@@ -1,0 +1,35 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::GML::DomainSet"
+  attributes:
+  - name: 'CIS1.0:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::GML::Feature"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::GML::RangeSet"
+  attributes:
+  - name: 'CIS1.0:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::GML::AbstractFeatureType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::GML::ArcString"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::GML::GM_Point"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::GML::LineString"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::GML::PolygonPatch"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::GML::Surface"
+  attributes: []

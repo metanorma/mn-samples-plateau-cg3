@@ -1,0 +1,227 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_ContinuousQuadrilateralGridCoverage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationParametersType
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:interpolationType
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:element
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_FootPrint"
+  attributes:
+  - name: Quadrilateral Grid:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_Grid"
+  attributes:
+  - name: Quadrilateral Grid:dimension
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:axisNames
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:extent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_GridCell"
+  attributes:
+  - name: Quadrilateral Grid:corner
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_GridCoordinate"
+  attributes:
+  - name: Quadrilateral Grid:coordValues
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_GridEnvelope"
+  attributes:
+  - name: Quadrilateral Grid:low
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:high
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_GridPoint"
+  attributes:
+  - name: Quadrilateral Grid:gridCoord
+    used: false
+    guidance: 未利用
+  - name: Geometry root:spatialElement
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:temporalElement
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:groundPoint
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:cell
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:footprint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_GridPointValuePair"
+  attributes:
+  - name: Coverage Core:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:value
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:point
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_GridRange"
+  attributes:
+  - name: Quadrilateral Grid:low
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:high
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_GridValueCell"
+  attributes:
+  - name: Coverage Core:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationParameters
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:controlValue
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:controlValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_GridValuesMatrix"
+  attributes:
+  - name: Quadrilateral Grid:dimension
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:axisNames
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:extent
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:values
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:sequencingRule
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:startSequence
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_RectifiedGrid"
+  attributes:
+  - name: Quadrilateral Grid:dimension
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:axisNames
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:extent
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:origin
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:offsetVectors
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_ReferenceableGrid"
+  attributes:
+  - name: Quadrilateral Grid:dimension
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:axisNames
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:extent
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:crs
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:crs
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_SequenceRule"
+  attributes:
+  - name: Quadrilateral Grid:type
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:scanDirection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Quadrilateral Grid::CV_SequenceType"
+  attributes:
+  - name: Quadrilateral Grid:linear
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:boustrophedonic
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:CantorDiagonal
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:spiral
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:Morton
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:Hilbert
+    used: false
+    guidance: 未利用

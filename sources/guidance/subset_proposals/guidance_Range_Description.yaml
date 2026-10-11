@@ -1,0 +1,61 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Range Description::CV_RangeRecordType"
+  attributes:
+  - name: Range Description:fieldType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Range Description::CV_RangeFieldType"
+  attributes:
+  - name: Range Description:name
+    used: false
+    guidance: 未利用
+  - name: Range Description:definition
+    used: false
+    guidance: 未利用
+  - name: Range Description:dataType
+    used: false
+    guidance: 未利用
+  - name: Range Description:uom
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:possibleEvaluationMethod
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Range Description::CV_ArrayField"
+  attributes:
+  - name: Range Description:name
+    used: false
+    guidance: 未利用
+  - name: Range Description:definition
+    used: false
+    guidance: 未利用
+  - name: Range Description:dataType
+    used: false
+    guidance: 未利用
+  - name: Range Description:uom
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:possibleEvaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Range Description:axisType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Range Description::CV_RangeAxisType"
+  attributes:
+  - name: Range Description:name
+    used: false
+    guidance: 未利用
+  - name: Range Description:definition
+    used: false
+    guidance: 未利用
+  - name: Range Description:dataType
+    used: false
+    guidance: 未利用
+  - name: Range Description:uom
+    used: false
+    guidance: 未利用
+  - name: Range Description:keyValues
+    used: false
+    guidance: 未利用

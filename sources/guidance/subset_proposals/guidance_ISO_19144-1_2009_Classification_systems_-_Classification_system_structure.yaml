@@ -1,0 +1,315 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-1:2009 Classification
+    systems - Classification system structure::CL_ClassificationCollection"
+  attributes:
+  - name: Discrete Coverages:element
+    used: false
+    guidance: 未利用
+  - name: 'ISO 19144-1:2009 Classification systems - Classification system structure:'
+    used: false
+    guidance: 未利用
+  - name: 'Metadata entity set information:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-1:2009 Classification
+    systems - Classification system structure::CL_ClassificationLegendClass"
+  attributes:
+  - name: CoreModel:identifier
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeName
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:technicalStandard
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-1:2009 Classification
+    systems - Classification system structure::CL_ClassificationLegendItem"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:definition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:description
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:code
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:alphaCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-1:2009 Classification
+    systems - Classification system structure::CL_ClassificationRegister"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:contentSummary
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:operatingLanguage
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeLanguages
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:version
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateOfLastChange
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:scopeSet
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:functionalLanguage
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:citation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:containedItem
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:containedItemClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:manager
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:owner
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:submitter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-1:2009 Classification
+    systems - Classification system structure::CL_ClassificationRuleClass"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:technicalStandard
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-1:2009 Classification
+    systems - Classification system structure::CL_ClassificationRuleItem"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:definition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:description
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:code
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:alphaCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-1:2009 Classification
+    systems - Classification system structure::CL_ClassifiedSurface"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:tessellationGeometry
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:sequenceRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:element
+    used: false
+    guidance: 未利用
+  - name: TIN:triangleSource
+    used: false
+    guidance: 未利用
+  - name: Thiessen Polygon:polygonSource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-1:2009 Classification
+    systems - Classification system structure::CL_DataSet"
+  attributes:
+  - name: Metadata entity set information:has
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-1:2009 Classification
+    systems - Classification system structure::CL_FeatureTypeReference"
+  attributes:
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:identifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:sourceCitation
+    used: false
+    guidance: 未利用
+  - name: 'ISO 19144-1:2009 Classification systems - Classification system structure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-1:2009 Classification
+    systems - Classification system structure::CL_LegendClass"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: 'Metadata entity set information:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-1:2009 Classification
+    systems - Classification system structure::CL_TessellationGeometry"
+  attributes:
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:quadrilateral
+      grid
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:hexagonal
+      grid
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:TIN
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:polygon
+      network
+    used: false
+    guidance: 未利用
+  - name: ISO 19144-1:2009 Classification systems - Classification system structure:Thiessen
+      polygon network
+    used: false
+    guidance: 未利用

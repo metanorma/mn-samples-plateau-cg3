@@ -1,0 +1,44 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA Locational Context::UPA_LocationalContext"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA Locational Context::UPA_LocationalContextRule"
+  attributes:
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA Locational Context::UPA_LocationalContextElement"
+  attributes:
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA Locational Context::UPA_LocationByIdentifier"
+  attributes:
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+  - name: 'ISO 19155:2012 Place Identifier Architecture:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA Locational Context::UPA_LocationByGeomaticsServices"
+  attributes:
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA Locational Context::UPA_LocationBySensingServices"
+  attributes:
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA Locational Context::UPA_InferredLocationBySensorNetworks"
+  attributes:
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用

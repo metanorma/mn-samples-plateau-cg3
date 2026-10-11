@@ -1,0 +1,23 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecScope::SpecificationScope"
+  attributes:
+  - name: SpecScope:scopeIdentification
+    used: false
+    guidance: 未利用
+  - name: SpecScope:level
+    used: false
+    guidance: 未利用
+  - name: SpecScope:levelName
+    used: false
+    guidance: 未利用
+  - name: SpecScope:levelDescription
+    used: false
+    guidance: 未利用
+  - name: SpecScope:extent
+    used: false
+    guidance: 未利用
+  - name: SpecScope:coverage
+    used: false
+    guidance: 未利用

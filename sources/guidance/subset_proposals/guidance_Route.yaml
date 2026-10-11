@@ -1,0 +1,77 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Route::NT_Maneuver"
+  attributes:
+  - name: Route:isTraversable
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:advisory
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:constraint
+    used: false
+    guidance: 未利用
+  - name: Link:link
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Route::NT_Route"
+  attributes:
+  - name: Route:summary
+    used: false
+    guidance: 未利用
+  - name: Route:geometry
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:subComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:superComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:element
+    used: false
+    guidance: 未利用
+  - name: Link:link
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:junction
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turn
+    used: false
+    guidance: 未利用
+  - name: Route:maneuver
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Route::NT_RouteSummary"
+  attributes:
+  - name: Route:time
+    used: false
+    guidance: 未利用
+  - name: Route:distance
+    used: false
+    guidance: 未利用
+  - name: Route:extent
+    used: false
+    guidance: 未利用
+  - name: Route:begin
+    used: false
+    guidance: 未利用
+  - name: Route:stops
+    used: false
+    guidance: 未利用
+  - name: Route:end
+    used: false
+    guidance: 未利用

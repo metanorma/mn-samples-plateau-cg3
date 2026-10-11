@@ -1,0 +1,164 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata application information::DS_Aggregate"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata application information::DS_DataSet"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata application information::DS_Initiative"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata application information::DS_OtherAggregate"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata application information::DS_Platform"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata application information::DS_ProductionSeries"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata application information::DS_Resource"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata application information::DS_Sensor"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata application information::DS_Series"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata application information::DS_StereoMate"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata application information::SV_Service"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    application information::DS_Aggregate"
+  attributes:
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    application information::DS_DataSet"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    application information::DS_Initiative"
+  attributes:
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    application information::DS_OtherAggregate"
+  attributes:
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    application information::DS_Platform"
+  attributes:
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    application information::DS_ProductionSeries"
+  attributes:
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    application information::DS_Sensor"
+  attributes:
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    application information::DS_Series"
+  attributes:
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    application information::DS_StereoMate"
+  attributes:
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    application information::DS_Aggregate"
+  attributes:
+  - name: Metadata application information:composedOf
+    used: false
+    guidance: 未利用
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    application information::DS_DataSet"
+  attributes:
+  - name: Metadata entity set information:has
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    application information::DS_Initiative"
+  attributes:
+  - name: Metadata application information:composedOf
+    used: false
+    guidance: 未利用
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    application information::DS_OtherAggregate"
+  attributes:
+  - name: Metadata application information:composedOf
+    used: false
+    guidance: 未利用
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    application information::DS_Platform"
+  attributes:
+  - name: Metadata application information:composedOf
+    used: false
+    guidance: 未利用
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    application information::DS_ProductionSeries"
+  attributes:
+  - name: Metadata application information:composedOf
+    used: false
+    guidance: 未利用
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    application information::DS_Sensor"
+  attributes:
+  - name: Metadata application information:composedOf
+    used: false
+    guidance: 未利用
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    application information::DS_Series"
+  attributes:
+  - name: Metadata application information:composedOf
+    used: false
+    guidance: 未利用
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    application information::DS_StereoMate"
+  attributes:
+  - name: Metadata application information:composedOf
+    used: false
+    guidance: 未利用
+  - name: Metadata application information:subset
+    used: false
+    guidance: 未利用

@@ -1,0 +1,62 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146:2010 Cross-domain
+    vocabularies::TR_Domain"
+  attributes:
+  - name: ISO 19146:2010 Cross-domain vocabularies:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19146:2010 Cross-domain vocabularies:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146:2010 Cross-domain
+    vocabularies::TR_TermCrossMap"
+  attributes:
+  - name: ISO 19146:2010 Cross-domain vocabularies:crossMapIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19146:2010 Cross-domain vocabularies:operatingTermRel
+    used: false
+    guidance: 未利用
+  - name: ISO 19146:2010 Cross-domain vocabularies:operatingConceptRel
+    used: false
+    guidance: 未利用
+  - name: ISO 19146:2010 Cross-domain vocabularies:crossMapDate
+    used: false
+    guidance: 未利用
+  - name: ISO 19146:2010 Cross-domain vocabularies:crossMapDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ISO 19146:2010 Cross-domain vocabularies:crossMapNotes
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146:2010 Cross-domain
+    vocabularies::TR_TermInstance"
+  attributes:
+  - name: ISO 19146:2010 Cross-domain vocabularies:termSubregister
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146:2010 Cross-domain
+    vocabularies::TR_TermRegister"
+  attributes:
+  - name: 'ISO 19146:2010 Cross-domain vocabularies:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146:2010 Cross-domain
+    vocabularies::TR_TermSubregisterDescription"
+  attributes:
+  - name: ISO 19146:2010 Cross-domain vocabularies:type
+    used: false
+    guidance: 未利用
+  - name: ISO 19146:2010 Cross-domain vocabularies:domain
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146:2010 Cross-domain
+    vocabularies::TR_TermSubregisterType"
+  attributes:
+  - name: ISO 19146:2010 Cross-domain vocabularies:ReferenceVocabulary
+    used: false
+    guidance: 未利用
+  - name: ISO 19146:2010 Cross-domain vocabularies:OperatingVocabulary
+    used: false
+    guidance: 未利用

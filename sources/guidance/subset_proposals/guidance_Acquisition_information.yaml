@@ -1,0 +1,600 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_AcquisitionInformation"
+  attributes:
+  - name: Acquisition information:scope
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:acquisitionPlan
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:acquisitionRequirement
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:environmentalConditions
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:instrument
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:objective
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:operation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:platform
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_ContextCode"
+  attributes:
+  - name: Acquisition information:acquisition
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:pass
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:wayPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_EnvironmentalRecord"
+  attributes:
+  - name: Acquisition information:averageAirTemperature
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:maxRelativeHumidity
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:maxAltitude
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:meterologicalConditions
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:solarAzimuth
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:solarElevation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_Event"
+  attributes:
+  - name: Acquisition information:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:trigger
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:context
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:sequence
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:time
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:expectedObjective
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:relatedInstrument
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:relatedPass
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_EventTypeCode"
+  attributes:
+  - name: Acquisition information:calibration
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:preLaunch
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:calibrationCoefficientUpdate
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:manoeuvre
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:severe
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:announcement
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:fatal
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:clean
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:switchOn
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:switchOff
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:missingData
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:notice
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:dataLoss
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_GeometryTypeCode"
+  attributes:
+  - name: Acquisition information:point
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:linear
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:areal
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:strip
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_Instrument"
+  attributes:
+  - name: Acquisition information:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:type
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:description
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:otherProperty
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:otherPropertyType
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:content
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:history
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:mountedOn
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:sensor
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_InstrumentationEvent"
+  attributes:
+  - name: Acquisition information:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:description
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:extent
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:type
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:revisionHistory
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_InstrumentationEventLIst"
+  attributes:
+  - name: Acquisition information:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:description
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:locale
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:constraints
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:instrumentationEvent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_Metadata"
+  attributes:
+  - name: Metadata entity set information:fileIdentifier
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:language
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:characterSet
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:parentIdentifier
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:hierarchyLevel
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:hierarchyLevelName
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:contact
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:dateStamp
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:metadataStandardName
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:metadataStandardVersion
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:dataSet
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:locale
+    used: false
+    guidance: 未利用
+  - name: Application schema information:applicationSchemaInfo
+    used: false
+    guidance: 未利用
+  - name: Constraint information:metadataConstraints
+    used: false
+    guidance: 未利用
+  - name: Content information:contentInfo
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dataQualityInfo
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributionInfo
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:featureAttribute
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:featureType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:propertyType
+    used: false
+    guidance: 未利用
+  - name: 'ISO 19144-1:2009 Classification systems - Classification system structure:'
+    used: false
+    guidance: 未利用
+  - name: Identification information:identificationInfo
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:metadataMaintenance
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:metadataExtensionInfo
+    used: false
+    guidance: 未利用
+  - name: Portrayal catalogue information:portrayalCatalogueInfo
+    used: false
+    guidance: 未利用
+  - name: Reference system information:referenceSystemInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:spatialRepresentationInfo
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:acquisitionInformation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_Objective"
+  attributes:
+  - name: Acquisition information:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:priority
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:type
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:function
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:extent
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:objectiveOccurence
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:pass
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:sensingInstrument
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_ObjectiveTypeCode"
+  attributes:
+  - name: Acquisition information:instantaneousCollection
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:persistentView
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:survey
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_Operation"
+  attributes:
+  - name: Acquisition information:description
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:status
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:type
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:otherProperty
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:otherPropertyType
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:childOperation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:objective
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:plan
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:platform
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:significantEvent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_OperationTypeCode"
+  attributes:
+  - name: Acquisition information:real
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:simulated
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:synthetic
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_Plan"
+  attributes:
+  - name: Acquisition information:type
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:status
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:operation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:satisfiedRequirement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_Platform"
+  attributes:
+  - name: Acquisition information:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:description
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:sponsor
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:otherProperty
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:otherPropertyType
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:history
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:instrument
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_PlatformPass"
+  attributes:
+  - name: Acquisition information:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:extent
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:relatedEvent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_PriorityCode"
+  attributes:
+  - name: Acquisition information:critical
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:highImportance
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:mediumImportance
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:lowImportance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_RequestedDate"
+  attributes:
+  - name: Acquisition information:requestedDateOfCollection
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:latestAcceptableDate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_Requirement"
+  attributes:
+  - name: Acquisition information:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:requestor
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:recipient
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:priority
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:requestedDate
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:expiryDate
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:satisifiedPlan
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_Revision"
+  attributes:
+  - name: Acquisition information:description
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:responsibleParty
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:dateInfo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_Sensor"
+  attributes:
+  - name: Acquisition information:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:type
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:description
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:otherProperty
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:otherPropertyType
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:content
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:history
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:mountedOn
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:sensor
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:hosted
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_SensorTypeCode"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_SequenceCode"
+  attributes:
+  - name: Acquisition information:start
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:end
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:instantaneous
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Acquisition
+    information::MI_TriggerCode"
+  attributes:
+  - name: Acquisition information:automatic
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:manual
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:preProgrammed
+    used: false
+    guidance: 未利用

@@ -1,0 +1,428 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_Address"
+  attributes:
+  - name: Citation and responsible party information - Copy:deliveryPoint
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:city
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:administrativeArea
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:postalCode
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:country
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:electronicMailAddress
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_Citation"
+  attributes:
+  - name: Citation and responsible party information - Copy:title
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:alternateTitle
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:date
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:edition
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:editionDate
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:identifier
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:citedResponsibleParty
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:presentationForm
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:series
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:otherCitationDetails
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:ISBN
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:ISSN
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:onlineResource
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:graphic
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_Contact"
+  attributes:
+  - name: Citation and responsible party information - Copy:phone
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:address
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:onlineResource
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:hoursOfService
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:contactInstructions
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:contactType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_Date"
+  attributes:
+  - name: Citation and responsible party information - Copy:date
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:dateType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_DateTypeCode"
+  attributes:
+  - name: Citation and responsible party information - Copy:creation
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:publication
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:revision
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:expiry
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:lastUpdate
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:lastRevision
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:nextUpdate
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:unavailable
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:inForce
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:adopted
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:deprecated
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:superseded
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:validityBegins
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:validityExpires
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:released
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:distribution
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_Individual"
+  attributes:
+  - name: Citation and responsible party information - Copy:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:contactInfo
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:partyIdentifier
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:positionName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_OnLineFunctionCode"
+  attributes:
+  - name: Citation and responsible party information - Copy:download
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:information
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:offlineAccess
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:order
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:search
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:completeMetadata
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:browseGraphic
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:upload
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:emailService
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:browsing
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:fileAccess
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_OnlineResource"
+  attributes:
+  - name: Citation and responsible party information - Copy:linkage
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:protocol
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:applicationProfile
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:description
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:function
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:protocolRequest
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_Organisation"
+  attributes:
+  - name: Citation and responsible party information - Copy:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:contactInfo
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:partyIdentifier
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:logo
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:individual
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_Party"
+  attributes:
+  - name: Citation and responsible party information - Copy:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:contactInfo
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:partyIdentifier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_PresentationFormCode"
+  attributes:
+  - name: Citation and responsible party information - Copy:documentDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:documentHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:imageDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:imageHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:mapDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:mapHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:modelDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:modelHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:profileDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:profileHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:tableDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:tableHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:videoDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:videoHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:audioDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:audioHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:multimediaDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:multimediaHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:physicalObject
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:diagramDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:diagramHardcopy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_Responsibility"
+  attributes:
+  - name: Citation and responsible party information - Copy:role
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:extent
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:party
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_RoleCode"
+  attributes:
+  - name: Citation and responsible party information - Copy:resourceProvider
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:custodian
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:owner
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:user
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:distributor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:originator
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:principalInvestigator
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:processor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:publisher
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:author
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:sponsor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:coAuthor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:collaborator
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:editor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:mediator
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:rightsHolder
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:contributor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:funder
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:stakeholder
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_Series"
+  attributes:
+  - name: Citation and responsible party information - Copy:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:issueIdentification
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:page
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_Telephone"
+  attributes:
+  - name: Citation and responsible party information - Copy:number
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:numberType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2017 Metadata -
+    Fundamentals - Amendment::Citation and responsible party information - Copy::CI_TelephoneTypeCode"
+  attributes:
+  - name: Citation and responsible party information - Copy:voice
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:facsimile
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information - Copy:sms
+    used: false
+    guidance: 未利用

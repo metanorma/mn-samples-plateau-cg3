@@ -1,0 +1,257 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::3Points1Curve"
+  attributes:
+  - name: Spatial:p1
+    used: false
+    guidance: 未利用
+  - name: Spatial:p2
+    used: false
+    guidance: 未利用
+  - name: Spatial:p3
+    used: false
+    guidance: 未利用
+  - name: Spatial:curve
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometry root:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::BoundaryPole"
+  attributes:
+  - name: Spatial:poleNumber
+    used: false
+    guidance: 未利用
+  - name: Spatial:position
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::BoundaryWithPoles"
+  attributes:
+  - name: Geometric complex:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Spatial:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Bridge"
+  attributes:
+  - name: Spatial:type
+    used: false
+    guidance: 未利用
+  - name: Spatial:name
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Bridge"
+  attributes:
+  - name: Spatial:type
+    used: false
+    guidance: 未利用
+  - name: Spatial:name
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Building"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::CalculatedBoundary"
+  attributes:
+  - name: Geometric complex:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Spatial:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Crossing"
+  attributes:
+  - name: Spatial:geometryDefinedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Crossing"
+  attributes:
+  - name: Spatial:geometryDefinedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::FencePost"
+  attributes:
+  - name: Spatial:position
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Mailbox"
+  attributes:
+  - name: Spatial:position
+    used: false
+    guidance: 未利用
+  - name: Spatial:heightAboveGround
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::MyFeature"
+  attributes:
+  - name: Spatial:name
+    used: false
+    guidance: 未利用
+  - name: Spatial:district
+    used: false
+    guidance: 未利用
+  - name: Spatial:registrationValue
+    used: false
+    guidance: 未利用
+  - name: Spatial:geometricShape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Parcel"
+  attributes:
+  - name: Spatial:nameOfParcel
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:spatialConfiguration
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::ParcelBoundary"
+  attributes:
+  - name: Geometric complex:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Spatial:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Pole"
+  attributes:
+  - name: Spatial:height
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::RailStation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::RailSystem"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Road"
+  attributes:
+  - name: Geometric complex:spatialConfiguration
+    used: false
+    guidance: 未利用
+  - name: Spatial:contains
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Road"
+  attributes:
+  - name: Geometric complex:spatialConfiguration
+    used: false
+    guidance: 未利用
+  - name: Spatial:contains
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Road"
+  attributes:
+  - name: Geometric complex:spatialConfiguration
+    used: false
+    guidance: 未利用
+  - name: Spatial:contains
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Road"
+  attributes:
+  - name: Geometric complex:spatialConfiguration
+    used: false
+    guidance: 未利用
+  - name: Spatial:contains
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::RoadElement"
+  attributes:
+  - name: Geometric primitive:spatialConfiguration
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::RoadNetwork"
+  attributes:
+  - name: Geometric complex:pavement
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:routing
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::RoadNetwork"
+  attributes:
+  - name: Geometric complex:pavement
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:routing
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::RoadNetwork"
+  attributes:
+  - name: Geometric complex:pavement
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:routing
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Street"
+  attributes:
+  - name: Geometric primitive:spatialConfiguration
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Transformer"
+  attributes:
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::Tunnel"
+  attributes:
+  - name: Spatial:heightRestriction
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:spatialConfiguration
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::UndefinedBoundary"
+  attributes:
+  - name: Geometric complex:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Spatial:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial::UrbanArea"
+  attributes: []

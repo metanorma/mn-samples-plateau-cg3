@@ -1,0 +1,161 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Combined Networks::NT_CombinedNetwork"
+  attributes:
+  - name: Geometric complex:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:subComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:superComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:element
+    used: false
+    guidance: 未利用
+  - name: Link:link
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:junction
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turn
+    used: false
+    guidance: 未利用
+  - name: Combined Networks:transferLlink
+    used: false
+    guidance: 未利用
+  - name: Combined Networks:transferNode
+    used: false
+    guidance: 未利用
+  - name: Network Model:componentNetworks
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Combined Networks::NT_Transfer"
+  attributes:
+  - name: Turn and Junction:exitCount
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turnDirection
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:isTraversable
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:isManuever
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:entryCount
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:advisory
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:constraint
+    used: false
+    guidance: 未利用
+  - name: Link:fromLink
+    used: false
+    guidance: 未利用
+  - name: Link:toLink
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:junction
+    used: false
+    guidance: 未利用
+  - name: Combined Networks:junction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Combined Networks::NT_TransferLink"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Link:isTraversable
+    used: false
+    guidance: 未利用
+  - name: Link:isUturnPossible
+    used: false
+    guidance: 未利用
+  - name: Link:routeSegmentCategory
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:advisory
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:constraint
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:endTurn
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:startTurn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Combined Networks::NT_TransferNode"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:junctionType
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:spoke
+    used: false
+    guidance: 未利用
+  - name: Link:spoke
+    used: false
+    guidance: 未利用
+  - name: Network Model:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turn
+    used: false
+    guidance: 未利用
+  - name: Combined Networks:turn
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:componentJunction
+    used: false
+    guidance: 未利用

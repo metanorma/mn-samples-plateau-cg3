@@ -1,0 +1,98 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Records and Class Metadata::Any"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Records and Class Metadata::ClassTypeDescriptor"
+  attributes:
+  - name: Records and Class Metadata:operationType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Records and Class Metadata::OperationType"
+  attributes:
+  - name: Records and Class Metadata:inputParameters
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:ouputParamters
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:returnType
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:description
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:metaData
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:theClassTypeDescriptor
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Records and Class Metadata::Record"
+  attributes:
+  - name: Records and Class Metadata:recordType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Records and Class Metadata::RecordSchema"
+  attributes:
+  - name: Names:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Names:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:schemaName
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:description
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Records and Class Metadata::RecordType"
+  attributes:
+  - name: Records and Class Metadata:typeName
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:memberType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Records and Class Metadata::Schema"
+  attributes:
+  - name: Names:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Names:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:schemaName
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Records and Class Metadata::Type"
+  attributes:
+  - name: Records and Class Metadata:typeName
+    used: false
+    guidance: 未利用

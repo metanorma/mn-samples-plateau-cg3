@@ -1,0 +1,365 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_FacilityInfo"
+  attributes:
+  - name: FacilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:informationLink
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_AccommodationFacilityCode"
+  attributes:
+  - name: FacilityTypes:allergyRoom
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:roomAdaptedDisabled
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:shared
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:sharedBathRoom
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:single
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:suite
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:withBathRoom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_AccomondationFacility"
+  attributes:
+  - name: FacilityTypes:facilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_ChildrenFacility"
+  attributes:
+  - name: FacilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:facilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_CommercialFacility"
+  attributes:
+  - name: FacilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:facilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_EntryAndExitFacility"
+  attributes:
+  - name: FacilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:facilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_FacilityCategories"
+  attributes:
+  - name: FacilityTypes:accomondationFacility
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:childrenFacility
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:commercialFacility
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:entryAndExitFacility
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:localFacility
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:miscFacility
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:refrechmentSaleFacility
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:ticketSaleFacility
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:whereAboutFacility
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_LocalFacility"
+  attributes:
+  - name: FacilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:facilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_MiscFacility"
+  attributes:
+  - name: FacilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:facilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_RefreshmentSaleFacility"
+  attributes:
+  - name: FacilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:facilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_TicketSaleFacility"
+  attributes:
+  - name: FacilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:facilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_WhereAboutFacility"
+  attributes:
+  - name: FacilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:facilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_ChildrenFacilityCode"
+  attributes:
+  - name: FacilityTypes:infantRoom
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:nursery
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:playRoom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_CommercialFacilityCode"
+  attributes:
+  - name: FacilityTypes:bank
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:books
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:cloths
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:food
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:gifts
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:kiosk
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:misc
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:pharmacy
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:taxFree
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_EntryAndExitFacilityCode"
+  attributes:
+  - name: FacilityTypes:transferNodeAccess
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:transportMeansAccess
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_LocalFacilityCode"
+  attributes:
+  - name: FacilityTypes:carRental
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:carService
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:cycleParking
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:kissAndRide
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:longTimeParkingArea
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:parkAndRide
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:parkingGarage
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:shortTimeParkingArea
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_MiscFacilityCode"
+  attributes:
+  - name: FacilityTypes:cashDispenser
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:chapel
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:cloakroom
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:computer
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:desk
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:emergencyPhone
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:fax
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:internetAccess
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:library
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:lostProperty
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:luggageSpace
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:luggageTrolley
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:meetingPoint
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:phone
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:physicalTraining
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:powerSupply
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:pramSpace
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:seats
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:swimingPool
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:table
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:toilet
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_RefreshmentSaleFacilityCode"
+  attributes:
+  - name: FacilityTypes:bar
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:coffeeOrTea
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:fastFood
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:restaurant
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:trolley
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes:: FT_TicketSaleFacilityCode"
+  attributes:
+  - name: FacilityTypes:attendedTicketOffice
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:ticketMachine
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:validator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::FacilityTypes::FT_WhereAboutFacilityCode"
+  attributes:
+  - name: FacilityTypes:loungeWithRefreshments
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:physicalUnit
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:seatingAccommodation
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:securityControlArea
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:shelter
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:smokingArea
+    used: false
+    guidance: 未利用
+  - name: FacilityTypes:waitingRoom
+    used: false
+    guidance: 未利用

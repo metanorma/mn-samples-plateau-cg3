@@ -1,0 +1,11 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Additional figures (informative)::Levels of Abstraction::MyApplicationSchema::MyFeature"
+  attributes:
+  - name: MyApplicationSchema:location
+    used: false
+    guidance: 未利用
+  - name: MyApplicationSchema:name
+    used: false
+    guidance: 未利用

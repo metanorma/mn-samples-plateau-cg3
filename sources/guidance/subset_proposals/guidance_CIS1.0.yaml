@@ -1,0 +1,98 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::CIS1.0::Any"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::CIS1.0::ContinuousCoverage"
+  attributes:
+  - name: CIS1.0:coverageFunction
+    used: false
+    guidance: 未利用
+  - name: CIS1.0:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::CIS1.0::Coverage"
+  attributes:
+  - name: CIS1.0:coverageFunction
+    used: false
+    guidance: 未利用
+  - name: CIS1.0:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::CIS1.0::CoverageFunction"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::CIS1.0::DiscreteCoverage"
+  attributes:
+  - name: CIS1.0:coverageFunction
+    used: false
+    guidance: 未利用
+  - name: CIS1.0:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::CIS1.0::GridCoverage"
+  attributes:
+  - name: CIS1.0:coverageFunction
+    used: false
+    guidance: 未利用
+  - name: CIS1.0:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::CIS1.0::MultiCurveCoverage"
+  attributes:
+  - name: CIS1.0:coverageFunction
+    used: false
+    guidance: 未利用
+  - name: CIS1.0:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::CIS1.0::MultiPointCoverage"
+  attributes:
+  - name: CIS1.0:coverageFunction
+    used: false
+    guidance: 未利用
+  - name: CIS1.0:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::CIS1.0::MultiSolidCoverage"
+  attributes:
+  - name: CIS1.0:coverageFunction
+    used: false
+    guidance: 未利用
+  - name: CIS1.0:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::CIS1.0::MultiSurfaceCoverage"
+  attributes:
+  - name: CIS1.0:coverageFunction
+    used: false
+    guidance: 未利用
+  - name: CIS1.0:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::CIS1.0::RectifiedGridCoverage"
+  attributes:
+  - name: CIS1.0:coverageFunction
+    used: false
+    guidance: 未利用
+  - name: CIS1.0:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::CIS1.0::ReferenceableGridCoverage"
+  attributes:
+  - name: CIS1.0:coverageFunction
+    used: false
+    guidance: 未利用
+  - name: CIS1.0:metadata
+    used: false
+    guidance: 未利用

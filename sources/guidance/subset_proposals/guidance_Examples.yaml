@@ -1,0 +1,77 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Additional figures (informative)::Examples::DirectPosition"
+  attributes:
+  - name: Examples:coordinate
+    used: false
+    guidance: 未利用
+  - name: Examples:dimension
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:coordinateReferenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Additional figures (informative)::Examples::DirectPosition2"
+  attributes:
+  - name: Examples:coordinate
+    used: false
+    guidance: 未利用
+  - name: Examples:dimension
+    used: false
+    guidance: 未利用
+  - name: Examples:coordinateReferenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Additional figures (informative)::Examples::MD_DimensionNameTypeCode"
+  attributes:
+  - name: Examples:row
+    used: false
+    guidance: 未利用
+  - name: Examples:column
+    used: false
+    guidance: 未利用
+  - name: Examples:vertical
+    used: false
+    guidance: 未利用
+  - name: Examples:track
+    used: false
+    guidance: 未利用
+  - name: Examples:crossTrack
+    used: false
+    guidance: 未利用
+  - name: Examples:line
+    used: false
+    guidance: 未利用
+  - name: Examples:sample
+    used: false
+    guidance: 未利用
+  - name: Examples:time
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Examples::Aquifer"
+  attributes:
+  - name: Examples:content
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Examples::Pallet"
+  attributes:
+  - name: Examples:mass
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Examples::WaterBody"
+  attributes:
+  - name: Examples:salinity
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Examples::Well"
+  attributes:
+  - name: Examples:sampledFeature
+    used: false
+    guidance: 未利用

@@ -1,0 +1,146 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex E. Spatial Profiles::Unstructured_Profile::Unstructured_Boundary"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:bfsID
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:geometry
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:locationByText
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:bfsID
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex E. Spatial Profiles::Unstructured_Profile::Unstructured_Level"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:lID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:name
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:registerType
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:structure
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:type
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:IID
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:name
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:registerType
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:structure
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex E. Spatial Profiles::Unstructured_Profile::Unstructured_SpatialUnit"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:extAddressId
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:area
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:dimension
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:label
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:suID
+    used: false
+    guidance: 未利用
+  - name: Unstructured_Profile:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用

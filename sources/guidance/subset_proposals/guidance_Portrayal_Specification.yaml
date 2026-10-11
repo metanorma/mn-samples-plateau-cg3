@@ -1,0 +1,50 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2005 Portrayal::Portrayal
+    Specification::PF_AttributeValue"
+  attributes:
+  - name: Portrayal Specification:value
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:attributeType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2005 Portrayal::Portrayal
+    Specification::PF_Parameter"
+  attributes:
+  - name: Portrayal Specification:label
+    used: false
+    guidance: 未利用
+  - name: Portrayal Specification:description
+    used: false
+    guidance: 未利用
+  - name: Portrayal Specification:actualParameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2005 Portrayal::Portrayal
+    Specification::PF_PortrayalOperation"
+  attributes:
+  - name: Portrayal Specification:name
+    used: false
+    guidance: 未利用
+  - name: Portrayal Specification:description
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:externalFunction
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:formalParameter
+    used: false
+    guidance: 未利用
+  - name: Portrayal Specification:parameterSet
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2005 Portrayal::Portrayal
+    Specification::PF_PortrayalSpecification"
+  attributes:
+  - name: Portrayal Specification:citation
+    used: false
+    guidance: 未利用
+  - name: Portrayal Specification:symbol
+    used: false
+    guidance: 未利用

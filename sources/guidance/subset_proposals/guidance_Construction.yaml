@@ -1,0 +1,2365 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::Construction::AbstractConstruction"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Construction:conditionOfConstruction
+    used: false
+    guidance: 未利用
+  - name: Construction:dateOfConstruction
+    used: false
+    guidance: 未利用
+  - name: Construction:dateOfDemolition
+    used: false
+    guidance: 未利用
+  - name: Construction:constructionEvent
+    used: false
+    guidance: 未利用
+  - name: Construction:elevation
+    used: false
+    guidance: 未利用
+  - name: Construction:height
+    used: false
+    guidance: 未利用
+  - name: Construction:occupancy
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstruction
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::AbstractConstructionSurface"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstructionSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:fillingSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::AbstractConstructiveElement"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Construction:isStructuralElement
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstructiveElement
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Construction:filling
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::AbstractFillingElement"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractFillingElement
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::AbstractFillingSurface"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractFillingSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::AbstractFurniture"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractFurniture
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::AbstractInstallation"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Construction:relationToConstruction
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractInstallation
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::CeilingSurface"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstructionSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfCeilingSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:fillingSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::Door"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractFillingElement
+    used: false
+    guidance: 未利用
+  - name: Construction:class
+    used: false
+    guidance: 未利用
+  - name: Construction:function
+    used: false
+    guidance: 未利用
+  - name: Construction:usage
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfDoor
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Construction:boundary
+    used: false
+    guidance: 未利用
+  - name: Core:address
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::DoorClassValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Construction::DoorFunctionValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Construction::DoorUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Construction::DoorSurface"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractFillingSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfDoorSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Core:address
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::FloorSurface"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstructionSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfFloorSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:fillingSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::GroundSurface"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstructionSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfGroundSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:fillingSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::InteriorWallSurface"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstructionSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfInteriorWallSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:fillingSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::OtherConstruction"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Construction:conditionOfConstruction
+    used: false
+    guidance: 未利用
+  - name: Construction:dateOfConstruction
+    used: false
+    guidance: 未利用
+  - name: Construction:dateOfDemolition
+    used: false
+    guidance: 未利用
+  - name: Construction:constructionEvent
+    used: false
+    guidance: 未利用
+  - name: Construction:elevation
+    used: false
+    guidance: 未利用
+  - name: Construction:height
+    used: false
+    guidance: 未利用
+  - name: Construction:occupancy
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstruction
+    used: false
+    guidance: 未利用
+  - name: Construction:class
+    used: false
+    guidance: 未利用
+  - name: Construction:function
+    used: false
+    guidance: 未利用
+  - name: Construction:usage
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfOtherConstruction
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::OtherConstructionClassValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Construction::OtherConstructionFunctionValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Construction::OtherConstructionUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Construction::OuterCeilingSurface"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstructionSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfOuterCeilingSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:fillingSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::OuterFloorSurface"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstructionSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfOuterFloorSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:fillingSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::RoofSurface"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstructionSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfRoofSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:fillingSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::WallSurface"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstructionSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfWallSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:fillingSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::Window"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractFillingElement
+    used: false
+    guidance: 未利用
+  - name: Construction:class
+    used: false
+    guidance: 未利用
+  - name: Construction:function
+    used: false
+    guidance: 未利用
+  - name: Construction:usage
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfWindow
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Construction:boundary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::WindowClassValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Construction::WindowFunctionValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Construction::WindowUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Construction::WindowSurface"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractFillingSurface
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfWindowSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::EventValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Construction::ElevationReferenceValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Construction::ConstructionEvent"
+  attributes:
+  - name: Construction:event
+    used: false
+    guidance: 未利用
+  - name: Construction:dateOfEvent
+    used: false
+    guidance: 未利用
+  - name: Construction:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::Elevation"
+  attributes:
+  - name: Construction:elevationReference
+    used: false
+    guidance: 未利用
+  - name: Construction:elevationValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::Height"
+  attributes:
+  - name: Construction:highReference
+    used: false
+    guidance: 未利用
+  - name: Construction:lowReference
+    used: false
+    guidance: 未利用
+  - name: Construction:status
+    used: false
+    guidance: 未利用
+  - name: Construction:value
+    used: false
+    guidance: 未利用

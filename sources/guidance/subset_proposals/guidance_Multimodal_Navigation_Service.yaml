@@ -1,0 +1,206 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Navigation Service::MN_CostedTransfer"
+  attributes:
+  - name: Multimodal Navigation Service:cost
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:transfer
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Navigation Service::MN_CostFunctionCode"
+  attributes:
+  - name: Multimodal Navigation Service:time
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:distance
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:numberOfTransfers
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:totalFare
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:totalCost
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Navigation Service::MN_Instruction"
+  attributes:
+  - name: Navigation Service:cost
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:action
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:advisory
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:advisory
+    used: false
+    guidance: 未利用
+  - name: Route:maneuver
+    used: false
+    guidance: 未利用
+  - name: Multimodal Routing:tripScheme
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Navigation Service::MN_Itinerary"
+  attributes:
+  - name: Navigation Service:route
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:route
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:instruction
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:instruction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Navigation Service::MN_RenderingRequest"
+  attributes:
+  - name: Multimodal Navigation Service:route
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Navigation Service::MN_RenderingResponse"
+  attributes:
+  - name: Multimodal Navigation Service:map
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:voice
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:text
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:groundLevelView
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:itinerary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Navigation Service::MN_RenderingType"
+  attributes:
+  - name: Multimodal Navigation Service:map
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:voice
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:text
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:groundLevelView
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:Itinerary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Navigation Service::MN_RoutePreference"
+  attributes:
+  - name: Multimodal Navigation Service:fastest
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:cheapest
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:minimumTransfers
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:easiest
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:scenic
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Navigation Service::MN_RouteRequest"
+  attributes:
+  - name: Navigation Service:routeRequestType
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:vehicle
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:wayPointList
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:avoidList
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:departureTime
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:arrivalTime
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:costFunction
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:preferences
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:advisories
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:isDynamic
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:refreshInterval
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:returnRouteInstructions
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:returnRouteMaps
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:returnRouteGeometry
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:costFunction
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:transportationMode
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:avoidMode
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:preferences
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:advisories
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:returnItineraries
+    used: false
+    guidance: 未利用
+  - name: Cost Function:costFunction
+    used: false
+    guidance: 未利用
+  - name: Multimodal Cost Function:costFunction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Navigation Service::MN_RouteResponse"
+  attributes:
+  - name: Multimodal Navigation Service:request
+    used: false
+    guidance: 未利用
+  - name: Multimodal Navigation Service:route
+    used: false
+    guidance: 未利用

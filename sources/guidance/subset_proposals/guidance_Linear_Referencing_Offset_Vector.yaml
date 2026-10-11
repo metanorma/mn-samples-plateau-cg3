@@ -1,0 +1,20 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing Offset Vector::LROV_VectorOffsetDistanceExpression"
+  attributes:
+  - name: Linear Referencing System:distanceAlong
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:referent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing Offset Vector::LROV_VectorOffsetExpression"
+  attributes:
+  - name: Linear Referencing Offset Vector:offsetVector
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing Offset Vector:vectorCRS
+    used: false
+    guidance: 未利用

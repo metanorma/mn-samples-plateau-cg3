@@ -1,0 +1,17 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::geometry0d1d::LineString"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:segment
+    used: false
+    guidance: 未利用

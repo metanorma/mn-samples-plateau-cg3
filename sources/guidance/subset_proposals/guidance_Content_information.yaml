@@ -1,0 +1,626 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Content information::MD_AttributeGroup"
+  attributes:
+  - name: Content information:contentType
+    used: false
+    guidance: 未利用
+  - name: Content information:attribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Content information::MD_Band"
+  attributes:
+  - name: Content information:sequenceIdentifier
+    used: false
+    guidance: 未利用
+  - name: Content information:description
+    used: false
+    guidance: 未利用
+  - name: Content information:name
+    used: false
+    guidance: 未利用
+  - name: Content information:maxValue
+    used: false
+    guidance: 未利用
+  - name: Content information:minValue
+    used: false
+    guidance: 未利用
+  - name: Content information:units
+    used: false
+    guidance: 未利用
+  - name: Content information:scaleFactor
+    used: false
+    guidance: 未利用
+  - name: Content information:offset
+    used: false
+    guidance: 未利用
+  - name: Content information:meanValue
+    used: false
+    guidance: 未利用
+  - name: Content information:numberOfValues
+    used: false
+    guidance: 未利用
+  - name: Content information:standardDeviation
+    used: false
+    guidance: 未利用
+  - name: Content information:otherPropertyType
+    used: false
+    guidance: 未利用
+  - name: Content information:otherProperty
+    used: false
+    guidance: 未利用
+  - name: Content information:bitsPerValue
+    used: false
+    guidance: 未利用
+  - name: Content information:boundMax
+    used: false
+    guidance: 未利用
+  - name: Content information:boundMin
+    used: false
+    guidance: 未利用
+  - name: Content information:boundUnits
+    used: false
+    guidance: 未利用
+  - name: Content information:peakResponse
+    used: false
+    guidance: 未利用
+  - name: Content information:toneGradation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Content information::MD_ContentInformation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Content information::MD_CoverageContentTypeCode"
+  attributes:
+  - name: Content information:image
+    used: false
+    guidance: 未利用
+  - name: Content information:thematicClassification
+    used: false
+    guidance: 未利用
+  - name: Content information:physicalMeasurement
+    used: false
+    guidance: 未利用
+  - name: Content information:auxilliaryInformation
+    used: false
+    guidance: 未利用
+  - name: Content information:qualityInformation
+    used: false
+    guidance: 未利用
+  - name: Content information:referenceInformation
+    used: false
+    guidance: 未利用
+  - name: Content information:modelResult
+    used: false
+    guidance: 未利用
+  - name: Content information:coordinate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Content information::MD_CoverageDescription"
+  attributes:
+  - name: Content information:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Content information:processingLevelCode
+    used: false
+    guidance: 未利用
+  - name: Content information:attributeGroup
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Content information::MD_FeatureCatalogue"
+  attributes:
+  - name: Content information:featureCatalogue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Content information::MD_FeatureCatalogueDescription"
+  attributes:
+  - name: Content information:complianceCode
+    used: false
+    guidance: 未利用
+  - name: Content information:locale
+    used: false
+    guidance: 未利用
+  - name: Content information:includedWithDataset
+    used: false
+    guidance: 未利用
+  - name: Content information:featureTypes
+    used: false
+    guidance: 未利用
+  - name: Content information:featureCatalogueCitation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Content information::MD_FeatureTypeInfo"
+  attributes:
+  - name: Content information:featureTypeName
+    used: false
+    guidance: 未利用
+  - name: Content information:featureInstanceCount
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Content information::MD_ImageDescription"
+  attributes:
+  - name: Content information:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Content information:processingLevelCode
+    used: false
+    guidance: 未利用
+  - name: Content information:illuminationElevationAngle
+    used: false
+    guidance: 未利用
+  - name: Content information:illuminationAzimuthAngle
+    used: false
+    guidance: 未利用
+  - name: Content information:imagingCondition
+    used: false
+    guidance: 未利用
+  - name: Content information:imageQualityCode
+    used: false
+    guidance: 未利用
+  - name: Content information:cloudCoverPercentage
+    used: false
+    guidance: 未利用
+  - name: Content information:compressionGenerationQuantity
+    used: false
+    guidance: 未利用
+  - name: Content information:triangulationIndicator
+    used: false
+    guidance: 未利用
+  - name: Content information:radiometricCalibrationDataAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:cameraCalibrationInformationAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:filmDistortionInformationAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:lensDistortionInformationAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:attributeGroup
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Content information::MD_ImagingConditionCode"
+  attributes:
+  - name: Content information:blurredImage
+    used: false
+    guidance: 未利用
+  - name: Content information:cloud
+    used: false
+    guidance: 未利用
+  - name: Content information:degradingObliquity
+    used: false
+    guidance: 未利用
+  - name: Content information:fog
+    used: false
+    guidance: 未利用
+  - name: Content information:heavySmokeOrDust
+    used: false
+    guidance: 未利用
+  - name: Content information:night
+    used: false
+    guidance: 未利用
+  - name: Content information:rain
+    used: false
+    guidance: 未利用
+  - name: Content information:semiDarkness
+    used: false
+    guidance: 未利用
+  - name: Content information:shadow
+    used: false
+    guidance: 未利用
+  - name: Content information:snow
+    used: false
+    guidance: 未利用
+  - name: Content information:terrainMasking
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Content information::MD_RangeDimension"
+  attributes:
+  - name: Content information:sequenceIdentifier
+    used: false
+    guidance: 未利用
+  - name: Content information:description
+    used: false
+    guidance: 未利用
+  - name: Content information:name
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Content information::MD_SampleDimension"
+  attributes:
+  - name: Content information:sequenceIdentifier
+    used: false
+    guidance: 未利用
+  - name: Content information:description
+    used: false
+    guidance: 未利用
+  - name: Content information:name
+    used: false
+    guidance: 未利用
+  - name: Content information:maxValue
+    used: false
+    guidance: 未利用
+  - name: Content information:minValue
+    used: false
+    guidance: 未利用
+  - name: Content information:units
+    used: false
+    guidance: 未利用
+  - name: Content information:scaleFactor
+    used: false
+    guidance: 未利用
+  - name: Content information:offset
+    used: false
+    guidance: 未利用
+  - name: Content information:meanValue
+    used: false
+    guidance: 未利用
+  - name: Content information:numberOfValues
+    used: false
+    guidance: 未利用
+  - name: Content information:standardDeviation
+    used: false
+    guidance: 未利用
+  - name: Content information:otherPropertyType
+    used: false
+    guidance: 未利用
+  - name: Content information:otherProperty
+    used: false
+    guidance: 未利用
+  - name: Content information:bitsPerValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Content
+    information::MD_Band"
+  attributes:
+  - name: Content information:sequenceIdentifier
+    used: false
+    guidance: 未利用
+  - name: Content information:descriptor
+    used: false
+    guidance: 未利用
+  - name: Content information:maxValue
+    used: false
+    guidance: 未利用
+  - name: Content information:minValue
+    used: false
+    guidance: 未利用
+  - name: Content information:units
+    used: false
+    guidance: 未利用
+  - name: Content information:peakResponse
+    used: false
+    guidance: 未利用
+  - name: Content information:bitsPerValue
+    used: false
+    guidance: 未利用
+  - name: Content information:toneGradation
+    used: false
+    guidance: 未利用
+  - name: Content information:scaleFactor
+    used: false
+    guidance: 未利用
+  - name: Content information:offset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Content
+    information::MD_ContentInformation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Content
+    information::MD_CoverageContentTypeCode"
+  attributes:
+  - name: Content information:image
+    used: false
+    guidance: 未利用
+  - name: Content information:thematicClassification
+    used: false
+    guidance: 未利用
+  - name: Content information:physicalMeasurement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Content
+    information::MD_CoverageDescription"
+  attributes:
+  - name: Content information:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Content information:contentType
+    used: false
+    guidance: 未利用
+  - name: Content information:dimension
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Content
+    information::MD_FeatureCatalogueDescription"
+  attributes:
+  - name: Content information:complianceCode
+    used: false
+    guidance: 未利用
+  - name: Content information:language
+    used: false
+    guidance: 未利用
+  - name: Content information:includedWithDataset
+    used: false
+    guidance: 未利用
+  - name: Content information:featureTypes
+    used: false
+    guidance: 未利用
+  - name: Content information:featureCatalogueCitation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Content
+    information::MD_ImageDescription"
+  attributes:
+  - name: Content information:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Content information:contentType
+    used: false
+    guidance: 未利用
+  - name: Content information:illuminationElevationAngle
+    used: false
+    guidance: 未利用
+  - name: Content information:illuminationAzimuthAngle
+    used: false
+    guidance: 未利用
+  - name: Content information:imagingCondition
+    used: false
+    guidance: 未利用
+  - name: Content information:imageQualityCode
+    used: false
+    guidance: 未利用
+  - name: Content information:cloudCoverPercentage
+    used: false
+    guidance: 未利用
+  - name: Content information:processingLevelCode
+    used: false
+    guidance: 未利用
+  - name: Content information:compressionGenerationQuantity
+    used: false
+    guidance: 未利用
+  - name: Content information:triangulationIndicator
+    used: false
+    guidance: 未利用
+  - name: Content information:radiometricCalibrationDataAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:cameraCalibrationInformationAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:filmDistortionInformationAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:lensDistortionInformationAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:dimension
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Content
+    information::MD_ImagingConditionCode"
+  attributes:
+  - name: Content information:blurredImage
+    used: false
+    guidance: 未利用
+  - name: Content information:cloud
+    used: false
+    guidance: 未利用
+  - name: Content information:degradingObliquity
+    used: false
+    guidance: 未利用
+  - name: Content information:fog
+    used: false
+    guidance: 未利用
+  - name: Content information:heavySmokeOrDust
+    used: false
+    guidance: 未利用
+  - name: Content information:night
+    used: false
+    guidance: 未利用
+  - name: Content information:rain
+    used: false
+    guidance: 未利用
+  - name: Content information:semiDarkness
+    used: false
+    guidance: 未利用
+  - name: Content information:shadow
+    used: false
+    guidance: 未利用
+  - name: Content information:snow
+    used: false
+    guidance: 未利用
+  - name: Content information:terrainMasking
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Content
+    information::MD_RangeDimension"
+  attributes:
+  - name: Content information:sequenceIdentifier
+    used: false
+    guidance: 未利用
+  - name: Content information:descriptor
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Content
+    information::MD_Band"
+  attributes:
+  - name: Content information:sequenceIdentifier
+    used: false
+    guidance: 未利用
+  - name: Content information:descriptor
+    used: false
+    guidance: 未利用
+  - name: Content information:maxValue
+    used: false
+    guidance: 未利用
+  - name: Content information:minValue
+    used: false
+    guidance: 未利用
+  - name: Content information:units
+    used: false
+    guidance: 未利用
+  - name: Content information:peakResponse
+    used: false
+    guidance: 未利用
+  - name: Content information:bitsPerValue
+    used: false
+    guidance: 未利用
+  - name: Content information:toneGradation
+    used: false
+    guidance: 未利用
+  - name: Content information:scaleFactor
+    used: false
+    guidance: 未利用
+  - name: Content information:offset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Content
+    information::MD_ContentInformation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Content
+    information::MD_CoverageContentTypeCode"
+  attributes:
+  - name: Content information:image
+    used: false
+    guidance: 未利用
+  - name: Content information:thematicClassification
+    used: false
+    guidance: 未利用
+  - name: Content information:physicalMeasurement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Content
+    information::MD_CoverageDescription"
+  attributes:
+  - name: Content information:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Content information:contentType
+    used: false
+    guidance: 未利用
+  - name: Content information:dimension
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Content
+    information::MD_FeatureCatalogueDescription"
+  attributes:
+  - name: Content information:complianceCode
+    used: false
+    guidance: 未利用
+  - name: Content information:language
+    used: false
+    guidance: 未利用
+  - name: Content information:includedWithDataset
+    used: false
+    guidance: 未利用
+  - name: Content information:featureTypes
+    used: false
+    guidance: 未利用
+  - name: Content information:featureCatalogueCitation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Content
+    information::MD_ImageDescription"
+  attributes:
+  - name: Content information:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Content information:contentType
+    used: false
+    guidance: 未利用
+  - name: Content information:illuminationElevationAngle
+    used: false
+    guidance: 未利用
+  - name: Content information:illuminationAzimuthAngle
+    used: false
+    guidance: 未利用
+  - name: Content information:imagingCondition
+    used: false
+    guidance: 未利用
+  - name: Content information:imageQualityCode
+    used: false
+    guidance: 未利用
+  - name: Content information:cloudCoverPercentage
+    used: false
+    guidance: 未利用
+  - name: Content information:processingLevelCode
+    used: false
+    guidance: 未利用
+  - name: Content information:compressionGenerationQuantity
+    used: false
+    guidance: 未利用
+  - name: Content information:triangulationIndicator
+    used: false
+    guidance: 未利用
+  - name: Content information:radiometricCalibrationDataAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:cameraCalibrationInformationAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:filmDistortionInformationAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:lensDistortionInformationAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:dimension
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Content
+    information::MD_ImagingConditionCode"
+  attributes:
+  - name: Content information:blurredImage
+    used: false
+    guidance: 未利用
+  - name: Content information:cloud
+    used: false
+    guidance: 未利用
+  - name: Content information:degradingObliquity
+    used: false
+    guidance: 未利用
+  - name: Content information:fog
+    used: false
+    guidance: 未利用
+  - name: Content information:heavySmokeOrDust
+    used: false
+    guidance: 未利用
+  - name: Content information:night
+    used: false
+    guidance: 未利用
+  - name: Content information:rain
+    used: false
+    guidance: 未利用
+  - name: Content information:semiDarkness
+    used: false
+    guidance: 未利用
+  - name: Content information:shadow
+    used: false
+    guidance: 未利用
+  - name: Content information:snow
+    used: false
+    guidance: 未利用
+  - name: Content information:terrainMasking
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Content
+    information::MD_RangeDimension"
+  attributes:
+  - name: Content information:sequenceIdentifier
+    used: false
+    guidance: 未利用
+  - name: Content information:descriptor
+    used: false
+    guidance: 未利用

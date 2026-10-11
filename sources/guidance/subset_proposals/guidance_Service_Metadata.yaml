@@ -1,0 +1,206 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Metadata::DCPList"
+  attributes:
+  - name: Service Metadata:XML
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:CORBA
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:JAVA
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:COM
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:SQL
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:WebServices
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Metadata::DistinguishedName"
+  attributes:
+  - name: Service Metadata:name
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:nameSpace
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Metadata::SV_CoupledResource"
+  attributes:
+  - name: Service Metadata:identifier
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:operationName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Metadata::SV_CouplingType"
+  attributes:
+  - name: Service Metadata:loose
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:mixed
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:tight
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Metadata::SV_OperationChain"
+  attributes:
+  - name: Service Metadata:name
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:description
+    used: false
+    guidance: 未利用
+  - name: Service Model:operation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Metadata::SV_OperationChainMetadata"
+  attributes:
+  - name: Service Metadata:name
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:description
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:operation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Metadata::SV_OperationMetadata"
+  attributes:
+  - name: Service Metadata:operationName
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:DCP
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:operationDescription
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:invocationName
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:connectPoint
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:dependsOn
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:parameters
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Metadata::SV_Parameter"
+  attributes:
+  - name: Service Metadata:direction
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:description
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:optionality
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:repeatability
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:valueType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Metadata::SV_ServiceIdentification"
+  attributes:
+  - name: Identification information:citation
+    used: false
+    guidance: 未利用
+  - name: Identification information:abstract
+    used: false
+    guidance: 未利用
+  - name: Identification information:purpose
+    used: false
+    guidance: 未利用
+  - name: Identification information:credit
+    used: false
+    guidance: 未利用
+  - name: Identification information:status
+    used: false
+    guidance: 未利用
+  - name: Identification information:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:serviceType
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:serviceTypeVersion
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:accessProperties
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:restrictions
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:extent
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:couplingType
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:couplingResource
+    used: false
+    guidance: 未利用
+  - name: Constraint information:resourceConstraints
+    used: false
+    guidance: 未利用
+  - name: Distribution information:resourceFormat
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:theTaxonomySystem
+    used: false
+    guidance: 未利用
+  - name: Identification information:aggregationInfo
+    used: false
+    guidance: 未利用
+  - name: Identification information:descriptiveKeywords
+    used: false
+    guidance: 未利用
+  - name: Identification information:graphicOverview
+    used: false
+    guidance: 未利用
+  - name: Identification information:resourceSpecificUsage
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:resourceMaintenance
+    used: false
+    guidance: 未利用
+  - name: Identification information:keywords
+    used: false
+    guidance: 未利用
+  - name: Identification information:operatesOn
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:containsOperations
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Metadata::SV_ServiceProvider"
+  attributes:
+  - name: Service Metadata:serviceContact
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:providerName
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:services
+    used: false
+    guidance: 未利用

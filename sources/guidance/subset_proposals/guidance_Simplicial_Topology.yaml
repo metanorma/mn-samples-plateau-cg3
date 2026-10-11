@@ -1,0 +1,71 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema::Simplicial Topology::OneSimplex"
+  attributes:
+  - name: Simplicial Topology:dimension
+    used: false
+    guidance: 未利用
+  - name: Simplicial Topology:vertices[dimension+1]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema::Simplicial Topology::Simplex"
+  attributes:
+  - name: Simplicial Topology:dimension
+    used: false
+    guidance: 未利用
+  - name: Simplicial Topology:vertices[dimension+1]
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Simplicial Topology:theSimplicialComplex
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema::Simplicial Topology::SimplicialComplex"
+  attributes:
+  - name: Simplicial Topology:theSimplex
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema::Simplicial Topology::ThreeSimplex"
+  attributes:
+  - name: Simplicial Topology:dimension
+    used: false
+    guidance: 未利用
+  - name: Simplicial Topology:vertices[dimension+1]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema::Simplicial Topology::TwoSimplex"
+  attributes:
+  - name: Simplicial Topology:dimension
+    used: false
+    guidance: 未利用
+  - name: Simplicial Topology:vertices[dimension+1]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema::Simplicial Topology::ZeroSimplex"
+  attributes:
+  - name: Simplicial Topology:dimension
+    used: false
+    guidance: 未利用
+  - name: Simplicial Topology:vertices[dimension+1]
+    used: false
+    guidance: 未利用

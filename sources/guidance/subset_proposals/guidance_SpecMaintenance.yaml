@@ -1,0 +1,23 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecMaintenance::Maintenance"
+  attributes:
+  - name: SpecMaintenance:maintenanceAndUpdateFrequency
+    used: false
+    guidance: 未利用
+  - name: SpecMaintenance:maintenanceAndUpdateStatement
+    used: false
+    guidance: 未利用
+  - name: SpecMaintenance:userDefinedUpdateFrequency
+    used: false
+    guidance: 未利用
+  - name: SpecScope:scope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecMaintenance::MaintenanceSection"
+  attributes:
+  - name: SpecMaintenance:maintenance
+    used: false
+    guidance: 未利用

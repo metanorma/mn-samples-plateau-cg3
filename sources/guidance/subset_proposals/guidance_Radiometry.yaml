@@ -1,0 +1,938 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_2DReflectanceTarget"
+  attributes:
+  - name: Radiometry:lampType
+    used: false
+    guidance: 未利用
+  - name: Radiometry:numberPoints
+    used: false
+    guidance: 未利用
+  - name: Radiometry:controlPoint[0..n]
+    used: false
+    guidance: 未利用
+  - name: Radiometry:expanse
+    used: false
+    guidance: 未利用
+  - name: Radiometry:minimumElevation
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maximumElevation
+    used: false
+    guidance: 未利用
+  - name: Radiometry:averageElevation
+    used: false
+    guidance: 未利用
+  - name: Radiometry:linearSize
+    used: false
+    guidance: 未利用
+  - name: Radiometry:targetExpanse
+    used: false
+    guidance: 未利用
+  - name: Radiometry:shape
+    used: false
+    guidance: 未利用
+  - name: Radiometry:material
+    used: false
+    guidance: 未利用
+  - name: Radiometry:spectralCharacteristics
+    used: false
+    guidance: 未利用
+  - name: Radiometry:measuredReflectance
+    used: false
+    guidance: 未利用
+  - name: Radiometry:minimumNominalReflectance
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maximumNominalReflectance
+    used: false
+    guidance: 未利用
+  - name: Radiometry:radiometricStability
+    used: false
+    guidance: 未利用
+  - name: Radiometry:cleanness
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_3DReflectanceTarget"
+  attributes:
+  - name: Radiometry:lampType
+    used: false
+    guidance: 未利用
+  - name: Radiometry:numberPoints
+    used: false
+    guidance: 未利用
+  - name: Radiometry:controlPoint[0..n]
+    used: false
+    guidance: 未利用
+  - name: Radiometry:expanse
+    used: false
+    guidance: 未利用
+  - name: Radiometry:minimumElevation
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maximumElevation
+    used: false
+    guidance: 未利用
+  - name: Radiometry:averageElevation
+    used: false
+    guidance: 未利用
+  - name: Radiometry:reflectorType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_Active"
+  attributes:
+  - name: Radiometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Radiometry:lampType
+    used: false
+    guidance: 未利用
+  - name: Radiometry:lampType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_CalibrationMethod"
+  attributes:
+  - name: Radiometry:integratingSphere
+    used: false
+    guidance: 未利用
+  - name: Radiometry:flatField
+    used: false
+    guidance: 未利用
+  - name: Radiometry:macBethColorTarget
+    used: false
+    guidance: 未利用
+  - name: Radiometry:monoChromator
+    used: false
+    guidance: 未利用
+  - name: Radiometry:calibratedLightSource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_DefectPixels"
+  attributes:
+  - name: Radiometry:row
+    used: false
+    guidance: 未利用
+  - name: Radiometry:column
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_Detector"
+  attributes:
+  - name: Radiometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Radiometry:detectorIdentification
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_DetectorDemands"
+  attributes:
+  - name: Radiometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Radiometry:detectorIdentification
+    used: false
+    guidance: 未利用
+  - name: Radiometry:sensitivity
+    used: false
+    guidance: 未利用
+  - name: Radiometry:pixelResponseNonUniformity
+    used: false
+    guidance: 未利用
+  - name: Radiometry:darkSignalNonUniformity
+    used: false
+    guidance: 未利用
+  - name: Radiometry:errorDarkSignalNonUniformity
+    used: false
+    guidance: 未利用
+  - name: Radiometry:defectPixels
+    used: false
+    guidance: 未利用
+  - name: Radiometry:defectPixelsBrightImage
+    used: false
+    guidance: 未利用
+  - name: Radiometry:defectPixelsDarkImage
+    used: false
+    guidance: 未利用
+  - name: Radiometry:artifacts
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maximumAllowedDefectPixels
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maximumAllowedDefectPixelsDoubleColumn
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maximumAllowedDefectPixelsSingleColumn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_DetectorOptics"
+  attributes:
+  - name: Radiometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Radiometry:detectorIdentification
+    used: false
+    guidance: 未利用
+  - name: Radiometry:lightFalloff
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_Documentation"
+  attributes:
+  - name: 'Radiometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_DynamicRange"
+  attributes:
+  - name: Radiometry:minimumGreyValue
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maximumGreyValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_DynamicRange"
+  attributes:
+  - name: Radiometry:minimumGreyValue
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maximumGreyValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_ElectronicCell"
+  attributes:
+  - name: Radiometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Radiometry:detectorIdentification
+    used: false
+    guidance: 未利用
+  - name: Radiometry:sensitivity
+    used: false
+    guidance: 未利用
+  - name: Radiometry:pixelResponseNonUniformity
+    used: false
+    guidance: 未利用
+  - name: Radiometry:darkSignalNonUniformity
+    used: false
+    guidance: 未利用
+  - name: Radiometry:errorDarkSignalNonUniformity
+    used: false
+    guidance: 未利用
+  - name: Radiometry:defectPixels
+    used: false
+    guidance: 未利用
+  - name: Radiometry:defectPixelsBrightImage
+    used: false
+    guidance: 未利用
+  - name: Radiometry:defectPixelsDarkImage
+    used: false
+    guidance: 未利用
+  - name: Radiometry:artifacts
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_Filter"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_FNumber"
+  attributes:
+  - name: Radiometry:focalLength
+    used: false
+    guidance: 未利用
+  - name: Radiometry:entrancePupil
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_Linearity"
+  attributes:
+  - name: Radiometry:channelIdentification
+    used: false
+    guidance: 未利用
+  - name: Radiometry:receivedIntensity[0..n]
+    used: false
+    guidance: 未利用
+  - name: Radiometry:recordedIntensity[0..n]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_LUT"
+  attributes:
+  - name: Radiometry:identification
+    used: false
+    guidance: 未利用
+  - name: Radiometry:in[0..n]
+    used: false
+    guidance: 未利用
+  - name: Radiometry:out[0..n]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_MeasuredReflectance"
+  attributes:
+  - name: Radiometry:intensity
+    used: false
+    guidance: 未利用
+  - name: Radiometry:wavelength
+    used: false
+    guidance: 未利用
+  - name: Radiometry:zenithAngle
+    used: false
+    guidance: 未利用
+  - name: Radiometry:azimuth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_Method"
+  attributes:
+  - name: Radiometry:darkPixelSubtractionMethod
+    used: false
+    guidance: 未利用
+  - name: Radiometry:semiEmpiricalBRDF
+    used: false
+    guidance: 未利用
+  - name: Radiometry:radiativeTransferCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_Model"
+  attributes:
+  - name: Radiometry:modtran
+    used: false
+    guidance: 未利用
+  - name: Radiometry:disort
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_ObjectToObject"
+  attributes:
+  - name: Radiometry:lampType
+    used: false
+    guidance: 未利用
+  - name: Radiometry:numberImages
+    used: false
+    guidance: 未利用
+  - name: Radiometry:rms
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_OpticalFilters"
+  attributes:
+  - name: Radiometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Radiometry:gain
+    used: false
+    guidance: 未利用
+  - name: Radiometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Radiometry:offset
+    used: false
+    guidance: 未利用
+  - name: Radiometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Radiometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Radiometry:spectralCharacteristics
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_OpticalSensors"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_OpticsGeometry"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_OpticsRadiometry"
+  attributes:
+  - name: Radiometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_OpticsSpatial"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_OpticsSpectral"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_OpticsValidation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_OptoElectronicSystem"
+  attributes:
+  - name: Radiometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_OptoElectronicSystem"
+  attributes:
+  - name: Radiometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_Passive"
+  attributes:
+  - name: Radiometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Radiometry:lampType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_Passive"
+  attributes:
+  - name: Radiometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Radiometry:lampType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_Percentage"
+  attributes:
+  - name: Radiometry:percentage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometricDynamics"
+  attributes:
+  - name: Radiometry:bit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometricTargetMaterial"
+  attributes:
+  - name: Radiometry:awning
+    used: false
+    guidance: 未利用
+  - name: Radiometry:concrete
+    used: false
+    guidance: 未利用
+  - name: Radiometry:gravel
+    used: false
+    guidance: 未利用
+  - name: Radiometry:salt
+    used: false
+    guidance: 未利用
+  - name: Radiometry:sand
+    used: false
+    guidance: 未利用
+  - name: Radiometry:vegetation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometricTargetShape"
+  attributes:
+  - name: Radiometry:square
+    used: false
+    guidance: 未利用
+  - name: Radiometry:rectangular
+    used: false
+    guidance: 未利用
+  - name: Radiometry:irregular
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometricTargetShapex"
+  attributes:
+  - name: Radiometry:square
+    used: false
+    guidance: 未利用
+  - name: Radiometry:rectangular
+    used: false
+    guidance: 未利用
+  - name: Radiometry:irregular
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometricTransformation"
+  attributes:
+  - name: Radiometry:16To8Bit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometryCalibrationFacility"
+  attributes:
+  - name: Radiometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometryInFlight"
+  attributes:
+  - name: Radiometry:lampType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometryInFlight"
+  attributes:
+  - name: Radiometry:lampType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometryInSensor"
+  attributes:
+  - name: Radiometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Radiometry:gain
+    used: false
+    guidance: 未利用
+  - name: Radiometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Radiometry:offset
+    used: false
+    guidance: 未利用
+  - name: Radiometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Radiometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometryLaboratory"
+  attributes:
+  - name: Radiometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Radiometry:calibrationMethod
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometryOffSensor"
+  attributes:
+  - name: Radiometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Radiometry:gain
+    used: false
+    guidance: 未利用
+  - name: Radiometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Radiometry:offset
+    used: false
+    guidance: 未利用
+  - name: Radiometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Radiometry:atmosphericModel
+    used: false
+    guidance: 未利用
+  - name: Radiometry:modelProperties
+    used: false
+    guidance: 未利用
+  - name: Radiometry:method
+    used: false
+    guidance: 未利用
+  - name: Radiometry:illumination
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometryPreCorrection"
+  attributes:
+  - name: Radiometry:resamplingDate
+    used: false
+    guidance: 未利用
+  - name: Radiometry:tonalAdjustmentType
+    used: false
+    guidance: 未利用
+  - name: Radiometry:gammaCorrection
+    used: false
+    guidance: 未利用
+  - name: Radiometry:radiometricTransformation
+    used: false
+    guidance: 未利用
+  - name: Radiometry:lookUpTable
+    used: false
+    guidance: 未利用
+  - name: Radiometry:filter
+    used: false
+    guidance: 未利用
+  - name: Radiometry:parameters[0..n]
+    used: false
+    guidance: 未利用
+  - name: 'Radiometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometryRecording"
+  attributes:
+  - name: Radiometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Radiometry:gain
+    used: false
+    guidance: 未利用
+  - name: Radiometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Radiometry:offset
+    used: false
+    guidance: 未利用
+  - name: Radiometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maxWavelength
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometryTestRange"
+  attributes:
+  - name: Radiometry:lampType
+    used: false
+    guidance: 未利用
+  - name: Radiometry:numberPoints
+    used: false
+    guidance: 未利用
+  - name: Radiometry:controlPoint[0..n]
+    used: false
+    guidance: 未利用
+  - name: Radiometry:expanse
+    used: false
+    guidance: 未利用
+  - name: Radiometry:minimumElevation
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maximumElevation
+    used: false
+    guidance: 未利用
+  - name: Radiometry:averageElevation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_RadiometryValidation"
+  attributes:
+  - name: Radiometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Radiometry:rmsComparisonObject
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_ReflectorType"
+  attributes:
+  - name: Radiometry:cornerReflector
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_SamplingPattern"
+  attributes:
+  - name: Radiometry:square
+    used: false
+    guidance: 未利用
+  - name: Radiometry:rectangular
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_SensorCharacteristics"
+  attributes:
+  - name: Radiometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Radiometry:sensorIdentification
+    used: false
+    guidance: 未利用
+  - name: Radiometry:cameraHead
+    used: false
+    guidance: 未利用
+  - name: Radiometry:channel
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_SensorDefects"
+  attributes:
+  - name: Radiometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Radiometry:sensorIdentification
+    used: false
+    guidance: 未利用
+  - name: Radiometry:cameraHead
+    used: false
+    guidance: 未利用
+  - name: Radiometry:channel
+    used: false
+    guidance: 未利用
+  - name: Radiometry:colorAberration
+    used: false
+    guidance: 未利用
+  - name: Radiometry:strayLight
+    used: false
+    guidance: 未利用
+  - name: Radiometry:residualPolarization
+    used: false
+    guidance: 未利用
+  - name: Radiometry:smile
+    used: false
+    guidance: 未利用
+  - name: Radiometry:keystone
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_SensorMeasurement"
+  attributes:
+  - name: Radiometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Radiometry:measurementMethodMTF
+    used: false
+    guidance: 未利用
+  - name: Radiometry:measurementMethodPSF
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_SensorParameters"
+  attributes:
+  - name: Radiometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Radiometry:sensorIdentification
+    used: false
+    guidance: 未利用
+  - name: Radiometry:cameraHead
+    used: false
+    guidance: 未利用
+  - name: Radiometry:channel
+    used: false
+    guidance: 未利用
+  - name: Radiometry:pointSpreadFunction
+    used: false
+    guidance: 未利用
+  - name: Radiometry:fNumberDenominator
+    used: false
+    guidance: 未利用
+  - name: Radiometry:fNumberCorrection
+    used: false
+    guidance: 未利用
+  - name: Radiometry:fNumberCorrectionValues
+    used: false
+    guidance: 未利用
+  - name: Radiometry:samplingPattern
+    used: false
+    guidance: 未利用
+  - name: Radiometry:spectralResponse
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_SensorPostProcessing"
+  attributes:
+  - name: Radiometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Radiometry:colourTransformation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_SensorQualityEvaluation"
+  attributes:
+  - name: Radiometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Radiometry:sensorIdentification
+    used: false
+    guidance: 未利用
+  - name: Radiometry:cameraHead
+    used: false
+    guidance: 未利用
+  - name: Radiometry:channel
+    used: false
+    guidance: 未利用
+  - name: Radiometry:linearity
+    used: false
+    guidance: 未利用
+  - name: Radiometry:absoluteSpectralError
+    used: false
+    guidance: 未利用
+  - name: Radiometry:relativeSpectralError
+    used: false
+    guidance: 未利用
+  - name: Radiometry:dynamicRange
+    used: false
+    guidance: 未利用
+  - name: Radiometry:spectralSensitivity
+    used: false
+    guidance: 未利用
+  - name: Radiometry:signalToNoiseRatio
+    used: false
+    guidance: 未利用
+  - name: Radiometry:illuminationLevel
+    used: false
+    guidance: 未利用
+  - name: Radiometry:modulationTransferFunction[0..m][0..n]
+    used: false
+    guidance: 未利用
+  - name: Radiometry:modulationTransferFunctionAcross[0..m][0..n]
+    used: false
+    guidance: 未利用
+  - name: Radiometry:modulationTransferFunctionAlong[0..m][0..n]
+    used: false
+    guidance: 未利用
+  - name: Radiometry:positionInImage[0..m][0..n]
+    used: false
+    guidance: 未利用
+  - name: Radiometry:polarization
+    used: false
+    guidance: 未利用
+  - name: Radiometry:radiomatricDynamics
+    used: false
+    guidance: 未利用
+  - name: Radiometry:antiBlooming
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_SpectralSensitivity"
+  attributes:
+  - name: Radiometry:minimumWavelength
+    used: false
+    guidance: 未利用
+  - name: Radiometry:maximumWavelength
+    used: false
+    guidance: 未利用
+  - name: Radiometry:sensitivityFunction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_Spectrum"
+  attributes:
+  - name: Radiometry:numberBands
+    used: false
+    guidance: 未利用
+  - name: Radiometry:wavelength[0..n]
+    used: false
+    guidance: 未利用
+  - name: Radiometry:response[0..n]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_TargetEnvironment"
+  attributes:
+  - name: Radiometry:homogeneous
+    used: false
+    guidance: 未利用
+  - name: Radiometry:inhomogeneous
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_TargetMaterialx"
+  attributes:
+  - name: Radiometry:awning
+    used: false
+    guidance: 未利用
+  - name: Radiometry:concret
+    used: false
+    guidance: 未利用
+  - name: Radiometry:gravel
+    used: false
+    guidance: 未利用
+  - name: Radiometry:salt
+    used: false
+    guidance: 未利用
+  - name: Radiometry:sand
+    used: false
+    guidance: 未利用
+  - name: Radiometry:vegetation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_TestArea"
+  attributes:
+  - name: Radiometry:linearSize
+    used: false
+    guidance: 未利用
+  - name: Radiometry:expanse
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::CA_TonalAdjustment"
+  attributes:
+  - name: Radiometry:gammaCorrection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::Class1"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::MD_ImageDescription"
+  attributes:
+  - name: 'Radiometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::MI_Instrument"
+  attributes:
+  - name: Radiometry:citation
+    used: false
+    guidance: 未利用
+  - name: Radiometry:identification
+    used: false
+    guidance: 未利用
+  - name: Radiometry:type
+    used: false
+    guidance: 未利用
+  - name: Radiometry:description
+    used: false
+    guidance: 未利用
+  - name: 'Radiometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::SD_Calibration"
+  attributes:
+  - name: Radiometry:calibrationAgency
+    used: false
+    guidance: 未利用
+  - name: Radiometry:calibrationDate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::SD_Sensor"
+  attributes:
+  - name: Radiometry:citation
+    used: false
+    guidance: 未利用
+  - name: Radiometry:identification
+    used: false
+    guidance: 未利用
+  - name: Radiometry:type
+    used: false
+    guidance: 未利用
+  - name: Radiometry:description
+    used: false
+    guidance: 未利用
+  - name: Radiometry:calibration
+    used: false
+    guidance: 未利用
+  - name: Radiometry:mode
+    used: false
+    guidance: 未利用
+  - name: Radiometry:operationalBand
+    used: false
+    guidance: 未利用
+  - name: 'Radiometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Radiometry::Table1"
+  attributes: []

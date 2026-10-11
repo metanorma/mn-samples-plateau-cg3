@@ -1,0 +1,14 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::$help://domain_model_pattern.htm"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::HUN_Quality"
+  attributes:
+  - name: Hungary (Profile D6):horizontal_accuracy
+    used: false
+    guidance: 未利用
+  - name: Hungary (Profile D6):vertical_accuracy
+    used: false
+    guidance: 未利用

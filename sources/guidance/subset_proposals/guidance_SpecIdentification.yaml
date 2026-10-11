@@ -1,0 +1,86 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecIdentification::IdentificationSection"
+  attributes:
+  - name: SpecIdentification:title
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:altTitle
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:abstract
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:purpose
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:topicCategory
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:spatialRepresentationType
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:spatialResolution
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:supplemental
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:uniqueId
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:keyword
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:restriction
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:geographicExtent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecIdentification::Purpose"
+  attributes:
+  - name: SpecIdentification:useCase
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:summary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecIdentification::UseCase"
+  attributes:
+  - name: SpecIdentification:name
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:version
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:summary
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:goal
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:diagram
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:actor
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:stakeholder
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:mainSuccessScenario
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:trigger
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:precondition
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:postcondition
+    used: false
+    guidance: 未利用

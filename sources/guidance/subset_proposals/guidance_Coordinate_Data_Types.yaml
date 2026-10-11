@@ -1,0 +1,20 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Coordinates::Coordinate
+    Data Types::Datum"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Coordinates::Coordinate
+    Data Types::Vector"
+  attributes:
+  - name: Coordinate Data Types:origin
+    used: false
+    guidance: 未利用
+  - name: Coordinate Data Types:offsets
+    used: false
+    guidance: 未利用
+  - name: Coordinate Data Types:dimension
+    used: false
+    guidance: 未利用
+  - name: Coordinate Data Types:coordinateSystem
+    used: false
+    guidance: 未利用

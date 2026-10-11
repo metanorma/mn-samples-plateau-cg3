@@ -1,0 +1,8 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Additional figures (informative)::Levels of Abstraction::ISO 19505 UML::Class"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Additional figures (informative)::Levels of Abstraction::ISO 19505 UML::Interface"
+  attributes: []

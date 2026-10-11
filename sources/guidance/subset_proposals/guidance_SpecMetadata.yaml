@@ -1,0 +1,32 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecMetadata::Metadata"
+  attributes:
+  - name: SpecMetadata:specification
+    used: false
+    guidance: 未利用
+  - name: SpecMetadata:element
+    used: false
+    guidance: 未利用
+  - name: SpecMetadata:encoding
+    used: false
+    guidance: 未利用
+  - name: SpecScope:scope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecMetadata::MetadataElement"
+  attributes:
+  - name: SpecMetadata:name
+    used: false
+    guidance: 未利用
+  - name: SpecMetadata:application
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecMetadata::MetadataSection"
+  attributes:
+  - name: SpecMetadata:metadata
+    used: false
+    guidance: 未利用

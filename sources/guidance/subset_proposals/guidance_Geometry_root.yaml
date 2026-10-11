@@ -1,0 +1,16 @@
+---
+classes:
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometry root::GM_Object"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometry root::GM_Boundary"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometry root::GM_Object"
+  attributes:
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用

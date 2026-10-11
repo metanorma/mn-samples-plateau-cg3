@@ -1,0 +1,17 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecAdditionalInformation::AdditionalInformation"
+  attributes:
+  - name: SpecAdditionalInformation:additionalInformation
+    used: false
+    guidance: 未利用
+  - name: SpecScope:scope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecAdditionalInformation::AdditionalInformationSection"
+  attributes:
+  - name: SpecAdditionalInformation:additionalInformation
+    used: false
+    guidance: 未利用

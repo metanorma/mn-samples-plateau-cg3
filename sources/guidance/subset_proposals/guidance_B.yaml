@@ -1,0 +1,23 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Quality::B::Land Area"
+  attributes:
+  - name: B:landName
+    used: false
+    guidance: 未利用
+  - name: B:outline
+    used: false
+    guidance: 未利用
+  - name: B:featureClassificationQuality
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Quality::B::Outline"
+  attributes:
+  - name: B:outline
+    used: false
+    guidance: 未利用
+  - name: B:accuracy
+    used: false
+    guidance: 未利用

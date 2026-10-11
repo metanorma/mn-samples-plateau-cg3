@@ -1,0 +1,788 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::AffineCS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::AxisDirection"
+  attributes:
+  - name: Coordinate Systems:north
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:northNorthEast
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:northEast
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:eastNorthEast
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:east
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:eastSouthEast
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:southEast
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:southSouthEast
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:south
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:southSouthWest
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:southWest
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:westSouthWest
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:west
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:westNorthWest
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:northWest
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:northNorthWest
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:up
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:down
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:geocentricX
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:geocentricY
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:geocentricZ
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:columnPositive
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:columnNegative
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:rowPositive
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:rowNegative
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:displayRight
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:displayLeft
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:displayUp
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:displayDown
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:future
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:past
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:forward
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:aft
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:port
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:starboard
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:clockwise
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:counterClockwise
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:towards
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:awayFrom
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:unspecified
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::AxisUnit"
+  attributes:
+  - name: Coordinate Systems:axisUnitID
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:temporalCount
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:temporalMeasure
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:temporalString
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::CartesianCS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::CoordinateSystem"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::CoordinateSystemAxis"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axisAbbrev
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axisDirection
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axisUnit
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:minimumValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:maximumValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:rangeMeaning
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::CylindricalCS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::EllipsoidalCS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::EngineeringCS"
+  attributes:
+  - name: Coordinate Systems:affineCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:cartesianCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:cylindricalCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:linearCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:polarCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:sphericalCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:userDefinedCS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::GeodeticCS"
+  attributes:
+  - name: Coordinate Systems:cartesianCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:sphericalCS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::LinearCS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::ParametricCS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::PolarCS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::RangeMeaning"
+  attributes:
+  - name: Coordinate Systems:exact
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:wraparound
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::SphericalCS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::TemporalCS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::UserDefinedCS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Systems::VerticalCS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_AffineCS"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_AxisDirection"
+  attributes:
+  - name: Coordinate Systems:north
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:northNorthEast
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:northEast
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:eastNorthEast
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:east
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:eastSouthEast
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:southEast
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:southSouthEast
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:south
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:southSouthWest
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:southWest
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:westSouthWest
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:west
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:westNorthWest
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:northWest
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:northNorthWest
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:up
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:down
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:geocentricX
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:geocentricY
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:geocentricZ
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:columnPositive
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:columnNegative
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:rowPositive
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:rowNegative
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:displayRight
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:displayLeft
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:displayUp
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:displayDown
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_CartesianCS"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_CoordinateSystem"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_CoordinateSystemAxis"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axisAbbrev
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axisDirection
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axisUnitID
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:minimumValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:maximumValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:rangeMeaning
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_CylindricalCS"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_EllipsoidalCS"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_EngineeringCS"
+  attributes:
+  - name: Coordinate Systems:affineCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:cartesianCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:cylindricalCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:linearCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:polarCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:sphericalCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:userDefinedCS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_GeodeticCS"
+  attributes:
+  - name: Coordinate Systems:cartesianCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:ellipsoidalCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:sphericalCS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_ImageCS"
+  attributes:
+  - name: Coordinate Systems:affineCS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:cartesianCS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_LinearCS"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_PolarCS"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_RangeMeaning"
+  attributes:
+  - name: Coordinate Systems:exact
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:wraparound
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_SphericalCS"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_UserDefinedCS"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Systems::CS_VerticalCS"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用

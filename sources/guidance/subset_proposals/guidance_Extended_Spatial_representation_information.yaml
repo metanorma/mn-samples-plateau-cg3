@@ -1,0 +1,130 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    Spatial representation information::from ISO 19130:2010"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    Spatial representation information::Text"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    Spatial representation information::Text"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    Spatial representation information::MI_GCP"
+  attributes:
+  - name: Extended Spatial representation information:geographicCoordinates
+    used: false
+    guidance: 未利用
+  - name: Data quality information:accuracyReport
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    Spatial representation information::MI_GCPCollection"
+  attributes:
+  - name: Extended Spatial representation information:collectionIdentification
+    used: false
+    guidance: 未利用
+  - name: Extended Spatial representation information:collectionName
+    used: false
+    guidance: 未利用
+  - name: Extended Spatial representation information:coordinateReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+  - name: Extended Spatial representation information:gcp
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    Spatial representation information::MI_GeolocationInformation"
+  attributes:
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    Spatial representation information::MI_Georectified"
+  attributes:
+  - name: Spatial representation information:numberOfDimensions
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:axisDimensionProperties
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:cellGeometry
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:transformationParameterAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:checkPointAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:checkPointDescription
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:cornerPoints
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:centrePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:pointInPixel
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:transformationDimensionDescription
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:transformationDimensionMapping
+    used: false
+    guidance: 未利用
+  - name: Extended Spatial representation information:checkPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    Spatial representation information::MI_Georeferenceable"
+  attributes:
+  - name: Spatial representation information:scope
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:numberOfDimensions
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:axisDimensionProperties
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:cellGeometry
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:transformationParameterAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:controlPointAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:orientationParameterAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:orientationParameterDescription
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:georeferencedParameters
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:parameterCitation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:platformParameters
+    used: false
+    guidance: 未利用
+  - name: Extended Spatial representation information:geolocationInformation
+    used: false
+    guidance: 未利用

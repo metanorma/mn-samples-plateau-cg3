@@ -1,0 +1,179 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Adapt"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::complement"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Delete"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Destination"
+  attributes:
+  - name: Rel-mx:ext_ref_5
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::DiCriteria"
+  attributes:
+  - name: Rel-mx:ext_ref_1
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::DiItemReference"
+  attributes:
+  - name: Rel-mx:identifier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::DiPartOf"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::DiReference"
+  attributes:
+  - name: Rel-mx:identifier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Embed"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Enlarge"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Execute"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Helper"
+  attributes:
+  - name: Rel-mx:ext_ref_6
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Install"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::intersection"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::IsMarked"
+  attributes:
+  - name: Rel-mx:ext_ref_2
+    used: false
+    guidance: 未利用
+  - name: 'Rel-mx:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Mark"
+  attributes:
+  - name: Rel-mx:ext_ref_3
+    used: false
+    guidance: 未利用
+  - name: 'Rel-mx:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::ModelGroup33"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::ModelGroup34"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::ModelGroup35"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Modify"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Move"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Play"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Print"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::ProhibitedAttributeChanges"
+  attributes:
+  - name: 'Rel-mx:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-mx:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-mx:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-mx:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Reduce"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Renderer"
+  attributes:
+  - name: Rel-mx:ext_ref_8
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::RequiredAttributeChanges"
+  attributes:
+  - name: 'Rel-mx:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-mx:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-mx:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-mx:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::ResourceSignedBy"
+  attributes:
+  - name: Rel-mx:ext_ref_10
+    used: false
+    guidance: 未利用
+  - name: Rel-mx:ext_ref_11
+    used: false
+    guidance: 未利用
+  - name: Rel-mx:ext_ref_12
+    used: false
+    guidance: 未利用
+  - name: Rel-mx:ext_ref_13
+    used: false
+    guidance: 未利用
+  - name: Rel-mx:ext_ref_14
+    used: false
+    guidance: 未利用
+  - name: Rel-mx:ext_ref_15
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::set"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Source"
+  attributes:
+  - name: Rel-mx:ext_ref_4
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Transaction"
+  attributes:
+  - name: Rel-mx:ext_ref_16
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::Uninstall"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-mx::union"
+  attributes: []

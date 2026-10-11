@@ -1,0 +1,103 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::Extended Metadata from 19115::TaxonomicClassification"
+  attributes:
+  - name: Extended Metadata from 19115:commonName[0..*]
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:taxonRankName
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:taxonRankValue
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:hierarchicalClass[0..*]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Extended Metadata from 19115::TaxonomyKeywords"
+  attributes:
+  - name: Identification information:discipline
+    used: false
+    guidance: 未利用
+  - name: Identification information:place
+    used: false
+    guidance: 未利用
+  - name: Identification information:stratum
+    used: false
+    guidance: 未利用
+  - name: Identification information:temporal
+    used: false
+    guidance: 未利用
+  - name: Identification information:theme
+    used: false
+    guidance: 未利用
+  - name: Identification information:dataCentre
+    used: false
+    guidance: 未利用
+  - name: Identification information:featureType
+    used: false
+    guidance: 未利用
+  - name: Identification information:instrument
+    used: false
+    guidance: 未利用
+  - name: Identification information:platform
+    used: false
+    guidance: 未利用
+  - name: Identification information:process
+    used: false
+    guidance: 未利用
+  - name: Identification information:project
+    used: false
+    guidance: 未利用
+  - name: Identification information:service
+    used: false
+    guidance: 未利用
+  - name: Identification information:product
+    used: false
+    guidance: 未利用
+  - name: Identification information:subTopicCategory
+    used: false
+    guidance: 未利用
+  - name: Identification information:taxon
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:taxon
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Extended Metadata from 19115::TaxonomySystem"
+  attributes:
+  - name: Extended Metadata from 19115:classificationSystemAuthority
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:classificationSystemModifications[0..*]
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:generalTaxonomyScope[0..*]
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:identificationReference
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:observer[0..*]
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:identificationTaxonomicProcedures
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:identificationTaxonomicCompleteness[0..1]
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:theTaxonomicClassification
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:theVouchers
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Extended Metadata from 19115::Vouchers"
+  attributes:
+  - name: Extended Metadata from 19115:specimen
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:repository
+    used: false
+    guidance: 未利用

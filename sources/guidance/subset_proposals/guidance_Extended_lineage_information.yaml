@@ -1,0 +1,148 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    lineage information::Text"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    lineage information::LE_Algorithm"
+  attributes:
+  - name: Extended lineage information:citation
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    lineage information::LE_NominalResolution"
+  attributes:
+  - name: Extended lineage information:scanningResolution
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:groundResolution
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    lineage information::LE_Processing"
+  attributes:
+  - name: Extended lineage information:identifier
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:softwareReference
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:procedureDescription
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:documentation
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:runTimeParameters
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:otherProperty
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:otherPropertyType
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:algorithm
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    lineage information::LE_ProcessParameter"
+  attributes:
+  - name: Service metadata information:name
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:direction
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:description
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:optionality
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:repeatability
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:valueType
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:value
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:resource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    lineage information::LE_ProcessStep"
+  attributes:
+  - name: Data quality information:description
+    used: false
+    guidance: 未利用
+  - name: Data quality information:rationale
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:processor
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:output
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:processingInformation
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:report
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    lineage information::LE_ProcessStepReport"
+  attributes:
+  - name: Extended lineage information:name
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:description
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:fileType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2017 Metadata Extensions
+    for acquisition and processing::ISO 19115-2 Metadata Extensions for A & P revision::Extended
+    lineage information::LE_Source"
+  attributes:
+  - name: Data quality information:description
+    used: false
+    guidance: 未利用
+  - name: Data quality information:scaleDenominator
+    used: false
+    guidance: 未利用
+  - name: Data quality information:sourceReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Data quality information:sourceCitation
+    used: false
+    guidance: 未利用
+  - name: Data quality information:sourceExtent
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:processedLevel
+    used: false
+    guidance: 未利用
+  - name: Extended lineage information:resolution
+    used: false
+    guidance: 未利用

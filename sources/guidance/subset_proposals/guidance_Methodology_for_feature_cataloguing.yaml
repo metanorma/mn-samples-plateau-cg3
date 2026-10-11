@@ -1,0 +1,395 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_AssociationRole"
+  attributes:
+  - name: Methodology for feature cataloguing:memberName
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definition
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:cardinality
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:cardinality
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:type
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:isOrdered
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:isNavigable
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definitionReference
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureCatalogue
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:relation
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:rolePlayer
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_Binding"
+  attributes:
+  - name: Methodology for feature cataloguing:description
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:globalProperty
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_BoundAssociationRole"
+  attributes:
+  - name: Methodology for feature cataloguing:description
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:globalProperty
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:rolePlayer
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_BoundFeatureAttribute"
+  attributes:
+  - name: Methodology for feature cataloguing:description
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:valueType
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:globalProperty
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_CarrierOfCharacteristics"
+  attributes:
+  - name: Methodology for feature cataloguing:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_Constraint"
+  attributes:
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_DefinitionReference"
+  attributes:
+  - name: Methodology for feature cataloguing:sourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definitionSource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_DefinitionSource"
+  attributes:
+  - name: Methodology for feature cataloguing:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_FeatureAssociation"
+  attributes:
+  - name: Methodology for feature cataloguing:typeName
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definition
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:code
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:isAbstract
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:aliases
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:carrierOfCharacteristics
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definitionReference
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureCatalogue
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:inheritsFrom
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:inheritsTo
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:roleName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_FeatureAttribute"
+  attributes:
+  - name: Methodology for feature cataloguing:memberName
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definition
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:cardinality
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:code
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:valueMeasurementUnit
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:valueType
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definitionReference
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureCatalogue
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:listedValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_FeatureCatalogue"
+  attributes:
+  - name: Catalogues:name
+    used: false
+    guidance: 未利用
+  - name: Catalogues:scope
+    used: false
+    guidance: 未利用
+  - name: Catalogues:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: Catalogues:versionNumber
+    used: false
+    guidance: 未利用
+  - name: Catalogues:versionDate
+    used: false
+    guidance: 未利用
+  - name: Catalogues:language
+    used: false
+    guidance: 未利用
+  - name: Catalogues:characterSet
+    used: false
+    guidance: 未利用
+  - name: Catalogues:locale
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:producer
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:functionalLanguage
+    used: false
+    guidance: 未利用
+  - name: Catalogues:subCatalogue
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definitionSource
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:globalProperty
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:inheritanceRelation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_FeatureOperation"
+  attributes:
+  - name: Methodology for feature cataloguing:memberName
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definition
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:cardinality
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:signature
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:formalDefinition
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definitionReference
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureCatalogue
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:affectsValuesOf
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:observesValuesOf
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:triggeredByValuesOf
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_FeatureType"
+  attributes:
+  - name: Methodology for feature cataloguing:typeName
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definition
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:code
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:isAbstract
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:aliases
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:carrierOfCharacteristics
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definitionReference
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureCatalogue
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:inheritsFrom
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:inheritsTo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_InheritanceRelation"
+  attributes:
+  - name: Methodology for feature cataloguing:name
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:description
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:uniqueInstance
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:subtype
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:supertype
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_ListedValue"
+  attributes:
+  - name: Methodology for feature cataloguing:label
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:code
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definition
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definitionReference
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_PropertyType"
+  attributes:
+  - name: Methodology for feature cataloguing:memberName
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definition
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:cardinality
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:definitionReference
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureCatalogue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2005 Methodology for
+    feature cataloguing::Methodology for feature cataloguing::FC_RoleType"
+  attributes:
+  - name: Methodology for feature cataloguing:ordinary
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:aggregation
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:composition
+    used: false
+    guidance: 未利用

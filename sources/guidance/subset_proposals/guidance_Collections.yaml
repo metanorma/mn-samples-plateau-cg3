@@ -1,0 +1,95 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Collections::Code"
+  attributes:
+  - name: Collections:asNumber
+    used: false
+    guidance: 未利用
+  - name: Collections:asCharacter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Collections::T"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Collections::ValueType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::Bag"
+  attributes:
+  - name: Collections:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::CircularSequence"
+  attributes:
+  - name: Collections:length
+    used: false
+    guidance: 未利用
+  - name: Collections:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::Code"
+  attributes:
+  - name: Collections:asNumber
+    used: false
+    guidance: 未利用
+  - name: Collections:asCharacter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::CodeList"
+  attributes:
+  - name: Records and Class Metadata:actualValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::Collection"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::Dictionary"
+  attributes:
+  - name: Collections:elements
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::Dictionary<MemberName, TypeName>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::KeyType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::KeyValuePair"
+  attributes:
+  - name: Collections:key
+    used: false
+    guidance: 未利用
+  - name: Collections:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::Sequence"
+  attributes:
+  - name: Collections:length
+    used: false
+    guidance: 未利用
+  - name: Collections:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::Set"
+  attributes:
+  - name: Collections:size
+    used: false
+    guidance: 未利用
+  - name: Collections:elements
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::T"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Implementation::Collections::ValueType"
+  attributes: []

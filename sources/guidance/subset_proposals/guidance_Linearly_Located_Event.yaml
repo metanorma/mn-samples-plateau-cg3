@@ -1,0 +1,281 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_AtLocation"
+  attributes:
+  - name: Linearly Located Event:atPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:overridingAtLRM
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_AttributeEvent"
+  attributes:
+  - name: Linearly Located Event:value
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:attributedFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_Event"
+  attributes:
+  - name: Linearly Located Event:eventName
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:value
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:location
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:time
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_EventInstant"
+  attributes:
+  - name: Linearly Located Event:atTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_EventLocation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_EventPeriod"
+  attributes:
+  - name: Linearly Located Event:duration
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_EventTime"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_Feature"
+  attributes:
+  - name: Linearly Located Event:event
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:referent
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:linearlyLocatedAttribute
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:locatedFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_FromToLocation"
+  attributes:
+  - name: Linearly Located Event:fromPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:overridingFromLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:toPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:overridingtoLRM
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_LinearAttributeEvent"
+  attributes:
+  - name: Linearly Located Event:value
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:fromPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:toPosition
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:attributedFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_LinearEvent"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_LinearInstantAttributeEvent"
+  attributes:
+  - name: Linearly Located Event:value
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:fromPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:toPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:atTime
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:attributedFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_LinearInstantFeatureEvent"
+  attributes:
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:fromPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:toPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:atTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_LinearLocation"
+  attributes:
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:fromPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:toPosition
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_LinearPeriodAttributeEvent"
+  attributes:
+  - name: Linearly Located Event:value
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:fromPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:toPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:duration
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:attributedFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_LinearPeriodFeatureEvent"
+  attributes:
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:fromPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:toPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:duration
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_LocatedFeature"
+  attributes:
+  - name: Linear Referencing System:locatingFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_PointAttributeEvent"
+  attributes:
+  - name: Linearly Located Event:value
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:atPosition
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:attributedFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_PointFeatureEvent"
+  attributes:
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:atPosition
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_PointInstantAttributeEvent"
+  attributes:
+  - name: Linearly Located Event:value
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:atPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:atTime
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:attributedFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_PointInstantFeatureEvent"
+  attributes:
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:atPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:atTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_PointPeriodAttributeEvent"
+  attributes:
+  - name: Linearly Located Event:value
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:atPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:duration
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:attributedFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linearly Located Event::LE_PointPeriodFeatureEvent"
+  attributes:
+  - name: Linearly Located Event:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:atPosition
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:duration
+    used: false
+    guidance: 未利用

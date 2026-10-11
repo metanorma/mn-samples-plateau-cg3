@@ -1,0 +1,37 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::PointCloud::PointCloud"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPointCloud
+    used: false
+    guidance: 未利用
+  - name: PointCloud:mimeType
+    used: false
+    guidance: 未利用
+  - name: PointCloud:pointFile
+    used: false
+    guidance: 未利用
+  - name: PointCloud:pointFileSrsName
+    used: false
+    guidance: 未利用
+  - name: PointCloud:adeOfPointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:points
+    used: false
+    guidance: 未利用

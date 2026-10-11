@@ -1,0 +1,11 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Reference Systems::RS_ReferenceSystem"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用

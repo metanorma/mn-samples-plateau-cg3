@@ -1,0 +1,17 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::RadiometryValidation::CA_Percentage"
+  attributes:
+  - name: RadiometryValidation:percentage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::RadiometryValidation::CA_RadiometryValidation"
+  attributes:
+  - name: RadiometryValidation:rmsComparisonObject
+    used: false
+    guidance: 未利用
+  - name: RadiometryValidation:validationTime
+    used: false
+    guidance: 未利用

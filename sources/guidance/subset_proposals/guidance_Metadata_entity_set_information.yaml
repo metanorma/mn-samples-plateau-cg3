@@ -1,0 +1,164 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    entity set information::MD_Metadata"
+  attributes:
+  - name: Metadata entity set information:fileIdentifier
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:language
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:characterSet
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:parentIdentifier
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:hierarchyLevel
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:hierarchyLevelName
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:contact
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:dateStamp
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:metadataStandardName
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:metadataStandardVersion
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:dataSet
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:locale
+    used: false
+    guidance: 未利用
+  - name: Application schema information:applicationSchemaInfo
+    used: false
+    guidance: 未利用
+  - name: Constraint information:metadataConstraints
+    used: false
+    guidance: 未利用
+  - name: Content information:contentInfo
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dataQualityInfo
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributionInfo
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:featureAttribute
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:featureType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:propertyType
+    used: false
+    guidance: 未利用
+  - name: 'ISO 19144-1:2009 Classification systems - Classification system structure:'
+    used: false
+    guidance: 未利用
+  - name: Identification information:identificationInfo
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:metadataMaintenance
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:metadataExtensionInfo
+    used: false
+    guidance: 未利用
+  - name: Portrayal catalogue information:portrayalCatalogueInfo
+    used: false
+    guidance: 未利用
+  - name: Reference system information:referenceSystemInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:spatialRepresentationInfo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    entity set information::MD_Metadata"
+  attributes:
+  - name: Metadata entity set information:fileIdentifier
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:language
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:characterSet
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:parentIdentifier
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:hierarchyLevel
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:hierarchyLevelName
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:contact
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:dateStamp
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:metadataStandardName
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:metadataStandardVersion
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:dataSet
+    used: false
+    guidance: 未利用
+  - name: Application schema information:applicationSchemaInfo
+    used: false
+    guidance: 未利用
+  - name: Constraint information:metadataConstraints
+    used: false
+    guidance: 未利用
+  - name: Content information:contentInfo
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dataQualityInfo
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributionInfo
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:featureAttribute
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:featureType
+    used: false
+    guidance: 未利用
+  - name: Identification information:identificationInfo
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:metadataMaintenance
+    used: false
+    guidance: 未利用
+  - name: Metadata application information:describes
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:metadataExtensionInfo
+    used: false
+    guidance: 未利用
+  - name: Portrayal catalogue information:portrayalCatalogueInfo
+    used: false
+    guidance: 未利用
+  - name: Reference system information:referenceSystemInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:spatialRepresentationInfo
+    used: false
+    guidance: 未利用

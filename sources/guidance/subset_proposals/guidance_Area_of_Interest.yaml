@@ -1,0 +1,23 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::Other Location Services::Area
+    of Interest::AI_AreaOfInterest"
+  attributes:
+  - name: Area of Interest:name[0..1]
+    used: false
+    guidance: 未利用
+  - name: Area of Interest:description[0..1]
+    used: false
+    guidance: 未利用
+  - name: Area of Interest:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Other Location Services::Area
+    of Interest::AI_ProximityArea"
+  attributes:
+  - name: Area of Interest:surface
+    used: false
+    guidance: 未利用
+  - name: Area of Interest:circle
+    used: false
+    guidance: 未利用

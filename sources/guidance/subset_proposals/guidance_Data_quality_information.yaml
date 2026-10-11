@@ -1,0 +1,1364 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_AbsoluteExternalPositionalAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_AccuracyOfATimeMeasurement"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_Completeness"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_CompletenessCommission"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_CompletenessOmission"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_ConceptualConsistency"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_ConformanceResult"
+  attributes:
+  - name: Data quality information:specification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:explanation
+    used: false
+    guidance: 未利用
+  - name: Data quality information:pass
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_DataQuality"
+  attributes:
+  - name: Data quality information:scope
+    used: false
+    guidance: 未利用
+  - name: Data quality information:lineage
+    used: false
+    guidance: 未利用
+  - name: Data quality information:report
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_DomainConsistency"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_Element"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_EvaluationMethodTypeCode"
+  attributes:
+  - name: Data quality information:directInternal
+    used: false
+    guidance: 未利用
+  - name: Data quality information:directExternal
+    used: false
+    guidance: 未利用
+  - name: Data quality information:indirect
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_FormatConsistency"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_GriddedDataPositionalAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_LogicalConsistency"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_NonQuantitativeAttributeAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_PositionalAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_QuantitativeAttributeAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_QuantitativeResult"
+  attributes:
+  - name: Data quality information:valueType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:valueUnit
+    used: false
+    guidance: 未利用
+  - name: Data quality information:errorStatistic
+    used: false
+    guidance: 未利用
+  - name: Data quality information:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_RelativeInternalPositionalAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_Result"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_Scope"
+  attributes:
+  - name: Data quality information:level
+    used: false
+    guidance: 未利用
+  - name: Data quality information:extent
+    used: false
+    guidance: 未利用
+  - name: Data quality information:levelDescription
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_TemporalAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_TemporalConsistency"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_TemporalValidity"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_ThematicAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_ThematicClassificationCorrectness"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::DQ_TopologicalConsistency"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::LI_Lineage"
+  attributes:
+  - name: Data quality information:statement
+    used: false
+    guidance: 未利用
+  - name: Data quality information:processStep
+    used: false
+    guidance: 未利用
+  - name: Data quality information:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::LI_ProcessStep"
+  attributes:
+  - name: Data quality information:description
+    used: false
+    guidance: 未利用
+  - name: Data quality information:rationale
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:processor
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Data
+    quality information::LI_Source"
+  attributes:
+  - name: Data quality information:description
+    used: false
+    guidance: 未利用
+  - name: Data quality information:scaleDenominator
+    used: false
+    guidance: 未利用
+  - name: Data quality information:sourceReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Data quality information:sourceCitation
+    used: false
+    guidance: 未利用
+  - name: Data quality information:sourceExtent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_AbsoluteExternalPositionalAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_AccuracyOfATimeMeasurement"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_Completeness"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_CompletenessCommission"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_CompletenessOmission"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_ConceptualConsistency"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_ConformanceResult"
+  attributes:
+  - name: Data quality information:specification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:explanation
+    used: false
+    guidance: 未利用
+  - name: Data quality information:pass
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_DataQuality"
+  attributes:
+  - name: Data quality information:scope
+    used: false
+    guidance: 未利用
+  - name: Data quality information:lineage
+    used: false
+    guidance: 未利用
+  - name: Data quality information:report
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_DomainConsistency"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_Element"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_EvaluationMethodTypeCode"
+  attributes:
+  - name: Data quality information:directInternal
+    used: false
+    guidance: 未利用
+  - name: Data quality information:directExternal
+    used: false
+    guidance: 未利用
+  - name: Data quality information:indirect
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_FormatConsistency"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_GriddedDataPositionalAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_LogicalConsistency"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_NonQuantitativeAttributeAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_PositionalAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_QuantitativeAttributeAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_QuantitativeResult"
+  attributes:
+  - name: Data quality information:valueType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:valueUnit
+    used: false
+    guidance: 未利用
+  - name: Data quality information:errorStatistic
+    used: false
+    guidance: 未利用
+  - name: Data quality information:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_RelativeInternalPositionalAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_Result"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_Scope"
+  attributes:
+  - name: Data quality information:level
+    used: false
+    guidance: 未利用
+  - name: Data quality information:extent
+    used: false
+    guidance: 未利用
+  - name: Data quality information:levelDescription
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_TemporalAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_TemporalConsistency"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_TemporalValidity"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_ThematicAccuracy"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_ThematicClassificationCorrectness"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::DQ_TopologicalConsistency"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::LI_Lineage"
+  attributes:
+  - name: Data quality information:statement
+    used: false
+    guidance: 未利用
+  - name: Data quality information:processStep
+    used: false
+    guidance: 未利用
+  - name: Data quality information:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::LI_ProcessStep"
+  attributes:
+  - name: Data quality information:description
+    used: false
+    guidance: 未利用
+  - name: Data quality information:rationale
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:processor
+    used: false
+    guidance: 未利用
+  - name: Data quality information:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Data
+    quality information::LI_Source"
+  attributes:
+  - name: Data quality information:description
+    used: false
+    guidance: 未利用
+  - name: Data quality information:scaleDenominator
+    used: false
+    guidance: 未利用
+  - name: Data quality information:sourceReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Data quality information:sourceCitation
+    used: false
+    guidance: 未利用
+  - name: Data quality information:sourceExtent
+    used: false
+    guidance: 未利用
+  - name: Data quality information:sourceStep
+    used: false
+    guidance: 未利用

@@ -1,0 +1,47 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Feature Data Model::FD_Feature"
+  attributes:
+  - name: Feature Data Model:id
+    used: false
+    guidance: 未利用
+  - name: Feature Data Model:attributes
+    used: false
+    guidance: 未利用
+  - name: Feature Data Model:collection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Feature Data Model::FD_FeatureCollection"
+  attributes:
+  - name: Feature Data Model:isOrdered
+    used: false
+    guidance: 未利用
+  - name: Feature Data Model:feature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Feature Data Model::FD_FeatureName"
+  attributes:
+  - name: Feature Data Model:id
+    used: false
+    guidance: 未利用
+  - name: Feature Data Model:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Feature Data Model::FD_QueryFeatureCollection"
+  attributes:
+  - name: Feature Data Model:isOrdered
+    used: false
+    guidance: 未利用
+  - name: Feature Data Model:query
+    used: false
+    guidance: 未利用
+  - name: Feature Data Model:queryLanguage
+    used: false
+    guidance: 未利用
+  - name: Feature Data Model:feature
+    used: false
+    guidance: 未利用

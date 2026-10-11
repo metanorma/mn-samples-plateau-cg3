@@ -1,0 +1,278 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_Client"
+  attributes:
+  - name: Service Model:invokes
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_IntelligentUser"
+  attributes:
+  - name: Service Model:name
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_Interface"
+  attributes:
+  - name: Service Model:typeName
+    used: false
+    guidance: 未利用
+  - name: Service Model:operation
+    used: false
+    guidance: 未利用
+  - name: Service Model:theSV_Port
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_InterfaceSpecification"
+  attributes:
+  - name: Service Model:member
+    used: false
+    guidance: 未利用
+  - name: Service Model:theSV_Client
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_Message"
+  attributes:
+  - name: Service Metadata:direction
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:description
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:optionality
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:repeatability
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:valueType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_MsgOperation"
+  attributes:
+  - name: Service Model:operationName
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:parameter
+    used: false
+    guidance: 未利用
+  - name: Service Model:dependsOn
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_ObjOperation"
+  attributes:
+  - name: Service Model:operationName
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:parameter
+    used: false
+    guidance: 未利用
+  - name: Service Model:dependsOn
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_Operation"
+  attributes:
+  - name: Service Model:operationName
+    used: false
+    guidance: 未利用
+  - name: Service Metadata:parameter
+    used: false
+    guidance: 未利用
+  - name: Service Model:dependsOn
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_OperationSpecification"
+  attributes:
+  - name: Service Model:operationName
+    used: false
+    guidance: 未利用
+  - name: Service Model:operationDescription
+    used: false
+    guidance: 未利用
+  - name: Service Model:invocationName
+    used: false
+    guidance: 未利用
+  - name: Service Model:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_ParameterSpecification"
+  attributes:
+  - name: Service Model:name
+    used: false
+    guidance: 未利用
+  - name: Service Model:direction
+    used: false
+    guidance: 未利用
+  - name: Service Model:description
+    used: false
+    guidance: 未利用
+  - name: Service Model:optionality
+    used: false
+    guidance: 未利用
+  - name: Service Model:repeatability
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_PlatformNeutralServiceSpecifiation"
+  attributes:
+  - name: Service Model:name
+    used: false
+    guidance: 未利用
+  - name: Service Model:opModel
+    used: false
+    guidance: 未利用
+  - name: Service Model:serviceType
+    used: false
+    guidance: 未利用
+  - name: Service Model:theSV_Interface
+    used: false
+    guidance: 未利用
+  - name: Service Model:theSV_ServiceSpecification
+    used: false
+    guidance: 未利用
+  - name: Service Model:typeSpec
+    used: false
+    guidance: 未利用
+  - name: Service Model:utilizesASetOf
+    used: false
+    guidance: 未利用
+  - name: Service Model:implSpec
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_PlatformSpecificServiceSpecification"
+  attributes:
+  - name: Service Model:name
+    used: false
+    guidance: 未利用
+  - name: Service Model:opModel
+    used: false
+    guidance: 未利用
+  - name: Service Model:serviceType
+    used: false
+    guidance: 未利用
+  - name: Service Model:DCP
+    used: false
+    guidance: 未利用
+  - name: Service Model:theSV_Interface
+    used: false
+    guidance: 未利用
+  - name: Service Model:theSV_ServiceSpecification
+    used: false
+    guidance: 未利用
+  - name: Service Model:typeSpec
+    used: false
+    guidance: 未利用
+  - name: Service Model:utilizesASetOf
+    used: false
+    guidance: 未利用
+  - name: Service Model:implSpec
+    used: false
+    guidance: 未利用
+  - name: Service Model:implementation
+    used: false
+    guidance: 未利用
+  - name: Service Model:typeSpec
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_Port"
+  attributes:
+  - name: Service Model:theSV_Interface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_Service"
+  attributes:
+  - name: Service Model:specification
+    used: false
+    guidance: 未利用
+  - name: Service Model:theSV_Port
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_ServiceSpecification"
+  attributes:
+  - name: Service Model:name
+    used: false
+    guidance: 未利用
+  - name: Service Model:opModel
+    used: false
+    guidance: 未利用
+  - name: Service Model:theSV_Interface
+    used: false
+    guidance: 未利用
+  - name: Service Model:theSV_ServiceSpecification
+    used: false
+    guidance: 未利用
+  - name: Service Model:typeSpec
+    used: false
+    guidance: 未利用
+  - name: Service Model:utilizesASetOf
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19119 All::ISO 19119:2005 Services::Service
+    Model::SV_ServiceType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Service Model::UPA_ContextBrokerageService "
+  attributes:
+  - name: Service Model:producer
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Service Model::UPA_ContextProducingService"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Service Model::UPA_ContextTrigger "
+  attributes:
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Service Model::UPA_GeoSemanticContextProducingService"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Service Model::UPA_GeospatialContextProducingService"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Service Model::UPA_LGD_RDFElement"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Service Model::UPA_LGDCatalogueService"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Service Model::UPA_LGDQualityControlService"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Service Model::UPA_LGDRegisterService"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Service Model::UPA_LGDService"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Service Model::UPA_LocationalContextProducingService"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Service Model::UPA_toRDFService"
+  attributes: []

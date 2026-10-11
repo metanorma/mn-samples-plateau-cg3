@@ -1,0 +1,17 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19155 All::ISO 19155-2:2016 Place Identifier
+    Linking::PI_PlaceIdentifier"
+  attributes:
+  - name: ISO 19155:2012 Place Identifier Architecture:rs
+    used: false
+    guidance: 未利用
+  - name: ISO 19155:2012 Place Identifier Architecture:value
+    used: false
+    guidance: 未利用
+  - name: ISO 19155:2012 Place Identifier Architecture:validPeriod
+    used: false
+    guidance: 未利用
+  - name: ISO 19155:2012 Place Identifier Architecture:linkedPI
+    used: false
+    guidance: 未利用

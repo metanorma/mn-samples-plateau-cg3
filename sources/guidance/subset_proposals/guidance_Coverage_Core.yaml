@@ -1,0 +1,179 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Core::CV_Coverage"
+  attributes:
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Core::CV_CommonPointRule"
+  attributes:
+  - name: Coverage Core:average
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:low
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:high
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:all
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:start
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:end
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Core::CV_CoverageDescription"
+  attributes:
+  - name: Coverage Core:extent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainDescription
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeDescription
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Coverage Core::CV_AttributeValues"
+  attributes:
+  - name: Coverage Core:values
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Coverage Core::CV_CommonPointRule"
+  attributes:
+  - name: Coverage Core:average
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:low
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:high
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:all
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:start
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:end
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Coverage Core::CV_ContinuousCoverage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationParametersType
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Coverage Core::CV_Coverage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Coverage Core::CV_DomainObject"
+  attributes:
+  - name: Geometry root:spatialElement
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:temporalElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Coverage Core::CV_GeometryValuePair"
+  attributes:
+  - name: Coverage Core:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Coverage Core::CV_InterpolationMethod"
+  attributes:
+  - name: Coverage Core:nearestneighbor
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:linear
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:quadratic
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:cubic
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:bilinear
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:biquadratic
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:bicubic
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:lostarea
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:barycentric
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Coverage Core::CV_ValueObject"
+  attributes:
+  - name: Coverage Core:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationParameters
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:controlValue
+    used: false
+    guidance: 未利用

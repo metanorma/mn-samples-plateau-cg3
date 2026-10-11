@@ -1,0 +1,158 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::Feature"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::LR_AlongReferent"
+  attributes:
+  - name: Linear Referencing System:fromReferent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::LR_Curve"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:segment
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::LR_DirectedEdge"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::LR_DistanceExpression"
+  attributes:
+  - name: Linear Referencing System:distanceAlong
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:referent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::LR_Feature"
+  attributes:
+  - name: Linear Referencing System:referent
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:linearlyLocatedAttribute
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:locatedFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::LR_LinearElement"
+  attributes:
+  - name: Linear Referencing System:linearElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::LR_LinearElementType"
+  attributes:
+  - name: Linear Referencing System:feature
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:curve
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:edge
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::LR_LinearReferencingMethod"
+  attributes:
+  - name: Linear Referencing System:name
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:type
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:units
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:constraint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::LR_LRMType"
+  attributes:
+  - name: Linear Referencing System:absolute
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:relative
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:interpolative
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::LR_PositionExpression"
+  attributes:
+  - name: Linear Referencing System:LRM
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:distanceExpression
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:linearElement
+    used: false
+    guidance: 未利用
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::LR_Referent"
+  attributes:
+  - name: Linear Referencing System:name
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:type
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:position
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:location
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing System::LR_ReferentType"
+  attributes:
+  - name: Linear Referencing System:referenceMarker
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:intersection
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:boundary
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:landmark
+    used: false
+    guidance: 未利用

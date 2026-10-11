@@ -1,0 +1,62 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Imagery Knowledge::Image
+    Knowledge Base::IG_KnowledgeBase"
+  attributes:
+  - name: Image Knowledge Base:organizingPrinciple
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:derivedFrom
+    used: false
+    guidance: 未利用
+  - name: Image Information:ancillaryInput
+    used: false
+    guidance: 未利用
+  - name: Image Information:createdFrom
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:theFC_FeatureType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Imagery Knowledge::Image
+    Knowledge Base::IG_OrganisingPrinciple"
+  attributes:
+  - name: Image Knowledge Base:dataFusion
+    used: false
+    guidance: 未利用
+  - name: Image Knowledge Base:dataMining
+    used: false
+    guidance: 未利用
+  - name: Image Knowledge Base:physicalModel
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Imagery Knowledge::Image Knowledge Base::IG_KnowledgeBase"
+  attributes:
+  - name: Image Knowledge Base:organizingPrinciple
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:derivedFrom
+    used: false
+    guidance: 未利用
+  - name: Image Information:ancillaryInput
+    used: false
+    guidance: 未利用
+  - name: Image Information:createdFrom
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:theFC_FeatureType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Imagery Knowledge::Image Knowledge Base::IG_OrganisingPrinciple"
+  attributes:
+  - name: Image Knowledge Base:dataFusion
+    used: false
+    guidance: 未利用
+  - name: Image Knowledge Base:dataMining
+    used: false
+    guidance: 未利用
+  - name: Image Knowledge Base:physicalModel
+    used: false
+    guidance: 未利用

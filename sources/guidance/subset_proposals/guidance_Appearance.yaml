@@ -1,0 +1,289 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::Appearance::AbstractSurfaceData"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Appearance:isFront
+    used: false
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractSurfaceData
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::AbstractTexture"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Appearance:isFront
+    used: false
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractSurfaceData
+    used: false
+    guidance: 未利用
+  - name: Appearance:imageURI
+    used: false
+    guidance: 未利用
+  - name: Appearance:mimeType
+    used: false
+    guidance: 未利用
+  - name: Appearance:textureType
+    used: false
+    guidance: 未利用
+  - name: Appearance:wrapMode
+    used: false
+    guidance: 未利用
+  - name: Appearance:borderColor
+    used: false
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractTexture
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::Appearance"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractAppearance
+    used: false
+    guidance: 未利用
+  - name: Appearance:theme
+    used: false
+    guidance: 未利用
+  - name: Appearance:adeOfAppearance
+    used: false
+    guidance: 未利用
+  - name: Appearance:surfaceData
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::Color"
+  attributes:
+  - name: Core:list
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::ColorPlusOpacity"
+  attributes:
+  - name: Core:list
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::GeoreferencedTexture"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Appearance:isFront
+    used: false
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractSurfaceData
+    used: false
+    guidance: 未利用
+  - name: Appearance:imageURI
+    used: false
+    guidance: 未利用
+  - name: Appearance:mimeType
+    used: false
+    guidance: 未利用
+  - name: Appearance:textureType
+    used: false
+    guidance: 未利用
+  - name: Appearance:wrapMode
+    used: false
+    guidance: 未利用
+  - name: Appearance:borderColor
+    used: false
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractTexture
+    used: false
+    guidance: 未利用
+  - name: Appearance:preferWorldFile
+    used: false
+    guidance: 未利用
+  - name: Appearance:orientation
+    used: false
+    guidance: 未利用
+  - name: Appearance:target
+    used: false
+    guidance: 未利用
+  - name: Appearance:adeOfGeoreferencedTexture
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:referencePoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::ParameterizedTexture"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Appearance:isFront
+    used: false
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractSurfaceData
+    used: false
+    guidance: 未利用
+  - name: Appearance:imageURI
+    used: false
+    guidance: 未利用
+  - name: Appearance:mimeType
+    used: false
+    guidance: 未利用
+  - name: Appearance:textureType
+    used: false
+    guidance: 未利用
+  - name: Appearance:wrapMode
+    used: false
+    guidance: 未利用
+  - name: Appearance:borderColor
+    used: false
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractTexture
+    used: false
+    guidance: 未利用
+  - name: Appearance:adeOfParameterizedTexture
+    used: false
+    guidance: 未利用
+  - name: Appearance:textureParameterization
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::TexCoordGen"
+  attributes:
+  - name: Appearance:worldToTexture
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:crs
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::TexCoordList"
+  attributes:
+  - name: Appearance:textureCoordinates
+    used: false
+    guidance: 未利用
+  - name: Appearance:ring
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::X3DMaterial"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Appearance:isFront
+    used: false
+    guidance: 未利用
+  - name: Appearance:adeOfAbstractSurfaceData
+    used: false
+    guidance: 未利用
+  - name: Appearance:ambientIntensity
+    used: false
+    guidance: 未利用
+  - name: Appearance:diffuseColor
+    used: false
+    guidance: 未利用
+  - name: Appearance:emissiveColor
+    used: false
+    guidance: 未利用
+  - name: Appearance:specularColor
+    used: false
+    guidance: 未利用
+  - name: Appearance:shininess
+    used: false
+    guidance: 未利用
+  - name: Appearance:transparency
+    used: false
+    guidance: 未利用
+  - name: Appearance:isSmooth
+    used: false
+    guidance: 未利用
+  - name: Appearance:target
+    used: false
+    guidance: 未利用
+  - name: Appearance:adeOfX3DMaterial
+    used: false
+    guidance: 未利用

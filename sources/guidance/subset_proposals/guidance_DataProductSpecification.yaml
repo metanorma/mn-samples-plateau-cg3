@@ -1,0 +1,101 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::DataProductSpecification::AbbreviationEntry"
+  attributes:
+  - name: DataProductSpecification:abbreviation
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:definition
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::DataProductSpecification::DataProductSpecification"
+  attributes:
+  - name: DataProductSpecification:overview
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:specificationDescription
+    used: false
+    guidance: 未利用
+  - name: SpecAdditionalInformation:additionalInformationSection
+    used: false
+    guidance: 未利用
+  - name: SpecContentAndStructure:contentAndStructureSection
+    used: false
+    guidance: 未利用
+  - name: SpecDataCapture:dataCaptureSection
+    used: false
+    guidance: 未利用
+  - name: SpecDataQuality:dataQualitySection
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:deliverySection
+    used: false
+    guidance: 未利用
+  - name: SpecIdentification:identificationSection
+    used: false
+    guidance: 未利用
+  - name: SpecMaintenance:maintenanceSection
+    used: false
+    guidance: 未利用
+  - name: SpecMetadata:metadataSection
+    used: false
+    guidance: 未利用
+  - name: SpecPortrayal:portrayalSection
+    used: false
+    guidance: 未利用
+  - name: SpecReferenceSystem:referenceSystemSection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::DataProductSpecification::SpecificationDescription"
+  attributes:
+  - name: DataProductSpecification:title
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:versionedId
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:id
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:date
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:language
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:contact
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:source
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:format
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:maintenance
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:useLimitation
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:term
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:abbreviation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::DataProductSpecification::TermEntry"
+  attributes:
+  - name: DataProductSpecification:term
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:definition
+    used: false
+    guidance: 未利用
+  - name: DataProductSpecification:note
+    used: false
+    guidance: 未利用

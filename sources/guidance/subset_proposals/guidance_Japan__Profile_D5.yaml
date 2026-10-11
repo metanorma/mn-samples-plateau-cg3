@@ -1,0 +1,641 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_JCDF_Parcl"
+  attributes:
+  - name: Japan (Profile D5):qualityType
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):survayingMethod
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):parcelStatus
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):InvestigatedDate
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):PlottiedDate
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):UsageType
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):area
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):ownerID
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):ownerNameByKana
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):ownerNameByKanji
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):postalCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LABoundaryFaceString"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:bfsID
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:geometry
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:locationByText
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):firstLevelZoneID
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):secondLevelZoneID
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):firstLevelZoneName
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):secondLevelZoneName
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):parcelNumber
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):geometry
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):boundaryType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LABoundaryType"
+  attributes:
+  - name: Japan (Profile D5):boundaryOfParcel
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):boundaryOfFirstLevelZone
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):boundaryOfSecondLevelZone
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):boundaryOfMunicipality
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):provisionalBoundaryOne
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):provisionalBoundaryTwo
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):endPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LACoOwnerExistence"
+  attributes:
+  - name: Japan (Profile D5):singleOwner
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):coOwner
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LADataAcquisition"
+  attributes:
+  - name: Japan (Profile D5):mapDigitaizing
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):surveyed
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LAMonumentMaterial"
+  attributes:
+  - name: Japan (Profile D5):metal
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):rivet
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):plastic
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):concrete
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):brassPlate
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):aluminumPlate
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):stone
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):others
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):unknown
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LAMonumentType"
+  attributes:
+  - name: Japan (Profile D5):notMarked
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):cornerMark
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):cornerStone
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):others
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):unknown
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LAOwnerType"
+  attributes:
+  - name: Japan (Profile D5):nationalHold
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):localGovernment
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):publicCorporation
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):privateCorporation
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):otherCorporation
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):private
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):others
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):outSiteOfCadastralInvestigation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LAParcelStatusType"
+  attributes:
+  - name: Japan (Profile D5):distinguishedParcel
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):undistinguishedParcel
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):provisionalParcel
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):newlyRecordedParcel
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):noOwnerParcel
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):publicRoadOrPublicRiver
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):addressOnlyParcel
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):others
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LAPoint"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:interpolationRole
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:monumentation
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:originalLocation
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:pID
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:pointType
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:productionMethod
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:transAndResult
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):pointID
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):locationOrig
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):pointLevel
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):monumentType
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):monumentMaterial
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):survayedDate
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):surveyMethod
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):dataAcquisition
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):controlPointName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LAPointLevel"
+  attributes:
+  - name: Japan (Profile D5):agreedPoint
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):pointOfMapEdge
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):provisionalPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LAQualityType"
+  attributes:
+  - name: Japan (Profile D5):LevelAOne
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):LevelATwo
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):LevelAThree
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):LevelBOne
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):LevelBTwo
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):LevelBThree
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LASpatialSource"
+  attributes:
+  - name: Special Classes:acceptance
+    used: false
+    guidance: 未利用
+  - name: Special Classes:availabilityStatus
+    used: false
+    guidance: 未利用
+  - name: Special Classes:extArchiveID
+    used: false
+    guidance: 未利用
+  - name: Special Classes:lifeSpanStamp
+    used: false
+    guidance: 未利用
+  - name: Special Classes:maintype
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:recordation
+    used: false
+    guidance: 未利用
+  - name: Special Classes:sID
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Special Classes:submission
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:measurements
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:procedure
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:type
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):municipalityCode
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):municipalityName
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):co-ordinateSystemNo
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):transferInfo
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):creatorName
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):creationDate
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):areaName
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):creationAreaValue
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):geodeticSystemNo
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):cadaster2000VersionNo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LASpatialUnit"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):address
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):areaValue
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):cadastralSheetName
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):coOwnerExistence
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):countOfSheet
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):firstLevelZoneID
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):firstLevelZoneName
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):InvestigatedDate
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):ownerID
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):ownerNameByKana
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):ownerNameByKanji
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):ownerType
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):parcelNumber
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):parcelStatus
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):plottiedDate
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):postalCode
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):qualityType
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):secondLevelZoneID
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):secondLevelZoneName
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):survayingMethod
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):usageType
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):zoning
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LASurvayingMethodType"
+  attributes:
+  - name: Japan (Profile D5):graphicMethod
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):co-ordinateMethodByLandSurvey
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):co-ordinateMethodByPhotogrammetry
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):orthophoto
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):others
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):canNotInvestigation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LAUsageType"
+  attributes:
+  - name: Japan (Profile D5):paddyField
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):field
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):residentialLand
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):saltPan
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):mineralSpringLand
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):lakesAndMarshes
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):mountainsAndForests
+    used: false
+    guidance: 未利用
+  - name: 'Japan (Profile D5):pasture '
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):plain
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):graveyard
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):precinctsOfTempleOrShrine
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):canal
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):channel
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):channelWhereHardToUse
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):irrigationPond
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):bank
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):ditch
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):forestReserve
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):publicRoad
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):park
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):railroadSite
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):schoolSite
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):crossUsage
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):others
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):unknown
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Japan (Profile D5)::JP_LAZoningType"
+  attributes:
+  - name: Japan (Profile D5):residentialLand(residential)
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):residentialLand(industrySite)
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):residentialLand(others)
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):channel(pond)
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):channel(other)
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):crossUsage(lake)
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):crossUsage(river)
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):crossUsage(channelForPower)
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):crossUsage(others)
+    used: false
+    guidance: 未利用
+  - name: Japan (Profile D5):outSiteOfCadastralInvestigation
+    used: false
+    guidance: 未利用

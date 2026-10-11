@@ -1,0 +1,25 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Decision Support::IG_DecisionSupport"
+  attributes:
+  - name: Image Classification and Understanding:information
+    used: false
+    guidance: 未利用
+  - name: Image Information:observations
+    used: false
+    guidance: 未利用
+  - name: Image Knowledge Base:predictions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Decision Support::IG_DecisionSupport"
+  attributes:
+  - name: Image Classification and Understanding:information
+    used: false
+    guidance: 未利用
+  - name: Image Information:observations
+    used: false
+    guidance: 未利用
+  - name: Image Knowledge Base:predictions
+    used: false
+    guidance: 未利用

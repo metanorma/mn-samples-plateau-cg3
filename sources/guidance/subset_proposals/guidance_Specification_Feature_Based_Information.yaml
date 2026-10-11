@@ -1,0 +1,31 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:2007 Data Product
+    Specifications::Specification Content and Structure::Specification Feature Based
+    Information::DPS_ApplicationSchema"
+  attributes:
+  - name: Feature Cataloguing:featureCatalogue
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureCatalogue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:2007 Data Product
+    Specifications::Specification Content and Structure::Specification Feature Based
+    Information::DPS_FeatureBasedDataInformation"
+  attributes:
+  - name: Specification Content and Structure:narrativeDescription
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:contentScope
+    used: false
+    guidance: 未利用
+  - name: Feature Cataloguing:featureCatalogue
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureCatalogue
+    used: false
+    guidance: 未利用
+  - name: Specification Feature Based Information:applicationSchema
+    used: false
+    guidance: 未利用

@@ -1,0 +1,215 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Service metadata information::DCPList"
+  attributes:
+  - name: Service metadata information:XML
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:CORBA
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:JAVA
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:COM
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:SQL
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:SOAP
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:Z3950
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:HTTP
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:FTP
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:webServices
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Service metadata information::SV_CoupledResource"
+  attributes:
+  - name: Service metadata information:scopedName
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:resourceReference
+    used: false
+    guidance: 未利用
+  - name: Identification information:resource
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:operation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Service metadata information::SV_CouplingType"
+  attributes:
+  - name: Service metadata information:loose
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:mixed
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:tight
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Service metadata information::SV_OperationChainMetadata"
+  attributes:
+  - name: Service metadata information:name
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:description
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:operation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Service metadata information::SV_OperationMetadata"
+  attributes:
+  - name: Service metadata information:operationName
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:distributedComputingPlatform
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:operationDescription
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:invocationName
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:connectPoint
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:dependsOn
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Service metadata information::SV_Parameter"
+  attributes:
+  - name: Service metadata information:name
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:direction
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:description
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:optionality
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:repeatability
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Service metadata information::SV_ServiceIdentification"
+  attributes:
+  - name: Identification information:citation
+    used: false
+    guidance: 未利用
+  - name: Identification information:abstract
+    used: false
+    guidance: 未利用
+  - name: Identification information:purpose
+    used: false
+    guidance: 未利用
+  - name: Identification information:credit
+    used: false
+    guidance: 未利用
+  - name: Identification information:status
+    used: false
+    guidance: 未利用
+  - name: Identification information:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Identification information:spatialRepresentationType
+    used: false
+    guidance: 未利用
+  - name: Identification information:spatialResolution
+    used: false
+    guidance: 未利用
+  - name: Identification information:temporalResolution
+    used: false
+    guidance: 未利用
+  - name: Identification information:topicCategory
+    used: false
+    guidance: 未利用
+  - name: Identification information:extent
+    used: false
+    guidance: 未利用
+  - name: Identification information:additionalDocumentation
+    used: false
+    guidance: 未利用
+  - name: Identification information:processingLevel
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:serviceType
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:serviceTypeVersion
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:accessProperties
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:couplingType
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:coupledResource
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:operatedDataset
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:profile
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:serviceStandard
+    used: false
+    guidance: 未利用
+  - name: Common classes:graphicOverview
+    used: false
+    guidance: 未利用
+  - name: Constraint information:resourceConstraints
+    used: false
+    guidance: 未利用
+  - name: Distribution information:resourceFormat
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:theTaxonomySystem
+    used: false
+    guidance: 未利用
+  - name: Identification information:associatedResource
+    used: false
+    guidance: 未利用
+  - name: Identification information:descriptiveKeywords
+    used: false
+    guidance: 未利用
+  - name: Identification information:resourceSpecificUsage
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:resourceMaintenance
+    used: false
+    guidance: 未利用
+  - name: Identification information:operatesOn
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:containsChain
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:containsOperations
+    used: false
+    guidance: 未利用

@@ -1,0 +1,53 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19112 All::ISO 19112:2003 Spatial referencing
+    by geographic identifier::ReferenceSystem by Identifier::SI_LocationType"
+  attributes:
+  - name: ReferenceSystem by Identifier:name
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:theme
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:identifier
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:definition
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:owner
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:territoryOfUse
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:child
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:parent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19112 All::ISO 19112:2003 Spatial referencing
+    by geographic identifier::ReferenceSystem by Identifier::SI_SpatialReferenceSystemUsingGeographicIdentifiers"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:overallOwner
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:territoryOfUse
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:theme
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:locationTypes
+    used: false
+    guidance: 未利用

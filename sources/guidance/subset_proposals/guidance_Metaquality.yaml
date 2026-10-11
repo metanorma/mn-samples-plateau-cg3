@@ -1,0 +1,86 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Metaquality::DQ_Confidence"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+  - name: Data quality:relatedElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Metaquality::DQ_Homogeneity"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+  - name: Data quality:relatedElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Metaquality::DQ_Metaquality"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+  - name: Data quality:relatedElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Metaquality::DQ_Representativity"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+  - name: Data quality:relatedElement
+    used: false
+    guidance: 未利用

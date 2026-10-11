@@ -1,0 +1,173 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Metadata-based transfers of geospatial information::MX_Aggregate"
+  attributes:
+  - name: Catalogues:aggregateCatalogue
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:aggregateFile
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Metadata-based transfers of geospatial information::MX_DataFile"
+  attributes:
+  - name: Metadata-based transfers of geospatial information:fileName
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:fileDescription
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:fileType
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:featureTypes
+    used: false
+    guidance: 未利用
+  - name: Distribution information:fileFormat
+    used: false
+    guidance: 未利用
+  - name: Distribution information:fileFormat
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Metadata-based transfers of geospatial information::MX_DataSet"
+  attributes:
+  - name: Catalogues:datasetCatalogue
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:dataFile
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:supportFile
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Metadata-based transfers of geospatial information::MX_File"
+  attributes:
+  - name: Metadata-based transfers of geospatial information:fileName
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:fileDescription
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:fileType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Metadata-based transfers of geospatial information::MX_ScopeCode"
+  attributes:
+  - name: Common classes:attribute
+    used: false
+    guidance: 未利用
+  - name: Common classes:attributeType
+    used: false
+    guidance: 未利用
+  - name: Common classes:collectionHardware
+    used: false
+    guidance: 未利用
+  - name: Common classes:collectionSession
+    used: false
+    guidance: 未利用
+  - name: Common classes:dataset
+    used: false
+    guidance: 未利用
+  - name: Common classes:series
+    used: false
+    guidance: 未利用
+  - name: Common classes:nonGeographicDataset
+    used: false
+    guidance: 未利用
+  - name: Common classes:dimensionGroup
+    used: false
+    guidance: 未利用
+  - name: Common classes:feature
+    used: false
+    guidance: 未利用
+  - name: Common classes:featureType
+    used: false
+    guidance: 未利用
+  - name: Common classes:propertyType
+    used: false
+    guidance: 未利用
+  - name: Common classes:fieldSession
+    used: false
+    guidance: 未利用
+  - name: Common classes:software
+    used: false
+    guidance: 未利用
+  - name: Common classes:service
+    used: false
+    guidance: 未利用
+  - name: Common classes:model
+    used: false
+    guidance: 未利用
+  - name: Common classes:tile
+    used: false
+    guidance: 未利用
+  - name: Common classes:metadata
+    used: false
+    guidance: 未利用
+  - name: Common classes:initiative
+    used: false
+    guidance: 未利用
+  - name: Common classes:sample
+    used: false
+    guidance: 未利用
+  - name: Common classes:document
+    used: false
+    guidance: 未利用
+  - name: Common classes:repository
+    used: false
+    guidance: 未利用
+  - name: Common classes:aggregate
+    used: false
+    guidance: 未利用
+  - name: Common classes:product
+    used: false
+    guidance: 未利用
+  - name: Common classes:collection
+    used: false
+    guidance: 未利用
+  - name: Common classes:coverage
+    used: false
+    guidance: 未利用
+  - name: Common classes:application
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:initiative
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:stereoMate
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:sensor
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:platformSeries
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:sensorSeries
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:productionSeries
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:transferAggregate
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:otherAggregate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Metadata-based transfers of geospatial information::MX_SupportFile"
+  attributes:
+  - name: Metadata-based transfers of geospatial information:fileName
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:fileDescription
+    used: false
+    guidance: 未利用
+  - name: Metadata-based transfers of geospatial information:fileType
+    used: false
+    guidance: 未利用

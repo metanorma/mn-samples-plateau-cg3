@@ -1,0 +1,23 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Feature::Domain Spatial::SurfaceWithQuality"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Domain Spatial:accuracy
+    used: false
+    guidance: 未利用
+  - name: Domain Spatial:methodOfMeasurement
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:patch
+    used: false
+    guidance: 未利用

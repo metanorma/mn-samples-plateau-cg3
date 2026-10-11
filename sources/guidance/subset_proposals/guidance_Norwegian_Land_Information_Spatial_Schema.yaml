@@ -1,0 +1,182 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_Composite"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:superComplex
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_CompositeCurve"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:orientation
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:superComplex
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_CompositePoint"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:superComplex
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_CompsiteSurface"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:orientation
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:superComplex
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_Curve"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:orientation
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:orientation
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:complex
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:segment
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_CurveSegment"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:interpolation
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:numDerivativesAtStart[0..1]
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:numDerivativesAtEnd[0..1]
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:numDerivativeInterior[0..1]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_Map"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:orientation
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:element
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:subComplex
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_OrientableCurve"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:orientation
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:complex
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_OrientableSurface"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:orientation
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:complex
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:boundary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_Point"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:position
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:complex
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_Primitve"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:complex
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_Ring"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:orientation
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:superComplex
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_Surface"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:orientation
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:orientation
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:complex
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:boundary
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:patch
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_SurfaceBoundary"
+  attributes:
+  - name: Norwegian Land Information Spatial Schema:rings
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::Norwegian Land Information
+    Spatial Schema::NL_SurfacePatch"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:interpolation
+    used: false
+    guidance: 未利用
+  - name: Norwegian Land Information Spatial Schema:numDerivativesOnBoundary[0..1]
+    used: false
+    guidance: 未利用

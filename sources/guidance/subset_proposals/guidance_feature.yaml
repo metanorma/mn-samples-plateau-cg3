@@ -1,0 +1,38 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::feature::AbstractFeature"
+  attributes:
+  - name: gmlBase:description
+    used: false
+    guidance: 未利用
+  - name: gmlBase:descriptionReference
+    used: false
+    guidance: 未利用
+  - name: gmlBase:name
+    used: false
+    guidance: 未利用
+  - name: gmlBase:identifier
+    used: false
+    guidance: 未利用
+  - name: feature:boundedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::feature::EnvelopeWithTimePeriod"
+  attributes:
+  - name: Coordinate geometry:upperCorner
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:lowerCorner
+    used: false
+    guidance: 未利用
+  - name: feature:frame
+    used: false
+    guidance: 未利用
+  - name: feature:beginPosition
+    used: false
+    guidance: 未利用
+  - name: feature:endPosition
+    used: false
+    guidance: 未利用

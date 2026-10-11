@@ -1,0 +1,128 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Prism Geometry::MF_GlobalAxisName"
+  attributes:
+  - name: Prism Geometry:tangent
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:backtangent
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:normal
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:bearing
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:up
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:down
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:right
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:left
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:axis1
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:negativeAxis1
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:axis2
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:negativeAxis2
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:axis3
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:negativeAxis3
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Prism Geometry::MF_LocalGeometry"
+  attributes:
+  - name: Prism Geometry:origin
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:axis
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Prism Geometry::MF_PrismGeometry"
+  attributes:
+  - name: Geometry Types:beginDomain
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:endDomain
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:globalAxis
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:controlOrientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:originTrajectory
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Prism Geometry::MF_RigidTemporalGeometry"
+  attributes:
+  - name: Geometry Types:beginDomain
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:endDomain
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:globalAxis
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:controlOrientation
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:baseGeometry
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:originTrajectory
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Prism Geometry::MF_RotationMatrix"
+  attributes:
+  - name: Prism Geometry:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Prism Geometry::MF_TemporalOrientation"
+  attributes:
+  - name: Prism Geometry:rotation
+    used: false
+    guidance: 未利用
+  - name: Prism Geometry:time
+    used: false
+    guidance: 未利用

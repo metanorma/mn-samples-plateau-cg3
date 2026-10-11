@@ -1,0 +1,47 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Observation schema::categoryObservation::OM_CategoryObservation"
+  attributes:
+  - name: observation:phenomenonTime
+    used: false
+    guidance: 未利用
+  - name: observation:resultTime
+    used: false
+    guidance: 未利用
+  - name: observation:validTime
+    used: false
+    guidance: 未利用
+  - name: observation:resultQuality
+    used: false
+    guidance: 未利用
+  - name: observation:parameter
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:featureOfInterest
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:observedProperty
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:observedProperty
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:metadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:metadata
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:result
+    used: false
+    guidance: 未利用
+  - name: observation:procedure
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: Names:result
+    used: false
+    guidance: 未利用

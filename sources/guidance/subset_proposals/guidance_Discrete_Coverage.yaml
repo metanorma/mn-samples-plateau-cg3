@@ -1,0 +1,38 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Discrete
+    Coverage::CV_DiscreteCoverage"
+  attributes:
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:coverageData
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Discrete
+    Coverage::CV_RangeSubset"
+  attributes:
+  - name: Discrete Coverage:includedField
+    used: false
+    guidance: 未利用
+  - name: Range Description:sourceType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Discrete
+    Coverage::CV_IncludedField"
+  attributes:
+  - name: Discrete Coverage:fieldName
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverage:includedKeyValues
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Discrete
+    Coverage::CV_IncludedKeyValues"
+  attributes:
+  - name: Discrete Coverage:axisName
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverage:keyValue
+    used: false
+    guidance: 未利用

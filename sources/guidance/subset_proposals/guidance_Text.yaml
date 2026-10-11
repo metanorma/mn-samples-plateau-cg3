@@ -1,0 +1,62 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Primitive types::Text::CharacterSetCode"
+  attributes:
+  - name: Text:ISO10646-2
+    used: false
+    guidance: 未利用
+  - name: Text:ISO8859
+    used: false
+    guidance: 未利用
+  - name: Text:ISO10646-1
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Text::Character"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Text::CharacterSetCode"
+  attributes:
+  - name: Text:ISO10646-2
+    used: false
+    guidance: 未利用
+  - name: Text:ISO8859
+    used: false
+    guidance: 未利用
+  - name: Text:ISO10646-1
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Text::CharacterString"
+  attributes:
+  - name: Text:characterSet
+    used: false
+    guidance: 未利用
+  - name: Text:elements
+    used: false
+    guidance: 未利用
+  - name: Text:maxLength
+    used: false
+    guidance: 未利用
+  - name: Text:size
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Text::OCL"
+  attributes:
+  - name: Text:characterSet
+    used: false
+    guidance: 未利用
+  - name: Text:elements
+    used: false
+    guidance: 未利用
+  - name: Text:maxLength
+    used: false
+    guidance: 未利用
+  - name: Text:size
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Text::Sequence<Character>"
+  attributes: []

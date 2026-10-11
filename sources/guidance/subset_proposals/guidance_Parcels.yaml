@@ -1,0 +1,17 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Metadata::Parcels::Parcel"
+  attributes:
+  - name: Parcels:border
+    used: false
+    guidance: 未利用
+  - name: Parcels:hasExtent
+    used: false
+    guidance: 未利用
+  - name: Parcels:parcelName
+    used: false
+    guidance: 未利用
+  - name: Parcels:restrictionOnUseOfData
+    used: false
+    guidance: 未利用

@@ -1,0 +1,110 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Instance
+    Model::EM_CodeListExtraction"
+  attributes:
+  - name: Instance Model:name
+    used: false
+    guidance: 未利用
+  - name: Instance Model:source
+    used: false
+    guidance: 未利用
+  - name: Instance Model:extracted
+    used: false
+    guidance: 未利用
+  - name: Instance Model:format
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Instance
+    Model::EM_CodeListValueFormat"
+  attributes:
+  - name: Instance Model:code
+    used: false
+    guidance: 未利用
+  - name: Instance Model:value
+    used: false
+    guidance: 未利用
+  - name: Instance Model:mix
+    used: false
+    guidance: 未利用
+  - name: Instance Model:both
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Instance
+    Model::IM_BasicValue"
+  attributes:
+  - name: Instance Model:theIM_Collection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Instance
+    Model::IM_Collection"
+  attributes:
+  - name: Instance Model:elems
+    used: false
+    guidance: 未利用
+  - name: Instance Model:theIM_Collection
+    used: false
+    guidance: 未利用
+  - name: Instance Model:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Instance
+    Model::IM_DataSet"
+  attributes:
+  - name: Instance Model:object
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Instance
+    Model::IM_Object"
+  attributes:
+  - name: Instance Model:id
+    used: false
+    guidance: 未利用
+  - name: Instance Model:uuid
+    used: false
+    guidance: 未利用
+  - name: Instance Model:class
+    used: false
+    guidance: 未利用
+  - name: Instance Model:theIM_Collection
+    used: false
+    guidance: 未利用
+  - name: Instance Model:property
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Instance
+    Model::IM_ObjectReference"
+  attributes:
+  - name: Instance Model:oid_ref
+    used: false
+    guidance: 未利用
+  - name: Instance Model:uuid_ref
+    used: false
+    guidance: 未利用
+  - name: Instance Model:uri_ref
+    used: false
+    guidance: 未利用
+  - name: Instance Model:theIM_Collection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Instance
+    Model::IM_Property"
+  attributes:
+  - name: Instance Model:name
+    used: false
+    guidance: 未利用
+  - name: Instance Model:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Instance
+    Model::IM_StructuredValue"
+  attributes:
+  - name: Instance Model:theIM_Collection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Instance
+    Model::IM_Value"
+  attributes:
+  - name: Instance Model:theIM_Collection
+    used: false
+    guidance: 未利用

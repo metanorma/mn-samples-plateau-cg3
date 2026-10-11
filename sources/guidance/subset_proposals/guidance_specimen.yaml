@@ -1,0 +1,59 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Sampling Features::specimen::Location"
+  attributes:
+  - name: specimen:geometryLocation
+    used: false
+    guidance: 未利用
+  - name: specimen:nameLocation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Sampling Features::specimen::SF_Process"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Sampling Features::specimen::SF_Specimen"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: specimen:materialClass
+    used: false
+    guidance: 未利用
+  - name: specimen:samplingTime
+    used: false
+    guidance: 未利用
+  - name: specimen:samplingLocation
+    used: false
+    guidance: 未利用
+  - name: specimen:samplingMethod
+    used: false
+    guidance: 未利用
+  - name: specimen:currentLocation
+    used: false
+    guidance: 未利用
+  - name: specimen:specimenType
+    used: false
+    guidance: 未利用
+  - name: specimen:size
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: specimen:processingDetails
+    used: false
+    guidance: 未利用

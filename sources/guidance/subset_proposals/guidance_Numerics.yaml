@@ -1,0 +1,32 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Numerics::Decimal"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Numerics::Integer"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Numerics::Number"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Numerics::Real"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Numerics::UnlimitedInteger"
+  attributes:
+  - name: Numerics:isInfinite
+    used: false
+    guidance: 未利用
+  - name: Numerics:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Numerics::Vector"
+  attributes:
+  - name: Numerics:dimension
+    used: false
+    guidance: 未利用
+  - name: Numerics:ordinates
+    used: false
+    guidance: 未利用

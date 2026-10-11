@@ -1,0 +1,233 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LanguageSpecificCharacterString"
+  attributes:
+  - name: Text:characterSet
+    used: false
+    guidance: 未利用
+  - name: Text:elements
+    used: false
+    guidance: 未利用
+  - name: Text:maxLength
+    used: false
+    guidance: 未利用
+  - name: Text:size
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:language
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_AccessInfo"
+  attributes:
+  - name: Message Data Types:id
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:myID
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:securityPass
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_Accuracy"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_Address"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_CostFunction"
+  attributes:
+  - name: Cost Function:costFunction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_DataSource"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_DisplayParameters"
+  attributes:
+  - name: Message Data Types:width
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:length
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:scale
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:symbol
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:format
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_EventInfo"
+  attributes:
+  - name: Message Data Types:description
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:time
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:place
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_FeatureData"
+  attributes:
+  - name: Message Data Types:feature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_GeometryChoice"
+  attributes:
+  - name: Message Data Types:coordinate
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:geometry
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:topology
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_Instruction"
+  attributes:
+  - name: Message Data Types:maneuver
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_Location"
+  attributes:
+  - name: Message Data Types:position
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:qualityOfPosition
+    used: false
+    guidance: 未利用
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_Maneuver"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_MapFormat"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_NamedLocation"
+  attributes:
+  - name: Message Data Types:gazetteerEntry
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:trackPosition
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_Notification"
+  attributes:
+  - name: Message Data Types:user
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:event
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:trigger
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:triggerTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_Position"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_Preference"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_Route"
+  attributes:
+  - name: Message Data Types:mainRouteRule
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:maneuver
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_RouteConstraint"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_RouteCriteria"
+  attributes:
+  - name: Message Data Types:start
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:wayPoints
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:end
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:constraints
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:preferences
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:costFunction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_SecurityCertificate"
+  attributes:
+  - name: Digital Rights Management:license
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:user
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_SymbolSet"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_TrackingLocation"
+  attributes:
+  - name: Message Data Types:position
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:qualityOfPosition
+    used: false
+    guidance: 未利用
+  - name: Message Data Types:time
+    used: false
+    guidance: 未利用
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_TrackingLocationSeq"
+  attributes:
+  - name: Message Data Types:location
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_TrackTrigger"
+  attributes:
+  - name: Message Data Types:trackTrigger
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_Trigger"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::Message Data Types::LBS_UserID"
+  attributes:
+  - name: Message Data Types:ID
+    used: false
+    guidance: 未利用

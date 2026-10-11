@@ -1,0 +1,17 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Instance
+    Examples::Parameterized symbol example::PtSymbolDefinition"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Instance
+    Examples::Parameterized symbol example::SurveyPoint"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Instance
+    Examples::Parameterized symbol example::SurveyPtSym"
+  attributes:
+  - name: Parameterized symbol example:pntGeom
+    used: false
+    guidance: 未利用
+  - name: Parameterized symbol example:tx
+    used: false
+    guidance: 未利用

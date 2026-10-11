@@ -1,0 +1,32 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-1:2014 Reference Model
+    - Fundamentals::reference model::ApplicationSchema"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-1:2014 Reference Model
+    - Fundamentals::reference model::Dataset"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-1:2014 Reference Model
+    - Fundamentals::reference model::Feature"
+  attributes:
+  - name: 'reference model:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-1:2014 Reference Model
+    - Fundamentals::reference model::MetadataDataset"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-1:2014 Reference Model
+    - Fundamentals::reference model::Position"
+  attributes:
+  - name: 'reference model:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-1:2014 Reference Model
+    - Fundamentals::reference model::Service"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-1:2014 Reference Model
+    - Fundamentals::reference model::SpatialObject"
+  attributes:
+  - name: 'reference model:'
+    used: false
+    guidance: 未利用

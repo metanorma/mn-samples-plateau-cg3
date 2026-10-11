@@ -1,0 +1,1313 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::DS_AssociationTypeCode"
+  attributes:
+  - name: Identification information:crossReference
+    used: false
+    guidance: 未利用
+  - name: Identification information:largerWorkCitation
+    used: false
+    guidance: 未利用
+  - name: Identification information:partOfSeamlessDatabase
+    used: false
+    guidance: 未利用
+  - name: Identification information:stereoMate
+    used: false
+    guidance: 未利用
+  - name: Identification information:isComposedOf
+    used: false
+    guidance: 未利用
+  - name: Identification information:collectiveTitle
+    used: false
+    guidance: 未利用
+  - name: Identification information:series
+    used: false
+    guidance: 未利用
+  - name: Identification information:dependency
+    used: false
+    guidance: 未利用
+  - name: Identification information:revisionOf
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::DS_InitiativeTypeCode"
+  attributes:
+  - name: Identification information:campaign
+    used: false
+    guidance: 未利用
+  - name: Identification information:collection
+    used: false
+    guidance: 未利用
+  - name: Identification information:exercise
+    used: false
+    guidance: 未利用
+  - name: Identification information:experiment
+    used: false
+    guidance: 未利用
+  - name: Identification information:investigation
+    used: false
+    guidance: 未利用
+  - name: Identification information:mission
+    used: false
+    guidance: 未利用
+  - name: Identification information:sensor
+    used: false
+    guidance: 未利用
+  - name: Identification information:operation
+    used: false
+    guidance: 未利用
+  - name: Identification information:platform
+    used: false
+    guidance: 未利用
+  - name: Identification information:process
+    used: false
+    guidance: 未利用
+  - name: Identification information:program
+    used: false
+    guidance: 未利用
+  - name: Identification information:project
+    used: false
+    guidance: 未利用
+  - name: Identification information:study
+    used: false
+    guidance: 未利用
+  - name: Identification information:task
+    used: false
+    guidance: 未利用
+  - name: Identification information:trial
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::MD_AssociatedResource"
+  attributes:
+  - name: Identification information:name
+    used: false
+    guidance: 未利用
+  - name: Identification information:associationType
+    used: false
+    guidance: 未利用
+  - name: Identification information:initiativeType
+    used: false
+    guidance: 未利用
+  - name: Identification information:metadataReference
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::MD_DataIdentification"
+  attributes:
+  - name: Identification information:citation
+    used: false
+    guidance: 未利用
+  - name: Identification information:abstract
+    used: false
+    guidance: 未利用
+  - name: Identification information:purpose
+    used: false
+    guidance: 未利用
+  - name: Identification information:credit
+    used: false
+    guidance: 未利用
+  - name: Identification information:status
+    used: false
+    guidance: 未利用
+  - name: Identification information:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Identification information:spatialRepresentationType
+    used: false
+    guidance: 未利用
+  - name: Identification information:spatialResolution
+    used: false
+    guidance: 未利用
+  - name: Identification information:temporalResolution
+    used: false
+    guidance: 未利用
+  - name: Identification information:topicCategory
+    used: false
+    guidance: 未利用
+  - name: Identification information:extent
+    used: false
+    guidance: 未利用
+  - name: Identification information:additionalDocumentation
+    used: false
+    guidance: 未利用
+  - name: Identification information:processingLevel
+    used: false
+    guidance: 未利用
+  - name: Identification information:defaultLocale
+    used: false
+    guidance: 未利用
+  - name: Identification information:otherLocale
+    used: false
+    guidance: 未利用
+  - name: Identification information:environmentDescription
+    used: false
+    guidance: 未利用
+  - name: Identification information:supplementalInformation
+    used: false
+    guidance: 未利用
+  - name: Common classes:graphicOverview
+    used: false
+    guidance: 未利用
+  - name: Constraint information:resourceConstraints
+    used: false
+    guidance: 未利用
+  - name: Distribution information:resourceFormat
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:theTaxonomySystem
+    used: false
+    guidance: 未利用
+  - name: Identification information:associatedResource
+    used: false
+    guidance: 未利用
+  - name: Identification information:descriptiveKeywords
+    used: false
+    guidance: 未利用
+  - name: Identification information:resourceSpecificUsage
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:resourceMaintenance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::MD_Identification"
+  attributes:
+  - name: Identification information:citation
+    used: false
+    guidance: 未利用
+  - name: Identification information:abstract
+    used: false
+    guidance: 未利用
+  - name: Identification information:purpose
+    used: false
+    guidance: 未利用
+  - name: Identification information:credit
+    used: false
+    guidance: 未利用
+  - name: Identification information:status
+    used: false
+    guidance: 未利用
+  - name: Identification information:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Identification information:spatialRepresentationType
+    used: false
+    guidance: 未利用
+  - name: Identification information:spatialResolution
+    used: false
+    guidance: 未利用
+  - name: Identification information:temporalResolution
+    used: false
+    guidance: 未利用
+  - name: Identification information:topicCategory
+    used: false
+    guidance: 未利用
+  - name: Identification information:extent
+    used: false
+    guidance: 未利用
+  - name: Identification information:additionalDocumentation
+    used: false
+    guidance: 未利用
+  - name: Identification information:processingLevel
+    used: false
+    guidance: 未利用
+  - name: Common classes:graphicOverview
+    used: false
+    guidance: 未利用
+  - name: Constraint information:resourceConstraints
+    used: false
+    guidance: 未利用
+  - name: Distribution information:resourceFormat
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:theTaxonomySystem
+    used: false
+    guidance: 未利用
+  - name: Identification information:associatedResource
+    used: false
+    guidance: 未利用
+  - name: Identification information:descriptiveKeywords
+    used: false
+    guidance: 未利用
+  - name: Identification information:resourceSpecificUsage
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:resourceMaintenance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::MD_KeywordClass"
+  attributes:
+  - name: Identification information:className
+    used: false
+    guidance: 未利用
+  - name: Identification information:conceptIdentifier
+    used: false
+    guidance: 未利用
+  - name: Identification information:ontology
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::MD_Keywords"
+  attributes:
+  - name: Identification information:keyword
+    used: false
+    guidance: 未利用
+  - name: Identification information:type
+    used: false
+    guidance: 未利用
+  - name: Identification information:thesaurusName
+    used: false
+    guidance: 未利用
+  - name: Identification information:keywordClass
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::MD_KeywordTypeCode"
+  attributes:
+  - name: Identification information:discipline
+    used: false
+    guidance: 未利用
+  - name: Identification information:place
+    used: false
+    guidance: 未利用
+  - name: Identification information:stratum
+    used: false
+    guidance: 未利用
+  - name: Identification information:temporal
+    used: false
+    guidance: 未利用
+  - name: Identification information:theme
+    used: false
+    guidance: 未利用
+  - name: Identification information:dataCentre
+    used: false
+    guidance: 未利用
+  - name: Identification information:featureType
+    used: false
+    guidance: 未利用
+  - name: Identification information:instrument
+    used: false
+    guidance: 未利用
+  - name: Identification information:platform
+    used: false
+    guidance: 未利用
+  - name: Identification information:process
+    used: false
+    guidance: 未利用
+  - name: Identification information:project
+    used: false
+    guidance: 未利用
+  - name: Identification information:service
+    used: false
+    guidance: 未利用
+  - name: Identification information:product
+    used: false
+    guidance: 未利用
+  - name: Identification information:subTopicCategory
+    used: false
+    guidance: 未利用
+  - name: Identification information:taxon
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::MD_ProgressCode"
+  attributes:
+  - name: Identification information:completed
+    used: false
+    guidance: 未利用
+  - name: Identification information:historicalArchive
+    used: false
+    guidance: 未利用
+  - name: Identification information:obsolete
+    used: false
+    guidance: 未利用
+  - name: Identification information:onGoing
+    used: false
+    guidance: 未利用
+  - name: Identification information:planned
+    used: false
+    guidance: 未利用
+  - name: Identification information:required
+    used: false
+    guidance: 未利用
+  - name: Identification information:underDevelopment
+    used: false
+    guidance: 未利用
+  - name: Identification information:final
+    used: false
+    guidance: 未利用
+  - name: Identification information:pending
+    used: false
+    guidance: 未利用
+  - name: Identification information:retired
+    used: false
+    guidance: 未利用
+  - name: Identification information:superseded
+    used: false
+    guidance: 未利用
+  - name: Identification information:tentative
+    used: false
+    guidance: 未利用
+  - name: Identification information:valid
+    used: false
+    guidance: 未利用
+  - name: Identification information:accepted
+    used: false
+    guidance: 未利用
+  - name: Identification information:notAccepted
+    used: false
+    guidance: 未利用
+  - name: Identification information:withdrawn
+    used: false
+    guidance: 未利用
+  - name: Identification information:proposed
+    used: false
+    guidance: 未利用
+  - name: Identification information:deprecated
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::MD_RepresentativeFraction"
+  attributes:
+  - name: Identification information:denominator
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:equivalentScale
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::MD_Resolution"
+  attributes:
+  - name: Identification information:equivalentScale
+    used: false
+    guidance: 未利用
+  - name: Identification information:distance
+    used: false
+    guidance: 未利用
+  - name: Identification information:vertical
+    used: false
+    guidance: 未利用
+  - name: Identification information:angularDistance
+    used: false
+    guidance: 未利用
+  - name: Identification information:levelOfDetail
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::MD_SpatialRepresentationTypeCode"
+  attributes:
+  - name: Identification information:vector
+    used: false
+    guidance: 未利用
+  - name: Identification information:grid
+    used: false
+    guidance: 未利用
+  - name: Identification information:textTable
+    used: false
+    guidance: 未利用
+  - name: Identification information:tin
+    used: false
+    guidance: 未利用
+  - name: Identification information:stereoModel
+    used: false
+    guidance: 未利用
+  - name: Identification information:video
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Identification information::MD_Usage"
+  attributes:
+  - name: Identification information:specificUsage
+    used: false
+    guidance: 未利用
+  - name: Identification information:usageDateTime
+    used: false
+    guidance: 未利用
+  - name: Identification information:userDeterminedLimitations
+    used: false
+    guidance: 未利用
+  - name: Identification information:userContactInfo
+    used: false
+    guidance: 未利用
+  - name: Identification information:response
+    used: false
+    guidance: 未利用
+  - name: Identification information:additionalDocumentation
+    used: false
+    guidance: 未利用
+  - name: Identification information:identifiedIssues
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::DS_Association"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::DS_AssociationTypeCode"
+  attributes:
+  - name: Identification information:crossReference
+    used: false
+    guidance: 未利用
+  - name: Identification information:largerWorkCitation
+    used: false
+    guidance: 未利用
+  - name: Identification information:partOfSeamlessDatabase
+    used: false
+    guidance: 未利用
+  - name: Identification information:source
+    used: false
+    guidance: 未利用
+  - name: Identification information:stereoMate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::DS_InitiativeTypeCode"
+  attributes:
+  - name: Identification information:campaign
+    used: false
+    guidance: 未利用
+  - name: Identification information:collection
+    used: false
+    guidance: 未利用
+  - name: Identification information:exercise
+    used: false
+    guidance: 未利用
+  - name: Identification information:experiment
+    used: false
+    guidance: 未利用
+  - name: Identification information:investigation
+    used: false
+    guidance: 未利用
+  - name: Identification information:mission
+    used: false
+    guidance: 未利用
+  - name: Identification information:sensor
+    used: false
+    guidance: 未利用
+  - name: Identification information:operation
+    used: false
+    guidance: 未利用
+  - name: Identification information:platform
+    used: false
+    guidance: 未利用
+  - name: Identification information:process
+    used: false
+    guidance: 未利用
+  - name: Identification information:program
+    used: false
+    guidance: 未利用
+  - name: Identification information:project
+    used: false
+    guidance: 未利用
+  - name: Identification information:study
+    used: false
+    guidance: 未利用
+  - name: Identification information:task
+    used: false
+    guidance: 未利用
+  - name: Identification information:trial
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::MD_AggregateInformation"
+  attributes:
+  - name: Identification information:aggregateDataSetName
+    used: false
+    guidance: 未利用
+  - name: Identification information:aggregateDataSetIdentifier
+    used: false
+    guidance: 未利用
+  - name: Identification information:associationType
+    used: false
+    guidance: 未利用
+  - name: Identification information:initiativeType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::MD_BrowseGraphic"
+  attributes:
+  - name: Identification information:fileName
+    used: false
+    guidance: 未利用
+  - name: Identification information:fileDescription
+    used: false
+    guidance: 未利用
+  - name: Identification information:fileType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::MD_CharacterSetCode"
+  attributes:
+  - name: Identification information:ucs2
+    used: false
+    guidance: 未利用
+  - name: Identification information:ucs4
+    used: false
+    guidance: 未利用
+  - name: Identification information:utf7
+    used: false
+    guidance: 未利用
+  - name: Identification information:utf8
+    used: false
+    guidance: 未利用
+  - name: Identification information:utf16
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part1
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part2
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part3
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part4
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part5
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part6
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part7
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part8
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part9
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part10
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part11
+    used: false
+    guidance: 未利用
+  - name: Identification information:(reservedforfutureuse)
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part13
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part14
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part15
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part16
+    used: false
+    guidance: 未利用
+  - name: Identification information:jis
+    used: false
+    guidance: 未利用
+  - name: Identification information:shiftJIS
+    used: false
+    guidance: 未利用
+  - name: Identification information:eucJP
+    used: false
+    guidance: 未利用
+  - name: Identification information:usAscii
+    used: false
+    guidance: 未利用
+  - name: Identification information:ebcdic
+    used: false
+    guidance: 未利用
+  - name: Identification information:eucKR
+    used: false
+    guidance: 未利用
+  - name: Identification information:big5
+    used: false
+    guidance: 未利用
+  - name: Identification information:GB2312
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::MD_DataIdentification"
+  attributes:
+  - name: Identification information:citation
+    used: false
+    guidance: 未利用
+  - name: Identification information:abstract
+    used: false
+    guidance: 未利用
+  - name: Identification information:purpose
+    used: false
+    guidance: 未利用
+  - name: Identification information:credit
+    used: false
+    guidance: 未利用
+  - name: Identification information:status
+    used: false
+    guidance: 未利用
+  - name: Identification information:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Identification information:spatialRepresentationType
+    used: false
+    guidance: 未利用
+  - name: Identification information:spatialResolution
+    used: false
+    guidance: 未利用
+  - name: Identification information:language
+    used: false
+    guidance: 未利用
+  - name: Identification information:characterSet
+    used: false
+    guidance: 未利用
+  - name: Identification information:topicCategory
+    used: false
+    guidance: 未利用
+  - name: Identification information:environmentDescription
+    used: false
+    guidance: 未利用
+  - name: Identification information:extent
+    used: false
+    guidance: 未利用
+  - name: Identification information:supplementalInformation
+    used: false
+    guidance: 未利用
+  - name: Constraint information:resourceConstraints
+    used: false
+    guidance: 未利用
+  - name: Distribution information:resourceFormat
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:theTaxonomySystem
+    used: false
+    guidance: 未利用
+  - name: Identification information:aggregationInfo
+    used: false
+    guidance: 未利用
+  - name: Identification information:descriptiveKeywords
+    used: false
+    guidance: 未利用
+  - name: Identification information:graphicOverview
+    used: false
+    guidance: 未利用
+  - name: Identification information:resourceSpecificUsage
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:resourceMaintenance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::MD_Identification"
+  attributes:
+  - name: Identification information:citation
+    used: false
+    guidance: 未利用
+  - name: Identification information:abstract
+    used: false
+    guidance: 未利用
+  - name: Identification information:purpose
+    used: false
+    guidance: 未利用
+  - name: Identification information:credit
+    used: false
+    guidance: 未利用
+  - name: Identification information:status
+    used: false
+    guidance: 未利用
+  - name: Identification information:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Constraint information:resourceConstraints
+    used: false
+    guidance: 未利用
+  - name: Distribution information:resourceFormat
+    used: false
+    guidance: 未利用
+  - name: Extended Metadata from 19115:theTaxonomySystem
+    used: false
+    guidance: 未利用
+  - name: Identification information:aggregationInfo
+    used: false
+    guidance: 未利用
+  - name: Identification information:descriptiveKeywords
+    used: false
+    guidance: 未利用
+  - name: Identification information:graphicOverview
+    used: false
+    guidance: 未利用
+  - name: Identification information:resourceSpecificUsage
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:resourceMaintenance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::MD_Keywords"
+  attributes:
+  - name: Identification information:keyword
+    used: false
+    guidance: 未利用
+  - name: Identification information:type
+    used: false
+    guidance: 未利用
+  - name: Identification information:thesaurusName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::MD_KeywordTypeCode"
+  attributes:
+  - name: Identification information:discipline
+    used: false
+    guidance: 未利用
+  - name: Identification information:place
+    used: false
+    guidance: 未利用
+  - name: Identification information:stratum
+    used: false
+    guidance: 未利用
+  - name: Identification information:temporal
+    used: false
+    guidance: 未利用
+  - name: Identification information:theme
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::MD_ProgressCode"
+  attributes:
+  - name: Identification information:completed
+    used: false
+    guidance: 未利用
+  - name: Identification information:historicalArchive
+    used: false
+    guidance: 未利用
+  - name: Identification information:obsolete
+    used: false
+    guidance: 未利用
+  - name: Identification information:onGoing
+    used: false
+    guidance: 未利用
+  - name: Identification information:planned
+    used: false
+    guidance: 未利用
+  - name: Identification information:required
+    used: false
+    guidance: 未利用
+  - name: Identification information:underDevelopment
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::MD_RepresentativeFraction"
+  attributes:
+  - name: Identification information:denominator
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:equivalentScale
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::MD_Resolution"
+  attributes:
+  - name: Identification information:equivalentScale
+    used: false
+    guidance: 未利用
+  - name: Identification information:distance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::MD_SpatialRepresentationTypeCode"
+  attributes:
+  - name: Identification information:vector
+    used: false
+    guidance: 未利用
+  - name: Identification information:grid
+    used: false
+    guidance: 未利用
+  - name: Identification information:textTable
+    used: false
+    guidance: 未利用
+  - name: Identification information:tin
+    used: false
+    guidance: 未利用
+  - name: Identification information:stereoModel
+    used: false
+    guidance: 未利用
+  - name: Identification information:video
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Identification
+    information::MD_Usage"
+  attributes:
+  - name: Identification information:specificUsage
+    used: false
+    guidance: 未利用
+  - name: Identification information:usageDateTime
+    used: false
+    guidance: 未利用
+  - name: Identification information:userDeterminedLimitations
+    used: false
+    guidance: 未利用
+  - name: Identification information:userContactInfo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::DS_Association"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::DS_AssociationTypeCode"
+  attributes:
+  - name: Identification information:crossReference
+    used: false
+    guidance: 未利用
+  - name: Identification information:largerWorkCitation
+    used: false
+    guidance: 未利用
+  - name: Identification information:partOfSeamlessDatabase
+    used: false
+    guidance: 未利用
+  - name: Identification information:source
+    used: false
+    guidance: 未利用
+  - name: Identification information:stereoMate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::DS_InitiativeTypeCode"
+  attributes:
+  - name: Identification information:campaign
+    used: false
+    guidance: 未利用
+  - name: Identification information:collection
+    used: false
+    guidance: 未利用
+  - name: Identification information:exercise
+    used: false
+    guidance: 未利用
+  - name: Identification information:experiment
+    used: false
+    guidance: 未利用
+  - name: Identification information:investigation
+    used: false
+    guidance: 未利用
+  - name: Identification information:mission
+    used: false
+    guidance: 未利用
+  - name: Identification information:sensor
+    used: false
+    guidance: 未利用
+  - name: Identification information:operation
+    used: false
+    guidance: 未利用
+  - name: Identification information:platform
+    used: false
+    guidance: 未利用
+  - name: Identification information:process
+    used: false
+    guidance: 未利用
+  - name: Identification information:program
+    used: false
+    guidance: 未利用
+  - name: Identification information:project
+    used: false
+    guidance: 未利用
+  - name: Identification information:study
+    used: false
+    guidance: 未利用
+  - name: Identification information:task
+    used: false
+    guidance: 未利用
+  - name: Identification information:trial
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_AggregateInformation"
+  attributes:
+  - name: Identification information:aggregateDataSetName
+    used: false
+    guidance: 未利用
+  - name: Identification information:aggregateDataSetIdentifier
+    used: false
+    guidance: 未利用
+  - name: Identification information:associationType
+    used: false
+    guidance: 未利用
+  - name: Identification information:initiativeType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_BrowseGraphic"
+  attributes:
+  - name: Identification information:fileName
+    used: false
+    guidance: 未利用
+  - name: Identification information:fileDescription
+    used: false
+    guidance: 未利用
+  - name: Identification information:fileType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_CharacterSetCode"
+  attributes:
+  - name: Identification information:ucs2
+    used: false
+    guidance: 未利用
+  - name: Identification information:ucs4
+    used: false
+    guidance: 未利用
+  - name: Identification information:utf7
+    used: false
+    guidance: 未利用
+  - name: Identification information:utf8
+    used: false
+    guidance: 未利用
+  - name: Identification information:utf16
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part1
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part2
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part3
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part4
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part5
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part6
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part7
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part8
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part9
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part10
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part11
+    used: false
+    guidance: 未利用
+  - name: Identification information:(reservedforfutureuse)
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part13
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part14
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part15
+    used: false
+    guidance: 未利用
+  - name: Identification information:8859part16
+    used: false
+    guidance: 未利用
+  - name: Identification information:jis
+    used: false
+    guidance: 未利用
+  - name: Identification information:shiftJIS
+    used: false
+    guidance: 未利用
+  - name: Identification information:eucJP
+    used: false
+    guidance: 未利用
+  - name: Identification information:usAscii
+    used: false
+    guidance: 未利用
+  - name: Identification information:ebcdic
+    used: false
+    guidance: 未利用
+  - name: Identification information:eucKR
+    used: false
+    guidance: 未利用
+  - name: Identification information:big5
+    used: false
+    guidance: 未利用
+  - name: Identification information:GB2312
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_DataIdentification"
+  attributes:
+  - name: Identification information:citation
+    used: false
+    guidance: 未利用
+  - name: Identification information:abstract
+    used: false
+    guidance: 未利用
+  - name: Identification information:purpose
+    used: false
+    guidance: 未利用
+  - name: Identification information:credit
+    used: false
+    guidance: 未利用
+  - name: Identification information:status
+    used: false
+    guidance: 未利用
+  - name: Identification information:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Identification information:spatialRepresentationType
+    used: false
+    guidance: 未利用
+  - name: Identification information:spatialResolution
+    used: false
+    guidance: 未利用
+  - name: Identification information:language
+    used: false
+    guidance: 未利用
+  - name: Identification information:characterSet
+    used: false
+    guidance: 未利用
+  - name: Identification information:topicCategory
+    used: false
+    guidance: 未利用
+  - name: Identification information:environmentDescription
+    used: false
+    guidance: 未利用
+  - name: Identification information:extent
+    used: false
+    guidance: 未利用
+  - name: Identification information:supplementalInformation
+    used: false
+    guidance: 未利用
+  - name: Constraint information:resourceConstraints
+    used: false
+    guidance: 未利用
+  - name: Distribution information:resourceFormat
+    used: false
+    guidance: 未利用
+  - name: Identification information:aggregationInfo
+    used: false
+    guidance: 未利用
+  - name: Identification information:descriptiveKeywords
+    used: false
+    guidance: 未利用
+  - name: Identification information:graphicOverview
+    used: false
+    guidance: 未利用
+  - name: Identification information:resourceSpecificUsage
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:resourceMaintenance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_Identification"
+  attributes:
+  - name: Identification information:citation
+    used: false
+    guidance: 未利用
+  - name: Identification information:abstract
+    used: false
+    guidance: 未利用
+  - name: Identification information:purpose
+    used: false
+    guidance: 未利用
+  - name: Identification information:credit
+    used: false
+    guidance: 未利用
+  - name: Identification information:status
+    used: false
+    guidance: 未利用
+  - name: Identification information:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Constraint information:resourceConstraints
+    used: false
+    guidance: 未利用
+  - name: Distribution information:resourceFormat
+    used: false
+    guidance: 未利用
+  - name: Identification information:aggregationInfo
+    used: false
+    guidance: 未利用
+  - name: Identification information:descriptiveKeywords
+    used: false
+    guidance: 未利用
+  - name: Identification information:graphicOverview
+    used: false
+    guidance: 未利用
+  - name: Identification information:resourceSpecificUsage
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:resourceMaintenance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_Keywords"
+  attributes:
+  - name: Identification information:keyword
+    used: false
+    guidance: 未利用
+  - name: Identification information:type
+    used: false
+    guidance: 未利用
+  - name: Identification information:thesaurusName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_KeywordTypeCode"
+  attributes:
+  - name: Identification information:discipline
+    used: false
+    guidance: 未利用
+  - name: Identification information:place
+    used: false
+    guidance: 未利用
+  - name: Identification information:stratum
+    used: false
+    guidance: 未利用
+  - name: Identification information:temporal
+    used: false
+    guidance: 未利用
+  - name: Identification information:theme
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_ProgressCode"
+  attributes:
+  - name: Identification information:completed
+    used: false
+    guidance: 未利用
+  - name: Identification information:historicalArchive
+    used: false
+    guidance: 未利用
+  - name: Identification information:obsolete
+    used: false
+    guidance: 未利用
+  - name: Identification information:onGoing
+    used: false
+    guidance: 未利用
+  - name: Identification information:planned
+    used: false
+    guidance: 未利用
+  - name: Identification information:required
+    used: false
+    guidance: 未利用
+  - name: Identification information:underDevelopment
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_RepresentativeFraction"
+  attributes:
+  - name: Identification information:denominator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_Resolution"
+  attributes:
+  - name: Identification information:equivalentScale
+    used: false
+    guidance: 未利用
+  - name: Identification information:distance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_ServiceIdentification"
+  attributes:
+  - name: Identification information:citation
+    used: false
+    guidance: 未利用
+  - name: Identification information:abstract
+    used: false
+    guidance: 未利用
+  - name: Identification information:purpose
+    used: false
+    guidance: 未利用
+  - name: Identification information:credit
+    used: false
+    guidance: 未利用
+  - name: Identification information:status
+    used: false
+    guidance: 未利用
+  - name: Identification information:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Constraint information:resourceConstraints
+    used: false
+    guidance: 未利用
+  - name: Distribution information:resourceFormat
+    used: false
+    guidance: 未利用
+  - name: Identification information:aggregationInfo
+    used: false
+    guidance: 未利用
+  - name: Identification information:descriptiveKeywords
+    used: false
+    guidance: 未利用
+  - name: Identification information:graphicOverview
+    used: false
+    guidance: 未利用
+  - name: Identification information:resourceSpecificUsage
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:resourceMaintenance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_SpatialRepresentationTypeCode"
+  attributes:
+  - name: Identification information:vector
+    used: false
+    guidance: 未利用
+  - name: Identification information:grid
+    used: false
+    guidance: 未利用
+  - name: Identification information:textTable
+    used: false
+    guidance: 未利用
+  - name: Identification information:tin
+    used: false
+    guidance: 未利用
+  - name: Identification information:stereoModel
+    used: false
+    guidance: 未利用
+  - name: Identification information:video
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_SpatialRepresentationTypeCode"
+  attributes:
+  - name: Identification information:vector
+    used: false
+    guidance: 未利用
+  - name: Identification information:grid
+    used: false
+    guidance: 未利用
+  - name: Identification information:textTable
+    used: false
+    guidance: 未利用
+  - name: Identification information:tin
+    used: false
+    guidance: 未利用
+  - name: Identification information:stereoModel
+    used: false
+    guidance: 未利用
+  - name: Identification information:video
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Identification
+    information::MD_Usage"
+  attributes:
+  - name: Identification information:specificUsage
+    used: false
+    guidance: 未利用
+  - name: Identification information:usageDateTime
+    used: false
+    guidance: 未利用
+  - name: Identification information:userDeterminedLimitations
+    used: false
+    guidance: 未利用
+  - name: Identification information:userContactInfo
+    used: false
+    guidance: 未利用

@@ -1,0 +1,302 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::From ISO 19139"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::From ISO 19135:2005"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::From ISO 19135:2005"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::DQM_BasicMeasure"
+  attributes:
+  - name: Data quality measures:name
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:definition
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:example
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:valueType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::DQM_Description"
+  attributes:
+  - name: Data quality measures:textDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:extendedDescription
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::DQM_Measure"
+  attributes:
+  - name: Data quality measures:measureIdentifier
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:name
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:alias
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:elementName
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:definition
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:description
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:valueType
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:valueStructure
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:example
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:basicMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:parameter
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:sourceReference
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::DQM_MeasureCatalogue"
+  attributes:
+  - name: Catalogues:name
+    used: false
+    guidance: 未利用
+  - name: Catalogues:scope
+    used: false
+    guidance: 未利用
+  - name: Catalogues:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: Catalogues:versionNumber
+    used: false
+    guidance: 未利用
+  - name: Catalogues:versionDate
+    used: false
+    guidance: 未利用
+  - name: Catalogues:language
+    used: false
+    guidance: 未利用
+  - name: Catalogues:characterSet
+    used: false
+    guidance: 未利用
+  - name: Catalogues:locale
+    used: false
+    guidance: 未利用
+  - name: Catalogues:subCatalogue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::DQM_Parameter"
+  attributes:
+  - name: Data quality measures:name
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:definition
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:description
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:valueType
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:valueStructure
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::DQM_RegisteredDataQualityBasicMeasure"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:status
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:definition
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:description
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:additionInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:amendmentInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:clarificationInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:itemClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationLineage
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationSource
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:basicMeasure
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::DQM_RegisteredDataQualityMeasure"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:status
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:definition
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:description
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:additionInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:amendmentInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:clarificationInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:itemClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationLineage
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationSource
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:qualityMeasure
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::DQM_RegisteredDataQualityParameter"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:status
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:definition
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:description
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:additionInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:amendmentInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:clarificationInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:itemClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationLineage
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationSource
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::DQM_SourceReference"
+  attributes:
+  - name: Data quality measures:citation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality measures::DQM_ValueStructure"
+  attributes:
+  - name: Data quality measures:bag
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:set
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:sequence
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:table
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:matrix
+    used: false
+    guidance: 未利用
+  - name: Data quality measures:coverage
+    used: false
+    guidance: 未利用

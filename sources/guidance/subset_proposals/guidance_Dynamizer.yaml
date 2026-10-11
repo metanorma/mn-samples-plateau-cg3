@@ -1,0 +1,411 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::Dynamizer::AbstractAtomicTimeseries"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:firstTimestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:lastTimestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractTimeseries
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:observationProperty
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:uom
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractAtomicTimeseries
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::AbstractTimeseries"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:firstTimestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:lastTimestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractTimeseries
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::AuthenticationTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Dynamizer::CompositeTimeseries"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:firstTimestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:lastTimestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractTimeseries
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfCompositeTimeseries
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:component
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::Dynamizer"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractDynamizer
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:attributeRef
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:startTime
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:endTime
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfDynamizer
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:dynamicData
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:sensorConnection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::GenericTimeseries"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:firstTimestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:lastTimestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractTimeseries
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:observationProperty
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:uom
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractAtomicTimeseries
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:valueType
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfGenericTimeseries
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:timeValuePair
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::SensorConnectionTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Dynamizer::StandardFileTimeseries"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:firstTimestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:lastTimestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractTimeseries
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:observationProperty
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:uom
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractAtomicTimeseries
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:fileLocation
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:fileType
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:mimeType
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfStandardFileTimeseries
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::StandardFileTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Dynamizer::TabulatedFileTimeseries"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:firstTimestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:lastTimestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractTimeseries
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:observationProperty
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:uom
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractAtomicTimeseries
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:fileLocation
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:fileType
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:mimeType
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:valueType
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:numberOfHeaderLines
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:fieldSeparator
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:decimalSymbol
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:idColumnNo
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:idColumnName
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:idValue
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:timeColumnNo
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:timeColumnName
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:valueColumnNo
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:valueColumnName
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:adeOfTabulatedFileTimeseries
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::TabulatedFileTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Dynamizer::SensorConnection"
+  attributes:
+  - name: Dynamizer:connectionType
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:observationProperty
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:uom
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:sensorID
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:sensorName
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:observationID
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:datastreamID
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:baseURL
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:authType
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:mqttServer
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:mqttTopic
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:linkToObservation
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:linkToSensorDescription
+    used: false
+    guidance: 未利用
+  - name: Core:sensorLocation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::TimeseriesComponent"
+  attributes:
+  - name: Dynamizer:repetitions
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:additionalGap
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:timeseries
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::TimeValuePair"
+  attributes:
+  - name: Dynamizer:timestamp
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:intValue
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:doubleValue
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:stringValue
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:geometryValue
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:uriValue
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:boolValue
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:implicitGeometryValue
+    used: false
+    guidance: 未利用
+  - name: Dynamizer:appearanceValue
+    used: false
+    guidance: 未利用

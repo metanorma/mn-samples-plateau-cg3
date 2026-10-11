@@ -1,0 +1,293 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::AccountPayable"
+  attributes:
+  - name: 'Rel-sx:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::anonymousStateService"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::callForCondition"
+  attributes:
+  - name: Rel-sx:ext_ref_1
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::commonName"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::dnsName"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::emailName"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::exerciseLimit"
+  attributes:
+  - name: Rel-sx:ext_ref_4
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:count
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::feeFlat"
+  attributes:
+  - name: Rel-sx:ext_ref_4
+    used: false
+    guidance: 未利用
+  - name: 'Rel-sx:'
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:to
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::feeMetered"
+  attributes:
+  - name: Rel-sx:by
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:per
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:phase
+    used: false
+    guidance: 未利用
+  - name: 'Rel-sx:'
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:to
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::feePerInterval"
+  attributes:
+  - name: Rel-sx:ext_ref_4
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:per
+    used: false
+    guidance: 未利用
+  - name: 'Rel-sx:'
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:to
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::feePerUse"
+  attributes:
+  - name: 'Rel-sx:'
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:to
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::feePerUsePrePay"
+  attributes:
+  - name: Rel-sx:ext_ref_4
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:initialNumberOfUses
+    used: false
+    guidance: 未利用
+  - name: 'Rel-sx:'
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:to
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::licenseIdPattern"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::ModelGroup30"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::ModelGroup31"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::ModelGroup32"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::Name"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::profileCompliance"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::ProfileCompliance"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::propertyUri"
+  attributes:
+  - name: Rel-sx:definition
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::rate"
+  attributes:
+  - name: Rel-sx:amount
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:currency
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::rightUri"
+  attributes:
+  - name: Rel-sx:definition
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::seekApproval"
+  attributes:
+  - name: Rel-sx:ext_ref_4
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::stateDistinguisher"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::StatefulCondition"
+  attributes:
+  - name: Rel-sx:ext_ref_4
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::stateReferenceValuePattern"
+  attributes:
+  - name: 'Rel-sx:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::territory"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::trackQuery"
+  attributes:
+  - name: Rel-sx:ext_ref_4
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:notLessThan
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:notMoreThan
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::trackReport"
+  attributes:
+  - name: Rel-sx:ext_ref_4
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::transferControl"
+  attributes:
+  - name: Rel-sx:ext_ref_4
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::uddi"
+  attributes:
+  - name: Rel-sx:registry
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:serviceKey
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::UddiKey"
+  attributes:
+  - name: Rel-sx:uri
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:uuid
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::Uuid"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::validityIntervalDurationPattern"
+  attributes:
+  - name: Rel-sx:duration
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::validityIntervalFloating"
+  attributes:
+  - name: Rel-sx:ext_ref_4
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:duration
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::validityIntervalStartsNow"
+  attributes:
+  - name: Rel-sx:backwardTolerance
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:ext_ref_2
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:forwardTolerance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::validityTimeMetered"
+  attributes:
+  - name: Rel-sx:ext_ref_4
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:duration
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:quantum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::validityTimePeriodic"
+  attributes:
+  - name: Rel-sx:duration
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:period
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:periodCount
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:phase
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:start
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::wsdlAddress"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::wsdlComplete"
+  attributes:
+  - name: Rel-sx:portType
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:service
+    used: false
+    guidance: 未利用
+  - name: Rel-sx:wsdl
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::x509SubjectName"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-sx::x509SubjectNamePattern"
+  attributes: []

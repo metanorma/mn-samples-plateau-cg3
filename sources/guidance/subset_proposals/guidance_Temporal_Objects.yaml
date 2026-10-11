@@ -1,0 +1,116 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_Complex"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_Duration"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_Edge"
+  attributes:
+  - name: Temporal Objects:end
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:geometry
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:start
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_GeometricPrimitive"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_Instant"
+  attributes:
+  - name: Temporal Objects:position
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:begunBy
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:endedBy
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:topology
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_IntervalLength"
+  attributes:
+  - name: Temporal Objects:unit
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:radix
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:factor
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_Node"
+  attributes:
+  - name: Temporal Objects:geometry
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:nextEdge
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:previousEdge
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_Object"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_Period"
+  attributes:
+  - name: Temporal Objects:begin
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:end
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:topology
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_PeriodDuration"
+  attributes:
+  - name: Temporal Objects:designator
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:years
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:months
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:days
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:timeIndicator
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:hours
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:minutes
+    used: false
+    guidance: 未利用
+  - name: Temporal Objects:seconds
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_Primitive"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_TopologicalComplex"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Objects::TM_TopologicalPrimitive"
+  attributes: []

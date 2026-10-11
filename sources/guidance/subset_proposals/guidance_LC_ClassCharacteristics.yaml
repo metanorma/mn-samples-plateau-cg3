@@ -1,0 +1,125 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_Climate"
+  attributes:
+  - name: LC_LandCoverClassStructure:describedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_ErosionType"
+  attributes:
+  - name: LC_ClassCharacteristics:waterErosionSheet
+    used: false
+    guidance: 未利用
+  - name: LC_ClassCharacteristics:waterErosionRill
+    used: false
+    guidance: 未利用
+  - name: LC_ClassCharacteristics:waterErosionGully
+    used: false
+    guidance: 未利用
+  - name: LC_ClassCharacteristics:gravityErosion
+    used: false
+    guidance: 未利用
+  - name: LC_ClassCharacteristics:iceErosion
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_GeographicalAspects"
+  attributes:
+  - name: LC_ClassCharacteristics:geoType
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:describedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_GeoType"
+  attributes:
+  - name: LC_ClassCharacteristics:beach
+    used: false
+    guidance: 未利用
+  - name: LC_ClassCharacteristics:bay
+    used: false
+    guidance: 未利用
+  - name: LC_ClassCharacteristics:estuary
+    used: false
+    guidance: 未利用
+  - name: LC_ClassCharacteristics:shore
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_LandForm"
+  attributes:
+  - name: LC_ClassCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:describedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_LandformType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_RockAgeType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_RocksSurfaceCharacteristic"
+  attributes:
+  - name: LC_ClassCharacteristics:rockType
+    used: false
+    guidance: 未利用
+  - name: LC_ClassCharacteristics:rockAgeType
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:describedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_RockType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_SedimentationType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_SlopeExposition"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_SoilSandDepositsSurfaceCharacteristic"
+  attributes:
+  - name: LC_ClassCharacteristics:soilType
+    used: false
+    guidance: 未利用
+  - name: LC_ClassCharacteristics:erosionType
+    used: false
+    guidance: 未利用
+  - name: LC_ClassCharacteristics:sedimentationType
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:describedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_SoilType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_SurfaceCharacteristic"
+  attributes:
+  - name: LC_LandCoverClassStructure:describedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ClassCharacteristics::LC_TopographicalAspects"
+  attributes:
+  - name: LC_ClassCharacteristics:altitude
+    used: false
+    guidance: 未利用
+  - name: LC_ClassCharacteristics:slope
+    used: false
+    guidance: 未利用
+  - name: LC_ClassCharacteristics:slopeExposition
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:describedBy
+    used: false
+    guidance: 未利用

@@ -1,0 +1,47 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Common Classes::From ISO 19115-1:2014"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Common Classes::IdentifiedObject"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Common Classes::ObjectDomain"
+  attributes:
+  - name: Common Classes:scope
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domainOfValidity
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Common Classes::ObjectUsage"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用

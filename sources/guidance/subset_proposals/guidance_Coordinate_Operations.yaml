@@ -1,0 +1,776 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::From ISO 19107"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::ConcatenatedOperation"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordinateOperationAccuracy
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:interpolationCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:sourceCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:targetCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinates:sourceCoordinateEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinates:targetCoordinateEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordOperation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::Conversion"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordinateOperationAccuracy
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:interpolationCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:sourceCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:targetCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinates:sourceCoordinateEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinates:targetCoordinateEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:method
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameterValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::CoordinateOperation"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordinateOperationAccuracy
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:interpolationCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:sourceCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:targetCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinates:sourceCoordinateEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinates:targetCoordinateEpoch
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::Formula"
+  attributes:
+  - name: Coordinate Operations:formula
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:formulaCitation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::GeneralOperationParameter"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::GeneralParameterValue"
+  attributes:
+  - name: Coordinate Operations:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::GeographicObject"
+  attributes:
+  - name: Coordinate Operations:identifier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::OperationFactory"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::OperationMethod"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:formulaReference
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:sourceDimensions
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:targetDimensions
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::OperationParameter"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::OperationParameterGroup"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:minimumOccurs
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:maximumOccurs
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::OperationParameterValue"
+  attributes:
+  - name: Coordinate Operations:parameterValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameter
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::ParameterValue"
+  attributes:
+  - name: Coordinate Operations:value
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:stringValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:integerValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:booleanValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:valueList
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:integerValueList
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:valueFile
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:valueFileCitation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:geographicObject
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::ParameterValueGroup"
+  attributes:
+  - name: Coordinate Operations:parameter
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:group
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameterValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::PassThroughOperation"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordinateOperationAccuracy
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:modifiedCoordinate
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:interpolationCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:sourceCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:targetCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinates:sourceCoordinateEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinates:targetCoordinateEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordOperation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::SingleOperation"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordinateOperationAccuracy
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:interpolationCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:sourceCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:targetCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinates:sourceCoordinateEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinates:targetCoordinateEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:method
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameterValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Operations::Transformation"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordinateOperationAccuracy
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:interpolationCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:sourceCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:targetCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinates:sourceCoordinateEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinates:targetCoordinateEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:method
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameterValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_ConcatenatedOperation"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordinateOperationAccuracy
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordOperation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_Conversion"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordinateOperationAccuracy
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:method
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameterValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_CoordinateOperation"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordinateOperationAccuracy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_Formula"
+  attributes:
+  - name: Coordinate Operations:formula
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:formulaCitation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_GeneralOperationParameter"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:minimumOccurs
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_GeneralParameterValue"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_OperationMethod"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:formulaReference
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:sourceDimensions
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:targetDimensions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_OperationParameter"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:minimumOccurs
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_OperationParameterGroup"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:minimumOccurs
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:maximumOccurs
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:value
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_OperationParameterValue"
+  attributes:
+  - name: Coordinate Operations:parameterValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_ParameterValue"
+  attributes:
+  - name: Coordinate Operations:value
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:stringValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:integerValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:booleanValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:valueList
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:integerValueList
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:valueFile
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:valueFileCitation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_ParameterValueGroup"
+  attributes:
+  - name: Coordinate Operations:group
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameterValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_PassThroughOperation"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordinateOperationAccuracy
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:modifiedCoordinate
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordOperation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_SingleOperation"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordinateOperationAccuracy
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:method
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameterValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Operations::CC_Transformation"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:coordinateOperationAccuracy
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:operationVersion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:method
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:parameterValue
+    used: false
+    guidance: 未利用

@@ -1,0 +1,708 @@
+---
+classes:
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::AgencyLanguageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::AgencyTimezoneValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::CalendarDateExceptionTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::FareAttributeCurrencyTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::FareAttributePaymentMethodValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::FareAttributeTransfersValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::FareRuleContainsIdValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::FareRuleDestinationIdValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::FareRuleOriginIdValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::FeedInfoDefaultLanguageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::FeedInfoLanuageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::FrequencyExactTimesValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::PathwayIsBidirectionalValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::PathwayModeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::PublicTransit"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: urt:data
+    used: false
+    guidance: 未利用
+  - name: urt:info
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::RouteContinuousDropOffValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::RouteContinuousPickUpValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::RouteTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::StopCodeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::StopLocationTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::StopTimeContinuousDropoffTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::StopTimeContinuousPickupTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::StopTimeDropoffTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::StopTimePickupTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::StopTimeTimePointValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::StopTimezoneValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::StopWheelchairBoardingValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::StopZoneIdValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::TranferTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::TranslationJPValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::TranslationLanguageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::TranslationTableNameValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::TripBikeAllowedValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::TripDirectionIdValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::TripWheelchairAccessibleValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::PublicTransitType"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::PublicTransitDataType"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Agency"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:name
+    used: false
+    guidance: 未利用
+  - name: urt:url
+    used: false
+    guidance: 未利用
+  - name: urt:timezone
+    used: false
+    guidance: 未利用
+  - name: urt:language
+    used: false
+    guidance: 未利用
+  - name: urt:phone
+    used: false
+    guidance: 未利用
+  - name: urt:fareUrl
+    used: false
+    guidance: 未利用
+  - name: urt:email
+    used: false
+    guidance: 未利用
+  - name: urt:officialName
+    used: false
+    guidance: 未利用
+  - name: urt:zipNumber
+    used: false
+    guidance: 未利用
+  - name: urt:address
+    used: false
+    guidance: 未利用
+  - name: urt:presidentPosition
+    used: false
+    guidance: 未利用
+  - name: urt:presidentName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Attribution"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:rganizationName
+    used: false
+    guidance: 未利用
+  - name: urt:isProducer
+    used: false
+    guidance: 未利用
+  - name: urt:isOperator
+    used: false
+    guidance: 未利用
+  - name: urt:isAuthority
+    used: false
+    guidance: 未利用
+  - name: urt:url
+    used: false
+    guidance: 未利用
+  - name: urt:email
+    used: false
+    guidance: 未利用
+  - name: urt:phoneNumber
+    used: false
+    guidance: 未利用
+  - name: urt:agency
+    used: false
+    guidance: 未利用
+  - name: urt:route
+    used: false
+    guidance: 未利用
+  - name: urt:trip
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Calendar"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:monday
+    used: false
+    guidance: 未利用
+  - name: urt:tuesday
+    used: false
+    guidance: 未利用
+  - name: urt:wednesday
+    used: false
+    guidance: 未利用
+  - name: urt:thursday
+    used: false
+    guidance: 未利用
+  - name: urt:friday
+    used: false
+    guidance: 未利用
+  - name: urt:saturday
+    used: false
+    guidance: 未利用
+  - name: urt:sunday
+    used: false
+    guidance: 未利用
+  - name: urt:startDate
+    used: false
+    guidance: 未利用
+  - name: urt:endDate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::CalendarDate"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:date
+    used: false
+    guidance: 未利用
+  - name: urt:exceptionType
+    used: false
+    guidance: 未利用
+  - name: urt:calendar
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Description"
+  attributes:
+  - name: urt:description
+    used: false
+    guidance: 未利用
+  - name: urt:frequencyOfService
+    used: false
+    guidance: 未利用
+  - name: urt:numberOfCustomers
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::FareAttribute"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:price
+    used: false
+    guidance: 未利用
+  - name: urt:currencyType
+    used: false
+    guidance: 未利用
+  - name: urt:paymentMethod
+    used: false
+    guidance: 未利用
+  - name: urt:transfers
+    used: false
+    guidance: 未利用
+  - name: urt:transferDuration
+    used: false
+    guidance: 未利用
+  - name: urt:agency
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::FareRule"
+  attributes:
+  - name: urt:originId
+    used: false
+    guidance: 未利用
+  - name: urt:destinationId
+    used: false
+    guidance: 未利用
+  - name: urt:containsId
+    used: false
+    guidance: 未利用
+  - name: urt:fare
+    used: false
+    guidance: 未利用
+  - name: urt:route
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::FeedInfo"
+  attributes:
+  - name: urt:publisherName
+    used: false
+    guidance: 未利用
+  - name: urt:publisherUrl
+    used: false
+    guidance: 未利用
+  - name: urt:language
+    used: false
+    guidance: 未利用
+  - name: urt:defaultLanguage
+    used: false
+    guidance: 未利用
+  - name: urt:startDate
+    used: false
+    guidance: 未利用
+  - name: urt:endDate
+    used: false
+    guidance: 未利用
+  - name: urt:version
+    used: false
+    guidance: 未利用
+  - name: urt:contactEmail
+    used: false
+    guidance: 未利用
+  - name: urt:contactURL
+    used: false
+    guidance: 未利用
+  - name: urt:detailedInfo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Frequency"
+  attributes:
+  - name: urt:startTime
+    used: false
+    guidance: 未利用
+  - name: urt:endTime
+    used: false
+    guidance: 未利用
+  - name: urt:headwaySecs
+    used: false
+    guidance: 未利用
+  - name: urt:exactTimes
+    used: false
+    guidance: 未利用
+  - name: urt:trip
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Level"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:index
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Level0"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Level1"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Level2"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Level3"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Office"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:name
+    used: false
+    guidance: 未利用
+  - name: urt:url
+    used: false
+    guidance: 未利用
+  - name: urt:phone
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Pathway"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:mode
+    used: false
+    guidance: 未利用
+  - name: urt:isBidirectional
+    used: false
+    guidance: 未利用
+  - name: urt:length
+    used: false
+    guidance: 未利用
+  - name: urt:traversalTime
+    used: false
+    guidance: 未利用
+  - name: urt:stairCount
+    used: false
+    guidance: 未利用
+  - name: urt:maxSlope
+    used: false
+    guidance: 未利用
+  - name: urt:minWidth
+    used: false
+    guidance: 未利用
+  - name: urt:signpostedAs
+    used: false
+    guidance: 未利用
+  - name: urt:reversedSignpostedAs
+    used: false
+    guidance: 未利用
+  - name: urt:from
+    used: false
+    guidance: 未利用
+  - name: urt:to
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Point"
+  attributes:
+  - name: urt:pointSequence
+    used: false
+    guidance: 未利用
+  - name: urt:pointDistanceTraveled
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:point
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Route"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:shortName
+    used: false
+    guidance: 未利用
+  - name: urt:longName
+    used: false
+    guidance: 未利用
+  - name: urt:description
+    used: false
+    guidance: 未利用
+  - name: urt:type
+    used: false
+    guidance: 未利用
+  - name: urt:url
+    used: false
+    guidance: 未利用
+  - name: urt:color
+    used: false
+    guidance: 未利用
+  - name: urt:textColor
+    used: false
+    guidance: 未利用
+  - name: urt:updateDate
+    used: false
+    guidance: 未利用
+  - name: urt:originStop
+    used: false
+    guidance: 未利用
+  - name: urt:viaStop
+    used: false
+    guidance: 未利用
+  - name: urt:destinationStop
+    used: false
+    guidance: 未利用
+  - name: urt:routeSortOrder
+    used: false
+    guidance: 未利用
+  - name: urt:continuousPickup
+    used: false
+    guidance: 未利用
+  - name: urt:continuousDropOff
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: urt:agency
+    used: false
+    guidance: 未利用
+  - name: urt:parentRoute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Shape"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:point
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Stop"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:code
+    used: false
+    guidance: 未利用
+  - name: urt:ttsName
+    used: false
+    guidance: 未利用
+  - name: urt:latitude
+    used: false
+    guidance: 未利用
+  - name: urt:zoneId
+    used: false
+    guidance: 未利用
+  - name: urt:longitude
+    used: false
+    guidance: 未利用
+  - name: urt:url
+    used: false
+    guidance: 未利用
+  - name: urt:locationType
+    used: false
+    guidance: 未利用
+  - name: urt:timezone
+    used: false
+    guidance: 未利用
+  - name: urt:wheelchairBoarding
+    used: false
+    guidance: 未利用
+  - name: urt:platformCode
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:point
+    used: false
+    guidance: 未利用
+  - name: urt:level
+    used: false
+    guidance: 未利用
+  - name: urt:parentStation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::StopTime"
+  attributes:
+  - name: urt:arrivalTime
+    used: false
+    guidance: 未利用
+  - name: urt:departureTime
+    used: false
+    guidance: 未利用
+  - name: urt:stopSequence
+    used: false
+    guidance: 未利用
+  - name: urt:headsign
+    used: false
+    guidance: 未利用
+  - name: urt:pickupType
+    used: false
+    guidance: 未利用
+  - name: urt:dropoffType
+    used: false
+    guidance: 未利用
+  - name: urt:continuousPickupType
+    used: false
+    guidance: 未利用
+  - name: urt:continuousDropoffType
+    used: false
+    guidance: 未利用
+  - name: urt:shapeDistanceTraveled
+    used: false
+    guidance: 未利用
+  - name: urt:timePoint
+    used: false
+    guidance: 未利用
+  - name: urt:stop
+    used: false
+    guidance: 未利用
+  - name: urt:trip
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Transfer"
+  attributes:
+  - name: urt:transferType
+    used: false
+    guidance: 未利用
+  - name: urt:minTransferTime
+    used: false
+    guidance: 未利用
+  - name: urt:from
+    used: false
+    guidance: 未利用
+  - name: urt:to
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Translation"
+  attributes:
+  - name: urt:tableName
+    used: false
+    guidance: 未利用
+  - name: urt:fieldName
+    used: false
+    guidance: 未利用
+  - name: urt:language
+    used: false
+    guidance: 未利用
+  - name: urt:translation
+    used: false
+    guidance: 未利用
+  - name: urt:recordedSubId
+    used: false
+    guidance: 未利用
+  - name: urt:fieldValue
+    used: false
+    guidance: 未利用
+  - name: urt:recordId
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::TranslationJP"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:language
+    used: false
+    guidance: 未利用
+  - name: urt:translation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urt::Trip"
+  attributes:
+  - name: urt:orgId
+    used: false
+    guidance: 未利用
+  - name: urt:headsign
+    used: false
+    guidance: 未利用
+  - name: urt:hortName
+    used: false
+    guidance: 未利用
+  - name: urt:directionId
+    used: false
+    guidance: 未利用
+  - name: urt:blockId
+    used: false
+    guidance: 未利用
+  - name: urt:wheelchairAccessible
+    used: false
+    guidance: 未利用
+  - name: urt:bikeAllowed
+    used: false
+    guidance: 未利用
+  - name: urt:symbol
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: urt:calendar
+    used: false
+    guidance: 未利用
+  - name: urt:calendarDate
+    used: false
+    guidance: 未利用
+  - name: urt:office
+    used: false
+    guidance: 未利用
+  - name: urt:route
+    used: false
+    guidance: 未利用
+  - name: urt:shape
+    used: false
+    guidance: 未利用

@@ -1,0 +1,26 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Optics::CA_Optics"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Optics::CA_OpticsGeometry"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Optics::CA_OpticsGeometryCalibrationFacility"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Optics::CA_OpticsGeometryInteriorOrientation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Optics::CA_OpticsRadiometry"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Optics::CA_OpticsSpatial"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Optics::CA_OpticsSpectral"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Optics::CA_OpticsValidation"
+  attributes: []

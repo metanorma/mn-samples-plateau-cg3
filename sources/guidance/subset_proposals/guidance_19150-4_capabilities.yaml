@@ -1,0 +1,53 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 capabilities::GeoWebServiceCapability"
+  attributes:
+  - name: 19150-4 capabilities:trust
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:reliability
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:accuracy
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:performance
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:robustness
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:security
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:scalability
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:transactional
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:?restriction
+    used: false
+    guidance: 未利用
+  - name: Extent information:extent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 capabilities::Performance"
+  attributes:
+  - name: 19150-4 capabilities:troughput
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:latency
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:executionTime
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:transactionTime
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:responseTime
+    used: false
+    guidance: 未利用

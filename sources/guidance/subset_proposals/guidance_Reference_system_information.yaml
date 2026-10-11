@@ -1,0 +1,279 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Additional figures (informative)::Examples::ISO 19111 Referencing by
+    Coordinates::Reference system information::RS_Identifier"
+  attributes:
+  - name: Reference system information:codeSpace
+    used: false
+    guidance: 未利用
+  - name: Reference system information:version
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Reference system information::MD_ReferenceSystem"
+  attributes:
+  - name: Reference system information:referenceSystemIdentifier
+    used: false
+    guidance: 未利用
+  - name: Reference system information:referenceSystemType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Reference system information::MD_ReferenceSystemTypeCode"
+  attributes:
+  - name: Reference system information:compoundEngineeringParametric
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundEngineeringParametricTemporal
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundEngineeringTemporal
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundEngineeringVertical
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundEngineeringVerticalTemporal
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundGeographic2DParametric
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundGeographic2DParametricTemporal
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundGeographic2DTemporal
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundGeographic2DVertical
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundGeographic2DVerticalTemporal
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundGeographic3DTemporal
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundProjected2DParametric
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundProjected2DParametricTemporal
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundProjectedTemporal
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundProjectedVertical
+    used: false
+    guidance: 未利用
+  - name: Reference system information:compoundProjectedVerticalTemporal
+    used: false
+    guidance: 未利用
+  - name: Reference system information:engineering
+    used: false
+    guidance: 未利用
+  - name: Reference system information:engineeringDesign
+    used: false
+    guidance: 未利用
+  - name: Reference system information:engineeringImage
+    used: false
+    guidance: 未利用
+  - name: Reference system information:geodeticGeocentric
+    used: false
+    guidance: 未利用
+  - name: Reference system information:geodeticGeographic2D
+    used: false
+    guidance: 未利用
+  - name: Reference system information:geodeticGeographic3D
+    used: false
+    guidance: 未利用
+  - name: Reference system information:geographicIdentifier
+    used: false
+    guidance: 未利用
+  - name: Reference system information:linear
+    used: false
+    guidance: 未利用
+  - name: Reference system information:parametric
+    used: false
+    guidance: 未利用
+  - name: Reference system information:projected
+    used: false
+    guidance: 未利用
+  - name: Reference system information:temporal
+    used: false
+    guidance: 未利用
+  - name: Reference system information:vertical
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Reference
+    system information::MD_Identifier"
+  attributes:
+  - name: Reference system information:authority
+    used: false
+    guidance: 未利用
+  - name: Reference system information:code
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Reference
+    system information::MD_ReferenceSystem"
+  attributes:
+  - name: Reference system information:referenceSystemIdentifier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Reference
+    system information::RS_Identifier"
+  attributes:
+  - name: Reference system information:authority
+    used: false
+    guidance: 未利用
+  - name: Reference system information:code
+    used: false
+    guidance: 未利用
+  - name: Reference system information:codeSpace
+    used: false
+    guidance: 未利用
+  - name: Reference system information:version
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Reference
+    system information::MD_CRS"
+  attributes:
+  - name: Reference system information:referenceSystemIdentifier
+    used: false
+    guidance: 未利用
+  - name: Reference system information:projection
+    used: false
+    guidance: 未利用
+  - name: Reference system information:ellipsoid
+    used: false
+    guidance: 未利用
+  - name: Reference system information:datum
+    used: false
+    guidance: 未利用
+  - name: Reference system information:ellipsoidParameters
+    used: false
+    guidance: 未利用
+  - name: Reference system information:projectionParameters
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Reference
+    system information::MD_EllipsoidParameters"
+  attributes:
+  - name: Reference system information:semiMajorAxis
+    used: false
+    guidance: 未利用
+  - name: Reference system information:axisUnits
+    used: false
+    guidance: 未利用
+  - name: Reference system information:denominatorOfFlatteningRatio
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Reference
+    system information::MD_Identifier"
+  attributes:
+  - name: Reference system information:authority
+    used: false
+    guidance: 未利用
+  - name: Reference system information:code
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Reference
+    system information::MD_ObliqueLineAzimuth"
+  attributes:
+  - name: Reference system information:azimuthAngle
+    used: false
+    guidance: 未利用
+  - name: Reference system information:azimuthMeasurePointLongitude
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Reference
+    system information::MD_ObliqueLinePoint"
+  attributes:
+  - name: Reference system information:obliqueLineLatitude
+    used: false
+    guidance: 未利用
+  - name: Reference system information:obliqueLineLongitude
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Reference
+    system information::MD_ProjectionParameters"
+  attributes:
+  - name: Reference system information:zone
+    used: false
+    guidance: 未利用
+  - name: Reference system information:standardParallel
+    used: false
+    guidance: 未利用
+  - name: Reference system information:longitudeOfCentralMeridian
+    used: false
+    guidance: 未利用
+  - name: Reference system information:latitudeOfProjectionOrigin
+    used: false
+    guidance: 未利用
+  - name: Reference system information:falseEasting
+    used: false
+    guidance: 未利用
+  - name: Reference system information:falseNorthing
+    used: false
+    guidance: 未利用
+  - name: Reference system information:falseEastingNorthingUnits
+    used: false
+    guidance: 未利用
+  - name: Reference system information:scaleFactorAtEquator
+    used: false
+    guidance: 未利用
+  - name: Reference system information:heightOfProspectivePointAboveSurface
+    used: false
+    guidance: 未利用
+  - name: Reference system information:longitudeOfProjectionCenter
+    used: false
+    guidance: 未利用
+  - name: Reference system information:latitudeOfProjectionCenter
+    used: false
+    guidance: 未利用
+  - name: Reference system information:scaleFactorAtCenterLine
+    used: false
+    guidance: 未利用
+  - name: Reference system information:straightVerticalLongitudeFromPole
+    used: false
+    guidance: 未利用
+  - name: Reference system information:scaleFactorAtProjectionOrigin
+    used: false
+    guidance: 未利用
+  - name: Reference system information:obliqueLineAzimuthParameter
+    used: false
+    guidance: 未利用
+  - name: Reference system information:obliqueLinePointParameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Reference
+    system information::MD_ReferenceSystem"
+  attributes:
+  - name: Reference system information:referenceSystemIdentifier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Reference
+    system information::RS_Identifier"
+  attributes:
+  - name: Reference system information:authority
+    used: false
+    guidance: 未利用
+  - name: Reference system information:code
+    used: false
+    guidance: 未利用
+  - name: Reference system information:codeSpace
+    used: false
+    guidance: 未利用
+  - name: Reference system information:version
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Reference
+    system information::RS_ReferenceSystem"
+  attributes:
+  - name: Reference system information:name
+    used: false
+    guidance: 未利用
+  - name: Reference system information:domainOfValidity
+    used: false
+    guidance: 未利用

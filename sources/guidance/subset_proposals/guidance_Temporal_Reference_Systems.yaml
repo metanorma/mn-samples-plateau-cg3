@@ -1,0 +1,20 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Temporal Reference Systems::TM_TemporalCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用

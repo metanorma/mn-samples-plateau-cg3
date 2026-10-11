@@ -1,0 +1,947 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_Address"
+  attributes:
+  - name: Citation and responsible party information:deliveryPoint
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:city
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:administrativeArea
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:postalCode
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:country
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:electronicMailAddress
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_Citation"
+  attributes:
+  - name: Citation and responsible party information:title
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:alternateTitle
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:date
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:edition
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:editionDate
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:identifier
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:citedResponsibleParty
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:presentationForm
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:series
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:otherCitationDetails
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:ISBN
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:ISSN
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:onlineResource
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:graphic
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_Contact"
+  attributes:
+  - name: Citation and responsible party information:phone
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:address
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:onlineResource
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:hoursOfService
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contactInstructions
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contactType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_Date"
+  attributes:
+  - name: Citation and responsible party information:date
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:dateType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_DateTypeCode"
+  attributes:
+  - name: Citation and responsible party information:creation
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:publication
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:revision
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:expiry
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:lastUpdate
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:lastRevision
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:nextUpdate
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:unavailable
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:inForce
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:adopted
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:deprecated
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:superseded
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:validityBegins
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:validityExpires
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:released
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:distribution
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_Individual"
+  attributes:
+  - name: Citation and responsible party information:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contactInfo
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:positionName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_OnLineFunctionCode"
+  attributes:
+  - name: Citation and responsible party information:download
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:information
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:offlineAccess
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:order
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:search
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:completeMetadata
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:browseGraphic
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:upload
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:emailService
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:browsing
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:fileAccess
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_OnlineResource"
+  attributes:
+  - name: Citation and responsible party information:linkage
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:protocol
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:applicationProfile
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:description
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:function
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:protocolRequest
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_Organisation"
+  attributes:
+  - name: Citation and responsible party information:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contactInfo
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:logo
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:individual
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_Party"
+  attributes:
+  - name: Citation and responsible party information:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contactInfo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_PresentationFormCode"
+  attributes:
+  - name: Citation and responsible party information:documentDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:documentHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:imageDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:imageHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:mapDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:mapHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:modelDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:modelHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:profileDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:profileHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:tableDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:tableHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:videoDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:videoHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:audioDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:audioHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:multimediaDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:multimediaHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:physicalObject
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:diagramDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:diagramHardcopy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_Responsibility"
+  attributes:
+  - name: Citation and responsible party information:role
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:extent
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:party
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_RoleCode"
+  attributes:
+  - name: Citation and responsible party information:resourceProvider
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:custodian
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:owner
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:user
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:distributor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:originator
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:principalInvestigator
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:processor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:publisher
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:author
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:sponsor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:coAuthor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:collaborator
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:editor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:mediator
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:rightsHolder
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contributor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:funder
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:stakeholder
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_Series"
+  attributes:
+  - name: Citation and responsible party information:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:issueIdentification
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:page
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_Telephone"
+  attributes:
+  - name: Citation and responsible party information:number
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:numberType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Citation and responsible party information::CI_TelephoneTypeCode"
+  attributes:
+  - name: Citation and responsible party information:voice
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:facsimile
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:sms
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::CI_Address"
+  attributes:
+  - name: Citation and responsible party information:deliveryPoint
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:city
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:administrativeArea
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:postalCode
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:country
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:electronicMailAddress
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::CI_Citation"
+  attributes:
+  - name: Citation and responsible party information:title
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:alternateTitle
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:date
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:edition
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:editionDate
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:identifier
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:citedResponsibleParty
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:presentationForm
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:series
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:otherCitationDetails
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:collectiveTitle
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:ISBN
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:ISSN
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::CI_Contact"
+  attributes:
+  - name: Citation and responsible party information:phone
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:address
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:onlineResource
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:hoursOfService
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contactInstructions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::CI_Date"
+  attributes:
+  - name: Citation and responsible party information:date
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:dateType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::CI_DateTypeCode"
+  attributes:
+  - name: Citation and responsible party information:creation
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:publication
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:revision
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::CI_OnLineFunctionCode"
+  attributes:
+  - name: Citation and responsible party information:download
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:information
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:offlineAccess
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:order
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:search
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::CI_OnlineResource"
+  attributes:
+  - name: Citation and responsible party information:linkage
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:protocol
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:applicationProfile
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:description
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:function
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::CI_PresentationFormCode"
+  attributes:
+  - name: Citation and responsible party information:documentDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:documentHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:imageDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:imageHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:mapDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:mapHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:modelDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:modelHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:profileDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:profileHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:tableDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:tableHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:videoDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:videoHardcopy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::CI_ResponsibleParty"
+  attributes:
+  - name: Citation and responsible party information:individualName
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:organisationName
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:positionName
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contactInfo
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:role
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::CI_RoleCode"
+  attributes:
+  - name: Citation and responsible party information:resourceProvider
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:custodian
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:owner
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:user
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:distributor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:originator
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:principalInvestigator
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:processor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:publisher
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:author
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::CI_Series"
+  attributes:
+  - name: Citation and responsible party information:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:issueIdentification
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:page
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::CI_Telephone"
+  attributes:
+  - name: Citation and responsible party information:voice
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:facsimile
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Citation
+    and responsible party information::URL"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::CI_Address"
+  attributes:
+  - name: Citation and responsible party information:deliveryPoint
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:city
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:administrativeArea
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:postalCode
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:country
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:electronicMailAddress
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::CI_Citation"
+  attributes:
+  - name: Citation and responsible party information:title
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:alternateTitle
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:date
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:edition
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:editionDate
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:identifier
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:citedResponsibleParty
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:presentationForm
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:series
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:otherCitationDetails
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:collectiveTitle
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:ISBN
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:ISSN
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::CI_Contact"
+  attributes:
+  - name: Citation and responsible party information:phone
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:address
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:onlineResource
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:hoursOfService
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contactInstructions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::CI_Date"
+  attributes:
+  - name: Citation and responsible party information:date
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:dateType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::CI_DateTypeCode"
+  attributes:
+  - name: Citation and responsible party information:creation
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:publication
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:revision
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::CI_OnLineFunctionCode"
+  attributes:
+  - name: Citation and responsible party information:download
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:information
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:offlineAccess
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:order
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:search
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::CI_OnlineResource"
+  attributes:
+  - name: Citation and responsible party information:linkage
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:protocol
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:applicationProfile
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:description
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:function
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::CI_PresentationFormCode"
+  attributes:
+  - name: Citation and responsible party information:documentDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:documentHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:imageDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:imageHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:mapDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:mapHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:modelDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:modelHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:profileDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:profileHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:tableDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:tableHardcopy
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:videoDigital
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:videoHardcopy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::CI_ResponsibleParty"
+  attributes:
+  - name: Citation and responsible party information:individualName
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:organisationName
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:positionName
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contactInfo
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:role
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::CI_RoleCode"
+  attributes:
+  - name: Citation and responsible party information:resourceProvider
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:custodian
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:owner
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:user
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:distributor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:originator
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:pointOfContact
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:principalInvestigator
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:processor
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:publisher
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:author
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::CI_Series"
+  attributes:
+  - name: Citation and responsible party information:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:issueIdentification
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:page
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::CI_Telephone"
+  attributes:
+  - name: Citation and responsible party information:voice
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:facsimile
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Citation
+    and responsible party information::URL"
+  attributes: []

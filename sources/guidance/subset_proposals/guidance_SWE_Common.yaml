@@ -1,0 +1,8 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123-2:2017 Schema for
+    coverage geometry and functions - Coverage Implementation Schema::SWE_Common::DataRecord"
+  attributes:
+  - name: 'CIS1.0:'
+    used: false
+    guidance: 未利用

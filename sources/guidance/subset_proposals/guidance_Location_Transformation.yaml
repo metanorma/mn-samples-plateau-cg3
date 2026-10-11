@@ -1,0 +1,5 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Location Transformation::LT_LocationTransformationService"
+  attributes: []

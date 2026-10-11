@@ -1,0 +1,56 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Catalogues::UoM Catalogue::CT_UnitOfMeasure"
+  attributes:
+  - name: Catalogues:identifier
+    used: false
+    guidance: 未利用
+  - name: Catalogues:name
+    used: false
+    guidance: 未利用
+  - name: Catalogues:definition
+    used: false
+    guidance: 未利用
+  - name: Catalogues:description
+    used: false
+    guidance: 未利用
+  - name: UoM Catalogue:quantityType
+    used: false
+    guidance: 未利用
+  - name: UoM Catalogue:uomSymbol
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Catalogues::UoM Catalogue::CT_UomCatalogue"
+  attributes:
+  - name: Catalogues:name
+    used: false
+    guidance: 未利用
+  - name: Catalogues:scope
+    used: false
+    guidance: 未利用
+  - name: Catalogues:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: Catalogues:versionNumber
+    used: false
+    guidance: 未利用
+  - name: Catalogues:versionDate
+    used: false
+    guidance: 未利用
+  - name: Catalogues:language
+    used: false
+    guidance: 未利用
+  - name: Catalogues:characterSet
+    used: false
+    guidance: 未利用
+  - name: Catalogues:locale
+    used: false
+    guidance: 未利用
+  - name: Catalogues:subCatalogue
+    used: false
+    guidance: 未利用
+  - name: units:uomItem
+    used: false
+    guidance: 未利用

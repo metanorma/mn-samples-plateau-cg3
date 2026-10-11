@@ -1,0 +1,26 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::xlinks::xlinks::simpleLink"
+  attributes:
+  - name: xlinks:type
+    used: false
+    guidance: 未利用
+  - name: xlinks:href
+    used: false
+    guidance: 未利用
+  - name: xlinks:role
+    used: false
+    guidance: 未利用
+  - name: xlinks:arcrole
+    used: false
+    guidance: 未利用
+  - name: xlinks:title
+    used: false
+    guidance: 未利用
+  - name: xlinks:show
+    used: false
+    guidance: 未利用
+  - name: xlinks:actuate
+    used: false
+    guidance: 未利用

@@ -1,0 +1,32 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Conditional Function Extension::PF_ConditionalFeaturePortrayalFunction"
+  attributes:
+  - name: Portrayal Function:identifier
+    used: false
+    guidance: 未利用
+  - name: Portrayal Function:title
+    used: false
+    guidance: 未利用
+  - name: Portrayal Function:specification
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+  - name: Portrayal Function:catalogue
+    used: false
+    guidance: 未利用
+  - name: Conditional Function Extension:condition
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Conditional Function Extension::PF_SymbolMappingCondition"
+  attributes:
+  - name: Methodology for feature cataloguing:featureProperty
+    used: false
+    guidance: 未利用
+  - name: Symbol:symbol
+    used: false
+    guidance: 未利用

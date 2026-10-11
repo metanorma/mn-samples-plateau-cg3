@@ -1,0 +1,20 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Information Services::LBS_DataService"
+  attributes:
+  - name: Information Services:dataSource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Information Services::LBS_EventSubscription"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Information Services::LBS_MovingObjectManagement"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Information Services::LBS_NetworkDataService"
+  attributes:
+  - name: Information Services:dataSource
+    used: false
+    guidance: 未利用

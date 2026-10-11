@@ -1,0 +1,14 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Enterprise
+    View::Portrayal"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Enterprise
+    View::Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Enterprise
+    View::Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Enterprise
+    View::Portrayal"
+  attributes: []

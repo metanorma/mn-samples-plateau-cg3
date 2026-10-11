@@ -1,0 +1,80 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19126 All::ISO 19126:2009 Feature concept
+    dictionaries and registers::Hierarchical Feature Information Register::HR_FeatureInformationSubregisterDescription"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:status
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:definition
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:description
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:operatingLanguage
+    used: false
+    guidance: 未利用
+  - name: Hierarchical Feature Information Register:type
+    used: false
+    guidance: 未利用
+  - name: Hierarchical Feature Information Register:scope
+    used: false
+    guidance: 未利用
+  - name: Hierarchical Feature Information Register:registerIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:additionInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:amendmentInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:clarificationInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:itemClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationLineage
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationSource
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:containedItemClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:subregisterManager
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19126 All::ISO 19126:2009 Feature concept
+    dictionaries and registers::Hierarchical Feature Information Register::HR_FeatureInfoSubregisterType"
+  attributes:
+  - name: Hierarchical Feature Information Register:featureCatalogue
+    used: false
+    guidance: 未利用
+  - name: Hierarchical Feature Information Register:featureDataDictionary
+    used: false
+    guidance: 未利用

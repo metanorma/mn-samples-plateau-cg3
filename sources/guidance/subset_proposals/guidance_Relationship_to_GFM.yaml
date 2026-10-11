@@ -1,0 +1,14 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::Relationship to GFM::LM_ApplicationSchemaInstance"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::Relationship to GFM::LM_LandCoverApplicationSchema"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::Relationship to GFM::LM_LandCoverClassificationSystem"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::Relationship to GFM::LM_LandCoverMetaLanguage"
+  attributes: []

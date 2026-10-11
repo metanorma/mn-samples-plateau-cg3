@@ -1,0 +1,300 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::                                                                   Information
+    services"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::En-route services"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_ServiceInfo"
+  attributes:
+  - name: ServiceTypes:description
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:informationLink
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_AssistanceService"
+  attributes:
+  - name: ServiceTypes:description
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:serviceCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_AttendanceService"
+  attributes:
+  - name: ServiceTypes:description
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:serviceCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_EnRouteServiceCategories"
+  attributes:
+  - name: ServiceTypes:assistanceService
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:attendanceService
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:entertainmentService
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:freeOfferService
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:handlingService
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:paymentService
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_EntertainmentService"
+  attributes:
+  - name: ServiceTypes:description
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:serviceCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_FreeOfferService"
+  attributes:
+  - name: ServiceTypes:description
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:serviceCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_HandlingService"
+  attributes:
+  - name: ServiceTypes:description
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:serviceCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_PaymentService"
+  attributes:
+  - name: ServiceTypes:description
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:serviceCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_InformationServiceCategories"
+  attributes:
+  - name: ServiceTypes:touristInformationService
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:travelInformationService
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_TouristInformationService"
+  attributes:
+  - name: ServiceTypes:description
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:serviceCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_TravelInformationService"
+  attributes:
+  - name: ServiceTypes:description
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:serviceCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_TouristInformationServiceCode"
+  attributes:
+  - name: ServiceTypes:accomodationInformation
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:activityInformation
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:historicInformation
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:locationInformation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_TravelInformationServiceCode"
+  attributes:
+  - name: ServiceTypes:arrivalDepartureInformation
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:contactInformation
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:dynamicArrivalDepartureInformation
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:routePattern
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:terminalInformation
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:terminalMap
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:timeTables
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:trafficInformation
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:transportMeansMap
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:tripInformation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_AssistanceServiceCode"
+  attributes:
+  - name: ServiceTypes:assistanceInSecurityControl
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:assistanceToDisabled
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:assistanceToMinors
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:assistanceToSick
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:freeTransportOfAids
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:luggageAssistance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_AttendanceServiceCode"
+  attributes:
+  - name: ServiceTypes:cabinCrew
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:conductor
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:guard
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_EntertainmentServiceCode"
+  attributes:
+  - name: ServiceTypes:childrenEntertainment
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:liveMusic
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:movie
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:musicChannel
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:news
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_FreeOfferServiceCode"
+  attributes:
+  - name: ServiceTypes:alcoholocBeverages
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:breakfast
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:coldMeal
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:dinner
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:lunch
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:newspaper
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:nonAlcoholicBeverages
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_HandlingServiceCode"
+  attributes:
+  - name: ServiceTypes:checkIn
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:customs
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:luggageCheckIn
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:luggageSecurityControl
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:passengerSecurityControl
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::ServiceTypes::ST_PaymentServiceCode"
+  attributes:
+  - name: ServiceTypes:byPhone
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:cash
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:creditCard
+    used: false
+    guidance: 未利用
+  - name: ServiceTypes:eTicket
+    used: false
+    guidance: 未利用

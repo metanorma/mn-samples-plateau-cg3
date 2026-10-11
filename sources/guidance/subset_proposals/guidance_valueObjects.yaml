@@ -1,0 +1,116 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::AbstractScalarValue"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::AbstractScalarValueList"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::AbstractValue"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::BooleanList"
+  attributes:
+  - name: valueObjects:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::BooleanValue"
+  attributes:
+  - name: valueObjects:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::Category"
+  attributes:
+  - name: valueObjects:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::CategoryExtent"
+  attributes:
+  - name: valueObjects:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::CategoryList"
+  attributes:
+  - name: valueObjects:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::CodeOrNilReason"
+  attributes:
+  - name: valueObjects:value
+    used: false
+    guidance: 未利用
+  - name: valueObjects:nilReason
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::CompositeValue"
+  attributes:
+  - name: valueObjects:valueComponent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::Count"
+  attributes:
+  - name: valueObjects:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::CountExtent"
+  attributes:
+  - name: valueObjects:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::CountList"
+  attributes:
+  - name: valueObjects:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::Quantity"
+  attributes:
+  - name: valueObjects:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::QuantityExtent"
+  attributes:
+  - name: valueObjects:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::QuantityList"
+  attributes:
+  - name: valueObjects:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::Value"
+  attributes:
+  - name: valueObjects:abstractValue
+    used: false
+    guidance: 未利用
+  - name: valueObjects:gm_Object
+    used: false
+    guidance: 未利用
+  - name: valueObjects:tm_Object
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::valueObjects::ValueArray"
+  attributes:
+  - name: valueObjects:uom
+    used: false
+    guidance: 未利用
+  - name: valueObjects:codeSpace
+    used: false
+    guidance: 未利用
+  - name: valueObjects:valueComponent
+    used: false
+    guidance: 未利用

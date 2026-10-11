@@ -1,0 +1,84 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19112 All::ISO 19112 Edition 2::Gazetteer"
+  attributes:
+  - name: ISO 19112 Edition 2:crs
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:identifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:scope
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:aggregationOf
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19112 All::ISO 19112 Edition 2::GeographicIdentifier"
+  attributes:
+  - name: ISO 19112 Edition 2:identifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:locale
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19112 All::ISO 19112 Edition 2::Location"
+  attributes:
+  - name: ISO 19112 Edition 2:extent
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:identifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:owner
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:representativePosition
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:childOf
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:parentOf
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:recordedIn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19112 All::ISO 19112 Edition 2::LocationClass"
+  attributes:
+  - name: ISO 19112 Edition 2:identifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:owner
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:childOf
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:incorporatedIn
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:parentOf
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19112 All::ISO 19112 Edition 2::SpatialReferenceSystemUsingGeographicIdentifiers"
+  attributes:
+  - name: ISO 19112 Edition 2:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:identifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:owner
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:theme
+    used: false
+    guidance: 未利用
+  - name: ISO 19112 Edition 2:comprises
+    used: false
+    guidance: 未利用

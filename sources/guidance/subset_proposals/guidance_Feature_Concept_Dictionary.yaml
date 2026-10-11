@@ -1,0 +1,23 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19126 All::ISO 19126:2009 Feature concept
+    dictionaries and registers::Feature Concept Dictionary::CD_ConceptRelationshipType"
+  attributes:
+  - name: Feature Concept Dictionary:similarity
+    used: false
+    guidance: 未利用
+  - name: Feature Concept Dictionary:oppposition
+    used: false
+    guidance: 未利用
+  - name: Feature Concept Dictionary:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19126 All::ISO 19126:2009 Feature concept
+    dictionaries and registers::Feature Concept Dictionary::CD_Scope"
+  attributes:
+  - name: Feature Concept Dictionary:name
+    used: false
+    guidance: 未利用
+  - name: Feature Concept Dictionary:description
+    used: false
+    guidance: 未利用

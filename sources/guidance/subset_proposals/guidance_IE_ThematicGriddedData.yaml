@@ -1,0 +1,192 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ThematicGriddedData::ISO
+    19115-1:2014: shown for informative purpose only"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ThematicGriddedData::IE_CategoricalGriddedData"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:dataInfo
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:annotation
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:geographicFeature
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:retrievalProcessingInfo
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:sourceInfo
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:classificationDescription
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:numberOfCategories
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:bitsPerValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ThematicGriddedData:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ThematicGriddedData::IE_CategoricalValueAndColour"
+  attributes:
+  - name: IE_ThematicGriddedData:categoryName
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:colourPalette
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:description
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ThematicGriddedData::IE_ColourPalette"
+  attributes:
+  - name: IE_ThematicGriddedData:red
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:green
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:blue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ThematicGriddedData::IE_NumericalGriddedData"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:dataInfo
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:annotation
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:geographicFeature
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:retrievalProcessingInfo
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:sourceInfo
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:valueDescription
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ThematicGriddedData::IE_ThematicGriddedData"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:dataInfo
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:annotation
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:geographicFeature
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:retrievalProcessingInfo
+    used: false
+    guidance: 未利用
+  - name: IE_ThematicGriddedData:sourceInfo
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用

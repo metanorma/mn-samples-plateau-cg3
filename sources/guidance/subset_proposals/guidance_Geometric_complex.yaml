@@ -1,0 +1,129 @@
+---
+classes:
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric complex::GM_CompositeCurve"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:primitive
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric complex::GM_CompositeSurface"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:primitive
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric complex::GM_Complex"
+  attributes:
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:subComplex
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:superComplex
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric complex::GM_ComplexBoundary"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric complex::GM_Composite"
+  attributes:
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:subComplex
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:superComplex
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric complex::GM_CompositeCurve"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric complex::GM_CompositePoint"
+  attributes:
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:subComplex
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:superComplex
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric complex::GM_CompositeSolid"
+  attributes:
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric complex::GM_CompositeSurface"
+  attributes:
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:subComplex
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:superComplex
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用

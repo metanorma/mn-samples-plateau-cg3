@@ -1,0 +1,221 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_CoverageData"
+  attributes:
+  - name: Coverage Data:dataCurve
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometryValuePair
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:griddedValues
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_RangeRecord"
+  attributes:
+  - name: Range Description:recordType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_GeometryValuePair"
+  attributes:
+  - name: Coverage Data:value
+    used: false
+    guidance: 未利用
+  - name: 'Discrete Coverage:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_SpatialGeometryValuePair"
+  attributes:
+  - name: Coverage Data:value
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Discrete Coverage:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_PointValuePair"
+  attributes:
+  - name: Coverage Data:value
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Discrete Coverage:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_CurveValuePair"
+  attributes:
+  - name: Coverage Data:value
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Discrete Coverage:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_SurfaceValuePair"
+  attributes:
+  - name: Coverage Data:value
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Discrete Coverage:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_SolidValuePair"
+  attributes:
+  - name: Coverage Data:value
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Discrete Coverage:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_TimeObjectValuePair"
+  attributes:
+  - name: Coverage Data:value
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Discrete Coverage:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_InstantValuePair"
+  attributes:
+  - name: Coverage Data:value
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Discrete Coverage:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_PeriodValuePair"
+  attributes:
+  - name: Coverage Data:value
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Discrete Coverage:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_MovingObjectValuePair"
+  attributes:
+  - name: Coverage Data:value
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: 'Discrete Coverage:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_GridValuesMatrix"
+  attributes:
+  - name: Coverage Data:values
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:sequencingRule
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:startSequence
+    used: false
+    guidance: 未利用
+  - name: Domain Description:gridStructure
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_SequencingRule"
+  attributes:
+  - name: Coverage Data:type
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:scanDirection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_SequenceType"
+  attributes:
+  - name: Coverage Data:linear
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:boustrophedoic
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:cantorDiagonal
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:spiral
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:morton
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:hilbert
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_SegmentedCurve"
+  attributes:
+  - name: Coverage Data:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:segment
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Coverage
+    Data::CV_ValueSegment"
+  attributes:
+  - name: Coverage Data:startParameter
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:endParameter
+    used: false
+    guidance: 未利用
+  - name: Coverage Data:controlPoint
+    used: false
+    guidance: 未利用

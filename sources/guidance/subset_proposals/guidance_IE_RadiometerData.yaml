@@ -1,0 +1,167 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_RadiometerData::IE_ChannelPropertyCode"
+  attributes:
+  - name: IE_RadiometerData:OxygenAbsorptionChannel
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:WaterVapourAbsorptionChannel
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:OzoneAbsorptionChannel
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:WindowChannel
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:TraceGasAbsorptionChannel
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_RadiometerData::IE_PMWApertureTypeCode"
+  attributes:
+  - name: IE_RadiometerData:RealAperture
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:SyntheticAperture
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_RadiometerData::IE_PMWBand"
+  attributes:
+  - name: IE_RadiometerData:bandName
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:numberOfChannels
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:channels
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_RadiometerData::IE_PMWBandNameCode"
+  attributes:
+  - name: IE_RadiometerData:L-Band
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:C-Band
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:K-Band
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:Ka-Band
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:M-Band
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:G-Band
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_RadiometerData::IE_PMWChannelInfo"
+  attributes:
+  - name: IE_RadiometerData:channelWidth
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:centreFrequency
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:channelProperty
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_RadiometerData::IE_PMWScanningModeCode"
+  attributes:
+  - name: IE_RadiometerData:ConicalScanning
+    used: false
+    guidance: 未利用
+  - name: 'IE_RadiometerData:CrosstrackScanning '
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:LimbScanning
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:SpiralScanning
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:WhiskbroomScanning
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_RadiometerData::IE_RadiometerData"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:acquisitionTime
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:imageDescription
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:isMosaic
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:numberofBands
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:processingAction
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:radiometricCalibrationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorCalibrationValidation
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:platformInfo
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorInfo
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:scanningMode
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:PMWBand
+    used: false
+    guidance: 未利用
+  - name: IE_RadiometerData:apertureType
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'Content information - Imagery:'
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sourceImage
+    used: false
+    guidance: 未利用

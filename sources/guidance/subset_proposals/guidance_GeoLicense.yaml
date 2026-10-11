@@ -1,0 +1,50 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Logical Model::GeoLicense::Bind"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Logical Model::GeoLicense::principal"
+  attributes:
+  - name: GeoLicense:identity
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Logical Model::GeoLicense::principalPattern"
+  attributes:
+  - name: GeoLicense:matches
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Logical Model::GeoLicense::Property"
+  attributes:
+  - name: GeoLicense:name
+    used: false
+    guidance: 未利用
+  - name: GeoLicense:type
+    used: false
+    guidance: 未利用
+  - name: GeoLicense:value
+    used: false
+    guidance: 未利用
+  - name: GeoLicense:serializationTechnique
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Logical Model::GeoLicense::PropertyType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Logical Model::GeoLicense::resource"
+  attributes:
+  - name: GeoLicense:identity
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Logical Model::GeoLicense::resourcePattern"
+  attributes:
+  - name: GeoLicense:matches
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Logical Model::GeoLicense::Signature"
+  attributes: []

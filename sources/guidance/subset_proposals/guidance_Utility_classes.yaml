@@ -1,0 +1,8 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Utility classes::LanguageString"
+  attributes:
+  - name: Utility classes:language
+    used: false
+    guidance: 未利用

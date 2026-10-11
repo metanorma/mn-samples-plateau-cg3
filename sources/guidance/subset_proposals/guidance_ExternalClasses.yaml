@@ -1,0 +1,140 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::ExternalClasses::AdministrativeArea"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:geometry
+    used: false
+    guidance: 未利用
+  - name: Address:addressComponent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::ExternalClasses::BusinessRegister"
+  attributes:
+  - name: ExternalClasses:businessName
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:annualTurnover
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:taxNumber
+    used: false
+    guidance: 未利用
+  - name: Address:branchAddress
+    used: false
+    guidance: 未利用
+  - name: Address:headOfficeAddress
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:headOfficeAddress
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::ExternalClasses::Client"
+  attributes:
+  - name: ExternalClasses:clientID
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:name
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:contactName
+    used: false
+    guidance: 未利用
+  - name: Address:officeAddress
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::ExternalClasses::Employee"
+  attributes:
+  - name: ExternalClasses:name
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:employeeId
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:dateOfBirth
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:employedFrom
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:employedTo
+    used: false
+    guidance: 未利用
+  - name: Address:homeAddress
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:homeAddress
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::ExternalClasses::Organization"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:geometry
+    used: false
+    guidance: 未利用
+  - name: Address:addressComponent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::ExternalClasses::Person"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:geometry
+    used: false
+    guidance: 未利用
+  - name: Address:addressComponent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::ExternalClasses::ReferenceSpatialObject"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:geometry
+    used: false
+    guidance: 未利用
+  - name: Address:addressComponent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::ExternalClasses::Thoroughfare"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:geometry
+    used: false
+    guidance: 未利用
+  - name: Address:addressComponent
+    used: false
+    guidance: 未利用
+  - name: 'ExternalClasses:'
+    used: false
+    guidance: 未利用

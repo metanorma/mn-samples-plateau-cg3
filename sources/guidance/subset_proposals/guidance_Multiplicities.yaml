@@ -1,0 +1,17 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Multiplicities::Multiplicity"
+  attributes:
+  - name: Multiplicities:range
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Multiplicities::MultiplicityRange"
+  attributes:
+  - name: Multiplicities:lower
+    used: false
+    guidance: 未利用
+  - name: Multiplicities:upper
+    used: false
+    guidance: 未利用

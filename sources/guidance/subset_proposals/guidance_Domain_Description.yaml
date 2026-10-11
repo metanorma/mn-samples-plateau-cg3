@@ -1,0 +1,98 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Domain
+    Description::CV_DomainDescription"
+  attributes:
+  - name: Domain Description:domainDimension
+    used: false
+    guidance: 未利用
+  - name: Domain Description:crs
+    used: false
+    guidance: 未利用
+  - name: Domain Description:domainType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Domain
+    Description::CV_DomainType"
+  attributes:
+  - name: Domain Description:spaceTimeContinuum
+    used: false
+    guidance: 未利用
+  - name: Domain Description:pointSet
+    used: false
+    guidance: 未利用
+  - name: Domain Description:quadrilateralGrid
+    used: false
+    guidance: 未利用
+  - name: Domain Description:hexagonalGrid
+    used: false
+    guidance: 未利用
+  - name: Domain Description:curveSet
+    used: false
+    guidance: 未利用
+  - name: Domain Description:surfaceSet
+    used: false
+    guidance: 未利用
+  - name: Domain Description:solidSet
+    used: false
+    guidance: 未利用
+  - name: Domain Description:hypersolidSet
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Domain
+    Description::CV_GridDescription"
+  attributes:
+  - name: Domain Description:dimension
+    used: false
+    guidance: 未利用
+  - name: Domain Description:axisNames
+    used: false
+    guidance: 未利用
+  - name: Domain Description:extent
+    used: false
+    guidance: 未利用
+  - name: Domain Description:externalPositionInfo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Domain
+    Description::CV_GridCoordinates"
+  attributes:
+  - name: Domain Description:coordValues
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Domain
+    Description::CV_GridEnvelope"
+  attributes:
+  - name: Domain Description:low
+    used: false
+    guidance: 未利用
+  - name: Domain Description:high
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Domain
+    Description::CV_GridExternalPositionInfo"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Domain
+    Description::CV_GridCoordTransform"
+  attributes:
+  - name: Domain Description:coordTransform
+    used: false
+    guidance: 未利用
+  - name: Domain Description:invCoordTransform
+    used: false
+    guidance: 未利用
+  - name: 'Domain Description:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Domain
+    Description::CV_RegularGrid"
+  attributes:
+  - name: Domain Description:origin
+    used: false
+    guidance: 未利用
+  - name: Domain Description:offsetVectors
+    used: false
+    guidance: 未利用
+  - name: 'Domain Description:'
+    used: false
+    guidance: 未利用

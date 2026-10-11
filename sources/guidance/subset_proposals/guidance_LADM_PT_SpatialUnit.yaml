@@ -1,0 +1,890 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::Text"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::AdministrativeRegion"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:hierachyLevel
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:name
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:sugID
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:hierarchyLevel
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:label
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:name
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:set
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:coverage
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:region
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::AdministrativeServitude"
+  attributes:
+  - name: LADM_PT_SpatialUnit:subType
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:subType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::Cadastral
+    Sheet"
+  attributes:
+  - name: LADM_PT_SpatialUnit:id_Folha
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nFolha
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:shape
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:shape_Area
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:shape_Length
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::CadastralCoverage"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:hierachyLevel
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:name
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:sugID
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:hierarchyLevel
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:label
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:name
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:set
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:coverage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::CommonPart"
+  attributes:
+  - name: LADM_PT_SpatialUnit:subType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::CornerStone"
+  attributes:
+  - name: LADM_PT_SpatialUnit:objectid
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:shape
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:suporte
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:tipo
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::OID"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::Parcel"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:name
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Administrative:uID
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:área_E
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:área_NE
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:área_S
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:dataRec
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:perito
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:DICOFRE
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:observ
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nFolhaPredio
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nomePredio
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:objectid
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::Parcel
+    Edge"
+  attributes:
+  - name: LADM_PT_SpatialUnit:objectid
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:shape
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:shape_Length
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:suporte
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:tipo
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::PartOfParcel"
+  attributes:
+  - name: LADM_PT_SpatialUnit:nFolhaPredio(ce)
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nParcela
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nProcesso(ce)
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:objectid
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:shape
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:shape_Area
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:shape_Length
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::Person"
+  attributes:
+  - name: LADM_PT_SpatialUnit:andar
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:cPostal
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:localidade
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:morada
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nBI
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:Nome
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nPol
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:objectid
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::PraedialServitude"
+  attributes:
+  - name: LADM_PT_SpatialUnit:subType
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:subType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::Process"
+  attributes:
+  - name: LADM_PT_SpatialUnit:nProcesso
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:data_Pedido
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:estado
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::PSASubType"
+  attributes:
+  - name: LADM_PT_SpatialUnit:subType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::PT_Baldio"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:extAddressId
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:area
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:dimension
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:label
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:suID
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:addressID
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:label
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:layer
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nationalArea
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:perimeter
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::PT_Building"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: WithHoles not separate option:addressID
+    used: false
+    guidance: 未利用
+  - name: WithHoles not separate option:layer
+    used: false
+    guidance: 未利用
+  - name: WithHoles not separate option:structure
+    used: false
+    guidance: 未利用
+  - name: WithHoles not separate option:type
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:addressID
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:buildingType
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:complNum
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:dimension
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:label
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:layer
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nationalArea
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:numberOfFloors
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:numberOfUnits
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:perimeter
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:structure
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:suID
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:type
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::PT_BuildingUnit"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extPhysicalBuildingUnitID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:type
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:comFracção
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:dataRec
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nip
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:observ
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:perito
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::PT_Parcel_G"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:extAddressId
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:area
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:dimension
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:label
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:suID
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:addressID
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:label
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:layer
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nationalArea
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:numProv
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:parcelType
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:perimeter
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::PT_ParcelSocialArea"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: WithHoles not separate option:addressID
+    used: false
+    guidance: 未利用
+  - name: WithHoles not separate option:layer
+    used: false
+    guidance: 未利用
+  - name: WithHoles not separate option:structure
+    used: false
+    guidance: 未利用
+  - name: WithHoles not separate option:type
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:label
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:layer
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nationalArea
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:perimeter
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:psaSubType
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:structure
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:suID
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:type
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+  - name: 'LADM_PT_SpatialUnit:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::PT_SocialArea"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:extAddressId
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:area
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:dimension
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:label
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:suID
+    used: false
+    guidance: 未利用
+  - name: Topological_Profile:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:addressID
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:label
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:layer
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:nationalArea
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:perimeter
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:socialAreaType
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::Shape"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::Urban
+    Lot"
+  attributes:
+  - name: LADM_PT_SpatialUnit:nProcesso(ce)
+    used: false
+    guidance: 未利用
+  - name: LADM_PT_SpatialUnit:id_Loteamento
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::LADM_PT::LADM_PT_SpatialUnit::Enumerations"
+  attributes: []

@@ -1,0 +1,218 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Discrete Coverages::CV_CurveValuePair"
+  attributes:
+  - name: Coverage Core:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:value
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Discrete Coverages::CV_DiscreteCoverage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Discrete Coverages::CV_DiscreteCurveCoverage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Discrete Coverages::CV_DiscreteGridPointCoverage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:element
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:valueAssignment
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Discrete Coverages::CV_DiscretePointCoverage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Discrete Coverages::CV_DiscreteSolidCoverage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Discrete Coverages::CV_DiscreteSurfaceCoverage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:element
+    used: false
+    guidance: 未利用
+  - name: TIN:triangleSource
+    used: false
+    guidance: 未利用
+  - name: Thiessen Polygon:polygonSource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Discrete Coverages::CV_PointValuePair"
+  attributes:
+  - name: Coverage Core:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:value
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Discrete Coverages::CV_SolidValuePair"
+  attributes:
+  - name: Coverage Core:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:value
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::Discrete Coverages::CV_SurfaceValuePair"
+  attributes:
+  - name: Coverage Core:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:value
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:geometry
+    used: false
+    guidance: 未利用

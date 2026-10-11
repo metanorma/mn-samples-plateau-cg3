@@ -1,0 +1,323 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_Boundary"
+  attributes:
+  - name: Topological primitive:term
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_ComplexBoundary"
+  attributes:
+  - name: Topological primitive:term
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_DirectedEdge"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_DirectedFace"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_DirectedNode"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_DirectedSolid"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:topo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_DirectedTopo"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_Edge"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:boundary
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:spoke
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_EdgeBoundary"
+  attributes:
+  - name: Topological primitive:startNode
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:endNode
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:term
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_Expression"
+  attributes:
+  - name: Topological primitive:term
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_ExpressionTerm"
+  attributes:
+  - name: Topological primitive:coefficient
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:variable
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_Face"
+  attributes:
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:boundary
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:spoke
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_FaceBoundary"
+  attributes:
+  - name: Topological primitive:exterior
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:interior
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:term
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_Node"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:spoke
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_Primitive"
+  attributes:
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_PrimitiveBoundary"
+  attributes:
+  - name: Topological primitive:term
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_Ring"
+  attributes:
+  - name: Topological primitive:term
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_Shell"
+  attributes:
+  - name: Topological primitive:term
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_Solid"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:topo
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:boundary
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::Topology::Topological
+    primitive::TP_SolidBoundary"
+  attributes:
+  - name: Topological primitive:exterior
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:interior
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:term
+    used: false
+    guidance: 未利用

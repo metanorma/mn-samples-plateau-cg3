@@ -1,0 +1,962 @@
+---
+classes:
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Coordinate geometry::DirectPosition"
+  attributes:
+  - name: Coordinate geometry:coordinate
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:dimension
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Coordinate geometry::GM_LineString"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Coordinate geometry::GM_PointArray"
+  attributes:
+  - name: Coordinate geometry:column
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Coordinate geometry::GM_PointRef"
+  attributes:
+  - name: Geometric primitive:point
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Coordinate geometry::GM_Polygon"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:boundary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Coordinate geometry::GM_PolyhedralSurface"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:primitive
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:patch
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:patch
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Coordinate geometry::GM_Position"
+  attributes:
+  - name: Coordinate geometry:direct
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:indirect
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Coordinate geometry::GM_Tin"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:stopLines
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:breakLines
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:maxLength
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:primitive
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:patch
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:patch
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Coordinate geometry::GM_TriangulatedSurface"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:primitive
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:patch
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:patch
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::DirectPosition"
+  attributes:
+  - name: Coordinate geometry:coordinate
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:dimension
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_AffinePlacement"
+  attributes:
+  - name: Coordinate geometry:location
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:refDirection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Arc"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:numArc
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_ArcByBulge"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:bulge
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:numArc
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:normal
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_ArcString"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:numArc
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_ArcStringByBulge"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:bulge
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:numArc
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:normal
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Bezier"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:degree
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:knot
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoints
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:curveForm
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:knotSpec
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:isPolynomial
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_BicubicGrid"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:horizontalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:verticalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:rows
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:columns
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:horiVectorAtStart
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:horiVectorAtEnd
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:vertVectorAtStart
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:vertVectorAtEnd
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_BilinearGrid"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:horizontalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:verticalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:rows
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:columns
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_BSplineCurve"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:degree
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:knot
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoints
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:curveForm
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:knotSpec
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:isPolynomial
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_BSplineSurface"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:horizontalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:verticalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:rows
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:columns
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:degree
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:knot
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:knotSpec
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:surfaceForm
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:isPolynomial
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_BSplineSurfaceForm"
+  attributes:
+  - name: Coordinate geometry:planar
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:cylindrical
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:conical
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:spherical
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:toroidal
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:unspecified
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Circle"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:numArc
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Clothoid"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:refLocation
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:scaleFactor
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:startParameter
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:endParameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Cone"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:horizontalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:verticalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:rows
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:columns
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Conic"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:position
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:shifted
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:eccentricity
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:semiLatusRectum
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:startConstrParam
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:endConstrParam
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_CubicSpline"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:degree
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:knot
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoints
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:vectorAtStart
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:vectorAtEnd
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Cylinder"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:horizontalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:verticalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:rows
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:columns
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Envelope"
+  attributes:
+  - name: Coordinate geometry:upperCorner
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:lowerCorner
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Geodesic"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_GeodesicString"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_GriddedSurface"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:horizontalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:verticalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:rows
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:columns
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Knot"
+  attributes:
+  - name: Coordinate geometry:value
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:multiplicity
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:weight
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_KnotType"
+  attributes:
+  - name: Coordinate geometry:uniform
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:quasiUniform
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:piecewiseBezier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_LineSegment"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_LineString"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_OffsetCurve"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:distance
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:refDirection
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:baseCurve
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_ParametricCurveSurface"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:horizontalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:verticalCurveType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_PointArray"
+  attributes:
+  - name: Coordinate geometry:column
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_PointGrid"
+  attributes:
+  - name: Coordinate geometry:row
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_PointRef"
+  attributes:
+  - name: Geometric primitive:point
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Polygon"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:boundary
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:spanningSurface
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:surface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_PolyhedralSurface"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:patch
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:patch
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_PolynomialSpline"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:degree
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:knot
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoints
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:vectorAtStart
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:vectorAtEnd
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Position"
+  attributes:
+  - name: Coordinate geometry:direct
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:indirect
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Sphere"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:horizontalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:verticalCurveType
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:rows
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:columns
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_SplineCurve"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:degree
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:knot
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_SplineCurveForm"
+  attributes:
+  - name: Coordinate geometry:polylineForm
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:circularArc
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:ellipticArc
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:parabolicArc
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:hyperbolicArc
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Tin"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:stopLines
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:breakLines
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:maxLength
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:patch
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:patch
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:patch
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_Triangle"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:boundary
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:spanningSurface
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:corners
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:surface
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:surface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Coordinate geometry::GM_TriangulatedSurface"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:patch
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:patch
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:patch
+    used: false
+    guidance: 未利用

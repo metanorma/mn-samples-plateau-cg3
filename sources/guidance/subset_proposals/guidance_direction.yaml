@@ -1,0 +1,20 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::direction::Direction"
+  attributes:
+  - name: direction:vector
+    used: false
+    guidance: 未利用
+  - name: direction:compassPoint
+    used: false
+    guidance: 未利用
+  - name: direction:keyword
+    used: false
+    guidance: 未利用
+  - name: direction:description
+    used: false
+    guidance: 未利用
+  - name: direction:reference
+    used: false
+    guidance: 未利用

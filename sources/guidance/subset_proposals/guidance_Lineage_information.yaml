@@ -1,0 +1,72 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Lineage information::From ISO 19115-2 shown for informative purposes
+    only"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Lineage information::LI_Lineage"
+  attributes:
+  - name: Lineage information:statement
+    used: false
+    guidance: 未利用
+  - name: Lineage information:scope
+    used: false
+    guidance: 未利用
+  - name: Lineage information:additionalDocumentation
+    used: false
+    guidance: 未利用
+  - name: Lineage information:processStep
+    used: false
+    guidance: 未利用
+  - name: Lineage information:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Lineage information::LI_ProcessStep"
+  attributes:
+  - name: Lineage information:description
+    used: false
+    guidance: 未利用
+  - name: Lineage information:rationale
+    used: false
+    guidance: 未利用
+  - name: Lineage information:stepDateTime
+    used: false
+    guidance: 未利用
+  - name: Lineage information:processor
+    used: false
+    guidance: 未利用
+  - name: Lineage information:reference
+    used: false
+    guidance: 未利用
+  - name: Lineage information:scope
+    used: false
+    guidance: 未利用
+  - name: Lineage information:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Lineage information::LI_Source"
+  attributes:
+  - name: Lineage information:description
+    used: false
+    guidance: 未利用
+  - name: Lineage information:sourceSpatialResolution
+    used: false
+    guidance: 未利用
+  - name: Lineage information:sourceReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Lineage information:sourceCitation
+    used: false
+    guidance: 未利用
+  - name: Lineage information:sourceMetadata
+    used: false
+    guidance: 未利用
+  - name: Lineage information:scope
+    used: false
+    guidance: 未利用
+  - name: Lineage information:sourceStep
+    used: false
+    guidance: 未利用

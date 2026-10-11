@@ -1,0 +1,23 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Geomatics Services::LBS_AddressParsing"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Geomatics Services::LBS_Gazetteer"
+  attributes:
+  - name: Geomatics Services:gazetteer
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Geomatics Services::LBS_Geoparsing"
+  attributes:
+  - name: Geomatics Services:gazetteer
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Geomatics Services::LBS_LocationTransformation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Geomatics Services::LBS_MapService"
+  attributes: []

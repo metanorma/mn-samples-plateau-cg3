@@ -1,0 +1,11 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Observation::Scene::colour"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Observation::Scene::Scene"
+  attributes:
+  - name: Discrete Coverages:colour
+    used: false
+    guidance: 未利用

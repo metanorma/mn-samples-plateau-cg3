@@ -1,0 +1,77 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::ApplicationSchema::Road"
+  attributes:
+  - name: ApplicationSchema:name
+    used: false
+    guidance: 未利用
+  - name: ApplicationSchema:speedLimit
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:referent
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:linearlyLocatedAttribute
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:locatedFeature
+    used: false
+    guidance: 未利用
+  - name: ApplicationSchema:locatedFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::ApplicationSchema::Road2"
+  attributes:
+  - name: ApplicationSchema:speedLimit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::ApplicationSchema::SpeedLimit"
+  attributes:
+  - name: ApplicationSchema:value
+    used: false
+    guidance: 未利用
+  - name: ApplicationSchema:overridingLRM
+    used: false
+    guidance: 未利用
+  - name: ApplicationSchema:fromPosition
+    used: false
+    guidance: 未利用
+  - name: ApplicationSchema:toPosition
+    used: false
+    guidance: 未利用
+  - name: ApplicationSchema:validity
+    used: false
+    guidance: 未利用
+  - name: ApplicationSchema:vehicle
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::ApplicationSchema::SpeedLimit2"
+  attributes:
+  - name: ApplicationSchema:value
+    used: false
+    guidance: 未利用
+  - name: ApplicationSchema:linearLocation
+    used: false
+    guidance: 未利用
+  - name: ApplicationSchema:validity
+    used: false
+    guidance: 未利用
+  - name: ApplicationSchema:vehicle
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::ApplicationSchema::WildlifeFence"
+  attributes:
+  - name: ApplicationSchema:installedDate
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:locatingFeature
+    used: false
+    guidance: 未利用
+  - name: ApplicationSchema:locatingFeature
+    used: false
+    guidance: 未利用

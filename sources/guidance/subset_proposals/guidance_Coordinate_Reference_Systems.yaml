@@ -1,0 +1,879 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Additional figures (informative)::Examples::ISO 19111 Referencing by
+    Coordinates::Coordinate Reference Systems::SC_CRS"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::CompoundCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:componentReferenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::CRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::DerivedCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:conversion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:baseCRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::DerivedEngineeringCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::DerivedGeodeticCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::DerivedGeographicCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::DerivedImageCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::DerivedParametricCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::DerivedProjectedCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:conversion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:baseCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:baseCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::DerivedTemporalCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:name
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::DerivedVerticalCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:transformation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::EngineeringCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::GeodeticCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::GeographicCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::ImageCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::ParametricCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::ProjectedCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:conversion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:baseCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:baseCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::SingleCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::TemporalCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:name
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinate Reference Systems::VerticalCRS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Datums:ensemble
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:transformation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Reference Systems::SC_CompoundCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:componentReferenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Reference Systems::SC_CRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Reference Systems::SC_DerivedCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:derivedCRSType
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:conversion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:baseCRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Reference Systems::SC_DerivedCRSType"
+  attributes:
+  - name: Coordinate Reference Systems:geodetic
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:vertical
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:engineering
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:image
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Reference Systems::SC_EngineeringCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Reference Systems::SC_GeneralDerivedCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:conversion
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Reference Systems::SC_GeodeticCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Reference Systems::SC_ImageCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Reference Systems::SC_ProjectedCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Coordinate Operations:conversion
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:baseCRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Reference Systems::SC_SingleCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Coordinate Reference Systems::SC_VerticalCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用

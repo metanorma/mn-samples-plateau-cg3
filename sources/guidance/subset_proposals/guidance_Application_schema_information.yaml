@@ -1,0 +1,74 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Application schema information::MD_ApplicationSchemaInformation"
+  attributes:
+  - name: Application schema information:name
+    used: false
+    guidance: 未利用
+  - name: Application schema information:schemaLanguage
+    used: false
+    guidance: 未利用
+  - name: Application schema information:constraintLanguage
+    used: false
+    guidance: 未利用
+  - name: Application schema information:schemaAscii
+    used: false
+    guidance: 未利用
+  - name: Application schema information:graphicsFile
+    used: false
+    guidance: 未利用
+  - name: Application schema information:softwareDevelopmentFile
+    used: false
+    guidance: 未利用
+  - name: Application schema information:softwareDevelopmentFileFormat
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Application
+    schema information::MD_ApplicationSchemaInformation"
+  attributes:
+  - name: Application schema information:name
+    used: false
+    guidance: 未利用
+  - name: Application schema information:schemaLanguage
+    used: false
+    guidance: 未利用
+  - name: Application schema information:constraintLanguage
+    used: false
+    guidance: 未利用
+  - name: Application schema information:schemaAscii
+    used: false
+    guidance: 未利用
+  - name: Application schema information:graphicsFile
+    used: false
+    guidance: 未利用
+  - name: Application schema information:softwareDevelopmentFile
+    used: false
+    guidance: 未利用
+  - name: Application schema information:softwareDevelopmentFileFormat
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Application
+    schema information::MD_ApplicationSchemaInformation"
+  attributes:
+  - name: Application schema information:name
+    used: false
+    guidance: 未利用
+  - name: Application schema information:schemaLanguage
+    used: false
+    guidance: 未利用
+  - name: Application schema information:constraintLanguage
+    used: false
+    guidance: 未利用
+  - name: Application schema information:schemaAscii
+    used: false
+    guidance: 未利用
+  - name: Application schema information:graphicsFile
+    used: false
+    guidance: 未利用
+  - name: Application schema information:softwareDevelopmentFile
+    used: false
+    guidance: 未利用
+  - name: Application schema information:softwareDevelopmentFileFormat
+    used: false
+    guidance: 未利用

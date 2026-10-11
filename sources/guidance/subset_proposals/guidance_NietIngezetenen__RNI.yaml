@@ -1,0 +1,61 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::NietIngezetenen
+    (RNI)::BuitenlandsAdres"
+  attributes:
+  - name: NietIngezetenen (RNI):adres
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):land
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):regio
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):woonplaats
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::NietIngezetenen
+    (RNI)::NietIngezetene"
+  attributes:
+  - name: NietIngezetenen (RNI):datumOverlijden
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):geboortedatum
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):geboorteland
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):geboorteplaats
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):geslacht
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):geslachtsnaam
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):nationaliteit
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):RNIIdentificatie
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):voernaam
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):voornamen
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):overleden
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):voorvoegsels
+    used: false
+    guidance: 未利用
+  - name: NietIngezetenen (RNI):voorvoegselVoernaam
+    used: false
+    guidance: 未利用

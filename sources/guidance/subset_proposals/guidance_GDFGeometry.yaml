@@ -1,0 +1,17 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDFGeometry::GDF_Dot"
+  attributes:
+  - name: GDF Feature:theGDF_PointFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDFGeometry::GDF_Polygon"
+  attributes:
+  - name: GDF Feature:theGDF_AreaFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDFGeometry::GDF_PolyLine"
+  attributes:
+  - name: GDF Feature:theGDF_LineFeature
+    used: false
+    guidance: 未利用

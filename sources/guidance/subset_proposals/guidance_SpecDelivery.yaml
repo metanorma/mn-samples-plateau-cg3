@@ -1,0 +1,71 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecDelivery::Delivery"
+  attributes:
+  - name: SpecDelivery:deliveryFormat
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:deliveryMedium
+    used: false
+    guidance: 未利用
+  - name: SpecScope:scope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecDelivery::DeliveryFormat"
+  attributes:
+  - name: SpecDelivery:formatName
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:version
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:specification
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:fileStructure
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:language
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:characterSet
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecDelivery::DeliveryMedium"
+  attributes:
+  - name: SpecDelivery:unitsOfDelivery
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:transferSize
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:mediumName
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:otherDeliveryInformation
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:serviceProperty
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecDelivery::DeliverySection"
+  attributes:
+  - name: SpecDelivery:delivery
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecDelivery::ServiceProperty"
+  attributes:
+  - name: SpecDelivery:type
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:value
+    used: false
+    guidance: 未利用
+  - name: SpecDelivery:note
+    used: false
+    guidance: 未利用

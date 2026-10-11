@@ -1,0 +1,203 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Content information - Imagery::MI_Band"
+  attributes:
+  - name: Content information:sequenceIdentifier
+    used: false
+    guidance: 未利用
+  - name: Content information:description
+    used: false
+    guidance: 未利用
+  - name: Content information:name
+    used: false
+    guidance: 未利用
+  - name: Content information:maxValue
+    used: false
+    guidance: 未利用
+  - name: Content information:minValue
+    used: false
+    guidance: 未利用
+  - name: Content information:units
+    used: false
+    guidance: 未利用
+  - name: Content information:scaleFactor
+    used: false
+    guidance: 未利用
+  - name: Content information:offset
+    used: false
+    guidance: 未利用
+  - name: Content information:meanValue
+    used: false
+    guidance: 未利用
+  - name: Content information:numberOfValues
+    used: false
+    guidance: 未利用
+  - name: Content information:standardDeviation
+    used: false
+    guidance: 未利用
+  - name: Content information:otherPropertyType
+    used: false
+    guidance: 未利用
+  - name: Content information:otherProperty
+    used: false
+    guidance: 未利用
+  - name: Content information:bitsPerValue
+    used: false
+    guidance: 未利用
+  - name: Content information:boundMax
+    used: false
+    guidance: 未利用
+  - name: Content information:boundMin
+    used: false
+    guidance: 未利用
+  - name: Content information:boundUnits
+    used: false
+    guidance: 未利用
+  - name: Content information:peakResponse
+    used: false
+    guidance: 未利用
+  - name: Content information:toneGradation
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:bandBoundaryDefinition
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:nominalSpatialResolution
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:transferFunctionType
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:transmittedPolarisation
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:detectedPolarisation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Content information - Imagery::MI_BandDefinition"
+  attributes:
+  - name: Content information - Imagery:3db
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:halfMaximum
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:fiftyPercent
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:oneOverE
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:equivalentWidth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Content information - Imagery::MI_CoverageDescription"
+  attributes:
+  - name: Content information:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Content information:contentType
+    used: false
+    guidance: 未利用
+  - name: Content information:dimension
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:rangeElementDescription
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Content information - Imagery::MI_ImageDescription"
+  attributes:
+  - name: Content information:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Content information:processingLevelCode
+    used: false
+    guidance: 未利用
+  - name: Content information:illuminationElevationAngle
+    used: false
+    guidance: 未利用
+  - name: Content information:illuminationAzimuthAngle
+    used: false
+    guidance: 未利用
+  - name: Content information:imagingCondition
+    used: false
+    guidance: 未利用
+  - name: Content information:imageQualityCode
+    used: false
+    guidance: 未利用
+  - name: Content information:cloudCoverPercentage
+    used: false
+    guidance: 未利用
+  - name: Content information:compressionGenerationQuantity
+    used: false
+    guidance: 未利用
+  - name: Content information:triangulationIndicator
+    used: false
+    guidance: 未利用
+  - name: Content information:radiometricCalibrationDataAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:cameraCalibrationInformationAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:filmDistortionInformationAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:lensDistortionInformationAvailability
+    used: false
+    guidance: 未利用
+  - name: Content information:attributeGroup
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:rangeElementDescription
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Content information - Imagery::MI_PolarisationOrientationCode"
+  attributes:
+  - name: Content information - Imagery:horizontal
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:vertical
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:leftCircular
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:rightCircular
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:theta
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:phi
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Content information - Imagery::MI_RangeElementDescription"
+  attributes:
+  - name: Content information - Imagery:name
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:definition
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:rangeElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Content information - Imagery::MI_TransferFunctionTypeCode"
+  attributes:
+  - name: Content information - Imagery:linear
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:logarithmic
+    used: false
+    guidance: 未利用
+  - name: Content information - Imagery:exponential
+    used: false
+    guidance: 未利用

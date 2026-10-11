@@ -1,0 +1,599 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Borehole"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Flightline"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Interval"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::LidarCloud"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::MapHorizon"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Mine"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::MineLevel"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::ObservationWell"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Outcrop"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Profile"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Quadrat"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Scene"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Section"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::ShipsTrack"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Sounding"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Station"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Swath"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Trajectory"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Domain specific sampling features::Traverse"
+  attributes:
+  - name: samplingFeature:parameter
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:lineage
+    used: false
+    guidance: 未利用
+  - name: spatialSamplingFeature:positionalAccuracy
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:sampledFeature
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: samplingFeature:relatedSamplingFeature
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+  - name: observation:hostedProcedure
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:shape
+    used: false
+    guidance: 未利用

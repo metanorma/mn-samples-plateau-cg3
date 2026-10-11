@@ -1,0 +1,32 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Measured Coordinates::MC_CoordinateReferenceSystem"
+  attributes:
+  - name: Measured Coordinates:coordinateSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Measured Coordinates::MC_CoordinateSystem"
+  attributes:
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Measured Coordinates::MC_MeasurePosition"
+  attributes:
+  - name: Coordinate geometry:coordinate
+    used: false
+    guidance: 未利用
+  - name: Coordinate geometry:dimension
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Measured Coordinates:coordinateReferenceSystem
+    used: false
+    guidance: 未利用

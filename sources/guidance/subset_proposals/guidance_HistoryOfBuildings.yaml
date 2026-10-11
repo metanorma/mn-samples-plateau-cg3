@@ -1,0 +1,92 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::Brushland"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::Building"
+  attributes:
+  - name: HistoryOfBuildings:footprint
+    used: false
+    guidance: 未利用
+  - name: HistoryOfBuildings:height
+    used: false
+    guidance: 未利用
+  - name: HistoryOfBuildings:numberOfFloors
+    used: false
+    guidance: 未利用
+  - name: HistoryOfBuildings:history
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::Building"
+  attributes:
+  - name: HistoryOfBuildings:footprint
+    used: false
+    guidance: 未利用
+  - name: HistoryOfBuildings:height
+    used: false
+    guidance: 未利用
+  - name: HistoryOfBuildings:numberOfFloors
+    used: false
+    guidance: 未利用
+  - name: HistoryOfBuildings:history
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::BuildingHistory"
+  attributes:
+  - name: HistoryOfBuildings:episode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::Episode"
+  attributes:
+  - name: HistoryOfBuildings:dateOfConstruction
+    used: false
+    guidance: 未利用
+  - name: HistoryOfBuildings:constructionPeriod
+    used: false
+    guidance: 未利用
+  - name: HistoryOfBuildings:dateOfOccupancy
+    used: false
+    guidance: 未利用
+  - name: HistoryOfBuildings:periodOfOccupancy
+    used: false
+    guidance: 未利用
+  - name: HistoryOfBuildings:abandonment
+    used: false
+    guidance: 未利用
+  - name: HistoryOfBuildings:vacantPeriod
+    used: false
+    guidance: 未利用
+  - name: HistoryOfBuildings:destruction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::GenericFeature"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::Oak Hickory Forest"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::ParkingLot"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::Pasture"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::Pine Forest"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::PlayGround"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::Road"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::Service Station"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Temporal::HistoryOfBuildings::VacantLot"
+  attributes: []

@@ -1,0 +1,14 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Spatial Referencing By Identifiers::Customers::Customer"
+  attributes:
+  - name: Customers:name
+    used: false
+    guidance: 未利用
+  - name: Customers:address
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:postDistrict
+    used: false
+    guidance: 未利用

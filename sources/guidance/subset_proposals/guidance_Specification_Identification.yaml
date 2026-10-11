@@ -1,0 +1,35 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:2007 Data Product
+    Specifications::Specification Identification::DPS_IdentificationInformation"
+  attributes:
+  - name: Specification Identification:title
+    used: false
+    guidance: 未利用
+  - name: Specification Identification:altTitle
+    used: false
+    guidance: 未利用
+  - name: Specification Identification:abstract
+    used: false
+    guidance: 未利用
+  - name: Specification Identification:purpose
+    used: false
+    guidance: 未利用
+  - name: Specification Identification:topicCategory
+    used: false
+    guidance: 未利用
+  - name: Specification Identification:spatialRepresentationType
+    used: false
+    guidance: 未利用
+  - name: Specification Identification:spatialResolution
+    used: false
+    guidance: 未利用
+  - name: Specification Identification:geographicDescription
+    used: false
+    guidance: 未利用
+  - name: Specification Identification:supplementalInformation
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:identificationScope
+    used: false
+    guidance: 未利用

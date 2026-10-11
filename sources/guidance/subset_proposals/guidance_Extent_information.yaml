@@ -1,0 +1,263 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Extent information::EX_BoundingPolygon"
+  attributes:
+  - name: Extent information:extentTypeCode
+    used: false
+    guidance: 未利用
+  - name: Extent information:polygon
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Extent information::EX_Extent"
+  attributes:
+  - name: Extent information:description
+    used: false
+    guidance: 未利用
+  - name: Extent information:geographicElement
+    used: false
+    guidance: 未利用
+  - name: Extent information:temporalElement
+    used: false
+    guidance: 未利用
+  - name: Extent information:verticalElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Extent information::EX_GeographicBoundingBox"
+  attributes:
+  - name: Extent information:extentTypeCode
+    used: false
+    guidance: 未利用
+  - name: Extent information:westBoundLongitude
+    used: false
+    guidance: 未利用
+  - name: Extent information:eastBoundLongitude
+    used: false
+    guidance: 未利用
+  - name: Extent information:southBoundLatitude
+    used: false
+    guidance: 未利用
+  - name: Extent information:northBoundLatitude
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Extent information::EX_GeographicDescription"
+  attributes:
+  - name: Extent information:extentTypeCode
+    used: false
+    guidance: 未利用
+  - name: Extent information:geographicIdentifier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Extent information::EX_GeographicExtent"
+  attributes:
+  - name: Extent information:extentTypeCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Extent information::EX_SpatialTemporalExtent"
+  attributes:
+  - name: Extent information:extent
+    used: false
+    guidance: 未利用
+  - name: Extent information:verticalExtent
+    used: false
+    guidance: 未利用
+  - name: Extent information:spatialExtent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Extent information::EX_TemporalExtent"
+  attributes:
+  - name: Extent information:extent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Extent information::EX_VerticalExtent"
+  attributes:
+  - name: Extent information:minimumValue
+    used: false
+    guidance: 未利用
+  - name: Extent information:maximumValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:verticalCRS
+    used: false
+    guidance: 未利用
+  - name: Reference system information:verticalCRSId
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Extent
+    information::EX_BoundingPolygon"
+  attributes:
+  - name: Extent information:extentTypeCode
+    used: false
+    guidance: 未利用
+  - name: Extent information:polygon
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Extent
+    information::EX_Extent"
+  attributes:
+  - name: Extent information:description
+    used: false
+    guidance: 未利用
+  - name: Extent information:geographicElement
+    used: false
+    guidance: 未利用
+  - name: Extent information:temporalElement
+    used: false
+    guidance: 未利用
+  - name: Extent information:verticalElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Extent
+    information::EX_GeographicBoundingBox"
+  attributes:
+  - name: Extent information:extentTypeCode
+    used: false
+    guidance: 未利用
+  - name: Extent information:westBoundLongitude
+    used: false
+    guidance: 未利用
+  - name: Extent information:eastBoundLongitude
+    used: false
+    guidance: 未利用
+  - name: Extent information:southBoundLatitude
+    used: false
+    guidance: 未利用
+  - name: Extent information:northBoundLatitude
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Extent
+    information::EX_GeographicDescription"
+  attributes:
+  - name: Extent information:extentTypeCode
+    used: false
+    guidance: 未利用
+  - name: Extent information:geographicIdentifier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Extent
+    information::EX_GeographicExtent"
+  attributes:
+  - name: Extent information:extentTypeCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Extent
+    information::EX_SpatialTemporalExtent"
+  attributes:
+  - name: Extent information:extent
+    used: false
+    guidance: 未利用
+  - name: Extent information:spatialExtent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Extent
+    information::EX_TemporalExtent"
+  attributes:
+  - name: Extent information:extent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Extent
+    information::EX_VerticalExtent"
+  attributes:
+  - name: Extent information:minimumValue
+    used: false
+    guidance: 未利用
+  - name: Extent information:maximumValue
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:verticalCRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Extent
+    information::EX_BoundingPolygon"
+  attributes:
+  - name: Extent information:extentTypeCode
+    used: false
+    guidance: 未利用
+  - name: Extent information:polygon
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Extent
+    information::EX_Extent"
+  attributes:
+  - name: Extent information:description
+    used: false
+    guidance: 未利用
+  - name: Extent information:geographicExtent
+    used: false
+    guidance: 未利用
+  - name: Extent information:temporalExtent
+    used: false
+    guidance: 未利用
+  - name: Extent information:verticalElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Extent
+    information::EX_GeographicBoundingBox"
+  attributes:
+  - name: Extent information:extentTypeCode
+    used: false
+    guidance: 未利用
+  - name: Extent information:westBoundLongitude
+    used: false
+    guidance: 未利用
+  - name: Extent information:eastBoundLongitude
+    used: false
+    guidance: 未利用
+  - name: Extent information:southBoundLatitude
+    used: false
+    guidance: 未利用
+  - name: Extent information:northBoundLatitude
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Extent
+    information::EX_GeographicDescription"
+  attributes:
+  - name: Extent information:extentTypeCode
+    used: false
+    guidance: 未利用
+  - name: Extent information:geographicIdentifier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Extent
+    information::EX_GeographicExtent"
+  attributes:
+  - name: Extent information:extentTypeCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Extent
+    information::EX_SpatialTemporalExtent"
+  attributes:
+  - name: Extent information:extent
+    used: false
+    guidance: 未利用
+  - name: Extent information:spatialExtent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Extent
+    information::EX_TemporalExtent"
+  attributes:
+  - name: Extent information:extent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Extent
+    information::EX_VerticalExtent"
+  attributes:
+  - name: Extent information:minimumValue
+    used: false
+    guidance: 未利用
+  - name: Extent information:maximumValue
+    used: false
+    guidance: 未利用
+  - name: Extent information:unitOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:verticalCRS
+    used: false
+    guidance: 未利用

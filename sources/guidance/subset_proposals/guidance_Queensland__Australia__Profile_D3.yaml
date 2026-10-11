@@ -1,0 +1,428 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Queensland, Australia (Profile
+    D3)::LA_RightType"
+  attributes:
+  - name: Queensland, Australia (Profile D3):agriActivity
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):grazing
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):lease
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):occupation
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):ownership
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):freehold
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):waterRights
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):forest
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):landsLease
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):mineTenure
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):commonwealthAcquisition
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):covenant
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):belowTheDepth
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):easement
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):boatHarbour
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):housingLand
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):industrialEstate
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):marinePark
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):mainRoad
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):nationalPark
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):portAuthority
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):profitAPrendre
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):reserve
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):railway
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):stateForest
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):stateLand
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):timberReserve
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):transferredProperty
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):waterResource
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):excludedArea
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Queensland, Australia (Profile
+    D3)::QLD_AdminArea"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):administrativeType
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Queensland, Australia (Profile
+    D3)::QLD_BAUnit"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:name
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Administrative:uID
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):surveyed
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):area
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):volume
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Queensland, Australia (Profile
+    D3)::QLD_BoundaryConnector"
+  attributes:
+  - name: Queensland, Australia (Profile D3):forward
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):suID
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):fsID
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):frontageOffset
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):frontageLength
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Queensland, Australia (Profile
+    D3)::QLD_NonPropertyDetail"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: External:addressAreaName
+    used: false
+    guidance: 未利用
+  - name: External:addressCoordinate
+    used: false
+    guidance: 未利用
+  - name: External:addressID
+    used: false
+    guidance: 未利用
+  - name: External:buildingName
+    used: false
+    guidance: 未利用
+  - name: External:buildingNumber
+    used: false
+    guidance: 未利用
+  - name: External:city
+    used: false
+    guidance: 未利用
+  - name: External:country
+    used: false
+    guidance: 未利用
+  - name: External:postalCode
+    used: false
+    guidance: 未利用
+  - name: External:postBox
+    used: false
+    guidance: 未利用
+  - name: External:state
+    used: false
+    guidance: 未利用
+  - name: External:streetName
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):streetName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Queensland, Australia (Profile
+    D3)::QLD_Party"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Party:extPID
+    used: false
+    guidance: 未利用
+  - name: Party:name
+    used: false
+    guidance: 未利用
+  - name: Party:pID
+    used: false
+    guidance: 未利用
+  - name: Party:role
+    used: false
+    guidance: 未利用
+  - name: Party:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Queensland, Australia (Profile
+    D3)::QLD_Restriction"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:partyRequired
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):area
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Queensland, Australia (Profile
+    D3)::QLD_RRR"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Queensland, Australia (Profile
+    D3)::QLD_SpatialUnit"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Queensland, Australia (Profile D3):subType
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用

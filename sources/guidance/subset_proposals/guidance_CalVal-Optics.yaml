@@ -1,0 +1,233 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_CalibrationType"
+  attributes:
+  - name: CalVal-Optics:laboratory
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:testRange
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:inSitu
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:onboard
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:vicarious
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:cross
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_CalibrationValidation"
+  attributes:
+  - name: CalVal-Optics:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'CalVal-Optics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_Model"
+  attributes:
+  - name: CalVal-Optics:disort
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_Model"
+  attributes:
+  - name: CalVal-Optics:disort
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_OpticalSensors"
+  attributes:
+  - name: CalVal-Optics:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'CalVal-Optics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_OpticsGeometry"
+  attributes:
+  - name: CalVal-Optics:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'CalVal-Optics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_OpticsRadiometry"
+  attributes:
+  - name: CalVal-Optics:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'CalVal-Optics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_OpticsSpatial"
+  attributes:
+  - name: CalVal-Optics:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'CalVal-Optics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_OpticsSpectral"
+  attributes:
+  - name: CalVal-Optics:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'CalVal-Optics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_OpticsValidation"
+  attributes:
+  - name: CalVal-Optics:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'CalVal-Optics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_PhotoFlight"
+  attributes:
+  - name: CalVal-Optics:numberOfPhotoFlights
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:photoScale
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:flyingHeight
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:flyingAltitudeAboveGround
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:terrainHeight
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:alongStripOverlap
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:acrossStripOverlap
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:base
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:numberOfPhotos
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:numberOfStrips
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:numberOfPhotosAlongStrips
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:numberOfPhotosAcrossStrips
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:numberOfPhotosUsed
+    used: false
+    guidance: 未利用
+  - name: 'CalVal-Optics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_Radiation"
+  attributes:
+  - name: CalVal-Optics:solarZenithAngle
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:solarAzimuth
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:atmosphericCondition
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:atmosphericModel
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:BRDFModel
+    used: false
+    guidance: 未利用
+  - name: 'CalVal-Optics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_Target"
+  attributes:
+  - name: CalVal-Optics:equipment
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:targetInclination
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:targetAltitude
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:targetEnvironment
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:targetAccessibility
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:targetStability
+    used: false
+    guidance: 未利用
+  - name: 'CalVal-Optics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::CA_TargetEnvironment"
+  attributes:
+  - name: CalVal-Optics:homogeneous
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:inhomogeneous
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::MD_ContentInformation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::MD_CoverageContentTypeCode"
+  attributes:
+  - name: CalVal-Optics:image
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:thematicClassification
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:physicalMeasurement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::CalVal-Optics::MD_CoverageDescription"
+  attributes:
+  - name: CalVal-Optics:attributeType
+    used: false
+    guidance: 未利用
+  - name: CalVal-Optics:contentType
+    used: false
+    guidance: 未利用

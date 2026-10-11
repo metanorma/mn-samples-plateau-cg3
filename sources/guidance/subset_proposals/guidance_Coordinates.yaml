@@ -1,0 +1,35 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinates::From 19107:201X"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinates::CoordinateMetadata"
+  attributes:
+  - name: Coordinates:crs
+    used: false
+    guidance: 未利用
+  - name: Coordinates:coordinateEpoch
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinates::CoordinateSet"
+  attributes:
+  - name: Coordinates:coordinateTuple
+    used: false
+    guidance: 未利用
+  - name: Coordinates:coordinateMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinates::CoordinateTuple"
+  attributes:
+  - name: Coordinates:coordinate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Coordinates::DataEpoch"
+  attributes:
+  - name: Coordinates:coordinateEpoch
+    used: false
+    guidance: 未利用

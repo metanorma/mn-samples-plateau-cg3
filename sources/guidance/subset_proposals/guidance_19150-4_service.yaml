@@ -1,0 +1,422 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebBoundaryHumanInteractionServiceFunction"
+  attributes:
+  - name: 19150-4 service:catalogueViewer
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicViewer
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicViewerAnimation
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicViewerMosaicing
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicViewerPerspective
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicViewerImagery
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicSpreadsheetViewer
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:serviceEditor
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:chainDefinitionEditor
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:workflowEnactmentManager
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicFeatureEditor
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicSymbolEditor
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:featureGeneralizationEditor
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicDataStructureViewer
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebCommunicationFunction"
+  attributes:
+  - name: 19150-4 service:encodingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:transferService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicCompressionService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicFormatConversionService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:messagingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:remoteFileAndExecutableManagementService
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebModelInformationManagementFunction"
+  attributes:
+  - name: 19150-4 service:featureAccessService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:mapAccessService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:coverageAccessService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:coverageAccessServiceSensor
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:sensorDescriptionService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:productAccessService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:featureTypeService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:catalogueService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:registryService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:gazetteerService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:orderHandlingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:standingOrderService
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebProcessingFunction"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebProcessingMetadataFunction"
+  attributes:
+  - name: 19150-4 service:statisticalCalculationService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicAnnotationService
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebProcessingSpatialFunction"
+  attributes:
+  - name: 19150-4 service:coordinateConversionService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:coordinateTransformationService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:coverageVectorConversionService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:imageCoordinateConversionService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:rectificationService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:orthorectificationService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:sensorGeometryModelAdjustmentService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:imageGeometryModelConversionService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:spatialSubsettingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:spatialSamplingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:tilingChangeService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:dimensionMeasurementService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:featureManipulationService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:featureMatchingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:featureGeneralizationServiceSpatial
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:routeDeterminationService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:positioningService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:proximityAnalysisService
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebProcessingTemporalFunction"
+  attributes:
+  - name: 19150-4 service:changeDetectionService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:temporalReferenceSystemTransformationService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:temporalSubsettingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:temporalSamplingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:temporalProximityAnalysisService
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebProcessingThematicFunction"
+  attributes:
+  - name: 19150-4 service:geoparameterCalculationService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:thematicClassificationService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:featureGeneralizationServiceThematic
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:thematicSubsettingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:spatialCountingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicInformationExtractionService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:imageProcessingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:reducedResolutionGenerationService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:imageManipulationService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:imageUnderstandingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:imageSynthesisService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:multiBandImageManipulationService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:objectDetectionService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geoparsingService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geocodingService
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebServiceDescription"
+  attributes:
+  - name: 19150-4 service:description
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:subject
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:version
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:date
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:language
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:source
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:contact
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:rights
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:cost
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:?lineage
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:url
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:parameters
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:serviceChainingInformation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebServiceFunction"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebServiceIdentification"
+  attributes:
+  - name: 19150-4 service:identifier
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:name
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:taxonomyAndFunction
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:lifeCycle
+    used: false
+    guidance: 未利用
+  - name: 19150-4 capabilities:capability
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:description
+    used: false
+    guidance: 未利用
+  - name: Service metadata information:geoWebServiceMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebServiceLifeCycle"
+  attributes:
+  - name: 19150-4 service:register
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:discovery
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:view
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:download
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:invoke
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:orchestrationAndComposition
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:securityAndRightsManagement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebServiceTaxonomy"
+  attributes:
+  - name: 19150-4 service:geographicBoundaryHumanInteraction
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicModelInformationManagement
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicWorkflowTaskManagement
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicProcessing
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicProcessingSpatial
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicProcessingThematic
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicProcessingTemporal
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:geographicProcessingMetadata
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:communication
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:systemManagementSecurity
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebSystemManagementSecurityFunction"
+  attributes:
+  - name: 19150-4 service:geoRM
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::GeoWebWorkflowTaskManagementFunction"
+  attributes:
+  - name: 19150-4 service:chainDefinitionService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:workflowEnactmentService
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:subscriptionService
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::ServiceCost"
+  attributes:
+  - name: 19150-4 service:monetaryUnitCost
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:complexCost
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::ServiceParameters"
+  attributes:
+  - name: 19150-4 service:parameter
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:input
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:output
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:precondition
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19150 All::ISO 19150-4:NWIP Ontology -
+    Service ontology::19150-4 service::TaxonomyFunctionPair"
+  attributes:
+  - name: 19150-4 service:taxonomy
+    used: false
+    guidance: 未利用
+  - name: 19150-4 service:function
+    used: false
+    guidance: 未利用

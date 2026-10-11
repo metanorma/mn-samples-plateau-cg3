@@ -1,0 +1,614 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_AllometricMeasurements"
+  attributes:
+  - name: LC_ElementCharacteristics:trunkDiameter
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:crownDiameter
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_Aquaculture"
+  attributes:
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_AquacultureType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_ArtificialDamageType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_Artificiality"
+  attributes:
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_ArtificialityType"
+  attributes:
+  - name: LC_ElementCharacteristics:natural
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:artificial
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_ArtificialSurfaceCharacteristic"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_ArtificialSurfaceDamage"
+  attributes:
+  - name: LC_ElementCharacteristics:percentage
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:damageType
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_BurntStatus"
+  attributes:
+  - name: LC_ElementCharacteristics:percentage
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_ConstructionStatus"
+  attributes:
+  - name: LC_ElementCharacteristics:age
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_ConstructionStatusType"
+  attributes:
+  - name: LC_ElementCharacteristics:finished
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:in_progress
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:abandoned
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_CropFertilization"
+  attributes:
+  - name: LC_ElementCharacteristics:frequency
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_CropFertilizationType"
+  attributes:
+  - name: LC_ElementCharacteristics:organic
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:inorganic
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_CropGrowingParameter"
+  attributes:
+  - name: LC_ElementCharacteristics:seedingTime
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:growingLength
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:overlapGrowing
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_CropYield"
+  attributes:
+  - name: LC_ElementCharacteristics:yield
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_CultivatedAndManagedVegetation"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_DeadStatus"
+  attributes:
+  - name: LC_ElementCharacteristics:percentage
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_EvenAge"
+  attributes:
+  - name: LC_ElementCharacteristics:age
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_FieldSize"
+  attributes:
+  - name: LC_ElementCharacteristics:size
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_FloristicAspects"
+  attributes:
+  - name: LC_ElementCharacteristics:speciesName
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_ForestPlantation"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_Grazing"
+  attributes:
+  - name: LC_ElementCharacteristics:animalType
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:intensity
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_GrazingAnimalType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_GroupOfPlantSpecies"
+  attributes:
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_GroupOfPlantSpeciesType"
+  attributes:
+  - name: LC_ElementCharacteristics:statisticallyDerivedPlantGroup
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:NonStatisticallyDerivedPlantGroup
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_GrowthFormAge"
+  attributes:
+  - name: LC_ElementCharacteristics:age
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_GrowthFormCharacteristic"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_GrowthFormIllness"
+  attributes:
+  - name: LC_ElementCharacteristics:percentage
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_GrowthFormIllnessType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_IceCategory"
+  attributes:
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_IceType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_IrrigationType"
+  attributes:
+  - name: LC_ElementCharacteristics:surface
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:sprinkler
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:drip
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_LandCoverElementCharacteristic"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_MechanicalErosionControl"
+  attributes:
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_MechanicalErosionControlType"
+  attributes:
+  - name: LC_ElementCharacteristics:contourPloughing
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:terracing
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:windBreak
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_Mowing"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_NameAttributionCriteria"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_NaturalOrSeminaturalVegetation"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_NaturalSurfaceCharacteristic"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_NutrientLevel"
+  attributes:
+  - name: LC_ElementCharacteristics:oligotrophic
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:mesotrophic
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:eutrophic
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_OrchardAndOtherPlantation"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_OverlapGrowingToReferenceCrop"
+  attributes:
+  - name: LC_ElementCharacteristics:growingPeriodPercentage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_PestControl"
+  attributes:
+  - name: LC_ElementCharacteristics:frequency
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_PestControlType"
+  attributes:
+  - name: LC_ElementCharacteristics:organic
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:inorganic
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_Plantation"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_PlantSpreadingGeometry"
+  attributes:
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_PlantSpreadingGeometryType"
+  attributes:
+  - name: LC_ElementCharacteristics:regular
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:irregular
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_Ploughing"
+  attributes:
+  - name: LC_ElementCharacteristics:frequency
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_PloughingType"
+  attributes:
+  - name: LC_ElementCharacteristics:manual
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:manual/animal
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:mechanical
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_SinglePlantSpecies"
+  attributes:
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_SinglePlantSpeciesType"
+  attributes:
+  - name: LC_ElementCharacteristics:dominant
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:mostFrequent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_SnowCategory"
+  attributes:
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_SnowType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_SpeciesName"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_TreeAreaManagementPractices"
+  attributes:
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_TreeAreaManagementPracticesType"
+  attributes:
+  - name: LC_ElementCharacteristics:evenAgedManagement
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:clearcutting
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:seedTreeHarvesting
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:unevenAgedManagement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_UnevenAge"
+  attributes:
+  - name: LC_ElementCharacteristics:age
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:percentage
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_UrbanPark"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_Use"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_VegetationArtificiality"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_VegetationDamage"
+  attributes:
+  - name: LC_ElementCharacteristics:percentage
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:damageType
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_VegetationDamageType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_WaterAndAssociatedSurfaceCharacteristic"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_WaterChemistry"
+  attributes:
+  - name: LC_ElementCharacteristics:nutrientLevel
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_WaterSalinity"
+  attributes:
+  - name: LC_ElementCharacteristics:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_WaterSalinityType"
+  attributes:
+  - name: LC_ElementCharacteristics:fresh
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:brackish
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:saline
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:brine
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_WaterStress"
+  attributes:
+  - name: LC_ElementCharacteristics:percentage
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_ElementCharacteristics::LC_WaterSupplyPeriod"
+  attributes:
+  - name: LC_ElementCharacteristics:rainfedPercentage
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:postfloodingPercentage
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:irrigationPercentage
+    used: false
+    guidance: 未利用
+  - name: LC_ElementCharacteristics:irrigationType
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用

@@ -1,0 +1,1382 @@
+---
+classes:
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::AreaOfAnnualDiversionsTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::LandPriceCurrencyUnitValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::LandPricePerLandUseValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::NumberOfAnnualDiversionsTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::NumberOfHouseholdsTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::PopulationByAgeAndSexTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::StatisticalGridAreaClassificationTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::StatisticalGridCityValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::StatisticalGridClassValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::StatisticalGridPrefectureValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::StatisticalGridUrbanPlanTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::StatisticalGrid"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: urg:class
+    used: false
+    guidance: 未利用
+  - name: urg:value
+    used: false
+    guidance: 未利用
+  - name: urg:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: urg:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: urg:prefecture
+    used: false
+    guidance: 未利用
+  - name: urg:city
+    used: false
+    guidance: 未利用
+  - name: urg:surveyYear
+    used: false
+    guidance: 未利用
+  - name: urg:referenceDate
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::AreaOfAnnualDiversionsType"
+  attributes:
+  - name: urg:year
+    used: false
+    guidance: 未利用
+  - name: urg:area
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::ClassificationItemValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::GenericGridCell"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: urg:class
+    used: false
+    guidance: 未利用
+  - name: urg:value
+    used: false
+    guidance: 未利用
+  - name: urg:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: urg:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: urg:prefecture
+    used: false
+    guidance: 未利用
+  - name: urg:city
+    used: false
+    guidance: 未利用
+  - name: urg:surveyYear
+    used: false
+    guidance: 未利用
+  - name: urg:referenceDate
+    used: false
+    guidance: 未利用
+  - name: urg:value
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::Households"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: urg:class
+    used: false
+    guidance: 未利用
+  - name: urg:value
+    used: false
+    guidance: 未利用
+  - name: urg:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: urg:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: urg:prefecture
+    used: false
+    guidance: 未利用
+  - name: urg:city
+    used: false
+    guidance: 未利用
+  - name: urg:surveyYear
+    used: false
+    guidance: 未利用
+  - name: urg:referenceDate
+    used: false
+    guidance: 未利用
+  - name: urg:numberOfOrdinaryHouseholds
+    used: false
+    guidance: 未利用
+  - name: urg:numberOfHouseholdsByOwnership
+    used: false
+    guidance: 未利用
+  - name: urg:numberOfMainHouseholds
+    used: false
+    guidance: 未利用
+  - name: urg:numberOfHouseholdsByStruture
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::LandPrice"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: urg:class
+    used: false
+    guidance: 未利用
+  - name: urg:value
+    used: false
+    guidance: 未利用
+  - name: urg:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: urg:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: urg:prefecture
+    used: false
+    guidance: 未利用
+  - name: urg:city
+    used: false
+    guidance: 未利用
+  - name: urg:surveyYear
+    used: false
+    guidance: 未利用
+  - name: urg:referenceDate
+    used: false
+    guidance: 未利用
+  - name: urg:landPrice
+    used: false
+    guidance: 未利用
+  - name: urg:currencyUnit
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::LandPricePerLandUseType"
+  attributes:
+  - name: urg:landUse
+    used: false
+    guidance: 未利用
+  - name: urg:landPrice
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::LandslideDisaster"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: urg:class
+    used: false
+    guidance: 未利用
+  - name: urg:value
+    used: false
+    guidance: 未利用
+  - name: urg:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: urg:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: urg:prefecture
+    used: false
+    guidance: 未利用
+  - name: urg:city
+    used: false
+    guidance: 未利用
+  - name: urg:surveyYear
+    used: false
+    guidance: 未利用
+  - name: urg:referenceDate
+    used: false
+    guidance: 未利用
+  - name: urg:dateOfOccurence
+    used: false
+    guidance: 未利用
+  - name: urg:landSlideType
+    used: false
+    guidance: 未利用
+  - name: urg:maximumRainfallPerDay
+    used: false
+    guidance: 未利用
+  - name: urg:maximumRainfallPerHour
+    used: false
+    guidance: 未利用
+  - name: urg:slope
+    used: false
+    guidance: 未利用
+  - name: urg:sedimentDischarge
+    used: false
+    guidance: 未利用
+  - name: urg:length
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::LandUseDiversion"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: urg:class
+    used: false
+    guidance: 未利用
+  - name: urg:value
+    used: false
+    guidance: 未利用
+  - name: urg:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: urg:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: urg:prefecture
+    used: false
+    guidance: 未利用
+  - name: urg:city
+    used: false
+    guidance: 未利用
+  - name: urg:surveyYear
+    used: false
+    guidance: 未利用
+  - name: urg:referenceDate
+    used: false
+    guidance: 未利用
+  - name: urg:areaOfAnnualDiversion
+    used: false
+    guidance: 未利用
+  - name: urg:numberOfAnnualDiversion
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::NumberOfAnnualDiversionsType"
+  attributes:
+  - name: urg:year
+    used: false
+    guidance: 未利用
+  - name: urg:count
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::NumberOfHouseholdsType"
+  attributes:
+  - name: urg:class
+    used: false
+    guidance: 未利用
+  - name: urg:number
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::OfficesAndEmployees"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: urg:class
+    used: false
+    guidance: 未利用
+  - name: urg:value
+    used: false
+    guidance: 未利用
+  - name: urg:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: urg:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: urg:prefecture
+    used: false
+    guidance: 未利用
+  - name: urg:city
+    used: false
+    guidance: 未利用
+  - name: urg:surveyYear
+    used: false
+    guidance: 未利用
+  - name: urg:referenceDate
+    used: false
+    guidance: 未利用
+  - name: urg:numberOfOffices
+    used: false
+    guidance: 未利用
+  - name: urg:numberOfEmployees
+    used: false
+    guidance: 未利用
+  - name: urg:salesAmount
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::Population"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: urg:class
+    used: false
+    guidance: 未利用
+  - name: urg:value
+    used: false
+    guidance: 未利用
+  - name: urg:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: urg:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: urg:prefecture
+    used: false
+    guidance: 未利用
+  - name: urg:city
+    used: false
+    guidance: 未利用
+  - name: urg:surveyYear
+    used: false
+    guidance: 未利用
+  - name: urg:referenceDate
+    used: false
+    guidance: 未利用
+  - name: urg:total
+    used: false
+    guidance: 未利用
+  - name: urg:daytimePopulation
+    used: false
+    guidance: 未利用
+  - name: urg:daytimePopulationDensity
+    used: false
+    guidance: 未利用
+  - name: urg:daytimeOfficeCommuter
+    used: false
+    guidance: 未利用
+  - name: urg:daytimeSchoolCommuter
+    used: false
+    guidance: 未利用
+  - name: urg:daytimeUnder15
+    used: false
+    guidance: 未利用
+  - name: urg:daytimeOver15
+    used: false
+    guidance: 未利用
+  - name: urg:agriculturalWorker
+    used: false
+    guidance: 未利用
+  - name: urg:nonCommuter
+    used: false
+    guidance: 未利用
+  - name: urg:natuarlIncrease
+    used: false
+    guidance: 未利用
+  - name: urg:births
+    used: false
+    guidance: 未利用
+  - name: urg:deaths
+    used: false
+    guidance: 未利用
+  - name: urg:socialIncrease
+    used: false
+    guidance: 未利用
+  - name: urg:moveFrom
+    used: false
+    guidance: 未利用
+  - name: urg:moveTo
+    used: false
+    guidance: 未利用
+  - name: urg:increasement
+    used: false
+    guidance: 未利用
+  - name: urg:malePopulation
+    used: false
+    guidance: 未利用
+  - name: urg:femalePopulation
+    used: false
+    guidance: 未利用
+  - name: urg:populationByAgeAndSex
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::PopulationByAgeAndSexType"
+  attributes:
+  - name: urg:ageAndSex
+    used: false
+    guidance: 未利用
+  - name: urg:number
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::PublicTransitAccessibility"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: urg:class
+    used: false
+    guidance: 未利用
+  - name: urg:value
+    used: false
+    guidance: 未利用
+  - name: urg:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: urg:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: urg:prefecture
+    used: false
+    guidance: 未利用
+  - name: urg:city
+    used: false
+    guidance: 未利用
+  - name: urg:surveyYear
+    used: false
+    guidance: 未利用
+  - name: urg:referenceDate
+    used: false
+    guidance: 未利用
+  - name: urg:availability
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urg::StatusOfSightSeeing"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: urg:class
+    used: false
+    guidance: 未利用
+  - name: urg:value
+    used: false
+    guidance: 未利用
+  - name: urg:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: urg:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: urg:prefecture
+    used: false
+    guidance: 未利用
+  - name: urg:city
+    used: false
+    guidance: 未利用
+  - name: urg:surveyYear
+    used: false
+    guidance: 未利用
+  - name: urg:referenceDate
+    used: false
+    guidance: 未利用
+  - name: urg:numOfHotels
+    used: false
+    guidance: 未利用
+  - name: urg:numOfRyokan
+    used: false
+    guidance: 未利用
+  - name: urg:numOfPublicInn
+    used: false
+    guidance: 未利用
+  - name: urg:numOfInn
+    used: false
+    guidance: 未利用
+  - name: urg:numOfCotage
+    used: false
+    guidance: 未利用
+  - name: urg:numOfTempleHotel
+    used: false
+    guidance: 未利用
+  - name: urg:numOfRentaVilla
+    used: false
+    guidance: 未利用
+  - name: urg:numOfYouthHostel
+    used: false
+    guidance: 未利用
+  - name: urg:numOfCapsuleHotel
+    used: false
+    guidance: 未利用
+  - name: urg:numOfTrainingCenter
+    used: false
+    guidance: 未利用
+  - name: urg:totalAccomodations
+    used: false
+    guidance: 未利用
+  - name: urg:totalCapacity
+    used: false
+    guidance: 未利用
+  - name: urg:totalRooms
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: false
+    guidance: 未利用

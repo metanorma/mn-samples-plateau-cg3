@@ -1,0 +1,59 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Data quality result::DQ_ConformanceResult"
+  attributes:
+  - name: Data quality result:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality result:resultScope
+    used: false
+    guidance: 未利用
+  - name: Data quality result:pass
+    used: false
+    guidance: 未利用
+  - name: Data quality result:specification
+    used: false
+    guidance: 未利用
+  - name: Data quality result:explanation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Data quality result::DQ_DescriptiveResult"
+  attributes:
+  - name: Data quality result:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality result:resultScope
+    used: false
+    guidance: 未利用
+  - name: Data quality result:statement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Data quality result::DQ_QuantitativeResult"
+  attributes:
+  - name: Data quality result:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality result:resultScope
+    used: false
+    guidance: 未利用
+  - name: Data quality result:value
+    used: false
+    guidance: 未利用
+  - name: Data quality result:valueUnit
+    used: false
+    guidance: 未利用
+  - name: Data quality result:valueRecordType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Data quality result::DQ_Result"
+  attributes:
+  - name: Data quality result:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality result:resultScope
+    used: false
+    guidance: 未利用

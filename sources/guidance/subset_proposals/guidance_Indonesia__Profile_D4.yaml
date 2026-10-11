@@ -1,0 +1,158 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Indonesia (Profile D4)::ID_AdminDocumentType"
+  attributes:
+  - name: Administrative:agriLease
+    used: false
+    guidance: 未利用
+  - name: Administrative:agriNotaryStatement
+    used: false
+    guidance: 未利用
+  - name: Administrative:deed
+    used: false
+    guidance: 未利用
+  - name: Administrative:mortgage
+    used: false
+    guidance: 未利用
+  - name: Administrative:title
+    used: false
+    guidance: 未利用
+  - name: Administrative:agriConsent
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):Deed
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):LandCertificate
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):CourtDecision
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):MortgageCertificate
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):BiddingSummary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Indonesia (Profile D4)::ID_Right"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):transactionType
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Indonesia (Profile D4)::ID_Righttype"
+  attributes:
+  - name: Administrative:agriActivity
+    used: false
+    guidance: 未利用
+  - name: Administrative:commonOwnership
+    used: false
+    guidance: 未利用
+  - name: Administrative:customaryType
+    used: false
+    guidance: 未利用
+  - name: Administrative:fireWood
+    used: false
+    guidance: 未利用
+  - name: Administrative:fishing
+    used: false
+    guidance: 未利用
+  - name: Administrative:grazing
+    used: false
+    guidance: 未利用
+  - name: Administrative:informalOccupation
+    used: false
+    guidance: 未利用
+  - name: Administrative:lease
+    used: false
+    guidance: 未利用
+  - name: Administrative:occupation
+    used: false
+    guidance: 未利用
+  - name: Administrative:ownership
+    used: false
+    guidance: 未利用
+  - name: Administrative:ownershipAssumed
+    used: false
+    guidance: 未利用
+  - name: Administrative:superficies
+    used: false
+    guidance: 未利用
+  - name: Administrative:usufruct
+    used: false
+    guidance: 未利用
+  - name: Administrative:waterrights
+    used: false
+    guidance: 未利用
+  - name: Administrative:tenancy
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):RightofOwnership(HakMilik)
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):RighttoCultivate(HakGunaUsaha)
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):RighttoConstructBuilding(HakGunaBangunan)
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):RightofUse(HakPakai)
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):RighttoManage(HakPengelolaan)
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):Waqf(Wakaf)
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):RightofApartementUnit(HakMilikSatuanRumahSusun)
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):RightofOccupancy
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):Usufrucht
+    used: false
+    guidance: 未利用
+  - name: Indonesia (Profile D4):Dispute
+    used: false
+    guidance: 未利用

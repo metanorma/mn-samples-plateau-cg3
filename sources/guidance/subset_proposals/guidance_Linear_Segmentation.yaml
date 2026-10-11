@@ -1,0 +1,35 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Segmentation::LS_LinearSegment"
+  attributes:
+  - name: Linear Segmentation:startFeatureLocation
+    used: false
+    guidance: 未利用
+  - name: Linear Segmentation:endFeatureLocation
+    used: false
+    guidance: 未利用
+  - name: Linear Segmentation:segmentingAttributeValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Segmentation::LS_LinearSegmentSet"
+  attributes:
+  - name: Linear Segmentation:eventName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Segmentation::LS_SegmentableFeature"
+  attributes:
+  - name: Linearly Located Event:event
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:referent
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:linearlyLocatedAttribute
+    used: false
+    guidance: 未利用
+  - name: Linearly Located Event:locatedFeature
+    used: false
+    guidance: 未利用

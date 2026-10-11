@@ -1,0 +1,4 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 03166 Country Codes::CountryCode"
+  attributes: []

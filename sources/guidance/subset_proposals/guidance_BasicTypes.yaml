@@ -1,0 +1,517 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::AbstractGenericName"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Angle"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Angle_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element13
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute14
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Binary"
+  attributes:
+  - name: BasicTypes:src
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Binary_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element67
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute68
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Binary_Type"
+  attributes:
+  - name: BasicTypes:src
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Boolean"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Boolean_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element21
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute22
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::CharacterString"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::CharacterString_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element19
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute20
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Date"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Date_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element47
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_element48
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute49
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Date_Type"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::DateTime"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::DateTime_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element45
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute46
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Decimal"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Decimal_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element54
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute55
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Distance"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Distance_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element17
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute18
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::GenericName_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element23
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute24
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Integer"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Integer_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element58
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute59
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Length"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Length_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element11
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute12
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::LocalName"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::LocalName_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element25
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute26
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Measure"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Measure_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element9
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute10
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::MemberName"
+  attributes:
+  - name: BasicTypes:aName
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:attributeType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::MemberName_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element3
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute4
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::MemberName_Type"
+  attributes:
+  - name: BasicTypes:aName
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:attributeType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Multiplicity"
+  attributes:
+  - name: BasicTypes:range
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Multiplicity_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element5
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute6
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Multiplicity_Type"
+  attributes:
+  - name: BasicTypes:range
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::MultiplicityRange"
+  attributes:
+  - name: BasicTypes:lower
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:upper
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::MultiplicityRange_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element7
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute8
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::MultiplicityRange_Type"
+  attributes:
+  - name: BasicTypes:lower
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:upper
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::nonNegativeInteger"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Number_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element50
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_element51
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_element52
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute53
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Real"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Real_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element56
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute57
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Record"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Record_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element62
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute63
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::RecordType"
+  attributes:
+  - name: BasicTypes:ext_ref64
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::RecordType_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element65
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute66
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::RecordType_Type"
+  attributes:
+  - name: BasicTypes:ext_ref64
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Scale"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::Scale_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element15
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute16
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::ScopedName"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::ScopedName_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element27
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute28
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::string"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::TypeName"
+  attributes:
+  - name: BasicTypes:aName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::TypeName_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element1
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::TypeName_Type"
+  attributes:
+  - name: BasicTypes:aName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::UnitOfMeasure_PropertyType"
+  attributes:
+  - name: BasicTypes:ext_ref_35
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute36
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::UnlimitedInteger"
+  attributes:
+  - name: BasicTypes:isInfinite
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::UnlimitedInteger_PropertyType"
+  attributes:
+  - name: BasicTypes:ref_element60
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute61
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::UnlimitedInteger_Type"
+  attributes:
+  - name: BasicTypes:isInfinite
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::UomAngle_PropertyType"
+  attributes:
+  - name: BasicTypes:ext_ref_29
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute30
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::UomArea_PropertyType"
+  attributes:
+  - name: BasicTypes:ext_ref_37
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute38
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::UomLength_PropertyType"
+  attributes:
+  - name: BasicTypes:ext_ref_31
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute32
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::UomScale_PropertyType"
+  attributes:
+  - name: BasicTypes:ext_ref_33
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute34
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::UomTime_PropertyType"
+  attributes:
+  - name: BasicTypes:ext_ref_41
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute42
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::UomVelocity_PropertyType"
+  attributes:
+  - name: BasicTypes:ext_ref_39
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute40
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::Figure 1 Relationship
+    with relative standards::JPEG 2000::BasicTypes::UomVolume_PropertyType"
+  attributes:
+  - name: BasicTypes:ext_ref_43
+    used: false
+    guidance: 未利用
+  - name: BasicTypes:ref_attribute44
+    used: false
+    guidance: 未利用

@@ -1,0 +1,143 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Constraint and Advisory::MM_Advisory"
+  attributes:
+  - name: Constraint and Advisory:category
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:description
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:element
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:category
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Constraint and Advisory::MM_AdvisoryCategory"
+  attributes:
+  - name: Multimodal Constraint and Advisory:startLocation
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:endLocation
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:viaLocation
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:enterPlace
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:exitPlace
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:takeTransferPoint
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:dropoffTransferPoint
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:landmark
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:crossRoad
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:byPass
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Constraint and Advisory::MM_Constraint"
+  attributes:
+  - name: Constraint and Advisory:temporalValidity
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:description
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:coConstraint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Constraint and Advisory::MM_ModeConstraint"
+  attributes:
+  - name: Constraint and Advisory:temporalValidity
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:description
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:preferredMode
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:coConstraint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Constraint and Advisory::MM_ScheduleConstraint"
+  attributes:
+  - name: Constraint and Advisory:temporalValidity
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:description
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:operableTime
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:inoperableTime
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:coConstraint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Constraint and Advisory::MM_TransportationModeType"
+  attributes:
+  - name: Multimodal Constraint and Advisory:intracityBus
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:intercityBus
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:shuttleBus
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:rovingBus
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:subway
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:lightrail
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:tram
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:railway
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:highSpeedRailway
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:ferry
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:airway
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:walk
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:bike
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:taxi
+    used: false
+    guidance: 未利用

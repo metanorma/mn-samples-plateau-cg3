@@ -1,0 +1,35 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA Geospatial Context::UPA_GeospatialContext"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA Geospatial Context::UPA_GeospatialContextRule"
+  attributes:
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+  - name: 'UPA Geospatial Context:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA Geospatial Context::UPA_GeospatialContextType"
+  attributes:
+  - name: UPA Geospatial Context:coordinate
+    used: false
+    guidance: 未利用
+  - name: UPA Geospatial Context:locationInstance
+    used: false
+    guidance: 未利用
+  - name: UPA Geospatial Context:geometry
+    used: false
+    guidance: 未利用
+  - name: UPA Geospatial Context:topology
+    used: false
+    guidance: 未利用
+  - name: UPA Geospatial Context:staticFeature
+    used: false
+    guidance: 未利用
+  - name: UPA Geospatial Context:movingFeature
+    used: false
+    guidance: 未利用

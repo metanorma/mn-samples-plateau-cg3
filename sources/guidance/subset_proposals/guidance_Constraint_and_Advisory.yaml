@@ -1,0 +1,284 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_Advisory"
+  attributes:
+  - name: Constraint and Advisory:category
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:description
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_AdvisoryCategory"
+  attributes:
+  - name: Constraint and Advisory:startLocation
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:endLocation
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:viaLocation
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:enterPlace
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:exitPlace
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:byPass
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:streetNameChange
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:tollBooth
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:landmark
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:crossRoad
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:highwayMerge
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:rampMerge
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:roadMerge
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_AdvisoryDirection"
+  attributes:
+  - name: Constraint and Advisory:direction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_AdvisoryDistance"
+  attributes:
+  - name: Constraint and Advisory:distance
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:from
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_AdvisoryElement"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_AdvisorySpatialRelation"
+  attributes:
+  - name: Constraint and Advisory:spatialRelationship
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_Constraint"
+  attributes:
+  - name: Constraint and Advisory:temporalValidity
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:description
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:coConstraint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_ExitAssociation"
+  attributes:
+  - name: Constraint and Advisory:exit1
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:exit2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_LaneConstraint"
+  attributes:
+  - name: Constraint and Advisory:temporalValidity
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:description
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:turningRadius
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:allowedLanes
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:disallowedLanes
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:applicableVehicleTypes
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:coConstraint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_SpatialRelation"
+  attributes:
+  - name: Constraint and Advisory:leftOfRoute
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:rightOfRoute
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:overRoute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_TemporalConstraint"
+  attributes:
+  - name: Constraint and Advisory:temporalValidity
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:description
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:allowedTime
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:forbiddenTime
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:coConstraint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_Vehicle"
+  attributes:
+  - name: Constraint and Advisory:allVehicles
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:passengerCars
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:truck
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:deliveryTruck
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:transportTruck
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:pedestrian
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:bicycle
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:motorcycle
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:moped
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:emergency
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:taxi
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:publicBus
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:facility
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:residential
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:employee
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:hov
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:military
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:carWithTrailer
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:privateBus
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:farm
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:explosiveCargo
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:pollutingToWaterCargo
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:dangerousCargo
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:trolleyBus
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:lightRail
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:schoolBus
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:4WheelDrive
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:snowChains
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:mailDelivery
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:tanker
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:disableOccupant
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:userDefined
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Constraint and Advisory::NT_VehicleConstraint"
+  attributes:
+  - name: Constraint and Advisory:temporalValidity
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:description
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:allowedVehicle
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:disallowedVehicle
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:turnRadius
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:grade
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:maxWeight
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:maxClearance
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:coConstraint
+    used: false
+    guidance: 未利用

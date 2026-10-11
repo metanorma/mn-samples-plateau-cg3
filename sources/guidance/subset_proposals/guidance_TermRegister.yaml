@@ -1,0 +1,230 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19104 All::ISO 19104:2015 Terminology::TermRegister::Example"
+  attributes:
+  - name: TermRegister:example
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19104 All::ISO 19104:2015 Terminology::TermRegister::NoteToEntry"
+  attributes:
+  - name: TermRegister:noteToEntry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19104 All::ISO 19104:2015 Terminology::TermRegister::TermAddition"
+  attributes:
+  - name: ExtendedModel:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:justification
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:status
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:disposition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:registerManagerNotes
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19104 All::ISO 19104:2015 Terminology::TermRegister::TermAmendment"
+  attributes:
+  - name: ExtendedModel:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:justification
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:status
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:disposition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:registerManagerNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:amendmentType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19104 All::ISO 19104:2015 Terminology::TermRegister::TermClarification"
+  attributes:
+  - name: ExtendedModel:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:justification
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:status
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:disposition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:registerManagerNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:proposedChange
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19104 All::ISO 19104:2015 Terminology::TermRegister::TermRegister"
+  attributes:
+  - name: CoreModel:identifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:version
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateOfLastChange
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:contentSummary
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:operatingLanguage
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeLanguages
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19104 All::ISO 19104:2015 Terminology::TermRegister::TermRegisterEntry"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:definition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:description
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: TermRegister:termClassification
+    used: false
+    guidance: 未利用
+  - name: TermRegister:termAbbreviation
+    used: false
+    guidance: 未利用
+  - name: TermRegister:symbol
+    used: false
+    guidance: 未利用
+  - name: TermRegister:nonVerbalRep
+    used: false
+    guidance: 未利用
+  - name: TermRegister:correspondence
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19104 All::ISO 19104:2015 Terminology::TermRegister::TermStakeholder"
+  attributes:
+  - name: CoreModel:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contact
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19104 All::ISO 19104:2015 Terminology::TermRegister::TermSubregisterDescription"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:operatingLanguage
+    used: false
+    guidance: 未利用
+  - name: TermRegister:contentSummary
+    used: false
+    guidance: 未利用
+  - name: TermRegister:reference
+    used: false
+    guidance: 未利用
+  - name: TermRegister:alternativeLanguages
+    used: false
+    guidance: 未利用
+  - name: CoreModel:containedItemClass
+    used: false
+    guidance: 未利用
+  - name: CoreModel:subregisterManager
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19104 All::ISO 19104:2015 Terminology::TermRegister::Fig
+    05 Stakeholder"
+  attributes: []

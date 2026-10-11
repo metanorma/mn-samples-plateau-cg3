@@ -1,0 +1,200 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_MicrowaveData::IE_ActiveMWData"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:acquisitionTime
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:imageDescription
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:isMosaic
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:numberofBands
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:processingAction
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:radiometricCalibrationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorCalibrationValidation
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:platformInfo
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorInfo
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'Content information - Imagery:'
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sourceImage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_MicrowaveData::IE_MicrowaveData"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:acquisitionTime
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:imageDescription
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:isMosaic
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:numberofBands
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:processingAction
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:radiometricCalibrationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorCalibrationValidation
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:platformInfo
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorInfo
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'Content information - Imagery:'
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sourceImage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_MicrowaveData::IE_PassiveMWData"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:acquisitionTime
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:imageDescription
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:isMosaic
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:numberofBands
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:processingAction
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:radiometricCalibrationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorCalibrationValidation
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:platformInfo
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorInfo
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'Content information - Imagery:'
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sourceImage
+    used: false
+    guidance: 未利用

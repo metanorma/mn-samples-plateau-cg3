@@ -1,0 +1,39 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Quality::BuildingQuality::Building"
+  attributes:
+  - name: BuildingQuality:nameOfBuilding
+    used: false
+    guidance: 未利用
+  - name: BuildingQuality:position
+    used: false
+    guidance: 未利用
+  - name: BuildingQuality:positionAccuracy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Quality::BuildingQuality::DQ_AbsoluteExternalPositionalAccuracy
+    (from Quality Schema)"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Quality::BuildingQuality::MyQualityDescription"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: BuildingQuality:methodOfMeasurement
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
