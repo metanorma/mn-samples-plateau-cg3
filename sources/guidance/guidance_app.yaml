@@ -55,6 +55,6 @@ classes:
     guidance: 未利用
 - name: "::EA_Model::Model::CityGML::Appearance::TexCoordGen"
   attributes:
-  - name: Appearance:crs
+  - name: Coordinate Reference Systems:crs
     used: true
     guidance: 未利用
