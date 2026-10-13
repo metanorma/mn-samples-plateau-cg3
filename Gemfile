@@ -29,13 +29,13 @@ gem "lutaml-model", "= 0.8.97"
 gem "moxml", github: "lutaml/moxml", branch: "main"
 gem "xmi", github: "lutaml/xmi", branch: "main"
 gem "ea", "= 0.6.77"
-gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "feat/klass-table-datatype-guidance"
+gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "main"
 gem "leptris", "1.9.317"
 
 # relaton / pubid line
 gem "relaton", "= 3.0.0.pre.alpha.4"
 gem "relaton-cli", github: "relaton/relaton", tag: "v3.0.0.pre.alpha.4", glob: "gems/relaton-cli/relaton-cli.gemspec"
-gem "relaton-render", "= 3.0.0.pre.alpha.19"
+gem "relaton-render", "= 3.0.0.pre.alpha.43"
 gem "pubid", github: "pubid/pubid", branch: "main"
 
 # tooling
