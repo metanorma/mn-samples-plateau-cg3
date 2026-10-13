@@ -235,8 +235,8 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-plateau.git
-  revision: abf4d4972b08c752467198925b2d341b642d2278
-  branch: fix/drop-stale-jis-elements-ref
+  revision: c03e346c58a6c6d45d3dbc30938cbc50751934ee
+  branch: main
   specs:
     metanorma-plateau (1.3.1)
       metanorma-jis (>= 1.1.6)
