@@ -1,5 +1,5 @@
 ---
-classes:
+data_types:
 - name: "::EA_Model::Model::CityGML::Appearance::Appearance"
   attributes:
   - name: Core:adeOfAbstractFeature
