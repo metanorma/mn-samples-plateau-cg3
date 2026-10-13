@@ -33,3 +33,15 @@ classes:
   - name: Core:role
     used: true
     guidance: 未利用
+data_types:
+- name: "::EA_Model::Model::CityGML::Versioning::Transaction"
+  attributes:
+  - name: Versioning:type
+    used: false
+    guidance: 未利用
+  - name: Core:newFeature
+    used: true
+    guidance: 未利用
+  - name: Core:oldFeature
+    used: false
+    guidance: 未利用

@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/lutaml/moxml.git
-  revision: fc3496efa17e95479825809f598734678612df1f
+  revision: 0fbbf58bec3dd4068e102448afc8a01b813d5034
   branch: main
   specs:
-    moxml (0.5.131)
+    moxml (0.5.132)
 
 GIT
   remote: https://github.com/lutaml/xmi.git
@@ -84,7 +84,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-bipm.git
-  revision: 14a79309db5924e5098fe30c1587d7f8b5bd6ef0
+  revision: 608d66787c0fa3b2193a90805ba6044d982b859b
   branch: main
   specs:
     metanorma-bipm (2.9.0)
@@ -134,7 +134,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-document
-  revision: 99962f04b1b655268849a17a4b0ea91bc9ae5701
+  revision: b19239db86a5e097a66c510e5fcab9762aabff1b
   branch: main
   specs:
     metanorma-document (0.5.1)
@@ -179,7 +179,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-iho.git
-  revision: ca7d1646e0825032d675d70f2a9f757861a3e4e7
+  revision: 2b2597f5613bf03dbbbfd0e7cb09af337186016d
   branch: main
   specs:
     metanorma-iho (1.4.0)
@@ -187,7 +187,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-iso
-  revision: 33bbbe36f4b984c87a4f9d4c9c155ac2756116bf
+  revision: a0b3cfcb056541d468b4f59b2cb628ba7d10d8eb
   branch: main
   specs:
     metanorma-iso (3.5.0)
@@ -201,7 +201,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-itu.git
-  revision: c77ed9bd6138ffa2d41ea84309bb72b6d565087f
+  revision: 8a83fed37ea3ecef17a725cba6d6036c428833f1
   branch: main
   specs:
     metanorma-itu (2.9.2)
@@ -213,7 +213,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-jis.git
-  revision: f49de8265987c66e0e18bba017c37e500ab9ac60
+  revision: 5c4a320a7ed6b7097f12acfdeb3158b7ed6397b9
   branch: main
   specs:
     metanorma-jis (1.2.0)
@@ -225,7 +225,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-ogc.git
-  revision: fb2cb975189f267408b478169406e809974ede6a
+  revision: 6c90076bda3679c052b2a03b6c1d6b4ff2a826c3
   branch: main
   specs:
     metanorma-ogc (2.10.0)
@@ -314,7 +314,7 @@ GIT
 
 GIT
   remote: https://github.com/pubid/pubid.git
-  revision: e581446d033efc3420e9f2e51d7f4c08c4835398
+  revision: 804029a83a3079e3e7873dfe02120e2a6409899c
   branch: main
   specs:
     pubid (2.0.0.pre.alpha.29)
@@ -651,6 +651,7 @@ GEM
     ffi (1.17.4-arm-linux-gnu)
     ffi (1.17.4-arm-linux-musl)
     ffi (1.17.4-arm64-darwin)
+    ffi (1.17.4-x64-mingw-ucrt)
     ffi (1.17.4-x86-linux-gnu)
     ffi (1.17.4-x86-linux-musl)
     ffi (1.17.4-x86_64-darwin)
@@ -1427,4 +1428,4 @@ DEPENDENCIES
   xmi!
 
 BUNDLED WITH
-  4.0.14
+   2.6.4
