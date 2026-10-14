@@ -30,7 +30,7 @@ classes:
     guidance: 未利用
 - name: "::EA_Model::Model::CityGML::CityObjectGroup::Role"
   attributes:
-  - name: Core:role
+  - name: role
     used: true
     guidance: 未利用
 data_types:
