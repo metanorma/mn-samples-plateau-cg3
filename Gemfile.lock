@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/lutaml/moxml.git
-  revision: 00856501ada6598aa8c9527f76ad616c956070ba
+  revision: 9521000170925a4074f1344784b4abf22f895fdf
   branch: main
   specs:
-    moxml (0.5.134)
+    moxml (0.5.135)
 
 GIT
   remote: https://github.com/lutaml/xmi.git
@@ -66,7 +66,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma
-  revision: 10ba3a9d1a7ee1e04e4a87d9f89a3c6f2a768e15
+  revision: ca92e0bbc8050f4f93fd34f39377cb17228462a7
   branch: main
   specs:
     metanorma (2.5.5)
@@ -77,30 +77,30 @@ GIT
       isodoc (>= 3.5.0)
       marcel
       metanorma-core
-      metanorma-standoc
+      metanorma-standoc (>= 3.5.0)
       mn2pdf (~> 2)
       nokogiri
       relaton-cli (>= 3.0.0.pre.alpha)
 
 GIT
   remote: https://github.com/metanorma/metanorma-bipm.git
-  revision: 3e9dade54f5646a8151dc79463a1a5d35c8ccbb6
+  revision: 046542fee8066a5622f5486cc9b45d45c3521d1f
   branch: main
   specs:
     metanorma-bipm (2.9.0)
       metanorma-generic (~> 3.5.0)
-      metanorma-iso (~> 3.5.0)
+      metanorma-iso (>= 3.4.2)
 
 GIT
   remote: https://github.com/metanorma/metanorma-cli
-  revision: bf5edf6fcbfb74085656ec59a122a4073de07876
+  revision: f411a3b8c531dc0762a54b1c2d946c7e2ea38c5c
   branch: main
   specs:
     metanorma-cli (1.17.0)
       canon (>= 0.2.12)
       git (>= 3.0)
       liquid (~> 5)
-      lutaml-model
+      lutaml-model (~> 0.8)
       metanorma (>= 2.5.1)
       metanorma-bipm (>= 2.9.0)
       metanorma-cc (>= 2.9.0)
@@ -114,13 +114,13 @@ GIT
       metanorma-jis (>= 1.2.0)
       metanorma-ogc (>= 2.10.0)
       metanorma-plateau (>= 1.3.0)
-      metanorma-release
+      metanorma-release (~> 0.2)
       metanorma-ribose (>= 2.9.0)
       metanorma-standoc (>= 3.5.0)
-      mnconvert
+      mnconvert (~> 1.89)
       relaton-cli (>= 3.0.0.pre.alpha)
       socksify
-      suma (~> 0.5.0)
+      suma (~> 0.5)
 
 GIT
   remote: https://github.com/metanorma/metanorma-core
@@ -226,13 +226,13 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-ogc.git
-  revision: 6c90076bda3679c052b2a03b6c1d6b4ff2a826c3
+  revision: d569e3fed5384e345d21e8f3975f6aea0eb6ce4d
   branch: main
   specs:
     metanorma-ogc (2.10.0)
       iso-639
-      metanorma-iso (~> 3.5.0)
-      metanorma-standoc (~> 3.5.0)
+      metanorma-iso (>= 3.4.2)
+      metanorma-standoc (>= 3.4.2)
 
 GIT
   remote: https://github.com/metanorma/metanorma-plateau.git
@@ -245,7 +245,7 @@ GIT
 
 GIT
   remote: https://github.com/metanorma/metanorma-plugin-lutaml.git
-  revision: 066f49ae3c872af89421cb4f08d0212156d826ed
+  revision: 333ec0bd36a58110c277231f70099a8f13260dae
   branch: main
   specs:
     metanorma-plugin-lutaml (0.7.54)
@@ -253,7 +253,7 @@ GIT
       coradoc (~> 1.1.8)
       ea (>= 0.6.41)
       expressir (~> 2.3, >= 2.3.5)
-      isodoc
+      isodoc (>= 3.5.0)
       liquid (~> 5)
       lutaml-lml
       lutaml-model (~> 0.8.4)
@@ -315,7 +315,7 @@ GIT
 
 GIT
   remote: https://github.com/pubid/pubid.git
-  revision: 9ec0263e927e8a57381f6c3e0cf8c9adef604b5a
+  revision: b12ef0998a2fc64f2e938ce63d27a6434b4b78eb
   branch: main
   specs:
     pubid (2.0.0.pre.alpha.30)
@@ -433,7 +433,7 @@ GEM
       addressable (~> 2.8)
       base64 (~> 0.3)
     drb (2.2.3)
-    ea (0.6.88)
+    ea (0.6.89)
       benchmark
       liquid (~> 5)
       lutaml-model (~> 0.8)
@@ -468,7 +468,7 @@ GEM
       cabriolet (~> 0.2.4)
       omnizip (~> 0.3.11)
       thor (~> 1.0)
-    expressir (2.4.31)
+    expressir (2.4.32)
       base64 (>= 0.1.0)
       benchmark
       benchmark-ips
@@ -480,150 +480,6 @@ GEM
       paint
       parsanol (~> 1.3.9, >= 1.3.89)
       rb_sys (~> 0.9.130)
-      ruby-progressbar (~> 1.11)
-      rubyzip (~> 3.7)
-      table_tennis
-      thor (~> 1.0)
-      yeptris (~> 0.6.1)
-    expressir (2.4.31-aarch64-linux)
-      base64 (>= 0.1.0)
-      benchmark
-      benchmark-ips
-      csv
-      liquid (~> 5)
-      lutaml-model (~> 0.8.76)
-      moxml
-      nokogiri (~> 1.19)
-      paint
-      parsanol (~> 1.3.9, >= 1.3.89)
-      ruby-progressbar (~> 1.11)
-      rubyzip (~> 3.7)
-      table_tennis
-      thor (~> 1.0)
-      yeptris (~> 0.6.1)
-    expressir (2.4.31-aarch64-linux-musl)
-      base64 (>= 0.1.0)
-      benchmark
-      benchmark-ips
-      csv
-      liquid (~> 5)
-      lutaml-model (~> 0.8.76)
-      moxml
-      nokogiri (~> 1.19)
-      paint
-      parsanol (~> 1.3.9, >= 1.3.89)
-      ruby-progressbar (~> 1.11)
-      rubyzip (~> 3.7)
-      table_tennis
-      thor (~> 1.0)
-      yeptris (~> 0.6.1)
-    expressir (2.4.31-arm-linux)
-      base64 (>= 0.1.0)
-      benchmark
-      benchmark-ips
-      csv
-      liquid (~> 5)
-      lutaml-model (~> 0.8.76)
-      moxml
-      nokogiri (~> 1.19)
-      paint
-      parsanol (~> 1.3.9, >= 1.3.89)
-      ruby-progressbar (~> 1.11)
-      rubyzip (~> 3.7)
-      table_tennis
-      thor (~> 1.0)
-      yeptris (~> 0.6.1)
-    expressir (2.4.31-arm-linux-musl)
-      base64 (>= 0.1.0)
-      benchmark
-      benchmark-ips
-      csv
-      liquid (~> 5)
-      lutaml-model (~> 0.8.76)
-      moxml
-      nokogiri (~> 1.19)
-      paint
-      parsanol (~> 1.3.9, >= 1.3.89)
-      ruby-progressbar (~> 1.11)
-      rubyzip (~> 3.7)
-      table_tennis
-      thor (~> 1.0)
-      yeptris (~> 0.6.1)
-    expressir (2.4.31-arm64-darwin)
-      base64 (>= 0.1.0)
-      benchmark
-      benchmark-ips
-      csv
-      liquid (~> 5)
-      lutaml-model (~> 0.8.76)
-      moxml
-      nokogiri (~> 1.19)
-      paint
-      parsanol (~> 1.3.9, >= 1.3.89)
-      ruby-progressbar (~> 1.11)
-      rubyzip (~> 3.7)
-      table_tennis
-      thor (~> 1.0)
-      yeptris (~> 0.6.1)
-    expressir (2.4.31-x64-mingw-ucrt)
-      base64 (>= 0.1.0)
-      benchmark
-      benchmark-ips
-      csv
-      liquid (~> 5)
-      lutaml-model (~> 0.8.76)
-      moxml
-      nokogiri (~> 1.19)
-      paint
-      parsanol (~> 1.3.9, >= 1.3.89)
-      ruby-progressbar (~> 1.11)
-      rubyzip (~> 3.7)
-      table_tennis
-      thor (~> 1.0)
-      yeptris (~> 0.6.1)
-    expressir (2.4.31-x86_64-darwin)
-      base64 (>= 0.1.0)
-      benchmark
-      benchmark-ips
-      csv
-      liquid (~> 5)
-      lutaml-model (~> 0.8.76)
-      moxml
-      nokogiri (~> 1.19)
-      paint
-      parsanol (~> 1.3.9, >= 1.3.89)
-      ruby-progressbar (~> 1.11)
-      rubyzip (~> 3.7)
-      table_tennis
-      thor (~> 1.0)
-      yeptris (~> 0.6.1)
-    expressir (2.4.31-x86_64-linux)
-      base64 (>= 0.1.0)
-      benchmark
-      benchmark-ips
-      csv
-      liquid (~> 5)
-      lutaml-model (~> 0.8.76)
-      moxml
-      nokogiri (~> 1.19)
-      paint
-      parsanol (~> 1.3.9, >= 1.3.89)
-      ruby-progressbar (~> 1.11)
-      rubyzip (~> 3.7)
-      table_tennis
-      thor (~> 1.0)
-      yeptris (~> 0.6.1)
-    expressir (2.4.31-x86_64-linux-musl)
-      base64 (>= 0.1.0)
-      benchmark
-      benchmark-ips
-      csv
-      liquid (~> 5)
-      lutaml-model (~> 0.8.76)
-      moxml
-      nokogiri (~> 1.19)
-      paint
-      parsanol (~> 1.3.9, >= 1.3.89)
       ruby-progressbar (~> 1.11)
       rubyzip (~> 3.7)
       table_tennis
@@ -1398,7 +1254,7 @@ PLATFORMS
 
 DEPENDENCIES
   debug
-  ea (= 0.6.88)
+  ea (= 0.6.89)
   ffi
   html2doc!
   isodoc!
