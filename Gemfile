@@ -30,7 +30,6 @@ gem "moxml", github: "lutaml/moxml", branch: "main"
 gem "xmi", github: "lutaml/xmi", branch: "main"
 gem "ea", "= 0.6.45"
 gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "main"
-gem "leptris", "1.9.317"
 
 # relaton / pubid line
 gem "relaton", "= 3.0.0.pre.alpha.4"
