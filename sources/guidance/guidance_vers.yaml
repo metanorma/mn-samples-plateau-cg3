@@ -36,12 +36,12 @@ classes:
 data_types:
 - name: "::EA_Model::Model::CityGML::Versioning::Transaction"
   attributes:
-  - name: Versioning:type
+  - name: "type"
     used: false
     guidance: 未利用
-  - name: Core:newFeature
+  - name: "newFeature"
     used: true
     guidance: 未利用
-  - name: Core:oldFeature
+  - name: "oldFeature"
     used: false
     guidance: 未利用
