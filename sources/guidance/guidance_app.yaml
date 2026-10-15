@@ -58,3 +58,9 @@ data_types:
   - name: Coordinate Reference Systems:crs
     used: true
     guidance: 未利用
+classes:
+- name: "::EA_Model::Model::CityGML::Appearance::TextureAssociation"
+  attributes:
+  - name: target
+    used: true
+    guidance: 未利用
