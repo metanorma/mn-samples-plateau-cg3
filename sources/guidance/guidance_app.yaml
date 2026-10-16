@@ -1,5 +1,16 @@
 ---
 data_types:
+- name: "::EA_Model::Model::CityGML::Appearance::TexCoordGen"
+  attributes:
+  - name: Coordinate Reference Systems:crs
+    used: true
+    guidance: 未利用
+classes:
+- name: "::EA_Model::Model::CityGML::Appearance::TextureAssociation"
+  attributes:
+  - name: target
+    used: true
+    guidance: 未利用
 - name: "::EA_Model::Model::CityGML::Appearance::Appearance"
   attributes:
   - name: Core:adeOfAbstractFeature
@@ -51,16 +62,5 @@ data_types:
     used: true
     guidance: 未利用
   - name: Appearance:adeOfGeoreferencedTexture
-    used: true
-    guidance: 未利用
-- name: "::EA_Model::Model::CityGML::Appearance::TexCoordGen"
-  attributes:
-  - name: Coordinate Reference Systems:crs
-    used: true
-    guidance: 未利用
-classes:
-- name: "::EA_Model::Model::CityGML::Appearance::TextureAssociation"
-  attributes:
-  - name: target
     used: true
     guidance: 未利用
