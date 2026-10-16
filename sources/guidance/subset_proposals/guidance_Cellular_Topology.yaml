@@ -1,0 +1,71 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Cellular Topology::Cell"
+  attributes:
+  - name: Cellular Topology:dimension
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Cellular Topology:complex
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Cellular Topology::CellularComplex"
+  attributes:
+  - name: Geometric complex:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:subComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:superComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:element
+    used: false
+    guidance: 未利用
+  - name: Cellular Topology:cell
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Cellular Topology::OneCell"
+  attributes:
+  - name: Cellular Topology:dimension
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Cellular Topology::ThreeCell"
+  attributes:
+  - name: Cellular Topology:dimension
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Cellular Topology::TwoCell"
+  attributes:
+  - name: Cellular Topology:dimension
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Cellular Topology::ZeroCell"
+  attributes:
+  - name: Cellular Topology:dimension
+    used: false
+    guidance: 未利用

@@ -1,0 +1,32 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::Possible Excess Model Elements::Spares::Network-graphs::NetLink"
+  attributes:
+  - name: Network-graphs:curve
+    used: false
+    guidance: 未利用
+  - name: Network-graphs:costTo
+    used: false
+    guidance: 未利用
+  - name: Network-graphs:costFrom
+    used: false
+    guidance: 未利用
+  - name: Network-graphs:from
+    used: false
+    guidance: 未利用
+  - name: Network-graphs:net
+    used: false
+    guidance: 未利用
+  - name: Network-graphs:to
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::Possible Excess Model Elements::Spares::Network-graphs::NetNode"
+  attributes:
+  - name: Network-graphs:point
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::Possible Excess Model Elements::Spares::Network-graphs::Network"
+  attributes:
+  - name: Network-graphs:node
+    used: false
+    guidance: 未利用

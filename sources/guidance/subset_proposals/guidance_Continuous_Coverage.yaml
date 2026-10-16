@@ -1,0 +1,113 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Continuous
+    Coverage::CV_ContinuousCoverage"
+  attributes:
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverage:sample
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Continuous
+    Coverage::CV_SelectedRangeVariable"
+  attributes:
+  - name: Continuous Coverage:field
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:keyValues
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverage:keyValues
+    used: false
+    guidance: 未利用
+  - name: Range Description:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Continuous
+    Coverage::CV_SelectedKey"
+  attributes:
+  - name: Continuous Coverage:axis
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:key
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Continuous
+    Coverage::CV_EvaluationMethod"
+  attributes:
+  - name: Continuous Coverage:evaluationStructure
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:interpolationMethod
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Continuous
+    Coverage::CV_EvaluationStructure"
+  attributes:
+  - name: Continuous Coverage:TIN
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:ThiessenPolygonNet
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Continuous
+    Coverage::CV_InterpolationMethod"
+  attributes:
+  - name: Continuous Coverage:description
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:parameter
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Continuous
+    Coverage::CV_InterpolationType"
+  attributes:
+  - name: Continuous Coverage:nearestNeighbour
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:linear
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:quadratic
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:cubic
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:lostArea
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:barycentric
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Continuous
+    Coverage::CV_EvaluationSuppportData"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Continuous
+    Coverage::CV_TINSupport"
+  attributes:
+  - name: Continuous Coverage:breakLines
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:stopLines
+    used: false
+    guidance: 未利用
+  - name: Continuous Coverage:maxLength
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2010 NWIP::Continuous
+    Coverage::CV_ThiessenSupport"
+  attributes:
+  - name: Continuous Coverage:clipArea
+    used: false
+    guidance: 未利用

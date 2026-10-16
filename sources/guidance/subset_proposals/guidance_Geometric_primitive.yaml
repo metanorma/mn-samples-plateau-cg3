@@ -1,0 +1,369 @@
+---
+classes:
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_Curve"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:primitive
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:segment
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_CurveSegment"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_OrientableCurve"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:primitive
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_OrientablePrimitive"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:primitive
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_OrientableSurface"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:primitive
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_Point"
+  attributes:
+  - name: Geometric primitive:position
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_Primitive"
+  attributes: []
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_Ring"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:primitive
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_Shell"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:primitive
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_Solid"
+  attributes:
+  - name: Geometric primitive:boundary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_SolidBoundary"
+  attributes:
+  - name: Geometric primitive:exterior
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:interior
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_Surface"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:primitive
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:patch
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_SurfaceBoundary"
+  attributes:
+  - name: Geometric primitive:exterior
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:interior
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric primitive::GM_SurfacePatch"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::Bearing"
+  attributes:
+  - name: Geometric primitive:angle
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:direction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_Curve"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:segment
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_CurveBoundary"
+  attributes:
+  - name: Geometric primitive:endPoint
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:startPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_CurveInterpolation"
+  attributes:
+  - name: Geometric primitive:linear
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geodesic
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:circularArc3Points
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:circularArc2PointWithBulge
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:elliptical
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:clothoid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:conic
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:polynomialSpline
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:cubicSpline
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:rationalSpline
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_CurveSegment"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_OrientableCurve"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_OrientablePrimitive"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_OrientableSurface"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_Point"
+  attributes:
+  - name: Geometric primitive:position
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_Primitive"
+  attributes:
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_PrimitiveBoundary"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_Ring"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_Shell"
+  attributes:
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:subComplex
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:superComplex
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_Solid"
+  attributes:
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_SolidBoundary"
+  attributes:
+  - name: Geometric primitive:exterior
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:interior
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_Surface"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:patch
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_SurfaceBoundary"
+  attributes:
+  - name: Geometric primitive:exterior
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:interior
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_SurfaceInterpolation"
+  attributes:
+  - name: Geometric primitive:none
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:planar
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:spherical
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:elliptical
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:conic
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:tin
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:parametricCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:polynomialSpline
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:rationalSpline
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:triangulatedSpline
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric primitive::GM_SurfacePatch"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用

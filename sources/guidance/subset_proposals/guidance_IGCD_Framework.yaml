@@ -1,0 +1,227 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_AquisitionMetadata"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_CellValuePair"
+  attributes:
+  - name: Coverage Core:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:value
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:geometry
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:geometry
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_ClassificationAttributeType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_Collection"
+  attributes:
+  - name: 'IGCD Framework:'
+    used: false
+    guidance: 未利用
+  - name: 'IGCD Framework:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_CollectionMetadata"
+  attributes:
+  - name: 'IGCD Framework:'
+    used: false
+    guidance: 未利用
+  - name: 'IGCD Framework:'
+    used: false
+    guidance: 未利用
+  - name: 'IGCD Framework:'
+    used: false
+    guidance: 未利用
+  - name: 'IGCD Framework:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_CoverageData"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_DataSet"
+  attributes:
+  - name: 'IGCD Framework:'
+    used: false
+    guidance: 未利用
+  - name: 'IGCD Framework:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_DiscoveryMetadata"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_DiscretePointCoverage"
+  attributes:
+  - name: IGCD Framework:domainExtent
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:rangeType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_DiscreteSurfaceGridCoverage"
+  attributes:
+  - name: IGCD Framework:domainExtent
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:rangeType
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:commonPointRule
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_Feature"
+  attributes:
+  - name: Discrete Coverages:theCV_DiscreteGridPointCoverage
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:theCV_DiscretePointCoverage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_GridCoverage"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_QuadGriddedData"
+  attributes:
+  - name: IGCD Framework:domainExtent
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:rangeType
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:interpolationParametersType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_QualityMetadata"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_RiemannGriddedData"
+  attributes:
+  - name: IGCD Framework:domainExtent
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:rangeType
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:interpolationParametersType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_StructuralMetadata"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_Surface"
+  attributes:
+  - name: IGCD Framework:interpolation
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:boundary
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:spanningSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_Tiling"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_TINCoverage"
+  attributes:
+  - name: IGCD Framework:domainExtent
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:rangeType
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:interpolationParametersType
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:geometry
+    used: false
+    guidance: 未利用
+  - name: IGCD Framework:interpolationType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19129 All::ISO 19129:2009 Imagery, gridded
+    and coverage data framework::IGCD Framework::IF_Transmittal"
+  attributes:
+  - name: 'IGCD Framework:'
+    used: false
+    guidance: 未利用

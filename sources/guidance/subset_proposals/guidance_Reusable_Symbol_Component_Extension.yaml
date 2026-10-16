@@ -1,0 +1,47 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Reusable Symbol Component Extension::SY_ExternalPointComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+  - name: Symbol:symbol
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Reusable Symbol Component Extension::SY_ExternalLineComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+  - name: Symbol:symbol
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Reusable Symbol Component Extension::SY_ExternalAreaComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+  - name: Symbol:symbol
+    used: false
+    guidance: 未利用

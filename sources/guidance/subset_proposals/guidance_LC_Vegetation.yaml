@@ -1,0 +1,344 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Algae"
+  attributes:
+  - name: LC_Vegetation:height
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:cover
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:status
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_AlgaeStatus"
+  attributes:
+  - name: LC_Vegetation:floating
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:submerged
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Annual"
+  attributes:
+  - name: LC_Vegetation:percentage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Aphillious"
+  attributes:
+  - name: LC_Vegetation:percentage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Biennial"
+  attributes:
+  - name: LC_Vegetation:percentage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_BroadLeaf"
+  attributes:
+  - name: LC_Vegetation:percentage
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_BroadLeafShape"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Deciduous"
+  attributes:
+  - name: LC_Vegetation:percentage
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:starting
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:length
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Evergreen"
+  attributes:
+  - name: LC_Vegetation:percentage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Forbs"
+  attributes:
+  - name: LC_Vegetation:height
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_Vegetation:'
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:status
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_ForbsLeafType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_ForbsStatus"
+  attributes:
+  - name: LC_Vegetation:rooted
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:nonrooted
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Gramineae"
+  attributes:
+  - name: LC_Vegetation:height
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_Vegetation:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_GrowthForm"
+  attributes:
+  - name: LC_Vegetation:height
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_HerbaceousGrowthForm"
+  attributes:
+  - name: LC_Vegetation:height
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_Vegetation:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_HerbaceousLeafPhenology"
+  attributes:
+  - name: LC_Vegetation:percentage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Lichen"
+  attributes:
+  - name: LC_Vegetation:height
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_LichenAndMoss"
+  attributes:
+  - name: LC_Vegetation:height
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Moss"
+  attributes:
+  - name: LC_Vegetation:height
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_NeedleLeaf"
+  attributes:
+  - name: LC_Vegetation:percentage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Perennial"
+  attributes:
+  - name: LC_Vegetation:percentage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Shrub"
+  attributes:
+  - name: LC_Vegetation:height
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Vegetation:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Vegetation:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_Tree"
+  attributes:
+  - name: LC_Vegetation:height
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Vegetation:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Vegetation:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_VegetationElement"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_WoodyGrowthForm"
+  attributes:
+  - name: LC_Vegetation:height
+    used: false
+    guidance: 未利用
+  - name: LC_Vegetation:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_ElementCharacteristics:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Vegetation:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Vegetation:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_WoodyLeafPhenology"
+  attributes:
+  - name: LC_Vegetation:percentage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Vegetation::LC_WoodyLeafType"
+  attributes:
+  - name: LC_Vegetation:percentage
+    used: false
+    guidance: 未利用

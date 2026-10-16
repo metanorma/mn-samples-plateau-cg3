@@ -1,0 +1,206 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_Symbol"
+  attributes:
+  - name: Symbol:identifier
+    used: false
+    guidance: 未利用
+  - name: Symbol:title
+    used: false
+    guidance: 未利用
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:formalGeometryParameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_SymbolSet"
+  attributes:
+  - name: Symbol:identifier
+    used: false
+    guidance: 未利用
+  - name: Symbol:title
+    used: false
+    guidance: 未利用
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_SymbolGeometry"
+  attributes:
+  - name: Symbol:name
+    used: false
+    guidance: 未利用
+  - name: Symbol:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_SymbolDefinition"
+  attributes:
+  - name: Symbol:browseGraphic
+    used: false
+    guidance: 未利用
+  - name: Symbol:component
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_PointSymbolDefinition"
+  attributes:
+  - name: Symbol:browseGraphic
+    used: false
+    guidance: 未利用
+  - name: Symbol:component
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_LineSymbolDefinition"
+  attributes:
+  - name: Symbol:browseGraphic
+    used: false
+    guidance: 未利用
+  - name: Symbol:component
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_AreaSymbolDefinition"
+  attributes:
+  - name: Symbol:browseGraphic
+    used: false
+    guidance: 未利用
+  - name: Symbol:component
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_SymbolComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_GraphicElement"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_GraphicObject"
+  attributes:
+  - name: Symbol:attribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_GraphicProperty"
+  attributes:
+  - name: Symbol:name
+    used: false
+    guidance: 未利用
+  - name: Symbol:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_PointComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_PointIcon"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_PointText"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:text
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_LineComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_LineStyle"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_LineText"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:text
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_AreaComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Core::Symbol::SY_AreaFill"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用

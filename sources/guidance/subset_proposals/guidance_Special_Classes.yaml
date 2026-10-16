@@ -1,0 +1,68 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Special Classes::VersionedObject"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Special Classes::LA_Source"
+  attributes:
+  - name: Special Classes:acceptance
+    used: false
+    guidance: 未利用
+  - name: Special Classes:availabilityStatus
+    used: false
+    guidance: 未利用
+  - name: Special Classes:extArchiveID
+    used: false
+    guidance: 未利用
+  - name: Special Classes:lifeSpanStamp
+    used: false
+    guidance: 未利用
+  - name: Special Classes:maintype
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:recordation
+    used: false
+    guidance: 未利用
+  - name: Special Classes:sID
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Special Classes:submission
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Special Classes::Fraction"
+  attributes:
+  - name: Special Classes:denominator
+    used: false
+    guidance: 未利用
+  - name: Special Classes:numerator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Special Classes::Oid"
+  attributes:
+  - name: Special Classes:localId
+    used: false
+    guidance: 未利用
+  - name: Special Classes:namespace
+    used: false
+    guidance: 未利用

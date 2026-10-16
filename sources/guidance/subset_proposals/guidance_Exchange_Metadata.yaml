@@ -1,0 +1,35 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Exchange
+    Metadata::EM_EncodingRule"
+  attributes:
+  - name: Exchange Metadata:citation
+    used: false
+    guidance: 未利用
+  - name: Exchange Metadata:toolName
+    used: false
+    guidance: 未利用
+  - name: Exchange Metadata:toolVersion
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Exchange
+    Metadata::EM_ExchangeMetadata"
+  attributes:
+  - name: Exchange Metadata:datasetCitation
+    used: false
+    guidance: 未利用
+  - name: Exchange Metadata:metadataCitation
+    used: false
+    guidance: 未利用
+  - name: Exchange Metadata:applicationSchemaCitation
+    used: false
+    guidance: 未利用
+  - name: Exchange Metadata:configFileCitation
+    used: false
+    guidance: 未利用
+  - name: Exchange Metadata:encoding
+    used: false
+    guidance: 未利用
+  - name: Instance Model:codeLists
+    used: false
+    guidance: 未利用

@@ -1,0 +1,41 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Temporal Coverage::CVT_DiscreteTimeInstantCoverage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Temporal Coverage:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Temporal Coverage::CVT_TimeInstantValuePair"
+  attributes:
+  - name: Coverage Core:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:value
+    used: false
+    guidance: 未利用
+  - name: Temporal Coverage:geometry
+    used: false
+    guidance: 未利用

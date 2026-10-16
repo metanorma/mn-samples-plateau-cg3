@@ -1,0 +1,53 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Cultural and linguistic adapdability::LocalisedCharacterString"
+  attributes:
+  - name: Cultural and linguistic adapdability:locale
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Cultural and linguistic adapdability::PT_FreeText"
+  attributes:
+  - name: Cultural and linguistic adapdability:textGroup
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Cultural and linguistic adapdability::PT_Locale"
+  attributes:
+  - name: Cultural and linguistic adapdability:languageCode
+    used: false
+    guidance: 未利用
+  - name: Cultural and linguistic adapdability:country
+    used: false
+    guidance: 未利用
+  - name: Cultural and linguistic adapdability:characterSetCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Cultural and linguistic adapdability::PT_LocaleContainer"
+  attributes:
+  - name: Cultural and linguistic adapdability:languageCode
+    used: false
+    guidance: 未利用
+  - name: Cultural and linguistic adapdability:country
+    used: false
+    guidance: 未利用
+  - name: Cultural and linguistic adapdability:characterSetCode
+    used: false
+    guidance: 未利用
+  - name: Cultural and linguistic adapdability:description
+    used: false
+    guidance: 未利用
+  - name: Cultural and linguistic adapdability:locale
+    used: false
+    guidance: 未利用
+  - name: Cultural and linguistic adapdability:date
+    used: false
+    guidance: 未利用
+  - name: Cultural and linguistic adapdability:responsibleParty
+    used: false
+    guidance: 未利用
+  - name: Cultural and linguistic adapdability:localisedString
+    used: false
+    guidance: 未利用

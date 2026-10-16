@@ -1,0 +1,110 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Rendition::AddressRenderedByTemplate"
+  attributes:
+  - name: Rendition:renderedLine
+    used: false
+    guidance: 未利用
+  - name: Rendition:alignment
+    used: false
+    guidance: 未利用
+  - name: Rendition:styleProperties
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:source
+    used: false
+    guidance: 未利用
+  - name: Rendition:specification
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Rendition::lineDataType"
+  attributes:
+  - name: Rendition:lineComponent
+    used: false
+    guidance: 未利用
+  - name: Rendition:lineName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Rendition::ParameterType"
+  attributes:
+  - name: Rendition:renderingType
+    used: false
+    guidance: 未利用
+  - name: Rendition:addressType
+    used: false
+    guidance: 未利用
+  - name: Rendition:deliveringCountry
+    used: false
+    guidance: 未利用
+  - name: Rendition:despatchingCountry
+    used: false
+    guidance: 未利用
+  - name: Rendition:inputGranularity
+    used: false
+    guidance: 未利用
+  - name: Rendition:language
+    used: false
+    guidance: 未利用
+  - name: Rendition:script
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Rendition::PATDL"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Rendition::PATDLTemplate"
+  attributes:
+  - name: Rendition:lineSelectionConditions
+    used: false
+    guidance: 未利用
+  - name: Rendition:lineCandidate
+    used: false
+    guidance: 未利用
+  - name: Rendition:templateName
+    used: false
+    guidance: 未利用
+  - name: Rendition:templateIdentifier
+    used: false
+    guidance: 未利用
+  - name: Rendition:userPreferences
+    used: false
+    guidance: 未利用
+  - name: Rendition:triggerConditions
+    used: false
+    guidance: 未利用
+  - name: Rendition:lineData
+    used: false
+    guidance: 未利用
+  - name: Rendition:combineData
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:address
+    used: false
+    guidance: 未利用
+  - name: Rendition:parameters
+    used: false
+    guidance: 未利用
+  - name: Rendition:XML Schema
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Rendition::RenderedAddress"
+  attributes:
+  - name: Rendition:renderedLine
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Rendition::RenderingParameters"
+  attributes:
+  - name: Rendition:parameters
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Rendition::triggerConditionsType"
+  attributes: []

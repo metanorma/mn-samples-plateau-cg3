@@ -1,0 +1,62 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Active
+    Microwave Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Categorical
+    Thematic Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Coverage
+    Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Fused
+    Imagery Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Imagery
+    and Gridded Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Imagery
+    Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Microwave
+    Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Numerical
+    Thematic Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Optical
+    Imagery Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Passive
+    Microwave Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Radiometer
+    Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::SAR
+    Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Simulated
+    Imagery Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Synthetic
+    Imagery Data"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::ImageryandGriddedDataClassDiagram::Thematic
+    Gridded Data"
+  attributes: []

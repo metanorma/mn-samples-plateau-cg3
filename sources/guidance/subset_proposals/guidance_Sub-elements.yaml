@@ -1,0 +1,321 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::Sub-elements::ComplexName"
+  attributes:
+  - name: Sub-elements:fullName
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:nameParts
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::Sub-elements::ConstructType"
+  attributes:
+  - name: Address:addressedObjectIdentifier
+    used: false
+    guidance: 未利用
+  - name: Address:administrativeAreaName
+    used: false
+    guidance: 未利用
+  - name: Address:countryCode
+    used: false
+    guidance: 未利用
+  - name: Address:countryName
+    used: false
+    guidance: 未利用
+  - name: Address:localityName
+    used: false
+    guidance: 未利用
+  - name: Address:postcode
+    used: false
+    guidance: 未利用
+  - name: Address:postOfficeName
+    used: false
+    guidance: 未利用
+  - name: Address:thoroughfareName
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:organizationIdentification
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:individualIdentification
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:addressedObjectIdentifier
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:locality
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:countryLevelInformation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::Sub-elements::ElementType"
+  attributes:
+  - name: Address:addressedObjectIdentifier
+    used: false
+    guidance: 未利用
+  - name: Address:administrativeAreaName
+    used: false
+    guidance: 未利用
+  - name: Address:countryCode
+    used: false
+    guidance: 未利用
+  - name: Address:countryName
+    used: false
+    guidance: 未利用
+  - name: Address:localityName
+    used: false
+    guidance: 未利用
+  - name: Address:postcode
+    used: false
+    guidance: 未利用
+  - name: Address:postOfficeName
+    used: false
+    guidance: 未利用
+  - name: Address:thoroughfareName
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:organizationName
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:legalStatus
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:organizationUnit
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:function
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:roleDescriptor
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:formOfAddress
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:givenName
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:customerIdentifier
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:surname
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:nameQualifier
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:qualification
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:definingAuthority
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:postcode
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:countryName
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:region
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:town
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:district
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:deliveryServiceIdentifier
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:thoroughfare
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:premisesIdentifier
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:building
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:extensionDesignation
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:wing
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:stairwell
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:floor
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:door
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:supplementaryDespatchInfo
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:supplementaryDeliveryPointData
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:deliveryServiceQualifier
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:countryCode
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:multiCountryRegion
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:internationalRoutingInformation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::Sub-elements::LevelConstructorType"
+  attributes:
+  - name: Sub-elements:primary
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:secondary
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:tertiary
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:level
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::Sub-elements::LevelType"
+  attributes:
+  - name: Sub-elements:levelNumber
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:levelName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::Sub-elements::PartConstructorType"
+  attributes:
+  - name: Sub-elements:indicator
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:type
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:namePrefix
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:nameRoot
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:qualifier
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:suffix
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:prefix
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:part
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::Sub-elements::PartOfNameType"
+  attributes:
+  - name: Sub-elements:partValue
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:typeOfPart
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:partNumber
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:position
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:Ucode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::Sub-elements::PositionConstructorType"
+  attributes:
+  - name: Sub-elements:preceding
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:intermediate
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:succeeding
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:alternate
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:position
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::Sub-elements::PositionType"
+  attributes:
+  - name: Sub-elements:positionNumber
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:positionType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::Sub-elements::SegmentType"
+  attributes:
+  - name: Address:addressedObjectIdentifier
+    used: false
+    guidance: 未利用
+  - name: Address:administrativeAreaName
+    used: false
+    guidance: 未利用
+  - name: Address:countryCode
+    used: false
+    guidance: 未利用
+  - name: Address:countryName
+    used: false
+    guidance: 未利用
+  - name: Address:localityName
+    used: false
+    guidance: 未利用
+  - name: Address:postcode
+    used: false
+    guidance: 未利用
+  - name: Address:postOfficeName
+    used: false
+    guidance: 未利用
+  - name: Address:thoroughfareName
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:addresseeSpecification
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:maileeSpecification
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:mailRecipientDespatchInfo
+    used: false
+    guidance: 未利用
+  - name: Sub-elements:deliveryPointSpecification
+    used: false
+    guidance: 未利用

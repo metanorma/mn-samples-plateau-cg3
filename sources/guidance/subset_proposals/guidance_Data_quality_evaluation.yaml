@@ -1,0 +1,134 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Data quality evaluation::DQ_AggregationDerivation"
+  attributes:
+  - name: Data quality evaluation:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:referenceDoc
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Data quality evaluation::DQ_DataEvaluation"
+  attributes:
+  - name: Data quality evaluation:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:referenceDoc
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Data quality evaluation::DQ_EvaluationMethod"
+  attributes:
+  - name: Data quality evaluation:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:referenceDoc
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Data quality evaluation::DQ_EvaluationMethodTypeCode"
+  attributes:
+  - name: Data quality evaluation:directInternal
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:directExternal
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:indirect
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Data quality evaluation::DQ_FullInspection"
+  attributes:
+  - name: Data quality evaluation:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:referenceDoc
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Data quality evaluation::DQ_IndirectEvaluation"
+  attributes:
+  - name: Data quality evaluation:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:referenceDoc
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:deductiveSource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::Data quality evaluation::DQ_SampleBasedInspection"
+  attributes:
+  - name: Data quality evaluation:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:referenceDoc
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:samplingScheme
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:lotDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:samplingRatio
+    used: false
+    guidance: 未利用

@@ -1,0 +1,488 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Distribution information::MD_DigitalTransferOptions"
+  attributes:
+  - name: Distribution information:unitsOfDistribution
+    used: false
+    guidance: 未利用
+  - name: Distribution information:transferSize
+    used: false
+    guidance: 未利用
+  - name: Distribution information:onLine
+    used: false
+    guidance: 未利用
+  - name: Distribution information:offLine
+    used: false
+    guidance: 未利用
+  - name: Distribution information:transferFrequency
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributionFormat
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Distribution information::MD_Distribution"
+  attributes:
+  - name: Distribution information:description
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributionFormat
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributor
+    used: false
+    guidance: 未利用
+  - name: Distribution information:transferOptions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Distribution information::MD_Distributor"
+  attributes:
+  - name: Distribution information:distributorContact
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributionOrderProcess
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributorFormat
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributorTransferOptions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Distribution information::MD_Format"
+  attributes:
+  - name: Distribution information:formatSpecificationCitation
+    used: false
+    guidance: 未利用
+  - name: Distribution information:amendmentNumber
+    used: false
+    guidance: 未利用
+  - name: Distribution information:fileDecompressionTechnique
+    used: false
+    guidance: 未利用
+  - name: Distribution information:medium
+    used: false
+    guidance: 未利用
+  - name: Distribution information:formatDistributor
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Distribution information::MD_Medium"
+  attributes:
+  - name: Distribution information:name
+    used: false
+    guidance: 未利用
+  - name: Distribution information:density
+    used: false
+    guidance: 未利用
+  - name: Distribution information:densityUnits
+    used: false
+    guidance: 未利用
+  - name: Distribution information:volumes
+    used: false
+    guidance: 未利用
+  - name: Distribution information:mediumFormat
+    used: false
+    guidance: 未利用
+  - name: Distribution information:mediumNote
+    used: false
+    guidance: 未利用
+  - name: Distribution information:identifier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Distribution information::MD_MediumFormatCode"
+  attributes:
+  - name: Distribution information:cpio
+    used: false
+    guidance: 未利用
+  - name: Distribution information:tar
+    used: false
+    guidance: 未利用
+  - name: Distribution information:highSierra
+    used: false
+    guidance: 未利用
+  - name: Distribution information:iso9660
+    used: false
+    guidance: 未利用
+  - name: Distribution information:iso9660RockRidge
+    used: false
+    guidance: 未利用
+  - name: Distribution information:iso9660AppleHFS
+    used: false
+    guidance: 未利用
+  - name: Distribution information:udf
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Distribution information::MD_StandardOrderProcess"
+  attributes:
+  - name: Distribution information:fees
+    used: false
+    guidance: 未利用
+  - name: Distribution information:plannedAvailableDateTime
+    used: false
+    guidance: 未利用
+  - name: Distribution information:orderingInstructions
+    used: false
+    guidance: 未利用
+  - name: Distribution information:turnaround
+    used: false
+    guidance: 未利用
+  - name: Distribution information:orderOptionsType
+    used: false
+    guidance: 未利用
+  - name: Distribution information:orderOptions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Distribution
+    information::MD_DigitalTransferOptions"
+  attributes:
+  - name: Distribution information:unitsOfDistribution
+    used: false
+    guidance: 未利用
+  - name: Distribution information:transferSize
+    used: false
+    guidance: 未利用
+  - name: Distribution information:onLine
+    used: false
+    guidance: 未利用
+  - name: Distribution information:offLine
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Distribution
+    information::MD_Distribution"
+  attributes:
+  - name: Distribution information:distributionFormat
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributor
+    used: false
+    guidance: 未利用
+  - name: Distribution information:transferOptions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Distribution
+    information::MD_DistributionUnits"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Distribution
+    information::MD_Distributor"
+  attributes:
+  - name: Distribution information:distributorContact
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributionOrderProcess
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributorTransferOptions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Distribution
+    information::MD_Format"
+  attributes:
+  - name: Distribution information:name
+    used: false
+    guidance: 未利用
+  - name: Distribution information:version
+    used: false
+    guidance: 未利用
+  - name: Distribution information:amendmentNumber
+    used: false
+    guidance: 未利用
+  - name: Distribution information:specification
+    used: false
+    guidance: 未利用
+  - name: Distribution information:fileDecompressionTechnique
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Distribution
+    information::MD_Medium"
+  attributes:
+  - name: Distribution information:name
+    used: false
+    guidance: 未利用
+  - name: Distribution information:density
+    used: false
+    guidance: 未利用
+  - name: Distribution information:densityUnits
+    used: false
+    guidance: 未利用
+  - name: Distribution information:volumes
+    used: false
+    guidance: 未利用
+  - name: Distribution information:mediumFormat
+    used: false
+    guidance: 未利用
+  - name: Distribution information:mediumNote
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Distribution
+    information::MD_MediumFormatCode"
+  attributes:
+  - name: Distribution information:cpio
+    used: false
+    guidance: 未利用
+  - name: Distribution information:tar
+    used: false
+    guidance: 未利用
+  - name: Distribution information:highSierra
+    used: false
+    guidance: 未利用
+  - name: Distribution information:iso9660
+    used: false
+    guidance: 未利用
+  - name: Distribution information:iso9660RockRidge
+    used: false
+    guidance: 未利用
+  - name: Distribution information:iso9660AppleHFS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Distribution
+    information::MD_MediumNameCode"
+  attributes:
+  - name: Distribution information:cdRom
+    used: false
+    guidance: 未利用
+  - name: Distribution information:dvd
+    used: false
+    guidance: 未利用
+  - name: Distribution information:dvdRom
+    used: false
+    guidance: 未利用
+  - name: Distribution information:3halfInchFloppy
+    used: false
+    guidance: 未利用
+  - name: Distribution information:5quarterInchFloppy
+    used: false
+    guidance: 未利用
+  - name: Distribution information:7trackTape
+    used: false
+    guidance: 未利用
+  - name: Distribution information:9trackTape
+    used: false
+    guidance: 未利用
+  - name: Distribution information:3480Cartridge
+    used: false
+    guidance: 未利用
+  - name: Distribution information:3490Cartridge
+    used: false
+    guidance: 未利用
+  - name: Distribution information:3580Cartridge
+    used: false
+    guidance: 未利用
+  - name: Distribution information:4mmCartridgeTape
+    used: false
+    guidance: 未利用
+  - name: Distribution information:8mmCartridgeTape
+    used: false
+    guidance: 未利用
+  - name: Distribution information:1quarterInchCartridgeTape
+    used: false
+    guidance: 未利用
+  - name: Distribution information:digitalLinearTape
+    used: false
+    guidance: 未利用
+  - name: Distribution information:onLine
+    used: false
+    guidance: 未利用
+  - name: Distribution information:satellite
+    used: false
+    guidance: 未利用
+  - name: Distribution information:telephoneLink
+    used: false
+    guidance: 未利用
+  - name: Distribution information:hardcopy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Distribution
+    information::MD_StandardOrderProcess"
+  attributes:
+  - name: Distribution information:fees
+    used: false
+    guidance: 未利用
+  - name: Distribution information:plannedAvailableDateTime
+    used: false
+    guidance: 未利用
+  - name: Distribution information:orderingInstructions
+    used: false
+    guidance: 未利用
+  - name: Distribution information:turnaround
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Distribution
+    information::MD_DigitalTransferOptions"
+  attributes:
+  - name: Distribution information:unitsOfDistribution
+    used: false
+    guidance: 未利用
+  - name: Distribution information:transferSize
+    used: false
+    guidance: 未利用
+  - name: Distribution information:onLine
+    used: false
+    guidance: 未利用
+  - name: Distribution information:offLine
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Distribution
+    information::MD_Distribution"
+  attributes:
+  - name: Distribution information:distributionFormat
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributor
+    used: false
+    guidance: 未利用
+  - name: Distribution information:transferOptions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Distribution
+    information::MD_DistributionUnits"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Distribution
+    information::MD_Distributor"
+  attributes:
+  - name: Distribution information:distributorContact
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributionOrderProcess
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributorTransferOptions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Distribution
+    information::MD_Format"
+  attributes:
+  - name: Distribution information:name
+    used: false
+    guidance: 未利用
+  - name: Distribution information:version
+    used: false
+    guidance: 未利用
+  - name: Distribution information:amendmentNumber
+    used: false
+    guidance: 未利用
+  - name: Distribution information:specification
+    used: false
+    guidance: 未利用
+  - name: Distribution information:fileDecompressionTechnique
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Distribution
+    information::MD_Medium"
+  attributes:
+  - name: Distribution information:name
+    used: false
+    guidance: 未利用
+  - name: Distribution information:density
+    used: false
+    guidance: 未利用
+  - name: Distribution information:densityUnits
+    used: false
+    guidance: 未利用
+  - name: Distribution information:volumes
+    used: false
+    guidance: 未利用
+  - name: Distribution information:mediumFormat
+    used: false
+    guidance: 未利用
+  - name: Distribution information:mediumNote
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Distribution
+    information::MD_MediumFormatCode"
+  attributes:
+  - name: Distribution information:cpio
+    used: false
+    guidance: 未利用
+  - name: Distribution information:tar
+    used: false
+    guidance: 未利用
+  - name: Distribution information:highSierra
+    used: false
+    guidance: 未利用
+  - name: Distribution information:iso9660
+    used: false
+    guidance: 未利用
+  - name: Distribution information:iso9660RockRidge
+    used: false
+    guidance: 未利用
+  - name: Distribution information:iso9660AppleHFS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Distribution
+    information::MD_MediumNameCode"
+  attributes:
+  - name: Distribution information:cdRom
+    used: false
+    guidance: 未利用
+  - name: Distribution information:dvd
+    used: false
+    guidance: 未利用
+  - name: Distribution information:dvdRom
+    used: false
+    guidance: 未利用
+  - name: Distribution information:3halfInchFloppy
+    used: false
+    guidance: 未利用
+  - name: Distribution information:5quarterInchFloppy
+    used: false
+    guidance: 未利用
+  - name: Distribution information:7trackTape
+    used: false
+    guidance: 未利用
+  - name: Distribution information:9trackTape
+    used: false
+    guidance: 未利用
+  - name: Distribution information:3480Cartridge
+    used: false
+    guidance: 未利用
+  - name: Distribution information:3490Cartridge
+    used: false
+    guidance: 未利用
+  - name: Distribution information:3580Cartridge
+    used: false
+    guidance: 未利用
+  - name: Distribution information:4mmCartridgeTape
+    used: false
+    guidance: 未利用
+  - name: Distribution information:8mmCartridgeTape
+    used: false
+    guidance: 未利用
+  - name: Distribution information:1quarterInchCartridgeTape
+    used: false
+    guidance: 未利用
+  - name: Distribution information:digitalLinearTape
+    used: false
+    guidance: 未利用
+  - name: Distribution information:onLine
+    used: false
+    guidance: 未利用
+  - name: Distribution information:satellite
+    used: false
+    guidance: 未利用
+  - name: Distribution information:telephoneLink
+    used: false
+    guidance: 未利用
+  - name: Distribution information:hardcopy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Distribution
+    information::MD_StandardOrderProcess"
+  attributes:
+  - name: Distribution information:fees
+    used: false
+    guidance: 未利用
+  - name: Distribution information:plannedAvailableDateTime
+    used: false
+    guidance: 未利用
+  - name: Distribution information:orderingInstructions
+    used: false
+    guidance: 未利用
+  - name: Distribution information:turnaround
+    used: false
+    guidance: 未利用

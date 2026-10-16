@@ -1,0 +1,29 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::coordinateSystems::CS_AxisDirection"
+  attributes:
+  - name: coordinateSystems:future
+    used: false
+    guidance: 未利用
+  - name: coordinateSystems:past
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::coordinateSystems::TimeCS"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用

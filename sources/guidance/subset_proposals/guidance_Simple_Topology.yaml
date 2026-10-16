@@ -1,0 +1,233 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_CurveComponent"
+  attributes:
+  - name: Simple Topology:localName
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:attribute[0..*]
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:orientation
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:component
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:composite
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theTS_FeatureComponent
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theTS_FeatureComponent
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theme
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_DirectedEdge"
+  attributes:
+  - name: Simple Topology:orientation
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:composite
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:hub
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:primitive
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:side
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_DirectedFace"
+  attributes:
+  - name: Simple Topology:boundary
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:composite
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:isolatedNode
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_DirectedNode"
+  attributes:
+  - name: Simple Topology:orientation
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:orientation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_DirectedTopo"
+  attributes:
+  - name: Simple Topology:orientation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_Edge"
+  attributes:
+  - name: Simple Topology:proxy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_Face"
+  attributes:
+  - name: Simple Topology:boundary
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:composite
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:isolatedNode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_FeatureComponent"
+  attributes:
+  - name: Simple Topology:localName
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:attribute[0..*]
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:component
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:composite
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theTS_FeatureComponent
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theTS_FeatureComponent
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theme
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_Node"
+  attributes:
+  - name: Simple Topology:position
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:composite
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:spoke
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_PointComponent"
+  attributes:
+  - name: Simple Topology:localName
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:attribute[0..*]
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:position
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:component
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:composite
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theTS_FeatureComponent
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theTS_FeatureComponent
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theme
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_Root"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_Solid"
+  attributes:
+  - name: Simple Topology:theTS_DirectedFace
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_SurfaceComponent"
+  attributes:
+  - name: Simple Topology:localName
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:attribute[0..*]
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:orientation
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:component
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:composite
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theTS_FeatureComponent
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theTS_FeatureComponent
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:theme
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:generator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Simple Topology::TS_Theme"
+  attributes:
+  - name: Simple Topology:element
+    used: false
+    guidance: 未利用

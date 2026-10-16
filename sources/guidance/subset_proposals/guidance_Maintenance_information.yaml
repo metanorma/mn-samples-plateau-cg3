@@ -1,0 +1,341 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Maintenance information::MD_MaintenanceFrequencyCode"
+  attributes:
+  - name: Maintenance information:continual
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:daily
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:weekly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:fortnightly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:monthly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:quarterly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:biannually
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:annually
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:asNeeded
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:irregular
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:notPlanned
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:unknown
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:periodic
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:semimonthly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:biennially
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Maintenance information::MD_MaintenanceInformation"
+  attributes:
+  - name: Maintenance information:maintenanceAndUpdateFrequency
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:maintenanceDate
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:userDefinedMaintenanceFrequency
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:maintenanceScope
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:maintenanceNote
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:contact
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Maintenance
+    information::MD_MaintenanceFrequencyCode"
+  attributes:
+  - name: Maintenance information:continual
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:daily
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:weekly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:fortnightly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:monthly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:quarterly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:biannually
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:annually
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:asNeeded
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:irregular
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:notPlanned
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:unknown
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Maintenance
+    information::MD_MaintenanceInformation"
+  attributes:
+  - name: Maintenance information:maintenanceAndUpdateFrequency
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:dateOfNextUpdate
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:userDefinedMaintenanceFrequency
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:updateScope
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:updateScopeDescription
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:maintenanceNote
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:contact
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Maintenance
+    information::MD_ScopeCode"
+  attributes:
+  - name: Maintenance information:attribute
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:attributeType
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:collectionHardware
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:collectionSession
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:dataset
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:series
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:nonGeographicDataset
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:dimensionGroup
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:feature
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:featureType
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:propertyType
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:fieldSession
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:software
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:service
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:model
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:tile
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Maintenance
+    information::MD_ScopeDescription"
+  attributes:
+  - name: Maintenance information:attributes
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:features
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:featureInstances
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:attributeInstances
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:dataset
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Maintenance
+    information::MD_MaintenanceFrequencyCode"
+  attributes:
+  - name: Maintenance information:continual
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:daily
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:weekly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:fortnightly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:monthly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:quarterly
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:biannually
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:annually
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:asNeeded
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:irregular
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:notPlanned
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:unknown
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Maintenance
+    information::MD_MaintenanceInformation"
+  attributes:
+  - name: Maintenance information:maintenanceAndUpdateFrequency
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:dateOfNextUpdate
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:userDefinedMaintenanceFrequency
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:updateScope
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:updateScopeDescription
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:maintenanceNote
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:contact
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Maintenance
+    information::MD_ScopeCode"
+  attributes:
+  - name: Maintenance information:attribute
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:attributeType
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:collectionHardware
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:collectionSession
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:dataset
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:series
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:nonGeographicDataset
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:dimensionGroup
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:feature
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:featureType
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:propertyType
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:fieldSession
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:software
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:service
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:model
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:tile
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Maintenance
+    information::MD_ScopeDescription"
+  attributes:
+  - name: Maintenance information:attributes
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:features
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:featureInstances
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:attributeInstances
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:dataset
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:other
+    used: false
+    guidance: 未利用

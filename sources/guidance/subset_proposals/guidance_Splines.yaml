@@ -1,0 +1,4 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Curves::Splines::SplineCurveForm"
+  attributes: []

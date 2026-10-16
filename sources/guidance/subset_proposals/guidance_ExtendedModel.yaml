@@ -1,0 +1,372 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::ISO 19115-1"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::ISO 19115-1 Metadata"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::Extended conformance class"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::Extended conformance class"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::Hierarchical register conformance
+    class"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::ISO 19115-1 Metadata"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::Extended conformance class"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::ISO 19115-1"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::Extended conformance class"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::ISO 19115-1                                                        ."
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::Extended conformance class"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::Extended conformance class"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_AdditionInformation"
+  attributes:
+  - name: ExtendedModel:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:justification
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:status
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:disposition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:registerManagerNotes
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_Register"
+  attributes:
+  - name: CoreModel:identifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:version
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateOfLastChange
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:contentSummary
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:operatingLanguage
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeLanguages
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_RegisterItem"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:definition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:description
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:fieldOfApplication
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_ItemClass"
+  attributes:
+  - name: CoreModel:identifier
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeName
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:technicalStandard
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_AmendmentInformation"
+  attributes:
+  - name: ExtendedModel:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:justification
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:status
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:disposition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:registerManagerNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:amendmentType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_ClarificationInformation"
+  attributes:
+  - name: ExtendedModel:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:justification
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:status
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:disposition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:registerManagerNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:proposedChange
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_ProposalManagementInformation"
+  attributes:
+  - name: ExtendedModel:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:justification
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:status
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:disposition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:registerManagerNotes
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_Reference"
+  attributes:
+  - name: ExtendedModel:itemIdentifierAtSource
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:similarity
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:referenceText
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:notes
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_ReferenceSource"
+  attributes:
+  - name: Citation and responsible party information:citation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_RegisterStakeholder"
+  attributes:
+  - name: CoreModel:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contact
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_SubregisterDescription"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:operatingLanguage
+    used: false
+    guidance: 未利用
+  - name: CoreModel:containedItemClass
+    used: false
+    guidance: 未利用
+  - name: CoreModel:subregisterManager
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_AlternativeExpression"
+  attributes:
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:definition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:description
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:fieldOfApplication
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_AlternativeName"
+  attributes:
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:locale
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_FieldOfApplication"
+  attributes:
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_Locale"
+  attributes:
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:country
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:language
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:characterEncoding
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:citation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::ExtendedModel::RE_SimilarityToSource"
+  attributes:
+  - name: ExtendedModel:identical
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:restyled
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:contextAdded
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:generalization
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:specialization
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:unspecified
+    used: false
+    guidance: 未利用

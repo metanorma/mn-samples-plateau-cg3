@@ -1,0 +1,248 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Registers::LC_ClassCharacteristicDescriptorClass"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:technicalStandard
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Registers::LC_ClassCharacteristicDescriptorItem"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:status
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:definition
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:description
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: LC_Registers:metalanguageObjectDescription
+    used: false
+    guidance: 未利用
+  - name: LC_Registers:metalanguageObjectAttributes
+    used: false
+    guidance: 未利用
+  - name: LC_Registers:referenceToParentClass
+    used: false
+    guidance: 未利用
+  - name: LC_Registers:referenceToSupersededClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:additionInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:amendmentInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:clarificationInformation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:itemClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationLineage
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:specificationSource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Registers::LC_ElementCharacteristicDescriptorClass"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:technicalStandard
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Registers::LC_ElementCharacteristicDescriptorItem"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:definition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:description
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: LC_Registers:metalanguageObjectDescription
+    used: false
+    guidance: 未利用
+  - name: LC_Registers:metalanguageObjectAttributes
+    used: false
+    guidance: 未利用
+  - name: LC_Registers:referenceToParentClass
+    used: false
+    guidance: 未利用
+  - name: LC_Registers:referenceToSupersededClass
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Registers::LC_ElementDescriptorClass"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:technicalStandard
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Registers::LC_ElementDescriptorItem"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:definition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:description
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: LC_Registers:metalanguageObjectDescription
+    used: false
+    guidance: 未利用
+  - name: LC_Registers:metalanguageObjectAttributes
+    used: false
+    guidance: 未利用
+  - name: LC_Registers:referenceToParentClass
+    used: false
+    guidance: 未利用
+  - name: LC_Registers:referenceToSupersededClass
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Registers::LC_LCMLRegister"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:contentSummary
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:operatingLanguage
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:alternativeLanguages
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:version
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:dateOfLastChange
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:citation
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:containedItem
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:containedItemClass
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:manager
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:owner
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:submitter
+    used: false
+    guidance: 未利用

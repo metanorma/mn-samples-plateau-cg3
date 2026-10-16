@@ -1,0 +1,182 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Data quality information - Imagery::LE_Algorithm"
+  attributes:
+  - name: Data quality information - Imagery:citation
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Data quality information - Imagery::LE_NominalResolution"
+  attributes:
+  - name: Data quality information - Imagery:scanningResolution
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:groundResolution
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Data quality information - Imagery::LE_Processing"
+  attributes:
+  - name: Data quality information - Imagery:identifier
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:softwareReference
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:procedureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:documentation
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:runTimeParameters
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:algorithm
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Data quality information - Imagery::LE_ProcessStep"
+  attributes:
+  - name: Lineage information:description
+    used: false
+    guidance: 未利用
+  - name: Lineage information:rationale
+    used: false
+    guidance: 未利用
+  - name: Lineage information:stepDateTime
+    used: false
+    guidance: 未利用
+  - name: Lineage information:processor
+    used: false
+    guidance: 未利用
+  - name: Lineage information:reference
+    used: false
+    guidance: 未利用
+  - name: Lineage information:scope
+    used: false
+    guidance: 未利用
+  - name: Lineage information:source
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:output
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:processingInformation
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:report
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Data quality information - Imagery::LE_ProcessStepReport"
+  attributes:
+  - name: Data quality information - Imagery:name
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:description
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:fileType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Data quality information - Imagery::LE_Source"
+  attributes:
+  - name: Lineage information:description
+    used: false
+    guidance: 未利用
+  - name: Lineage information:sourceSpatialResolution
+    used: false
+    guidance: 未利用
+  - name: Lineage information:sourceReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Lineage information:sourceCitation
+    used: false
+    guidance: 未利用
+  - name: Lineage information:sourceMetadata
+    used: false
+    guidance: 未利用
+  - name: Lineage information:scope
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:processedLevel
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:resolution
+    used: false
+    guidance: 未利用
+  - name: Lineage information:sourceStep
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Data quality information - Imagery::MX_DataFile"
+  attributes:
+  - name: Distribution information:fileFormat
+    used: false
+    guidance: 未利用
+  - name: Distribution information:fileFormat
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Data quality information - Imagery::QE_CoverageResult"
+  attributes:
+  - name: Data quality information - Imagery:spatialRepresentationType
+    used: false
+    guidance: 未利用
+  - name: Content information:resultContentDescription
+    used: false
+    guidance: 未利用
+  - name: Content information:resultContentDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information - Imagery:resultFile
+    used: false
+    guidance: 未利用
+  - name: Distribution information:resultFormat
+    used: false
+    guidance: 未利用
+  - name: Distribution information:resultFormat
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:resultSpatialRepresentation
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:resultSpatialRepresentation
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:resultSpatialRepresentation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Data quality information - Imagery::QE_Usability"
+  attributes:
+  - name: Data quality information:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality information:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality information:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality information:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality information:result
+    used: false
+    guidance: 未利用

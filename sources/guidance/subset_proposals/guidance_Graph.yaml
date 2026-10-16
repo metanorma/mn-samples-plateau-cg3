@@ -1,0 +1,93 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::Possible Excess Model Elements::Graph::DirectedEdge"
+  attributes:
+  - name: Graph:orientation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::Possible Excess Model Elements::Graph::Edge"
+  attributes:
+  - name: Graph:cost
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::Possible Excess Model Elements::Graph::Graph"
+  attributes:
+  - name: Graph:edge
+    used: false
+    guidance: 未利用
+  - name: Graph:node
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::Possible Excess Model Elements::Graph::Node"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::Possible Excess Model Elements::Graph::Path"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Graph::GR_DirectedEdge"
+  attributes:
+  - name: Simple Topology:orientation
+    used: false
+    guidance: 未利用
+  - name: Graph:orientation
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:composite
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:hub
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:primitive
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:side
+    used: false
+    guidance: 未利用
+  - name: Graph:path
+    used: false
+    guidance: 未利用
+  - name: Graph:theGR_Edge
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Graph::GR_Edge"
+  attributes:
+  - name: Graph:cost
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:proxy
+    used: false
+    guidance: 未利用
+  - name: Graph:theGR_DirectedEdge
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Graph::GR_Graph"
+  attributes:
+  - name: Graph:edge
+    used: false
+    guidance: 未利用
+  - name: Graph:node
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Graph::GR_Node"
+  attributes:
+  - name: Simple Topology:position
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:composite
+    used: false
+    guidance: 未利用
+  - name: Simple Topology:spoke
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Spatial Examples from ISO 19107::Application
+    Schema:: Topology Simple::Graph::GR_Path"
+  attributes:
+  - name: Graph:orientation
+    used: false
+    guidance: 未利用
+  - name: Graph:part
+    used: false
+    guidance: 未利用

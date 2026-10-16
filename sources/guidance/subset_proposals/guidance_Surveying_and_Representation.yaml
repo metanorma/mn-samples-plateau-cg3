@@ -1,0 +1,203 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::Surveying and Representation::LA_Point"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:interpolationRole
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:monumentation
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:originalLocation
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:pID
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:pointType
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:productionMethod
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:transAndResult
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::Surveying and Representation::LA_SpatialSource"
+  attributes:
+  - name: Special Classes:acceptance
+    used: false
+    guidance: 未利用
+  - name: Special Classes:availabilityStatus
+    used: false
+    guidance: 未利用
+  - name: Special Classes:extArchiveID
+    used: false
+    guidance: 未利用
+  - name: Special Classes:lifeSpanStamp
+    used: false
+    guidance: 未利用
+  - name: Special Classes:maintype
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:recordation
+    used: false
+    guidance: 未利用
+  - name: Special Classes:sID
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Special Classes:submission
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:measurements
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:procedure
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::Surveying and Representation::LA_BoundaryFaceString"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:bfsID
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:geometry
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:locationByText
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::Surveying and Representation::LA_BoundaryFace"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:bfID
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:geometry
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:locationByText
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::Surveying and Representation::LA_Transformation"
+  attributes:
+  - name: Surveying and Representation:transformation
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:transformedLocation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::Surveying and Representation::LA_PointType"
+  attributes:
+  - name: Surveying and Representation:source
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:control
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:noSource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::Surveying and Representation::LA_SpatialSourceType"
+  attributes:
+  - name: Surveying and Representation:fieldSketch
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:gnssSurvey
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:relativeMeasurement
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:orthoPhoto
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:topoMap
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:video
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::Surveying and Representation::LA_InterpolationType"
+  attributes:
+  - name: Surveying and Representation:midArc
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:start
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:end
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:mid
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:isolated
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::Surveying and Representation::LA_MonumentationType"
+  attributes:
+  - name: Surveying and Representation:beacon
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:cornerstone
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:marker
+    used: false
+    guidance: 未利用
+  - name: Surveying and Representation:notMarked
+    used: false
+    guidance: 未利用

@@ -1,0 +1,155 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::observation::DirectedObservation"
+  attributes:
+  - name: gmlBase:description
+    used: false
+    guidance: 未利用
+  - name: gmlBase:descriptionReference
+    used: false
+    guidance: 未利用
+  - name: gmlBase:name
+    used: false
+    guidance: 未利用
+  - name: gmlBase:identifier
+    used: false
+    guidance: 未利用
+  - name: feature:boundedBy
+    used: false
+    guidance: 未利用
+  - name: observation:validTime
+    used: false
+    guidance: 未利用
+  - name: observation:using
+    used: false
+    guidance: 未利用
+  - name: observation:target
+    used: false
+    guidance: 未利用
+  - name: observation:resultOf
+    used: false
+    guidance: 未利用
+  - name: observation:direction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::observation::DirectedObservationAtDistance"
+  attributes:
+  - name: gmlBase:description
+    used: false
+    guidance: 未利用
+  - name: gmlBase:descriptionReference
+    used: false
+    guidance: 未利用
+  - name: gmlBase:name
+    used: false
+    guidance: 未利用
+  - name: gmlBase:identifier
+    used: false
+    guidance: 未利用
+  - name: feature:boundedBy
+    used: false
+    guidance: 未利用
+  - name: observation:validTime
+    used: false
+    guidance: 未利用
+  - name: observation:using
+    used: false
+    guidance: 未利用
+  - name: observation:target
+    used: false
+    guidance: 未利用
+  - name: observation:resultOf
+    used: false
+    guidance: 未利用
+  - name: observation:direction
+    used: false
+    guidance: 未利用
+  - name: observation:distance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::observation::Observation"
+  attributes:
+  - name: gmlBase:description
+    used: false
+    guidance: 未利用
+  - name: gmlBase:descriptionReference
+    used: false
+    guidance: 未利用
+  - name: gmlBase:name
+    used: false
+    guidance: 未利用
+  - name: gmlBase:identifier
+    used: false
+    guidance: 未利用
+  - name: feature:boundedBy
+    used: false
+    guidance: 未利用
+  - name: observation:validTime
+    used: false
+    guidance: 未利用
+  - name: observation:using
+    used: false
+    guidance: 未利用
+  - name: observation:target
+    used: false
+    guidance: 未利用
+  - name: observation:resultOf
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Observation schema::observation::NamedValue"
+  attributes:
+  - name: observation:name
+    used: false
+    guidance: 未利用
+  - name: observation:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Observation schema::observation::OM_Observation"
+  attributes:
+  - name: observation:phenomenonTime
+    used: false
+    guidance: 未利用
+  - name: observation:resultTime
+    used: false
+    guidance: 未利用
+  - name: observation:validTime
+    used: false
+    guidance: 未利用
+  - name: observation:resultQuality
+    used: false
+    guidance: 未利用
+  - name: observation:parameter
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:featureOfInterest
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:observedProperty
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:observedProperty
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:metadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:metadata
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:result
+    used: false
+    guidance: 未利用
+  - name: observation:procedure
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::Observation schema::observation::OM_Process"
+  attributes: []

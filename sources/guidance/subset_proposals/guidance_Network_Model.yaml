@@ -1,0 +1,56 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Network Model::NT_Network"
+  attributes:
+  - name: Geometric complex:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:subComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:superComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:element
+    used: false
+    guidance: 未利用
+  - name: Link:link
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:junction
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Network Model::NT_WayPoint"
+  attributes:
+  - name: Network Model:avoid
+    used: false
+    guidance: 未利用
+  - name: Network Model:position
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:restriction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Network Model::NT_WayPointList"
+  attributes:
+  - name: Network Model:startPoint
+    used: false
+    guidance: 未利用
+  - name: Network Model:viaPoint
+    used: false
+    guidance: 未利用
+  - name: Network Model:endPoint
+    used: false
+    guidance: 未利用
+  - name: Network Model:isOrdered
+    used: false
+    guidance: 未利用

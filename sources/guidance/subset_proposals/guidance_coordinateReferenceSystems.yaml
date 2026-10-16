@@ -1,0 +1,26 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::coordinateReferenceSystems::TemporalCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: coordinateSystems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: datums:datum
+    used: false
+    guidance: 未利用

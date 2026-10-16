@@ -1,0 +1,302 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_AcquisitionInformation"
+  attributes:
+  - name: Acquisition information - Imagery:acquisitionPlan
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:acquisitionRequirement
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:environmentalConditions
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:instrument
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:objective
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:operation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:platform
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_ContextCode"
+  attributes:
+  - name: Acquisition information - Imagery:acquisition
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:pass
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:wayPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_EnvironmentalRecord"
+  attributes:
+  - name: Acquisition information - Imagery:averageAirTemperature
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:maxRelativeHumidity
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:maxAltitude
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:meterologicalConditions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_Event"
+  attributes:
+  - name: Acquisition information - Imagery:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:trigger
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:context
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:sequence
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:time
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:relatedSensor
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_GeometryTypeCode"
+  attributes:
+  - name: Acquisition information - Imagery:point
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:linear
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:areal
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:strip
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_Instrument"
+  attributes:
+  - name: Acquisition information - Imagery:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:type
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_Objective"
+  attributes:
+  - name: Acquisition information - Imagery:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:priority
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:type
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:function
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:extent
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:pass
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:sensingInstrument
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_ObjectiveTypeCode"
+  attributes:
+  - name: Acquisition information - Imagery:instantaneousCollection
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:persistentView
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:survey
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_Operation"
+  attributes:
+  - name: Acquisition information - Imagery:description
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:status
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:type
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:childOperation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:objective
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:plan
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:platform
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:significantEvent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_OperationTypeCode"
+  attributes:
+  - name: Acquisition information - Imagery:real
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:simulated
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:synthetic
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_Plan"
+  attributes:
+  - name: Acquisition information - Imagery:type
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:status
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:operation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:satisfiedRequirement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_Platform"
+  attributes:
+  - name: Acquisition information - Imagery:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:description
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:sponsor
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_PlatformPass"
+  attributes:
+  - name: Acquisition information - Imagery:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:extent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_PriorityCode"
+  attributes:
+  - name: Acquisition information - Imagery:critical
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:highImportance
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:mediumImportance
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:lowImportance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_RequestedDate"
+  attributes:
+  - name: Acquisition information - Imagery:requestedDateOfCollection
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:latestAcceptableDate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_Requirement"
+  attributes:
+  - name: Acquisition information - Imagery:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:requestor
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:recipient
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:priority
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:requestedDate
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:expiryDate
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:satisifiedPlan
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_SequenceCode"
+  attributes:
+  - name: Acquisition information - Imagery:start
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:end
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:instantaneous
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Acquisition information - Imagery::MI_TriggerCode"
+  attributes:
+  - name: Acquisition information - Imagery:automatic
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:manual
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:preProgrammed
+    used: false
+    guidance: 未利用

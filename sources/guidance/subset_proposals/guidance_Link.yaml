@@ -1,0 +1,89 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Link::NT_Link"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Link:isTraversable
+    used: false
+    guidance: 未利用
+  - name: Link:isUturnPossible
+    used: false
+    guidance: 未利用
+  - name: Link:routeSegmentCategory
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:advisory
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:constraint
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:endTurn
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:startTurn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Link::NT_RouteSegmentCategory"
+  attributes:
+  - name: Link:road
+    used: false
+    guidance: 未利用
+  - name: Link:ferry
+    used: false
+    guidance: 未利用
+  - name: Link:rail
+    used: false
+    guidance: 未利用
+  - name: Link:walkway
+    used: false
+    guidance: 未利用
+  - name: Link:subway
+    used: false
+    guidance: 未利用
+  - name: Link:airway
+    used: false
+    guidance: 未利用
+  - name: Link:lightRail
+    used: false
+    guidance: 未利用
+  - name: Link:bus
+    used: false
+    guidance: 未利用
+  - name: Link:airRoute
+    used: false
+    guidance: 未利用
+  - name: Link:bikepath
+    used: false
+    guidance: 未利用
+  - name: Link:toll
+    used: false
+    guidance: 未利用
+  - name: Link:tunnel
+    used: false
+    guidance: 未利用
+  - name: Link:endway
+    used: false
+    guidance: 未利用
+  - name: Link:bridge
+    used: false
+    guidance: 未利用

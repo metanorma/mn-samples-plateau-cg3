@@ -1,0 +1,77 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111-2
+    Edition 1 Parametric value::CD_ParametricDatum"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:realizationEpoch
+    used: false
+    guidance: 未利用
+  - name: Datums:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Datums:scope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111-2
+    Edition 1 Parametric value::CS_ParametricCS"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111-2
+    Edition 1 Parametric value::SC_ParametricCRS"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:scope
+    used: false
+    guidance: 未利用
+  - name: Coordinate Systems:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+  - name: ISO 19111-2 Edition 1 Parametric value:coordinateSystem
+    used: false
+    guidance: 未利用
+  - name: ISO 19111-2 Edition 1 Parametric value:datum
+    used: false
+    guidance: 未利用

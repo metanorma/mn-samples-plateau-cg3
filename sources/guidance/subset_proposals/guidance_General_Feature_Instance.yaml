@@ -1,0 +1,8 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::General Feature Instance::GFI_DomainFeature"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19156 All::ISO 19156:2011 Observations
+    and Measurements::General Feature Instance::GFI_Feature"
+  attributes: []

@@ -1,0 +1,44 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::Farmers Register::Farmer"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Party:extPID
+    used: false
+    guidance: 未利用
+  - name: Party:name
+    used: false
+    guidance: 未利用
+  - name: Party:pID
+    used: false
+    guidance: 未利用
+  - name: Party:role
+    used: false
+    guidance: 未利用
+  - name: Party:type
+    used: false
+    guidance: 未利用
+  - name: Farmers Register:farmerID
+    used: false
+    guidance: 未利用
+  - name: Farmers Register:farmerName
+    used: false
+    guidance: 未利用
+  - name: Farmers Register:farmerAddress
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用

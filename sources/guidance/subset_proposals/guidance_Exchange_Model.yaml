@@ -1,0 +1,50 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Exchange
+    Model::GI_Add"
+  attributes:
+  - name: Instance Model:object
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Exchange
+    Model::GI_Delete"
+  attributes:
+  - name: Exchange Model:uuidref
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Exchange
+    Model::GI_Modify"
+  attributes:
+  - name: Instance Model:object
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Exchange
+    Model::GI_Root"
+  attributes:
+  - name: Exchange Model:version
+    used: false
+    guidance: 未利用
+  - name: Exchange Model:timeStamp
+    used: false
+    guidance: 未利用
+  - name: Exchange Model:exchangeMode
+    used: false
+    guidance: 未利用
+  - name: Exchange Metadata:metadata
+    used: false
+    guidance: 未利用
+  - name: Exchange Model:update
+    used: false
+    guidance: 未利用
+  - name: Instance Model:dataSet
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Exchange
+    Model::GI_Update"
+  attributes:
+  - name: Exchange Model:theGI_UpdatePrimitive
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::Exchange
+    Model::GI_UpdatePrimitive"
+  attributes: []

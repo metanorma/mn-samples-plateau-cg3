@@ -1,0 +1,6 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Orphans::New::expr.evaluationType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::New::expr.type"
+  attributes: []

@@ -1,0 +1,236 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::JulianDate"
+  attributes:
+  - name: Temporal Reference System:indeterminatePosition
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:coordinateValue
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:frame
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_CalDate"
+  attributes:
+  - name: Temporal Reference System:indeterminatePosition
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:calDate
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:calendarEraName
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:frame
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_Calendar"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:name
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:referenceFrame
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:timeBasis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_CalendarEra"
+  attributes:
+  - name: Temporal Reference System:name
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:referenceEvent
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:referenceDate
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:julianReference
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:epochOfUse
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:datingSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_Clock"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:name
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:referenceEvent
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:referenceTime
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:utcReference
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:dateBasis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_ClockTime"
+  attributes:
+  - name: Temporal Reference System:clkTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_Coordinate"
+  attributes:
+  - name: Temporal Reference System:indeterminatePosition
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:coordinateValue
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:frame
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_CoordinateSystem"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:name
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:origin
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:interval
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_DateAndTime"
+  attributes:
+  - name: Temporal Reference System:clkTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_OrdinalEra"
+  attributes:
+  - name: Temporal Reference System:name
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:begin
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:end
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:group
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:member
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:position
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:system
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_OrdinalPosition"
+  attributes:
+  - name: Temporal Reference System:indeterminatePosition
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:frame
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_OrdinalReferenceSystem"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:name
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:component
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_Position"
+  attributes:
+  - name: Temporal Reference System:anyOther
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:date8601
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:time8601
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:dateTime8601
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_ReferenceSystem"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:name
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:domainOfValidity
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19108 All::ISO 19108:2006 Temporal Schema::Temporal
+    Reference System::TM_TemporalPosition"
+  attributes:
+  - name: Temporal Reference System:indeterminatePosition
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:frame
+    used: false
+    guidance: 未利用

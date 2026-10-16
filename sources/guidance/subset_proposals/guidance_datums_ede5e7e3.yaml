@@ -1,0 +1,38 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::datums::TemporalDatum"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:realizationEpoch
+    used: false
+    guidance: 未利用
+  - name: Datums:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Datums:scope
+    used: false
+    guidance: 未利用
+  - name: datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: datums:realizationEpoch
+    used: false
+    guidance: 未利用
+  - name: datums:origin
+    used: false
+    guidance: 未利用

@@ -1,0 +1,218 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Network::MM_FixedRouteSegment"
+  attributes:
+  - name: Multimodal Network:isTraversable
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:routeSegmentMode
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:subComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:superComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:element
+    used: false
+    guidance: 未利用
+  - name: Link:link
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:junction
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turn
+    used: false
+    guidance: 未利用
+  - name: Multimodal Routing:scheduleInfo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Network::MM_Network"
+  attributes:
+  - name: Multimodal Network:componentRouteSegment
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:transferNode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Network::MM_NonFixedRouteSegment"
+  attributes:
+  - name: Multimodal Network:isTraversable
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:routeSegmentMode
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:subComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:superComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:element
+    used: false
+    guidance: 未利用
+  - name: Link:link
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:junction
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Network::MM_RouteSegment"
+  attributes:
+  - name: Multimodal Network:isTraversable
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:routeSegmentMode
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:subComplex
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:superComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:element
+    used: false
+    guidance: 未利用
+  - name: Link:link
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:junction
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Network::MM_Transfer"
+  attributes:
+  - name: Multimodal Network:isTraversable
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:isTheDisabledAccessible
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:advisory
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:constraint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Network::MM_TransferNode"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:junctionType
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:transferNodeType
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:networkPosition
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:spoke
+    used: false
+    guidance: 未利用
+  - name: Link:spoke
+    used: false
+    guidance: 未利用
+  - name: Network Model:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turn
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:spoke
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Network::MM_TransferNodeType"
+  attributes:
+  - name: Multimodal Network:busStop
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:taxiStop
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:subwayStation
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:lightrailStation
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:railwayStation
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:interCityBusTerminal
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:platform
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:gate
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:port
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:airport
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:parkAndRide
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:publicParkingLot
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:privateParkingLot
+    used: false
+    guidance: 未利用

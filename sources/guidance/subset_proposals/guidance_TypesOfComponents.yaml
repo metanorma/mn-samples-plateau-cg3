@@ -1,0 +1,167 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::TypesOfComponents::Construct"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:valueInformation
+    used: false
+    guidance: 未利用
+  - name: Address:lifecycleStage
+    used: false
+    guidance: 未利用
+  - name: Address:lifespan
+    used: false
+    guidance: 未利用
+  - name: Address:provenance
+    used: false
+    guidance: 未利用
+  - name: Address:locale
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:segment
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:level
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:position
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:componentValue
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:UCode
+    used: false
+    guidance: 未利用
+  - name: Address:referenceObject
+    used: false
+    guidance: 未利用
+  - name: Address:scopeComponent
+    used: false
+    guidance: 未利用
+  - name: Address:valueComponent
+    used: false
+    guidance: 未利用
+  - name: Profile_Minimal:address
+    used: false
+    guidance: 未利用
+  - name: 'TypesOfComponents:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::TypesOfComponents::Element"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:valueInformation
+    used: false
+    guidance: 未利用
+  - name: Address:lifecycleStage
+    used: false
+    guidance: 未利用
+  - name: Address:lifespan
+    used: false
+    guidance: 未利用
+  - name: Address:provenance
+    used: false
+    guidance: 未利用
+  - name: Address:locale
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:segment
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:level
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:position
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:componentValue
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:UCode
+    used: false
+    guidance: 未利用
+  - name: Address:referenceObject
+    used: false
+    guidance: 未利用
+  - name: Address:scopeComponent
+    used: false
+    guidance: 未利用
+  - name: Address:valueComponent
+    used: false
+    guidance: 未利用
+  - name: Profile_Minimal:address
+    used: false
+    guidance: 未利用
+  - name: 'TypesOfComponents:'
+    used: false
+    guidance: 未利用
+  - name: 'TypesOfComponents:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-4:2017 Addressing
+    - International postal address components and template languages::Postal Address
+    Profile of ISO 19160-1::TypesOfComponents::Segment"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:valueInformation
+    used: false
+    guidance: 未利用
+  - name: Address:lifecycleStage
+    used: false
+    guidance: 未利用
+  - name: Address:lifespan
+    used: false
+    guidance: 未利用
+  - name: Address:provenance
+    used: false
+    guidance: 未利用
+  - name: Address:locale
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:segment
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:level
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:position
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:componentValue
+    used: false
+    guidance: 未利用
+  - name: Postal Address Profile of ISO 19160-1:UCode
+    used: false
+    guidance: 未利用
+  - name: Address:referenceObject
+    used: false
+    guidance: 未利用
+  - name: Address:scopeComponent
+    used: false
+    guidance: 未利用
+  - name: Address:valueComponent
+    used: false
+    guidance: 未利用
+  - name: Profile_Minimal:address
+    used: false
+    guidance: 未利用

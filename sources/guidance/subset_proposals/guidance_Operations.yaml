@@ -1,0 +1,14 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Operations::Building"
+  attributes:
+  - name: Operations:temp
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Operations::Temperature"
+  attributes:
+  - name: Operations:temp
+    used: false
+    guidance: 未利用

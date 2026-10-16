@@ -1,0 +1,419 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_SpatialUnit"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_SpatialUnitGroup"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:hierachyLevel
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:name
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:sugID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:set
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_LegalSpaceBuildingUnit"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extPhysicalBuildingUnitID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_LegalSpaceUtilityNetwork"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extPhysicalNetworkID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:status
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_Level"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:lID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:name
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:registerType
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:structure
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_AreaValue"
+  attributes:
+  - name: Spatial Unit:areaSize
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_VolumeValue"
+  attributes:
+  - name: Spatial Unit:volumeSize
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_DimensionType"
+  attributes:
+  - name: Spatial Unit:0D
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:1D
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:2D
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:3D
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:liminal
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_BuildingUnitType"
+  attributes:
+  - name: Spatial Unit:shared
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:individual
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_SurfaceRelationType"
+  attributes:
+  - name: Spatial Unit:mixed
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:below
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:above
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:onSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_UtilityNetworkStatusType"
+  attributes:
+  - name: Spatial Unit:inUse
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:outOfUse
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:planned
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_UtilityNetworkType"
+  attributes:
+  - name: Spatial Unit:chemicals
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:electricity
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:gas
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:heating
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:oil
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:telecommunication
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:water
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_RegisterType"
+  attributes:
+  - name: Spatial Unit:urban
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:rural
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:mining
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:publicSpace
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:forest
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:all
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_StructureType"
+  attributes:
+  - name: Spatial Unit:point
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:polygon
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:text
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:topological
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:unstructuredLine
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:sketch
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_LevelContentType"
+  attributes:
+  - name: Spatial Unit:building
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:customary
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:mixed
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:network
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:primaryRight
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:responsibility
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:restriction
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:informal
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_AreaType"
+  attributes:
+  - name: Spatial Unit:officialArea
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:nonOfficalArea
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:calculatedArea
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surveyedArea
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Spatial Unit::LA_VolumeType"
+  attributes:
+  - name: Spatial Unit:officialVolume
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:nonOfficalVolume
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:calculatedVolume
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surveyedVolume
+    used: false
+    guidance: 未利用

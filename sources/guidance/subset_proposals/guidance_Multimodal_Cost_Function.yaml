@@ -1,0 +1,95 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_CostElement"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_CostFunction"
+  attributes:
+  - name: Cost Function:description
+    used: false
+    guidance: 未利用
+  - name: Cost Function:formula
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:link
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:turn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_CostType"
+  attributes:
+  - name: Multimodal Cost Function:waitingTime
+    used: false
+    guidance: 未利用
+  - name: Multimodal Cost Function:travelTime
+    used: false
+    guidance: 未利用
+  - name: Multimodal Cost Function:totalCost
+    used: false
+    guidance: 未利用
+  - name: Multimodal Cost Function:fares
+    used: false
+    guidance: 未利用
+  - name: Multimodal Cost Function:wayPointsCost
+    used: false
+    guidance: 未利用
+  - name: Multimodal Cost Function:numberOfTransfers
+    used: false
+    guidance: 未利用
+  - name: Multimodal Cost Function:distance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_Counts"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_Distance"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_Fares"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_MonetaryCost"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_NumberOfTransfers"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_Time"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_TotalCost"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_TravelTime"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_WaitingTime"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_WayPointsCost"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_WeightedCost"
+  attributes:
+  - name: Multimodal Cost Function:targetUnit
+    used: false
+    guidance: 未利用
+  - name: Multimodal Cost Function:term
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Cost Function::MN_WeightedCostFunctionTerm"
+  attributes:
+  - name: Multimodal Cost Function:unit
+    used: false
+    guidance: 未利用
+  - name: Multimodal Cost Function:type
+    used: false
+    guidance: 未利用
+  - name: Multimodal Cost Function:weight
+    used: false
+    guidance: 未利用

@@ -1,0 +1,23 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecContentAndStructure::ContentAndStructure"
+  attributes:
+  - name: SpecContentAndStructure:narrativeDescription
+    used: false
+    guidance: 未利用
+  - name: Application schema information:applicationSchema
+    used: false
+    guidance: 未利用
+  - name: Content information:featureCatalogue
+    used: false
+    guidance: 未利用
+  - name: SpecScope:scope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecContentAndStructure::ContentAndStructureSection"
+  attributes:
+  - name: SpecContentAndStructure:content
+    used: false
+    guidance: 未利用

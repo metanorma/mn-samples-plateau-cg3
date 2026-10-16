@@ -1,0 +1,173 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_ClassCharacteristic"
+  attributes:
+  - name: LC_LandCoverClassStructure:describedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_Element"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_ElementPresenceType"
+  attributes:
+  - name: LC_LandCoverClassStructure:fixed
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:exclusive
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:conditional
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:sequentialTemporalRelationship
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_ElementRelationship"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_HorizontalPattern"
+  attributes:
+  - name: LC_LandCoverClassStructure:patternType
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:patternCoverPercentage
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:patternOccurrence
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_LandCoverClass"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: 'Metadata entity set information:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_LandCoverClassificationSystem"
+  attributes:
+  - name: LC_LandCoverClassStructure:classificationSystemClass
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_LandCoverClassificationSystemMetaLanguage"
+  attributes:
+  - name: LC_LandCoverClassStructure:landCoverClassDescription
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_LandCoverDescriptor"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_OnTopType"
+  attributes:
+  - name: LC_LandCoverClassStructure:baseline
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:previousE1
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:previousE2
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:previousE3
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:previousAll
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:stratum1E1
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:stratum1All
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:stratum2E1
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:stratum2All
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_SequentialTemporalRelationshipType"
+  attributes:
+  - name: LC_LandCoverClassStructure:sequentialSameYear
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:sequentialOtherYear
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_Stratum"
+  attributes:
+  - name: LC_LandCoverClassStructure:name
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_LandCoverClassStructure::LC_StratumPresenceType"
+  attributes:
+  - name: LC_LandCoverClassStructure:fixed
+    used: false
+    guidance: 未利用
+  - name: LC_LandCoverClassStructure:conditional
+    used: false
+    guidance: 未利用

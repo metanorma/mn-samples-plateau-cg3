@@ -1,0 +1,140 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Party::LA_Party"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Party:extPID
+    used: false
+    guidance: 未利用
+  - name: Party:name
+    used: false
+    guidance: 未利用
+  - name: Party:pID
+    used: false
+    guidance: 未利用
+  - name: Party:role
+    used: false
+    guidance: 未利用
+  - name: Party:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Party::LA_GroupParty"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Party:extPID
+    used: false
+    guidance: 未利用
+  - name: Party:name
+    used: false
+    guidance: 未利用
+  - name: Party:pID
+    used: false
+    guidance: 未利用
+  - name: Party:role
+    used: false
+    guidance: 未利用
+  - name: Party:type
+    used: false
+    guidance: 未利用
+  - name: Party:groupID
+    used: false
+    guidance: 未利用
+  - name: Party:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Party::LA_PartyType"
+  attributes:
+  - name: Party:naturalPerson
+    used: false
+    guidance: 未利用
+  - name: Party:nonNaturalPerson
+    used: false
+    guidance: 未利用
+  - name: Party:baunit
+    used: false
+    guidance: 未利用
+  - name: Party:group
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Party::LA_PartyRoleType"
+  attributes:
+  - name: Party:bank
+    used: false
+    guidance: 未利用
+  - name: Party:certifiedSurveyor
+    used: false
+    guidance: 未利用
+  - name: Party:citizen
+    used: false
+    guidance: 未利用
+  - name: Party:conveyancer
+    used: false
+    guidance: 未利用
+  - name: Party:employee
+    used: false
+    guidance: 未利用
+  - name: Party:farmer
+    used: false
+    guidance: 未利用
+  - name: Party:moneyProvider
+    used: false
+    guidance: 未利用
+  - name: Party:notary
+    used: false
+    guidance: 未利用
+  - name: Party:stateAdministrator
+    used: false
+    guidance: 未利用
+  - name: Party:surveyor
+    used: false
+    guidance: 未利用
+  - name: Party:writer
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::Party::LA_GroupPartyType"
+  attributes:
+  - name: Party:tribe
+    used: false
+    guidance: 未利用
+  - name: Party:association
+    used: false
+    guidance: 未利用
+  - name: Party:family
+    used: false
+    guidance: 未利用
+  - name: Party:baunitGroup
+    used: false
+    guidance: 未利用

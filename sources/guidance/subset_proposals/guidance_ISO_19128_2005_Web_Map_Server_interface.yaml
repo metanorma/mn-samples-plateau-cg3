@@ -1,0 +1,59 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19128 All::ISO 19128:2005 Web Map Server
+    interface::MS_Abstract"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19128 All::ISO 19128:2005 Web Map Server
+    interface::MS_Keywords"
+  attributes:
+  - name: ISO 19128:2005 Web Map Server interface:word
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19128 All::ISO 19128:2005 Web Map Server
+    interface::MS_Layer"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19128 All::ISO 19128:2005 Web Map Server
+    interface::MS_LayerList"
+  attributes:
+  - name: ISO 19128:2005 Web Map Server interface:layer
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19128 All::ISO 19128:2005 Web Map Server
+    interface::MS_Title"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19128 All::ISO 19128:2005 Web Map Server
+    interface::MS_Viewer_Context"
+  attributes:
+  - name: ISO 19128:2005 Web Map Server interface:version
+    used: false
+    guidance: 未利用
+  - name: ISO 19128:2005 Web Map Server interface:layerList
+    used: false
+    guidance: 未利用
+  - name: ISO 19128:2005 Web Map Server interface:window
+    used: false
+    guidance: 未利用
+  - name: ISO 19128:2005 Web Map Server interface:title
+    used: false
+    guidance: 未利用
+  - name: ISO 19128:2005 Web Map Server interface:abstract
+    used: false
+    guidance: 未利用
+  - name: ISO 19128:2005 Web Map Server interface:boundingBox
+    used: false
+    guidance: 未利用
+  - name: ISO 19128:2005 Web Map Server interface:keywords
+    used: false
+    guidance: 未利用
+  - name: ISO 19128:2005 Web Map Server interface:contact
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19128 All::ISO 19128:2005 Web Map Server
+    interface::MS_Window"
+  attributes:
+  - name: ISO 19128:2005 Web Map Server interface:width
+    used: false
+    guidance: 未利用
+  - name: ISO 19128:2005 Web Map Server interface:height
+    used: false
+    guidance: 未利用

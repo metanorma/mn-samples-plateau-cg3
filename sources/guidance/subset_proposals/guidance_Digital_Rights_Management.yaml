@@ -1,0 +1,26 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Digital Rights Management::LBS_License"
+  attributes:
+  - name: Digital Rights Management:right
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Digital Rights Management::LBS_Resource"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Digital Rights Management::LBS_Right"
+  attributes:
+  - name: Digital Rights Management:condition
+    used: false
+    guidance: 未利用
+  - name: Digital Rights Management:subject
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:owner
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Digital Rights Management::LBS_RightsCondition"
+  attributes: []

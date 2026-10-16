@@ -1,0 +1,8 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::Open GIS Consortium::Services::GC_BasicService"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Informative::Open GIS Consortium::Services::GC_Capability"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Informative::Open GIS Consortium::Services::GC_GeoParser"
+  attributes: []

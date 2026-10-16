@@ -1,0 +1,89 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing Offset::LRO_LateralOffsetDirection"
+  attributes:
+  - name: Linear Referencing Offset:right
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing Offset:left
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing Offset::LRO_LateralOffsetDistanceExpression"
+  attributes:
+  - name: Linear Referencing System:distanceAlong
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:referent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing Offset::LRO_LateralOffsetExpression"
+  attributes:
+  - name: Linear Referencing Offset:offsetLateralDistance
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing Offset:lateralOffsetReferent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing Offset::LRO_LateralOffsetReferent"
+  attributes:
+  - name: Linear Referencing Offset:feature
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing Offset:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing Offset::LRO_LRMWithOffset"
+  attributes:
+  - name: Linear Referencing System:name
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:type
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:units
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing System:constraint
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing Offset:offsetUnits
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing Offset:positiveLateralOffsetDirection
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing Offset:positiveVerticalOffsetDirection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing Offset::LRO_VerticalOffsetDirection"
+  attributes:
+  - name: Linear Referencing Offset:up
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing Offset:down
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing Offset::LRO_VerticalOffsetExpression"
+  attributes:
+  - name: Linear Referencing Offset:offsetVerticalDistance
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing Offset:verticalOffsetReferent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19148 All::ISO 19148:2012 Linear Referencing
+    ::Linear Referencing Offset::LRO_VerticalOffsetReferent"
+  attributes:
+  - name: Linear Referencing Offset:feature
+    used: false
+    guidance: 未利用
+  - name: Linear Referencing Offset:type
+    used: false
+    guidance: 未利用

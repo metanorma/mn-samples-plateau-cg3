@@ -1,0 +1,23 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Surfaces::Spline
+    Surfaces::BSplineSurfaceForm"
+  attributes:
+  - name: Spline Surfaces:planar
+    used: false
+    guidance: 未利用
+  - name: Spline Surfaces:cylindrical
+    used: false
+    guidance: 未利用
+  - name: Spline Surfaces:conical
+    used: false
+    guidance: 未利用
+  - name: Spline Surfaces:spherical
+    used: false
+    guidance: 未利用
+  - name: Spline Surfaces:toroidal
+    used: false
+    guidance: 未利用
+  - name: Spline Surfaces:unspecified
+    used: false
+    guidance: 未利用

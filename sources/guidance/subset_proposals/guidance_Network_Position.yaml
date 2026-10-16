@@ -1,0 +1,23 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Network Position::NT_LinkPosition"
+  attributes:
+  - name: Network Position:linkMeasure
+    used: false
+    guidance: 未利用
+  - name: Network Position:marker
+    used: false
+    guidance: 未利用
+  - name: Link:link
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Network Position::NT_NetworkPosition"
+  attributes:
+  - name: Network Position:node
+    used: false
+    guidance: 未利用
+  - name: Network Position:linkPosition
+    used: false
+    guidance: 未利用

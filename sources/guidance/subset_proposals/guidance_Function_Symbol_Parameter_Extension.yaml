@@ -1,0 +1,89 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Function Symbol Parameter Extension::PF_ParameterizedFeaturePortrayalFunction"
+  attributes:
+  - name: Portrayal Function:identifier
+    used: false
+    guidance: 未利用
+  - name: Portrayal Function:title
+    used: false
+    guidance: 未利用
+  - name: Portrayal Function:specification
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+  - name: Portrayal Function:catalogue
+    used: false
+    guidance: 未利用
+  - name: Function Symbol Parameter Extension:mapping
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Function Symbol Parameter Extension::PF_ParameterizedSymbolAttributeFunction"
+  attributes:
+  - name: Methodology for feature cataloguing:featureProperty
+    used: false
+    guidance: 未利用
+  - name: Symbol Parameter Extension:property
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Function Symbol Parameter Extension::PF_SimpleParameterizedFeaturePortrayalFunction"
+  attributes:
+  - name: Portrayal Function:identifier
+    used: false
+    guidance: 未利用
+  - name: Portrayal Function:title
+    used: false
+    guidance: 未利用
+  - name: Portrayal Function:specification
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+  - name: Portrayal Function:catalogue
+    used: false
+    guidance: 未利用
+  - name: Symbol:symbol
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Function Symbol Parameter Extension::PF_ConditionalParameterizedFeaturePortrayalFunction"
+  attributes:
+  - name: Portrayal Function:identifier
+    used: false
+    guidance: 未利用
+  - name: Portrayal Function:title
+    used: false
+    guidance: 未利用
+  - name: Portrayal Function:specification
+    used: false
+    guidance: 未利用
+  - name: Methodology for feature cataloguing:featureType
+    used: false
+    guidance: 未利用
+  - name: Portrayal Function:catalogue
+    used: false
+    guidance: 未利用
+  - name: Conditional Function Extension:condition
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Function Symbol Parameter Extension::PF_SymbolAttributeFunctionParameterList"
+  attributes:
+  - name: Function Symbol Parameter Extension:featurePropertyValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Function Symbol Parameter Extension::PF_SymbolAttributeFunctionContextualParameterList"
+  attributes:
+  - name: Function Symbol Parameter Extension:featurePropertyValue
+    used: false
+    guidance: 未利用
+  - name: Function Symbol Parameter Extension:context
+    used: false
+    guidance: 未利用

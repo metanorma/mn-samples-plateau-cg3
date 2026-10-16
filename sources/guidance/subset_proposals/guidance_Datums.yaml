@@ -1,0 +1,662 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::Calendar"
+  attributes:
+  - name: Datums:prolepticGregorian
+    used: false
+    guidance: 未利用
+  - name: Datums:userDefined
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::Datum"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:publicationDate
+    used: false
+    guidance: 未利用
+  - name: Datums:conventionalRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::DefiningParameter"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Datums:ParameterValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::DynamicGeodeticReferenceFrame"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:publicationDate
+    used: false
+    guidance: 未利用
+  - name: Datums:conventionalRS
+    used: false
+    guidance: 未利用
+  - name: Datums:referenceEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:ellipsoid
+    used: false
+    guidance: 未利用
+  - name: Datums:primeMeridian
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::DynamicVerticalReferenceFrame"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:publicationDate
+    used: false
+    guidance: 未利用
+  - name: Datums:conventionalRS
+    used: false
+    guidance: 未利用
+  - name: Datums:realizationMethod
+    used: false
+    guidance: 未利用
+  - name: Datums:referenceEpoch
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::Ellipsoid"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Datums:semiMajorAxis
+    used: false
+    guidance: 未利用
+  - name: Datums:secondDefiningParameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::EngineeringDatum"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:publicationDate
+    used: false
+    guidance: 未利用
+  - name: Datums:conventionalRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::Ensemble"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Datums:ensembleAccuracy
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:datum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::GeodeticReferenceFrame"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:publicationDate
+    used: false
+    guidance: 未利用
+  - name: Datums:conventionalRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+  - name: Datums:ellipsoid
+    used: false
+    guidance: 未利用
+  - name: Datums:primeMeridian
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::ImageDatum"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:publicationDate
+    used: false
+    guidance: 未利用
+  - name: Datums:conventionalRS
+    used: false
+    guidance: 未利用
+  - name: Datums:pixelinCell
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::ParametricDatum"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:publicationDate
+    used: false
+    guidance: 未利用
+  - name: Datums:conventionalRS
+    used: false
+    guidance: 未利用
+  - name: Datums:datumDefiningParameter
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::PixelinCell"
+  attributes:
+  - name: Datums:cellCenter
+    used: false
+    guidance: 未利用
+  - name: Datums:cellCorner
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::PrimeMeridian"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Datums:greenwichLongitude
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::RealizationMethod"
+  attributes:
+  - name: Datums:levelling
+    used: false
+    guidance: 未利用
+  - name: Datums:geoid
+    used: false
+    guidance: 未利用
+  - name: Datums:tidal
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::SecondDefiningParameter"
+  attributes:
+  - name: Datums:inverseFlattening
+    used: false
+    guidance: 未利用
+  - name: Datums:semiMinorAxis
+    used: false
+    guidance: 未利用
+  - name: Datums:isSphere
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::TemporalDatum"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:publicationDate
+    used: false
+    guidance: 未利用
+  - name: Datums:conventionalRS
+    used: false
+    guidance: 未利用
+  - name: Datums:temporalOrigin
+    used: false
+    guidance: 未利用
+  - name: Datums:calendar
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 3::Datums::VerticalReferenceFrame"
+  attributes:
+  - name: Common Classes:name
+    used: false
+    guidance: 未利用
+  - name: Common Classes:identifier
+    used: false
+    guidance: 未利用
+  - name: Common Classes:alias
+    used: false
+    guidance: 未利用
+  - name: Common Classes:remarks
+    used: false
+    guidance: 未利用
+  - name: Common Classes:domain
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:publicationDate
+    used: false
+    guidance: 未利用
+  - name: Datums:conventionalRS
+    used: false
+    guidance: 未利用
+  - name: Datums:realizationMethod
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:referenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Datums::CD_Datum"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:realizationEpoch
+    used: false
+    guidance: 未利用
+  - name: Datums:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Datums:scope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Datums::CD_Ellipsoid"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Datums:semiMajorAxis
+    used: false
+    guidance: 未利用
+  - name: Datums:secondDefiningParameter
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Datums::CD_EngineeringDatum"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:realizationEpoch
+    used: false
+    guidance: 未利用
+  - name: Datums:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Datums:scope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Datums::CD_GeodeticDatum"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:realizationEpoch
+    used: false
+    guidance: 未利用
+  - name: Datums:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Datums:scope
+    used: false
+    guidance: 未利用
+  - name: Datums:ellipsoid
+    used: false
+    guidance: 未利用
+  - name: Datums:primeMeridian
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Datums::CD_ImageDatum"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:realizationEpoch
+    used: false
+    guidance: 未利用
+  - name: Datums:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Datums:scope
+    used: false
+    guidance: 未利用
+  - name: Datums:pixelinCell
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Datums::CD_PixelinCell"
+  attributes:
+  - name: Datums:cellCenter
+    used: false
+    guidance: 未利用
+  - name: Datums:cellCorner
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Datums::CD_PrimeMeridian"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Datums:greenwichLongitude
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Datums::CD_SecondDefiningParameter"
+  attributes:
+  - name: Datums:inverseFlattening
+    used: false
+    guidance: 未利用
+  - name: Datums:semiMinorAxis
+    used: false
+    guidance: 未利用
+  - name: Datums:isSphere
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19111 Referencing by coordinates::ISO 19111
+    Edition 2::Datums::CD_VerticalDatum"
+  attributes:
+  - name: Identified Objects:identifier
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:alias
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:remarks
+    used: false
+    guidance: 未利用
+  - name: Identified Objects:name
+    used: false
+    guidance: 未利用
+  - name: Datums:anchorDefinition
+    used: false
+    guidance: 未利用
+  - name: Datums:realizationEpoch
+    used: false
+    guidance: 未利用
+  - name: Datums:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Datums:scope
+    used: false
+    guidance: 未利用

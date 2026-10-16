@@ -1,0 +1,1277 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::AnyFeature"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::AttributeType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::CoverageFunctionAttributeType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::FeatureAggregationType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:roleName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::FeatureAssociationRole"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::FeatureAssociationType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:roleName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::FeatureCompositionType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:roleName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::FeatureType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:isAbstract
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:carrierOfCharacteristics
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:superType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureTypeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::IdentifiedType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::LocationAttributeType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::MetadataAttributeType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::Operation"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:signature
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::PropertyType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::QualityAttributeType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::SpatialAssociationType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:roleName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::SpatialAttributeType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::TemporalAssociationType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:roleName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::TemporalAttributeType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::ThematicAttributeType"
+  attributes:
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:designation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theFeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::General Feature Model::ValueAssignmentType"
+  attributes:
+  - name: General Feature Model:assertion
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:derivation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:inheritance
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:observation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_AggregationType"
+  attributes:
+  - name: General Feature Model:typeName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:isAbstract
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:carrierOfCharacteristics
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:linkBetween
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_InheritanceRelation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_InheritanceRelation
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:includes
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:roleName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_Operation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_AssociationRole"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_AssociationType"
+  attributes:
+  - name: General Feature Model:typeName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:isAbstract
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:carrierOfCharacteristics
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:linkBetween
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_InheritanceRelation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_InheritanceRelation
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:includes
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:roleName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_Operation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_AttributeType"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_Constraint"
+  attributes:
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_CycleType"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_EventType"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_FeatureDomain"
+  attributes:
+  - name: General Feature Model:featureType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:setOfTypes
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:feature
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:setOfFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_FeatureType"
+  attributes:
+  - name: General Feature Model:typeName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:isAbstract
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:carrierOfCharacteristics
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:linkBetween
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_InheritanceRelation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_InheritanceRelation
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureTypeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_InheritanceRelation"
+  attributes:
+  - name: General Feature Model:name
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:uniqueInstance
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:subtype
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:supertype
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_LocationalAttributeType"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_MetaDataAttributeType"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_Operation"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:signature
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:affectsValuesOf
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:dependsOn
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:observesValuesOf
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:triggeredByValuesOf
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_PropertyType"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_QualityAttributeType"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_SpatialAssociationType"
+  attributes:
+  - name: General Feature Model:typeName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:isAbstract
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:carrierOfCharacteristics
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:linkBetween
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_InheritanceRelation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_InheritanceRelation
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:includes
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:roleName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_Operation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_SpatialAttributeType"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_StateType"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_TemporalAssociationType"
+  attributes:
+  - name: General Feature Model:typeName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:isAbstract
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:carrierOfCharacteristics
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:linkBetween
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_InheritanceRelation
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_InheritanceRelation
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:includes
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:roleName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_Operation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_TemporalAttributeType"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureAttributeMetadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2005 Rules for Application
+    Schema::General Feature Model::GF_ThematicAttributeType"
+  attributes:
+  - name: General Feature Model:memberName
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:valueDomain
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:cardinality
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:constrainedBy
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:theGF_FeatureType
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:propertyTypeMetadata
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterize
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:characterizeBy
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:featureAttributeMetadata
+    used: false
+    guidance: 未利用

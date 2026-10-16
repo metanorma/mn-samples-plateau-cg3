@@ -1,0 +1,111 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Ingezetenen
+    (GBA)::GBA_Categorie"
+  attributes:
+  - name: Ingezetenen (GBA):categorie
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):beschrijving
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Ingezetenen
+    (GBA)::GBA_Element"
+  attributes:
+  - name: Ingezetenen (GBA):element
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):beschrijving
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Ingezetenen
+    (GBA)::GBA_Groep"
+  attributes:
+  - name: Ingezetenen (GBA):groep
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):beschrijving
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Ingezetenen
+    (GBA)::Geboorte"
+  attributes:
+  - name: Ingezetenen (GBA):geboortedatum
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):geboorteland
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):geboorteplaatsOmschrijving
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Ingezetenen
+    (GBA)::Geslacht"
+  attributes:
+  - name: Ingezetenen (GBA):geslachtsaanduiding
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):geslachtsaanduidingAanschrijving
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Ingezetenen
+    (GBA)::Ingezetene"
+  attributes:
+  - name: Ingezetenen (GBA):BSN
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):nationaliteit
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):inOnderzoek
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Ingezetenen
+    (GBA)::InOnderzoek"
+  attributes:
+  - name: Ingezetenen (GBA):aanduidingGegevensInOnderzoek
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):datumIngang
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Ingezetenen
+    (GBA)::Naam"
+  attributes:
+  - name: Ingezetenen (GBA):geslachtsnaam
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):voornamen
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Ingezetenen
+    (GBA)::NaamAanschrijving"
+  attributes:
+  - name: Ingezetenen (GBA):aanduidingNaamgebruik
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):geslachtsnaam
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):voorletters
+    used: false
+    guidance: 未利用
+  - name: Ingezetenen (GBA):voornamen
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Ingezetenen
+    (GBA)::Overlijden"
+  attributes:
+  - name: Ingezetenen (GBA):datumOverlijden
+    used: false
+    guidance: 未利用

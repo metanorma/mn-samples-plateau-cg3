@@ -1,0 +1,155 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::units::BaseUnit"
+  attributes:
+  - name: gmlBase:description
+    used: false
+    guidance: 未利用
+  - name: gmlBase:descriptionReference
+    used: false
+    guidance: 未利用
+  - name: gmlBase:name
+    used: false
+    guidance: 未利用
+  - name: gmlBase:identifier
+    used: false
+    guidance: 未利用
+  - name: units:quantityType
+    used: false
+    guidance: 未利用
+  - name: units:quantityTypeReference
+    used: false
+    guidance: 未利用
+  - name: units:catalogSymbol
+    used: false
+    guidance: 未利用
+  - name: units:unitsSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::units::ConventionalUnit"
+  attributes:
+  - name: gmlBase:description
+    used: false
+    guidance: 未利用
+  - name: gmlBase:descriptionReference
+    used: false
+    guidance: 未利用
+  - name: gmlBase:name
+    used: false
+    guidance: 未利用
+  - name: gmlBase:identifier
+    used: false
+    guidance: 未利用
+  - name: units:quantityType
+    used: false
+    guidance: 未利用
+  - name: units:quantityTypeReference
+    used: false
+    guidance: 未利用
+  - name: units:catalogSymbol
+    used: false
+    guidance: 未利用
+  - name: units:conversionToPreferredUnit
+    used: false
+    guidance: 未利用
+  - name: units:roughConversionToPreferredUnit
+    used: false
+    guidance: 未利用
+  - name: units:derivationUnitTerm
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::units::ConversionToPreferredUnit"
+  attributes:
+  - name: units:uom
+    used: false
+    guidance: 未利用
+  - name: units:factorOrFormula
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::units::DerivationUnitTerm"
+  attributes:
+  - name: units:uom
+    used: false
+    guidance: 未利用
+  - name: units:exponent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::units::DerivedUnit"
+  attributes:
+  - name: gmlBase:description
+    used: false
+    guidance: 未利用
+  - name: gmlBase:descriptionReference
+    used: false
+    guidance: 未利用
+  - name: gmlBase:name
+    used: false
+    guidance: 未利用
+  - name: gmlBase:identifier
+    used: false
+    guidance: 未利用
+  - name: units:quantityType
+    used: false
+    guidance: 未利用
+  - name: units:quantityTypeReference
+    used: false
+    guidance: 未利用
+  - name: units:catalogSymbol
+    used: false
+    guidance: 未利用
+  - name: units:derivationUnitTerm
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::units::FactorOrFormula"
+  attributes:
+  - name: units:factor
+    used: false
+    guidance: 未利用
+  - name: units:formula
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::units::Formula"
+  attributes:
+  - name: units:a
+    used: false
+    guidance: 未利用
+  - name: units:b
+    used: false
+    guidance: 未利用
+  - name: units:c
+    used: false
+    guidance: 未利用
+  - name: units:d
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::units::UnitDefinition"
+  attributes:
+  - name: gmlBase:description
+    used: false
+    guidance: 未利用
+  - name: gmlBase:descriptionReference
+    used: false
+    guidance: 未利用
+  - name: gmlBase:name
+    used: false
+    guidance: 未利用
+  - name: gmlBase:identifier
+    used: false
+    guidance: 未利用
+  - name: units:quantityType
+    used: false
+    guidance: 未利用
+  - name: units:quantityTypeReference
+    used: false
+    guidance: 未利用
+  - name: units:catalogSymbol
+    used: false
+    guidance: 未利用

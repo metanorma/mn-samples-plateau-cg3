@@ -1,0 +1,23 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Web environment::Anchor"
+  attributes:
+  - name: Web environment:href
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Web environment::FileName"
+  attributes:
+  - name: Web environment:src
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Web environment::MimeFileType"
+  attributes:
+  - name: Web environment:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19139 All::ISO 19139:2007 Metadata - XML
+    schema implementation::Web environment::URI"
+  attributes: []

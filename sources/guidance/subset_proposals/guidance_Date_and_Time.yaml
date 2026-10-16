@@ -1,0 +1,62 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Date and Time::ClockTime"
+  attributes:
+  - name: Date and Time:hour
+    used: false
+    guidance: 未利用
+  - name: Date and Time:minute
+    used: false
+    guidance: 未利用
+  - name: Date and Time:second
+    used: false
+    guidance: 未利用
+  - name: Date and Time:timeZone
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Date and Time::Date"
+  attributes:
+  - name: Date and Time:century
+    used: false
+    guidance: 未利用
+  - name: Date and Time:year
+    used: false
+    guidance: 未利用
+  - name: Date and Time:month
+    used: false
+    guidance: 未利用
+  - name: Date and Time:day
+    used: false
+    guidance: 未利用
+  - name: Date and Time:precision
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Date and Time::DatePrecision"
+  attributes:
+  - name: Date and Time:precision
+    used: false
+    guidance: 未利用
+  - name: Date and Time:determinationMethod
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Primitive::Date and Time::DateTime"
+  attributes:
+  - name: Date and Time:century
+    used: false
+    guidance: 未利用
+  - name: Date and Time:year
+    used: false
+    guidance: 未利用
+  - name: Date and Time:month
+    used: false
+    guidance: 未利用
+  - name: Date and Time:day
+    used: false
+    guidance: 未利用
+  - name: Date and Time:precision
+    used: false
+    guidance: 未利用

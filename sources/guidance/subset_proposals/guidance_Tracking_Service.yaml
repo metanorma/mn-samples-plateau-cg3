@@ -1,0 +1,218 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_Accuracy"
+  attributes:
+  - name: Tracking Service:accuracyType
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:sigmaLevel
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:sigma
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:units
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_AccuracyStatement"
+  attributes:
+  - name: Tracking Service:axis
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:accuracy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_AccuracyType"
+  attributes:
+  - name: Tracking Service:linear
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:circularRMS
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:ellipticalRMS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_MobileSubscriber"
+  attributes:
+  - name: Tracking Service:id
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:location
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:trackingService
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_PeriodicTrigger"
+  attributes:
+  - name: Tracking Service:minTime
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:maxTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_Position"
+  attributes:
+  - name: Tracking Service:directPosition
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:placeName
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:featureID
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:linearReference
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:networkPosition
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:address
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:phone
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_PositionType"
+  attributes:
+  - name: Tracking Service:coordinate
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:placeName
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:feature
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:linearReference
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:network
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:address
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:phone
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_QualityOfPosition"
+  attributes:
+  - name: Tracking Service:accuracyStatement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_TrackingLocation"
+  attributes:
+  - name: Tracking Service:position
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:time
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:direction
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:speed
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_TrackingLocationMetadata"
+  attributes:
+  - name: Tracking Service:ms
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:quality
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:time
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:clientID
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:trigger
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_TrackingLocationSequence"
+  attributes:
+  - name: Tracking Service:ms
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:sequenceID
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_TrackingService"
+  attributes:
+  - name: Tracking Service:mobileSubscriber
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_Transition"
+  attributes:
+  - name: Tracking Service:type
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:time
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:deltaDirection
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:deltaPosition
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:availability
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_TransitionTrigger"
+  attributes:
+  - name: Tracking Service:type
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:deltaDirection
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:deltaPosition
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_TransitionType"
+  attributes:
+  - name: Tracking Service:enterCell
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:leaveCell
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:changeContacts
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:changeDirection
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:changePosition
+    used: false
+    guidance: 未利用
+  - name: Tracking Service:changeAvailability
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Tracking Service::TK_Trigger"
+  attributes: []

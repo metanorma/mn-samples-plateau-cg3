@@ -1,0 +1,469 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::Vegetation::AbstractVegetationObject"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Vegetation:adeOfAbstractVegetationObject
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Vegetation::PlantCover"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Vegetation:adeOfAbstractVegetationObject
+    used: false
+    guidance: 未利用
+  - name: Vegetation:class
+    used: false
+    guidance: 未利用
+  - name: Vegetation:function
+    used: false
+    guidance: 未利用
+  - name: Vegetation:usage
+    used: false
+    guidance: 未利用
+  - name: Vegetation:averageHeight
+    used: false
+    guidance: 未利用
+  - name: Vegetation:minHeight
+    used: false
+    guidance: 未利用
+  - name: Vegetation:maxHeight
+    used: false
+    guidance: 未利用
+  - name: Vegetation:adeOfPlantCover
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Vegetation::PlantCoverClassValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Vegetation::PlantCoverFunctionValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Vegetation::PlantCoverUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Vegetation::SolitaryVegetationObject"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Vegetation:adeOfAbstractVegetationObject
+    used: false
+    guidance: 未利用
+  - name: Vegetation:class
+    used: false
+    guidance: 未利用
+  - name: Vegetation:function
+    used: false
+    guidance: 未利用
+  - name: Vegetation:usage
+    used: false
+    guidance: 未利用
+  - name: Vegetation:species
+    used: false
+    guidance: 未利用
+  - name: Vegetation:height
+    used: false
+    guidance: 未利用
+  - name: Vegetation:trunkDiameter
+    used: false
+    guidance: 未利用
+  - name: Vegetation:crownDiameter
+    used: false
+    guidance: 未利用
+  - name: Vegetation:rootBallDiameter
+    used: false
+    guidance: 未利用
+  - name: Vegetation:maxRootBallDepth
+    used: false
+    guidance: 未利用
+  - name: Vegetation:adeOfSolitaryVegetationObject
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Vegetation::SolitaryVegetationObjectClassValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Vegetation::SolitaryVegetationObjectFunctionValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Vegetation::SolitaryVegetationObjectUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Vegetation::SpeciesValue"
+  attributes: []

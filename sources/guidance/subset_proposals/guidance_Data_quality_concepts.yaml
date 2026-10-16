@@ -1,0 +1,32 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality concepts::Data quality"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality concepts::Data quality element"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality concepts::Data quality evaluation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality concepts::Data quality measure"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality concepts::Data quality result"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality concepts::Data quality scope"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality concepts::Metadata ISO19115"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality concepts::Metaquality"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality concepts::Result scope"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality concepts::Standalone quality report"
+  attributes: []

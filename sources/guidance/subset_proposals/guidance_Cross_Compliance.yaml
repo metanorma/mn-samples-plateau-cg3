@@ -1,0 +1,56 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::Cross Compliance::FarmingLimitation"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:partyRequired
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Cross Compliance:typeOfCC
+    used: false
+    guidance: 未利用
+  - name: Cross Compliance:regulatedBy
+    used: false
+    guidance: 未利用
+  - name: Cross Compliance:typeOfLimitation
+    used: false
+    guidance: 未利用
+  - name: Cross Compliance:farmingLimitation
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用

@@ -1,0 +1,59 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::TIN::CV_TINCoverage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationParametersType
+    used: false
+    guidance: 未利用
+  - name: TIN:geometry
+    used: false
+    guidance: 未利用
+  - name: TIN:interpolationType
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: TIN:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19123 All::ISO 19123:2005 Schema for coverage
+    geometry and functions::TIN::CV_ValueTriangle"
+  attributes:
+  - name: Coverage Core:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationParameters
+    used: false
+    guidance: 未利用
+  - name: TIN:geometry
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:controlValue
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:controlValue
+    used: false
+    guidance: 未利用

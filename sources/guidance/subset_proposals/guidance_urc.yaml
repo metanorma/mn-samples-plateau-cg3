@@ -1,0 +1,543 @@
+---
+classes:
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttribute"
+  attributes:
+  - name: urc:geometrySrcDescLod0
+    used: false
+    guidance: 未利用
+  - name: urc:geometrySrcDescLod1
+    used: false
+    guidance: 未利用
+  - name: urc:geometrySrcDescLod2
+    used: false
+    guidance: 未利用
+  - name: urc:geometrySrcDescLod3
+    used: false
+    guidance: 未利用
+  - name: urc:thematicSrcDesc
+    used: false
+    guidance: 未利用
+  - name: urc:appearanceSrcDescLod0
+    used: false
+    guidance: 未利用
+  - name: urc:appearanceSrcDescLod1
+    used: false
+    guidance: 未利用
+  - name: urc:appearanceSrcDescLod2
+    used: false
+    guidance: 未利用
+  - name: urc:appearanceSrcDescLod3
+    used: false
+    guidance: 未利用
+  - name: urc:lodType
+    used: false
+    guidance: 未利用
+  - name: urc:lod1HeightType
+    used: false
+    guidance: 未利用
+  - name: urc:granularity
+    used: false
+    guidance: 未利用
+  - name: urc:hasError
+    used: false
+    guidance: 未利用
+  - name: urc:lod0AcquisitionCriterion
+    used: false
+    guidance: 未利用
+  - name: urc:tranDataAcquisition
+    used: false
+    guidance: 未利用
+  - name: urc:publicSurveyDataQualityAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeGeometrySrcDescLod0Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeGeometrySrcDescLod1Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeGeometrySrcDescLod2Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeGeometrySrcDescLod3Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeThematicSrcDescValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeAppearanceSrcDescLod0Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeAppearanceSrcDescLod1Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeAppearanceSrcDescLod2Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeAppearanceSrcDescLod3Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeLodTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeLod1HeightTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeGranularityValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeHasErrorValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DataQualityAttributeLod0AcquisitionCriterionValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::ExteriorDataQualityAttribute"
+  attributes:
+  - name: urc:geometrySrcDescLod0
+    used: false
+    guidance: 未利用
+  - name: urc:geometrySrcDescLod1
+    used: false
+    guidance: 未利用
+  - name: urc:geometrySrcDescLod2
+    used: false
+    guidance: 未利用
+  - name: urc:geometrySrcDescLod3
+    used: false
+    guidance: 未利用
+  - name: urc:thematicSrcDesc
+    used: false
+    guidance: 未利用
+  - name: urc:appearanceSrcDescLod0
+    used: false
+    guidance: 未利用
+  - name: urc:appearanceSrcDescLod1
+    used: false
+    guidance: 未利用
+  - name: urc:appearanceSrcDescLod2
+    used: false
+    guidance: 未利用
+  - name: urc:appearanceSrcDescLod3
+    used: false
+    guidance: 未利用
+  - name: urc:lodType
+    used: false
+    guidance: 未利用
+  - name: urc:lod1HeightType
+    used: false
+    guidance: 未利用
+  - name: urc:granularity
+    used: false
+    guidance: 未利用
+  - name: urc:hasError
+    used: false
+    guidance: 未利用
+  - name: urc:lod0AcquisitionCriterion
+    used: false
+    guidance: 未利用
+  - name: urc:tranDataAcquisition
+    used: false
+    guidance: 未利用
+  - name: urc:publicSurveyDataQualityAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::InteriorDataQualityAttribute"
+  attributes:
+  - name: urc:geometrySrcDescLod0
+    used: false
+    guidance: 未利用
+  - name: urc:geometrySrcDescLod1
+    used: false
+    guidance: 未利用
+  - name: urc:geometrySrcDescLod2
+    used: false
+    guidance: 未利用
+  - name: urc:geometrySrcDescLod3
+    used: false
+    guidance: 未利用
+  - name: urc:thematicSrcDesc
+    used: false
+    guidance: 未利用
+  - name: urc:appearanceSrcDescLod0
+    used: false
+    guidance: 未利用
+  - name: urc:appearanceSrcDescLod1
+    used: false
+    guidance: 未利用
+  - name: urc:appearanceSrcDescLod2
+    used: false
+    guidance: 未利用
+  - name: urc:appearanceSrcDescLod3
+    used: false
+    guidance: 未利用
+  - name: urc:lodType
+    used: false
+    guidance: 未利用
+  - name: urc:lod1HeightType
+    used: false
+    guidance: 未利用
+  - name: urc:granularity
+    used: false
+    guidance: 未利用
+  - name: urc:hasError
+    used: false
+    guidance: 未利用
+  - name: urc:lod0AcquisitionCriterion
+    used: false
+    guidance: 未利用
+  - name: urc:tranDataAcquisition
+    used: false
+    guidance: 未利用
+  - name: urc:publicSurveyDataQualityAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::PublicSurveyDataQualityAttribute"
+  attributes:
+  - name: urc:srcScaleLod0
+    used: false
+    guidance: 未利用
+  - name: urc:srcScaleLod1
+    used: false
+    guidance: 未利用
+  - name: urc:srcScaleLod2
+    used: false
+    guidance: 未利用
+  - name: urc:srcScaleLod3
+    used: false
+    guidance: 未利用
+  - name: urc:publicSurveySrcDescLod0
+    used: false
+    guidance: 未利用
+  - name: urc:publicSurveySrcDescLod1
+    used: false
+    guidance: 未利用
+  - name: urc:publicSurveySrcDescLod2
+    used: false
+    guidance: 未利用
+  - name: urc:publicSurveySrcDescLod3
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::PublicSurveyDataQualityAttributeSrcScaleLod0Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::PublicSurveyDataQualityAttributeSrcScaleLod1Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::PublicSurveyDataQualityAttributeSrcScaleLod2Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::PublicSurveyDataQualityAttributeSrcScaleLod3Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::PublicSurveyDataQualityAttributePublicSurveySrcDescLod0Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::PublicSurveyDataQualityAttributePublicSurveySrcDescLod1Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::PublicSurveyDataQualityAttributePublicSurveySrcDescLod2Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::PublicSurveyDataQualityAttributePublicSurveySrcDescLod3Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmAttribute"
+  attributes:
+  - name: urc:dmCode
+    used: false
+    guidance: 未利用
+  - name: urc:meshCode
+    used: false
+    guidance: 未利用
+  - name: urc:dmElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmAttributeDmCodeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmAttributeMeshCodeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmAnnotation"
+  attributes:
+  - name: urc:dmCode
+    used: false
+    guidance: 未利用
+  - name: urc:meshCode
+    used: false
+    guidance: 未利用
+  - name: urc:geometryType
+    used: false
+    guidance: 未利用
+  - name: urc:shapeType
+    used: false
+    guidance: 未利用
+  - name: urc:label
+    used: false
+    guidance: 未利用
+  - name: urc:isVertical
+    used: false
+    guidance: 未利用
+  - name: urc:size
+    used: false
+    guidance: 未利用
+  - name: urc:orientation
+    used: false
+    guidance: 未利用
+  - name: urc:linewidth
+    used: false
+    guidance: 未利用
+  - name: urc:spacing
+    used: false
+    guidance: 未利用
+  - name: urc:dmElement
+    used: false
+    guidance: 未利用
+  - name: Geometry root:lod0anchorPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmAnnotationGeometryTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmAnnotationShapeTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmGeometricAttribute"
+  attributes:
+  - name: urc:dmCode
+    used: false
+    guidance: 未利用
+  - name: urc:meshCode
+    used: false
+    guidance: 未利用
+  - name: urc:geometryType
+    used: false
+    guidance: 未利用
+  - name: urc:mapLevel
+    used: false
+    guidance: 未利用
+  - name: urc:shapeType
+    used: false
+    guidance: 未利用
+  - name: urc:visibility
+    used: false
+    guidance: 未利用
+  - name: urc:is3d
+    used: false
+    guidance: 未利用
+  - name: urc:isInstallation
+    used: false
+    guidance: 未利用
+  - name: urc:isEdited
+    used: false
+    guidance: 未利用
+  - name: urc:isSupplementarySymbol
+    used: false
+    guidance: 未利用
+  - name: urc:angle
+    used: false
+    guidance: 未利用
+  - name: urc:elevation
+    used: false
+    guidance: 未利用
+  - name: urc:dmElement
+    used: false
+    guidance: 未利用
+  - name: Geometry root:lod0Geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmGeometricAttributeGeometryTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmGeometricAttributeMapLevelValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmGeometricAttributeShapeTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmElement"
+  attributes:
+  - name: urc:locationType
+    used: false
+    guidance: 未利用
+  - name: urc:infoType
+    used: false
+    guidance: 未利用
+  - name: urc:elementKey
+    used: false
+    guidance: 未利用
+  - name: urc:hierarchyLevel
+    used: false
+    guidance: 未利用
+  - name: urc:dataType
+    used: false
+    guidance: 未利用
+  - name: urc:annotationType
+    used: false
+    guidance: 未利用
+  - name: urc:precisionType
+    used: false
+    guidance: 未利用
+  - name: urc:dislocationType
+    used: false
+    guidance: 未利用
+  - name: urc:breakType
+    used: false
+    guidance: 未利用
+  - name: urc:attributeValue
+    used: false
+    guidance: 未利用
+  - name: urc:attributeType
+    used: false
+    guidance: 未利用
+  - name: urc:attributeValueType
+    used: false
+    guidance: 未利用
+  - name: urc:creationDate
+    used: false
+    guidance: 未利用
+  - name: urc:updateDate
+    used: false
+    guidance: 未利用
+  - name: urc:terminationDate
+    used: false
+    guidance: 未利用
+  - name: urc:freeSpace
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmElementLocationTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmElementInfoTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmElementDataTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmElementAnnotationTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmElementPrecisionTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmElementDislocationTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmElementBreakTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DmElementAttributeTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DisasterRiskAttribute"
+  attributes:
+  - name: urc:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::DisasterRiskAttributeDescriptionValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::FloodingRiskAttribute"
+  attributes:
+  - name: urc:description
+    used: false
+    guidance: 未利用
+  - name: urc:rank
+    used: false
+    guidance: 未利用
+  - name: urc:rankOrg
+    used: false
+    guidance: 未利用
+  - name: urc:depth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::FloodingRiskAttributeRankValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::FloodingRiskAttributeRankOrgValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::LandSlideRiskAttribute"
+  attributes:
+  - name: urc:description
+    used: false
+    guidance: 未利用
+  - name: urc:areaType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::LandSlideRiskAttributeAreaTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::RiverFloodingRiskAttribute"
+  attributes:
+  - name: urc:description
+    used: false
+    guidance: 未利用
+  - name: urc:rank
+    used: false
+    guidance: 未利用
+  - name: urc:rankOrg
+    used: false
+    guidance: 未利用
+  - name: urc:depth
+    used: false
+    guidance: 未利用
+  - name: urc:adminType
+    used: false
+    guidance: 未利用
+  - name: urc:scale
+    used: false
+    guidance: 未利用
+  - name: urc:duration
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::RiverFloodingRiskAttributeAdminTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::RiverFloodingRiskAttributeScaleValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::TsunamiRiskAttribute"
+  attributes:
+  - name: urc:description
+    used: false
+    guidance: 未利用
+  - name: urc:rank
+    used: false
+    guidance: 未利用
+  - name: urc:rankOrg
+    used: false
+    guidance: 未利用
+  - name: urc:depth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::HighTideRiskAttribute"
+  attributes:
+  - name: urc:description
+    used: false
+    guidance: 未利用
+  - name: urc:rank
+    used: false
+    guidance: 未利用
+  - name: urc:rankOrg
+    used: false
+    guidance: 未利用
+  - name: urc:depth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::InlandFloodingRiskAttribute"
+  attributes:
+  - name: urc:description
+    used: false
+    guidance: 未利用
+  - name: urc:rank
+    used: false
+    guidance: 未利用
+  - name: urc:rankOrg
+    used: false
+    guidance: 未利用
+  - name: urc:depth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::ReservoirFloodingRiskAttribute"
+  attributes:
+  - name: urc:description
+    used: false
+    guidance: 未利用
+  - name: urc:rank
+    used: false
+    guidance: 未利用
+  - name: urc:rankOrg
+    used: false
+    guidance: 未利用
+  - name: urc:depth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::KeyValuePairAttribute"
+  attributes:
+  - name: urc:key
+    used: false
+    guidance: 未利用
+  - name: urc:codeValue
+    used: false
+    guidance: 未利用
+  - name: urc:stringValue
+    used: false
+    guidance: 未利用
+  - name: urc:intValue
+    used: false
+    guidance: 未利用
+  - name: urc:doubleValue
+    used: false
+    guidance: 未利用
+  - name: urc:measuredValue
+    used: false
+    guidance: 未利用
+  - name: urc:dateValue
+    used: false
+    guidance: 未利用
+  - name: urc:uriValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::KeyValuePairAttributeKeyValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urc::KeyValuePairAttributeCodeValueValue"
+  attributes: []

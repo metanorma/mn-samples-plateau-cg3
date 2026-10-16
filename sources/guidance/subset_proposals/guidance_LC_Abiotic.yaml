@@ -1,0 +1,485 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_AbioticElement"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_ArtificialSurfaceElement"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_BareRock"
+  attributes:
+  - name: LC_Abiotic:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_BareSoil"
+  attributes:
+  - name: LC_Abiotic:macropatternCoverage
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_Building"
+  attributes:
+  - name: LC_Abiotic:constructionMaterial
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:height
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_BuiltUpSurface"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_CoarseMineralFragments"
+  attributes:
+  - name: LC_Abiotic:type
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_CoarseMineralFragmentType"
+  attributes:
+  - name: LC_Abiotic:gravel
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:stone
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:boulder
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_CommunicationsAndOther"
+  attributes:
+  - name: LC_Abiotic:otherTypes
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_CommunicationsAndOtherType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_ConstructionMaterial"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_Deposits"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_DumpSite"
+  attributes:
+  - name: LC_Abiotic:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_DumpSiteType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_Dune"
+  attributes:
+  - name: LC_Abiotic:cover
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_DuneType"
+  attributes:
+  - name: LC_Abiotic:barchan
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:parabolic
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:longitudinal
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_Extraction"
+  attributes:
+  - name: LC_Abiotic:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_ExtractionType"
+  attributes:
+  - name: LC_Abiotic:surface
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:substrate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_FloatingIce"
+  attributes:
+  - name: LC_Abiotic:iceDynamics
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:height
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_Hardpan"
+  attributes:
+  - name: LC_Abiotic:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_HardpanType"
+  attributes:
+  - name: LC_Abiotic:ironpan/laterite
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:petrocalcic
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:petrogypsic
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_Ice"
+  attributes:
+  - name: LC_Abiotic:iceDynamics
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:height
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_IceDynamics"
+  attributes:
+  - name: LC_Abiotic:moving
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:standing
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_InorganicDeposits"
+  attributes:
+  - name: LC_Abiotic:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_InorganicDepositType"
+  attributes:
+  - name: LC_Abiotic:salt
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:soda
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:lime
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:gypsum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_LinearSurface"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_LooseAndShiftingSand"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_MacropatternType"
+  attributes:
+  - name: LC_Abiotic:gilgai
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:termiteMounds
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_NaturalSurfaceElement"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_NonBuiltUpSurface"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_NonLinearSurface"
+  attributes:
+  - name: LC_Abiotic:constructionMaterial
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_OrganicDeposits"
+  attributes:
+  - name: LC_Abiotic:type
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_OrganicDepositType"
+  attributes:
+  - name: LC_Abiotic:peat
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_OtherArtificialSurface"
+  attributes:
+  - name: LC_Abiotic:constructionMaterial
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_OtherConstruction"
+  attributes:
+  - name: LC_Abiotic:constructionMaterial
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:height
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:cover
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_PeatType"
+  attributes:
+  - name: LC_Abiotic:ombrotrophic
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:minerotrophic
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_PeriodicVariation"
+  attributes:
+  - name: LC_Abiotic:periodType
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:persistencePeriod
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:persistenceUnits
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_PeriodVariationType"
+  attributes:
+  - name: LC_Abiotic:atmospheric
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:daily
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:tidal
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:seasonal
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_Permafrost"
+  attributes:
+  - name: LC_Abiotic:permafrostType
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:depth
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_PermafrostType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_Railway"
+  attributes:
+  - name: LC_Abiotic:railTypes
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_RailwayType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_Road"
+  attributes:
+  - name: LC_Abiotic:roadType
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_RoadType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_RocksSurfaceElement"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_Snow"
+  attributes:
+  - name: LC_Abiotic:height
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_SoilSandDepositsSurfaceElement"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_TerrestrialIce"
+  attributes:
+  - name: LC_Abiotic:iceDynamics
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:height
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_WaterBody"
+  attributes:
+  - name: LC_Abiotic:dynamics
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:position
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:depth
+    used: false
+    guidance: 未利用
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_WaterBodyAndAssociatedSurfaceElement"
+  attributes:
+  - name: 'LC_LandCoverClassStructure:'
+    used: false
+    guidance: 未利用
+  - name: 'LC_Abiotic:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_WaterBodyDynamics"
+  attributes:
+  - name: LC_Abiotic:flowing
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:standing
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19144 All::ISO 19144-2:2012 Classification
+    systems - Land Cover Meta Language (LCML)::LC_Abiotic::LC_WaterBodyPositions"
+  attributes:
+  - name: LC_Abiotic:aboveSurface
+    used: false
+    guidance: 未利用
+  - name: LC_Abiotic:belowSurface
+    used: false
+    guidance: 未利用

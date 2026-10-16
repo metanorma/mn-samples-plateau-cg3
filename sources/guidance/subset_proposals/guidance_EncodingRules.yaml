@@ -1,0 +1,173 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::basicType"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:base
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::boundedTemplate"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::CFG"
+  attributes:
+  - name: EncodingRules:schemaName
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:substitution
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:inheritance
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:timeStamp
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:thedefinition
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::codeList"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:thecodevalue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::codevalue"
+  attributes:
+  - name: EncodingRules:code
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:value
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:thecodeList
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::complexType"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::dataType"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::definition"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::dictionary"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::enumeration"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theenumvalue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::enumvalue"
+  attributes:
+  - name: EncodingRules:value
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theenumeration
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::externalType"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:base
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::list"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::objectType"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::simpleType"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::structuredType"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::substitutionGroup"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19118 All::ISO 19118:2005 Encoding::EncodingRules::union"
+  attributes:
+  - name: EncodingRules:name
+    used: false
+    guidance: 未利用
+  - name: EncodingRules:theCFG
+    used: false
+    guidance: 未利用

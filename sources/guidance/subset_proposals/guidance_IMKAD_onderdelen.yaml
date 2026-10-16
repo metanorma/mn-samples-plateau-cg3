@@ -1,0 +1,445 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::_Aantekening"
+  attributes:
+  - name: IMKAD onderdelen:kadastraleIdentificatie
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:einddatum
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:omschrijving
+    used: false
+    guidance: 未利用
+  - name: IMKAD:betrokkenPersoon
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:stukdeelOnstaan
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:stukdeelVervallen
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::Aandeel"
+  attributes:
+  - name: IMKAD onderdelen:noemer
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:teller
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::AantekeningKadastraalObject"
+  attributes:
+  - name: IMKAD onderdelen:kadastraleIdentificatie
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:einddatum
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:omschrijving
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:aard
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:splitsing
+    used: false
+    guidance: 未利用
+  - name: IMKAD:betrokkenPersoon
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:stukdeelOnstaan
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:stukdeelVervallen
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::AantekeningRecht"
+  attributes:
+  - name: IMKAD onderdelen:kadastraleIdentificatie
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:einddatum
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:omschrijving
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:aard
+    used: false
+    guidance: 未利用
+  - name: IMKAD:betrokkenPersoon
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:stukdeelOnstaan
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:stukdeelVervallen
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::AdreskeuzePl"
+  attributes:
+  - name: 'Adressen (BAG):'
+    used: false
+    guidance: 未利用
+  - name: 'IMKAD onderdelen:'
+    used: false
+    guidance: 未利用
+  - name: 'NietIngezetenen (RNI):'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::AdreskeuzeWl"
+  attributes:
+  - name: 'Adressen (BAG):'
+    used: false
+    guidance: 未利用
+  - name: 'NietIngezetenen (RNI):'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::Appartementencomplex"
+  attributes:
+  - name: 'IMKAD:'
+    used: false
+    guidance: 未利用
+  - name: IMKAD:perceel
+    used: false
+    guidance: 未利用
+  - name: IMKAD:verenigingVanEigenaars
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::Bedrag"
+  attributes:
+  - name: IMKAD onderdelen:aard
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:som
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:valuta
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::Bijlage"
+  attributes:
+  - name: IMKAD onderdelen:kadastraleIdentificatie
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:tijdstipAanbiedingBijlage
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:aard
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::CultuurOnbebouwd"
+  attributes:
+  - name: IMKAD onderdelen:aardCultuurOnbebouwd
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:aardBebouwing
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:meerCulturen
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::DeelEnNummer"
+  attributes:
+  - name: IMKAD onderdelen:soortRegister
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:deel
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:nummer
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:reeks
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:bewaring
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:registercode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::Domiciliekeuze"
+  attributes:
+  - name: IMKAD onderdelen:adres
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:aard
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:stukdeelWaarinVermeld
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::Historie"
+  attributes:
+  - name: IMKAD onderdelen:kadastraleAanduiding
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:kadastraleIdentificatie
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:overgangsgrootte
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:aard
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::Hypotheekgegevens"
+  attributes:
+  - name: IMKAD onderdelen:aardOnderpand
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:bedragNationaleHypotheekGarantie
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:nationaleHypotheekGarantie
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:eenzijdigeOpzeggingMogelijk
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:hoofdsom
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:oorzaakSchuld
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:rangorde
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:rentevastperiode
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:rentevoet
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::KadastraleAanduiding"
+  attributes:
+  - name: IMKAD onderdelen:AKRKadastraleGemeenteCode
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:appartementsindex
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:deelperceelnummer
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:gemeente
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:perceelnummer
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:sectie
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::Koopsom"
+  attributes:
+  - name: IMKAD onderdelen:bedrag
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:koopjaar
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:meerOnroerendGoed
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:koopsomInGuldens
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::Landinrichtingsrente"
+  attributes:
+  - name: IMKAD onderdelen:aard
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:bedrag
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:eindjaar
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::LijnOfBoogPropertyType"
+  attributes:
+  - name: 'GML:'
+    used: false
+    guidance: 未利用
+  - name: 'GML:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::MultiLineArc"
+  attributes:
+  - name: 'GML:'
+    used: false
+    guidance: 未利用
+  - name: 'GML:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::Ondertekenaar"
+  attributes:
+  - name: IMKAD onderdelen:voornamen
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:voorvoegsels
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:geslachtsnaam
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:standplaats
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::OZLocatie"
+  attributes:
+  - name: IMKAD onderdelen:bijOfTegenover
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:cultuurBebouwd
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:omschrijving
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:adres
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:kadastraleIdentificatie
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::PerceelnrVerschuiving"
+  attributes:
+  - name: IMKAD onderdelen:deltaX
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:deltaY
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::PersoonKeuze"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::PolygoonPropertyType"
+  attributes:
+  - name: 'GML:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::PostbusAdres"
+  attributes:
+  - name: IMKAD onderdelen:postbusnummer
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:postcode
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:woonplaatsnaam
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::PostlocatiePersoon"
+  attributes:
+  - name: IMKAD onderdelen:bijOfTegenover
+    used: false
+    guidance: 未利用
+  - name: 'IMKAD onderdelen:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::Stukdeel"
+  attributes:
+  - name: IMKAD onderdelen:aardBeslag
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:aardStukdeel
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:hypotheek
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:kadastraleIdentificatie
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:transactiesom
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:vordering
+    used: false
+    guidance: 未利用
+  - name: 'IMKAD:'
+    used: false
+    guidance: 未利用
+  - name: IMKAD:vermeldtOZ
+    used: false
+    guidance: 未利用
+  - name: IMKAD onderdelen:gerelateerdStukdeel
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::VlakOfMultiLijnPropertyType"
+  attributes:
+  - name: 'GML:'
+    used: false
+    guidance: 未利用
+  - name: 'IMKAD onderdelen:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::IMKAD
+    onderdelen::WoonlocatiePersoon"
+  attributes:
+  - name: IMKAD onderdelen:bijOfTegenover
+    used: false
+    guidance: 未利用
+  - name: 'IMKAD onderdelen:'
+    used: false
+    guidance: 未利用

@@ -1,0 +1,125 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Compound Symbol Extension::SY_CompoundPointComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+  - name: Symbol:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Compound Symbol Extension::SY_TransformedPointComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Compound Symbol Extension:transformation
+    used: false
+    guidance: 未利用
+  - name: Compound Symbol Extension:relativeOrientation
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+  - name: Symbol:transformedElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Compound Symbol Extension::SY_RelativePlacement"
+  attributes:
+  - name: Compound Symbol Extension:portrayal
+    used: false
+    guidance: 未利用
+  - name: Compound Symbol Extension:geometry
+    used: false
+    guidance: 未利用
+  - name: Compound Symbol Extension:notApplicable
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Compound Symbol Extension::SY_CompoundLineComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+  - name: Symbol:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Compound Symbol Extension::SY_TransformedLineComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Compound Symbol Extension:translation
+    used: false
+    guidance: 未利用
+  - name: Compound Symbol Extension:scale
+    used: false
+    guidance: 未利用
+  - name: Compound Symbol Extension:stretch
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+  - name: Symbol:transformedElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Compound Symbol Extension::SY_CompoundAreaComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+  - name: Symbol:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2012 Portrayal::Portrayal
+    Extensions::Compound Symbol Extension::SY_TransformedAreaComponent"
+  attributes:
+  - name: Symbol:specification
+    used: false
+    guidance: 未利用
+  - name: Compound Symbol Extension:transformation
+    used: false
+    guidance: 未利用
+  - name: Compound Symbol Extension:relativePlacement
+    used: false
+    guidance: 未利用
+  - name: Symbol:content
+    used: false
+    guidance: 未利用
+  - name: Symbol:geometry
+    used: false
+    guidance: 未利用
+  - name: Symbol:transformedElement
+    used: false
+    guidance: 未利用

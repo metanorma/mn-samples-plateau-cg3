@@ -1,0 +1,1625 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::all"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::allModel"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::allNNI"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::annotated"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::annotation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::any"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::anyAttribute"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:namespace
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:processContents
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::anyType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::anyURI"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::appinfo"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::attrDecls"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::attribute"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:default
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:type
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:form
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:simpleType
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:use
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::attributeGroup"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::attributeGroupRef"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:ref
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::base64Binary"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::blockSet"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::boolean"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::byte"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::choice"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:ref
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::complexContent"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::complexRestrictionType"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:base
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::complexType"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:abstract
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:mixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:block
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:final
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::complexTypeModel"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::date"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::dateTime"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::decimal"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::defRef"
+  attributes:
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:ref
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::derivationSet"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::double"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::duration"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::element"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:abstract
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:default
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:nillable
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:substitutionGroup
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:type
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:block
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:final
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:form
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ENTITIES"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ENTITY"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::enumeration"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::explicitGroup"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:ref
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::extensionType"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:base
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::facet"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::facets"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::field"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::float"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::fractionDigits"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:value
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::fullDerivationSet"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::gDay"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::gMonth"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::gMonthDay"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::group"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::groupRef"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:ref
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::gYear"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::gYearMonth"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::hexBinary"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ID"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::identityConstraint"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::IDREF"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::IDREFS"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::import"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::include"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::int"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::integer"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::key"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::keyref"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::language"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::length"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:value
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::list"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::localComplexType"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:abstract
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:mixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:block
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:final
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::localElement"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:abstract
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:default
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:nillable
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:substitutionGroup
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:type
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:block
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:final
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:form
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::localSimpleType"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:final
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::long"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::maxExclusive"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::maxInclusive"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::maxLength"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:value
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::minExclusive"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::minInclusive"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::minLength"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:value
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup36"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup37"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup38"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup39"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup40"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup41"
+  attributes:
+  - name: XMLSchema:complexType
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:simpleType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup42"
+  attributes:
+  - name: XMLSchema:complexType
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:simpleType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup43"
+  attributes:
+  - name: XMLSchema:complexType
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:simpleType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup44"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup45"
+  attributes:
+  - name: XMLSchema:choice
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:sequence
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup46"
+  attributes:
+  - name: XMLSchema:complexType
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:simpleType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup47"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::ModelGroup48"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::Name"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::namedAttributeGroup"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::namedGroup"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::namespaceList"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::narrowMaxMin"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:abstract
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:default
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:nillable
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:substitutionGroup
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:type
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:block
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:final
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:form
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:maxOccurs
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:minOccurs
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::NCName"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::negativeInteger"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::nestedParticle"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:element
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:group
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::NMTOKEN"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::NMTOKENS"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::noFixedFacet"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::nonNegativeInteger"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::nonPositiveInteger"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::normalizedString"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::notation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::NOTATION"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::numFacet"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:value
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::occurs"
+  attributes:
+  - name: XMLSchema:minOccurs
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:maxOccurs
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::openAttrs"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::particle"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:element
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:group
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::pattern"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::positiveInteger"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::positiveInteger"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::public"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::QName"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::realGroup"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::redefinable"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::redefine"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::restriction"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::restrictionType"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:base
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::schema"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::schemaTop"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::selector"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::sequence"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:ref
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::short"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::simpleContent"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::simpleDerivation"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::simpleDerivationSet"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::simpleExplicitGroup"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:ref
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::simpleExtensionType"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:base
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::simpleRestrictionModel"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:simpleType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::simpleRestrictionType"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:base
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::simpleType"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:final
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::SimpleTypeClass16"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::SimpleTypeClass17"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::SimpleTypeClass20"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::string"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::time"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::topLevelAttribute"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:default
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:type
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:form
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:simpleType
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:use
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:simpleType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::topLevelComplexType"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:abstract
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:mixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:block
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:final
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::topLevelElement"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:abstract
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:default
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:fixed
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:nillable
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:substitutionGroup
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:type
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:block
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:final
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:form
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::topLevelSimpleType"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:final
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::totalDigits"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::typeDefParticle"
+  attributes:
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:group
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::union"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::unique"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:name
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::unsignedByte"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::unsignedInt"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::unsignedLong"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::unsignedShort"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::whiteSpace"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::XMLSchema::wildcard"
+  attributes:
+  - name: XMLSchema:id
+    used: false
+    guidance: 未利用
+  - name: 'XMLSchema:'
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:namespace
+    used: false
+    guidance: 未利用
+  - name: XMLSchema:processContents
+    used: false
+    guidance: 未利用

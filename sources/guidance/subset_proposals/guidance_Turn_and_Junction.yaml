@@ -1,0 +1,137 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Turn and Junction::NT_Junction"
+  attributes:
+  - name: Topological primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:junctionType
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:geometry
+    used: false
+    guidance: 未利用
+  - name: Topological Complex:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:container
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:isolated
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:proxy
+    used: false
+    guidance: 未利用
+  - name: Topological primitive:spoke
+    used: false
+    guidance: 未利用
+  - name: Link:spoke
+    used: false
+    guidance: 未利用
+  - name: Network Model:maximalComplex
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Turn and Junction::NT_JunctionType"
+  attributes:
+  - name: Turn and Junction:intersection
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:roundabout
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:enclosedTrafficArea
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:exitRamp
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:entranceRamp
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:changOver
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:boardingRamp
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:station
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:transfer
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Turn and Junction::NT_Turn"
+  attributes:
+  - name: Turn and Junction:exitCount
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turnDirection
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:isTraversable
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:isManuever
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:entryCount
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:advisory
+    used: false
+    guidance: 未利用
+  - name: Constraint and Advisory:constraint
+    used: false
+    guidance: 未利用
+  - name: Link:fromLink
+    used: false
+    guidance: 未利用
+  - name: Link:toLink
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:junction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Network::Turn and Junction::NT_TurnDirection"
+  attributes:
+  - name: Turn and Junction:straight
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:keepLeft
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:slightLeft
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:left
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:sharpLeft
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:uTurn
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:sharpRight
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:right
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:slightRight
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:keepRight
+    used: false
+    guidance: 未利用

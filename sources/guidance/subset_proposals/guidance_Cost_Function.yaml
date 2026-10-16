@@ -1,0 +1,122 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_CostElement"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_CostElementType"
+  attributes:
+  - name: Cost Function:time
+    used: false
+    guidance: 未利用
+  - name: Cost Function:waitingTime
+    used: false
+    guidance: 未利用
+  - name: Cost Function:travelTime
+    used: false
+    guidance: 未利用
+  - name: Cost Function:currency
+    used: false
+    guidance: 未利用
+  - name: Cost Function:tolls
+    used: false
+    guidance: 未利用
+  - name: Cost Function:fares
+    used: false
+    guidance: 未利用
+  - name: Cost Function:counts
+    used: false
+    guidance: 未利用
+  - name: Cost Function:turns
+    used: false
+    guidance: 未利用
+  - name: Cost Function:transfers
+    used: false
+    guidance: 未利用
+  - name: Cost Function:manuevers
+    used: false
+    guidance: 未利用
+  - name: Cost Function:distance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_CostFunction"
+  attributes:
+  - name: Cost Function:description
+    used: false
+    guidance: 未利用
+  - name: Cost Function:formula
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:link
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:turn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_CostFunctionTerm"
+  attributes:
+  - name: Cost Function:unit
+    used: false
+    guidance: 未利用
+  - name: Cost Function:type
+    used: false
+    guidance: 未利用
+  - name: Cost Function:weight
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_Counts"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_Distance"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_Fares"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_MonetaryCost"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_NumberManuevers"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_NumberTransfers"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_NumberTurns"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_Time"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_Tolls"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_TravelTime"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_WaitingTime"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Cost Function::NS_WeightedCost"
+  attributes:
+  - name: Cost Function:description
+    used: false
+    guidance: 未利用
+  - name: Cost Function:formula
+    used: false
+    guidance: 未利用
+  - name: Cost Function:targetUnit
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:link
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:turn
+    used: false
+    guidance: 未利用
+  - name: Cost Function:term
+    used: false
+    guidance: 未利用

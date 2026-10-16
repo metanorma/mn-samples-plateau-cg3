@@ -1,0 +1,350 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Constraint information::MD_ClassificationCode"
+  attributes:
+  - name: Constraint information:unclassified
+    used: false
+    guidance: 未利用
+  - name: Constraint information:restricted
+    used: false
+    guidance: 未利用
+  - name: Constraint information:confidential
+    used: false
+    guidance: 未利用
+  - name: Constraint information:secret
+    used: false
+    guidance: 未利用
+  - name: Constraint information:topSecret
+    used: false
+    guidance: 未利用
+  - name: Constraint information:sensitiveButUnclassified
+    used: false
+    guidance: 未利用
+  - name: Constraint information:forOfficialUseOnly
+    used: false
+    guidance: 未利用
+  - name: Constraint information:protected
+    used: false
+    guidance: 未利用
+  - name: Constraint information:limitedDistribution
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Constraint information::MD_Constraints"
+  attributes:
+  - name: Constraint information:useLimitation
+    used: false
+    guidance: 未利用
+  - name: Constraint information:constraintApplicationScope
+    used: false
+    guidance: 未利用
+  - name: Constraint information:graphic
+    used: false
+    guidance: 未利用
+  - name: Constraint information:reference
+    used: false
+    guidance: 未利用
+  - name: Constraint information:releasability
+    used: false
+    guidance: 未利用
+  - name: Constraint information:responsibleParty
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Constraint information::MD_LegalConstraints"
+  attributes:
+  - name: Constraint information:useLimitation
+    used: false
+    guidance: 未利用
+  - name: Constraint information:constraintApplicationScope
+    used: false
+    guidance: 未利用
+  - name: Constraint information:graphic
+    used: false
+    guidance: 未利用
+  - name: Constraint information:reference
+    used: false
+    guidance: 未利用
+  - name: Constraint information:releasability
+    used: false
+    guidance: 未利用
+  - name: Constraint information:responsibleParty
+    used: false
+    guidance: 未利用
+  - name: Constraint information:accessConstraints
+    used: false
+    guidance: 未利用
+  - name: Constraint information:useConstraints
+    used: false
+    guidance: 未利用
+  - name: Constraint information:otherConstraints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Constraint information::MD_Releasability"
+  attributes:
+  - name: Constraint information:addressee
+    used: false
+    guidance: 未利用
+  - name: Constraint information:statement
+    used: false
+    guidance: 未利用
+  - name: Constraint information:disseminationConstraints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Constraint information::MD_RestrictionCode"
+  attributes:
+  - name: Constraint information:copyright
+    used: false
+    guidance: 未利用
+  - name: Constraint information:patent
+    used: false
+    guidance: 未利用
+  - name: Constraint information:patentPending
+    used: false
+    guidance: 未利用
+  - name: Constraint information:trademark
+    used: false
+    guidance: 未利用
+  - name: Constraint information:licence
+    used: false
+    guidance: 未利用
+  - name: Constraint information:intellectualPropertyRights
+    used: false
+    guidance: 未利用
+  - name: Constraint information:restricted
+    used: false
+    guidance: 未利用
+  - name: Constraint information:otherRestrictions
+    used: false
+    guidance: 未利用
+  - name: Constraint information:unrestricted
+    used: false
+    guidance: 未利用
+  - name: Constraint information:licenceUnrestricted
+    used: false
+    guidance: 未利用
+  - name: Constraint information:licenceEndUser
+    used: false
+    guidance: 未利用
+  - name: Constraint information:licenceDistributor
+    used: false
+    guidance: 未利用
+  - name: Constraint information:private
+    used: false
+    guidance: 未利用
+  - name: Constraint information:statutory
+    used: false
+    guidance: 未利用
+  - name: Constraint information:confidential
+    used: false
+    guidance: 未利用
+  - name: Constraint information:sensitiveButUnclassified
+    used: false
+    guidance: 未利用
+  - name: Constraint information:in-confidence
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Constraint information::MD_SecurityConstraints"
+  attributes:
+  - name: Constraint information:useLimitation
+    used: false
+    guidance: 未利用
+  - name: Constraint information:constraintApplicationScope
+    used: false
+    guidance: 未利用
+  - name: Constraint information:graphic
+    used: false
+    guidance: 未利用
+  - name: Constraint information:reference
+    used: false
+    guidance: 未利用
+  - name: Constraint information:releasability
+    used: false
+    guidance: 未利用
+  - name: Constraint information:responsibleParty
+    used: false
+    guidance: 未利用
+  - name: Constraint information:classification
+    used: false
+    guidance: 未利用
+  - name: Constraint information:userNote
+    used: false
+    guidance: 未利用
+  - name: Constraint information:classificationSystem
+    used: false
+    guidance: 未利用
+  - name: Constraint information:handlingDescription
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Constraint
+    information::MD_ClassificationCode"
+  attributes:
+  - name: Constraint information:unclassified
+    used: false
+    guidance: 未利用
+  - name: Constraint information:restricted
+    used: false
+    guidance: 未利用
+  - name: Constraint information:confidential
+    used: false
+    guidance: 未利用
+  - name: Constraint information:secret
+    used: false
+    guidance: 未利用
+  - name: Constraint information:topSecret
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Constraint
+    information::MD_Constraints"
+  attributes:
+  - name: Constraint information:useLimitation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Constraint
+    information::MD_LegalConstraints"
+  attributes:
+  - name: Constraint information:useLimitation
+    used: false
+    guidance: 未利用
+  - name: Constraint information:accessConstraints
+    used: false
+    guidance: 未利用
+  - name: Constraint information:useConstraints
+    used: false
+    guidance: 未利用
+  - name: Constraint information:otherConstraints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Constraint
+    information::MD_RestrictionCode"
+  attributes:
+  - name: Constraint information:copyright
+    used: false
+    guidance: 未利用
+  - name: Constraint information:patent
+    used: false
+    guidance: 未利用
+  - name: Constraint information:patentPending
+    used: false
+    guidance: 未利用
+  - name: Constraint information:trademark
+    used: false
+    guidance: 未利用
+  - name: Constraint information:license
+    used: false
+    guidance: 未利用
+  - name: Constraint information:intellectualPropertyRights
+    used: false
+    guidance: 未利用
+  - name: Constraint information:restricted
+    used: false
+    guidance: 未利用
+  - name: Constraint information:otherRestrictions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Constraint
+    information::MD_SecurityConstraints"
+  attributes:
+  - name: Constraint information:useLimitation
+    used: false
+    guidance: 未利用
+  - name: Constraint information:classification
+    used: false
+    guidance: 未利用
+  - name: Constraint information:userNote
+    used: false
+    guidance: 未利用
+  - name: Constraint information:classificationSystem
+    used: false
+    guidance: 未利用
+  - name: Constraint information:handlingDescription
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Constraint
+    information::MD_ClassificationCode"
+  attributes:
+  - name: Constraint information:unclassified
+    used: false
+    guidance: 未利用
+  - name: Constraint information:restricted
+    used: false
+    guidance: 未利用
+  - name: Constraint information:confidential
+    used: false
+    guidance: 未利用
+  - name: Constraint information:secret
+    used: false
+    guidance: 未利用
+  - name: Constraint information:topSecret
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Constraint
+    information::MD_Constraints"
+  attributes:
+  - name: Constraint information:useLimitation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Constraint
+    information::MD_LegalConstraints"
+  attributes:
+  - name: Constraint information:useLimitation
+    used: false
+    guidance: 未利用
+  - name: Constraint information:accessConstraints
+    used: false
+    guidance: 未利用
+  - name: Constraint information:useConstraints
+    used: false
+    guidance: 未利用
+  - name: Constraint information:otherConstraints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Constraint
+    information::MD_RestrictionCode"
+  attributes:
+  - name: Constraint information:copyright
+    used: false
+    guidance: 未利用
+  - name: Constraint information:patent
+    used: false
+    guidance: 未利用
+  - name: Constraint information:patentPending
+    used: false
+    guidance: 未利用
+  - name: Constraint information:trademark
+    used: false
+    guidance: 未利用
+  - name: Constraint information:license
+    used: false
+    guidance: 未利用
+  - name: Constraint information:intellectualPropertyRights
+    used: false
+    guidance: 未利用
+  - name: Constraint information:restricted
+    used: false
+    guidance: 未利用
+  - name: Constraint information:otherRestrictions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Constraint
+    information::MD_SecurityConstraints"
+  attributes:
+  - name: Constraint information:useLimitation
+    used: false
+    guidance: 未利用
+  - name: Constraint information:classification
+    used: false
+    guidance: 未利用
+  - name: Constraint information:userNote
+    used: false
+    guidance: 未利用
+  - name: Constraint information:classificationSystem
+    used: false
+    guidance: 未利用
+  - name: Constraint information:handlingDescription
+    used: false
+    guidance: 未利用

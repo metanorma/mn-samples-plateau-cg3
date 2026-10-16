@@ -1,0 +1,44 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2017 Data Quality
+    Amendment::DQ_CoverageResult"
+  attributes:
+  - name: Data quality result:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality result:resultScope
+    used: false
+    guidance: 未利用
+  - name: ISO 19157:2017 Data Quality Amendment:spatialRepresentationType
+    used: false
+    guidance: 未利用
+  - name: Content information:resultContent
+    used: false
+    guidance: 未利用
+  - name: Content information:resultContent
+    used: false
+    guidance: 未利用
+  - name: Content information:resultContentDescription
+    used: false
+    guidance: 未利用
+  - name: Distribution information:resultFormat
+    used: false
+    guidance: 未利用
+  - name: ISO 19157:2017 Data Quality Amendment:resultFile
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:resultSpatialRepresentation
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:resultSpatialRepresentation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2017 Data Quality
+    Amendment::MX_DataFile"
+  attributes:
+  - name: Distribution information:fileFormat
+    used: false
+    guidance: 未利用
+  - name: Distribution information:fileFormat
+    used: false
+    guidance: 未利用

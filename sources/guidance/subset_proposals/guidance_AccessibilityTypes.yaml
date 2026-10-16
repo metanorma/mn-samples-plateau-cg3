@@ -1,0 +1,353 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_AllergyRelatedAccessibilityCode"
+  attributes:
+  - name: AccessibilityTypes:cleaning
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:mould
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:pets
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:pollen
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:smoking
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_InfoMeansAccessibilityCode"
+  attributes:
+  - name: AccessibilityTypes:equipmenrForInteractiveInformation
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationDesk
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationDisplay
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationHandout
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationPlacard
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:internetAccess
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:map
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:mobileServices
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:routeMap
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:signAndIcon
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:voiceInformation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_InformationAccessibilityCode"
+  attributes:
+  - name: AccessibilityTypes:audioInformaton
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:marking
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:tactileInformation
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:vsualInformation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_LightAndContrastSupportedAccessibilityCode"
+  attributes:
+  - name: AccessibilityTypes:contrast
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:lightening
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_MachineAccessibilityCode"
+  attributes:
+  - name: AccessibilityTypes:usability
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:easyToFind
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_MiscAccessibilityCode"
+  attributes:
+  - name: AccessibilityTypes:seatAdaption
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:handicapToilet
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_PhysicalAccessibilityCode"
+  attributes:
+  - name: AccessibilityTypes:broadwiseGradient
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:doors
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:gradient
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:laneLine
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:lift
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:spaceAvailable
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:surface
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:tactileMarking
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:threshold
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:waitingArea
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:wellArrangedInterior
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:wheelchairArea
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_TransferNodeEntranceAccessibilityCode"
+  attributes:
+  - name: AccessibilityTypes:gradient
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:handicapParking
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:laneLine
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:tactileMarking
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:threshold
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_TransportMeansAccessibilityCode"
+  attributes:
+  - name: AccessibilityTypes:angle
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:distance
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:grip
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:hightLevelDifference
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:lift
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:wheelchairPlatform
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_AccessibilityInfo"
+  attributes:
+  - name: AccessibilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_AllergyRelatedAccessibility"
+  attributes:
+  - name: AccessibilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:value
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:accessibilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_AccessibilityCategories"
+  attributes:
+  - name: AccessibilityTypes:allergyRealtedAccessibilty
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:infoMeansAccessibilty
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationAccessibilty
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:lightAndContrastSupportedAccessibilty
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:machinAccessibilty
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:miscAccessibilty
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:physicalAccessibilty
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:transferNodeAccessAccessibilty
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:transportMeansAccessibilty
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_InfoMeansAccessibility"
+  attributes:
+  - name: AccessibilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:value
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:accessibilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_InformationAccessibility"
+  attributes:
+  - name: AccessibilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:value
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:accessibilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_LightAndContrastSupportedAccessibility"
+  attributes:
+  - name: AccessibilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:value
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:accessibiltyCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_MachineAccessibility"
+  attributes:
+  - name: AccessibilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:value
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:accessibilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_MiscAccessibility"
+  attributes:
+  - name: AccessibilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:value
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:accessibilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_PhysicalAccessibility"
+  attributes:
+  - name: AccessibilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:value
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:accessibilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_TransferNodeAccessibility"
+  attributes:
+  - name: AccessibilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:value
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:accessibilityCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::AccessibilityTypes::AT_TransportMeansAccessibility"
+  attributes:
+  - name: AccessibilityTypes:description
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:value
+    used: false
+    guidance: 未利用
+  - name: AccessibilityTypes:accessibilityCode
+    used: false
+    guidance: 未利用

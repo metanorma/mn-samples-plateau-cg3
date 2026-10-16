@@ -1,0 +1,184 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Orphans::<undefined>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Bag<expr.type>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Bag<T>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Binary"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Distance, TM_GeometricPrimitive[1..*]"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::GM_Curve[1..*]"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::LBS_Instruction[1..*]"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::LBS_Notification[0..*]"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::LBS_TrackingLocation[0..*]"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Record<T, Integer = 1>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Record<T, Integer = length>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Reference<Any>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<AD_AddressElement>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<Boolean>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<booleanOrNilReason>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<CharacterString>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<CodeOrNilReason>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<CV_GeometryValuePair>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<CV_GridPointValuePair>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<CV_PointValuePair>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<doubleOrNilReason>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<expr.type>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<GC_Capability>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<GenericName>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<GM_Arc>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<GM_Geodesic>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<GM_Knot>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<GM_LineSegment>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<GM_Point>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<IG_ImageValues>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<Image>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<Integer>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<integerOrNilReason>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<KeyType>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<Length>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<LocalName>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<Map>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<MD_Dimension>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<Measure>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<MeasureOrNilReason>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<MM_RouteSegment>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<NameOrNilReason>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<NS_RouteRequestType>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<NT_Link>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<NT_Turn>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<Number>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<Real>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<Record>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<ScopedName>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<SD_PolynomialRatio>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<SD_Scaling>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<T>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<Vector>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Sequence<VoiceStream>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<CharacterString>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<CV_CurveValuePair>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<CV_DomainObject>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<CV_GeometryValuePair>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<CV_GridPointValuePair>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<CV_PointValuePair>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<CV_SolidValuePair>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<CV_SurfaceValuePair>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<CV_ValueObject>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<CV_ValueSegment>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<DirectPosition>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<Distance>, DirectPosition"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<expr.type>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<FR_Scope>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<GF_AttributeType>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<GF_FeatureType>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<GM_Complex>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<GM_LineString>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<GM_Object>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<GM_Point>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<GM_Position>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<GM_Primitive>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<GPL_CoordinateTuple>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<MF_MeasureFunction>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<RE_AlternativeExpression>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<RE_AlternativeName>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<RE_FieldOfApplication>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<RE_Locale>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<Sequence<Number>>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<T>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<TP_DirectedTopo>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<TP_Primitive>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<TS_FeatureComponent>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<TS_Root>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::Set<TypeName>"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::SI_LocationInstance[0..*]"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Orphans::TransfiniteSet<T>"
+  attributes: []

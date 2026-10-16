@@ -1,0 +1,107 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:2007 Data Product
+    Specifications::Specification Scopes::DPS_Metadata"
+  attributes:
+  - name: Metadata Information:metadataIdentifier
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:defaultLocale
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:parentMetadata
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:contact
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:dateInfo
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:metadataStandard
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:metadataProfile
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:alternativeMetadataReference
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:otherLocale
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:metadataLinkage
+    used: false
+    guidance: 未利用
+  - name: Application schema information:applicationSchemaInfo
+    used: false
+    guidance: 未利用
+  - name: Constraint information:metadataConstraints
+    used: false
+    guidance: 未利用
+  - name: Content information:contentInfo
+    used: false
+    guidance: 未利用
+  - name: Data quality:dataQualityInfo
+    used: false
+    guidance: 未利用
+  - name: Distribution information:distributionInfo
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:featureAttribute
+    used: false
+    guidance: 未利用
+  - name: Identification information:identificationInfo
+    used: false
+    guidance: 未利用
+  - name: Lineage information:resourceLineage
+    used: false
+    guidance: 未利用
+  - name: Maintenance information:metadataMaintenance
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:metadataScope
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:metadataExtensionInfo
+    used: false
+    guidance: 未利用
+  - name: Portrayal catalogue information:portrayalCatalogueInfo
+    used: false
+    guidance: 未利用
+  - name: Reference system information:referenceSystemInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:spatialRepresentationInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:spatialRepresentationInfo
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:metadataScope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:2007 Data Product
+    Specifications::Specification Scopes::DPS_ScopeInformation"
+  attributes:
+  - name: Specification Scopes:scopeIdentification
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:level
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:levelName
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:extent
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:levelDescription
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:coverage
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:scopeInformation
+    used: false
+    guidance: 未利用

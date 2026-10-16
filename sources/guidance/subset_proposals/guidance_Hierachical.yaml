@@ -1,0 +1,29 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::Hierachical::SubregisterDescription"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: CoreModel:containedItemClass
+    used: false
+    guidance: 未利用
+  - name: CoreModel:subregisterManager
+    used: false
+    guidance: 未利用

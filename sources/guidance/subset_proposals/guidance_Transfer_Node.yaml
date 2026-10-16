@@ -1,0 +1,296 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Transfer
+    Node::TN_AccessPoint"
+  attributes:
+  - name: Transfer Node:locationName
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:point
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:address
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:area
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:informationLink
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:description
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:accessPointName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Transfer
+    Node::TN_InfrastructureOwner"
+  attributes:
+  - name: Transfer Node:legalEntity
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Transfer
+    Node::TN_Location"
+  attributes:
+  - name: Transfer Node:locationName
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:point
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:address
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:area
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:informationLink
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Transfer
+    Node::TN_OpeningHoursType"
+  attributes:
+  - name: Transfer Node:fromDate
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:toDate
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:opensAt
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:closesAt
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Transfer
+    Node::TN_StopPoint"
+  attributes:
+  - name: Transfer Node:locationName
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:point
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:address
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:area
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:informationLink
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:description
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:stopPointID
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:name
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:serviceOrFacility
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:deviation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Transfer
+    Node::TN_TransferInfo"
+  attributes:
+  - name: Transfer Node:transferMode
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:distance
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:minTransferTime
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:thresholdFree
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:description
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:serviceOrFacility
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:deviation
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:howToDoTransfer
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:subTransferInfo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Transfer
+    Node::TN_TransferNode"
+  attributes:
+  - name: Transfer Node:locationName
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:point
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:address
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:area
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:informationLink
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:description
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:transferNodeID
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:countryCode
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:publishedName
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:shortName
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:transferNodeMode
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:nodeType
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:maxDistanceToStopPoint
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:maxTimeToStopPoint
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:timeZone
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:serviceOrFacility
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:deviation
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:restriction
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:operationalHours
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:passengerTransferNode
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:subNode
+    used: false
+    guidance: 未利用
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Transfer
+    Node::TN_TransferNodeCode"
+  attributes:
+  - name: Transfer Node:local
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:international
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:national
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:regional
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Transfer
+    Node::TN_TransportModeCode"
+  attributes:
+  - name: Transfer Node:Walk
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Bicycle
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Moped
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Motorcycle
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Bus
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Taxi
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:PrivateCar
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Aircraft
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Ferry
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Ship
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Train
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:LightRail
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Tramway
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:CogRailway
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Monorail
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:SuspendedRail
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Funicular
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:MagneticLevitationRail
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Metro
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:CabinCableCar
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:ChairlLift
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:SkiTow
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:Others
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Transfer
+    Node::TN_DescriptionType"
+  attributes:
+  - name: Transfer Node:text
+    used: false
+    guidance: 未利用
+  - name: Transfer Node:language
+    used: false
+    guidance: 未利用

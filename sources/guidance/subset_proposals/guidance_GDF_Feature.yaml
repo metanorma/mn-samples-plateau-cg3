@@ -1,0 +1,333 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_AreaFeature"
+  attributes:
+  - name: GDF Feature:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:attribute
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:category
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:class
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:container
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_SemanticRelationship
+    used: false
+    guidance: 未利用
+  - name: GDF Topology:edge
+    used: false
+    guidance: 未利用
+  - name: GDF Topology:theGDF_Face
+    used: false
+    guidance: 未利用
+  - name: GDFGeometry:theGDF_Polygon
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_Attribute"
+  attributes:
+  - name: GDF Feature:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:featureCarrier
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:relationCarrier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_AttributeType"
+  attributes:
+  - name: GDF Feature:name
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:code
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:contains
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:isCharacterizedBy
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:isCharacterizedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_ComplexAttributeType"
+  attributes:
+  - name: GDF Feature:name
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:code
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:contains
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:isCharacterizedBy
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:isCharacterizedBy
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:RestrictiveElement
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:attOnAtt
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:part
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:restriction
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_ComplexAttributeType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_ComplexFeature"
+  attributes:
+  - name: GDF Feature:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:attribute
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:category
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:class
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:container
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_SemanticRelationship
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:boundary
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:bounds
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:subfeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_Feature"
+  attributes:
+  - name: GDF Feature:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:attribute
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:category
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:class
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:container
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_SemanticRelationship
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_FeatureCategory"
+  attributes:
+  - name: GDF Feature:code
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:representation
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_Feature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_FeatureClass"
+  attributes:
+  - name: GDF Feature:name
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:code
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:belongsTo
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:character
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:represents
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theme
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_FeatureTheme"
+  attributes:
+  - name: GDF Feature:name
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:code
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:belongsTo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_Layer"
+  attributes:
+  - name: GDF Feature:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:topologyType
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:geometricFeature
+    used: false
+    guidance: 未利用
+  - name: GDF Topology:topology
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_LineFeature"
+  attributes:
+  - name: GDF Feature:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:attribute
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:category
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:class
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:container
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_SemanticRelationship
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:at
+    used: false
+    guidance: 未利用
+  - name: GDF Topology:theGDF_Edge
+    used: false
+    guidance: 未利用
+  - name: GDFGeometry:theGDF_PolyLine
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_PointFeature"
+  attributes:
+  - name: GDF Feature:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:attribute
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:category
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:class
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:container
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_SemanticRelationship
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:bounds
+    used: false
+    guidance: 未利用
+  - name: GDF Topology:theGDF_Node
+    used: false
+    guidance: 未利用
+  - name: GDFGeometry:theGDF_Dot
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_RelationshipType"
+  attributes:
+  - name: GDF Feature:name
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:code
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:attributeType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_RestrictedSubAttributeType"
+  attributes:
+  - name: GDF Feature:name
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:code
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:contains
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:isCharacterizedBy
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:isCharacterizedBy
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:contains
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_SemanticRelationship"
+  attributes:
+  - name: GDF Feature:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:attribute
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_Feature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_SimpleAttributeType"
+  attributes:
+  - name: GDF Feature:name
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:code
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:contains
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:isCharacterizedBy
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:isCharacterizedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Feature::GDF_SimpleFeature"
+  attributes:
+  - name: GDF Feature:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:attribute
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:category
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:class
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:container
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_SemanticRelationship
+    used: false
+    guidance: 未利用

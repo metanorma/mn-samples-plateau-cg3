@@ -1,0 +1,35 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:2007 Data Product
+    Specifications::DPS::DPS"
+  attributes:
+  - name: Specification Additional Information:additionalInformation
+    used: false
+    guidance: 未利用
+  - name: Specification Content and Structure:content
+    used: false
+    guidance: 未利用
+  - name: Specification Data Capture Information:capture
+    used: false
+    guidance: 未利用
+  - name: Specification Data Quality Requirement:quality
+    used: false
+    guidance: 未利用
+  - name: Specification Delivery Information:delivery
+    used: false
+    guidance: 未利用
+  - name: Specification Identification:identification
+    used: false
+    guidance: 未利用
+  - name: Specification Maintenance Information:maintenance
+    used: false
+    guidance: 未利用
+  - name: Specification Portrayal Information:portrayal
+    used: false
+    guidance: 未利用
+  - name: Specification Reference System:rs
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:metadata
+    used: false
+    guidance: 未利用

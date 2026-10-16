@@ -1,0 +1,107 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19125 All::ISO 19125 Featuress and their
+    geometries::Feature Model::AssociationDefinition"
+  attributes:
+  - name: Feature Model:typeName
+    used: false
+    guidance: 未利用
+  - name: Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: Feature Model:identity
+    used: false
+    guidance: 未利用
+  - name: Feature Model:ValueTyhpe
+    used: false
+    guidance: 未利用
+  - name: Feature Model:associationNames
+    used: false
+    guidance: 未利用
+  - name: 'Feature Model:'
+    used: false
+    guidance: 未利用
+  - name: Feature Model:feature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19125 All::ISO 19125 Featuress and their
+    geometries::Feature Model::ClassName"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19125 All::ISO 19125 Featuress and their
+    geometries::Feature Model::Definition"
+  attributes:
+  - name: Feature Model:typeName
+    used: false
+    guidance: 未利用
+  - name: Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: Feature Model:identity
+    used: false
+    guidance: 未利用
+  - name: 'Feature Model:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19125 All::ISO 19125 Featuress and their
+    geometries::Feature Model::FeatureDefinition"
+  attributes:
+  - name: Feature Model:typeName
+    used: false
+    guidance: 未利用
+  - name: Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: Feature Model:identity
+    used: false
+    guidance: 未利用
+  - name: 'Feature Model:'
+    used: false
+    guidance: 未利用
+  - name: Feature Model:property
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19125 All::ISO 19125 Featuress and their
+    geometries::Feature Model::Ontology"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19125 All::ISO 19125 Featuress and their
+    geometries::Feature Model::Ontology"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19125 All::ISO 19125 Featuress and their
+    geometries::Feature Model::ProperrtyDefinition"
+  attributes:
+  - name: Feature Model:typeName
+    used: false
+    guidance: 未利用
+  - name: Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: Feature Model:identity
+    used: false
+    guidance: 未利用
+  - name: Feature Model:ValueTyhpe
+    used: false
+    guidance: 未利用
+  - name: 'Feature Model:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19125 All::ISO 19125 Featuress and their
+    geometries::Feature Model::RoleDefinition"
+  attributes:
+  - name: Feature Model:typeName
+    used: false
+    guidance: 未利用
+  - name: Feature Model:definition
+    used: false
+    guidance: 未利用
+  - name: Feature Model:identity
+    used: false
+    guidance: 未利用
+  - name: Feature Model:roleName
+    used: false
+    guidance: 未利用
+  - name: 'Feature Model:'
+    used: false
+    guidance: 未利用
+  - name: Feature Model:relation
+    used: false
+    guidance: 未利用

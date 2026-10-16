@@ -1,0 +1,38 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::Aid Application Register::AgriculturalParcel"
+  attributes:
+  - name: Aid Application Register:referenceParcelID
+    used: false
+    guidance: 未利用
+  - name: Aid Application Register:declaredArea
+    used: false
+    guidance: 未利用
+  - name: Aid Application Register:paymentType
+    used: false
+    guidance: 未利用
+  - name: Aid Application Register:landUse
+    used: false
+    guidance: 未利用
+  - name: Aid Application Register:cropCode
+    used: false
+    guidance: 未利用
+  - name: 'Aid Application Register:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::Aid Application Register::AidApplication"
+  attributes:
+  - name: Aid Application Register:applicationID
+    used: false
+    guidance: 未利用
+  - name: Aid Application Register:farmerID
+    used: false
+    guidance: 未利用
+  - name: Aid Application Register:date
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::Aid Application Register::FarmerSketch"
+  attributes: []

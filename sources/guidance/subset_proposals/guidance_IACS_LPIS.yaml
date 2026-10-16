@@ -1,0 +1,236 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::IACS/LPIS::CadastreParcel"
+  attributes:
+  - name: LPIS:uniqueID
+    used: false
+    guidance: 未利用
+  - name: LPIS:referenceArea
+    used: false
+    guidance: 未利用
+  - name: LPIS:effectiveDate
+    used: false
+    guidance: 未利用
+  - name: LPIS:digitisedArea
+    used: false
+    guidance: 未利用
+  - name: LPIS:claimedArea
+    used: false
+    guidance: 未利用
+  - name: 'Aid Application Register:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::IACS/LPIS::CropGroupCode"
+  attributes:
+  - name: IACS/LPIS:barley
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:linseed
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:noCrop
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:oats
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:rye
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:starchPatatoes
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:vines
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:wheat
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::IACS/LPIS::DeclaredAgriParcel"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:claimedArea
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:cropType
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:paymentType
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:nationalPaymentType
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:determinedArea
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:partOf
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::IACS/LPIS::FarmerBlock"
+  attributes:
+  - name: LPIS:uniqueID
+    used: false
+    guidance: 未利用
+  - name: LPIS:referenceArea
+    used: false
+    guidance: 未利用
+  - name: LPIS:effectiveDate
+    used: false
+    guidance: 未利用
+  - name: LPIS:digitisedArea
+    used: false
+    guidance: 未利用
+  - name: LPIS:claimedArea
+    used: false
+    guidance: 未利用
+  - name: 'Aid Application Register:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::IACS/LPIS::LandUseCode"
+  attributes:
+  - name: IACS/LPIS:...???
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::IACS/LPIS::PaymentCode"
+  attributes:
+  - name: IACS/LPIS:SPS
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:set-a-side
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:durumWheat
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:proteinCrop
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:nuts
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:energyCrops
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:starchPotato
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:arableCropsRegionalAid
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:arableCropsAreaPayment
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:seeds
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::IACS/LPIS::PaymentEntitlement"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:amoutOfHectare
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:valuePerHectare
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:calcType
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:unusedHectare
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::IACS/LPIS::PhysicalBlock"
+  attributes:
+  - name: LPIS:uniqueID
+    used: false
+    guidance: 未利用
+  - name: LPIS:referenceArea
+    used: false
+    guidance: 未利用
+  - name: LPIS:effectiveDate
+    used: false
+    guidance: 未利用
+  - name: LPIS:digitisedArea
+    used: false
+    guidance: 未利用
+  - name: LPIS:claimedArea
+    used: false
+    guidance: 未利用
+  - name: 'Aid Application Register:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::IACS/LPIS::SpatialAgriculturalParcel"
+  attributes:
+  - name: LPIS:uniqueID
+    used: false
+    guidance: 未利用
+  - name: LPIS:referenceArea
+    used: false
+    guidance: 未利用
+  - name: LPIS:effectiveDate
+    used: false
+    guidance: 未利用
+  - name: LPIS:digitisedArea
+    used: false
+    guidance: 未利用
+  - name: LPIS:claimedArea
+    used: false
+    guidance: 未利用
+  - name: 'Aid Application Register:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::IACS/LPIS::YearlyAidApplication"
+  attributes:
+  - name: IACS/LPIS:applicationID
+    used: false
+    guidance: 未利用
+  - name: IACS/LPIS:applicationSeasonYear
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex H. LADM and LPIS::LADM and LPIS::IACS/LPIS::YearlyFarmerSketch"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用

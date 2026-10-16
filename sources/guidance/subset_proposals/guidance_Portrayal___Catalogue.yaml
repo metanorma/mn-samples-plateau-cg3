@@ -1,0 +1,104 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2005 Portrayal::Portrayal
+    \ Catalogue::FeatureInstance"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2005 Portrayal::Portrayal
+    \ Catalogue::PF_AttributeDefinition"
+  attributes:
+  - name: Portrayal  Catalogue:name
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:description
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:type
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:defaultValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2005 Portrayal::Portrayal
+    \ Catalogue::PF_ExternalFunction"
+  attributes:
+  - name: Portrayal  Catalogue:functionName
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:returnType
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:description
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:featureType
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:formalParameter
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:thePF_PortrayalRule
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2005 Portrayal::Portrayal
+    \ Catalogue::PF_FeaturePortrayal"
+  attributes:
+  - name: Portrayal  Catalogue:priority
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:description
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:definedFor
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:definedForInst
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:externalFunction
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:portrayalRule
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2005 Portrayal::Portrayal
+    \ Catalogue::PF_PortrayalCatalogue"
+  attributes:
+  - name: Portrayal  Catalogue:queryLanguage
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:actionLanguage
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:defaultPortrayalSpec
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:externalFunction
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:featurePortrayal
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19117 All::ISO 19117:2005 Portrayal::Portrayal
+    \ Catalogue::PF_PortrayalRule"
+  attributes:
+  - name: Portrayal  Catalogue:ruleName
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:priority
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:description
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:queryStatment
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:propertyName
+    used: false
+    guidance: 未利用
+  - name: Portrayal  Catalogue:externalFunction
+    used: false
+    guidance: 未利用
+  - name: Portrayal Specification:portrayalAction
+    used: false
+    guidance: 未利用

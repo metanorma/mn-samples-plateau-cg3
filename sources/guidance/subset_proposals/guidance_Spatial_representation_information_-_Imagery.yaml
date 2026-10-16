@@ -1,0 +1,121 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Spatial representation information -
+    Imagery::MI_GCP"
+  attributes:
+  - name: Spatial representation information - Imagery:geographicCoordinates
+    used: false
+    guidance: 未利用
+  - name: Data quality information:accuracyReport
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Spatial representation information -
+    Imagery::MI_GCPCollection"
+  attributes:
+  - name: Spatial representation information - Imagery:collectionIdentification
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:collectionName
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:coordinateReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:gcp
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Spatial representation information -
+    Imagery::MI_GeolocationInformation"
+  attributes:
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Spatial representation information -
+    Imagery::MI_Georectified"
+  attributes:
+  - name: Spatial representation information:scope
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:numberOfDimensions
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:axisDimensionProperties
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:cellGeometry
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:transformationParameterAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:checkPointAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:checkPointDescription
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:cornerPoints
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:centrePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:pointInPixel
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:transformationDimensionDescription
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:transformationDimensionMapping
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:checkPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-2:2009 Metadata -
+    Extensions for imagery and gridded data::Spatial representation information -
+    Imagery::MI_Georeferenceable"
+  attributes:
+  - name: Spatial representation information:scope
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:numberOfDimensions
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:axisDimensionProperties
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:cellGeometry
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:transformationParameterAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:controlPointAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:orientationParameterAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:orientationParameterDescription
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:georeferencedParameters
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:parameterCitation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:platformParameters
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:geolocationInformation
+    used: false
+    guidance: 未利用

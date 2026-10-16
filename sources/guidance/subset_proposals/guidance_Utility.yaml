@@ -1,0 +1,59 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Application Schema Examples::Utility::MainSubstation"
+  attributes:
+  - name: Utility:name
+    used: false
+    guidance: 未利用
+  - name: Utility:topologyRelatedBy
+    used: false
+    guidance: 未利用
+  - name: Utility:address
+    used: false
+    guidance: 未利用
+  - name: Utility:geometricallyDescribedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Application Schema Examples::Utility::Substation"
+  attributes:
+  - name: Utility:name
+    used: false
+    guidance: 未利用
+  - name: Utility:topologyRelatedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Application Schema Examples::Utility::TowerSubstation"
+  attributes:
+  - name: Utility:name
+    used: false
+    guidance: 未利用
+  - name: Utility:topologyRelatedBy
+    used: false
+    guidance: 未利用
+  - name: Utility:height
+    used: false
+    guidance: 未利用
+  - name: Utility:geometricallyDescribedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Application Schema Examples::Utility::TransmissionLine"
+  attributes:
+  - name: Utility:name
+    used: false
+    guidance: 未利用
+  - name: Utility:topologicallyDescribedBy
+    used: false
+    guidance: 未利用
+  - name: Utility:geometricallyDescribedBy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Application Schema Examples::Utility::UtilityNetwork"
+  attributes:
+  - name: Utility:topology
+    used: false
+    guidance: 未利用

@@ -1,0 +1,299 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata extension information::MD_DatatypeCode"
+  attributes:
+  - name: Metadata extension information:class
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:codelist
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:enumeration
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:codelistElement
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:abstractClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:aggregateClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:specifiedClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:datatypeClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:interfaceClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:unionClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:metaClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:typeClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:characterString
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:integer
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:association
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata extension information::MD_ExtendedElementInformation"
+  attributes:
+  - name: Metadata extension information:name
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:definition
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:obligation
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:condition
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:dataType
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:maximumOccurrence
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:domainValue
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:parentEntity
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:rule
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:rationale
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:source
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:conceptName
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:code
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Metadata extension information::MD_MetadataExtensionInformation"
+  attributes:
+  - name: Metadata extension information:extensionOnLineResource
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:extendedElementInformation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    extension information::MD_DatatypeCode"
+  attributes:
+  - name: Metadata extension information:class
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:codelist
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:enumeration
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:codelistElement
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:abstractClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:aggregateClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:specifiedClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:datatypeClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:interfaceClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:unionClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:metaClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:typeClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:characterString
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:integer
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:association
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    extension information::MD_ExtendedElementInformation"
+  attributes:
+  - name: Metadata extension information:name
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:shortName
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:domainCode
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:definition
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:obligation
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:condition
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:dataType
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:maximumOccurrence
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:domainValue
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:parentEntity
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:rule
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:rationale
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2006 Metadata (Corrigendum)::Metadata
+    extension information::MD_MetadataExtensionInformation"
+  attributes:
+  - name: Metadata extension information:extensionOnLineResource
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:extendedElementInformation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    extension information::MD_DatatypeCode"
+  attributes:
+  - name: Metadata extension information:class
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:codelist
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:enumeration
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:codelistElement
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:abstractClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:aggregateClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:specifiedClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:datatypeClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:interfaceClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:unionClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:metaClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:typeClass
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:characterString
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:integer
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:association
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    extension information::MD_ExtendedElementInformation"
+  attributes:
+  - name: Metadata extension information:name
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:shortName
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:domainCode
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:definition
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:obligation
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:condition
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:dataType
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:maximumOccurrence
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:domainValue
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:parentEntity
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:rule
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:rationale
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115:2003 Metadata::Metadata
+    extension information::MD_MetadataExtensionInformation"
+  attributes:
+  - name: Metadata extension information:extensionOnLineResource
+    used: false
+    guidance: 未利用
+  - name: Metadata extension information:extendedElementInformation
+    used: false
+    guidance: 未利用

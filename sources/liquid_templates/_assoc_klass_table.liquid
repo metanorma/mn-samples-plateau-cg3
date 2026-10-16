@@ -18,8 +18,12 @@ Initialize global variables and mappings
   {%- assign stereotype = " " -%}
 {%- endif -%}
 
+{% assign owned_props = klass.owned_attributes %}
+
 {%- comment -%}Configure table columns{%- endcomment -%}
-{%- if klass.has_guidance? -%}
+{%- assign guidance_column = false -%}
+{%- assign guidance_row_style = "tr-style:[background-color: lightyellow]" -%}
+{%- if klass.has_guidance? and guidance_column -%}
   {%- assign cols_format = "1a,1a,2a,1a" -%}
   {%- assign cols_number = 4 -%}
   {%- assign cols_header = 3 -%}
@@ -35,19 +39,18 @@ h| 型の定義 {{ cols_header }}+| {{ klass.definition }}
 h| 上位の型 {{ cols_header }}+| {{ upper_klass_name }}
 h| ステレオタイプ {{ cols_header }}+| {{ stereotype }}
 
-{% if klass.owned_attributes.size > 0 %}
+{% if owned_props.size > 0 %}
 {{ cols_number }}+h| 自身に定義された属性
-h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? %} h| 補足{%- endif %}
-{% for attr in klass.owned_attributes %}
+h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? and guidance_column -%} h| 補足{%- endif %}
+{% for attr in owned_props %}
   {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
   {% if attr_cardinality == '..*' %}
     {% assign attr_cardinality = '0..*' %}
   {% endif %}
-  
-  | {{ attr.name }}
-  | {{ attr.type }} [{{ attr_cardinality }}]
-  | {{ attr.definition }}
-  {% if klass.has_guidance? -%} | {{ attr.guidance }}{%- endif %}{% if attr.used? == false %}tr-style:[background-color: grey]{% endif %}
+| {{ attr.name }}
+| {{ attr.type }} {% if attr.cardinality %}[{{ attr_cardinality }}]{% endif %}
+| {{ attr.definition | html2adoc }}
+{% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.guidance and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
 {% endfor %}
 {% endif %}
 |===

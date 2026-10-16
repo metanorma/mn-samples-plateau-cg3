@@ -1,0 +1,68 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::geometryPrimitives::ArcByCenterPoint"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: geometryPrimitives:controlPoint
+    used: false
+    guidance: 未利用
+  - name: geometryPrimitives:radius
+    used: false
+    guidance: 未利用
+  - name: geometryPrimitives:startAngle
+    used: false
+    guidance: 未利用
+  - name: geometryPrimitives:endAngle
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::geometryPrimitives::CircleByCenterPoint"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: geometryPrimitives:controlPoint
+    used: false
+    guidance: 未利用
+  - name: geometryPrimitives:radius
+    used: false
+    guidance: 未利用
+  - name: geometryPrimitives:startAngle
+    used: false
+    guidance: 未利用
+  - name: geometryPrimitives:endAngle
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::geometryPrimitives::Rectangle"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesOnBoundary
+    used: false
+    guidance: 未利用
+  - name: geometryPrimitives:boundary
+    used: false
+    guidance: 未利用

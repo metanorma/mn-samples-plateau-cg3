@@ -1,0 +1,11 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Basic Services::LBS_Navigation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Basic Services::LBS_Routing"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS_Services::Basic Services::LBS_Tracking"
+  attributes: []

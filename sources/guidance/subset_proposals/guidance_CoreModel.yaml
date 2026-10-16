@@ -1,0 +1,59 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::CoreModel::Register"
+  attributes:
+  - name: CoreModel:identifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:version
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateOfLastChange
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::CoreModel::ItemClass"
+  attributes:
+  - name: CoreModel:identifier
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::CoreModel::RegisterItem"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::CoreModel::RegisterStakeholder"
+  attributes:
+  - name: CoreModel:name
+    used: false
+    guidance: 未利用
+  - name: Citation and responsible party information:contact
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19135 All::ISO 19135-1:2015 Procedures
+    for item registration - Fundmentals::CoreModel::RE_Version"
+  attributes:
+  - name: CoreModel:versionNumber
+    used: false
+    guidance: 未利用
+  - name: CoreModel:versionDate
+    used: false
+    guidance: 未利用

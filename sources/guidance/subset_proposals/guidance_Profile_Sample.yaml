@@ -1,0 +1,341 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::Address"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:class
+    used: false
+    guidance: 未利用
+  - name: Address:preferenceLevel
+    used: false
+    guidance: 未利用
+  - name: Address:position
+    used: false
+    guidance: 未利用
+  - name: Address:status
+    used: false
+    guidance: 未利用
+  - name: Address:lifecycleStage
+    used: false
+    guidance: 未利用
+  - name: Address:lifespan
+    used: false
+    guidance: 未利用
+  - name: Address:provenance
+    used: false
+    guidance: 未利用
+  - name: Address:locale
+    used: false
+    guidance: 未利用
+  - name: Address:address
+    used: false
+    guidance: 未利用
+  - name: Address:addressComponent
+    used: false
+    guidance: 未利用
+  - name: Address:addressedObject
+    used: false
+    guidance: 未利用
+  - name: Address:aliasAddress
+    used: false
+    guidance: 未利用
+  - name: Address:childAddress
+    used: false
+    guidance: 未利用
+  - name: Address:parentAddress
+    used: false
+    guidance: 未利用
+  - name: Address:specification
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:business
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:business
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:client
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:employee
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:business
+    used: false
+    guidance: 未利用
+  - name: ExternalClasses:employee
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::AddressableObject"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:position
+    used: false
+    guidance: 未利用
+  - name: Address:lifecycleStage
+    used: false
+    guidance: 未利用
+  - name: Address:lifespan
+    used: false
+    guidance: 未利用
+  - name: Address:address
+    used: false
+    guidance: 未利用
+  - name: Address:childAddressableObject
+    used: false
+    guidance: 未利用
+  - name: Address:parentAddressableObject
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::AddressableObjectType"
+  attributes:
+  - name: Profile_Sample:commercialBuilding
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:landParcel
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:postBox
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:residentialDwelling
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::AddressClass"
+  attributes:
+  - name: Profile_Sample:streetAddress
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:boxAddress
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::AddressComponent"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::AddressComponentType"
+  attributes:
+  - name: Address:addressedObjectIdentifier
+    used: false
+    guidance: 未利用
+  - name: Address:administrativeAreaName
+    used: false
+    guidance: 未利用
+  - name: Address:countryCode
+    used: false
+    guidance: 未利用
+  - name: Address:countryName
+    used: false
+    guidance: 未利用
+  - name: Address:localityName
+    used: false
+    guidance: 未利用
+  - name: Address:postcode
+    used: false
+    guidance: 未利用
+  - name: Address:postOfficeName
+    used: false
+    guidance: 未利用
+  - name: Address:thoroughfareName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::AddressPositionType"
+  attributes:
+  - name: Profile_Sample:entrance
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:centroid
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::CommercialBuilding"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:position
+    used: false
+    guidance: 未利用
+  - name: Address:lifecycleStage
+    used: false
+    guidance: 未利用
+  - name: Address:lifespan
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:name
+    used: false
+    guidance: 未利用
+  - name: Address:address
+    used: false
+    guidance: 未利用
+  - name: Address:childAddressableObject
+    used: false
+    guidance: 未利用
+  - name: Address:parentAddressableObject
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::LandParcel"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:position
+    used: false
+    guidance: 未利用
+  - name: Address:lifecycleStage
+    used: false
+    guidance: 未利用
+  - name: Address:lifespan
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:landParcelIdentifier
+    used: false
+    guidance: 未利用
+  - name: Address:address
+    used: false
+    guidance: 未利用
+  - name: Address:childAddressableObject
+    used: false
+    guidance: 未利用
+  - name: Address:parentAddressableObject
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::PlaceNameBoundary"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:geometry
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:demarcationDate
+    used: false
+    guidance: 未利用
+  - name: Address:addressComponent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::PostBox"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:position
+    used: false
+    guidance: 未利用
+  - name: Address:lifecycleStage
+    used: false
+    guidance: 未利用
+  - name: Address:lifespan
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:depth
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:height
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:width
+    used: false
+    guidance: 未利用
+  - name: Address:address
+    used: false
+    guidance: 未利用
+  - name: Address:childAddressableObject
+    used: false
+    guidance: 未利用
+  - name: Address:parentAddressableObject
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::ReferenceObjectType"
+  attributes:
+  - name: Profile_Sample:street
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:placeNameBoundary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::ResidentialDwelling"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:position
+    used: false
+    guidance: 未利用
+  - name: Address:lifecycleStage
+    used: false
+    guidance: 未利用
+  - name: Address:lifespan
+    used: false
+    guidance: 未利用
+  - name: Address:address
+    used: false
+    guidance: 未利用
+  - name: Address:childAddressableObject
+    used: false
+    guidance: 未利用
+  - name: Address:parentAddressableObject
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::Street"
+  attributes:
+  - name: Address:id
+    used: false
+    guidance: 未利用
+  - name: Address:type
+    used: false
+    guidance: 未利用
+  - name: Address:geometry
+    used: false
+    guidance: 未利用
+  - name: Address:addressComponent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19160 All::ISO 19160-1:2015 Addressing
+    - Conceptual model::Profile_Sample::ThoroughfareNameValue"
+  attributes:
+  - name: Profile_Sample:prefix
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:name
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:suffix
+    used: false
+    guidance: 未利用
+  - name: Profile_Sample:type
+    used: false
+    guidance: 未利用

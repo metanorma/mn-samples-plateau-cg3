@@ -1,0 +1,59 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19112 All::ISO 19112:2003 Spatial referencing
+    by geographic identifier::Gazetteer::SI_Gazetteer"
+  attributes:
+  - name: Gazetteer:identifier
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:scope
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:territoryOfUse
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:custodian
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:coordinate_system
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:comprises
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:locationType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19112 All::ISO 19112:2003 Spatial referencing
+    by geographic identifier::Gazetteer::SI_LocationInstance"
+  attributes:
+  - name: Gazetteer:geographicIdentifier
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:temporalExtent
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:alternativeGeographicIdentifier
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:geographicExtent
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:position
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:administrator
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:child
+    used: false
+    guidance: 未利用
+  - name: Gazetteer:parent
+    used: false
+    guidance: 未利用
+  - name: ReferenceSystem by Identifier:locationType
+    used: false
+    guidance: 未利用

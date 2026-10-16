@@ -1,0 +1,275 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Imagery Knowledge::Image
+    Classification and Understanding::IG_ClassifiedImage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:element
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:valueAssignment
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:source
+    used: false
+    guidance: 未利用
+  - name: Image Information:createdFrom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Imagery Knowledge::Image
+    Classification and Understanding::IG_Feature"
+  attributes:
+  - name: Image Classification and Understanding:featureID
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:featureType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Imagery Knowledge::Image
+    Classification and Understanding::IG_FeatureCoverage"
+  attributes:
+  - name: Image Classification and Understanding:vectorFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Imagery Knowledge::Image
+    Classification and Understanding::IG_GriddedFeature"
+  attributes:
+  - name: Image Classification and Understanding:featureID
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:featureType
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Imagery Knowledge::Image
+    Classification and Understanding::IG_GridScene"
+  attributes:
+  - name: Data quality information:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Imagery Knowledge::Image
+    Classification and Understanding::IG_SegmentedImage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:element
+    used: false
+    guidance: 未利用
+  - name: TIN:triangleSource
+    used: false
+    guidance: 未利用
+  - name: Thiessen Polygon:polygonSource
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:segmentedFeature
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Imagery Knowledge::Image
+    Classification and Understanding::IG_VectorFeature"
+  attributes:
+  - name: Image Classification and Understanding:featureID
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:featureType
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Imagery Knowledge::Image Classification and Understanding::IG_ClassifiedImage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:element
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:valueAssignment
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:source
+    used: false
+    guidance: 未利用
+  - name: Image Information:createdFrom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Imagery Knowledge::Image Classification and Understanding::IG_Feature"
+  attributes:
+  - name: Image Classification and Understanding:featureID
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:featureType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Imagery Knowledge::Image Classification and Understanding::IG_FeatureCoverage"
+  attributes:
+  - name: Image Classification and Understanding:vectorFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Imagery Knowledge::Image Classification and Understanding::IG_GriddedFeature"
+  attributes:
+  - name: Image Classification and Understanding:featureID
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:featureType
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:geometry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Imagery Knowledge::Image Classification and Understanding::IG_GridScene"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationParametersType
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:interpolationType
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:element
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Imagery Knowledge::Image Classification and Understanding::IG_SegmentedImage"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Discrete Coverages:element
+    used: false
+    guidance: 未利用
+  - name: TIN:triangleSource
+    used: false
+    guidance: 未利用
+  - name: Thiessen Polygon:polygonSource
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:segmentedFeature
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:source
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Imagery Knowledge::Image Classification and Understanding::IG_VectorFeature"
+  attributes:
+  - name: Image Classification and Understanding:featureID
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:featureType
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:geometry
+    used: false
+    guidance: 未利用

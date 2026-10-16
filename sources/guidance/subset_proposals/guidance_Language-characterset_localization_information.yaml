@@ -1,0 +1,62 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Language-characterset localization information::CountryCode"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Language-characterset localization information::LanguageCode"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Language-characterset localization information::LocalisedCharacterString"
+  attributes:
+  - name: Language-characterset localization information:locale
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Language-characterset localization information::MD_CharacterSetCode"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Language-characterset localization information::PT_FreeText"
+  attributes:
+  - name: Language-characterset localization information:textGroup
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Language-characterset localization information::PT_Locale"
+  attributes:
+  - name: Language-characterset localization information:language
+    used: false
+    guidance: 未利用
+  - name: Language-characterset localization information:country
+    used: false
+    guidance: 未利用
+  - name: Language-characterset localization information:characterEncoding
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Language-characterset localization information::PT_LocaleContainer"
+  attributes:
+  - name: Language-characterset localization information:language
+    used: false
+    guidance: 未利用
+  - name: Language-characterset localization information:country
+    used: false
+    guidance: 未利用
+  - name: Language-characterset localization information:characterEncoding
+    used: false
+    guidance: 未利用
+  - name: Language-characterset localization information:description
+    used: false
+    guidance: 未利用
+  - name: Language-characterset localization information:locale
+    used: false
+    guidance: 未利用
+  - name: Language-characterset localization information:date
+    used: false
+    guidance: 未利用
+  - name: Language-characterset localization information:responsibleParty
+    used: false
+    guidance: 未利用
+  - name: Language-characterset localization information:localisedString
+    used: false
+    guidance: 未利用

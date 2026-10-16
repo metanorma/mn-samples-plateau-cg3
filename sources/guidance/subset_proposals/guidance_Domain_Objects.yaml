@@ -1,0 +1,332 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::HUN_Boundary"
+  attributes:
+  - name: Domain Objects:boundary_Line_ID
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:boundary_Line_Topology
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:iD
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:sub_ID
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::HUN_Boundary_Line"
+  attributes:
+  - name: Domain Objects:ID
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:Sub_ID
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:Start_Point_ID
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:End_Point_ID
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:Connection_Type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::HUN_Building"
+  attributes:
+  - name: Domain Objects:parcel_id
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:spatial_unit_id
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::HUN_Line"
+  attributes:
+  - name: Domain Objects:ID
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:Sub_ID
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:Start_Point_ID
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:End_Point_ID
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:Connection_Type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::HUN_Point"
+  attributes:
+  - name: Domain Objects:Horizontal_accuracy
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:ID
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:Vertical_accuracy
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:X
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:Y
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:Z
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::HUN_ResponsibilityType"
+  attributes:
+  - name: Domain Objects:share
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:type
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:registration
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:clauser
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:checker
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:quality_checker
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:client
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::HUN_RestrictionType"
+  attributes:
+  - name: Domain Objects:arrestation
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:deregistration
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:expropriation
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:liquidate
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:margin
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:wardship
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::HUN_RightType"
+  attributes:
+  - name: Domain Objects:ownership
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:trusteeship
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:CommonRights
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:Farming_Lease
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:usufruct
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:easement on parcel
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:disablity
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:easement_on_surveying_marks
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:easement_on_utilities
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:easement_on_,mines
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:right_of_emption
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:option
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:repurchase
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:alimental_right
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:rente
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:mortgage
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:estate_by_elegit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::HUN_SpatialUnit"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:extAddressID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:area
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:dimension
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:label
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:referencePoint
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:suID
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:surfaceRelation
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:volume
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:ID
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:type_of_geometry
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:geometry_id
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:map
+    used: false
+    guidance: 未利用
+  - name: Spatial Unit:su2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::HUN_Surface"
+  attributes:
+  - name: Domain Objects:boundary_topology
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:boundary_id
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:ID
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::LA_PartyRoleType"
+  attributes:
+  - name: Domain Objects:bank
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:client
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:lawyer
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:owner
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:surveyor
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::LA_Resposibilities"
+  attributes:
+  - name: Domain Objects:share
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::LA_Right"
+  attributes:
+  - name: Domain Objects:share
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::LA_RRR"
+  attributes:
+  - name: Domain Objects:share
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:timeSpec
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::LADM:LA_Restricttion"
+  attributes:
+  - name: Domain Objects:share
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::Hungary (Profile D6)::Domain Objects::Parcel"
+  attributes:
+  - name: Domain Objects:ID
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:object_type
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:spatial_unit_id
+    used: false
+    guidance: 未利用
+  - name: Domain Objects:address
+    used: false
+    guidance: 未利用

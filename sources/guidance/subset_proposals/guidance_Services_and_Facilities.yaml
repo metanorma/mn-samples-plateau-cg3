@@ -1,0 +1,122 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::Service and facilities"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::SF_FeatureExample"
+  attributes:
+  - name: Services and Facilities:features
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:informationLink
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::XX_FeatureCodeExample"
+  attributes:
+  - name: Services and Facilities:a
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:b
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:c
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::XX_FeatureExample1"
+  attributes:
+  - name: Services and Facilities:description
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:informationLink
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:value
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:featureCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::SF_Accessibility"
+  attributes:
+  - name: Services and Facilities:accessibilities
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:informationLink
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::XX_FeatureExampleInfo"
+  attributes:
+  - name: Services and Facilities:description
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:informationLink
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::SF_Deviation"
+  attributes:
+  - name: Services and Facilities:serviceFacilityDeviations
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:informationLink
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:abandonedAccessibility
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:abandonedServiceFacility
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:extraServiceFacility
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::SF_Restriction"
+  attributes:
+  - name: Services and Facilities:serviceFacilityRestrictions
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:informationLink
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::SF_ServiceOrFacility"
+  attributes:
+  - name: Services and Facilities:enRouteServices
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:facilities
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:informationServices
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:informationLink
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:accessibility
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:serviceOrFacilityDeviation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::XX_FeatureExampleCategories"
+  attributes:
+  - name: Services and Facilities:featureExample1
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:featureExample2
+    used: false
+    guidance: 未利用
+  - name: Services and Facilities:featureExampleN
+    used: false
+    guidance: 未利用

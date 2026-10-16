@@ -1,0 +1,545 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::Angle"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::AngularVelocity"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:time
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:angle
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::Area"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::Currency"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::Distance"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::Length"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::Measure"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::MeasureType"
+  attributes:
+  - name: Units of Measure:area
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:length
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:angle
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:time
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:velocity
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:volume
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:scale
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:weight
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::Scale"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:sourceUnits
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:targetUnits
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::StandardUnits"
+  attributes:
+  - name: Units of Measure:meter
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:second
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:radian
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:squareMeter
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:cubicMeter
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:meters/second
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:meter/meter
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:kilogram
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::Time"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::UnitOfMeasure"
+  attributes:
+  - name: Units of Measure:uomName
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uomSymbol
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:measureType
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:nameStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:scaleToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:offsetToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:formula
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:subunit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::UnitsList"
+  attributes:
+  - name: Units of Measure:meter
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:second
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:radian
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:squareMeter
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:cubicMeter
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:meters/second
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:meter/meter
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:kilogram
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:foot
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:squareFoot
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:cubicYard
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::UomAngle"
+  attributes:
+  - name: Units of Measure:uomName
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uomSymbol
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:measureType
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:nameStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:scaleToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:offsetToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:formula
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:subunit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::UomAngularVelocity"
+  attributes:
+  - name: Units of Measure:uomName
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uomSymbol
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:measureType
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:nameStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:scaleToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:offsetToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:formula
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:subunit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::UomArea"
+  attributes:
+  - name: Units of Measure:uomName
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uomSymbol
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:measureType
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:nameStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:scaleToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:offsetToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:formula
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:subunit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::UomCurrency"
+  attributes:
+  - name: Units of Measure:uomName
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uomSymbol
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:measureType
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:nameStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:scaleToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:offsetToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:formula
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:subunit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::UomLength"
+  attributes:
+  - name: Units of Measure:uomName
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uomSymbol
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:measureType
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:nameStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:scaleToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:offsetToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:formula
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:subunit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::UomScale"
+  attributes:
+  - name: Units of Measure:uomName
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uomSymbol
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:measureType
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:nameStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:scaleToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:offsetToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:formula
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:subunit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::UomTime"
+  attributes:
+  - name: Units of Measure:uomName
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uomSymbol
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:measureType
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:nameStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:scaleToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:offsetToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:formula
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:subunit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::UomVelocity"
+  attributes:
+  - name: Units of Measure:uomName
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uomSymbol
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:measureType
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:nameStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:scaleToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:offsetToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:formula
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:subunit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::UomVolume"
+  attributes:
+  - name: Units of Measure:uomName
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uomSymbol
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:measureType
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:nameStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:scaleToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:offsetToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:formula
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:subunit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::UomWeight"
+  attributes:
+  - name: Units of Measure:uomName
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uomSymbol
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:measureType
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:nameStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:scaleToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:offsetToStandardUnit
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:formula
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:subunit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::Velocity"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:time
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:distance
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::Volume"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2005 Conceptual schema
+    language::Basic Types::Derived::Units of Measure::Weight"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用

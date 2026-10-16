@@ -1,0 +1,20 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA GeoSemantic Context::UPA_GeoSemanticContext"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA GeoSemantic Context::UPA_GeoSemanticContextRule"
+  attributes:
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+  - name: 'UPA GeoSemantic Context:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19154 All::ISO 19154:2014 Ubiquitous public
+    access - Reference model::Context Information Model::UPA GeoSemantic Context::UPA_GeoSemanticsType"
+  attributes:
+  - name: UPA GeoSemantic Context:semanticExpressions
+    used: false
+    guidance: 未利用

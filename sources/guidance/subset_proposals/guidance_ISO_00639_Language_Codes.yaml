@@ -1,0 +1,136 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 00639 Language Codes::LanguageCode"
+  attributes:
+  - name: ISO 00639 Language Codes:Afrikaans
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Albanian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Arabic
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Basque
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Belarusian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Bulgarian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Catalan
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Chinese
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Croatian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Czech
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Danish
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Dutch
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:English
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Estonian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Faeroese
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:French
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:French(Canadian)
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Finnish
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:German
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Greek
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Hawaian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Hebrew
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Hungarian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Icelandic
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Indonesian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Italian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Japanese
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Korean
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Latvian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Lithuanian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Malaysian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Norwegian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Polish
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Portuguese
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Romanian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Russian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Serbian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Slovak
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Slovenian
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Spanish
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Swahili
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Swedish
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Turkish
+    used: false
+    guidance: 未利用
+  - name: ISO 00639 Language Codes:Ukranian
+    used: false
+    guidance: 未利用

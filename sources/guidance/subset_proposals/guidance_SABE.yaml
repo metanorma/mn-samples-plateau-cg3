@@ -1,0 +1,110 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Application Schema Examples::SABE::AdministrativeArea"
+  attributes:
+  - name: SABE:landArea
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Application Schema Examples::SABE::AdministrativeUnit"
+  attributes:
+  - name: SABE:structure
+    used: false
+    guidance: 未利用
+  - name: SABE:levelEB
+    used: false
+    guidance: 未利用
+  - name: SABE:levelN
+    used: false
+    guidance: 未利用
+  - name: SABE:owner
+    used: false
+    guidance: 未利用
+  - name: SABE:natCode
+    used: false
+    guidance: 未利用
+  - name: SABE:name
+    used: false
+    guidance: 未利用
+  - name: SABE:designation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Application Schema Examples::SABE::AdministrativeUnitHigherLevel"
+  attributes:
+  - name: SABE:structure
+    used: false
+    guidance: 未利用
+  - name: SABE:levelEB
+    used: false
+    guidance: 未利用
+  - name: SABE:levelN
+    used: false
+    guidance: 未利用
+  - name: SABE:owner
+    used: false
+    guidance: 未利用
+  - name: SABE:natCode
+    used: false
+    guidance: 未利用
+  - name: SABE:name
+    used: false
+    guidance: 未利用
+  - name: SABE:designation
+    used: false
+    guidance: 未利用
+  - name: 'SABE:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Application Schema Examples::SABE::AdminstrativeUnitLowestLevel"
+  attributes:
+  - name: SABE:structure
+    used: false
+    guidance: 未利用
+  - name: SABE:levelEB
+    used: false
+    guidance: 未利用
+  - name: SABE:levelN
+    used: false
+    guidance: 未利用
+  - name: SABE:owner
+    used: false
+    guidance: 未利用
+  - name: SABE:natCode
+    used: false
+    guidance: 未利用
+  - name: SABE:name
+    used: false
+    guidance: 未利用
+  - name: SABE:designation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Application Schema Examples::SABE::EnclaveOrIsland"
+  attributes:
+  - name: SABE:landArea
+    used: false
+    guidance: 未利用
+  - name: 'SABE:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Application Schema Examples::SABE::Inhabitants"
+  attributes:
+  - name: SABE:numberOfInhabitants
+    used: false
+    guidance: 未利用
+  - name: SABE:upToDateness
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Application Schema Examples::SABE::Mainland"
+  attributes:
+  - name: SABE:landArea
+    used: false
+    guidance: 未利用
+  - name: 'SABE:'
+    used: false
+    guidance: 未利用

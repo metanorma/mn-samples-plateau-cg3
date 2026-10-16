@@ -1,0 +1,1097 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::allConditions"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::allPrincipals"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::anXmlExpression"
+  attributes:
+  - name: Rel-r:lang
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::anXmlPatternAbstract"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::anyType"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::condition"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::conditionIncremental"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::conditionPattern"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::conditionPatternAbstract"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::conditionUnchanged"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::datum"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::dcConstraint"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::delegationControl"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::depthConstraint"
+  attributes:
+  - name: Rel-r:count
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::digitalResource"
+  attributes:
+  - name: Rel-r:binary
+    used: false
+    guidance: 未利用
+  - name: Rel-r:secureIndirect
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: Rel-r:nonSecureIndirect
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::EncryptedContent"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::exerciseMechanism"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::existsRight"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::forAll"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::fulfiller"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::grant"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: Rel-r:encryptedGrant
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::grantGroup"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: Rel-r:encryptedGrantGroup
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::grantGroupPattern"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: Rel-r:wholeGrantGroupExpression
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::grantPattern"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: Rel-r:wholeGrantExpression
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::Inventory"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::issue"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::issuer"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: Rel-r:details
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::IssuerDetails"
+  attributes:
+  - name: Rel-r:timeOfIssue
+    used: false
+    guidance: 未利用
+  - name: Rel-r:revocationMechanism
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::keyHolder"
+  attributes:
+  - name: Rel-r:info
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::license"
+  attributes:
+  - name: Rel-r:licenseId
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: Rel-r:encryptedLicense
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::licenseGroup"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::licensePart"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::LicensePartId"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::LinguisticString"
+  attributes:
+  - name: Rel-r:ext_ref_4
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup1"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup10"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup11"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup12"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup13"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup14"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup15"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup16"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup17"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup18"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup19"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup2"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup20"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup21"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup22"
+  attributes:
+  - name: Rel-r:ext_ref_1
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup23"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: Rel-r:inventory
+    used: false
+    guidance: 未利用
+  - name: Rel-r:title
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup24"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup25"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup26"
+  attributes:
+  - name: Rel-r:licenseId
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup27"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup28"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup29"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup3"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup4"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup5"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup6"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup7"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup8"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::ModelGroup9"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::NonSecureReference"
+  attributes:
+  - name: Rel-r:ext_ref_5
+    used: false
+    guidance: 未利用
+  - name: Rel-r:Id
+    used: false
+    guidance: 未利用
+  - name: Rel-r:Type
+    used: false
+    guidance: 未利用
+  - name: Rel-r:URI
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::obtain"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::patternFromLicensePart"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::possessProperty"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::prerequisiteRight"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::principal"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::principalPattern"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::principalPatternAbstract"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::propertyAbstract"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::propertyPossessor"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::resource"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::resourcePattern"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::resourcePatternAbstract"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::revocable"
+  attributes:
+  - name: Rel-r:ext_ref_2
+    used: false
+    guidance: 未利用
+  - name: Rel-r:ext_ref_3
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::revocationFreshness"
+  attributes:
+  - name: Rel-r:priorToStart
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::RevocationMechanism"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::revoke"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::right"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::rightPattern"
+  attributes:
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::rightPatternAbstract"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::serviceDescription"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::serviceReference"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::toConstraint"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::trustedRootGrants"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::trustedRootIssuers"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+  - name: 'Rel-r:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::trustRoot"
+  attributes:
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::validityInterval"
+  attributes:
+  - name: Rel-r:notAfter
+    used: false
+    guidance: 未利用
+  - name: Rel-r:notBefore
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartId
+    used: false
+    guidance: 未利用
+  - name: Rel-r:licensePartIdRef
+    used: false
+    guidance: 未利用
+  - name: Rel-r:varRef
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19153 All::ISO 19153:2013 Geospatial Digital
+    Rights Management Reference Model (GeoDRM RM)::Data Model::Rel-r::VariableName"
+  attributes: []

@@ -1,0 +1,137 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Adressen
+    (BAG)::BinnenlandsAdres"
+  attributes:
+  - name: 'Adressen (BAG):'
+    used: false
+    guidance: 未利用
+  - name: 'Adressen (BAG):'
+    used: false
+    guidance: 未利用
+  - name: 'Adressen (BAG):'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Adressen
+    (BAG)::Bron"
+  attributes:
+  - name: Adressen (BAG):documentdatum
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):documentnummer
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Adressen
+    (BAG)::NummerAanduiding"
+  attributes:
+  - name: Adressen (BAG):BAGIdentificatie
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):gerelateerdeOpenbareRuimte
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):gerelateerdeWoonplaats
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):huisletter
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):huisnummer
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):huisnummertoevoeging
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):inOnderzoek
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):nummerAanduidingStatus
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):officieel
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):postcode
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):typeAdresseerbaarObject
+    used: false
+    guidance: 未利用
+  - name: 'Adressen (BAG):'
+    used: false
+    guidance: 未利用
+  - name: 'Adressen (BAG):'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Adressen
+    (BAG)::OpenbareRuimte"
+  attributes:
+  - name: Adressen (BAG):BAGIdentificatie
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):gerelateerdeWoonplaats
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):inOnderzoek
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):officieel
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):openbareRuimteNaam
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):openbareRuimteStatus
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):openbareRuimteType
+    used: false
+    guidance: 未利用
+  - name: 'Adressen (BAG):'
+    used: false
+    guidance: 未利用
+  - name: 'Adressen (BAG):'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Adressen
+    (BAG)::Tijdvakgeldigheid"
+  attributes:
+  - name: Adressen (BAG):begindatumTijdvakGeldigheid
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):einddatumTijdvakGeldigheid
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex D. Country Profiles::The Netherlands (Profile D7)::IMKAD::Adressen
+    (BAG)::Woonplaats"
+  attributes:
+  - name: Adressen (BAG):BAGIdentificatie
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):woonplaatsGeometrie
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):woonplaatsNaam
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):officieel
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):inOnderzoek
+    used: false
+    guidance: 未利用
+  - name: Adressen (BAG):woonplaatsStatus
+    used: false
+    guidance: 未利用
+  - name: 'Adressen (BAG):'
+    used: false
+    guidance: 未利用
+  - name: 'Adressen (BAG):'
+    used: false
+    guidance: 未利用

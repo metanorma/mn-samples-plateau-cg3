@@ -1,0 +1,107 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS Participants::LBS_ApplicationProvider"
+  attributes:
+  - name: Digital Rights Management:license
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:serviceProvider
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:dataProvider
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:serviceBroker
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS Participants::LBS_ContentProvider"
+  attributes:
+  - name: Digital Rights Management:license
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:serviceProvider
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS Participants::LBS_DataBroker"
+  attributes:
+  - name: Digital Rights Management:license
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:serviceProvider
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS Participants::LBS_DataProvider"
+  attributes:
+  - name: Digital Rights Management:license
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:serviceProvider
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS Participants::LBS_FeatureDataProvider"
+  attributes:
+  - name: Digital Rights Management:license
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:serviceProvider
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS Participants::LBS_MobileDevice"
+  attributes:
+  - name: LBS Participants:user
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS Participants::LBS_Participant"
+  attributes:
+  - name: Digital Rights Management:license
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS Participants::LBS_ServiceBroker"
+  attributes:
+  - name: Digital Rights Management:license
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:serviceProvider
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS Participants::LBS_ServiceProvider"
+  attributes:
+  - name: Digital Rights Management:license
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:serviceProvider
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:dataProvider
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS Participants::LBS_SpatialContentProvider"
+  attributes:
+  - name: Digital Rights Management:license
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:serviceProvider
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19132 All::ISO 19132:2007 Location-based
+    services - Reference model::LBS Participants::LBS_User"
+  attributes:
+  - name: Digital Rights Management:license
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:applicationProvider
+    used: false
+    guidance: 未利用
+  - name: LBS Participants:mobileDevice
+    used: false
+    guidance: 未利用

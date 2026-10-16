@@ -1,0 +1,182 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Navigation Service::NS_CostedLink"
+  attributes:
+  - name: Navigation Service:totalCost
+    used: false
+    guidance: 未利用
+  - name: Cost Function:costFunction
+    used: false
+    guidance: 未利用
+  - name: Link:link
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Navigation Service::NS_CostedTurn"
+  attributes:
+  - name: Navigation Service:cost
+    used: false
+    guidance: 未利用
+  - name: Cost Function:costFunction
+    used: false
+    guidance: 未利用
+  - name: Turn and Junction:turn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Navigation Service::NS_CostFunctionCode"
+  attributes:
+  - name: Navigation Service:distance
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:time
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:numberTurns
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Navigation Service::NS_Instruction"
+  attributes:
+  - name: Navigation Service:cost
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:action
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:advisory
+    used: false
+    guidance: 未利用
+  - name: Route:maneuver
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Navigation Service::NS_InstructionList"
+  attributes:
+  - name: Navigation Service:route
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:instruction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Navigation Service::NS_RenderingRequest"
+  attributes:
+  - name: Navigation Service:route
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Navigation Service::NS_RenderingResponse"
+  attributes:
+  - name: Navigation Service:map
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:voice
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:text
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:groundLevelView
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:instructionList
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Navigation Service::NS_RenderingType"
+  attributes:
+  - name: Navigation Service:map
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:voice
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:text
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:groundLevelView
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:maneuverInstructions
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Navigation Service::NS_RouteRequest"
+  attributes:
+  - name: Navigation Service:routeRequestType
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:vehicle
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:wayPointList
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:avoidList
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:departureTime
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:arrivalTime
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:costFunction
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:preferences
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:advisories
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:isDynamic
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:refreshInterval
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:returnRouteInstructions
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:returnRouteMaps
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:returnRouteGeometry
+    used: false
+    guidance: 未利用
+  - name: Cost Function:costFunction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Navigation Service::NS_RouteRequestType"
+  attributes:
+  - name: Navigation Service:basic
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:predictive
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:dynamic
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:complex
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Navigation Service::NS_RouteResponse"
+  attributes:
+  - name: Navigation Service:request
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:route
+    used: false
+    guidance: 未利用
+  - name: Navigation Service:rendering
+    used: false
+    guidance: 未利用

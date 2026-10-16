@@ -1,0 +1,26 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 06709:2009 Location Representation::GPL::GPL_CoordinateRepresentation"
+  attributes:
+  - name: GPL:string
+    used: false
+    guidance: 未利用
+  - name: GPL:binary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 06709:2009 Location Representation::GPL::GPL_CoordinateSet"
+  attributes:
+  - name: GPL:coordTuple
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 06709:2009 Location Representation::GPL::GPL_CoordinateTuple"
+  attributes:
+  - name: GPL:tuple
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:metadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:metadata
+    used: false
+    guidance: 未利用

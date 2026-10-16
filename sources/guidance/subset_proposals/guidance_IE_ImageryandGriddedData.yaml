@@ -1,0 +1,229 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::From
+    ISO 19115-1:2014"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::From
+    ISO 19111:2007  shown for informative purposes only"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::From
+    ISO 19123:2005"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::IE_CompressionSchemaCode"
+  attributes:
+  - name: IE_ImageryandGriddedData:None
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:LZW
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:PackBits
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:JPEG
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:JPEG2000
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:Huffman
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:Deflate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::IE_GeolocationSourceCode"
+  attributes:
+  - name: IE_ImageryandGriddedData:DEM
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:GCP
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:SystemParameters
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:SystemParameters+DEM
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:SystemParameters+GCP '
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:SystemParameters+GCP+DEM
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:GCP+DEM
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::IE_GeometricCorrectionModelCode"
+  attributes:
+  - name: IE_ImageryandGriddedData:CorrespondenceModel
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:PhysicalSensorModel
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:TrueReplacementModel
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::IE_Georectified"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:geolocationSource
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:correctionModel
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:checkPoints
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::IE_Georeferenceable"
+  attributes:
+  - name: Spatial representation information:numberOfDimensions
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:axisDimensionProperties
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:cellGeometry
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:transformationParameterAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:controlPointAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:orientationParameterAvailability
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:orientationParameterDescription
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:georeferencedParameters
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information:parameterCitation
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:geolocationInfo
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:geometricCorrection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::IE_ImageryAndGriddedData"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:interpolationType
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::IE_LayerSequenceCode"
+  attributes:
+  - name: IE_ImageryandGriddedData:LIL
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:LIP
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:LSQ
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::IE_LocationGCP"
+  attributes:
+  - name: IE_ImageryandGriddedData:GCPRepository
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:imageIdentifiableGCP
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:locationGCP
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::IE_Storage"
+  attributes:
+  - name: IE_ImageryandGriddedData:format
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:layerSequence
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:spatialSequence
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::Context
+    Diagram: MD_GridSpatialRepresentation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_ImageryandGriddedData::Context
+    Diagram: MD_Identifier"
+  attributes: []

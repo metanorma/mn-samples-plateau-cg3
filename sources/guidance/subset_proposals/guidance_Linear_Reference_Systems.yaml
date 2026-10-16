@@ -1,0 +1,110 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Linear Reference Systems::LR_Element"
+  attributes:
+  - name: Linear Reference Systems:datumMarkers
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Linear Reference Systems::LR_Feature"
+  attributes:
+  - name: Linear Reference Systems:datumMarkers
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Linear Reference Systems::LR_LinearReferenceMethod"
+  attributes:
+  - name: Linear Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:type
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:units
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:offsetUnits
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:positiveOffsetDirection
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:marker
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:referenceElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Linear Reference Systems::LR_OffsetExpression"
+  attributes:
+  - name: Linear Reference Systems:offsetReference
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:offset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Linear Reference Systems::LR_OffsetReference"
+  attributes:
+  - name: Linear Reference Systems:centerline
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:edgeOfTravel
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:rightOfWay
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:curbFace
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:curbBack
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:edgeOfShoulder
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:edgeOfBerm
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:walkwayInside
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:walkwayOutside
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Linear Reference Systems::LR_PositionExpression"
+  attributes:
+  - name: Linear Reference Systems:measure
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:LRM
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:offset
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:referenceDomain
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:referent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Linear Reference Systems::LR_ReferenceMarker"
+  attributes:
+  - name: Linear Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:type
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:position
+    used: false
+    guidance: 未利用
+  - name: Linear Reference Systems:location
+    used: false
+    guidance: 未利用

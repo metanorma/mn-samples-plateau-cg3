@@ -1,0 +1,77 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Routing::MM_Route"
+  attributes:
+  - name: Multimodal Routing:summary
+    used: false
+    guidance: 未利用
+  - name: Multimodal Routing:geometry
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:componentRouteSegment
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:transferNode
+    used: false
+    guidance: 未利用
+  - name: Multimodal Routing:tripScheme
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Routing::MM_RouteSummary"
+  attributes:
+  - name: Route:time
+    used: false
+    guidance: 未利用
+  - name: Route:distance
+    used: false
+    guidance: 未利用
+  - name: Route:extent
+    used: false
+    guidance: 未利用
+  - name: Route:begin
+    used: false
+    guidance: 未利用
+  - name: Route:stops
+    used: false
+    guidance: 未利用
+  - name: Route:end
+    used: false
+    guidance: 未利用
+  - name: Multimodal Routing:totalCost
+    used: false
+    guidance: 未利用
+  - name: Multimodal Routing:numberOfTransfers
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Routing::MM_ScheduleInfo"
+  attributes:
+  - name: Multimodal Routing:arrival
+    used: false
+    guidance: 未利用
+  - name: Multimodal Routing:departure
+    used: false
+    guidance: 未利用
+  - name: Multimodal Routing:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19134 All::ISO 19134:2007 Location-based
+    services - Multimodal routing and navigation::Multimodal Routing::MM_TripScheme"
+  attributes:
+  - name: Multimodal Routing:isTraversable
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:advisory
+    used: false
+    guidance: 未利用
+  - name: Multimodal Constraint and Advisory:constraint
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:routeSegment
+    used: false
+    guidance: 未利用
+  - name: Multimodal Network:transfer
+    used: false
+    guidance: 未利用

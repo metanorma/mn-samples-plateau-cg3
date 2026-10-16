@@ -1,0 +1,11 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:2007 Data Product
+    Specifications::Specification Additional Information::DPS_AdditionalInformation"
+  attributes:
+  - name: Specification Additional Information:additionalInformation
+    used: false
+    guidance: 未利用
+  - name: Specification Scopes:additionalInfoScope
+    used: false
+    guidance: 未利用

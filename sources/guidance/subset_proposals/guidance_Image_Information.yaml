@@ -1,0 +1,178 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Image Information::IG_AncillaryData"
+  attributes:
+  - name: 'Image Information:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Image Information::IG_DerivedScene"
+  attributes:
+  - name: Data quality information:metadata
+    used: false
+    guidance: 未利用
+  - name: Image Information:sourceScene
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Image Information::IG_PhysicalQuantity"
+  attributes:
+  - name: Image Information:name
+    used: false
+    guidance: 未利用
+  - name: Image Information:unit
+    used: false
+    guidance: 未利用
+  - name: Image Information:dataType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Image Information::IG_Scene"
+  attributes:
+  - name: Data quality information:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Image Information::IG_SceneValue"
+  attributes:
+  - name: Image Information:name
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Image Information::IG_SceneValuesMatrix"
+  attributes:
+  - name: Quadrilateral Grid:dimension
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:axisNames
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:extent
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:values
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:sequencingRule
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:startSequence
+    used: false
+    guidance: 未利用
+  - name: Image Information:values
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:evaluator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2 Ed 2::Image Information::IG_SensorDN"
+  attributes:
+  - name: Image Information:name
+    used: false
+    guidance: 未利用
+  - name: Image Information:dataType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Image Information::IG_AncillaryData"
+  attributes:
+  - name: 'Image Information:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Image Information::IG_DerivedScene"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:interpolationParametersType
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:interpolationType
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:element
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:element
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:source
+    used: false
+    guidance: 未利用
+  - name: Image Information:sourceScene
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Image Information::IG_PhysicalQuantity"
+  attributes:
+  - name: Image Information:name
+    used: false
+    guidance: 未利用
+  - name: Image Information:unit
+    used: false
+    guidance: 未利用
+  - name: Image Information:dataType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Image Information::IG_Scene"
+  attributes:
+  - name: Data quality information:metadata
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Image Information::IG_SceneValue"
+  attributes:
+  - name: Image Information:name
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Image Information::IG_SceneValuesMatrix"
+  attributes:
+  - name: Quadrilateral Grid:dimension
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:axisNames
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:extent
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:values
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:sequencingRule
+    used: false
+    guidance: 未利用
+  - name: Quadrilateral Grid:startSequence
+    used: false
+    guidance: 未利用
+  - name: Image Information:values
+    used: false
+    guidance: 未利用
+  - name: Image Classification and Understanding:evaluator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19101 All::ISO 19101-2:2008 Reference Model
+    - Imagery::Image Information::IG_SensorDN"
+  attributes:
+  - name: Image Information:name
+    used: false
+    guidance: 未利用
+  - name: Image Information:dataType
+    used: false
+    guidance: 未利用

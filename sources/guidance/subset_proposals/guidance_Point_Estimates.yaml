@@ -1,0 +1,68 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Point Estimates::EG_PointEstimate"
+  attributes:
+  - name: Geometric primitive:position
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Point Estimates::EG_PointEstimateArc"
+  attributes:
+  - name: Point Estimates:innerRadius
+    used: false
+    guidance: 未利用
+  - name: Point Estimates:outerRadius
+    used: false
+    guidance: 未利用
+  - name: Point Estimates:startBearing
+    used: false
+    guidance: 未利用
+  - name: Point Estimates:endBearing
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Point Estimates::EG_PointEstimateCircle"
+  attributes:
+  - name: Point Estimates:radius
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Point Estimates::EG_PointEstimateEllipse"
+  attributes:
+  - name: Point Estimates:majorAxisRadius
+    used: false
+    guidance: 未利用
+  - name: Point Estimates:minorAxisRadius
+    used: false
+    guidance: 未利用
+  - name: Point Estimates:majorAxisBearing
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Point Estimates::EG_PointEstimateEllipsoid"
+  attributes:
+  - name: Point Estimates:majorAxisRadius
+    used: false
+    guidance: 未利用
+  - name: Point Estimates:minorAxisRadius
+    used: false
+    guidance: 未利用
+  - name: Point Estimates:majorAxisBearing
+    used: false
+    guidance: 未利用
+  - name: Point Estimates:minorAxisBearing
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Tracking::Point Estimates::EG_PointEstimateSphere"
+  attributes:
+  - name: Point Estimates:radius
+    used: false
+    guidance: 未利用

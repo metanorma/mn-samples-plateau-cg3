@@ -1,0 +1,7792 @@
+---
+classes:
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingIDAttribute"
+  attributes:
+  - name: uro:buildingID
+    used: false
+    guidance: 未利用
+  - name: uro:branchID
+    used: false
+    guidance: 未利用
+  - name: uro:partID
+    used: false
+    guidance: 未利用
+  - name: uro:prefecture
+    used: false
+    guidance: 未利用
+  - name: uro:city
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingIDAttributePrefectureValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingIDAttributeCityValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttribute"
+  attributes:
+  - name: uro:serialNumberOfBuildingCertification
+    used: false
+    guidance: 未利用
+  - name: uro:siteArea
+    used: false
+    guidance: 未利用
+  - name: uro:totalFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:buildingFootprintArea
+    used: false
+    guidance: 未利用
+  - name: uro:buildingRoofEdgeArea
+    used: false
+    guidance: 未利用
+  - name: uro:developmentArea
+    used: false
+    guidance: 未利用
+  - name: uro:buildingStructureType
+    used: false
+    guidance: 未利用
+  - name: uro:buildingStructureOrgType
+    used: false
+    guidance: 未利用
+  - name: uro:fireproofStructureType
+    used: false
+    guidance: 未利用
+  - name: uro:implementingBody
+    used: false
+    guidance: 未利用
+  - name: uro:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: uro:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: uro:districtsAndZonesType
+    used: false
+    guidance: 未利用
+  - name: uro:landUseType
+    used: false
+    guidance: 未利用
+  - name: uro:reference
+    used: false
+    guidance: 未利用
+  - name: uro:majorUsage
+    used: false
+    guidance: 未利用
+  - name: uro:majorUsage2
+    used: false
+    guidance: 未利用
+  - name: uro:orgUsage
+    used: false
+    guidance: 未利用
+  - name: uro:orgUsage2
+    used: false
+    guidance: 未利用
+  - name: uro:detailedUsage
+    used: false
+    guidance: 未利用
+  - name: uro:detailedUsage2
+    used: false
+    guidance: 未利用
+  - name: uro:detailedUsage3
+    used: false
+    guidance: 未利用
+  - name: uro:groundFloorUsage
+    used: false
+    guidance: 未利用
+  - name: uro:secondFloorUsage
+    used: false
+    guidance: 未利用
+  - name: uro:thirdFloorUsage
+    used: false
+    guidance: 未利用
+  - name: uro:basementUsage
+    used: false
+    guidance: 未利用
+  - name: uro:basementFirstUsage
+    used: false
+    guidance: 未利用
+  - name: uro:basementSecondUsage
+    used: false
+    guidance: 未利用
+  - name: uro:vacancy
+    used: false
+    guidance: 未利用
+  - name: uro:buildingCoverageRate
+    used: false
+    guidance: 未利用
+  - name: uro:floorAreaRate
+    used: false
+    guidance: 未利用
+  - name: uro:specifiedBuildingCoverageRate
+    used: false
+    guidance: 未利用
+  - name: uro:specifiedFloorAreaRate
+    used: false
+    guidance: 未利用
+  - name: uro:standardFloorAreaRate
+    used: false
+    guidance: 未利用
+  - name: uro:buildingHeight
+    used: false
+    guidance: 未利用
+  - name: uro:eaveHeight
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+  - name: uro:surveyYear
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeBuildingStructureTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeBuildingStructureOrgTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeFireproofStructureTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeUrbanPlanTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeAreaClassificationTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeDistrictsAndZonesTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeLandUseTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeMajorUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeMajorUsage2Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeOrgUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeOrgUsage2Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeDetailedUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeDetailedUsage2Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeDetailedUsage3Value"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeGroundFloorUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeSecondFloorUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeThirdFloorUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeBasementUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeBasementFirstUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeBasementSecondUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingDetailAttributeVacancyValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LargeCustomerFacilityAttribute"
+  attributes:
+  - name: uro:class
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:capacity
+    used: false
+    guidance: 未利用
+  - name: uro:owner
+    used: false
+    guidance: 未利用
+  - name: uro:totalFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:totalStoreFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:inauguralDate
+    used: false
+    guidance: 未利用
+  - name: uro:yearOpened
+    used: false
+    guidance: 未利用
+  - name: uro:yearClosed
+    used: false
+    guidance: 未利用
+  - name: uro:keyTenants
+    used: false
+    guidance: 未利用
+  - name: uro:availability
+    used: false
+    guidance: 未利用
+  - name: uro:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: uro:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: uro:districtsAndZonesType
+    used: false
+    guidance: 未利用
+  - name: uro:landUseType
+    used: false
+    guidance: 未利用
+  - name: uro:reference
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+  - name: uro:surveyYear
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LargeCustomerFacilityAttributeClassValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LargeCustomerFacilityAttributeUrbanPlanTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LargeCustomerFacilityAttributeAreaClassificationTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LargeCustomerFacilityAttributeDistrictsAndZonesTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LargeCustomerFacilityAttributeLandUseTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingUsecaseAttribute"
+  attributes:
+  - name: uro:isTemporal
+    used: false
+    guidance: 未利用
+  - name: uro:floorHeight
+    used: false
+    guidance: 未利用
+  - name: uro:isGroundFloorOpen
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BuildingUsecaseAttributeIsTemporalValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RealEstateIDAttribute"
+  attributes:
+  - name: uro:realEstateIDOfBuilding
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfBuildingUnitOwnership
+    used: false
+    guidance: 未利用
+  - name: uro:realEstateIDOfBuildingUnitOwnership
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfRealEstateIDOfLand
+    used: false
+    guidance: 未利用
+  - name: uro:realEstateIDOfLand
+    used: false
+    guidance: 未利用
+  - name: uro:matchingScore
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TrafficAreaStructureAttribute"
+  attributes:
+  - name: uro:numberOfLanes
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TrafficVolumeAttribute"
+  attributes:
+  - name: uro:sectionID
+    used: false
+    guidance: 未利用
+  - name: uro:routeName
+    used: false
+    guidance: 未利用
+  - name: uro:weekday12hourTrafficVolume
+    used: false
+    guidance: 未利用
+  - name: uro:weekday24hourTrafficVolume
+    used: false
+    guidance: 未利用
+  - name: uro:largeVehicleRate
+    used: false
+    guidance: 未利用
+  - name: uro:congestionRate
+    used: false
+    guidance: 未利用
+  - name: uro:averageTravelSpeedInCongestion
+    used: false
+    guidance: 未利用
+  - name: uro:averageInboundTravelSpeedInCongestion
+    used: false
+    guidance: 未利用
+  - name: uro:averageOutboundTravelSpeedInCongestion
+    used: false
+    guidance: 未利用
+  - name: uro:averageInboundTravelSpeedNotCongestion
+    used: false
+    guidance: 未利用
+  - name: uro:averageOutboundTravelSpeedNotCongestion
+    used: false
+    guidance: 未利用
+  - name: uro:observationPointName
+    used: false
+    guidance: 未利用
+  - name: uro:reference
+    used: false
+    guidance: 未利用
+  - name: uro:surveyYear
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RoadStructureAttribute"
+  attributes:
+  - name: uro:widthType
+    used: false
+    guidance: 未利用
+  - name: uro:width
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfLanes
+    used: false
+    guidance: 未利用
+  - name: uro:sectionType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RoadStructureAttributeWidthTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RoadStructureAttributeSectionTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RoadType"
+  attributes:
+  - name: uro:id
+    used: false
+    guidance: 未利用
+  - name: uro:creationDate
+    used: false
+    guidance: 未利用
+  - name: uro:isTemporary
+    used: false
+    guidance: 未利用
+  - name: uro:roadType
+    used: false
+    guidance: 未利用
+  - name: uro:widthType
+    used: false
+    guidance: 未利用
+  - name: uro:isTollRoad
+    used: false
+    guidance: 未利用
+  - name: uro:separator
+    used: false
+    guidance: 未利用
+  - name: uro:isHighWay
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RoadTypeRoadTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RoadTypeWidthTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TrackAttribute"
+  attributes:
+  - name: uro:alternativeName
+    used: false
+    guidance: 未利用
+  - name: uro:adminType
+    used: false
+    guidance: 未利用
+  - name: uro:relativeLevel
+    used: false
+    guidance: 未利用
+  - name: uro:widthType
+    used: false
+    guidance: 未利用
+  - name: uro:structureType
+    used: false
+    guidance: 未利用
+  - name: uro:isTollRoad
+    used: false
+    guidance: 未利用
+  - name: uro:separator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TrackAttributeAdminTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TrackAttributeWidthTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TrackAttributeStructureTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::SquareUrbanPlanAttribute"
+  attributes:
+  - name: uro:prefecture
+    used: false
+    guidance: 未利用
+  - name: uro:city
+    used: false
+    guidance: 未利用
+  - name: uro:urbanPlanningAreaName
+    used: false
+    guidance: 未利用
+  - name: uro:enforcer
+    used: false
+    guidance: 未利用
+  - name: uro:dateOfDecision
+    used: false
+    guidance: 未利用
+  - name: uro:dateOfRevision
+    used: false
+    guidance: 未利用
+  - name: uro:areaPlanned
+    used: false
+    guidance: 未利用
+  - name: uro:areaInService
+    used: false
+    guidance: 未利用
+  - name: uro:remarks
+    used: false
+    guidance: 未利用
+  - name: uro:status
+    used: false
+    guidance: 未利用
+  - name: uro:areaImproved
+    used: false
+    guidance: 未利用
+  - name: uro:areaCompleted
+    used: false
+    guidance: 未利用
+  - name: uro:projectStartDate
+    used: false
+    guidance: 未利用
+  - name: uro:projectEndDate
+    used: false
+    guidance: 未利用
+  - name: uro:isCompleted
+    used: false
+    guidance: 未利用
+  - name: uro:isAuthorized
+    used: false
+    guidance: 未利用
+  - name: uro:purpose
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::SquareUrbanPlanAttributePrefectureValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::SquareUrbanPlanAttributeCityValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::SquareUrbanPlanAttributeStatusValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::StationSquareAttribute"
+  attributes:
+  - name: uro:prefecture
+    used: false
+    guidance: 未利用
+  - name: uro:city
+    used: false
+    guidance: 未利用
+  - name: uro:urbanPlanningAreaName
+    used: false
+    guidance: 未利用
+  - name: uro:enforcer
+    used: false
+    guidance: 未利用
+  - name: uro:dateOfDecision
+    used: false
+    guidance: 未利用
+  - name: uro:dateOfRevision
+    used: false
+    guidance: 未利用
+  - name: uro:areaPlanned
+    used: false
+    guidance: 未利用
+  - name: uro:areaInService
+    used: false
+    guidance: 未利用
+  - name: uro:remarks
+    used: false
+    guidance: 未利用
+  - name: uro:status
+    used: false
+    guidance: 未利用
+  - name: uro:areaImproved
+    used: false
+    guidance: 未利用
+  - name: uro:areaCompleted
+    used: false
+    guidance: 未利用
+  - name: uro:projectStartDate
+    used: false
+    guidance: 未利用
+  - name: uro:projectEndDate
+    used: false
+    guidance: 未利用
+  - name: uro:isCompleted
+    used: false
+    guidance: 未利用
+  - name: uro:isAuthorized
+    used: false
+    guidance: 未利用
+  - name: uro:purpose
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+  - name: uro:station
+    used: false
+    guidance: 未利用
+  - name: uro:route
+    used: false
+    guidance: 未利用
+  - name: uro:railwayType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::StationSquareAttributeRailwayTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TerminalAttribute"
+  attributes:
+  - name: uro:prefecture
+    used: false
+    guidance: 未利用
+  - name: uro:city
+    used: false
+    guidance: 未利用
+  - name: uro:urbanPlanningAreaName
+    used: false
+    guidance: 未利用
+  - name: uro:enforcer
+    used: false
+    guidance: 未利用
+  - name: uro:dateOfDecision
+    used: false
+    guidance: 未利用
+  - name: uro:dateOfRevision
+    used: false
+    guidance: 未利用
+  - name: uro:areaPlanned
+    used: false
+    guidance: 未利用
+  - name: uro:areaInService
+    used: false
+    guidance: 未利用
+  - name: uro:remarks
+    used: false
+    guidance: 未利用
+  - name: uro:status
+    used: false
+    guidance: 未利用
+  - name: uro:areaImproved
+    used: false
+    guidance: 未利用
+  - name: uro:areaCompleted
+    used: false
+    guidance: 未利用
+  - name: uro:projectStartDate
+    used: false
+    guidance: 未利用
+  - name: uro:projectEndDate
+    used: false
+    guidance: 未利用
+  - name: uro:isCompleted
+    used: false
+    guidance: 未利用
+  - name: uro:isAuthorized
+    used: false
+    guidance: 未利用
+  - name: uro:purpose
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+  - name: uro:terminalType
+    used: false
+    guidance: 未利用
+  - name: uro:structure
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfBerthsPlanned
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfBerthsInService
+    used: false
+    guidance: 未利用
+  - name: uro:userType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TerminalAttributeTerminalTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TerminalAttributeUserTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::WaterwayDetailAttribute"
+  attributes:
+  - name: uro:routeId
+    used: false
+    guidance: 未利用
+  - name: uro:routeDirection
+    used: false
+    guidance: 未利用
+  - name: uro:minimumWidth
+    used: false
+    guidance: 未利用
+  - name: uro:maximumWidth
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:navigation
+    used: false
+    guidance: 未利用
+  - name: uro:plannedDepth
+    used: false
+    guidance: 未利用
+  - name: uro:speedLimit
+    used: false
+    guidance: 未利用
+  - name: uro:targetShipType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::WaterwayDetailAttributeRouteDirectionValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RailwayRouteAttribute"
+  attributes:
+  - name: uro:operatorType
+    used: false
+    guidance: 未利用
+  - name: uro:operator
+    used: false
+    guidance: 未利用
+  - name: uro:alternativeName
+    used: false
+    guidance: 未利用
+  - name: uro:railwayType
+    used: false
+    guidance: 未利用
+  - name: uro:startStation
+    used: false
+    guidance: 未利用
+  - name: uro:endStation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RailwayRouteAttributeOperatorTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RailwayRouteAttributeRailwayTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RailwayTrackAttribute"
+  attributes:
+  - name: uro:routeName
+    used: false
+    guidance: 未利用
+  - name: uro:trackType
+    used: false
+    guidance: 未利用
+  - name: uro:startPost
+    used: false
+    guidance: 未利用
+  - name: uro:endPost
+    used: false
+    guidance: 未利用
+  - name: uro:alignmentType
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:lod2Network
+    used: false
+    guidance: 未利用
+  - name: Geometric complex:lod3Network
+    used: false
+    guidance: 未利用
+  - name: uro:controlPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RailwayTrackAttributeTrackTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RailwayTrackAttributeAlignmentTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ControlPoint"
+  attributes:
+  - name: uro:startPost
+    used: false
+    guidance: 未利用
+  - name: uro:endPost
+    used: false
+    guidance: 未利用
+  - name: uro:function
+    used: false
+    guidance: 未利用
+  - name: uro:parameter
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:endPoint
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:startPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ControlPointFunctionValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ControlPointType"
+  attributes:
+  - name: uro:circularCurve
+    used: false
+    guidance: 未利用
+  - name: uro:transitionCurve
+    used: false
+    guidance: 未利用
+  - name: uro:slopeType
+    used: false
+    guidance: 未利用
+  - name: uro:verticalCurve
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CircularCurveType"
+  attributes:
+  - name: uro:radius
+    used: false
+    guidance: 未利用
+  - name: uro:intersection
+    used: false
+    guidance: 未利用
+  - name: uro:cutLength
+    used: false
+    guidance: 未利用
+  - name: uro:curveLength
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TransitionCurveType"
+  attributes:
+  - name: uro:intersection
+    used: false
+    guidance: 未利用
+  - name: uro:distance
+    used: false
+    guidance: 未利用
+  - name: uro:curveLength
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::VerticalCurveType"
+  attributes:
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:verticalDistance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::SlopeType"
+  attributes:
+  - name: uro:angle
+    used: false
+    guidance: 未利用
+  - name: uro:elevation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PublicLand"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpaceBoundary
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: false
+    guidance: 未利用
+  - name: LandUse:class
+    used: false
+    guidance: 未利用
+  - name: LandUse:function
+    used: false
+    guidance: 未利用
+  - name: LandUse:usage
+    used: false
+    guidance: 未利用
+  - name: LandUse:adeOfLandUse
+    used: false
+    guidance: 未利用
+  - name: uro:id
+    used: false
+    guidance: 未利用
+  - name: uro:ownerName
+    used: false
+    guidance: 未利用
+  - name: uro:ownerType
+    used: false
+    guidance: 未利用
+  - name: uro:landCategory
+    used: false
+    guidance: 未利用
+  - name: uro:area
+    used: false
+    guidance: 未利用
+  - name: uro:status
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PublicLandOwnerTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LandUseDetailAttribute"
+  attributes:
+  - name: uro:id
+    used: false
+    guidance: 未利用
+  - name: uro:orgLandUse
+    used: false
+    guidance: 未利用
+  - name: uro:nominalArea
+    used: false
+    guidance: 未利用
+  - name: uro:ownerType
+    used: false
+    guidance: 未利用
+  - name: uro:owner
+    used: false
+    guidance: 未利用
+  - name: uro:areaInSquareMeter
+    used: false
+    guidance: 未利用
+  - name: uro:areaInHa
+    used: false
+    guidance: 未利用
+  - name: uro:buildingCoverageRate
+    used: false
+    guidance: 未利用
+  - name: uro:floorAreaRate
+    used: false
+    guidance: 未利用
+  - name: uro:specifiedBuildingCoverageRate
+    used: false
+    guidance: 未利用
+  - name: uro:specifiedFloorAreaRate
+    used: false
+    guidance: 未利用
+  - name: uro:standardFloorAreaRate
+    used: false
+    guidance: 未利用
+  - name: uro:urbanPlanType
+    used: false
+    guidance: 未利用
+  - name: uro:areaClassificationType
+    used: false
+    guidance: 未利用
+  - name: uro:districtsAndZonesType
+    used: false
+    guidance: 未利用
+  - name: uro:prefecture
+    used: false
+    guidance: 未利用
+  - name: uro:city
+    used: false
+    guidance: 未利用
+  - name: uro:reference
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+  - name: uro:surveyYear
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LandUseDetailAttributeOrgLandUseValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LandUseDetailAttributeOwnerTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LandUseDetailAttributeUrbanPlanTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LandUseDetailAttributeAreaClassificationTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LandUseDetailAttributeDistrictsAndZonesTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LandUseDetailAttributePrefectureValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LandUseDetailAttributeCityValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BridgeFunctionalAttribute"
+  attributes:
+  - name: uro:directionType
+    used: false
+    guidance: 未利用
+  - name: uro:userType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BridgeFunctionalAttributeDirectionTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BridgeFunctionalAttributeUserTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BridgeStructureAttribute"
+  attributes:
+  - name: uro:material
+    used: false
+    guidance: 未利用
+  - name: uro:bridgeType
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:width
+    used: false
+    guidance: 未利用
+  - name: uro:area
+    used: false
+    guidance: 未利用
+  - name: uro:weightRestriction
+    used: false
+    guidance: 未利用
+  - name: uro:heightRestriction
+    used: false
+    guidance: 未利用
+  - name: uro:widthRestriction
+    used: false
+    guidance: 未利用
+  - name: uro:underGirderHeight
+    used: false
+    guidance: 未利用
+  - name: uro:slopeType
+    used: false
+    guidance: 未利用
+  - name: uro:escalator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BridgeStructureAttributeBridgeTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BridgeStructureAttributeSlopeTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::BridgeStructureAttributeMaterialValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TunnelFunctionalAttribute"
+  attributes:
+  - name: uro:directionType
+    used: false
+    guidance: 未利用
+  - name: uro:userType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TunnelFunctionalAttributeDirectionTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TunnelFunctionalAttributeUserTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TunnelStructureAttribute"
+  attributes:
+  - name: uro:tunnelType
+    used: false
+    guidance: 未利用
+  - name: uro:tunnelSubtype
+    used: false
+    guidance: 未利用
+  - name: uro:mouthType
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:width
+    used: false
+    guidance: 未利用
+  - name: uro:area
+    used: false
+    guidance: 未利用
+  - name: uro:innerHeight
+    used: false
+    guidance: 未利用
+  - name: uro:effectiveHeight
+    used: false
+    guidance: 未利用
+  - name: uro:slopeType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TunnelStructureAttributeTunnelTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TunnelStructureAttributeTunnelSubtypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TunnelStructureAttributeMonthTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TunnelStructureAttributeSlopeTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OtherConstructionInstallation"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Construction:relationToConstruction
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractInstallation
+    used: false
+    guidance: 未利用
+  - name: uro:class
+    used: false
+    guidance: 未利用
+  - name: uro:function
+    used: false
+    guidance: 未利用
+  - name: uro:usage
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OtherConstructionInstallationClassValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OtherConstructionInstallationFunctionValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OtherConstructionInstallationUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OtherConstructiveElement"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Construction:isStructuralElement
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstructiveElement
+    used: false
+    guidance: 未利用
+  - name: uro:class
+    used: false
+    guidance: 未利用
+  - name: uro:function
+    used: false
+    guidance: 未利用
+  - name: uro:usage
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Construction:filling
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OtherConstructiveElementClassValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OtherConstructiveElementFunctionValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OtherConstructiveElementUsageValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ConstructionBaseAttribute"
+  attributes:
+  - name: uro:adminType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:adminOffice
+    used: false
+    guidance: 未利用
+  - name: uro:operatorType
+    used: false
+    guidance: 未利用
+  - name: uro:installerType
+    used: false
+    guidance: 未利用
+  - name: uro:installer
+    used: false
+    guidance: 未利用
+  - name: uro:structureOrdinance
+    used: false
+    guidance: 未利用
+  - name: uro:specification
+    used: false
+    guidance: 未利用
+  - name: uro:kana
+    used: false
+    guidance: 未利用
+  - name: uro:constructionStartYear
+    used: false
+    guidance: 未利用
+  - name: uro:completionYear
+    used: false
+    guidance: 未利用
+  - name: uro:facilityAge
+    used: false
+    guidance: 未利用
+  - name: uro:update
+    used: false
+    guidance: 未利用
+  - name: uro:purpose
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ConstructionBaseAttributeAdminTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ConstructionBaseAttributeOperatorTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ConstructionBaseAttributeInstallerTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ConstructionBaseAttributePurposeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ConstructionRiskAssessmentAttribute"
+  attributes:
+  - name: uro:surveyYear
+    used: false
+    guidance: 未利用
+  - name: uro:riskType
+    used: false
+    guidance: 未利用
+  - name: uro:status
+    used: false
+    guidance: 未利用
+  - name: uro:referenceDate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ConstructionRiskAssessmentAttributeRiskTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ConstructionRiskAssessmentAttributeStatusValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ConstructionStructureAttribute"
+  attributes:
+  - name: uro:structureType
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:width
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:volume
+    used: false
+    guidance: 未利用
+  - name: uro:otherConstructionInstallation
+    used: false
+    guidance: 未利用
+  - name: uro:otherConstructiveElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ConstructionStructureAttributeStructureTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::EmbankmentAttribute"
+  attributes:
+  - name: uro:structureType
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:width
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:volume
+    used: false
+    guidance: 未利用
+  - name: uro:mainPartLength
+    used: false
+    guidance: 未利用
+  - name: uro:ceilingHeight
+    used: false
+    guidance: 未利用
+  - name: uro:waveDissipatorLength
+    used: false
+    guidance: 未利用
+  - name: uro:otherConstructionInstallation
+    used: false
+    guidance: 未利用
+  - name: uro:otherConstructiveElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::DamAttribute"
+  attributes:
+  - name: uro:structureType
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:width
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:volume
+    used: false
+    guidance: 未利用
+  - name: uro:damCode
+    used: false
+    guidance: 未利用
+  - name: uro:totalWaterStorage
+    used: false
+    guidance: 未利用
+  - name: uro:otherConstructionInstallation
+    used: false
+    guidance: 未利用
+  - name: uro:otherConstructiveElement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::DamAttributeDamCodeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CityFurnitureDetailAttribute"
+  attributes:
+  - name: uro:facilityType
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CityFurnitureDetailAttributeFacilityTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CityFurnitureExtendedGeometry"
+  attributes:
+  - name: Generics:interiorSpace
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1MultiSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UtilityNetworkElement"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UtilityNetworkElementOccupierTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UtilityNetworkElementOccupierNameValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UtilityNetworkElementYearTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UtilityNetworkElementAdministratorValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UtilityLink"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:routeStartNode
+    used: false
+    guidance: 未利用
+  - name: uro:startNode
+    used: false
+    guidance: 未利用
+  - name: uro:routeEndNode
+    used: false
+    guidance: 未利用
+  - name: uro:endNode
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:minDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxWidth
+    used: false
+    guidance: 未利用
+  - name: uro:offset
+    used: false
+    guidance: 未利用
+  - name: uro:material
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+  - name: uro:lengthAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UtilityLinkMaterialValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UtilityNode"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:previousLink
+    used: false
+    guidance: 未利用
+  - name: uro:nextLink
+    used: false
+    guidance: 未利用
+  - name: uro:rotationAngle
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UtilityNodeContainer"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:containerType
+    used: false
+    guidance: 未利用
+  - name: uro:innerDiameterLong
+    used: false
+    guidance: 未利用
+  - name: uro:outerDiameterLong
+    used: false
+    guidance: 未利用
+  - name: uro:innerDiameterShort
+    used: false
+    guidance: 未利用
+  - name: uro:outerDiameterShort
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:appurtenance
+    used: false
+    guidance: 未利用
+  - name: uro:rotationAngle
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UtilityNodeContainerContainerTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Cable"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:routeStartNode
+    used: false
+    guidance: 未利用
+  - name: uro:startNode
+    used: false
+    guidance: 未利用
+  - name: uro:routeEndNode
+    used: false
+    guidance: 未利用
+  - name: uro:endNode
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:minDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxWidth
+    used: false
+    guidance: 未利用
+  - name: uro:offset
+    used: false
+    guidance: 未利用
+  - name: uro:material
+    used: false
+    guidance: 未利用
+  - name: uro:columns
+    used: false
+    guidance: 未利用
+  - name: uro:rows
+    used: false
+    guidance: 未利用
+  - name: uro:cables
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+  - name: uro:lengthAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TelecommunicationsCable"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:routeStartNode
+    used: false
+    guidance: 未利用
+  - name: uro:startNode
+    used: false
+    guidance: 未利用
+  - name: uro:routeEndNode
+    used: false
+    guidance: 未利用
+  - name: uro:endNode
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:minDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxWidth
+    used: false
+    guidance: 未利用
+  - name: uro:offset
+    used: false
+    guidance: 未利用
+  - name: uro:material
+    used: false
+    guidance: 未利用
+  - name: uro:columns
+    used: false
+    guidance: 未利用
+  - name: uro:rows
+    used: false
+    guidance: 未利用
+  - name: uro:cables
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+  - name: uro:lengthAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ElectricityCable"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:routeStartNode
+    used: false
+    guidance: 未利用
+  - name: uro:startNode
+    used: false
+    guidance: 未利用
+  - name: uro:routeEndNode
+    used: false
+    guidance: 未利用
+  - name: uro:endNode
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:minDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxWidth
+    used: false
+    guidance: 未利用
+  - name: uro:offset
+    used: false
+    guidance: 未利用
+  - name: uro:material
+    used: false
+    guidance: 未利用
+  - name: uro:columns
+    used: false
+    guidance: 未利用
+  - name: uro:rows
+    used: false
+    guidance: 未利用
+  - name: uro:cables
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+  - name: uro:lengthAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Pipe"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:routeStartNode
+    used: false
+    guidance: 未利用
+  - name: uro:startNode
+    used: false
+    guidance: 未利用
+  - name: uro:routeEndNode
+    used: false
+    guidance: 未利用
+  - name: uro:endNode
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:minDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxWidth
+    used: false
+    guidance: 未利用
+  - name: uro:offset
+    used: false
+    guidance: 未利用
+  - name: uro:material
+    used: false
+    guidance: 未利用
+  - name: uro:innerDiameter
+    used: false
+    guidance: 未利用
+  - name: uro:outerDiameter
+    used: false
+    guidance: 未利用
+  - name: uro:sleeveType
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+  - name: uro:lengthAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PipeSleeveTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::WaterPipe"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:routeStartNode
+    used: false
+    guidance: 未利用
+  - name: uro:startNode
+    used: false
+    guidance: 未利用
+  - name: uro:routeEndNode
+    used: false
+    guidance: 未利用
+  - name: uro:endNode
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:minDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxWidth
+    used: false
+    guidance: 未利用
+  - name: uro:offset
+    used: false
+    guidance: 未利用
+  - name: uro:material
+    used: false
+    guidance: 未利用
+  - name: uro:innerDiameter
+    used: false
+    guidance: 未利用
+  - name: uro:outerDiameter
+    used: false
+    guidance: 未利用
+  - name: uro:sleeveType
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+  - name: uro:lengthAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::SewerPipe"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:routeStartNode
+    used: false
+    guidance: 未利用
+  - name: uro:startNode
+    used: false
+    guidance: 未利用
+  - name: uro:routeEndNode
+    used: false
+    guidance: 未利用
+  - name: uro:endNode
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:minDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxWidth
+    used: false
+    guidance: 未利用
+  - name: uro:offset
+    used: false
+    guidance: 未利用
+  - name: uro:material
+    used: false
+    guidance: 未利用
+  - name: uro:innerDiameter
+    used: false
+    guidance: 未利用
+  - name: uro:outerDiameter
+    used: false
+    guidance: 未利用
+  - name: uro:sleeveType
+    used: false
+    guidance: 未利用
+  - name: uro:slope
+    used: false
+    guidance: 未利用
+  - name: uro:invertElevationUpstream
+    used: false
+    guidance: 未利用
+  - name: uro:invertElevationDownstream
+    used: false
+    guidance: 未利用
+  - name: uro:flowDirection
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+  - name: uro:lengthAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ThermalPipe"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:routeStartNode
+    used: false
+    guidance: 未利用
+  - name: uro:startNode
+    used: false
+    guidance: 未利用
+  - name: uro:routeEndNode
+    used: false
+    guidance: 未利用
+  - name: uro:endNode
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:minDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxWidth
+    used: false
+    guidance: 未利用
+  - name: uro:offset
+    used: false
+    guidance: 未利用
+  - name: uro:material
+    used: false
+    guidance: 未利用
+  - name: uro:innerDiameter
+    used: false
+    guidance: 未利用
+  - name: uro:outerDiameter
+    used: false
+    guidance: 未利用
+  - name: uro:sleeveType
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+  - name: uro:lengthAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OilGasChemicalsPipe"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:routeStartNode
+    used: false
+    guidance: 未利用
+  - name: uro:startNode
+    used: false
+    guidance: 未利用
+  - name: uro:routeEndNode
+    used: false
+    guidance: 未利用
+  - name: uro:endNode
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:minDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxWidth
+    used: false
+    guidance: 未利用
+  - name: uro:offset
+    used: false
+    guidance: 未利用
+  - name: uro:material
+    used: false
+    guidance: 未利用
+  - name: uro:innerDiameter
+    used: false
+    guidance: 未利用
+  - name: uro:outerDiameter
+    used: false
+    guidance: 未利用
+  - name: uro:sleeveType
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+  - name: uro:lengthAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Duct"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:routeStartNode
+    used: false
+    guidance: 未利用
+  - name: uro:startNode
+    used: false
+    guidance: 未利用
+  - name: uro:routeEndNode
+    used: false
+    guidance: 未利用
+  - name: uro:endNode
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:minDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxWidth
+    used: false
+    guidance: 未利用
+  - name: uro:offset
+    used: false
+    guidance: 未利用
+  - name: uro:material
+    used: false
+    guidance: 未利用
+  - name: uro:width
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+  - name: uro:lengthAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Manhole"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:containerType
+    used: false
+    guidance: 未利用
+  - name: uro:innerDiameterLong
+    used: false
+    guidance: 未利用
+  - name: uro:outerDiameterLong
+    used: false
+    guidance: 未利用
+  - name: uro:innerDiameterShort
+    used: false
+    guidance: 未利用
+  - name: uro:outerDiameterShort
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:appurtenance
+    used: false
+    guidance: 未利用
+  - name: uro:rotationAngle
+    used: false
+    guidance: 未利用
+  - name: uro:elevation
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Handhole"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:containerType
+    used: false
+    guidance: 未利用
+  - name: uro:innerDiameterLong
+    used: false
+    guidance: 未利用
+  - name: uro:outerDiameterLong
+    used: false
+    guidance: 未利用
+  - name: uro:innerDiameterShort
+    used: false
+    guidance: 未利用
+  - name: uro:outerDiameterShort
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:appurtenance
+    used: false
+    guidance: 未利用
+  - name: uro:rotationAngle
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Appurtenance"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:class
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:function
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:usage
+    used: false
+    guidance: 未利用
+  - name: CityFurniture:adeOfCityFurniture
+    used: false
+    guidance: 未利用
+  - name: uro:occupierType
+    used: false
+    guidance: 未利用
+  - name: uro:occupierName
+    used: false
+    guidance: 未利用
+  - name: uro:year
+    used: false
+    guidance: 未利用
+  - name: uro:yearType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:previousLink
+    used: false
+    guidance: 未利用
+  - name: uro:nextLink
+    used: false
+    guidance: 未利用
+  - name: uro:rotationAngle
+    used: false
+    guidance: 未利用
+  - name: uro:appurtenanceType
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: uro:offsetDepth
+    used: false
+    guidance: 未利用
+  - name: uro:thematicShape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::AppurtenanceAppurtenanceTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LengthAttribute"
+  attributes:
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:measureType
+    used: false
+    guidance: 未利用
+  - name: uro:phaseType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LengthAttributeMeasureTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LengthAttributePhaseTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OffsetDepth"
+  attributes:
+  - name: uro:pos
+    used: false
+    guidance: 未利用
+  - name: uro:offset
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:minDepth
+    used: false
+    guidance: 未利用
+  - name: uro:maxDepth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ThematicShape"
+  attributes:
+  - name: uro:horizontalType
+    used: false
+    guidance: 未利用
+  - name: uro:heightType
+    used: false
+    guidance: 未利用
+  - name: Geometry root:shape
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ThematicShapeHorizontalTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ThematicShapeHeightTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UndergroundBuilding"
+  attributes:
+  - name: Core:featureID
+    used: false
+    guidance: 未利用
+  - name: Core:identifier
+    used: false
+    guidance: 未利用
+  - name: Core:name
+    used: false
+    guidance: 未利用
+  - name: Core:description
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeature
+    used: false
+    guidance: 未利用
+  - name: Core:creationDate
+    used: false
+    guidance: 未利用
+  - name: Core:terminationDate
+    used: false
+    guidance: 未利用
+  - name: Core:validFrom
+    used: false
+    guidance: 未利用
+  - name: Core:validTo
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: false
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: false
+    guidance: 未利用
+  - name: Core:spaceType
+    used: false
+    guidance: 未利用
+  - name: Core:volume
+    used: false
+    guidance: 未利用
+  - name: Core:area
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: false
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: false
+    guidance: 未利用
+  - name: Construction:conditionOfConstruction
+    used: false
+    guidance: 未利用
+  - name: Construction:dateOfConstruction
+    used: false
+    guidance: 未利用
+  - name: Construction:dateOfDemolition
+    used: false
+    guidance: 未利用
+  - name: Construction:constructionEvent
+    used: false
+    guidance: 未利用
+  - name: Construction:elevation
+    used: false
+    guidance: 未利用
+  - name: Construction:height
+    used: false
+    guidance: 未利用
+  - name: Construction:occupancy
+    used: false
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstruction
+    used: false
+    guidance: 未利用
+  - name: Building:class
+    used: false
+    guidance: 未利用
+  - name: Building:function
+    used: false
+    guidance: 未利用
+  - name: Building:usage
+    used: false
+    guidance: 未利用
+  - name: Building:roofType
+    used: false
+    guidance: 未利用
+  - name: Building:storeysAboveGround
+    used: false
+    guidance: 未利用
+  - name: Building:storeysBelowGround
+    used: false
+    guidance: 未利用
+  - name: Building:storeyHeightsAboveGround
+    used: false
+    guidance: 未利用
+  - name: Building:storeyHeightsBelowGround
+    used: false
+    guidance: 未利用
+  - name: Building:adeOfAbstractBuilding
+    used: false
+    guidance: 未利用
+  - name: Core:appearance
+    used: false
+    guidance: 未利用
+  - name: Core:dynamizer
+    used: false
+    guidance: 未利用
+  - name: Core:externalReference
+    used: false
+    guidance: 未利用
+  - name: Core:generalizesTo
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+  - name: Core:relatedTo
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod0MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiSurface
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod0Point
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod1Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod2Solid
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:lod3Solid
+    used: false
+    guidance: 未利用
+  - name: Core:pointCloud
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: false
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: false
+    guidance: 未利用
+  - name: Core:boundary
+    used: false
+    guidance: 未利用
+  - name: Building:buildingConstructiveElement
+    used: false
+    guidance: 未利用
+  - name: Building:buildingFurniture
+    used: false
+    guidance: 未利用
+  - name: Building:buildingInstallation
+    used: false
+    guidance: 未利用
+  - name: Building:buildingRoom
+    used: false
+    guidance: 未利用
+  - name: Building:buildingSubdivision
+    used: false
+    guidance: 未利用
+  - name: Core:address
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::WaterBodyDetailAttribute"
+  attributes:
+  - name: uro:kana
+    used: false
+    guidance: 未利用
+  - name: uro:waterSystemCode
+    used: false
+    guidance: 未利用
+  - name: uro:riverCode
+    used: false
+    guidance: 未利用
+  - name: uro:adminType
+    used: false
+    guidance: 未利用
+  - name: uro:flowDirection
+    used: false
+    guidance: 未利用
+  - name: uro:maximumDepth
+    used: false
+    guidance: 未利用
+  - name: uro:waterSurfaceElevation
+    used: false
+    guidance: 未利用
+  - name: uro:area
+    used: false
+    guidance: 未利用
+  - name: uro:measurementYearMonth
+    used: false
+    guidance: 未利用
+  - name: uro:prefecture
+    used: false
+    guidance: 未利用
+  - name: uro:city
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::WaterBodyDetailAttributeWaterSystemCodeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::WaterBodyDetailAttributeRiverCodeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::WaterBodyDetailAttributeAdminTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::WaterBodyDetailAttributePrefectureValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::WaterBodyDetailAttributeCityValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PointCloudSpecAttribute"
+  attributes:
+  - name: uro:class
+    used: false
+    guidance: 未利用
+  - name: uro:function
+    used: false
+    guidance: 未利用
+  - name: uro:srcScale
+    used: false
+    guidance: 未利用
+  - name: uro:srcRequiredHorizontalAccuracy
+    used: false
+    guidance: 未利用
+  - name: uro:srcRequiredVerticalAccuracy
+    used: false
+    guidance: 未利用
+  - name: uro:srcRequiredPointDensity
+    used: false
+    guidance: 未利用
+  - name: uro:srcFilteringCriteria
+    used: false
+    guidance: 未利用
+  - name: uro:srcGridInterval
+    used: false
+    guidance: 未利用
+  - name: uro:isIntensity
+    used: false
+    guidance: 未利用
+  - name: uro:spectralBandSet
+    used: false
+    guidance: 未利用
+  - name: uro:isReturnInfo
+    used: false
+    guidance: 未利用
+  - name: uro:isStandardClassification
+    used: false
+    guidance: 未利用
+  - name: uro:customClassificationType
+    used: false
+    guidance: 未利用
+  - name: uro:pointCloudAssociationMethod
+    used: false
+    guidance: 未利用
+  - name: uro:pointSubsamplingInfo
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PointCloudSpecAttributeClassValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PointCloudSpecAttributeFunctionValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PointCloudSpecAttributeSrcScaleValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PointCloudSpecAttributeSrcFilteringCriteriaValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PointCloudSpecAttributeSpecrealBandSetValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PointCloudSpecAttributeCustomClassificationTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PointCloudSpecAttributePointCloudAssociationMethodValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PointCloudSpecAttributePointSubsamplingInfoValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FacilityAttribute"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FacilityIdAttribute"
+  attributes:
+  - name: uro:id
+    used: false
+    guidance: 未利用
+  - name: uro:partId
+    used: false
+    guidance: 未利用
+  - name: uro:branchId
+    used: false
+    guidance: 未利用
+  - name: uro:prefecture
+    used: false
+    guidance: 未利用
+  - name: uro:city
+    used: false
+    guidance: 未利用
+  - name: uro:route
+    used: false
+    guidance: 未利用
+  - name: uro:startPost
+    used: false
+    guidance: 未利用
+  - name: uro:endPost
+    used: false
+    guidance: 未利用
+  - name: uro:startLat
+    used: false
+    guidance: 未利用
+  - name: uro:startLong
+    used: false
+    guidance: 未利用
+  - name: uro:alternativeName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FacilityIdAttributePrefectureValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FacilityIdAttributeCityValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FacilityTypeAttribute"
+  attributes:
+  - name: uro:class
+    used: false
+    guidance: 未利用
+  - name: uro:function
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FacilityTypeAttributeClassValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FacilityTypeAttributeFunctionValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RiverFacilityIdAttribute"
+  attributes:
+  - name: uro:id
+    used: false
+    guidance: 未利用
+  - name: uro:partId
+    used: false
+    guidance: 未利用
+  - name: uro:branchId
+    used: false
+    guidance: 未利用
+  - name: uro:prefecture
+    used: false
+    guidance: 未利用
+  - name: uro:city
+    used: false
+    guidance: 未利用
+  - name: uro:route
+    used: false
+    guidance: 未利用
+  - name: uro:startPost
+    used: false
+    guidance: 未利用
+  - name: uro:endPost
+    used: false
+    guidance: 未利用
+  - name: uro:startLat
+    used: false
+    guidance: 未利用
+  - name: uro:startLong
+    used: false
+    guidance: 未利用
+  - name: uro:alternativeName
+    used: false
+    guidance: 未利用
+  - name: uro:riverCode
+    used: false
+    guidance: 未利用
+  - name: uro:riverName
+    used: false
+    guidance: 未利用
+  - name: uro:sideType
+    used: false
+    guidance: 未利用
+  - name: uro:leftPost
+    used: false
+    guidance: 未利用
+  - name: uro:leftDistance
+    used: false
+    guidance: 未利用
+  - name: uro:rightPost
+    used: false
+    guidance: 未利用
+  - name: uro:rightDistance
+    used: false
+    guidance: 未利用
+  - name: uro:leftStartPost
+    used: false
+    guidance: 未利用
+  - name: uro:leftStartDistance
+    used: false
+    guidance: 未利用
+  - name: uro:leftEndPost
+    used: false
+    guidance: 未利用
+  - name: uro:leftEndDistance
+    used: false
+    guidance: 未利用
+  - name: uro:rightStartPost
+    used: false
+    guidance: 未利用
+  - name: uro:rightStartDistance
+    used: false
+    guidance: 未利用
+  - name: uro:rightEndPost
+    used: false
+    guidance: 未利用
+  - name: uro:rightEndDistance
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RiverFacilityIdAttributeRiverCodeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RiverFacilityIdAttributeSideTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortAttribute"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortAttributePortFacilityDetailsTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortAttributePortStatusValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortAttributeGrantTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::HarborFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:geologicalType
+    used: false
+    guidance: 未利用
+  - name: uro:obstructingStructures
+    used: false
+    guidance: 未利用
+  - name: uro:structuralLimitations
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:minimumWidth
+    used: false
+    guidance: 未利用
+  - name: uro:maximumWidth
+    used: false
+    guidance: 未利用
+  - name: uro:plannedDepth
+    used: false
+    guidance: 未利用
+  - name: uro:currentDepth
+    used: false
+    guidance: 未利用
+  - name: uro:isDredged
+    used: false
+    guidance: 未利用
+  - name: uro:areaType
+    used: false
+    guidance: 未利用
+  - name: uro:innerArea
+    used: false
+    guidance: 未利用
+  - name: uro:outerArea
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:subsidy
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::HarborFacilityGeologicalTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::HarborFacilityAreaTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CargoHandlingFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:mainCargo
+    used: false
+    guidance: 未利用
+  - name: uro:mooringFacility
+    used: false
+    guidance: 未利用
+  - name: uro:liftableLoad
+    used: false
+    guidance: 未利用
+  - name: uro:ability
+    used: false
+    guidance: 未利用
+  - name: uro:packingName
+    used: false
+    guidance: 未利用
+  - name: uro:acquisitionYear
+    used: false
+    guidance: 未利用
+  - name: uro:innerTotalFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:innerOfSiteArea
+    used: false
+    guidance: 未利用
+  - name: uro:outerOfTotalFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:outerSiteArea
+    used: false
+    guidance: 未利用
+  - name: uro:mainMaterial
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CargoHandlingFacilityMainCargoValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CargoHandlingFacilityPackingNameValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CargoHandlingFacilityMainMaterialValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CyberportMarinaAndPBS"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:geologicalType
+    used: false
+    guidance: 未利用
+  - name: uro:obstructingStructures
+    used: false
+    guidance: 未利用
+  - name: uro:mainPartLength
+    used: false
+    guidance: 未利用
+  - name: uro:totalLength
+    used: false
+    guidance: 未利用
+  - name: uro:waveDissipatorLength
+    used: false
+    guidance: 未利用
+  - name: uro:facilityWidth
+    used: false
+    guidance: 未利用
+  - name: uro:apronWidth
+    used: false
+    guidance: 未利用
+  - name: uro:restrictionStructure
+    used: false
+    guidance: 未利用
+  - name: uro:plannedDepth
+    used: false
+    guidance: 未利用
+  - name: uro:currentDepth
+    used: false
+    guidance: 未利用
+  - name: uro:innerTotalFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:innerOfSiteArea
+    used: false
+    guidance: 未利用
+  - name: uro:outerOfTotalFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:outerSiteArea
+    used: false
+    guidance: 未利用
+  - name: uro:ceilingHeight
+    used: false
+    guidance: 未利用
+  - name: uro:gravityResistant
+    used: false
+    guidance: 未利用
+  - name: uro:form
+    used: false
+    guidance: 未利用
+  - name: uro:areaType
+    used: false
+    guidance: 未利用
+  - name: uro:mainVessels
+    used: false
+    guidance: 未利用
+  - name: uro:isDredged
+    used: false
+    guidance: 未利用
+  - name: uro:mooringPostWeight
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfMooringPosts
+    used: false
+    guidance: 未利用
+  - name: uro:resistantMaterial
+    used: false
+    guidance: 未利用
+  - name: uro:lighting
+    used: false
+    guidance: 未利用
+  - name: uro:stairs
+    used: false
+    guidance: 未利用
+  - name: uro:lifesaving
+    used: false
+    guidance: 未利用
+  - name: uro:lifesavingNumber
+    used: false
+    guidance: 未利用
+  - name: uro:bumper
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfVehicleBoardings
+    used: false
+    guidance: 未利用
+  - name: uro:vehicleBoardingWidth
+    used: false
+    guidance: 未利用
+  - name: uro:shipType
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfSeats
+    used: false
+    guidance: 未利用
+  - name: uro:mainCargo
+    used: false
+    guidance: 未利用
+  - name: uro:storageCapacity
+    used: false
+    guidance: 未利用
+  - name: uro:storageCapacityUnit
+    used: false
+    guidance: 未利用
+  - name: uro:structureType
+    used: false
+    guidance: 未利用
+  - name: uro:mainMaterial
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:subsidy
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CyberportMarinaAndPBSGeologicalTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CyberportMarinaAndPBSFormValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CyberportMarinaAndPBSAreaTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CyberportMarinaAndPBSMainVesselsValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CyberportMarinaAndPBSMainCargoValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CyberportMarinaAndPBSStorageCapacityUnitValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CyberportMarinaAndPBSStructureTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CyberportMarinaAndPBSMainMaterialValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::MooringFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:mainPartLength
+    used: false
+    guidance: 未利用
+  - name: uro:totalLength
+    used: false
+    guidance: 未利用
+  - name: uro:facilityWidth
+    used: false
+    guidance: 未利用
+  - name: uro:apronWidth
+    used: false
+    guidance: 未利用
+  - name: uro:plannedDepth
+    used: false
+    guidance: 未利用
+  - name: uro:currentDepth
+    used: false
+    guidance: 未利用
+  - name: uro:area
+    used: false
+    guidance: 未利用
+  - name: uro:ceilingHeight
+    used: false
+    guidance: 未利用
+  - name: uro:gravityResistant
+    used: false
+    guidance: 未利用
+  - name: uro:form
+    used: false
+    guidance: 未利用
+  - name: uro:mainVessels
+    used: false
+    guidance: 未利用
+  - name: uro:mooringPostWeight
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfMooringPosts
+    used: false
+    guidance: 未利用
+  - name: uro:resistantMaterial
+    used: false
+    guidance: 未利用
+  - name: uro:lighting
+    used: false
+    guidance: 未利用
+  - name: uro:stairs
+    used: false
+    guidance: 未利用
+  - name: uro:lifesavingAppliances
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfLifesavingAppliances
+    used: false
+    guidance: 未利用
+  - name: uro:bumper
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfVehicleBoardings
+    used: false
+    guidance: 未利用
+  - name: uro:vehicleBoardingWidth
+    used: false
+    guidance: 未利用
+  - name: uro:shipType
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfSeats
+    used: false
+    guidance: 未利用
+  - name: uro:mainCargo
+    used: false
+    guidance: 未利用
+  - name: uro:structureType
+    used: false
+    guidance: 未利用
+  - name: uro:mainMaterial
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:subsidy
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::MooringFacilityFormValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::MooringFacilityMainVesselsValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::MooringFacilityMainCargoValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::MooringFacilityStructureTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::MooringFacilityMainMaterialValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::NavigationAssistanceFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:subsidy
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortEnvironmentalImprovementFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:usage
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:area
+    used: false
+    guidance: 未利用
+  - name: uro:totalFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:subsidy
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortManagementFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:totalFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfShipTypes
+    used: false
+    guidance: 未利用
+  - name: uro:unitOfShipType
+    used: false
+    guidance: 未利用
+  - name: uro:loadingCapacity
+    used: false
+    guidance: 未利用
+  - name: uro:acquisitionYear
+    used: false
+    guidance: 未利用
+  - name: uro:usage
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:subsidy
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortManagementFacilityUnitOfShipTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortPassengerFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:width
+    used: false
+    guidance: 未利用
+  - name: uro:mainMaterial
+    used: false
+    guidance: 未利用
+  - name: uro:totalFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:acquisitionYear
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortPassengerFacilityMainMaterialValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortPollutionControlFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:width
+    used: false
+    guidance: 未利用
+  - name: uro:crossSectionalArea
+    used: false
+    guidance: 未利用
+  - name: uro:area
+    used: false
+    guidance: 未利用
+  - name: uro:height
+    used: false
+    guidance: 未利用
+  - name: uro:mainMaterial
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:subsidy
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortPollutionControlFacilityMainMaterialValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortProtectiveFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:structureType
+    used: false
+    guidance: 未利用
+  - name: uro:mainMaterial
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:subsidy
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortProtectiveFacilityStructureTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortProtectiveFacilityMainMaterialValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortStorageFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:innerTotalFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:innerOfSiteArea
+    used: false
+    guidance: 未利用
+  - name: uro:outerOfTotalFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:outerSiteArea
+    used: false
+    guidance: 未利用
+  - name: uro:mainCargo
+    used: false
+    guidance: 未利用
+  - name: uro:storageCapacity
+    used: false
+    guidance: 未利用
+  - name: uro:storageCapacityUnit
+    used: false
+    guidance: 未利用
+  - name: uro:mainMaterial
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortStorageFacilityMainCargoValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortStorageFacilityStorageCapacityUnitValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortStorageFacilityMainMaterialValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortTransportationFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:structureType
+    used: false
+    guidance: 未利用
+  - name: uro:startingPoint
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:area
+    used: false
+    guidance: 未利用
+  - name: uro:beddingWidth
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfLanes
+    used: false
+    guidance: 未利用
+  - name: uro:parkingLotCapacityOfBus
+    used: false
+    guidance: 未利用
+  - name: uro:parkingLotCapacityOfCars
+    used: false
+    guidance: 未利用
+  - name: uro:routeType
+    used: false
+    guidance: 未利用
+  - name: uro:heightToDigit
+    used: false
+    guidance: 未利用
+  - name: uro:heightLimit
+    used: false
+    guidance: 未利用
+  - name: uro:minimumWidth
+    used: false
+    guidance: 未利用
+  - name: uro:minimumDepth
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfAircraftParkingSpaces
+    used: false
+    guidance: 未利用
+  - name: uro:pavementType
+    used: false
+    guidance: 未利用
+  - name: uro:mainCargo
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:subsidy
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortTransportationFacilityStructureTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortTransportationFacilityRouteTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortTransportationFacilityPavementTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortTransportationFacilityMainCargoValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortWasteTreatmentFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:structureType
+    used: false
+    guidance: 未利用
+  - name: uro:perimeter
+    used: false
+    guidance: 未利用
+  - name: uro:mainPartLength
+    used: false
+    guidance: 未利用
+  - name: uro:innerShoreLength
+    used: false
+    guidance: 未利用
+  - name: uro:ceilingHeight
+    used: false
+    guidance: 未利用
+  - name: uro:waveDissipatorLength
+    used: false
+    guidance: 未利用
+  - name: uro:mainMaterial
+    used: false
+    guidance: 未利用
+  - name: uro:wasteType
+    used: false
+    guidance: 未利用
+  - name: uro:plannedDisposalArea
+    used: false
+    guidance: 未利用
+  - name: uro:plannedDisposalAmount
+    used: false
+    guidance: 未利用
+  - name: uro:receivingCapacity
+    used: false
+    guidance: 未利用
+  - name: uro:shipType
+    used: false
+    guidance: 未利用
+  - name: uro:unitOfReceivingCapacity
+    used: false
+    guidance: 未利用
+  - name: uro:acquisitionYear
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:subsidy
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ShipServiceFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:shipType
+    used: false
+    guidance: 未利用
+  - name: uro:supplyAbility
+    used: false
+    guidance: 未利用
+  - name: uro:supplyAbilityUnit
+    used: false
+    guidance: 未利用
+  - name: uro:mooringPlace
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:width
+    used: false
+    guidance: 未利用
+  - name: uro:area
+    used: false
+    guidance: 未利用
+  - name: uro:acquisitionYear
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ShipServiceFacilitySupplyAbilityUnitValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FishingPortAttribute"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FishingPortCapacity"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:capacity
+    used: false
+    guidance: 未利用
+  - name: uro:weightCapacity
+    used: false
+    guidance: 未利用
+  - name: uro:hullForm
+    used: false
+    guidance: 未利用
+  - name: uro:shipNumber
+    used: false
+    guidance: 未利用
+  - name: uro:waterDepth-2m
+    used: false
+    guidance: 未利用
+  - name: uro:waterDepth2-3m
+    used: false
+    guidance: 未利用
+  - name: uro:waterDepth3-6m
+    used: false
+    guidance: 未利用
+  - name: uro:waterDepth6-m
+    used: false
+    guidance: 未利用
+  - name: uro:heightAboveAWL
+    used: false
+    guidance: 未利用
+  - name: uro:heightOnFoundations
+    used: false
+    guidance: 未利用
+  - name: uro:luminousRange
+    used: false
+    guidance: 未利用
+  - name: uro:luminousColor
+    used: false
+    guidance: 未利用
+  - name: uro:candlePower
+    used: false
+    guidance: 未利用
+  - name: uro:lightType
+    used: false
+    guidance: 未利用
+  - name: uro:period
+    used: false
+    guidance: 未利用
+  - name: uro:maximumGroundingWeight
+    used: false
+    guidance: 未利用
+  - name: uro:handleablePower
+    used: false
+    guidance: 未利用
+  - name: uro:maximumWaterSupply
+    used: false
+    guidance: 未利用
+  - name: uro:maximumRefueling
+    used: false
+    guidance: 未利用
+  - name: uro:people
+    used: false
+    guidance: 未利用
+  - name: uro:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FishingPortFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:facilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portType
+    used: false
+    guidance: 未利用
+  - name: uro:address
+    used: false
+    guidance: 未利用
+  - name: uro:designatedArea
+    used: false
+    guidance: 未利用
+  - name: uro:designation
+    used: false
+    guidance: 未利用
+  - name: uro:designatedAdministrator
+    used: false
+    guidance: 未利用
+  - name: uro:referenceNumber
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:administrator
+    used: false
+    guidance: 未利用
+  - name: uro:facilityManager
+    used: false
+    guidance: 未利用
+  - name: uro:structureType
+    used: false
+    guidance: 未利用
+  - name: uro:mainMaterial
+    used: false
+    guidance: 未利用
+  - name: uro:otherStructure
+    used: false
+    guidance: 未利用
+  - name: uro:length
+    used: false
+    guidance: 未利用
+  - name: uro:width
+    used: false
+    guidance: 未利用
+  - name: uro:ceilingHeight
+    used: false
+    guidance: 未利用
+  - name: uro:depth
+    used: false
+    guidance: 未利用
+  - name: uro:area
+    used: false
+    guidance: 未利用
+  - name: uro:otherSizeDescription
+    used: false
+    guidance: 未利用
+  - name: uro:dateOfConstructionOrAcquisition
+    used: false
+    guidance: 未利用
+  - name: uro:cost
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FishingPortFacilityFacilityDetailsTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FishingPortFacilityPortTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FishingPortFacilityGrantTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FishingPortFacilityStructureTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::FishingPortFacilityMainMaterialValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::MaintenanceHistoryAttribute"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:maintenanceType
+    used: false
+    guidance: 未利用
+  - name: uro:maintenanceFiscalYear
+    used: false
+    guidance: 未利用
+  - name: uro:maintenanceYear
+    used: false
+    guidance: 未利用
+  - name: uro:maintenanceDate
+    used: false
+    guidance: 未利用
+  - name: uro:status
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::MaintenanceHistoryAttributeMaintenanceTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ParkFacilityLongevityPlanAttribute"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:parkCode
+    used: false
+    guidance: 未利用
+  - name: uro:parkName
+    used: false
+    guidance: 未利用
+  - name: uro:parkType
+    used: false
+    guidance: 未利用
+  - name: uro:facilityName
+    used: false
+    guidance: 未利用
+  - name: uro:facilityNameOptional
+    used: false
+    guidance: 未利用
+  - name: uro:specificFacilityName
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfFacilities
+    used: false
+    guidance: 未利用
+  - name: uro:size
+    used: false
+    guidance: 未利用
+  - name: uro:mainMaterial
+    used: false
+    guidance: 未利用
+  - name: uro:mainMaterialOptional
+    used: false
+    guidance: 未利用
+  - name: uro:installationYear
+    used: false
+    guidance: 未利用
+  - name: uro:disposalLimitPeriod
+    used: false
+    guidance: 未利用
+  - name: uro:expectedUsagePeriod
+    used: false
+    guidance: 未利用
+  - name: uro:repairsBeforeParkHealthAssessment
+    used: false
+    guidance: 未利用
+  - name: uro:parkHealthAssessment
+    used: false
+    guidance: 未利用
+  - name: uro:managementType
+    used: false
+    guidance: 未利用
+  - name: uro:expectedRenewalYearWithMeasures
+    used: false
+    guidance: 未利用
+  - name: uro:longevityMeasures
+    used: false
+    guidance: 未利用
+  - name: uro:noteForLongevity
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ParkFacilityLongevityPlanAttributeParkCodeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ParkFacilityLongevityPlanAttributeParkNameValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ParkFacilityLongevityPlanAttributeParkTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortWasteTreatmentFacilityStructureTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortWasteTreatmentFacilityMainMaterialValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortWasteTreatmentFacilityWasteTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortWasteTreatmentFacilityUnitOfReceivingCapacityValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::PortWelfareFacility"
+  attributes:
+  - name: uro:facilityId
+    used: false
+    guidance: 未利用
+  - name: uro:portFacilityDetailsType
+    used: false
+    guidance: 未利用
+  - name: uro:portName
+    used: false
+    guidance: 未利用
+  - name: uro:portStatus
+    used: false
+    guidance: 未利用
+  - name: uro:district
+    used: false
+    guidance: 未利用
+  - name: uro:grantType
+    used: false
+    guidance: 未利用
+  - name: uro:isDesignated
+    used: false
+    guidance: 未利用
+  - name: uro:degradationLevel
+    used: false
+    guidance: 未利用
+  - name: uro:totalFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:totalCost
+    used: false
+    guidance: 未利用
+  - name: uro:note
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ParkFacilityLongevityPlanAttributeFacilityNameValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ParkFacilityLongevityPlanAttributeMainMaterialValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ParkFacilityLongevityPlanAttributeManagementTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::NumberOfFacilities"
+  attributes:
+  - name: uro:quantity
+    used: false
+    guidance: 未利用
+  - name: uro:quantityUnit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::NumberOfFacilitiesQuantityUnitValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ParkHealthAssessment"
+  attributes:
+  - name: uro:assessmentFiscalYear
+    used: false
+    guidance: 未利用
+  - name: uro:deteriorationStatus
+    used: false
+    guidance: 未利用
+  - name: uro:condition
+    used: false
+    guidance: 未利用
+  - name: uro:urgency
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ParkHealthAssessmentConditionValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ParkHealthAssessmentUrgencyValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RepairsBeforeParkHealthAssessment"
+  attributes:
+  - name: uro:repair
+    used: false
+    guidance: 未利用
+  - name: uro:repairFiscalYear
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RepairsBeforeParkHealthAssessmentRepairValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::LongevityMeasures"
+  attributes:
+  - name: uro:fiscalYearForCountermeasures
+    used: false
+    guidance: 未利用
+  - name: uro:countermeasuresCost
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::CountermeasuresCost"
+  attributes:
+  - name: uro:cost
+    used: false
+    guidance: 未利用
+  - name: uro:costUnit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IndoorAttributeSourceValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IndoorFacilityAttribute"
+  attributes:
+  - name: uro:source
+    used: false
+    guidance: 未利用
+  - name: uro:weekdayHours
+    used: false
+    guidance: 未利用
+  - name: uro:weekendHours
+    used: false
+    guidance: 未利用
+  - name: uro:phone
+    used: false
+    guidance: 未利用
+  - name: uro:website
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IndoorFurnishingAttribute"
+  attributes:
+  - name: uro:source
+    used: false
+    guidance: 未利用
+  - name: uro:floorId
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IndoorPublicTagAttribute"
+  attributes:
+  - name: uro:source
+    used: false
+    guidance: 未利用
+  - name: uro:ucode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IndoorSpaceAttribute"
+  attributes:
+  - name: uro:source
+    used: false
+    guidance: 未利用
+  - name: uro:floorId
+    used: false
+    guidance: 未利用
+  - name: uro:isRestricted
+    used: false
+    guidance: 未利用
+  - name: uro:suite
+    used: false
+    guidance: 未利用
+  - name: uro:isPublic
+    used: false
+    guidance: 未利用
+  - name: uro:tollType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IndoorSpaceAttributeTollTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IndoorStoreyAttribute"
+  attributes:
+  - name: uro:source
+    used: false
+    guidance: 未利用
+  - name: uro:category
+    used: false
+    guidance: 未利用
+  - name: uro:ordinal
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IndoorTactileTileAttribute"
+  attributes:
+  - name: uro:source
+    used: false
+    guidance: 未利用
+  - name: uro:startNode
+    used: false
+    guidance: 未利用
+  - name: uro:endNode
+    used: false
+    guidance: 未利用
+  - name: uro:category
+    used: false
+    guidance: 未利用
+  - name: uro:roof
+    used: false
+    guidance: 未利用
+  - name: uro:floorId
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IndoorTactileTileAttributeCategoryValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IndoorTactileTileAttributeRoofValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IndoorZoneAttribute"
+  attributes:
+  - name: uro:source
+    used: false
+    guidance: 未利用
+  - name: uro:floorId
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcAttribute"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcAxis2Placement3D"
+  attributes:
+  - name: uro:location
+    used: false
+    guidance: 未利用
+  - name: uro:axis
+    used: false
+    guidance: 未利用
+  - name: uro:refDirection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcBuilding"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:longName
+    used: false
+    guidance: 未利用
+  - name: uro:compositionType
+    used: false
+    guidance: 未利用
+  - name: uro:elevationOfRefHeight
+    used: false
+    guidance: 未利用
+  - name: uro:elevationOfTerrain
+    used: false
+    guidance: 未利用
+  - name: uro:buildingAddress
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcBuildingElement"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:tag
+    used: false
+    guidance: 未利用
+  - name: uro:elementType
+    used: false
+    guidance: 未利用
+  - name: uro:predefinedType
+    used: false
+    guidance: 未利用
+  - name: uro:shapeType
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfRiser
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfTreads
+    used: false
+    guidance: 未利用
+  - name: uro:riserHeight
+    used: false
+    guidance: 未利用
+  - name: uro:treadLength
+    used: false
+    guidance: 未利用
+  - name: uro:operationType
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByWeight
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByNumber
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcBuildingElementElementTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcBuildingElementPredefinedTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcBuildingElementShapeTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcBuildingStorey"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:longName
+    used: false
+    guidance: 未利用
+  - name: uro:compositionType
+    used: false
+    guidance: 未利用
+  - name: uro:elevation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcClassification"
+  attributes:
+  - name: uro:source
+    used: false
+    guidance: 未利用
+  - name: uro:edition
+    used: false
+    guidance: 未利用
+  - name: uro:editionDate
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcClassificationReference"
+  attributes:
+  - name: uro:location
+    used: false
+    guidance: 未利用
+  - name: uro:itemReference
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:referencedSource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcClassificationReferenceItemReferenceValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcCoordinateReferenceSystem"
+  attributes:
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:geodeticDatum
+    used: false
+    guidance: 未利用
+  - name: uro:verticalDatum
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcCurtainWall"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:tag
+    used: false
+    guidance: 未利用
+  - name: uro:elementType
+    used: false
+    guidance: 未利用
+  - name: uro:predefinedType
+    used: false
+    guidance: 未利用
+  - name: uro:shapeType
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfRiser
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfTreads
+    used: false
+    guidance: 未利用
+  - name: uro:riserHeight
+    used: false
+    guidance: 未利用
+  - name: uro:treadLength
+    used: false
+    guidance: 未利用
+  - name: uro:operationType
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByWeight
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByNumber
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcDoor"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:tag
+    used: false
+    guidance: 未利用
+  - name: uro:elementType
+    used: false
+    guidance: 未利用
+  - name: uro:predefinedType
+    used: false
+    guidance: 未利用
+  - name: uro:shapeType
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfRiser
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfTreads
+    used: false
+    guidance: 未利用
+  - name: uro:riserHeight
+    used: false
+    guidance: 未利用
+  - name: uro:treadLength
+    used: false
+    guidance: 未利用
+  - name: uro:operationType
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByWeight
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByNumber
+    used: false
+    guidance: 未利用
+  - name: uro:overallHeight
+    used: false
+    guidance: 未利用
+  - name: uro:overallWidth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcElement"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:tag
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcFurnishingElement"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:tag
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcGeometricRepresentationContext"
+  attributes:
+  - name: uro:contextIdentifier
+    used: false
+    guidance: 未利用
+  - name: uro:contextType
+    used: false
+    guidance: 未利用
+  - name: uro:coordinateSpaceDimension
+    used: false
+    guidance: 未利用
+  - name: uro:precision
+    used: false
+    guidance: 未利用
+  - name: uro:worldCoordinateSystem
+    used: false
+    guidance: 未利用
+  - name: uro:trueNorth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcGroup"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcMapConversion"
+  attributes:
+  - name: uro:sourceCRS
+    used: false
+    guidance: 未利用
+  - name: uro:targetCRS
+    used: false
+    guidance: 未利用
+  - name: uro:eastings
+    used: false
+    guidance: 未利用
+  - name: uro:northings
+    used: false
+    guidance: 未利用
+  - name: uro:orthogonalHeight
+    used: false
+    guidance: 未利用
+  - name: uro:xAxisAbscissa
+    used: false
+    guidance: 未利用
+  - name: uro:xAxisOrdinate
+    used: false
+    guidance: 未利用
+  - name: uro:scale
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcObject"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcObjectDefinition"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcOpeningElement"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:tag
+    used: false
+    guidance: 未利用
+  - name: uro:nominalArea
+    used: false
+    guidance: 未利用
+  - name: uro:nominalVolume
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcProduct"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcProject"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:longName
+    used: false
+    guidance: 未利用
+  - name: uro:phase
+    used: false
+    guidance: 未利用
+  - name: uro:representationContexts
+    used: false
+    guidance: 未利用
+  - name: uro:unitsInContext
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcProjectedCRS"
+  attributes:
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:geodeticDatum
+    used: false
+    guidance: 未利用
+  - name: uro:verticalDatum
+    used: false
+    guidance: 未利用
+  - name: uro:mapUnit
+    used: false
+    guidance: 未利用
+  - name: uro:mapProjection
+    used: false
+    guidance: 未利用
+  - name: uro:mapZone
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcPsetBuildingCommon"
+  attributes:
+  - name: uro:buildingId
+    used: false
+    guidance: 未利用
+  - name: uro:isPermanentId
+    used: false
+    guidance: 未利用
+  - name: uro:mainFireUse
+    used: false
+    guidance: 未利用
+  - name: uro:ancillaryFireUse
+    used: false
+    guidance: 未利用
+  - name: uro:sprinklerProtection
+    used: false
+    guidance: 未利用
+  - name: uro:sprinklerProtectionAutomatic
+    used: false
+    guidance: 未利用
+  - name: uro:occupancyType
+    used: false
+    guidance: 未利用
+  - name: uro:grossPlannedArea
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfStoreys
+    used: false
+    guidance: 未利用
+  - name: uro:yearOfConstruction
+    used: false
+    guidance: 未利用
+  - name: uro:isLandmarked
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcPsetBuildingCommonOccupancyTypeValue"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcPsetDoorCommon"
+  attributes:
+  - name: uro:reference
+    used: false
+    guidance: 未利用
+  - name: uro:acousticRating
+    used: false
+    guidance: 未利用
+  - name: uro:firerating
+    used: false
+    guidance: 未利用
+  - name: uro:securityRating
+    used: false
+    guidance: 未利用
+  - name: uro:isExternal
+    used: false
+    guidance: 未利用
+  - name: uro:infiltration
+    used: false
+    guidance: 未利用
+  - name: uro:thermalTransmittance
+    used: false
+    guidance: 未利用
+  - name: uro:glazingAreaFraction
+    used: false
+    guidance: 未利用
+  - name: uro:handicapAccessible
+    used: false
+    guidance: 未利用
+  - name: uro:fireExit
+    used: false
+    guidance: 未利用
+  - name: uro:selfClosing
+    used: false
+    guidance: 未利用
+  - name: uro:smokeStop
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcPsetOpeningElementCommon"
+  attributes:
+  - name: uro:reference
+    used: false
+    guidance: 未利用
+  - name: uro:purpose
+    used: false
+    guidance: 未利用
+  - name: uro:fireExit
+    used: false
+    guidance: 未利用
+  - name: uro:protectedOpening
+    used: false
+    guidance: 未利用
+  - name: uro:parallelJambs
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcPsetSiteCommon"
+  attributes:
+  - name: uro:buildableArea
+    used: false
+    guidance: 未利用
+  - name: uro:totalArea
+    used: false
+    guidance: 未利用
+  - name: uro:buildingHeightLimit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcPsetSpaceCommon"
+  attributes:
+  - name: uro:reference
+    used: false
+    guidance: 未利用
+  - name: uro:category
+    used: false
+    guidance: 未利用
+  - name: uro:floorCovering
+    used: false
+    guidance: 未利用
+  - name: uro:wallCovering
+    used: false
+    guidance: 未利用
+  - name: uro:ceilingCovering
+    used: false
+    guidance: 未利用
+  - name: uro:skirtingBoard
+    used: false
+    guidance: 未利用
+  - name: uro:grossPlannedArea
+    used: false
+    guidance: 未利用
+  - name: uro:netPlannedArea
+    used: false
+    guidance: 未利用
+  - name: uro:publiclyAccessible
+    used: false
+    guidance: 未利用
+  - name: uro:handicapAccessible
+    used: false
+    guidance: 未利用
+  - name: uro:concealedFlooring
+    used: false
+    guidance: 未利用
+  - name: uro:concealedCeiling
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcPsetWindowCommon"
+  attributes:
+  - name: uro:reference
+    used: false
+    guidance: 未利用
+  - name: uro:acousticRating
+    used: false
+    guidance: 未利用
+  - name: uro:fireRating
+    used: false
+    guidance: 未利用
+  - name: uro:securityRating
+    used: false
+    guidance: 未利用
+  - name: uro:isExternal
+    used: false
+    guidance: 未利用
+  - name: uro:infiltration
+    used: false
+    guidance: 未利用
+  - name: uro:thermalTransmittance
+    used: false
+    guidance: 未利用
+  - name: uro:glazingAreaFraction
+    used: false
+    guidance: 未利用
+  - name: uro:smokeStop
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcRoof"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:tag
+    used: false
+    guidance: 未利用
+  - name: uro:elementType
+    used: false
+    guidance: 未利用
+  - name: uro:predefinedType
+    used: false
+    guidance: 未利用
+  - name: uro:shapeType
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfRiser
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfTreads
+    used: false
+    guidance: 未利用
+  - name: uro:riserHeight
+    used: false
+    guidance: 未利用
+  - name: uro:treadLength
+    used: false
+    guidance: 未利用
+  - name: uro:operationType
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByWeight
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByNumber
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcRoot"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcSite"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:longName
+    used: false
+    guidance: 未利用
+  - name: uro:compositionType
+    used: false
+    guidance: 未利用
+  - name: uro:refLongitude
+    used: false
+    guidance: 未利用
+  - name: uro:refLatitude
+    used: false
+    guidance: 未利用
+  - name: uro:refElevation
+    used: false
+    guidance: 未利用
+  - name: uro:landTitleNumber
+    used: false
+    guidance: 未利用
+  - name: uro:siteAddress
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcSpace"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:longName
+    used: false
+    guidance: 未利用
+  - name: uro:compositionType
+    used: false
+    guidance: 未利用
+  - name: uro:interiorOrExteriorSpace
+    used: false
+    guidance: 未利用
+  - name: uro:elevationWithFlooring
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcSpaceBaseQuantity"
+  attributes:
+  - name: uro:nominalHeight
+    used: false
+    guidance: 未利用
+  - name: uro:clearHeight
+    used: false
+    guidance: 未利用
+  - name: uro:finishCeilingHeight
+    used: false
+    guidance: 未利用
+  - name: uro:grossPerimeter
+    used: false
+    guidance: 未利用
+  - name: uro:netPerimeter
+    used: false
+    guidance: 未利用
+  - name: uro:grossCeilingArea
+    used: false
+    guidance: 未利用
+  - name: uro:grossFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:netCeilingArea
+    used: false
+    guidance: 未利用
+  - name: uro:netFloorArea
+    used: false
+    guidance: 未利用
+  - name: uro:grossWallArea
+    used: false
+    guidance: 未利用
+  - name: uro:netWallArea
+    used: false
+    guidance: 未利用
+  - name: uro:grossVolume
+    used: false
+    guidance: 未利用
+  - name: uro:netVolume
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcSpatialStructureElement"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:longName
+    used: false
+    guidance: 未利用
+  - name: uro:compositionType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcUnit"
+  attributes:
+  - name: uro:dimensions
+    used: false
+    guidance: 未利用
+  - name: uro:unitType
+    used: false
+    guidance: 未利用
+  - name: uro:prefix
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcWall"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:tag
+    used: false
+    guidance: 未利用
+  - name: uro:elementType
+    used: false
+    guidance: 未利用
+  - name: uro:predefinedType
+    used: false
+    guidance: 未利用
+  - name: uro:shapeType
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfRiser
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfTreads
+    used: false
+    guidance: 未利用
+  - name: uro:riserHeight
+    used: false
+    guidance: 未利用
+  - name: uro:treadLength
+    used: false
+    guidance: 未利用
+  - name: uro:operationType
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByWeight
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByNumber
+    used: false
+    guidance: 未利用
+  - name: uro:nominalLength
+    used: false
+    guidance: 未利用
+  - name: uro:nominalWidth
+    used: false
+    guidance: 未利用
+  - name: uro:nominalHeight
+    used: false
+    guidance: 未利用
+  - name: uro:grossFootPrintArea
+    used: false
+    guidance: 未利用
+  - name: uro:netFootPrintArea
+    used: false
+    guidance: 未利用
+  - name: uro:grossSideArea
+    used: false
+    guidance: 未利用
+  - name: uro:netSideArea
+    used: false
+    guidance: 未利用
+  - name: uro:grossSideAreaLeft
+    used: false
+    guidance: 未利用
+  - name: uro:netSideAreaLeft
+    used: false
+    guidance: 未利用
+  - name: uro:grossSideAreaRight
+    used: false
+    guidance: 未利用
+  - name: uro:netSideAreaRight
+    used: false
+    guidance: 未利用
+  - name: uro:grossVolume
+    used: false
+    guidance: 未利用
+  - name: uro:netVolume
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcWallStandardCase"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:tag
+    used: false
+    guidance: 未利用
+  - name: uro:elementType
+    used: false
+    guidance: 未利用
+  - name: uro:predefinedType
+    used: false
+    guidance: 未利用
+  - name: uro:shapeType
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfRiser
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfTreads
+    used: false
+    guidance: 未利用
+  - name: uro:riserHeight
+    used: false
+    guidance: 未利用
+  - name: uro:treadLength
+    used: false
+    guidance: 未利用
+  - name: uro:operationType
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByWeight
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByNumber
+    used: false
+    guidance: 未利用
+  - name: uro:nominalLength
+    used: false
+    guidance: 未利用
+  - name: uro:nominalWidth
+    used: false
+    guidance: 未利用
+  - name: uro:nominalHeight
+    used: false
+    guidance: 未利用
+  - name: uro:grossFootPrintArea
+    used: false
+    guidance: 未利用
+  - name: uro:netFootPrintArea
+    used: false
+    guidance: 未利用
+  - name: uro:grossSideArea
+    used: false
+    guidance: 未利用
+  - name: uro:netSideArea
+    used: false
+    guidance: 未利用
+  - name: uro:grossSideAreaLeft
+    used: false
+    guidance: 未利用
+  - name: uro:netSideAreaLeft
+    used: false
+    guidance: 未利用
+  - name: uro:grossSideAreaRight
+    used: false
+    guidance: 未利用
+  - name: uro:netSideAreaRight
+    used: false
+    guidance: 未利用
+  - name: uro:grossVolume
+    used: false
+    guidance: 未利用
+  - name: uro:netVolume
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcWindow"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+  - name: uro:tag
+    used: false
+    guidance: 未利用
+  - name: uro:elementType
+    used: false
+    guidance: 未利用
+  - name: uro:predefinedType
+    used: false
+    guidance: 未利用
+  - name: uro:shapeType
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfRiser
+    used: false
+    guidance: 未利用
+  - name: uro:numberOfTreads
+    used: false
+    guidance: 未利用
+  - name: uro:riserHeight
+    used: false
+    guidance: 未利用
+  - name: uro:treadLength
+    used: false
+    guidance: 未利用
+  - name: uro:operationType
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByWeight
+    used: false
+    guidance: 未利用
+  - name: uro:capacityByNumber
+    used: false
+    guidance: 未利用
+  - name: uro:overallHeight
+    used: false
+    guidance: 未利用
+  - name: uro:overallWidth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcZone"
+  attributes:
+  - name: uro:globalId
+    used: false
+    guidance: 未利用
+  - name: uro:name
+    used: false
+    guidance: 未利用
+  - name: uro:description
+    used: false
+    guidance: 未利用
+  - name: uro:objectType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::IfcCoordinateReferenceSystemSelect"
+  attributes:
+  - name: uro:crs
+    used: false
+    guidance: 未利用
+  - name: uro:context
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RoomAttribute"
+  attributes: []
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TrafficObjectUsecaseAttribute"
+  attributes:
+  - name: uro:minWidth
+    used: false
+    guidance: 未利用
+  - name: uro:maxWidth
+    used: false
+    guidance: 未利用

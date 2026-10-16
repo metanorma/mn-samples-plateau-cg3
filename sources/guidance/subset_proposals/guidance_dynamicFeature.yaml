@@ -1,0 +1,77 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::dynamicFeature::AbstractTimeSlice"
+  attributes:
+  - name: dynamicFeature:validTime
+    used: false
+    guidance: 未利用
+  - name: dynamicFeature:dataSource
+    used: false
+    guidance: 未利用
+  - name: dynamicFeature:dataSourceReference
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::dynamicFeature::DynamicFeature"
+  attributes:
+  - name: gmlBase:description
+    used: false
+    guidance: 未利用
+  - name: gmlBase:descriptionReference
+    used: false
+    guidance: 未利用
+  - name: gmlBase:name
+    used: false
+    guidance: 未利用
+  - name: gmlBase:identifier
+    used: false
+    guidance: 未利用
+  - name: feature:boundedBy
+    used: false
+    guidance: 未利用
+  - name: dynamicFeature:validTime
+    used: false
+    guidance: 未利用
+  - name: dynamicFeature:history
+    used: false
+    guidance: 未利用
+  - name: dynamicFeature:dataSource
+    used: false
+    guidance: 未利用
+  - name: dynamicFeature:dataSourceReference
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::dynamicFeature::DynamicFeatureCollection"
+  attributes:
+  - name: gmlBase:description
+    used: false
+    guidance: 未利用
+  - name: gmlBase:descriptionReference
+    used: false
+    guidance: 未利用
+  - name: gmlBase:name
+    used: false
+    guidance: 未利用
+  - name: gmlBase:identifier
+    used: false
+    guidance: 未利用
+  - name: feature:boundedBy
+    used: false
+    guidance: 未利用
+  - name: dynamicFeature:validTime
+    used: false
+    guidance: 未利用
+  - name: dynamicFeature:history
+    used: false
+    guidance: 未利用
+  - name: dynamicFeature:dataSource
+    used: false
+    guidance: 未利用
+  - name: dynamicFeature:dataSourceReference
+    used: false
+    guidance: 未利用
+  - name: dynamicFeature:dynamicMembers
+    used: false
+    guidance: 未利用

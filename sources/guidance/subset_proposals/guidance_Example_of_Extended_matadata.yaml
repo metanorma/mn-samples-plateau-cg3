@@ -1,0 +1,59 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Example of Extended matadata::KeywordTypeCode -Bio"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Example of Extended matadata::TaxonomicClassification"
+  attributes:
+  - name: Example of Extended matadata:commonName
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:taxonRankName
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:taxonRankValue
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:hierarchialClass
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Example of Extended matadata::TaxonomySystem"
+  attributes:
+  - name: Example of Extended matadata:classificationSystemAuthority
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:classificationSystemModifications
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:generalTaxonomicScope
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:identificationReference
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:observer
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:identificationTaxonomicProcedures
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:identificationTaxonomicCompleteness
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:theTaxonomicClassification
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:theVouchers
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19115 All::ISO 19115-1:2014 Metadata -
+    Fundamentals::Example of Extended matadata::Vouchers"
+  attributes:
+  - name: Example of Extended matadata:specimen
+    used: false
+    guidance: 未利用
+  - name: Example of Extended matadata:repository
+    used: false
+    guidance: 未利用

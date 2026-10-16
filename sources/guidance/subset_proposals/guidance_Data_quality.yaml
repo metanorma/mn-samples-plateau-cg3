@@ -1,0 +1,461 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::From ISO 19115-1:2014"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::From ISO 19115-1:2014"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_AbsoluteExternalPositionalAccuracy"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_AccuracyOfATimeMeasurement"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_Completeness"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_CompletenessCommission"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_CompletenessOmission"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_ConceptualConsistency"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_DataInspection"
+  attributes:
+  - name: Data quality evaluation:dateTime
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodDescription
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:referenceDoc
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethodType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_DataQuality"
+  attributes:
+  - name: Data quality:scope
+    used: false
+    guidance: 未利用
+  - name: Data quality:report
+    used: false
+    guidance: 未利用
+  - name: Data quality:standaloneQualityReport
+    used: false
+    guidance: 未利用
+  - name: 'Metadata entity set information:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_DomainConsistency"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_Element"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_FormatConsistency"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_GriddedDataPositionalAccuracy"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_LogicalConsistency"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_MeasureReference"
+  attributes:
+  - name: Data quality:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Data quality:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Data quality:measureDescription
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_NonQuantitativeAttributeCorrectness"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_PositionalAccuracy"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_QuantitativeAttributeAccuracy"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_RelativeInternalPositionalAccuracy"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_StandaloneQualityReportInformation"
+  attributes:
+  - name: Data quality:reportReference
+    used: false
+    guidance: 未利用
+  - name: Data quality:abstract
+    used: false
+    guidance: 未利用
+  - name: Data quality:elementReport
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_TemporalConsistency"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_TemporalQuality"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_TemporalValidity"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_ThematicAccuracy"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_ThematicClassificationCorrectness"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_TopologicalConsistency"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19157 All::ISO 19157:2013 Data Quality::Data
+    quality::DQ_UsabilityElement"
+  attributes:
+  - name: Data quality:standaloneQualityReportDetails
+    used: false
+    guidance: 未利用
+  - name: Data quality:derivedElement
+    used: false
+    guidance: 未利用
+  - name: Data quality:measure
+    used: false
+    guidance: 未利用
+  - name: Data quality evaluation:evaluationMethod
+    used: false
+    guidance: 未利用
+  - name: Data quality result:result
+    used: false
+    guidance: 未利用

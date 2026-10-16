@@ -1,0 +1,323 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtPhysicalBuildingUnit"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: External:extAddressID
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtParty"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: External:extAddressID
+    used: false
+    guidance: 未利用
+  - name: External:fingerprint
+    used: false
+    guidance: 未利用
+  - name: External:name
+    used: false
+    guidance: 未利用
+  - name: External:partyID
+    used: false
+    guidance: 未利用
+  - name: External:photo
+    used: false
+    guidance: 未利用
+  - name: External:signature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtAddress"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: External:addressAreaName
+    used: false
+    guidance: 未利用
+  - name: External:addressCoordinate
+    used: false
+    guidance: 未利用
+  - name: External:addressID
+    used: false
+    guidance: 未利用
+  - name: External:buildingName
+    used: false
+    guidance: 未利用
+  - name: External:buildingNumber
+    used: false
+    guidance: 未利用
+  - name: External:city
+    used: false
+    guidance: 未利用
+  - name: External:country
+    used: false
+    guidance: 未利用
+  - name: External:postalCode
+    used: false
+    guidance: 未利用
+  - name: External:postBox
+    used: false
+    guidance: 未利用
+  - name: External:state
+    used: false
+    guidance: 未利用
+  - name: External:streetName
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtTaxation"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: External:amount
+    used: false
+    guidance: 未利用
+  - name: External:taxDate
+    used: false
+    guidance: 未利用
+  - name: External:taxType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtLandUse"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: External:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtLandCover"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: External:type
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtValuation"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: External:value
+    used: false
+    guidance: 未利用
+  - name: External:valueDate
+    used: false
+    guidance: 未利用
+  - name: External:valueType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtPhysicalUtilityNetwork"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: External:directed
+    used: false
+    guidance: 未利用
+  - name: External:extPartyManagerID
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtArchive"
+  attributes:
+  - name: External:acceptance
+    used: false
+    guidance: 未利用
+  - name: External:data
+    used: false
+    guidance: 未利用
+  - name: External:extraction
+    used: false
+    guidance: 未利用
+  - name: External:recordation
+    used: false
+    guidance: 未利用
+  - name: External:sID
+    used: false
+    guidance: 未利用
+  - name: External:submission
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtCoverageType"
+  attributes:
+  - name: External:grass
+    used: false
+    guidance: 未利用
+  - name: External:water
+    used: false
+    guidance: 未利用
+  - name: External:forest
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtLandUseType"
+  attributes:
+  - name: External:agriculture
+    used: false
+    guidance: 未利用
+  - name: External:housing
+    used: false
+    guidance: 未利用
+  - name: External:industry
+    used: false
+    guidance: 未利用
+  - name: External:nature
+    used: false
+    guidance: 未利用
+  - name: External:recreation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtNetworkNode"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: External:connectionType
+    used: false
+    guidance: 未利用
+  - name: External:PartOf
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtNetworkSegment"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: External:materialType
+    used: false
+    guidance: 未利用
+  - name: External:diameter
+    used: false
+    guidance: 未利用
+  - name: External:partOf
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtTaxType"
+  attributes:
+  - name: External:land
+    used: false
+    guidance: 未利用
+  - name: External:building
+    used: false
+    guidance: 未利用
+  - name: External:realEstate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::LADM::LADM classes::External::ExtValuationType"
+  attributes:
+  - name: External:market
+    used: false
+    guidance: 未利用
+  - name: External:refered
+    used: false
+    guidance: 未利用

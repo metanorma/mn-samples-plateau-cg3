@@ -1,0 +1,368 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_SARData::IE_OrbitParameter"
+  attributes:
+  - name: IE_SARData:time
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:velocityX
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:velocityY
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:velocityZ
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:x
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:y
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:z
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_SARData::IE_SARAmplitudeData"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:acquisitionTime
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:imageDescription
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:isMosaic
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:numberofBands
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:processingAction
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:radiometricCalibrationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorCalibrationValidation
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:platformInfo
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorInfo
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:farRangeIncidenceAngle
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:nearRangeIncidenceAngle
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:sarImagingMode
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:waveLength
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:sarModeDescription
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:calibrationFactor
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:looksInAzimuth
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:looksInRange
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:sarSensor
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'Content information - Imagery:'
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sourceImage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_SARData::IE_SARComplexData"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:acquisitionTime
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:imageDescription
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:isMosaic
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:numberofBands
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:processingAction
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:radiometricCalibrationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorCalibrationValidation
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:platformInfo
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorInfo
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:farRangeIncidenceAngle
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:nearRangeIncidenceAngle
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:sarImagingMode
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:waveLength
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:sarModeDescription
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:complexLayerTypes
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:lineSpacing
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:pixelSpacing
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:sarSensor
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'Content information - Imagery:'
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sourceImage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_SARData::IE_SARComplexLayerTypeCode"
+  attributes:
+  - name: IE_SARData:ComplexNumber
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:RealNumber
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:ImaginaryNumber
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:Phase
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:Magnitude
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_SARData::IE_SARData"
+  attributes:
+  - name: Coverage Core:domainExtent
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeType
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:commonPointRule
+    used: false
+    guidance: 未利用
+  - name: IE_ImageryandGriddedData:interpolationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:acquisitionTime
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:imageDescription
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:isMosaic
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:numberofBands
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:processingAction
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:radiometricCalibrationType
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorCalibrationValidation
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:platformInfo
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sensorInfo
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:farRangeIncidenceAngle
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:nearRangeIncidenceAngle
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:sarImagingMode
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:waveLength
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:sarModeDescription
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:domainElement
+    used: false
+    guidance: 未利用
+  - name: Coverage Core:rangeElement
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'IE_ImageryandGriddedData:'
+    used: false
+    guidance: 未利用
+  - name: 'Content information - Imagery:'
+    used: false
+    guidance: 未利用
+  - name: IE_Imagery:sourceImage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_SARData::IE_SARDopplerCentroidParameter"
+  attributes:
+  - name: IE_SARData:polynomial_coefficient_0
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:polynomial_coefficient_1
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:polynomial_coefficient_3
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:reference_point
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:time
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_SARData::IE_SARImagingModeCode"
+  attributes:
+  - name: IE_SARData:SpotlightMode
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:StripmapMode
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:Other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19163 All::ISO 19163-1 Content components
+    and encoding rules for imagery and gridded data -Content model::IE_SARData::IE_SARSensor"
+  attributes:
+  - name: IE_SARData:azimuthBandwidth
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:dopplerCentroid
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:oneWayTimeToFirstRangePixel
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:orbitParameter
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:pulseRepititionFrequency
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:rangeBandwidth
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:rangeSamplingRate
+    used: false
+    guidance: 未利用
+  - name: IE_SARData:timeOfFirstAzimuthLine
+    used: false
+    guidance: 未利用

@@ -1,0 +1,906 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Text"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Text"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Text"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Text"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Text"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Text"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Text"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Adjacent PublicInfrastructure"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Co-Responsibility"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::CommonResponsibility"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::ConservationDuty"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::ExplorationDuty"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::LatentResponsibility_E"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::PersonalContract
+    Responsibility_E"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::PersonalResponsibility_A"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::PersonalResponsibility_E"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::PublicResponsibility"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::RealPropertyResponsibility_E"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::UrbanBuildings Maintenance"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::AdministrativeServitude"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:partyRequired
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Legal Profiles:asType
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Appurtenance"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Co-Property"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Legal Profiles:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: Legal Profiles:ownership
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::CommonRight_A"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::CommonRight_E"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:partyRequired
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::CommonsOwnership"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Condominium"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Legal Profiles:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: Legal Profiles:ownership
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::FormsOfProperty"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Encumbrance"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:partyRequired
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Joint-Property"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Legal Profiles:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: Legal Profiles:ownership
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::LatentRight_A"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::LatentRight_E"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:partyRequired
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Lien_A"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Lien_E"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:partyRequired
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::BasicOwnership"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Legal Profiles:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: Legal Profiles:ownership
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::OwnershipBundle"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::PersonalRight_A"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::PersonalRight_E"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:partyRequired
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::Property"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Legal Profiles:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: Legal Profiles:ownership
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::PublicDomainOwnership"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::RealPropertyRight_A"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::RealPropertyRight_E"
+  attributes:
+  - name: Special Classes:beginLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:endLifespanVersion
+    used: false
+    guidance: 未利用
+  - name: Special Classes:quality
+    used: false
+    guidance: 未利用
+  - name: Special Classes:source
+    used: false
+    guidance: 未利用
+  - name: Administrative:description
+    used: false
+    guidance: 未利用
+  - name: Administrative:rID
+    used: false
+    guidance: 未利用
+  - name: Administrative:share
+    used: false
+    guidance: 未利用
+  - name: Administrative:shareCheck
+    used: false
+    guidance: 未利用
+  - name: Administrative:timeSpec
+    used: false
+    guidance: 未利用
+  - name: Administrative:partyRequired
+    used: false
+    guidance: 未利用
+  - name: Administrative:type
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:folio
+    used: false
+    guidance: 未利用
+  - name: Interface Classes:overview
+    used: false
+    guidance: 未利用
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19152 All::ISO 19152:2012 Land Administration
+    Domain Model (LADM)::Annex F. Legal Profiles::Legal Profiles::PublicRegulation"
+  attributes:
+  - name: 'Legal Profiles:'
+    used: false
+    guidance: 未利用

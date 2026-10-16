@@ -1,0 +1,333 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146 Edition 2::TermCrossMap::CrossMapAddition"
+  attributes:
+  - name: ExtendedModel:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:justification
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:status
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:disposition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:registerManagerNotes
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146 Edition 2::TermCrossMap::CrossMapAmendment"
+  attributes:
+  - name: ExtendedModel:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:justification
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:status
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:disposition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:registerManagerNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:amendmentType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146 Edition 2::TermCrossMap::CrossMapClarification"
+  attributes:
+  - name: ExtendedModel:dateProposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:justification
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:status
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:disposition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateDisposed
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyDecisionEvent
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:controlBodyNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:registerManagerNotes
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:proposedChange
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146 Edition 2::TermCrossMap::CrossMapRegister"
+  attributes:
+  - name: CoreModel:identifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:version
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateOfLastChange
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:contentSummary
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:operatingLanguage
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeLanguages
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146 Edition 2::TermCrossMap::CrossMapRegisterItem"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:definition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:description
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: TermCrossMap:termRelationship
+    used: false
+    guidance: 未利用
+  - name: TermCrossMap:termRelationshipNotes
+    used: false
+    guidance: 未利用
+  - name: TermCrossMap:conceptRelationship
+    used: false
+    guidance: 未利用
+  - name: TermCrossMap:conceptRelationshipNotes
+    used: false
+    guidance: 未利用
+  - name: TermCrossMap:userDefinedConceptRelationship
+    used: false
+    guidance: 未利用
+  - name: TermCrossMap:operatingEntry
+    used: false
+    guidance: 未利用
+  - name: TermCrossMap:referenceEntry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146 Edition 2::TermCrossMap::CrossMapSubregisterDescription"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:operatingLanguage
+    used: false
+    guidance: 未利用
+  - name: TermCrossMap:contentSummary
+    used: false
+    guidance: 未利用
+  - name: TermCrossMap:referenceVocabulary
+    used: false
+    guidance: 未利用
+  - name: TermCrossMap:alternativeLanguages
+    used: false
+    guidance: 未利用
+  - name: CoreModel:containedItemClass
+    used: false
+    guidance: 未利用
+  - name: CoreModel:subregisterManager
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146 Edition 2::TermCrossMap::OperatingVocabularyEntry"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:definition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:description
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: TermRegister:termClassification
+    used: false
+    guidance: 未利用
+  - name: TermRegister:termAbbreviation
+    used: false
+    guidance: 未利用
+  - name: TermRegister:symbol
+    used: false
+    guidance: 未利用
+  - name: TermRegister:nonVerbalRep
+    used: false
+    guidance: 未利用
+  - name: TermRegister:correspondence
+    used: false
+    guidance: 未利用
+  - name: TermCrossMap:operatingCrossMap
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19146 All::ISO 19146 Edition 2::TermCrossMap::ReferenceVocabularyEntry"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:definition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:description
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: TermRegister:termClassification
+    used: false
+    guidance: 未利用
+  - name: TermRegister:termAbbreviation
+    used: false
+    guidance: 未利用
+  - name: TermRegister:symbol
+    used: false
+    guidance: 未利用
+  - name: TermRegister:nonVerbalRep
+    used: false
+    guidance: 未利用
+  - name: TermRegister:correspondence
+    used: false
+    guidance: 未利用
+  - name: TermCrossMap:referenceCrossMap
+    used: false
+    guidance: 未利用

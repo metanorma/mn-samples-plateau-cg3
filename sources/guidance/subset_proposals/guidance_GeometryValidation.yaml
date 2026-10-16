@@ -1,0 +1,32 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::GeometryValidation::CA_GeometryValidation"
+  attributes:
+  - name: GeometryValidation:validationMethod
+    used: false
+    guidance: 未利用
+  - name: GeometryValidation:validationTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::GeometryValidation::CA_ValidationMethod"
+  attributes:
+  - name: GeometryValidation:testfield
+    used: false
+    guidance: 未利用
+  - name: GeometryValidation:crossStripFlight
+    used: false
+    guidance: 未利用
+  - name: GeometryValidation:secondFlight
+    used: false
+    guidance: 未利用
+  - name: GeometryValidation:secondAltitude
+    used: false
+    guidance: 未利用
+  - name: GeometryValidation:measurementActualParameters
+    used: false
+    guidance: 未利用
+  - name: GeometryValidation:other
+    used: false
+    guidance: 未利用

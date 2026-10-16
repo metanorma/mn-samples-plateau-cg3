@@ -1,0 +1,311 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_DamageDeviation"
+  attributes:
+  - name: DeviationTypes:forecast
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:qualityIndex
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:severity
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:description
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:deviationCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_DeviationCategories"
+  attributes:
+  - name: DeviationTypes:damageDeviation
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:lawDeviation
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:securityDeviation
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:serviceDeviation
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:stopDeviation
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:timeScheduleDeviation
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:transportExecutionDeviation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_DeviationInfo"
+  attributes:
+  - name: DeviationTypes:forecast
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:qualityIndex
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:severity
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_LawDeviation"
+  attributes:
+  - name: DeviationTypes:forecast
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:qualityIndex
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:severity
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:description
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:deviationCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_SecurityDeviation"
+  attributes:
+  - name: DeviationTypes:forecast
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:qualityIndex
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:severity
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:description
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:deviationCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_ServiceDeviation"
+  attributes:
+  - name: DeviationTypes:forecast
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:qualityIndex
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:severity
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:description
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:deviationCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_StopDeviation"
+  attributes:
+  - name: DeviationTypes:forecast
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:qualityIndex
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:severity
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:description
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:deviationCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_TimeScheduleDeviation"
+  attributes:
+  - name: DeviationTypes:forecast
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:qualityIndex
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:severity
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:description
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:deviationCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_TransportExecutionDeviation"
+  attributes:
+  - name: DeviationTypes:forecast
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:qualityIndex
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:severity
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:description
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:deviationCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_DamageDeviationCode"
+  attributes:
+  - name: DeviationTypes:cargoDamage
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:illness
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_LawDeviationCode"
+  attributes:
+  - name: DeviationTypes:terrorism
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:theft
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_SecurityDeviationCode"
+  attributes:
+  - name: DeviationTypes:dangerousCargo
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:documentationDeviation
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:missingPassenger
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:unruelyPassenger
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:wrongPacking
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_ServiceDeviationCode"
+  attributes:
+  - name: DeviationTypes:increasedService
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:reducedAccessibility
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:reducedService
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_StopDeviationCode"
+  attributes:
+  - name: DeviationTypes:newStop
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:stopOmitted
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_TimeScheduleDeviationCode"
+  attributes:
+  - name: DeviationTypes:delayedArrival
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:delayedDeparture
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:earlyArrival
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:earlyDeparture
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_TransportExecutionDeviationCode"
+  attributes:
+  - name: DeviationTypes:cancelled
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:disrupted
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:reducedCapacity
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:reRouted
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:transportModeAltered
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:transportModeReplaced
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_QualityCode"
+  attributes:
+  - name: DeviationTypes:probable
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:reliable
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:unconfirmed
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::DeviationTypes::DT_SeverityCode"
+  attributes:
+  - name: DeviationTypes:notProvided
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:notSevere
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:severe
+    used: false
+    guidance: 未利用
+  - name: DeviationTypes:verySevere
+    used: false
+    guidance: 未利用

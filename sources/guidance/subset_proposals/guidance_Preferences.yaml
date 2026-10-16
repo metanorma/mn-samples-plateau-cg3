@@ -1,0 +1,35 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Preferences::NS_AvoidList"
+  attributes:
+  - name: Preferences:pointElement
+    used: false
+    guidance: 未利用
+  - name: Preferences:mode
+    used: false
+    guidance: 未利用
+  - name: Feature Data Model:avoidFeature
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:avoidFeatureType
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:avoidFeatureType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19133 All::ISO 19133:2005 Location-based
+    services- Tracking and navigation::Navigation::Preferences::NS_RoutePreferences"
+  attributes:
+  - name: Preferences:scenic
+    used: false
+    guidance: 未利用
+  - name: Preferences:easiest
+    used: false
+    guidance: 未利用
+  - name: Preferences:majorRoadsOnly
+    used: false
+    guidance: 未利用
+  - name: Preferences:avoidMajorHighways
+    used: false
+    guidance: 未利用

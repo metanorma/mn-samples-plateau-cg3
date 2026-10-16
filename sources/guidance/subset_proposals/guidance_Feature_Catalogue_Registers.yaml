@@ -1,0 +1,70 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2016 Methodology for
+    feature cataloguing::Feature Catalogue Registers::From ISO19135-1:2015 Procedures
+    for Registration"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2016 Methodology for
+    feature cataloguing::Feature Catalogue Registers::From ISO19135-1:2015 Procedures
+    for Registration"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2016 Methodology for
+    feature cataloguing::Feature Catalogue Registers::FR_FeatureCatalogueRegister"
+  attributes:
+  - name: Feature Cataloguing:featureCatalogueContent
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2016 Methodology for
+    feature cataloguing::Feature Catalogue Registers::FR_RegisteredAssociationRole"
+  attributes:
+  - name: Feature Cataloguing:definedAssociationRole
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2016 Methodology for
+    feature cataloguing::Feature Catalogue Registers::FR_RegisteredDefinitionSource"
+  attributes:
+  - name: Feature Cataloguing:definedDefinitionSource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2016 Methodology for
+    feature cataloguing::Feature Catalogue Registers::FR_RegisteredFeatureAssociation"
+  attributes:
+  - name: Feature Cataloguing:definedFeatureAssociation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2016 Methodology for
+    feature cataloguing::Feature Catalogue Registers::FR_RegisteredFeatureAttribute"
+  attributes:
+  - name: Feature Cataloguing:definedFeatureAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2016 Methodology for
+    feature cataloguing::Feature Catalogue Registers::FR_RegisteredFeatureCatalogue"
+  attributes:
+  - name: Feature Cataloguing:definedFeatureCatalogue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2016 Methodology for
+    feature cataloguing::Feature Catalogue Registers::FR_RegisteredFeatureOperation"
+  attributes:
+  - name: Feature Cataloguing:definedFeatureOperation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2016 Methodology for
+    feature cataloguing::Feature Catalogue Registers::FR_RegisteredFeatureType"
+  attributes:
+  - name: Feature Cataloguing:definedFeaturetype
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2016 Methodology for
+    feature cataloguing::Feature Catalogue Registers::FR_RegisteredInheritanceRelation"
+  attributes:
+  - name: Feature Cataloguing:definedInheritanceRelation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19110 All::ISO 19110:2016 Methodology for
+    feature cataloguing::Feature Catalogue Registers::FR_RegisteredListedValue"
+  attributes:
+  - name: Feature Cataloguing:definedListedValue
+    used: false
+    guidance: 未利用

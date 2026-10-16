@@ -1,0 +1,119 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::RestrictionTypes::RT_RestrictionInfo"
+  attributes:
+  - name: RestrictionTypes:description
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:informationLink
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::RestrictionTypes::RT_AccessRestriction"
+  attributes:
+  - name: RestrictionTypes:description
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:restrictionCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::RestrictionTypes::RT_RestrictionCategories"
+  attributes:
+  - name: RestrictionTypes:accessRestriction
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:stopRestriction
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:transportRestriction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::RestrictionTypes::RT_StopRestriction"
+  attributes:
+  - name: RestrictionTypes:description
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:restrictionCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::RestrictionTypes::RT_TransportRestriction"
+  attributes:
+  - name: RestrictionTypes:description
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:informationLink
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:restrictionCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::RestrictionTypes::RT_AccessRestrictionCode"
+  attributes:
+  - name: RestrictionTypes:mustBeEntitledToAdmission
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:mustHaveTicket
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:mustHaveEntranceCard
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::RestrictionTypes::RT_StopRestrictionCode"
+  attributes:
+  - name: RestrictionTypes:noAlighting
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:noBoarding
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:stopsOnSignal
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:mustBePreBooked
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19147 All::ISO 19147:2013 Transfer Nodes::Services
+    and Facilities::RestrictionTypes::RT_TransportRestrictionCode"
+  attributes:
+  - name: RestrictionTypes:ageRestriction
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:bikesProhibited
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:checkInRequired
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:preBookingRequired
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:spaceReservationRequired
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:ticketRequired
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:petsProhibited
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:smokingProhibited
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:wheelchairRestrictions
+    used: false
+    guidance: 未利用
+  - name: RestrictionTypes:groupRestrictions
+    used: false
+    guidance: 未利用

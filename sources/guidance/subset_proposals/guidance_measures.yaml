@@ -1,0 +1,11 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19136 All::ISO 19136:2007 Geography Markup
+    Language (GML)::measures::GridLength"
+  attributes:
+  - name: Units of Measure:value
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:uom
+    used: false
+    guidance: 未利用

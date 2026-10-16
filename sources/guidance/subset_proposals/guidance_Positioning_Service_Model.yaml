@@ -1,0 +1,569 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_ComputationalConditions"
+  attributes:
+  - name: Positioning Service Model:positionFixMode
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:positionSolutionMethod
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:processingMode
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:positioningMode
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:augmentation
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:observationFrequiencesUsed
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_CoordinateTransferValues"
+  attributes:
+  - name: Positioning Service Model:objectID
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:sensorOffset
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:objectOffset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_CorrectionMethod"
+  attributes:
+  - name: Positioning Service Model:DGPS
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:PreciseEphemeris
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:PreciseEphemerisWithClockCorrection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_DOPType"
+  attributes:
+  - name: Positioning Service Model:GDOP
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:PDOP
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:HDOP
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:VDOP
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:TDOP
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_FrequencyList"
+  attributes:
+  - name: Positioning Service Model:L1
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:L1/L2
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:L2
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:L3
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:L1/L2/L3
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:L2/L3
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:L1/L3
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_GNSSOperatingConditions"
+  attributes:
+  - name: Positioning Service Model:dateTime
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:computationalConditions
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:measurementConditions
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:performanceIndicators
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_InstrumentId"
+  attributes:
+  - name: Positioning Service Model:type
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:identifier
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:manufacturer
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:model
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:partNumber
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:revisionNumber
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:serialNumber
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:calibrationReport
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:component
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_LinkToReferenceSystem"
+  attributes:
+  - name: Positioning Service Model:identification
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:dimensionConstraints
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:referencePosition
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:accuracyOfReference
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_MeasurementConditions"
+  attributes:
+  - name: Positioning Service Model:satelliteIDs
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:signalStrenght
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:dilutionOfPrecisionTypes
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:dilutionOfPrecisionValues
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:ageOfAugmentation
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:statusRAIM
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_MeasurementType"
+  attributes:
+  - name: Positioning Service Model:position
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:orientation
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:motion
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:rotation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_MotionAxis"
+  attributes:
+  - name: Positioning Service Model:unitSize
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_MotionReferenceSystem"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:spatialReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:axis
+    used: false
+    guidance: 未利用
+  - name: Temporal Reference System:temporalReferenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_Observation"
+  attributes:
+  - name: Positioning Service Model:objectID
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:observationDateTime
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:observationEndDateTime
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:offset
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:operatingConditions
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:qualityResult
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:result
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:qualityMeasure
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_ObservationMode"
+  attributes:
+  - name: Positioning Service Model:name
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:resultType
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:temporalReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:positionalReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:referenceLink
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:operationsApplied
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:observation
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:qualityType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_ObservationQuality"
+  attributes:
+  - name: Positioning Service Model:result
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_OffsetReferenceSystem"
+  attributes:
+  - name: Positioning Service Model:offsetReferenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_OffsetSource"
+  attributes:
+  - name: Positioning Service Model:manufacturerSpecifcations
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:measured
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:publication
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_OffsetVector"
+  attributes:
+  - name: Positioning Service Model:ordinate
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:sourceType
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:offsetSource
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:offsetReferenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_OperatingConditions"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_OrientationAxis"
+  attributes:
+  - name: Positioning Service Model:unitSize
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_OrientationReferenceSystem"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:spatialReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_PerformanceIndicators"
+  attributes:
+  - name: Positioning Service Model:performanceIndicators
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_PositionFixMode"
+  attributes:
+  - name: Positioning Service Model:Nofix
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:Oldfix
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:1D
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:2D
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:3D
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:3Doverdetermined
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_PositioningMode"
+  attributes:
+  - name: Positioning Service Model:Point
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:Relative
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_PositioningServices"
+  attributes:
+  - name: Positioning Service Model:mode
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:session
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:system
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_PositioningTechnology"
+  attributes:
+  - name: Positioning Service Model:GNSS
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:LORANC
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:Inertial
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:TotalStation
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:GNSS_InertialAided
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_PositionSolutionMethod"
+  attributes:
+  - name: Positioning Service Model:C/Acode
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:PPScode
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:StaticFloating
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:StaticFixed
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:KinematicFloating
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:KinematicFixed
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_ProcessingMode"
+  attributes:
+  - name: Positioning Service Model:RealTime
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:PostProcessed
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_QualityMode"
+  attributes:
+  - name: Positioning Service Model:nameOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:measureIdentification
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:measureDescription
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:evaluationMethodType
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:evaluationMethod_Description
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:evaluationProcedure
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:dateTime
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:qualityResultType
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:qualityObservation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_ReferenceSystem"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:spatialReferenceSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_ReferencingMethod"
+  attributes:
+  - name: Positioning Service Model:coordinate
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:linear
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:gridCell
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_RotationAxis"
+  attributes:
+  - name: Positioning Service Model:unitSize
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_RotationReferenceSystem"
+  attributes:
+  - name: Reference Systems:name
+    used: false
+    guidance: 未利用
+  - name: Reference Systems:domainOfValidity
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:spatialReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:axis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_Session"
+  attributes:
+  - name: Positioning Service Model:sessionID
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:startTime
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:stopTime
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:datasetInitiative
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:observer
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:mode
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:system
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_System"
+  attributes:
+  - name: Positioning Service Model:capability
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:positioningTechnology
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:referencingMethod
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:instrument
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19116 All::ISO 19116:2004 Positioning Services::Positioning
+    Service Model::PS_SystemCapability"
+  attributes:
+  - name: Positioning Service Model:positionData
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:positionalQuality
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:motionData
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:motionQuality
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:attitudeData
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:attitudeQuality
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:rotationalData
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:rotationalQuality
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:technologySpecificData
+    used: false
+    guidance: 未利用
+  - name: Positioning Service Model:rawMeasurementData
+    used: false
+    guidance: 未利用

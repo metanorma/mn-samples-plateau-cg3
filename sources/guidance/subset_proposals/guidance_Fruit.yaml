@@ -1,0 +1,56 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Observation::Fruit::Fruit"
+  attributes:
+  - name: Fruit:mass
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19109 All::ISO 19109:2015 Rules for Application
+    Schema::Examples::Observation::Fruit::Weighing"
+  attributes:
+  - name: observation:phenomenonTime
+    used: false
+    guidance: 未利用
+  - name: observation:resultTime
+    used: false
+    guidance: 未利用
+  - name: observation:validTime
+    used: false
+    guidance: 未利用
+  - name: observation:resultQuality
+    used: false
+    guidance: 未利用
+  - name: observation:parameter
+    used: false
+    guidance: 未利用
+  - name: General Feature Instance:featureOfInterest
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:observedProperty
+    used: false
+    guidance: 未利用
+  - name: General Feature Model:observedProperty
+    used: false
+    guidance: 未利用
+  - name: Metadata Information:metadata
+    used: false
+    guidance: 未利用
+  - name: Metadata entity set information:metadata
+    used: false
+    guidance: 未利用
+  - name: Records and Class Metadata:result
+    used: false
+    guidance: 未利用
+  - name: observation:procedure
+    used: false
+    guidance: 未利用
+  - name: observation:relatedObservation
+    used: false
+    guidance: 未利用
+  - name: Units of Measure:result
+    used: false
+    guidance: 未利用
+  - name: Fruit:featureOfInterest
+    used: false
+    guidance: 未利用

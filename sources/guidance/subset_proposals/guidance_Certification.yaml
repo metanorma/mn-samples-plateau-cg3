@@ -1,0 +1,269 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::CA_CalibrationValidation"
+  attributes:
+  - name: Certification:identificationSensorSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::CA_DataProductLevel"
+  attributes:
+  - name: Certification:rawData
+    used: false
+    guidance: 未利用
+  - name: Certification:level0
+    used: false
+    guidance: 未利用
+  - name: Certification:level1
+    used: false
+    guidance: 未利用
+  - name: Certification:level2
+    used: false
+    guidance: 未利用
+  - name: Certification:level3
+    used: false
+    guidance: 未利用
+  - name: Certification:level4
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::CA_DataProductLevel"
+  attributes:
+  - name: Certification:rawData
+    used: false
+    guidance: 未利用
+  - name: Certification:level0
+    used: false
+    guidance: 未利用
+  - name: Certification:level1
+    used: false
+    guidance: 未利用
+  - name: Certification:level2
+    used: false
+    guidance: 未利用
+  - name: Certification:level3
+    used: false
+    guidance: 未利用
+  - name: Certification:level4
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::CA_Documentation"
+  attributes:
+  - name: Certification:illuminationElevationAngle[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:illuminationAzimuthAngle[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:imagingCondition[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:imageQualityCode[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:cloudCoverPercentage[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:processingLevelCode[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:compressionGenerationQuantity[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:triangulationIndicator[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:radiometricCalibrationDataAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:cameraCalibrationInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:filmDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:lensDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:certificateIdentification
+    used: false
+    guidance: 未利用
+  - name: Certification:dataProductLevel
+    used: false
+    guidance: 未利用
+  - name: Certification:qualityClass
+    used: false
+    guidance: 未利用
+  - name: Certification:geometricQuality
+    used: false
+    guidance: 未利用
+  - name: Certification:geometricRadialResolution
+    used: false
+    guidance: 未利用
+  - name: Certification:geometricTangentialResolution
+    used: false
+    guidance: 未利用
+  - name: Certification:radiometricQuality
+    used: false
+    guidance: 未利用
+  - name: Certification:stabilizedPlatform
+    used: false
+    guidance: 未利用
+  - name: 'Certification:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::CA_GeometricQuality"
+  attributes:
+  - name: Certification:errorX
+    used: false
+    guidance: 未利用
+  - name: Certification:errorY
+    used: false
+    guidance: 未利用
+  - name: Certification:errorZ
+    used: false
+    guidance: 未利用
+  - name: Certification:errorXY
+    used: false
+    guidance: 未利用
+  - name: Certification:errorXYZ
+    used: false
+    guidance: 未利用
+  - name: Certification:pointType
+    used: false
+    guidance: 未利用
+  - name: Certification:errorType
+    used: false
+    guidance: 未利用
+  - name: Certification:quantityType
+    used: false
+    guidance: 未利用
+  - name: Certification:flyingHeight
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::CA_GeometricResolution"
+  attributes:
+  - name: Certification:geometricResolution
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::CA_Geometry"
+  attributes:
+  - name: Certification:identificationSensorSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::CA_QualitClass"
+  attributes:
+  - name: Certification:1
+    used: false
+    guidance: 未利用
+  - name: Certification:2
+    used: false
+    guidance: 未利用
+  - name: Certification:3
+    used: false
+    guidance: 未利用
+  - name: Certification:4
+    used: false
+    guidance: 未利用
+  - name: Certification:5
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::CA_RadiometricQuality"
+  attributes:
+  - name: Certification:radiometricQuality
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::CA_Radiometry"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::Class1"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::MD_CoverageDescription"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::MD_ImageDescription"
+  attributes:
+  - name: Certification:illuminationElevationAngle[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:illuminationAzimuthAngle[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:imagingCondition[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:imageQualityCode[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:cloudCoverPercentage[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:processingLevelCode[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:compressionGenerationQuantity[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:triangulationIndicator[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:radiometricCalibrationDataAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:cameraCalibrationInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:filmDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Certification:lensDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: 'Certification:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Certification::MD_ImagingConditionCode"
+  attributes:
+  - name: Certification:blurredImage
+    used: false
+    guidance: 未利用
+  - name: Certification:cloud
+    used: false
+    guidance: 未利用
+  - name: Certification:degradingObliquity
+    used: false
+    guidance: 未利用
+  - name: Certification:fog
+    used: false
+    guidance: 未利用
+  - name: Certification:heavySmokeOrDust
+    used: false
+    guidance: 未利用
+  - name: Certification:night
+    used: false
+    guidance: 未利用
+  - name: Certification:rain
+    used: false
+    guidance: 未利用
+  - name: Certification:seminDarkness
+    used: false
+    guidance: 未利用
+  - name: Certification:shadow
+    used: false
+    guidance: 未利用
+  - name: Certification:snow
+    used: false
+    guidance: 未利用
+  - name: Certification:terrainMasking
+    used: false
+    guidance: 未利用

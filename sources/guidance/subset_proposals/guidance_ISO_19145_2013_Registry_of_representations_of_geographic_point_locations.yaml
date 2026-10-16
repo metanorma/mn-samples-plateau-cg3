@@ -1,0 +1,218 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19145 All::ISO 19145:2013 Registry of representations
+    of geographic point locations::GPLR_Compression"
+  attributes:
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:description
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:version
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:compressionService
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19145 All::ISO 19145:2013 Registry of representations
+    of geographic point locations::GPLR_ConversionService"
+  attributes:
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:description
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:conversionType
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:invocationInterface
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:outFormat
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19145 All::ISO 19145:2013 Registry of representations
+    of geographic point locations::GPLR_ConversionType"
+  attributes:
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:static
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:dynamic
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19145 All::ISO 19145:2013 Registry of representations
+    of geographic point locations::GPLR_CRSSupport"
+  attributes:
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:supported
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:fixed
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:crs
+    used: false
+    guidance: 未利用
+  - name: Reference system information:crs
+    used: false
+    guidance: 未利用
+  - name: Reference system information:crs
+    used: false
+    guidance: 未利用
+  - name: Reference system information:crs
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19145 All::ISO 19145:2013 Registry of representations
+    of geographic point locations::GPLR_Interface"
+  attributes:
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:method
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19145 All::ISO 19145:2013 Registry of representations
+    of geographic point locations::GPLR_Item"
+  attributes:
+  - name: CoreModel:itemIdentifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:status
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeAddition
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeSupersession
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeRetirement
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateTimeInvalidation
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:definition
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeExpressions
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAccepted
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:dateAmended
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:description
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:fieldOfApplication
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:gplrID
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:specificationName
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:version
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:legalConstraints
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:type
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:compressionTechnique
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:converter
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:crsSupport
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19145 All::ISO 19145:2013 Registry of representations
+    of geographic point locations::GPLR_Method"
+  attributes:
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:invocationName
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:parameters
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:returnValues
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19145 All::ISO 19145:2013 Registry of representations
+    of geographic point locations::GPLR_Register"
+  attributes:
+  - name: CoreModel:identifier
+    used: false
+    guidance: 未利用
+  - name: CoreModel:version
+    used: false
+    guidance: 未利用
+  - name: CoreModel:dateOfLastChange
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:name
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:contentSummary
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:uniformResourceIdentifier
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:operatingLanguage
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:alternativeLanguages
+    used: false
+    guidance: 未利用
+  - name: ExtendedModel:submitter
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:manager
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:owner
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:submitter
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:containedItem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19145 All::ISO 19145:2013 Registry of representations
+    of geographic point locations::GPLR_RepresentationType"
+  attributes:
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:text
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:binary
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:XML
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19145 All::ISO 19145:2013 Registry of representations
+    of geographic point locations::GPLR_Version"
+  attributes:
+  - name: ISO 19135:2005 Procedures for item registration:versionNumber
+    used: false
+    guidance: 未利用
+  - name: ISO 19135:2005 Procedures for item registration:versionDate
+    used: false
+    guidance: 未利用
+  - name: ISO 19145:2013 Registry of representations of geographic point locations:amendmentNumber
+    used: false
+    guidance: 未利用

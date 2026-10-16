@@ -1,0 +1,29 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecDataCapture::DataCapture"
+  attributes:
+  - name: SpecDataCapture:dataCaptureStatement
+    used: false
+    guidance: 未利用
+  - name: SpecDataCapture:guide
+    used: false
+    guidance: 未利用
+  - name: SpecDataCapture:inclusionCriteria
+    used: false
+    guidance: 未利用
+  - name: Lineage information:processStep
+    used: false
+    guidance: 未利用
+  - name: Lineage information:source
+    used: false
+    guidance: 未利用
+  - name: SpecScope:scope
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19131 All::ISO 19131:NWIP Data Product
+    Specification::SpecDataCapture::DataCaptureSection"
+  attributes:
+  - name: SpecDataCapture:dataCapture
+    used: false
+    guidance: 未利用

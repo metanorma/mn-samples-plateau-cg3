@@ -1,0 +1,83 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Measure types::StandardUnits"
+  attributes:
+  - name: Measure types:metre
+    used: false
+    guidance: 未利用
+  - name: Measure types:second
+    used: false
+    guidance: 未利用
+  - name: Measure types:radian
+    used: false
+    guidance: 未利用
+  - name: Measure types:squareMetre
+    used: false
+    guidance: 未利用
+  - name: Measure types:cubicMetre
+    used: false
+    guidance: 未利用
+  - name: Measure types:metrePrSecond
+    used: false
+    guidance: 未利用
+  - name: Measure types:metrePrMetre
+    used: false
+    guidance: 未利用
+  - name: Measure types:metrePrSecondPrSecond
+    used: false
+    guidance: 未利用
+  - name: Measure types:radianPrSecond
+    used: false
+    guidance: 未利用
+  - name: Measure types:radianPrSecondPrSecond
+    used: false
+    guidance: 未利用
+  - name: Measure types:kilogram
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Measure types::UnitsList"
+  attributes:
+  - name: Measure types:metre
+    used: false
+    guidance: 未利用
+  - name: Measure types:second
+    used: false
+    guidance: 未利用
+  - name: Measure types:radian
+    used: false
+    guidance: 未利用
+  - name: Measure types:squareMetre
+    used: false
+    guidance: 未利用
+  - name: Measure types:cubicMetre
+    used: false
+    guidance: 未利用
+  - name: Measure types:metrePrSecond
+    used: false
+    guidance: 未利用
+  - name: Measure types:metrePrMetre
+    used: false
+    guidance: 未利用
+  - name: Measure types:metrePrSecondPrSecond
+    used: false
+    guidance: 未利用
+  - name: Measure types:radianPrSecond
+    used: false
+    guidance: 未利用
+  - name: Measure types:radianPrSecondPrSecond
+    used: false
+    guidance: 未利用
+  - name: Measure types:kilogram
+    used: false
+    guidance: 未利用
+  - name: Measure types:foot
+    used: false
+    guidance: 未利用
+  - name: Measure types:squareFoot
+    used: false
+    guidance: 未利用
+  - name: Measure types:cubicYard
+    used: false
+    guidance: 未利用

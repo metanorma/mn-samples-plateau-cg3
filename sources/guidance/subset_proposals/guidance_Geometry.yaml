@@ -1,0 +1,2963 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19103 All::ISO 19103:2015 Conceptual schema
+    language::Additional figures (informative)::Levels of Abstraction::Geometry::GM_Point"
+  attributes:
+  - name: Geometry:pos
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19137 All::ISO 19137:2006 Core profile
+    of the spatial schema::Geometry::SP_CurveSegment"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Geometry:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometry:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometry:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometry:numDerivativeInterior
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19137 All::ISO 19137:2006 Core profile
+    of the spatial schema::Geometry::SP_LineString"
+  attributes:
+  - name: Geometric primitive:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Geometry:interpolation
+    used: false
+    guidance: 未利用
+  - name: Geometry:numDerivativesAtStart
+    used: false
+    guidance: 未利用
+  - name: Geometry:numDerivativesAtEnd
+    used: false
+    guidance: 未利用
+  - name: Geometry:numDerivativeInterior
+    used: false
+    guidance: 未利用
+  - name: Geometry:controlPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19137 All::ISO 19137:2006 Core profile
+    of the spatial schema::Geometry::SP_Object"
+  attributes:
+  - name: Coordinate Reference Systems:theSC_CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:theSC_CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_2DReflectanceTarget"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:lampType
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberPoints
+    used: false
+    guidance: 未利用
+  - name: Geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Geometry:expanse
+    used: false
+    guidance: 未利用
+  - name: Geometry:minimumElevation
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximumElevation
+    used: false
+    guidance: 未利用
+  - name: Geometry:averageElevation
+    used: false
+    guidance: 未利用
+  - name: Geometry:linearSize
+    used: false
+    guidance: 未利用
+  - name: Geometry:targetExpanse
+    used: false
+    guidance: 未利用
+  - name: Geometry:shape
+    used: false
+    guidance: 未利用
+  - name: Geometry:material
+    used: false
+    guidance: 未利用
+  - name: Geometry:spectralCharacteristics
+    used: false
+    guidance: 未利用
+  - name: Geometry:measuredReflectance
+    used: false
+    guidance: 未利用
+  - name: Geometry:minimumNominalReflectance
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximumNominalReflectance
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricStability
+    used: false
+    guidance: 未利用
+  - name: Geometry:cleanness
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_3DReflectanceTarget"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:lampType
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberPoints
+    used: false
+    guidance: 未利用
+  - name: Geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Geometry:expanse
+    used: false
+    guidance: 未利用
+  - name: Geometry:minimumElevation
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximumElevation
+    used: false
+    guidance: 未利用
+  - name: Geometry:averageElevation
+    used: false
+    guidance: 未利用
+  - name: Geometry:reflectorType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_AirforcePattern"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:facilityType
+    used: false
+    guidance: 未利用
+  - name: Geometry:size
+    used: false
+    guidance: 未利用
+  - name: Geometry:description
+    used: false
+    guidance: 未利用
+  - name: Geometry:type
+    used: false
+    guidance: 未利用
+  - name: Geometry:minimumBarWidth
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximumBarWidth
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberOfBarsInBox
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberOfBoxes
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_AuxiliaryDevice"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:synchronization
+    used: false
+    guidance: 未利用
+  - name: Geometry:synchronizationError
+    used: false
+    guidance: 未利用
+  - name: Geometry:referenceTemperature
+    used: false
+    guidance: 未利用
+  - name: Geometry:versionFirmware
+    used: false
+    guidance: 未利用
+  - name: Geometry:versionHardware
+    used: false
+    guidance: 未利用
+  - name: Geometry:timeLeverarm
+    used: false
+    guidance: 未利用
+  - name: Geometry:leverarm
+    used: false
+    guidance: 未利用
+  - name: Geometry:errorLeverarm
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_CalibrationInstrument"
+  attributes:
+  - name: Geometry:instrumentType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_CalibrationMethod"
+  attributes:
+  - name: Geometry:integratingSphere
+    used: false
+    guidance: 未利用
+  - name: Geometry:flatField
+    used: false
+    guidance: 未利用
+  - name: Geometry:macBethColorTarget
+    used: false
+    guidance: 未利用
+  - name: Geometry:monoChromator
+    used: false
+    guidance: 未利用
+  - name: Geometry:calibratedLightSource
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_CalibrationType"
+  attributes:
+  - name: Geometry:laboratory
+    used: false
+    guidance: 未利用
+  - name: Geometry:testRange
+    used: false
+    guidance: 未利用
+  - name: Geometry:inSitu
+    used: false
+    guidance: 未利用
+  - name: Geometry:onboard
+    used: false
+    guidance: 未利用
+  - name: Geometry:vicarious
+    used: false
+    guidance: 未利用
+  - name: Geometry:cross
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_CalibrationValidation"
+  attributes:
+  - name: Geometry:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Geometry:contentType
+    used: false
+    guidance: 未利用
+  - name: Geometry:identificationSensorSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_CalibrationValidation"
+  attributes:
+  - name: Geometry:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Geometry:contentType
+    used: false
+    guidance: 未利用
+  - name: Geometry:identificationSensorSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_DataProductLevel"
+  attributes:
+  - name: Geometry:L0
+    used: false
+    guidance: 未利用
+  - name: Geometry:L1A
+    used: false
+    guidance: 未利用
+  - name: Geometry:L1B
+    used: false
+    guidance: 未利用
+  - name: Geometry:L2
+    used: false
+    guidance: 未利用
+  - name: Geometry:L3
+    used: false
+    guidance: 未利用
+  - name: Geometry:L4
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_DataProductLevel"
+  attributes:
+  - name: Geometry:L0
+    used: false
+    guidance: 未利用
+  - name: Geometry:L1A
+    used: false
+    guidance: 未利用
+  - name: Geometry:L1B
+    used: false
+    guidance: 未利用
+  - name: Geometry:L2
+    used: false
+    guidance: 未利用
+  - name: Geometry:L3
+    used: false
+    guidance: 未利用
+  - name: Geometry:L4
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_DecentringDistortion"
+  attributes:
+  - name: Geometry:p1
+    used: false
+    guidance: 未利用
+  - name: Geometry:p2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_DefectPixels"
+  attributes:
+  - name: Geometry:row
+    used: false
+    guidance: 未利用
+  - name: Geometry:column
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Detector"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Geometry:detectorIdentification
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_DetectorDemands"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Geometry:detectorIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensitivity
+    used: false
+    guidance: 未利用
+  - name: Geometry:pixelResponseNonUniformity
+    used: false
+    guidance: 未利用
+  - name: Geometry:darkSignalNonUniformity
+    used: false
+    guidance: 未利用
+  - name: Geometry:errorDarkSignalNonUniformity
+    used: false
+    guidance: 未利用
+  - name: Geometry:defectPixels
+    used: false
+    guidance: 未利用
+  - name: Geometry:defectPixelsBrightImage
+    used: false
+    guidance: 未利用
+  - name: Geometry:defectPixelsDarkImage
+    used: false
+    guidance: 未利用
+  - name: Geometry:artifacts
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximumAllowedDefectPixels
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximumAllowedDefectPixelsDoubleColumn
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximumAllowedDefectPixelsSingleColumn
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_DetectorOptics"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Geometry:detectorIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:lightFalloff
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_DimensionTestrange"
+  attributes:
+  - name: Geometry:2
+    used: false
+    guidance: 未利用
+  - name: Geometry:3
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Distortion"
+  attributes:
+  - name: Geometry:princPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Geometry:qualityOfPrincPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Geometry:radialDistortion
+    used: false
+    guidance: 未利用
+  - name: Geometry:decentringDistortion
+    used: false
+    guidance: 未利用
+  - name: Geometry:inPlaneDistortion
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_DistortionPolynomial"
+  attributes:
+  - name: Geometry:princPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Geometry:qualityOfPrincPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Geometry:polynomialDecentering
+    used: false
+    guidance: 未利用
+  - name: Geometry:polynomialRadial
+    used: false
+    guidance: 未利用
+  - name: Geometry:qualityOfPolynomialRadial
+    used: false
+    guidance: 未利用
+  - name: Geometry:qualityOfPolynomialDecentering
+    used: false
+    guidance: 未利用
+  - name: Geometry:polynomialDegree
+    used: false
+    guidance: 未利用
+  - name: Geometry:polynomialCoefficients[0..n]
+    used: false
+    guidance: 未利用
+  - name: Geometry:thinSplineDegree
+    used: false
+    guidance: 未利用
+  - name: Geometry:thinSplineCoefficients[0..n]
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Documentation"
+  attributes:
+  - name: Geometry:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Geometry:contentType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDataAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:camaraCalibrationInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:filmDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:lensDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Documentation"
+  attributes:
+  - name: Geometry:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Geometry:contentType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDataAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:camaraCalibrationInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:filmDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:lensDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_DynamicRange"
+  attributes:
+  - name: Geometry:minimumGreyValue
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximumGreyValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_ElectronicCell"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Geometry:detectorIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensitivity
+    used: false
+    guidance: 未利用
+  - name: Geometry:pixelResponseNonUniformity
+    used: false
+    guidance: 未利用
+  - name: Geometry:darkSignalNonUniformity
+    used: false
+    guidance: 未利用
+  - name: Geometry:errorDarkSignalNonUniformity
+    used: false
+    guidance: 未利用
+  - name: Geometry:defectPixels
+    used: false
+    guidance: 未利用
+  - name: Geometry:defectPixelsBrightImage
+    used: false
+    guidance: 未利用
+  - name: Geometry:defectPixelsDarkImage
+    used: false
+    guidance: 未利用
+  - name: Geometry:artifacts
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_ErrorType"
+  attributes:
+  - name: Geometry:standardDeviation
+    used: false
+    guidance: 未利用
+  - name: Geometry:rootMeanSquare
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_FacilityType"
+  attributes:
+  - name: Geometry:laboratory
+    used: false
+    guidance: 未利用
+  - name: Geometry:inFlight
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GeometricPreCorrection"
+  attributes:
+  - name: Geometry:polynomialDegree
+    used: false
+    guidance: 未利用
+  - name: Geometry:polynomialCoefficients[0..n]
+    used: false
+    guidance: 未利用
+  - name: Geometry:resamplingDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:parameters[0..n]
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GeometricQuality"
+  attributes:
+  - name: Geometry:positionalError
+    used: false
+    guidance: 未利用
+  - name: Geometry:heightError
+    used: false
+    guidance: 未利用
+  - name: Geometry:flyingHeight
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GeometricQuality"
+  attributes:
+  - name: Geometry:positionalError
+    used: false
+    guidance: 未利用
+  - name: Geometry:heightError
+    used: false
+    guidance: 未利用
+  - name: Geometry:flyingHeight
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GeometricResolution"
+  attributes:
+  - name: Geometry:geometricResolution
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GeometricResolution"
+  attributes:
+  - name: Geometry:geometricResolution
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GeometricTarget"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:facilityType
+    used: false
+    guidance: 未利用
+  - name: Geometry:size
+    used: false
+    guidance: 未利用
+  - name: Geometry:description
+    used: false
+    guidance: 未利用
+  - name: Geometry:type
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GeometricTargetShape"
+  attributes:
+  - name: Geometry:coded
+    used: false
+    guidance: 未利用
+  - name: Geometry:modified Airforce
+    used: false
+    guidance: 未利用
+  - name: Geometry:round
+    used: false
+    guidance: 未利用
+  - name: Geometry:square
+    used: false
+    guidance: 未利用
+  - name: Geometry:others
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GeometricTargetShapex"
+  attributes:
+  - name: Geometry:round
+    used: false
+    guidance: 未利用
+  - name: Geometry:cross
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GeometricTargetType"
+  attributes:
+  - name: Geometry:siemensstar
+    used: false
+    guidance: 未利用
+  - name: Geometry:airforcePattern
+    used: false
+    guidance: 未利用
+  - name: Geometry:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GeometricTargetType"
+  attributes:
+  - name: Geometry:siemensstar
+    used: false
+    guidance: 未利用
+  - name: Geometry:airforcePattern
+    used: false
+    guidance: 未利用
+  - name: Geometry:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GeometryCalibrationFacility"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:facilityType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GeometryValidation"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:validationMethod
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_GNSS"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:synchronization
+    used: false
+    guidance: 未利用
+  - name: Geometry:synchronizationError
+    used: false
+    guidance: 未利用
+  - name: Geometry:referenceTemperature
+    used: false
+    guidance: 未利用
+  - name: Geometry:versionFirmware
+    used: false
+    guidance: 未利用
+  - name: Geometry:versionHardware
+    used: false
+    guidance: 未利用
+  - name: Geometry:timeLeverarm
+    used: false
+    guidance: 未利用
+  - name: Geometry:leverarm
+    used: false
+    guidance: 未利用
+  - name: Geometry:errorLeverarm
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberSatellites
+    used: false
+    guidance: 未利用
+  - name: Geometry:registrationCycle
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Hyperspectral"
+  attributes:
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_IMU"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:synchronization
+    used: false
+    guidance: 未利用
+  - name: Geometry:synchronizationError
+    used: false
+    guidance: 未利用
+  - name: Geometry:referenceTemperature
+    used: false
+    guidance: 未利用
+  - name: Geometry:versionFirmware
+    used: false
+    guidance: 未利用
+  - name: Geometry:versionHardware
+    used: false
+    guidance: 未利用
+  - name: Geometry:timeLeverarm
+    used: false
+    guidance: 未利用
+  - name: Geometry:leverarm
+    used: false
+    guidance: 未利用
+  - name: Geometry:errorLeverarm
+    used: false
+    guidance: 未利用
+  - name: Geometry:boresightAngle
+    used: false
+    guidance: 未利用
+  - name: Geometry:dataRate
+    used: false
+    guidance: 未利用
+  - name: Geometry:attitudeAccuracy
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_InFlight"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:facilityType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_InPlaneDistortion"
+  attributes:
+  - name: Geometry:b1
+    used: false
+    guidance: 未利用
+  - name: Geometry:b2
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_InstrumentType"
+  attributes:
+  - name: Geometry:calibrationCage
+    used: false
+    guidance: 未利用
+  - name: Geometry:controlPointArray
+    used: false
+    guidance: 未利用
+  - name: Geometry:goniometer
+    used: false
+    guidance: 未利用
+  - name: Geometry:multicollimator
+    used: false
+    guidance: 未利用
+  - name: Geometry:wallCorner
+    used: false
+    guidance: 未利用
+  - name: Geometry:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_InteriorOrientation"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:synchronization
+    used: false
+    guidance: 未利用
+  - name: Geometry:synchronizationError
+    used: false
+    guidance: 未利用
+  - name: Geometry:referenceTemperature
+    used: false
+    guidance: 未利用
+  - name: Geometry:versionFirmware
+    used: false
+    guidance: 未利用
+  - name: Geometry:versionHardware
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Laboratory"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:facilityType
+    used: false
+    guidance: 未利用
+  - name: Geometry:calibrationInstrument
+    used: false
+    guidance: 未利用
+  - name: Geometry:pointSuspension
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_LIDAR"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_LIDAR"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Linearity"
+  attributes:
+  - name: Geometry:channelIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:receivedIntensity
+    used: false
+    guidance: 未利用
+  - name: Geometry:recordedIntensity
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_LUT"
+  attributes:
+  - name: Geometry:identification
+    used: false
+    guidance: 未利用
+  - name: Geometry:in
+    used: false
+    guidance: 未利用
+  - name: Geometry:out
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_MeasuredReflectance"
+  attributes:
+  - name: Geometry:intensity
+    used: false
+    guidance: 未利用
+  - name: Geometry:wavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:zenithAngle
+    used: false
+    guidance: 未利用
+  - name: Geometry:azimuth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Method"
+  attributes:
+  - name: Geometry:darkPixelSubtractionMethod
+    used: false
+    guidance: 未利用
+  - name: Geometry:semiEmpiricalBRDF
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiativeTransferCode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Model"
+  attributes:
+  - name: Geometry:modtran
+    used: false
+    guidance: 未利用
+  - name: Geometry:disort
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Multispectral"
+  attributes:
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_ObjectToObject"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:lampType
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberImages
+    used: false
+    guidance: 未利用
+  - name: Geometry:rms
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_OpticalFilters"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:spectralCharacteristics
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_OpticalSensors"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_OpticalSensors"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_OpticalSystem"
+  attributes:
+  - name: Geometry:calibratedFocalLength
+    used: false
+    guidance: 未利用
+  - name: Geometry:qualityOfCalibratedFocalLength
+    used: false
+    guidance: 未利用
+  - name: Geometry:princPointAutocoll
+    used: false
+    guidance: 未利用
+  - name: Geometry:covPrincPtAutocoll
+    used: false
+    guidance: 未利用
+  - name: Geometry:resolvingPower
+    used: false
+    guidance: 未利用
+  - name: Geometry:virtualFocalLength
+    used: false
+    guidance: 未利用
+  - name: Geometry:virtualSensorSize
+    used: false
+    guidance: 未利用
+  - name: Geometry:virtualPixelSize
+    used: false
+    guidance: 未利用
+  - name: Geometry:virtualPrinciplePointAutocoll
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Optics"
+  attributes:
+  - name: Geometry:cameraHead
+    used: false
+    guidance: 未利用
+  - name: Geometry:channel
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Optics"
+  attributes:
+  - name: Geometry:cameraHead
+    used: false
+    guidance: 未利用
+  - name: Geometry:channel
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_OpticsGeometry"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_OpticsRadiometry"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_OpticsRadiometry"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_OpticsSpatial"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_OpticsSpectral"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_OpticsValidation"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:validationMethod
+    used: false
+    guidance: 未利用
+  - name: Geometry:rmsComparisonObject
+    used: false
+    guidance: 未利用
+  - name: Geometry:validationTime
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_OpticsValidation"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:validationMethod
+    used: false
+    guidance: 未利用
+  - name: Geometry:rmsComparisonObject
+    used: false
+    guidance: 未利用
+  - name: Geometry:validationTime
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_OptoElectronicSystem"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Percentage"
+  attributes:
+  - name: Geometry:percentage
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_PhotoFlight"
+  attributes:
+  - name: Geometry:numberOfPhotoFlights
+    used: false
+    guidance: 未利用
+  - name: Geometry:photoScale
+    used: false
+    guidance: 未利用
+  - name: Geometry:flyingHeight
+    used: false
+    guidance: 未利用
+  - name: Geometry:flyingHeightAboveGround
+    used: false
+    guidance: 未利用
+  - name: Geometry:terrainHeight
+    used: false
+    guidance: 未利用
+  - name: Geometry:alongStripOverlap
+    used: false
+    guidance: 未利用
+  - name: Geometry:acrossStripOverlap
+    used: false
+    guidance: 未利用
+  - name: Geometry:base
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberOfPhotos
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberOfStrips
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberOfPhotosAlongStrips
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberOfPhotosAcrossStrips
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberOfPhotosUsed
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_PointSuspension"
+  attributes:
+  - name: Geometry:cage
+    used: false
+    guidance: 未利用
+  - name: Geometry:tautline
+    used: false
+    guidance: 未利用
+  - name: Geometry:wall
+    used: false
+    guidance: 未利用
+  - name: Geometry:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_PointType"
+  attributes:
+  - name: Geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Geometry:checkPoint
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_PositionalError"
+  attributes:
+  - name: Geometry:errorX
+    used: false
+    guidance: 未利用
+  - name: Geometry:errorY
+    used: false
+    guidance: 未利用
+  - name: Geometry:errorZ
+    used: false
+    guidance: 未利用
+  - name: Geometry:errorXY
+    used: false
+    guidance: 未利用
+  - name: Geometry:errorXYZ
+    used: false
+    guidance: 未利用
+  - name: Geometry:pointType
+    used: false
+    guidance: 未利用
+  - name: Geometry:errorType
+    used: false
+    guidance: 未利用
+  - name: Geometry:quantityType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_QualityClass"
+  attributes:
+  - name: Geometry:1
+    used: false
+    guidance: 未利用
+  - name: Geometry:2
+    used: false
+    guidance: 未利用
+  - name: Geometry:3
+    used: false
+    guidance: 未利用
+  - name: Geometry:4
+    used: false
+    guidance: 未利用
+  - name: Geometry:5
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_QualityClass"
+  attributes:
+  - name: Geometry:1
+    used: false
+    guidance: 未利用
+  - name: Geometry:2
+    used: false
+    guidance: 未利用
+  - name: Geometry:3
+    used: false
+    guidance: 未利用
+  - name: Geometry:4
+    used: false
+    guidance: 未利用
+  - name: Geometry:5
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_QuantityType"
+  attributes:
+  - name: Geometry:minimum
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximum
+    used: false
+    guidance: 未利用
+  - name: Geometry:mean
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RADAR"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadialDistortion"
+  attributes:
+  - name: Geometry:numberCoefficients
+    used: false
+    guidance: 未利用
+  - name: Geometry:k[0..n]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Radiation"
+  attributes:
+  - name: Geometry:solarZenithAngle
+    used: false
+    guidance: 未利用
+  - name: Geometry:solarAzimuth
+    used: false
+    guidance: 未利用
+  - name: Geometry:atmosphericCondition
+    used: false
+    guidance: 未利用
+  - name: Geometry:atmosphericModel
+    used: false
+    guidance: 未利用
+  - name: Geometry:BRDFModel
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometricDynamics"
+  attributes:
+  - name: Geometry:bit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometricQuality"
+  attributes:
+  - name: Geometry:radiometricQuality
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometricQuality"
+  attributes:
+  - name: Geometry:radiometricQuality
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometricRecording"
+  attributes:
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometricTargetMaterial"
+  attributes:
+  - name: Geometry:awning
+    used: false
+    guidance: 未利用
+  - name: Geometry:concrete
+    used: false
+    guidance: 未利用
+  - name: Geometry:gravel
+    used: false
+    guidance: 未利用
+  - name: Geometry:salt
+    used: false
+    guidance: 未利用
+  - name: Geometry:sand
+    used: false
+    guidance: 未利用
+  - name: Geometry:vegetation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometricTargetShape"
+  attributes:
+  - name: Geometry:square
+    used: false
+    guidance: 未利用
+  - name: Geometry:rectangular
+    used: false
+    guidance: 未利用
+  - name: Geometry:irregular
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometricTransformation"
+  attributes:
+  - name: Geometry:16To8Bit
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Radiometry"
+  attributes:
+  - name: Geometry:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Geometry:contentType
+    used: false
+    guidance: 未利用
+  - name: Geometry:identificationSensorSystem
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometryCalibrationFacility"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometryCalibrationFacility"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometryInflight"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:lampType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometryInFlight"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:lampType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometryInFlight"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:lampType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometryInSensor"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometryLaboratory"
+  attributes:
+  - name: Geometry:calibrationMethod
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometryLaboratory"
+  attributes:
+  - name: Geometry:calibrationMethod
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometryOffSensor"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:atmosphericModel
+    used: false
+    guidance: 未利用
+  - name: Geometry:modelProperties
+    used: false
+    guidance: 未利用
+  - name: Geometry:method
+    used: false
+    guidance: 未利用
+  - name: Geometry:illumination
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometryPreCorrection"
+  attributes:
+  - name: Geometry:resamplingDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:tonalAdjustmentType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gammaCorrection
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricTransformation
+    used: false
+    guidance: 未利用
+  - name: Geometry:lookUpTable
+    used: false
+    guidance: 未利用
+  - name: Geometry:filter
+    used: false
+    guidance: 未利用
+  - name: Geometry:parameters
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometryRecording"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_RadiometryTestRange"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:lampType
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberPoints
+    used: false
+    guidance: 未利用
+  - name: Geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Geometry:expanse
+    used: false
+    guidance: 未利用
+  - name: Geometry:minimumElevation
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximumElevation
+    used: false
+    guidance: 未利用
+  - name: Geometry:averageElevation
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_ReflectorType"
+  attributes:
+  - name: Geometry:cornerReflector
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SamplingPattern"
+  attributes:
+  - name: Geometry:square
+    used: false
+    guidance: 未利用
+  - name: Geometry:rectangular
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Selfcalibration"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:software
+    used: false
+    guidance: 未利用
+  - name: Geometry:propertiesAlgorithm
+    used: false
+    guidance: 未利用
+  - name: Geometry:selfCalibrationModel
+    used: false
+    guidance: 未利用
+  - name: Geometry:sigmaNaught
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SelfCalibrationModel"
+  attributes:
+  - name: Geometry:australis
+    used: false
+    guidance: 未利用
+  - name: Geometry:brown
+    used: false
+    guidance: 未利用
+  - name: Geometry:ebner
+    used: false
+    guidance: 未利用
+  - name: Geometry:jacobsen
+    used: false
+    guidance: 未利用
+  - name: Geometry:smac
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SensorCharacteristics"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorHead
+    used: false
+    guidance: 未利用
+  - name: Geometry:channel
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SensorDefects"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorHead
+    used: false
+    guidance: 未利用
+  - name: Geometry:channel
+    used: false
+    guidance: 未利用
+  - name: Geometry:colorAberration
+    used: false
+    guidance: 未利用
+  - name: Geometry:strayLight
+    used: false
+    guidance: 未利用
+  - name: Geometry:residualPolarization
+    used: false
+    guidance: 未利用
+  - name: Geometry:smile
+    used: false
+    guidance: 未利用
+  - name: Geometry:keystone
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SensorMeasurement"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Geometry:measurementMethodMTF
+    used: false
+    guidance: 未利用
+  - name: Geometry:measurementMethodPSF
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SensorParameters"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorHead
+    used: false
+    guidance: 未利用
+  - name: Geometry:channel
+    used: false
+    guidance: 未利用
+  - name: Geometry:pointSpreadFunction
+    used: false
+    guidance: 未利用
+  - name: Geometry:fNumberDenominator
+    used: false
+    guidance: 未利用
+  - name: Geometry:fNumberCorrection
+    used: false
+    guidance: 未利用
+  - name: Geometry:fNumberCorrectionValues
+    used: false
+    guidance: 未利用
+  - name: Geometry:samplingPattern
+    used: false
+    guidance: 未利用
+  - name: Geometry:spectralResponse
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SensorPostProcessing"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Geometry:colourTransformation
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SensorQualityEvaluation"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:gain
+    used: false
+    guidance: 未利用
+  - name: Geometry:signOfGain
+    used: false
+    guidance: 未利用
+  - name: Geometry:offset
+    used: false
+    guidance: 未利用
+  - name: Geometry:minWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maxWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorSystemIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberSensorHeads
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorIdentification
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensorHead
+    used: false
+    guidance: 未利用
+  - name: Geometry:channel
+    used: false
+    guidance: 未利用
+  - name: Geometry:liniearity
+    used: false
+    guidance: 未利用
+  - name: Geometry:absoluteSpectralError
+    used: false
+    guidance: 未利用
+  - name: Geometry:relativeSpectralError
+    used: false
+    guidance: 未利用
+  - name: Geometry:dynamicRange
+    used: false
+    guidance: 未利用
+  - name: Geometry:spectralSensitivity
+    used: false
+    guidance: 未利用
+  - name: Geometry:signalToNoiseRatiao
+    used: false
+    guidance: 未利用
+  - name: Geometry:modulationTransferFunction
+    used: false
+    guidance: 未利用
+  - name: Geometry:modulationTransferFunctionAcross
+    used: false
+    guidance: 未利用
+  - name: Geometry:modulationTransferFunctionAlong
+    used: false
+    guidance: 未利用
+  - name: Geometry:positionInImage
+    used: false
+    guidance: 未利用
+  - name: Geometry:polarization
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricDynamics
+    used: false
+    guidance: 未利用
+  - name: Geometry:antoBlooming
+    used: false
+    guidance: 未利用
+  - name: Geometry:illuminationLevel
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SensorSystem"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationDate
+    used: false
+    guidance: 未利用
+  - name: Geometry:geometryCalibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:synchronization
+    used: false
+    guidance: 未利用
+  - name: Geometry:synchronizationError
+    used: false
+    guidance: 未利用
+  - name: Geometry:referenceTemperature
+    used: false
+    guidance: 未利用
+  - name: Geometry:versionFirmware
+    used: false
+    guidance: 未利用
+  - name: Geometry:versionHardware
+    used: false
+    guidance: 未利用
+  - name: Geometry:relativePosition
+    used: false
+    guidance: 未利用
+  - name: Geometry:relativeAttitude
+    used: false
+    guidance: 未利用
+  - name: Geometry:stitchingResiduals
+    used: false
+    guidance: 未利用
+  - name: Geometry:operationalTemperature
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SiemensStar"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:facilityType
+    used: false
+    guidance: 未利用
+  - name: Geometry:size
+    used: false
+    guidance: 未利用
+  - name: Geometry:description
+    used: false
+    guidance: 未利用
+  - name: Geometry:type
+    used: false
+    guidance: 未利用
+  - name: Geometry:diameter
+    used: false
+    guidance: 未利用
+  - name: Geometry:sector
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberBarpairs
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SONAR"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SpectralSensitivity"
+  attributes:
+  - name: Geometry:minimumWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximumWavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:sensitivityFunction
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Spectrum"
+  attributes:
+  - name: Geometry:numberBands
+    used: false
+    guidance: 未利用
+  - name: Geometry:wavelength
+    used: false
+    guidance: 未利用
+  - name: Geometry:response
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_SuperDistortion"
+  attributes:
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Target"
+  attributes:
+  - name: Geometry:equipment
+    used: false
+    guidance: 未利用
+  - name: Geometry:targetInclination
+    used: false
+    guidance: 未利用
+  - name: Geometry:targetAltitude
+    used: false
+    guidance: 未利用
+  - name: Geometry:targetEnvironment
+    used: false
+    guidance: 未利用
+  - name: Geometry:targetAccessibility
+    used: false
+    guidance: 未利用
+  - name: Geometry:targetStability
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_TargetEnvironment"
+  attributes:
+  - name: Geometry:homogeneous
+    used: false
+    guidance: 未利用
+  - name: Geometry:inhomogeneous
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_TautLine"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:facilityType
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Temperature"
+  attributes:
+  - name: Geometry:temperature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_TemperatureRange"
+  attributes:
+  - name: Geometry:minimumTemperature
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximumTemperature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_TestRange"
+  attributes:
+  - name: Geometry:calibrationType
+    used: false
+    guidance: 未利用
+  - name: Geometry:facilityType
+    used: false
+    guidance: 未利用
+  - name: Geometry:controlPoint
+    used: false
+    guidance: 未利用
+  - name: Geometry:checkPoint
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberControlPoints
+    used: false
+    guidance: 未利用
+  - name: Geometry:numberCheckPoints
+    used: false
+    guidance: 未利用
+  - name: Geometry:groundSampleDistance
+    used: false
+    guidance: 未利用
+  - name: Geometry:minimumElevation
+    used: false
+    guidance: 未利用
+  - name: Geometry:maximumElevation
+    used: false
+    guidance: 未利用
+  - name: Geometry:averageElevation
+    used: false
+    guidance: 未利用
+  - name: Geometry:positionalError
+    used: false
+    guidance: 未利用
+  - name: Geometry:lengthOfTestrange
+    used: false
+    guidance: 未利用
+  - name: Geometry:widthOfTestrange
+    used: false
+    guidance: 未利用
+  - name: Geometry:elevationChangeOfTestrange
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_Thermal"
+  attributes:
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_TonalAdjustment"
+  attributes:
+  - name: Geometry:gammaCorrection
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_ValidationMethod"
+  attributes:
+  - name: Geometry:testfield
+    used: false
+    guidance: 未利用
+  - name: Geometry:crossStripFlight
+    used: false
+    guidance: 未利用
+  - name: Geometry:secondFlight
+    used: false
+    guidance: 未利用
+  - name: Geometry:secondAltitude
+    used: false
+    guidance: 未利用
+  - name: Geometry:measurementActualParameters
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_ValidationMethod"
+  attributes:
+  - name: Geometry:testfield
+    used: false
+    guidance: 未利用
+  - name: Geometry:crossStripFlight
+    used: false
+    guidance: 未利用
+  - name: Geometry:secondFlight
+    used: false
+    guidance: 未利用
+  - name: Geometry:secondAltitude
+    used: false
+    guidance: 未利用
+  - name: Geometry:measurementActualParameters
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::CA_VisNIR"
+  attributes:
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::Class1"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::Class2"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::Class3"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MD_ContentInformation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MD_ContentInformation"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MD_CoverageDescription"
+  attributes:
+  - name: Geometry:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Geometry:contentType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MD_CoverageDescription"
+  attributes:
+  - name: Geometry:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Geometry:contentType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MD_CoverageTypeCode"
+  attributes:
+  - name: Geometry:image
+    used: false
+    guidance: 未利用
+  - name: Geometry:thematicClassification
+    used: false
+    guidance: 未利用
+  - name: Geometry:physicalMeasurement
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MD_ImageDescription"
+  attributes:
+  - name: Geometry:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Geometry:contentType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDataAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:camaraCalibrationInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:filmDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:lensDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MD_ImageDescription"
+  attributes:
+  - name: Geometry:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Geometry:contentType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDataAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:camaraCalibrationInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:filmDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:lensDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MD_ImageDescription"
+  attributes:
+  - name: Geometry:attributeDescription
+    used: false
+    guidance: 未利用
+  - name: Geometry:contentType
+    used: false
+    guidance: 未利用
+  - name: Geometry:radiometricCalibrationDataAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:camaraCalibrationInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:filmDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+  - name: Geometry:lensDistortionInformationAvailability[0..1]
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MD_ImagingConditionCode"
+  attributes:
+  - name: Geometry:blurredImage
+    used: false
+    guidance: 未利用
+  - name: Geometry:cloud
+    used: false
+    guidance: 未利用
+  - name: Geometry:degradingObliquity
+    used: false
+    guidance: 未利用
+  - name: Geometry:fog
+    used: false
+    guidance: 未利用
+  - name: Geometry:heavySmokeOrDust
+    used: false
+    guidance: 未利用
+  - name: Geometry:night
+    used: false
+    guidance: 未利用
+  - name: Geometry:rain
+    used: false
+    guidance: 未利用
+  - name: Geometry:seminDarkness
+    used: false
+    guidance: 未利用
+  - name: Geometry:shadow
+    used: false
+    guidance: 未利用
+  - name: Geometry:snow
+    used: false
+    guidance: 未利用
+  - name: Geometry:terrainMasking
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MI_CoverageDescription"
+  attributes:
+  - name: Geometry:attributeType
+    used: false
+    guidance: 未利用
+  - name: Geometry:contentType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MI_CoverageDescription"
+  attributes:
+  - name: Geometry:attributeType
+    used: false
+    guidance: 未利用
+  - name: Geometry:contentType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MI_Instrument"
+  attributes:
+  - name: Geometry:citation
+    used: false
+    guidance: 未利用
+  - name: Geometry:identification
+    used: false
+    guidance: 未利用
+  - name: Geometry:type
+    used: false
+    guidance: 未利用
+  - name: Geometry:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MI_Instrument"
+  attributes:
+  - name: Geometry:citation
+    used: false
+    guidance: 未利用
+  - name: Geometry:identification
+    used: false
+    guidance: 未利用
+  - name: Geometry:type
+    used: false
+    guidance: 未利用
+  - name: Geometry:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::MI_Instrument"
+  attributes:
+  - name: Geometry:citation
+    used: false
+    guidance: 未利用
+  - name: Geometry:identification
+    used: false
+    guidance: 未利用
+  - name: Geometry:type
+    used: false
+    guidance: 未利用
+  - name: Geometry:description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_ArrayDimension"
+  attributes:
+  - name: Geometry:name
+    used: false
+    guidance: 未利用
+  - name: Geometry:size
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_Calibration"
+  attributes:
+  - name: Geometry:calibrationAgency
+    used: false
+    guidance: 未利用
+  - name: Geometry:calibrationDate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_Calibration"
+  attributes:
+  - name: Geometry:calibrationAgency
+    used: false
+    guidance: 未利用
+  - name: Geometry:calibrationDate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_DetectorArray"
+  attributes:
+  - name: Geometry:numberOfDimensions
+    used: false
+    guidance: 未利用
+  - name: Geometry:arrayOrigin
+    used: false
+    guidance: 未利用
+  - name: Geometry:arrayDimensions
+    used: false
+    guidance: 未利用
+  - name: Geometry:offsetVectors
+    used: false
+    guidance: 未利用
+  - name: Geometry:detectorSize
+    used: false
+    guidance: 未利用
+  - name: Geometry:detectorShape
+    used: false
+    guidance: 未利用
+  - name: Geometry:distortion
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_Distortion"
+  attributes:
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_Distortion"
+  attributes:
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_DistortionPolynomial"
+  attributes:
+  - name: Geometry:princPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Geometry:qualityOfPrincPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Geometry:polynomialDecentering
+    used: false
+    guidance: 未利用
+  - name: Geometry:polynomialRadial
+    used: false
+    guidance: 未利用
+  - name: Geometry:qualityOfPolynomialRadial
+    used: false
+    guidance: 未利用
+  - name: Geometry:qualityOfPolynomialDecentering
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_DistortionTable"
+  attributes:
+  - name: Geometry:princPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Geometry:qualityOfPrincPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Geometry:rows
+    used: false
+    guidance: 未利用
+  - name: Geometry:columns
+    used: false
+    guidance: 未利用
+  - name: Geometry:xOffset
+    used: false
+    guidance: 未利用
+  - name: Geometry:yOffset
+    used: false
+    guidance: 未利用
+  - name: Geometry:xSpacing
+    used: false
+    guidance: 未利用
+  - name: Geometry:ySpacing
+    used: false
+    guidance: 未利用
+  - name: Geometry:distortionValues
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_Microwave"
+  attributes:
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_OpticalSystem"
+  attributes:
+  - name: Geometry:calibratedFocalLength
+    used: false
+    guidance: 未利用
+  - name: Geometry:qualityOfCalibratedFocalLength
+    used: false
+    guidance: 未利用
+  - name: Geometry:princPointAutocoll
+    used: false
+    guidance: 未利用
+  - name: Geometry:covPrincPtAutocoll
+    used: false
+    guidance: 未利用
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_Optics"
+  attributes:
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_Optics"
+  attributes:
+  - name: 'Geometry:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_Sensor"
+  attributes:
+  - name: Geometry:citation
+    used: false
+    guidance: 未利用
+  - name: Geometry:identification
+    used: false
+    guidance: 未利用
+  - name: Geometry:type
+    used: false
+    guidance: 未利用
+  - name: Geometry:description
+    used: false
+    guidance: 未利用
+  - name: Geometry:calibration
+    used: false
+    guidance: 未利用
+  - name: Geometry:mode
+    used: false
+    guidance: 未利用
+  - name: Geometry:operationalBand
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_Sensor"
+  attributes:
+  - name: Geometry:citation
+    used: false
+    guidance: 未利用
+  - name: Geometry:identification
+    used: false
+    guidance: 未利用
+  - name: Geometry:type
+    used: false
+    guidance: 未利用
+  - name: Geometry:description
+    used: false
+    guidance: 未利用
+  - name: Geometry:calibration
+    used: false
+    guidance: 未利用
+  - name: Geometry:mode
+    used: false
+    guidance: 未利用
+  - name: Geometry:operationalBand
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_Sensor"
+  attributes:
+  - name: Geometry:citation
+    used: false
+    guidance: 未利用
+  - name: Geometry:identification
+    used: false
+    guidance: 未利用
+  - name: Geometry:type
+    used: false
+    guidance: 未利用
+  - name: Geometry:description
+    used: false
+    guidance: 未利用
+  - name: Geometry:calibration
+    used: false
+    guidance: 未利用
+  - name: Geometry:mode
+    used: false
+    guidance: 未利用
+  - name: Geometry:operationalBand
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-1:2014 Calibration
+    and validation of remote sensing imagery sensors - Optical sensors::Geometry::SD_ShapeCode"
+  attributes:
+  - name: Geometry:square
+    used: false
+    guidance: 未利用
+  - name: Geometry:circular
+    used: false
+    guidance: 未利用
+  - name: Geometry:rectangular
+    used: false
+    guidance: 未利用
+  - name: Geometry:elliptical
+    used: false
+    guidance: 未利用

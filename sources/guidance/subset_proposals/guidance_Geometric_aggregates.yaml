@@ -1,0 +1,117 @@
+---
+classes:
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric aggregates::GM_Aggregate"
+  attributes:
+  - name: Geometry root:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric aggregates::GM_MultiCurve"
+  attributes:
+  - name: Geometry root:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric aggregates::GM_MultiPoint"
+  attributes:
+  - name: Geometry root:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric aggregates::GM_MultiPrimitive"
+  attributes:
+  - name: Geometry root:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::3D都市モデル::空間スキーマ::Geometric aggregates::GM_MultiSurface"
+  attributes:
+  - name: Geometry root:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric aggregates::GM_Aggregate"
+  attributes:
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometry root:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric aggregates::GM_MultiCurve"
+  attributes:
+  - name: Geometric aggregates:length
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometry root:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric aggregates::GM_MultiPoint"
+  attributes:
+  - name: Geometric aggregates:position
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometry root:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric aggregates::GM_MultiPrimitive"
+  attributes:
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometry root:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric aggregates::GM_MultiSolid"
+  attributes:
+  - name: Geometric aggregates:volume
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:area
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometry root:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107:2003 Spatial Schema::
+    Geometry::Geometric aggregates::GM_MultiSurface"
+  attributes:
+  - name: Geometric aggregates:area
+    used: false
+    guidance: 未利用
+  - name: Geometric aggregates:perimeter
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometry root:element
+    used: false
+    guidance: 未利用

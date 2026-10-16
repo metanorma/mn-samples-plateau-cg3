@@ -1,0 +1,1575 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_AngleAttitude"
+  attributes:
+  - name: Sensor Data:rotatedAxes
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rotationAngleX
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rotationAngleY
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rotationAngleZ
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rotationSequence
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_ArrayDimension"
+  attributes:
+  - name: Sensor Data:name
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:size
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_Attitude"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_AzimuthMeasure"
+  attributes:
+  - name: Sensor Data:distance
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:azimuth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_Calibration"
+  attributes:
+  - name: Sensor Data:calibrationAgency
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:calibrationDate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_CorrespondenceModel"
+  attributes:
+  - name: Sensor Data:regionOfValidity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:fittingFunction
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:repositoryGCP
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:controlPoints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_DetectorArray"
+  attributes:
+  - name: Sensor Data:numberOfDimensions
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:arrayOrigin
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:arrayDimensions
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:offsetVectors
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:detectorSize
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:detectorShape
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:distortion
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_Distortion"
+  attributes:
+  - name: Sensor Data:princPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:qualityOfPrincPointOfSymmetry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_DistortionPolynomial"
+  attributes:
+  - name: Sensor Data:princPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:qualityOfPrincPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:polynomialDecentering
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:polynomialRadial
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:qualityOfPolynomialDecentering
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:qualityOfPolynomialRadial
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_DistortionTable"
+  attributes:
+  - name: Sensor Data:princPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:qualityOfPrincPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rows
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:columns
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:xOffset
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:yOffset
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:xSpacing
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:ySpacing
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:distortionValues
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_Dynamics"
+  attributes:
+  - name: Sensor Data:attitude
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:velocity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:acceleration
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:angularVelocity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:angularAcceleration
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dateTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_EarthMeasuredLocation"
+  attributes:
+  - name: Sensor Data:timeOfMeasurement
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:navigationalConfidence
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:position
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_FittingFunction"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_GCPRepository"
+  attributes:
+  - name: Sensor Data:accessRestricted
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:accessInformation
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:controlPoints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_GriddedGCPCollection"
+  attributes:
+  - name: Spatial representation information - Imagery:collectionIdentification
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:collectionName
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:coordinateReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dimension
+    used: false
+    guidance: 未利用
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:gcp
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_GSD"
+  attributes:
+  - name: Sensor Data:columnSpacing
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rowSpacing
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:gsdCRS
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rangeIPR
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:azimuthIPR
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:referenceSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_ImageGridGCPCollection"
+  attributes:
+  - name: Spatial representation information - Imagery:collectionIdentification
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:collectionName
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:coordinateReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dimension
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:origin
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:spacing
+    used: false
+    guidance: 未利用
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:gcp
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_ImageIdentifiableGCP"
+  attributes:
+  - name: Spatial representation information - Imagery:geographicCoordinates
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:description
+    used: false
+    guidance: 未利用
+  - name: Data quality information:accuracyReport
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_LocationGCP"
+  attributes:
+  - name: Spatial representation information - Imagery:geographicCoordinates
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:gridCoordinates
+    used: false
+    guidance: 未利用
+  - name: Data quality information:accuracyReport
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_MatrixAttitude"
+  attributes:
+  - name: Sensor Data:matrixElements
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_Microwave"
+  attributes:
+  - name: Sensor Data:collectionStartTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:collectionEndTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_ObjectGridGCPCollection"
+  attributes:
+  - name: Spatial representation information - Imagery:collectionIdentification
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:collectionName
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:coordinateReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dimension
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:origin
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:offsets
+    used: false
+    guidance: 未利用
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:gcp
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_OpticalSystem"
+  attributes:
+  - name: Sensor Data:calibratedFocalLength
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:qualityOfFocalLength
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:princPointAutocoll
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:covPrincPtAutocoll
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_Optics"
+  attributes:
+  - name: Sensor Data:collectionStartTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:collectionEndTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:opticalDistortion
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:opticalSystem
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:opticsOperation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_OpticsOperation"
+  attributes:
+  - name: Sensor Data:instFieldOfView
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:swathFieldOfView
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_OrbitMeasuredLocation"
+  attributes:
+  - name: Sensor Data:timeOfMeasurement
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:navigationalConfidence
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:argumentOfPerigee
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:bStarDrag
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:eccentricity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:epoch
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:inclination
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:meanAnomaly
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:meanMotion
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:perigeePassageTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:period
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:referenceCRS
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:revNumber
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rightAscensionAscendingNode
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:semiMajorAxis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_PhysicalSensorModel"
+  attributes:
+  - name: Sensor Data:regionOfValidity
+    used: false
+    guidance: 未利用
+  - name: Extended Spatial representation information:controlPoints
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:controlPointRepository
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:sensorInformation
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:controlPoints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_PlatformDynamics"
+  attributes:
+  - name: Sensor Data:attitude
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:velocity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:acceleration
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:angularVelocity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:angularAcceleration
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dateTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:trueHeading
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:yaw
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_PlatformParameters"
+  attributes:
+  - name: Sensor Data:observedPosition
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:positionObservationOffset
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dynamics
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:offsetOfINS
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:platformIdentification
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:platformIdentification
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_Polynomial"
+  attributes:
+  - name: Sensor Data:resultDimension
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:coefficient
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_PolynomialCoefficient"
+  attributes:
+  - name: Sensor Data:value
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:variable
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_Position"
+  attributes:
+  - name: Sensor Data:timeOfMeasurement
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:navigationalConfidence
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_PositionAndOrientation"
+  attributes:
+  - name: Sensor Data:dynamics
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:position
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:offset
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:CRS
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:mountingObject
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:platform
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_PushbroomOperation"
+  attributes:
+  - name: Sensor Data:instFieldOfView
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:swathFieldOfView
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:groundSamplingTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:forwardLookingAngle
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:sideLookingAngle
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_RationalPolynomial"
+  attributes:
+  - name: Sensor Data:denominator
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:numerator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_RotationSequence"
+  attributes:
+  - name: Sensor Data:XYZ
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:XZY
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:YXZ
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:YZX
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:ZXY
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:ZYX
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_SAROperation"
+  attributes:
+  - name: Sensor Data:collectionStartTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:collectionEndTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:orientation
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:grpPosition
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_SAROrientationCode"
+  attributes:
+  - name: Sensor Data:left
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:right
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_ScanAngleFunction"
+  attributes:
+  - name: Sensor Data:angleEquation
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rate
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:angleTable
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_ScanAngleTime"
+  attributes:
+  - name: Sensor Data:time
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:angle
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_Sensor"
+  attributes:
+  - name: Acquisition information - Imagery:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:type
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:description
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:calibration
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:mode
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:operationalBand
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_SensorModel"
+  attributes:
+  - name: Sensor Data:forImageID
+    used: false
+    guidance: 未利用
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:correspondenceModel
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:physicalSensorModel
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:trueReplacementModel
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_SensorParameters"
+  attributes:
+  - name: Sensor Data:offsetAndOrientation
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:operationalMode
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:detector
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:gsdProperties
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:identification
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:systemAndOperation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_SensorSystemAndOperation"
+  attributes:
+  - name: Sensor Data:collectionStartTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:collectionEndTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_ShapeCode"
+  attributes:
+  - name: Sensor Data:square
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:circular
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rectangular
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:elliptical
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_SurfaceCode"
+  attributes:
+  - name: Sensor Data:ground
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:inflatedEllipsoid
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:ortho
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:slant
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_TRMAsGrid"
+  attributes:
+  - name: Spatial representation information - Imagery:collectionIdentification
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:collectionName
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:coordinateReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dimension
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:interpolation
+    used: false
+    guidance: 未利用
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:gcp
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_TrueReplacementModel"
+  attributes:
+  - name: Sensor Data:regionOfValidity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:accuracy
+    used: false
+    guidance: 未利用
+  - name: Extended Spatial representation information:controlPoints
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:controlPointRepository
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:fitAsFunction
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:fitAsGrid
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:controlPoints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_Variable"
+  attributes:
+  - name: Sensor Data:dimension
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:power
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:scaleFactor
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:translationValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130-1 Ed2::Sensor Data::SD_WhiskbroomOperation"
+  attributes:
+  - name: Sensor Data:instFieldOfView
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:swathFieldOfView
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:pixelScanDuration
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:scanAngleFunction
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:scanDuration
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_AngleAttitude"
+  attributes:
+  - name: Sensor Data:rotatedAxes
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rotationAngleX
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rotationAngleY
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rotationAngleZ
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rotationSequence
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_ArrayDimension"
+  attributes:
+  - name: Sensor Data:name
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:size
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_Attitude"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_AzimuthMeasure"
+  attributes:
+  - name: Sensor Data:distance
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:azimuth
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_Calibration"
+  attributes:
+  - name: Sensor Data:calibrationAgency
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:calibrationDate
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_CorrespondenceModel"
+  attributes:
+  - name: Sensor Data:regionOfValidity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:fittingFunction
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:repositoryGCP
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:controlPoints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_DetectorArray"
+  attributes:
+  - name: Sensor Data:numberOfDimensions
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:arrayOrigin
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:arrayDimensions
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:offsetVectors
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:detectorSize
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:detectorShape
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:distortion
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_Distortion"
+  attributes:
+  - name: Sensor Data:princPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:qualityOfPrincPointOfSymmetry
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_DistortionPolynomial"
+  attributes:
+  - name: Sensor Data:princPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:qualityOfPrincPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:polynomialDecentering
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:polynomialRadial
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:qualityOfPolynomialDecentering
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:qualityOfPolynomialRadial
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_DistortionTable"
+  attributes:
+  - name: Sensor Data:princPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:qualityOfPrincPointOfSymmetry
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rows
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:columns
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:xOffset
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:yOffset
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:xSpacing
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:ySpacing
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:distortionValues
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_Dynamics"
+  attributes:
+  - name: Sensor Data:attitude
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:velocity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:acceleration
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:angularVelocity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:angularAcceleration
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dateTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_EarthMeasuredLocation"
+  attributes:
+  - name: Sensor Data:timeOfMeasurement
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:navigationalConfidence
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:position
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_FittingFunction"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_GCPRepository"
+  attributes:
+  - name: Sensor Data:accessRestricted
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:accessInformation
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:controlPoints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_GriddedGCPCollection"
+  attributes:
+  - name: Spatial representation information - Imagery:collectionIdentification
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:collectionName
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:coordinateReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dimension
+    used: false
+    guidance: 未利用
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:gcp
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_GSD"
+  attributes:
+  - name: Sensor Data:columnSpacing
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rowSpacing
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:gsdCRS
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rangeIPR
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:azimuthIPR
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:referenceSurface
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_ImageGridGCPCollection"
+  attributes:
+  - name: Spatial representation information - Imagery:collectionIdentification
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:collectionName
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:coordinateReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dimension
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:origin
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:spacing
+    used: false
+    guidance: 未利用
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:gcp
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_ImageIdentifiableGCP"
+  attributes:
+  - name: Extended Spatial representation information:geographicCoordinates
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:description
+    used: false
+    guidance: 未利用
+  - name: Data quality information:accuracyReport
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_LocationGCP"
+  attributes:
+  - name: Extended Spatial representation information:geographicCoordinates
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:gridCoordinates
+    used: false
+    guidance: 未利用
+  - name: Data quality information:accuracyReport
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_MatrixAttitude"
+  attributes:
+  - name: Sensor Data:matrixElements
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_Microwave"
+  attributes:
+  - name: Sensor Data:collectionStartTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:collectionEndTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_ObjectGridGCPCollection"
+  attributes:
+  - name: Spatial representation information - Imagery:collectionIdentification
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:collectionName
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:coordinateReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dimension
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:origin
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:offsets
+    used: false
+    guidance: 未利用
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:gcp
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_OpticalSystem"
+  attributes:
+  - name: Sensor Data:calibratedFocalLength
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:qualityOfFocalLength
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:princPointAutocoll
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:covPrincPtAutocoll
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_Optics"
+  attributes:
+  - name: Sensor Data:collectionStartTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:collectionEndTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:opticalDistortion
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:opticalSystem
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:opticsOperation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_OpticsOperation"
+  attributes:
+  - name: Sensor Data:instFieldOfView
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:swathFieldOfView
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_OrbitMeasuredLocation"
+  attributes:
+  - name: Sensor Data:timeOfMeasurement
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:navigationalConfidence
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:argumentOfPerigee
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:bStarDrag
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:eccentricity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:epoch
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:inclination
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:meanAnomaly
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:meanMotion
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:perigeePassageTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:period
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:referenceCRS
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:revNumber
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rightAscensionAscendingNode
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:semiMajorAxis
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_PhysicalSensorModel"
+  attributes:
+  - name: Sensor Data:regionOfValidity
+    used: false
+    guidance: 未利用
+  - name: Extended Spatial representation information:controlPoints
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:controlPointRepository
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:sensorInformation
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:controlPoints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_PlatformDynamics"
+  attributes:
+  - name: Sensor Data:attitude
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:velocity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:acceleration
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:angularVelocity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:angularAcceleration
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dateTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:trueHeading
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:yaw
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_PlatformParameters"
+  attributes:
+  - name: Sensor Data:observedPosition
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:positionObservationOffset
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dynamics
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:offsetOfINS
+    used: false
+    guidance: 未利用
+  - name: Acquisition information:platformIdentification
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:platformIdentification
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_Polynomial"
+  attributes:
+  - name: Sensor Data:resultDimension
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:coefficient
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_PolynomialCoefficient"
+  attributes:
+  - name: Sensor Data:value
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:variable
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_Position"
+  attributes:
+  - name: Sensor Data:timeOfMeasurement
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:navigationalConfidence
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_PositionAndOrientation"
+  attributes:
+  - name: Sensor Data:dynamics
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:position
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:offset
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:CRS
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:mountingObject
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:platform
+    used: false
+    guidance: 未利用
+  - name: 'UPA Locational Context:'
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_PushbroomOperation"
+  attributes:
+  - name: Sensor Data:instFieldOfView
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:swathFieldOfView
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:groundSamplingTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:forwardLookingAngle
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:sideLookingAngle
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_RationalPolynomial"
+  attributes:
+  - name: Sensor Data:denominator
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:numerator
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_RotationSequence"
+  attributes:
+  - name: Sensor Data:XYZ
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:XZY
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:YXZ
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:YZX
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:ZXY
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:ZYX
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_SAROperation"
+  attributes:
+  - name: Sensor Data:collectionStartTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:collectionEndTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:orientation
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:grpPosition
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_SAROrientationCode"
+  attributes:
+  - name: Sensor Data:left
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:right
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_ScanAngleFunction"
+  attributes:
+  - name: Sensor Data:angleEquation
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rate
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:angleTable
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_ScanAngleTime"
+  attributes:
+  - name: Sensor Data:time
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:angle
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_Sensor"
+  attributes:
+  - name: Acquisition information - Imagery:citation
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:identifier
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:type
+    used: false
+    guidance: 未利用
+  - name: Acquisition information - Imagery:description
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:calibration
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:mode
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:operationalBand
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_SensorModel"
+  attributes:
+  - name: Sensor Data:forImageID
+    used: false
+    guidance: 未利用
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:correspondenceModel
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:physicalSensorModel
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:trueReplacementModel
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_SensorParameters"
+  attributes:
+  - name: Sensor Data:offsetAndOrientation
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:operationalMode
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:detector
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:gsdProperties
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:identification
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:systemAndOperation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_SensorSystemAndOperation"
+  attributes:
+  - name: Sensor Data:collectionStartTime
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:collectionEndTime
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_ShapeCode"
+  attributes:
+  - name: Sensor Data:square
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:circular
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:rectangular
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:elliptical
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_SurfaceCode"
+  attributes:
+  - name: Sensor Data:ground
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:inflatedEllipsoid
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:ortho
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:slant
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_TRMAsGrid"
+  attributes:
+  - name: Spatial representation information - Imagery:collectionIdentification
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:collectionName
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:coordinateReferenceSystem
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:dimension
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:interpolation
+    used: false
+    guidance: 未利用
+  - name: Data quality information:qualityInfo
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:gcp
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_TrueReplacementModel"
+  attributes:
+  - name: Sensor Data:regionOfValidity
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:accuracy
+    used: false
+    guidance: 未利用
+  - name: Extended Spatial representation information:controlPoints
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:controlPointRepository
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:fitAsFunction
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:fitAsGrid
+    used: false
+    guidance: 未利用
+  - name: Spatial representation information - Imagery:controlPoints
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_Variable"
+  attributes:
+  - name: Sensor Data:dimension
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:power
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:scaleFactor
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:translationValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19130 All::ISO 19130:2010 Sensor Data::Sensor
+    Data::SD_WhiskbroomOperation"
+  attributes:
+  - name: Sensor Data:instFieldOfView
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:swathFieldOfView
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:pixelScanDuration
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:scanAngleFunction
+    used: false
+    guidance: 未利用
+  - name: Sensor Data:scanDuration
+    used: false
+    guidance: 未利用

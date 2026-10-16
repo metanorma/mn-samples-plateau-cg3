@@ -1,0 +1,132 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::Open GIS Consortium::Features::FE_ContainerFeatureCollection"
+  attributes:
+  - name: Names:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Names:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Features:localName
+    used: false
+    guidance: 未利用
+  - name: Features:attribute[0..*]
+    used: false
+    guidance: 未利用
+  - name: Features:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Features:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Features:collection
+    used: false
+    guidance: 未利用
+  - name: Features:container
+    used: false
+    guidance: 未利用
+  - name: Features:feature
+    used: false
+    guidance: 未利用
+  - name: Features:element
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Open GIS Consortium::Features::FE_Feature"
+  attributes:
+  - name: Names:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Names:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Features:localName
+    used: false
+    guidance: 未利用
+  - name: Features:attribute[0..*]
+    used: false
+    guidance: 未利用
+  - name: Features:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Features:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Features:collection
+    used: false
+    guidance: 未利用
+  - name: Features:container
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Open GIS Consortium::Features::FE_FeatureAttribute"
+  attributes:
+  - name: Features:typeOf
+    used: false
+    guidance: 未利用
+  - name: Features:valueOf
+    used: false
+    guidance: 未利用
+  - name: Features:nameOf
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Open GIS Consortium::Features::FE_FeatureCollection"
+  attributes:
+  - name: Names:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Names:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Features:localName
+    used: false
+    guidance: 未利用
+  - name: Features:attribute[0..*]
+    used: false
+    guidance: 未利用
+  - name: Features:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Features:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Features:collection
+    used: false
+    guidance: 未利用
+  - name: Features:container
+    used: false
+    guidance: 未利用
+  - name: Features:feature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Open GIS Consortium::Features::FE_QueryFeatureCollection"
+  attributes:
+  - name: Names:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Names:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Features:localName
+    used: false
+    guidance: 未利用
+  - name: Features:attribute[0..*]
+    used: false
+    guidance: 未利用
+  - name: Features:isGlobal
+    used: false
+    guidance: 未利用
+  - name: Features:acceptableClassList
+    used: false
+    guidance: 未利用
+  - name: Features:query
+    used: false
+    guidance: 未利用
+  - name: Features:collection
+    used: false
+    guidance: 未利用
+  - name: Features:container
+    used: false
+    guidance: 未利用
+  - name: Features:resultSet
+    used: false
+    guidance: 未利用

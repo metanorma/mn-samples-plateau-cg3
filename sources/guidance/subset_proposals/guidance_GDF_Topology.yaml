@@ -1,0 +1,65 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Topology::GDF_Edge"
+  attributes:
+  - name: GDF Topology:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:area
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_LineFeature
+    used: false
+    guidance: 未利用
+  - name: GDF Topology:face
+    used: false
+    guidance: 未利用
+  - name: GDF Topology:node
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Topology::GDF_Face"
+  attributes:
+  - name: GDF Topology:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_AreaFeature
+    used: false
+    guidance: 未利用
+  - name: GDF Topology:contains
+    used: false
+    guidance: 未利用
+  - name: GDF Topology:edge
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Topology::GDF_IsolatedNode"
+  attributes:
+  - name: GDF Topology:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_PointFeature
+    used: false
+    guidance: 未利用
+  - name: GDF Topology:liesIn
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Topology::GDF_Node"
+  attributes:
+  - name: GDF Topology:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_PointFeature
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Topology::GDF_NonIsolatedNode"
+  attributes:
+  - name: GDF Topology:id
+    used: false
+    guidance: 未利用
+  - name: GDF Feature:theGDF_PointFeature
+    used: false
+    guidance: 未利用
+  - name: GDF Topology:bounds
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::ISO GDF::GDF Topology::GDF_TopologicalObject"
+  attributes: []

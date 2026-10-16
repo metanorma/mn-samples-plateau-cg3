@@ -1,0 +1,74 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::PBLSchema::Building"
+  attributes:
+  - name: PBLSchema:owner
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:address
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:type
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:centre_point
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:financed
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:thePropertyParcel
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::PBLSchema::Loan"
+  attributes:
+  - name: PBLSchema:amount
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:classification
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:period
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:theAD_Building
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::PBLSchema::PositionalAccuracy_AbsoluteExternalAccuracy"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::PBLSchema::PositionWithQuality"
+  attributes:
+  - name: PBLSchema:position
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:horizontalAccuracy
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:verticalAccuracy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::PBLSchema::PropertyId"
+  attributes:
+  - name: PBLSchema:municipalityNumber
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:propertyNumber
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::Informative::Xamples::PBLSchema::PropertyParcel"
+  attributes:
+  - name: PBLSchema:identification
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:name
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:border
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:updates
+    used: false
+    guidance: 未利用
+  - name: PBLSchema:contains
+    used: false
+    guidance: 未利用

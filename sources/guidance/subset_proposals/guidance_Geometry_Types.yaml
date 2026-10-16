@@ -1,0 +1,128 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Geometry Types::MF_MeasureFunction"
+  attributes:
+  - name: Geometry Types:graphOfMeasure
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:graphOfOffset
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:graphOfSecondaryOffsets
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:geometry
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:range
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Geometry Types::MF_OneParamGeometry"
+  attributes:
+  - name: Geometry Types:beginDomain
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:endDomain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Geometry Types::MF_PositionExpression"
+  attributes:
+  - name: Geometry Types:secondaryOffset
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Geometry Types::MF_SecondaryOffset"
+  attributes:
+  - name: Geometry Types:offsetVector
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Geometry Types::MF_TemporalGeometry"
+  attributes:
+  - name: Geometry Types:beginDomain
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:endDomain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Geometry Types::MF_TemporalTrajectory"
+  attributes:
+  - name: Geometry Types:beginDomain
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:endDomain
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:beginDomain
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:endDomain
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:graphTimeToPoint
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:graphTimeToVelocity
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:graphTimeToAcceleration
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:graphTimeToDistance
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:graphTimeToCumulativeDistance
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19141 All::ISO 19141:2008 Schema for moving
+    features::Geometry Types::MF_Trajectory"
+  attributes:
+  - name: Geometric primitive:orientation
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:pathGeometry
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:graphParameterToPoint
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:graphParameterToMeasure
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:beginDomain
+    used: false
+    guidance: 未利用
+  - name: Geometry Types:endDomain
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:CRS
+    used: false
+    guidance: 未利用
+  - name: Geometric primitive:segment
+    used: false
+    guidance: 未利用

@@ -1,0 +1,693 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_AntennaPhaseCentre"
+  attributes:
+  - name: ISO 19159-3:2018:time
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:CRS
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:position
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:attitude
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:velocity
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:positionAccuracy
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:attitudeAccuracy
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:velocityAccuracy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_AntennaSystem"
+  attributes:
+  - name: ISO 19159-3:2018:orientationMode
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:polarimetryList
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:azimuthPointingAngle
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:elevationPointingAngle
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:azimuthPattern
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:elevationPattern
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:gain
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_AtmosphericPropagationAndEarthMotion"
+  attributes:
+  - name: ISO 19159-3:2018:attenuationModel
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:attenuationModelParameters
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:ionosphericDelayModel
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:ionosphericDelayModelParamters
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:troposphericDryDelayModel
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:troposphericDryDelayModelParameters
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:troposphericWetDelayModel
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:troposphericWetDelayModelParameters
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:FaradayRotationModel
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:FradayRotationModelParamters
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:earthMotionModel
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:earthMotionModelParameters
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_CornerReflectorAndTransponder"
+  attributes:
+  - name: ISO 19159-3:2018:equipmentType
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:equipmentLocation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:pointType
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:RCS
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:RCSAccuracy
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:scatteringMatrix
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:scatteringMatrixAccuracy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_DopplerCentroid"
+  attributes:
+  - name: ISO 19159-3:2018:rangeSampleDelay
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:azimuthPulseTime
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:dopplerCentroid
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_GroundReceiver"
+  attributes:
+  - name: ISO 19159-3:2018:equipmentType
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:equipmentLocation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:pointType
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:measureStability
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_ImagingAlgorithm"
+  attributes:
+  - name: ISO 19159-3:2018:RD
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:CS
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:WK
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_InSARSensor"
+  attributes:
+  - name: 19159:calibrationType
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:collectionMode
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:acquisitionMode
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:centreFrequency
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:bandwidth
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:atennaNumber
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:transmitAndReceiveChannelNumber
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:collectionMode
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:transmitterReceiver
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:baselineLength
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:baselineAngle1
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:baselineAngle2
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:InPhaseOffset
+    used: false
+    guidance: 未利用
+  - name: '19159:'
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:SARValidation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:antennaPhaseCentre
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:antennaSystem
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:atmosphericPropagationAndEarthMotion
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:calibrationField
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:radarSystem
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:signalProcessing
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:InSARSignalProcessing
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_InSARSignalProcessing"
+  attributes:
+  - name: ISO 19159-3:2018:commonbandFilterMethod
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:coregistrationMethod
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:phaseFilterMethod
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:phaseUnwrapMethod
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_Pattern"
+  attributes:
+  - name: ISO 19159-3:2018:patternAngle
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:patternGain
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_PolarimetryLayer"
+  attributes:
+  - name: ISO 19159-3:2018:HH
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:HV
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:VH
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:VV
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_PolSARSensor"
+  attributes:
+  - name: 19159:calibrationType
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:collectionMode
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:acquisitionMode
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:centreFrequency
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:bandwidth
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:atennaNumber
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:transmitAndReceiveChannelNumber
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:transmitAmplitudeImbalance
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:transmitPhaseImbalance
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:receiveAmplitudeImbalance
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:receivePhaseImbalance
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:transmitHVCrossTalk
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:transmitVHCrossTalk
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:receiveHVCrossTalk
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:receiveVHCrossTalk
+    used: false
+    guidance: 未利用
+  - name: '19159:'
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:SARValidation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:antennaPhaseCentre
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:antennaSystem
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:atmosphericPropagationAndEarthMotion
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:calibrationField
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:radarSystem
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:signalProcessing
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_RadarSystem"
+  attributes:
+  - name: ISO 19159-3:2018:transmitterPower
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:samplingDelay
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:samplingFrequency
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:pulseStartTime
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:prf
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:dynamicRange
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:nesz
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:echopulseNumber
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:sampleNumber
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:receiverGain
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:replicaSignal
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:calibrationCoefficient
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_SARAcquisitionMode"
+  attributes:
+  - name: ISO 19159-3:2018:SAR
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:InSAR
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:PolSAR
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_SARCalibrationEquipment"
+  attributes:
+  - name: ISO 19159-3:2018:equipmentType
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:equipmentLocation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:pointType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_SARCalibrationField"
+  attributes:
+  - name: ISO 19159-3:2018:updateFrequency
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:fieldType
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:centerPosition
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:expanse
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:averageElevation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:minimumElevation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:maximumElevation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_SARCalibrationManmadeField"
+  attributes:
+  - name: ISO 19159-3:2018:updateFrequency
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:fieldType
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:centerPosition
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:expanse
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:averageElevation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:minimumElevation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:maximumElevation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:numOfEquipment
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:calibrationEquipment
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_SARCalibrationNaturalField"
+  attributes:
+  - name: ISO 19159-3:2018:updateFrequency
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:fieldType
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:centerPosition
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:expanse
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:averageElevation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:minimumElevation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:maximumElevation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:naturalFieldType
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:backscatterCoefficient
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:backscatterCoefficientStability
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:scatteringMatrix
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:scatteringMatrixAccuracy
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_SARSensor"
+  attributes:
+  - name: 19159:calibrationType
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:collectionMode
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:acquisitionMode
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:centreFrequency
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:bandwidth
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:atennaNumber
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:transmitAndReceiveChannelNumber
+    used: false
+    guidance: 未利用
+  - name: '19159:'
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:SARValidation
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:antennaPhaseCentre
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:antennaSystem
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:atmosphericPropagationAndEarthMotion
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:calibrationField
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:radarSystem
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:signalProcessing
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_SARValidation"
+  attributes:
+  - name: ISO 19159-3:2018:validationTime
+    used: false
+    guidance: 未利用
+  - name: Metaquality:confidence
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_SARWaveform"
+  attributes:
+  - name: ISO 19159-3:2018:chirp
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_ScatteringMatrix"
+  attributes:
+  - name: ISO 19159-3:2018:matrixElements
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_SignalProcessing"
+  attributes:
+  - name: ISO 19159-3:2018:waveform
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:imagingAlgorithm
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:rangeProcBandwidth
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:azimuthProcBandwidth
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:numberMultilook
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:dopplerCentroid
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:rangeRes
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:azimuthRes
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:plsr
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:ilsr
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:procRangeWin
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:procAzimuthWin
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:quantifyModel
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:quantifyParameters
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:imageFormat
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:rangeSize
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:azimuthSize
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:imageNoisePower
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:processorGain
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_Velocity"
+  attributes:
+  - name: ISO 19159-3:2018:Vx
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:Vy
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:Vz
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_WindowFunction"
+  attributes:
+  - name: ISO 19159-3:2018:name
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:parameters
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::SE_SARCollectionMode"
+  attributes:
+  - name: ISO 19159-3:2018:scan
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:spotlight
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:stripmap
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_SARCalibrationEquipmentType"
+  attributes:
+  - name: ISO 19159-3:2018:cornerReflector
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:transponder
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:groundReceiver
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_SARCalibrationFieldType"
+  attributes:
+  - name: ISO 19159-3:2018:manmadeField
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:naturalField
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_SARCalibrationNaturalFieldType"
+  attributes:
+  - name: ISO 19159-3:2018:rainforest
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:ocean
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:other
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::CA_Complex"
+  attributes:
+  - name: ISO 19159-3:2018:amplitude
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:phase
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::SE_InSARCollectionModeType"
+  attributes:
+  - name: ISO 19159-3:2018:pingPongMode
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:standardMode
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19159 All::ISO 19159-3:2018::SE_InSARTransmitReceiveType"
+  attributes:
+  - name: ISO 19159-3:2018:firstAntennaTransmit
+    used: false
+    guidance: 未利用
+  - name: ISO 19159-3:2018:secondAntennaTransmit
+    used: false
+    guidance: 未利用

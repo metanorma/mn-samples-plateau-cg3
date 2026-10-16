@@ -1,0 +1,98 @@
+---
+classes:
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Coordinates::Coordinate
+    Data Types::Axis::Cartesian"
+  attributes:
+  - name: Axis:w
+    used: false
+    guidance: 未利用
+  - name: Axis:x
+    used: false
+    guidance: 未利用
+  - name: Axis:y
+    used: false
+    guidance: 未利用
+  - name: Axis:z
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Coordinates::Coordinate
+    Data Types::Axis::EllipsoidalAxis"
+  attributes:
+  - name: Axis:w
+    used: false
+    guidance: 未利用
+  - name: Axis:geodetic latitude
+    used: false
+    guidance: 未利用
+  - name: Axis:geodetic longitude
+    used: false
+    guidance: 未利用
+  - name: Axis:ellipsoidal height
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Coordinates::Coordinate
+    Data Types::Axis::PolarAxis"
+  attributes:
+  - name: Axis:w
+    used: false
+    guidance: 未利用
+  - name: Axis:theta
+    used: false
+    guidance: 未利用
+  - name: Axis:rho
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Coordinates::Coordinate
+    Data Types::Axis::VerticalAxis"
+  attributes:
+  - name: Axis:w
+    used: false
+    guidance: 未利用
+  - name: Axis:depth
+    used: false
+    guidance: 未利用
+  - name: Axis:H
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Coordinates::Coordinate
+    Data Types::Axis::Axis"
+  attributes: []
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Coordinates::Coordinate
+    Data Types::Axis::SpatialAxis"
+  attributes:
+  - name: Axis:w
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Coordinates::Coordinate
+    Data Types::Axis::SphericalAxis"
+  attributes:
+  - name: Axis:w
+    used: false
+    guidance: 未利用
+  - name: Axis:bearing
+    used: false
+    guidance: 未利用
+  - name: Axis:zenithAngle
+    used: false
+    guidance: 未利用
+  - name: Axis:radius
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Coordinates::Coordinate
+    Data Types::Axis::TemporalAxis"
+  attributes:
+  - name: Axis:dateTime
+    used: false
+    guidance: 未利用
+  - name: Axis:t
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::ISO TC211::ISO 19107 All::ISO 19107 Spatial Schema::Coordinates::Coordinate
+    Data Types::Axis::ParameterAxis"
+  attributes:
+  - name: Axis:s
+    used: false
+    guidance: 未利用
+  - name: Axis:m
+    used: false
+    guidance: 未利用
