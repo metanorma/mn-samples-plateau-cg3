@@ -1,0 +1,301 @@
+---
+data_types:
+- name: "::EA_Model::Model::CityGML::Appearance::TexCoordGen"
+  attributes:
+  - name: Appearance:worldToTexture
+    used: false
+    guidance: 未利用
+  - name: Coordinate Reference Systems:crs
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Appearance::TexCoordList"
+  attributes:
+  - name: Appearance:textureCoordinates
+    used: false
+    guidance: 未利用
+  - name: Appearance:ring
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Building::RoomHeight"
+  attributes:
+  - name: highReference
+    used: false
+    guidance: 未利用
+  - name: lowReference
+    used: false
+    guidance: 未利用
+  - name: status
+    used: false
+    guidance: 未利用
+  - name: value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::ConstructionEvent"
+  attributes:
+  - name: event
+    used: false
+    guidance: 未利用
+  - name: dateOfEvent
+    used: false
+    guidance: 未利用
+  - name: description
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::Elevation"
+  attributes:
+  - name: elevationReference
+    used: false
+    guidance: 未利用
+  - name: elevationValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Construction::Height"
+  attributes:
+  - name: highReference
+    used: false
+    guidance: 未利用
+  - name: lowReference
+    used: false
+    guidance: 未利用
+  - name: status
+    used: false
+    guidance: 未利用
+  - name: value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Core::CityModelMember"
+  attributes:
+  - name: cityObjectMember
+    used: false
+    guidance: 未利用
+  - name: appearanceMember
+    used: false
+    guidance: 未利用
+  - name: versionMember
+    used: false
+    guidance: 未利用
+  - name: versionTransitionMember
+    used: false
+    guidance: 未利用
+  - name: featureMember
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Core::DoubleOrNilReason"
+  attributes:
+  - name: value
+    used: false
+    guidance: 未利用
+  - name: nilReason
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Core::ExternalReference"
+  attributes:
+  - name: targetResource
+    used: false
+    guidance: 未利用
+  - name: informationSystem
+    used: false
+    guidance: 未利用
+  - name: relationType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Core::NilReason"
+  attributes:
+  - name: nilReasonEnumeration
+    used: false
+    guidance: 未利用
+  - name: URI
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Core::Occupancy"
+  attributes:
+  - name: numberOfOccupants
+    used: false
+    guidance: 未利用
+  - name: interval
+    used: false
+    guidance: 未利用
+  - name: occupantType
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Core::QualifiedArea"
+  attributes:
+  - name: area
+    used: false
+    guidance: 未利用
+  - name: typeOfArea
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Core::QualifiedVolume"
+  attributes:
+  - name: volume
+    used: false
+    guidance: 未利用
+  - name: typeOfVolume
+    used: false
+    guidance: 未利用
+# No attributes are listed for XALAddress in guidance_full.yaml.
+- name: "::EA_Model::Model::CityGML::Core::XALAddress"
+  attributes: []
+- name: "::EA_Model::Model::CityGML::Dynamizer::SensorConnection"
+  attributes:
+  - name: connectionType
+    used: false
+    guidance: 未利用
+  - name: observationProperty
+    used: false
+    guidance: 未利用
+  - name: uom
+    used: false
+    guidance: 未利用
+  - name: sensorID
+    used: false
+    guidance: 未利用
+  - name: sensorName
+    used: false
+    guidance: 未利用
+  - name: observationID
+    used: false
+    guidance: 未利用
+  - name: datastreamID
+    used: false
+    guidance: 未利用
+  - name: baseURL
+    used: false
+    guidance: 未利用
+  - name: authType
+    used: false
+    guidance: 未利用
+  - name: mqttServer
+    used: false
+    guidance: 未利用
+  - name: mqttTopic
+    used: false
+    guidance: 未利用
+  - name: linkToObservation
+    used: false
+    guidance: 未利用
+  - name: linkToSensorDescription
+    used: false
+    guidance: 未利用
+  - name: sensorLocation
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::TimeseriesComponent"
+  attributes:
+  - name: repetitions
+    used: false
+    guidance: 未利用
+  - name: additionalGap
+    used: false
+    guidance: 未利用
+  - name: timeseries
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::TimeValuePair"
+  attributes:
+  - name: timestamp
+    used: false
+    guidance: 未利用
+  - name: intValue
+    used: false
+    guidance: 未利用
+  - name: doubleValue
+    used: false
+    guidance: 未利用
+  - name: stringValue
+    used: false
+    guidance: 未利用
+  - name: geometryValue
+    used: false
+    guidance: 未利用
+  - name: uriValue
+    used: false
+    guidance: 未利用
+  - name: boolValue
+    used: false
+    guidance: 未利用
+  - name: implicitGeometryValue
+    used: false
+    guidance: 未利用
+  - name: appearanceValue
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Generics::CodeAttribute"
+  attributes:
+  - name: Generics:name
+    used: false
+    guidance: 未利用
+  - name: Generics:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Generics::DateAttribute"
+  attributes:
+  - name: Generics:name
+    used: false
+    guidance: 未利用
+  - name: Generics:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Generics::DoubleAttribute"
+  attributes:
+  - name: Generics:name
+    used: false
+    guidance: 未利用
+  - name: Generics:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Generics::GenericAttributeSet"
+  attributes:
+  - name: Generics:name
+    used: false
+    guidance: 未利用
+  - name: Generics:codeSpace
+    used: false
+    guidance: 未利用
+  - name: Core:genericAttribute
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Generics::IntAttribute"
+  attributes:
+  - name: Generics:name
+    used: false
+    guidance: 未利用
+  - name: Generics:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Generics::MeasureAttribute"
+  attributes:
+  - name: Generics:name
+    used: false
+    guidance: 未利用
+  - name: Generics:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Generics::StringAttribute"
+  attributes:
+  - name: Generics:name
+    used: false
+    guidance: 未利用
+  - name: Generics:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Generics::UriAttribute"
+  attributes:
+  - name: Generics:name
+    used: false
+    guidance: 未利用
+  - name: Generics:value
+    used: false
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Versioning::Transaction"
+  attributes:
+  - name: type
+    used: false
+    guidance: 未利用
+  - name: newFeature
+    used: true
+    guidance: 未利用
+  - name: oldFeature
+    used: false
+    guidance: 未利用
