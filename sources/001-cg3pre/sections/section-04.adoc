@@ -55,7 +55,7 @@ include::../sections/section-04/section-24.adoc[]
 
 // include::../sections/section-04/section-27.adoc[]
 
-// include::../sections/section-04/section-28.adoc[]
+include::../sections/section-04/section-28.adoc[]
 
 include::../sections/section-04/section-29.adoc[]
 
