@@ -6,8 +6,17 @@
   {%- assign upper_klass_name = "&#x2014;" -%}
 {%- endif -%}
 
-{% assign owned_props = klass.generalization.owned_props | default: klass.owned_attributes %}
-{% assign assoc_props = klass.generalization.assoc_props %}
+{% assign generalization = klass.generalization %}
+{% assign inherited_props = generalization.inherited_props %}
+{% assign inherited_assoc_props = generalization.inherited_assoc_props %}
+{% if generalization %}
+  {% assign owned_props = generalization.owned_props %}
+  {% assign assoc_props = generalization.assoc_props %}
+{% else %}
+  {% assign direct_props = klass.owned_attributes %}
+  {% assign owned_props = direct_props | reject: "association" %}
+  {% assign assoc_props = direct_props | where: "association" %}
+{% endif %}
 
 {%- assign guidance_column = false -%}
 {%- assign guidance_row_style = "tr-style:[background-color: lightyellow]" -%}
@@ -27,16 +36,73 @@ h| 型の定義 {{ cols_header }}+| {{ klass.definition | html2adoc }}
 h| 上位の型 {{ cols_header }}+| {{ upper_klass_name }}
 h| ステレオタイプ {{ cols_header }}+| {{ stereotype }}
 
-{% if owned_props.size > 0 %}
-{{ cols_number }}+h| 自身に定義された属性
+{% if inherited_props.size > 0 %}
+{{ cols_number }}+h| 継承する属性
 h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? and guidance_column -%} h| 補足{%- endif %}
-{% for attr in owned_props %}
+{% for attr in inherited_props %}
+  {%- capture name_col -%}
+    {%- if attr.used? == "false" -%}
+      ({{ attr.name }}) +
+      [{{ attr.gen_name }}]
+    {%- else -%}
+      {{ attr.name }} +
+      [{{ attr.gen_name }}]
+    {%- endif -%}
+  {%- endcapture -%}
   {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
   {% if attr_cardinality == '..*' %}
     {% assign attr_cardinality = '0..*' %}
   {% endif %}
-| {{ attr.name }}
+| {{ name_col }}
+| {{ attr.type }} [{{ attr_cardinality }}]
+| {{ attr.definition | html2adoc }}
+{% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.guidance and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if owned_props.size > 0 %}
+{{ cols_number }}+h| 自身に定義された属性
+h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? and guidance_column -%} h| 補足{%- endif %}
+{% for attr in owned_props %}
+  {%- capture name_col -%}
+    {%- if attr.used? == "false" -%}
+      ({{ attr.name }}) +
+      [{{ attr.gen_name | default: klass.name }}]
+    {%- else -%}
+      {{ attr.name }} +
+      [{{ attr.gen_name | default: klass.name }}]
+    {%- endif -%}
+  {%- endcapture -%}
+  {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
+  {% if attr_cardinality == '..*' %}
+    {% assign attr_cardinality = '0..*' %}
+  {% endif %}
+| {{ name_col }}
 | {{ attr.type }} {% if attr.cardinality %}[{{ attr_cardinality }}]{% endif %}
+| {{ attr.definition | html2adoc }}
+{% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.guidance and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if inherited_assoc_props.size > 0 %}
+{{ cols_number }}+h| 継承する関連役割
+h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.has_guidance? and guidance_column -%} h| 補足{%- endif %}
+{% for attr in inherited_assoc_props %}
+  {%- capture name_col -%}
+    {%- if attr.used? == "false" -%}
+      ({{ attr.name }}) +
+      [{{ attr.gen_name }}]
+    {%- else -%}
+      {{ attr.name }} +
+      [{{ attr.gen_name }}]
+    {%- endif -%}
+  {%- endcapture -%}
+  {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
+  {% if attr_cardinality == '..*' %}
+    {% assign attr_cardinality = '0..*' %}
+  {% endif %}
+| {{ name_col }}
+| {{ attr.type }} [{{ attr_cardinality }}]
 | {{ attr.definition | html2adoc }}
 {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.guidance and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
 {% endfor %}
@@ -46,11 +112,20 @@ h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? 
 {{ cols_number }}+h| 自身に定義された関連役割
 h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.has_guidance? and guidance_column -%} h| 補足{%- endif %}
 {% for attr in assoc_props %}
+  {%- capture name_col -%}
+    {%- if attr.used? == "false" -%}
+      ({{ attr.name }}) +
+      [{{ attr.gen_name | default: klass.name }}]
+    {%- else -%}
+      {{ attr.name }} +
+      [{{ attr.gen_name | default: klass.name }}]
+    {%- endif -%}
+  {%- endcapture -%}
   {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
   {% if attr_cardinality == '..*' %}
     {% assign attr_cardinality = '0..*' %}
   {% endif %}
-| {{ attr.name }}
+| {{ name_col }}
 | {{ attr.type }} {% if attr.cardinality %}[{{ attr_cardinality }}]{% endif %}
 | {{ attr.definition | html2adoc }}
 {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.guidance and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
