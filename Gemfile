@@ -25,7 +25,6 @@ gem "metanorma-iec", github: "metanorma/metanorma-iec", branch: "main"
 gem "metanorma-jis", github: "metanorma/metanorma-jis", branch: "main"
 
 # lutaml family
-gem "lutaml-model", "= 0.8.97"
 gem "moxml", github: "lutaml/moxml", branch: "main"
 gem "xmi", github: "lutaml/xmi", branch: "main"
 gem "ea", "= 0.6.89"
