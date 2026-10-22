@@ -83,46 +83,6 @@ GIT
       relaton-cli (>= 3.0.0.pre.alpha)
 
 GIT
-  remote: https://github.com/metanorma/metanorma-bipm.git
-  revision: a7f7877e38f6f966b712cf0352a0deb86223ca06
-  branch: main
-  specs:
-    metanorma-bipm (2.9.0)
-      metanorma-generic (~> 3.5.0)
-      metanorma-iso (>= 3.4.2)
-
-GIT
-  remote: https://github.com/metanorma/metanorma-cli
-  revision: 31488e3e657940d0826cff152c9c71e2918a9b53
-  branch: main
-  specs:
-    metanorma-cli (1.17.0)
-      canon (>= 0.2.12)
-      git (>= 3.0)
-      liquid (~> 5)
-      lutaml-model (~> 0.8)
-      metanorma (>= 2.5.1)
-      metanorma-bipm (>= 2.9.0)
-      metanorma-cc (>= 2.9.0)
-      metanorma-generic (>= 3.5.0)
-      metanorma-iec (>= 2.9.0)
-      metanorma-ieee (>= 1.7.0)
-      metanorma-ietf (>= 3.7.0)
-      metanorma-iho (>= 1.4.0)
-      metanorma-iso (>= 3.5.0)
-      metanorma-itu (>= 2.9.0)
-      metanorma-jis (>= 1.2.0)
-      metanorma-ogc (>= 2.10.0)
-      metanorma-plateau (>= 1.3.0)
-      metanorma-release (~> 0.2)
-      metanorma-ribose (>= 2.9.0)
-      metanorma-standoc (>= 3.5.0)
-      mnconvert (~> 1.89)
-      relaton-cli (>= 3.0.0.pre.alpha)
-      socksify
-      suma (~> 0.5)
-
-GIT
   remote: https://github.com/metanorma/metanorma-core
   revision: 00b2e0fe7f7f49caf4cd31c572ff4f2c98fbfbe9
   branch: main
@@ -150,46 +110,6 @@ GIT
       relaton (~> 3.0.0.pre.alpha)
 
 GIT
-  remote: https://github.com/metanorma/metanorma-iec.git
-  revision: 587a0f62c9ff9ca599c6136700cca4b97f5af070
-  branch: main
-  specs:
-    metanorma-iec (2.9.0)
-      metanorma-iso (>= 3.4.2)
-      pubid
-
-GIT
-  remote: https://github.com/metanorma/metanorma-ieee.git
-  revision: 7c4e09bbfb171e798711ca9ce34298d51316ac49
-  branch: main
-  specs:
-    metanorma-ieee (1.7.0)
-      metanorma-standoc (>= 3.4.2)
-      mnconvert (~> 1.20)
-      pubid (~> 2.0.0.pre.alpha)
-
-GIT
-  remote: https://github.com/metanorma/metanorma-ietf.git
-  revision: c7c5f90b0f0b550866413ae0bde0a28781a6ca1a
-  branch: main
-  specs:
-    metanorma-ietf (3.7.11)
-      isodoc
-      leptris (~> 1.9)
-      metanorma-document
-      metanorma-ietf-data
-      metanorma-standoc (>= 3.4.2)
-      relaton-render (~> 3.0.0.pre.alpha)
-
-GIT
-  remote: https://github.com/metanorma/metanorma-iho.git
-  revision: 0f65745c962e57031c7fbf8c2156e1e6241b1e22
-  branch: main
-  specs:
-    metanorma-iho (1.4.0)
-      metanorma-generic (~> 3.5.0)
-
-GIT
   remote: https://github.com/metanorma/metanorma-iso
   revision: fced0187b22fc2a9d5669d36af97b1f184792459
   branch: main
@@ -202,66 +122,6 @@ GIT
       sts (>= 0.5.6)
       tokenizer (~> 0.3.0)
       uniword (~> 1.0)
-
-GIT
-  remote: https://github.com/metanorma/metanorma-itu.git
-  revision: 05932a4740d5d0922bff665612803ccbf3a26823
-  branch: main
-  specs:
-    metanorma-itu (2.9.2)
-      metanorma-iso (>= 3.4.2)
-      metanorma-standoc (>= 3.4.2)
-      pubid (~> 2.0.0.pre.alpha)
-      twitter_cldr (>= 3.0.0)
-      tzinfo-data
-
-GIT
-  remote: https://github.com/metanorma/metanorma-jis.git
-  revision: c9c507de409f82b9aeb6938dc1cc6e6bd2aea59c
-  branch: main
-  specs:
-    metanorma-jis (1.2.0)
-      japanese_calendar (~> 0)
-      liquid (~> 5.4)
-      metanorma-iso (>= 3.4.2)
-      pubid
-      uniword (~> 1.5)
-
-GIT
-  remote: https://github.com/metanorma/metanorma-ogc.git
-  revision: d569e3fed5384e345d21e8f3975f6aea0eb6ce4d
-  branch: main
-  specs:
-    metanorma-ogc (2.10.0)
-      iso-639
-      metanorma-iso (>= 3.4.2)
-      metanorma-standoc (>= 3.4.2)
-
-GIT
-  remote: https://github.com/metanorma/metanorma-plateau.git
-  revision: c03e346c58a6c6d45d3dbc30938cbc50751934ee
-  branch: main
-  specs:
-    metanorma-plateau (1.3.1)
-      metanorma-jis (>= 1.1.6)
-      pubid
-
-GIT
-  remote: https://github.com/metanorma/metanorma-plugin-lutaml.git
-  revision: 7e25d8bd4cf95a75cc9dc8621b7efee618a2855b
-  branch: main
-  specs:
-    metanorma-plugin-lutaml (0.7.54)
-      asciidoctor
-      coradoc (~> 1.1.8)
-      ea (>= 0.6.41)
-      expressir (~> 2.3, >= 2.3.5)
-      isodoc (>= 3.5.0)
-      liquid (~> 5)
-      lutaml-lml
-      lutaml-model (~> 0.8.4)
-      lutaml-uml (>= 0.5, < 2)
-      ogc-gml (~> 1.1)
 
 GIT
   remote: https://github.com/metanorma/metanorma-standoc
@@ -880,25 +740,106 @@ GEM
       webrick (~> 1.7)
       webrobots (~> 0.1.2)
     memo_wise (1.13.0)
+    metanorma-bipm (2.9.1.pre.alpha.1)
+      metanorma-generic (~> 3.5.0)
+      metanorma-iso (>= 3.4.2)
     metanorma-cc (2.9.0)
       metanorma-generic (~> 3.5.0)
+    metanorma-cli (1.18.0.pre.alpha.1)
+      canon (>= 0.2.12)
+      git (>= 3.0)
+      liquid (~> 5)
+      lutaml-model (~> 0.8)
+      metanorma (>= 2.5.1)
+      metanorma-bipm (>= 2.9.0)
+      metanorma-cc (>= 2.9.0)
+      metanorma-generic (>= 3.5.0)
+      metanorma-iec (>= 2.9.0)
+      metanorma-ieee (>= 1.7.0)
+      metanorma-ietf (>= 3.7.0)
+      metanorma-iho (>= 1.4.0)
+      metanorma-iso (>= 3.5.0)
+      metanorma-itu (>= 2.9.0)
+      metanorma-jis (>= 1.2.0)
+      metanorma-ogc (>= 2.10.0)
+      metanorma-plateau (>= 1.3.0)
+      metanorma-release (~> 0.2)
+      metanorma-ribose (>= 2.9.0)
+      metanorma-standoc (>= 3.5.0)
+      metanorma-taste (~> 1.1)
+      mnconvert (~> 1.89)
+      relaton-cli (>= 3.0.0.pre.alpha)
+      socksify
+      suma (~> 0.5)
     metanorma-generic (3.5.0)
       metanorma-standoc (~> 3.5.0)
+    metanorma-iec (2.9.1.pre.alpha.1)
+      metanorma-iso (>= 3.4.2)
+      pubid
+    metanorma-ieee (1.7.1.pre.alpha.1)
+      metanorma-standoc (>= 3.4.2)
+      mnconvert (~> 1.20)
+      pubid (~> 2.0.0.pre.alpha)
+    metanorma-ietf (3.7.12.pre.alpha.1)
+      isodoc
+      leptris (~> 1.9)
+      metanorma-document
+      metanorma-ietf-data
+      metanorma-standoc (>= 3.4.2)
+      relaton-render (~> 3.0.0.pre.alpha)
     metanorma-ietf-data (0.2.0)
+    metanorma-iho (1.4.1.pre.alpha.1)
+      metanorma-generic (~> 3.5.0)
+    metanorma-itu (2.9.3.pre.alpha.1)
+      metanorma-iso (>= 3.4.2)
+      metanorma-standoc (>= 3.4.2)
+      pubid (~> 2.0.0.pre.alpha)
+      twitter_cldr (>= 3.0.0)
+      tzinfo-data
+    metanorma-jis (1.2.1.pre.alpha.1)
+      japanese_calendar (~> 0)
+      liquid (~> 5.4)
+      metanorma-iso (>= 3.4.2)
+      pubid
+      uniword (~> 1.5)
     metanorma-mirror (1.0.0)
       lutaml-model (~> 0.8)
     metanorma-mko (1.1.1)
       lutaml-model (~> 0.8, >= 0.8.22)
       rubyzip
       unitsml (~> 0.6)
+    metanorma-ogc (2.10.1.pre.alpha.1)
+      iso-639
+      metanorma-iso (>= 3.4.2)
+      metanorma-standoc (>= 3.4.2)
+    metanorma-plateau (1.3.2.pre.alpha.1)
+      metanorma-jis (>= 1.1.6)
+      pubid
     metanorma-plugin-asciichem (0.1.2)
       asciichem (~> 0.29, >= 0.29.2)
       moxml (~> 0.5)
+    metanorma-plugin-datastruct (0.3.12.pre.alpha.1)
+      asciidoctor (~> 2.0.0)
+      isodoc
+      liquid (>= 4)
+      ostruct
+      relaton-cli
     metanorma-plugin-glossarist (0.5.2)
       asciidoctor
       glossarist (~> 2.8, >= 2.11.1)
       liquid
       metanorma-utils
+    metanorma-plugin-lutaml (0.7.55.pre.alpha.1)
+      asciidoctor
+      coradoc (~> 1.1.8)
+      ea (>= 0.6.41)
+      expressir (~> 2.3, >= 2.3.5)
+      isodoc (>= 3.5.0)
+      liquid (~> 5)
+      lutaml-lml
+      lutaml-model (~> 0.8.4)
+      lutaml-uml (>= 0.5, < 2)
+      ogc-gml (~> 1.1)
     metanorma-plugin-plantuml (1.0.16)
       asciidoctor
     metanorma-release (0.2.25)
@@ -906,7 +847,7 @@ GEM
       thor (~> 1.0)
     metanorma-ribose (2.9.0)
       metanorma-generic (~> 3.5.0)
-    metanorma-taste (1.1.2)
+    metanorma-taste (1.1.3.pre.alpha.1)
       lutaml-model (>= 0.8)
     mime-types (3.7.0)
       logger
@@ -1405,21 +1346,23 @@ DEPENDENCIES
   isodoc!
   isodoc-i18n!
   metanorma!
-  metanorma-bipm!
-  metanorma-cli!
+  metanorma-bipm (= 2.9.1.pre.alpha.1)
+  metanorma-cli (= 1.18.0.pre.alpha.1)
   metanorma-core!
   metanorma-document!
-  metanorma-iec!
-  metanorma-ieee!
-  metanorma-ietf!
-  metanorma-iho!
+  metanorma-iec (= 2.9.1.pre.alpha.1)
+  metanorma-ieee (= 1.7.1.pre.alpha.1)
+  metanorma-ietf (= 3.7.12.pre.alpha.1)
+  metanorma-iho (= 1.4.1.pre.alpha.1)
   metanorma-iso!
-  metanorma-itu!
-  metanorma-jis!
-  metanorma-ogc!
-  metanorma-plateau!
-  metanorma-plugin-lutaml!
+  metanorma-itu (= 2.9.3.pre.alpha.1)
+  metanorma-jis (= 1.2.1.pre.alpha.1)
+  metanorma-ogc (= 2.10.1.pre.alpha.1)
+  metanorma-plateau (= 1.3.2.pre.alpha.1)
+  metanorma-plugin-datastruct (= 0.3.12.pre.alpha.1)
+  metanorma-plugin-lutaml (= 0.7.55.pre.alpha.1)
   metanorma-standoc!
+  metanorma-taste (= 1.1.3.pre.alpha.1)
   metanorma-utils!
   mn-requirements!
   moxml!

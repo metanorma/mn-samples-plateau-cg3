@@ -1,7 +1,11 @@
 source "https://rubygems.org"
 
+# release-wave candidate pins
+gem "metanorma-taste", "1.1.3.pre.alpha.1"
+gem "metanorma-plugin-datastruct", "0.3.12.pre.alpha.1"
+
 # metanorma core stack: git main
-gem "metanorma-cli", git: "https://github.com/metanorma/metanorma-cli", branch: "main"
+gem "metanorma-cli", "1.18.0.pre.alpha.1"
 gem "metanorma-core", git: "https://github.com/metanorma/metanorma-core", branch: "main"
 gem "metanorma", git: "https://github.com/metanorma/metanorma", branch: "main"
 gem "metanorma-standoc", git: "https://github.com/metanorma/metanorma-standoc", branch: "main"
@@ -13,22 +17,22 @@ gem "isodoc-i18n", git: "https://github.com/metanorma/isodoc-i18n", branch: "mai
 gem "mn-requirements", git: "https://github.com/metanorma/mn-requirements", branch: "main"
 
 # flavors: git main
-gem "metanorma-plateau", github: "metanorma/metanorma-plateau", branch: "main"
+gem "metanorma-plateau", "1.3.2.pre.alpha.1"
 gem "metanorma-iso", git: "https://github.com/metanorma/metanorma-iso", branch: "main"
-gem "metanorma-ogc", github: "metanorma/metanorma-ogc", branch: "main"
-gem "metanorma-itu", github: "metanorma/metanorma-itu", branch: "main"
-gem "metanorma-ieee", github: "metanorma/metanorma-ieee", branch: "main"
-gem "metanorma-iho", github: "metanorma/metanorma-iho", branch: "main"
-gem "metanorma-bipm", github: "metanorma/metanorma-bipm", branch: "main"
-gem "metanorma-ietf", github: "metanorma/metanorma-ietf", branch: "main"
-gem "metanorma-iec", github: "metanorma/metanorma-iec", branch: "main"
-gem "metanorma-jis", github: "metanorma/metanorma-jis", branch: "main"
+gem "metanorma-ogc", "2.10.1.pre.alpha.1"
+gem "metanorma-itu", "2.9.3.pre.alpha.1"
+gem "metanorma-ieee", "1.7.1.pre.alpha.1"
+gem "metanorma-iho", "1.4.1.pre.alpha.1"
+gem "metanorma-bipm", "2.9.1.pre.alpha.1"
+gem "metanorma-ietf", "3.7.12.pre.alpha.1"
+gem "metanorma-iec", "2.9.1.pre.alpha.1"
+gem "metanorma-jis", "1.2.1.pre.alpha.1"
 
 # lutaml family
 gem "moxml", github: "lutaml/moxml", branch: "main"
 gem "xmi", github: "lutaml/xmi", branch: "main"
 gem "ea", "= 0.6.89"
-gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "main"
+gem "metanorma-plugin-lutaml", "0.7.55.pre.alpha.1"
 
 # relaton / pubid line
 gem "relaton", "= 3.0.0.pre.alpha.4"
