@@ -46,49 +46,49 @@ include::sections/appendix-C.adoc[]
 
 include::sections/appendix-D.adoc[]
 
-include::sections/appendix-E.adoc[]
+// include::sections/appendix-E.adoc[]
 
-include::sections/appendix-F.adoc[]
+// include::sections/appendix-F.adoc[]
 
-include::sections/appendix-G.adoc[]
+// include::sections/appendix-G.adoc[]
 
-include::sections/appendix-H.adoc[]
+// include::sections/appendix-H.adoc[]
 
-include::sections/appendix-I.adoc[]
+// include::sections/appendix-I.adoc[]
 
-include::sections/appendix-J.adoc[]
+// include::sections/appendix-J.adoc[]
 
-include::sections/appendix-K.adoc[]
+// include::sections/appendix-K.adoc[]
 
-include::sections/appendix-L.adoc[]
+// include::sections/appendix-L.adoc[]
 
-include::sections/appendix-M.adoc[]
+// include::sections/appendix-M.adoc[]
 
-include::sections/appendix-N.adoc[]
+// include::sections/appendix-N.adoc[]
 
-include::sections/appendix-O.adoc[]
+// include::sections/appendix-O.adoc[]
 
-include::sections/appendix-P.adoc[]
+// include::sections/appendix-P.adoc[]
 
-include::sections/appendix-Q.adoc[]
+// include::sections/appendix-Q.adoc[]
 
-include::sections/appendix-R.adoc[]
+// include::sections/appendix-R.adoc[]
 
-include::sections/appendix-S.adoc[]
+// include::sections/appendix-S.adoc[]
 
-include::sections/appendix-T.adoc[]
+// include::sections/appendix-T.adoc[]
 
-include::sections/appendix-U.adoc[]
+// include::sections/appendix-U.adoc[]
 
-include::sections/appendix-V.adoc[]
+// include::sections/appendix-V.adoc[]
 
-//include::sections/appendix-W.adoc[]
+// //include::sections/appendix-W.adoc[]
 
-//include::sections/appendix-X.adoc[]
+// //include::sections/appendix-X.adoc[]
 
-//include::sections/bibliography-01.adoc[]
+// //include::sections/bibliography-01.adoc[]
 
-include::bibliography-cg03pre.adoc[]
+// include::bibliography-cg03pre.adoc[]
 
-//include::sections/index-01.adoc[]
+// //include::sections/index-01.adoc[]
 
