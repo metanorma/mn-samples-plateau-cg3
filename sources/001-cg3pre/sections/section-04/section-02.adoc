@@ -345,47 +345,47 @@ image::../../sources/images/EAID_607A3B34_6E8B_4387_97F6_2794E8F47A51.png[]
 [[toc4_02_03_01_01]]
 ====== Building
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="Building",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_full.yaml"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="Building",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_01_02]]
 ====== BuildingPart
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingPart",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingPart",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_01_03]]
 ====== BuildingRoom
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingRoom",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingRoom",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_01_04]]
 ====== BuildingInstallation
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingInstallation",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingInstallation",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_01_05]]
 ====== BuildingFurniture
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingFurniture",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingFurniture",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_01_06]]
 ====== BuildingConstructiveElement
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingConstructiveElement",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingConstructiveElement",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_01_07]]
 ====== BuildingUnit
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingUnit",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="BuildingUnit",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_01_08]]
 ====== Storey
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="Storey",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="Storey",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_01_09]]
 ====== RoomHeight
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="RoomHeight",template="../../sources/liquid_templates/_packages_data_type.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Building",name="RoomHeight",template="../../sources/liquid_templates/_packages_data_type.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 // ※Constructionのクラスは省略する？
 
@@ -446,22 +446,22 @@ CityGMLを拡張し、Buildingに詳細な属性を付与するのためのデ�
 [[toc4_02_03_02_01]]
 ====== BuildingIDAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="BuildingIDAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="BuildingIDAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_02_02]]
 ====== BuildingDetailAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="BuildingDetailAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="BuildingDetailAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_02_03]]
 ====== LargeCustomerFacilityAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="LargeCustomerFacilityAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="LargeCustomerFacilityAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_02_04]]
 ====== RealEstateIDAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="RealEstateIDAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="RealEstateIDAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_03]]
 ===== 建築物モデル（室内）の拡張属性
@@ -471,37 +471,37 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_02_03_03_01]]
 ====== IndoorFacilityAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorFacilityAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorFacilityAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_03_02]]
 ====== IndoorFurnishingAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorFurnishingAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorFurnishingAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_03_03]]
 ====== IndoorPublicTagAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorPublicTagAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorPublicTagAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_03_04]]
 ====== IndoorSpaceAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorSpaceAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorSpaceAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_03_05]]
 ====== IndoorStoreyAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorStoreyAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorStoreyAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_03_06]]
 ====== IndoorTactileTileAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorTactileTileAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorTactileTileAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_03_07]]
 ====== IndoorZoneAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorZoneAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="IndoorZoneAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_bldg.yaml"]
 
 [[toc4_02_03_04]]
 ===== 施設管理のための拡張属性
@@ -723,4 +723,3 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Building_lodType.xml[temp
 
 // 引用リンク codelist　DataQualityAttribute
 include::../../../common/sections/link_codelist_DateQuality.adoc[]
-

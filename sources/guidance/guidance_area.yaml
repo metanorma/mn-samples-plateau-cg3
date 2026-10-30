@@ -1,0 +1,34 @@
+---
+classes:
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::Zone"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用

@@ -1,0 +1,31 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::LandUse::LandUse"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: LandUse:function
+    used: true
+    guidance: 未利用
+  - name: LandUse:usage
+    used: true
+    guidance: 未利用
+  - name: LandUse:adeOfLandUse
+    used: true
+    guidance: 未利用

@@ -28,20 +28,3 @@ classes:
   - name: Versioning:adeOfVersionTransition
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::CityGML::CityObjectGroup::Role"
-  attributes:
-  - name: role
-    used: true
-    guidance: 未利用
-data_types:
-- name: "::EA_Model::Model::CityGML::Versioning::Transaction"
-  attributes:
-  - name: "type"
-    used: false
-    guidance: 未利用
-  - name: "newFeature"
-    used: true
-    guidance: 未利用
-  - name: "oldFeature"
-    used: false
-    guidance: 未利用

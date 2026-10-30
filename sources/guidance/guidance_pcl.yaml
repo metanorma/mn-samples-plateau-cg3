@@ -1,0 +1,13 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::PointCloud::PointCloud"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPointCloud
+    used: true
+    guidance: 未利用
+  - name: PointCloud:adeOfPointCloud
+    used: true
+    guidance: 未利用

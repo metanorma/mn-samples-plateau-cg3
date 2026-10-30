@@ -1,0 +1,57 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::Dynamizer::Dynamizer"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractDynamizer
+    used: true
+    guidance: 未利用
+  - name: Dynamizer:adeOfDynamizer
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::CompositeTimeseries"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Dynamizer:adeOfCompositeTimeseries
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::GenericTimeseries"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractAtomicTimeseries
+    used: true
+    guidance: 未利用
+  - name: Dynamizer:adeOfGenericTimeseries
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::StandardFileTimeseries"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractAtomicTimeseries
+    used: true
+    guidance: 未利用
+  - name: Dynamizer:adeOfStandardFileTimeseries
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Dynamizer::TabulatedFileTimeseries"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Dynamizer:adeOfAbstractAtomicTimeseries
+    used: true
+    guidance: 未利用
+  - name: Dynamizer:adeOfTabulatedFileTimeseries
+    used: true
+    guidance: 未利用
