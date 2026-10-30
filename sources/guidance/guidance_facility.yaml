@@ -1,0 +1,22 @@
+---
+classes:
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RiverFacilityIdAttribute"
+  attributes:
+  - name: uro:partId
+    used: true
+    guidance: 未利用
+  - name: uro:route
+    used: true
+    guidance: 未利用
+  - name: uro:startPost
+    used: true
+    guidance: 未利用
+  - name: uro:endPost
+    used: true
+    guidance: 未利用
+  - name: uro:startLat
+    used: true
+    guidance: 未利用
+  - name: uro:startLong
+    used: true
+    guidance: 未利用

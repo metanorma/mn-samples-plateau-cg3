@@ -158,7 +158,7 @@ image::../../sources/images/EAID_65CDF03F_158E_4d63_86FA_EC92B142FD71.png[]
 [[toc4_14_03_01_01]]
 ====== CityFurniture
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="CityFurniture",name="CityFurniture",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="CityFurniture",name="CityFurniture",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_frn.yaml"]
 
 [[toc4_14_03_02]]
 ===== Urban Object（i-UR）
@@ -166,7 +166,7 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="C
 [[toc4_14_03_02_01]]
 ====== CityFurnitureDetailAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="CityFurnitureDetailAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="CityFurnitureDetailAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_frn.yaml"]
 
 別表：facilityTypeの定義域
 
@@ -211,7 +211,7 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_14_03_02_02]]
 ====== CityFurnitureExtendedGeometry
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="CityFurnitureExtendedGeometry",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="CityFurnitureExtendedGeometry",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_frn.yaml"]
 
 [[toc4_14_03_03]]
 ===== 施設管理のための拡張属性
@@ -292,6 +292,5 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/CityFurniture_lodType.xml
 ====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
-
 
 

@@ -205,7 +205,7 @@ image::../../sources/images/EAID_7FB25AD2_4A3A_466b_9F71_87840482E05F.png[]
 [[toc4_05_03_01_01]]
 ====== Track
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Track",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Track",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_trk.yaml"]
 
 ====== TrafficArea
 
@@ -253,7 +253,7 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="T
 [[toc4_05_03_02_01]]
 ====== TrackAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TrackAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TrackAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_trk.yaml"]
 
 [[toc4_05_03_03]]
 ===== 施設管理のための拡張属性
@@ -387,4 +387,3 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TrackAttribute_widthType.
 ====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
-

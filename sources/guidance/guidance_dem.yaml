@@ -1,0 +1,102 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::Relief::ReliefFeature"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Relief:adeOfReliefFeature
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Relief::TINRelief"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Relief:adeOfTINRelief
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Relief::MassPointRelief"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Relief:adeOfMassPointRelief
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Relief::BreaklineRelief"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Relief:adeOfBreaklineRelief
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Relief::RasterRelief"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Relief:adeOfRasterRelief
+    used: true
+    guidance: 未利用

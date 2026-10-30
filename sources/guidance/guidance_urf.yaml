@@ -1,0 +1,4075 @@
+---
+classes:
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanPlanningArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: urf:location
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::QuasiUrbanPlanningArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: urf:location
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::AreaClassification"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: urf:location
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistrictsAndZones"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UseDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecialUseDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecialUseRestrictionDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ExceptionalFloorAreaRateDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::HighRiseResidentialAttractionDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::HeightControlDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::HighLevelUseDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecifiedBlock"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecialUrbanRenaissanceDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::HousingControlArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ResidentialEnvironmentImprovementDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecialUseAttractionDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::FirePreventionDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecifiedDisasterPreventionBlockImprovementZone"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::LandscapeZone"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScenicDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ParkingPlaceDevelopmentZone"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::PortZone"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecialZoneForPreservationOfHistoricalLandscape"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ZoneForPreservationOfHistoricalLandscape"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::GreenSpaceConservationDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecialGreenSpaceConservationDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::TreePlantingDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistributionBusinessZone"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ProductiveGreenZone"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ConservationZoneForClustersOfTraditionalStructures"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::AircraftNoiseControlZone"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ProjectPromotionArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanRedevelopmentPromotionArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: urf:developmentPolicy
+    used: true
+    guidance: 未利用
+  - name: urf:publicFacilitiesPlans
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::LandReadjustmentPromotionArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ResidentialBlockConstructionPromotionArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::LandReadjustmentPromotionAreasForCoreBusinessUrbanDevelopment"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UnusedLandUsePromotionArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:function
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanDisasterRecoveryPromotionArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:function
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanFacility"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::TrafficFacility"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::OpenSpaceForPublicUse"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SupplyFacility"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::TreatmentFacility"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::Waterway"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::EducationalAndCulturalFacility"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::MedicalFacility"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SocialWelfareFacility"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::MarketsSlaughterhousesCrematoria"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::CollectiveHousingFacilities"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::CollectiveGovernmentAndPublicOfficeFacilities"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistributionBusinessPark"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::CollectiveFacilitiesForTsunamiDisasterPrevention"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::CollectiveFacilitiesForReconstructionAndRevitalization"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::CollectiveFacilitiesForReconstruction"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::CollectiveUrbanDisasterPreventionFacilities"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanFacilityStipulatedByCabinetOrder"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanDevelopmentProject"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::LandReadjustmentProject"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: urf:scheduledExecutor
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::NewHousingAndUrbanDevelopmentProject"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::IndustrialParkDevelopmentProject"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanRedevelopmentProject"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: urf:scheduledExecutor
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::NewUrbanInfrastructureProject"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ResidentialBlockConstructionProject"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DisasterPreventionBlockImprovementProject"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: urf:scheduledExecutor
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanRenewalProject"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForUrbanDevelopmentProject"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForNewHousingAndUrbanDevelopmentProjects"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForIndustrialParkDevelopmentProjects"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForNewUrbanInfrastructureProjects"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForCollectiveHousingFacilities"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForCollectiveGovernmentAndPublicOfficeFacilities"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForDistributionBusinessPark"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistrictPlan"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::RoadsideDistrictPlan"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::RuralDistrictPlan"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:promotionDistrict
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::HistoricSceneryMaintenanceAndImprovementDistrictPlan"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:promotionDistrict
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DisasterPreventionBlockImprovementZonePlan"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:promotionDistrict
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistrictDevelopmentPlan"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: urf:validFromType
+    used: true
+    guidance: 未利用
+  - name: urf:enactmentFiscalYear
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+  - name: urf:validToType
+    used: true
+    guidance: 未利用
+  - name: urf:expirationFiscalYear
+    used: true
+    guidance: 未利用
+  - name: urf:legalGrounds
+    used: true
+    guidance: 未利用
+  - name: urf:custodian
+    used: true
+    guidance: 未利用
+  - name: urf:notificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationDate
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:nominalArea
+    used: true
+    guidance: 未利用
+  - name: urf:prefecture
+    used: true
+    guidance: 未利用
+  - name: urf:city
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecifiedBuildingZoneImprovementPlan"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: urf:validFromType
+    used: true
+    guidance: 未利用
+  - name: urf:enactmentFiscalYear
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+  - name: urf:validToType
+    used: true
+    guidance: 未利用
+  - name: urf:expirationFiscalYear
+    used: true
+    guidance: 未利用
+  - name: urf:legalGrounds
+    used: true
+    guidance: 未利用
+  - name: urf:custodian
+    used: true
+    guidance: 未利用
+  - name: urf:notificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationDate
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:nominalArea
+    used: true
+    guidance: 未利用
+  - name: urf:prefecture
+    used: true
+    guidance: 未利用
+  - name: urf:city
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: urf:districtFacilitiesAllocation
+    used: true
+    guidance: 未利用
+  - name: urf:urbanGreenSpaceConservation
+    used: true
+    guidance: 未利用
+  - name: urf:activityRestrictionInFarmland
+    used: true
+    guidance: 未利用
+  - name: urf:landuseRestrictions
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:districtFacility
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistrictImprovementPlanForDisasterPreventionBlockImprovementZonePlan"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: urf:validFromType
+    used: true
+    guidance: 未利用
+  - name: urf:enactmentFiscalYear
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+  - name: urf:validToType
+    used: true
+    guidance: 未利用
+  - name: urf:expirationFiscalYear
+    used: true
+    guidance: 未利用
+  - name: urf:legalGrounds
+    used: true
+    guidance: 未利用
+  - name: urf:custodian
+    used: true
+    guidance: 未利用
+  - name: urf:notificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationDate
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:nominalArea
+    used: true
+    guidance: 未利用
+  - name: urf:prefecture
+    used: true
+    guidance: 未利用
+  - name: urf:city
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:districtFacility
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::RoadsideDistrictImprovementPlan"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: urf:validFromType
+    used: true
+    guidance: 未利用
+  - name: urf:enactmentFiscalYear
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+  - name: urf:validToType
+    used: true
+    guidance: 未利用
+  - name: urf:expirationFiscalYear
+    used: true
+    guidance: 未利用
+  - name: urf:legalGrounds
+    used: true
+    guidance: 未利用
+  - name: urf:custodian
+    used: true
+    guidance: 未利用
+  - name: urf:notificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationDate
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:nominalArea
+    used: true
+    guidance: 未利用
+  - name: urf:prefecture
+    used: true
+    guidance: 未利用
+  - name: urf:city
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: urf:districtFacilitiesAllocation
+    used: true
+    guidance: 未利用
+  - name: urf:activityRestrictionInFarmland
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::RuralDistrictImprovementPlan"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: urf:validFromType
+    used: true
+    guidance: 未利用
+  - name: urf:enactmentFiscalYear
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+  - name: urf:validToType
+    used: true
+    guidance: 未利用
+  - name: urf:expirationFiscalYear
+    used: true
+    guidance: 未利用
+  - name: urf:legalGrounds
+    used: true
+    guidance: 未利用
+  - name: urf:custodian
+    used: true
+    guidance: 未利用
+  - name: urf:notificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationDate
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:nominalArea
+    used: true
+    guidance: 未利用
+  - name: urf:prefecture
+    used: true
+    guidance: 未利用
+  - name: urf:city
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: urf:urbanGreenSpaceConservation
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistrictImprovementPlanForHistoricSceneryMaintenanceAndImprovementDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: urf:validFromType
+    used: true
+    guidance: 未利用
+  - name: urf:enactmentFiscalYear
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+  - name: urf:validToType
+    used: true
+    guidance: 未利用
+  - name: urf:expirationFiscalYear
+    used: true
+    guidance: 未利用
+  - name: urf:legalGrounds
+    used: true
+    guidance: 未利用
+  - name: urf:custodian
+    used: true
+    guidance: 未利用
+  - name: urf:notificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationDate
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:nominalArea
+    used: true
+    guidance: 未利用
+  - name: urf:prefecture
+    used: true
+    guidance: 未利用
+  - name: urf:city
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: urf:activityRestrictionInFarmland
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:districtFacility
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::PromotionDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: urf:validFromType
+    used: true
+    guidance: 未利用
+  - name: urf:enactmentFiscalYear
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+  - name: urf:validToType
+    used: true
+    guidance: 未利用
+  - name: urf:expirationFiscalYear
+    used: true
+    guidance: 未利用
+  - name: urf:legalGrounds
+    used: true
+    guidance: 未利用
+  - name: urf:custodian
+    used: true
+    guidance: 未利用
+  - name: urf:notificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationDate
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:nominalArea
+    used: true
+    guidance: 未利用
+  - name: urf:prefecture
+    used: true
+    guidance: 未利用
+  - name: urf:city
+    used: true
+    guidance: 未利用
+  - name: urf:reference
+    used: true
+    guidance: 未利用
+  - name: urf:reason
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::District"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: urf:validFromType
+    used: true
+    guidance: 未利用
+  - name: urf:enactmentFiscalYear
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+  - name: urf:validToType
+    used: true
+    guidance: 未利用
+  - name: urf:expirationFiscalYear
+    used: true
+    guidance: 未利用
+  - name: urf:legalGrounds
+    used: true
+    guidance: 未利用
+  - name: urf:custodian
+    used: true
+    guidance: 未利用
+  - name: urf:notificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationDate
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:nominalArea
+    used: true
+    guidance: 未利用
+  - name: urf:prefecture
+    used: true
+    guidance: 未利用
+  - name: urf:city
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistrictFacility"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: urf:validFromType
+    used: true
+    guidance: 未利用
+  - name: urf:enactmentFiscalYear
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+  - name: urf:validToType
+    used: true
+    guidance: 未利用
+  - name: urf:expirationFiscalYear
+    used: true
+    guidance: 未利用
+  - name: urf:legalGrounds
+    used: true
+    guidance: 未利用
+  - name: urf:custodian
+    used: true
+    guidance: 未利用
+  - name: urf:notificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationDate
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:nominalArea
+    used: true
+    guidance: 未利用
+  - name: urf:prefecture
+    used: true
+    guidance: 未利用
+  - name: urf:city
+    used: true
+    guidance: 未利用
+  - name: urf:reason
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ZonalDisasterPreventionFacility"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:function
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: urf:validFromType
+    used: true
+    guidance: 未利用
+  - name: urf:enactmentFiscalYear
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+  - name: urf:validToType
+    used: true
+    guidance: 未利用
+  - name: urf:expirationFiscalYear
+    used: true
+    guidance: 未利用
+  - name: urf:legalGrounds
+    used: true
+    guidance: 未利用
+  - name: urf:custodian
+    used: true
+    guidance: 未利用
+  - name: urf:notificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationDate
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:nominalArea
+    used: true
+    guidance: 未利用
+  - name: urf:prefecture
+    used: true
+    guidance: 未利用
+  - name: urf:city
+    used: true
+    guidance: 未利用
+  - name: urf:reason
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ThreeDimensionalExtent"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:function
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: urf:validFromType
+    used: true
+    guidance: 未利用
+  - name: urf:enactmentFiscalYear
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+  - name: urf:validToType
+    used: true
+    guidance: 未利用
+  - name: urf:expirationFiscalYear
+    used: true
+    guidance: 未利用
+  - name: urf:legalGrounds
+    used: true
+    guidance: 未利用
+  - name: urf:custodian
+    used: true
+    guidance: 未利用
+  - name: urf:notificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationDate
+    used: true
+    guidance: 未利用
+  - name: urf:finalNotificationNumber
+    used: true
+    guidance: 未利用
+  - name: urf:urbanPlanType
+    used: true
+    guidance: 未利用
+  - name: urf:areaClassificationType
+    used: true
+    guidance: 未利用
+  - name: urf:nominalArea
+    used: true
+    guidance: 未利用
+  - name: urf:prefecture
+    used: true
+    guidance: 未利用
+  - name: urf:city
+    used: true
+    guidance: 未利用
+  - name: urf:reason
+    used: true
+    guidance: 未利用
+  - name: urf:note
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::Boundary"
+  attributes:
+  - name: urf:class
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanFunctionAttractionArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:function
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ResidenceAttractionArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:function
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用

@@ -1,0 +1,374 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::Bridge::Bridge"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Construction:dateOfDemolition
+    used: true
+    guidance: 未利用
+  - name: Construction:constructionEvent
+    used: true
+    guidance: 未利用
+  - name: Construction:occupancy
+    used: true
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstruction
+    used: true
+    guidance: 未利用
+  - name: Bridge:usage
+    used: true
+    guidance: 未利用
+  - name: Bridge:adeOfAbstractBridge
+    used: true
+    guidance: 未利用
+  - name: Bridge:adeOfBridge
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Bridge::BridgePart"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Construction:dateOfDemolition
+    used: true
+    guidance: 未利用
+  - name: Construction:constructionEvent
+    used: true
+    guidance: 未利用
+  - name: Construction:occupancy
+    used: true
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstruction
+    used: true
+    guidance: 未利用
+  - name: Bridge:usage
+    used: true
+    guidance: 未利用
+  - name: Bridge:adeOfAbstractBridge
+    used: true
+    guidance: 未利用
+  - name: Bridge:adeOfBridgePart
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Bridge::BridgeConstructiveElement"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstructiveElement
+    used: true
+    guidance: 未利用
+  - name: Bridge:class
+    used: true
+    guidance: 未利用
+  - name: Bridge:usage
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Bridge::BridgeRoom"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractUnoccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Bridge:usage
+    used: true
+    guidance: 未利用
+  - name: Bridge:adeOfBridgeRoom
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Bridge::BridgeInstallation"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Construction:adeOfAbstractInstallation
+    used: true
+    guidance: 未利用
+  - name: Bridge:usage
+    used: true
+    guidance: 未利用
+  - name: Bridge:adeOfBridgeInstallation
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Bridge::BridgeFurniture"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Construction:adeOfAbstractFurniture
+    used: true
+    guidance: 未利用
+  - name: Bridge:class
+    used: true
+    guidance: 未利用
+  - name: Bridge:function
+    used: true
+    guidance: 未利用
+  - name: Bridge:usage
+    used: true
+    guidance: 未利用
+  - name: Bridge:adeOfBridgeFurniture
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: true
+    guidance: 未利用

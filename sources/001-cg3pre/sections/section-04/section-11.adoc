@@ -302,32 +302,32 @@ image::../../sources/images/EAID_9F61F228_CAB5_4f28_BA73_AB4DCFF3F35E.png[]
 [[toc4_11_03_01_01]]
 ====== Bridge
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Bridge",name="Bridge",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Bridge",name="Bridge",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_brid.yaml"]
 
 [[toc4_11_03_01_02]]
 ====== BridgePart
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Bridge",name="BridgePart",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Bridge",name="BridgePart",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_brid.yaml"]
 
 [[toc4_11_03_01_03]]
 ====== BridgeConstructiveElement
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Bridge",name="BridgeConstructiveElement",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Bridge",name="BridgeConstructiveElement",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_brid.yaml"]
 
 [[toc4_11_03_01_04]]
 ====== BridgeRoom
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Bridge",name="BridgeRoom",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Bridge",name="BridgeRoom",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_brid.yaml"]
 
 [[toc4_11_03_01_05]]
 ====== BridgeInstallation
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Bridge",name="BridgeInstallation",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Bridge",name="BridgeInstallation",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_brid.yaml"]
 
 [[toc4_11_03_01_06]]
 ====== BridgeFurniture
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Bridge",name="BridgeFurniture",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Bridge",name="BridgeFurniture",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_brid.yaml"]
 
 ====== RoofSurface
 
@@ -384,12 +384,12 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="B
 [[toc4_11_03_02_01]]
 ====== BridgeStructureAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="BridgeStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="BridgeStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_brid.yaml"]
 
 [[toc4_11_03_02_02]]
 ====== BridgeFunctionalAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="BridgeFunctionalAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="BridgeFunctionalAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_brid.yaml"]
 
 ====== ConstructionBaseAttribute
 
@@ -526,5 +526,4 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Bridge_lodType.xml[templa
 ====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
-
 

@@ -280,32 +280,32 @@ image::../../sources/images/EAID_F15FEF80_7EBC_40a0_BCAA_F0516E105F1F.png[]
 [[toc4_12_03_01_01]]
 ====== Tunnel
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="Tunnel",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="Tunnel",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_tun.yaml"]
 
 [[toc4_12_03_01_02]]
 ====== TunnelPart
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="TunnelPart",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="TunnelPart",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_tun.yaml"]
 
 [[toc4_12_03_01_03]]
 ====== TunnelConstructiveElement
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="TunnelConstructiveElement",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="TunnelConstructiveElement",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_tun.yaml"]
 
 [[toc4_12_03_01_04]]
 ====== HollowSpace
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="HollowSpace",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="HollowSpace",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_tun.yaml"]
 
 [[toc4_12_03_01_05]]
 ====== TunnelInstallation
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="TunnelInstallation",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="TunnelInstallation",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_tun.yaml"]
 
 [[toc4_12_03_01_06]]
 ====== TunnelFurniture
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="TunnelFurniture",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Tunnel",name="TunnelFurniture",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_tun.yaml"]
 
 ====== RoofSurface
 
@@ -362,12 +362,12 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="T
 [[toc4_12_03_02_01]]
 ====== TunnelFunctionalAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TunnelFunctionalAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TunnelFunctionalAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_tun.yaml"]
 
 [[toc4_12_03_02_02]]
 ====== TunnelStructureAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TunnelStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TunnelStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_tun.yaml"]
 
 ====== ConstructionBaseAttribute
 
@@ -522,5 +522,4 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Tunnel_lodType.xml[templa
 ====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
-
 

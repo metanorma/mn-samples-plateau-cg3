@@ -1,0 +1,38 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::Core::CityModel"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Core::ClosureSurface"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfClosureSurface
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Core::Address"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用

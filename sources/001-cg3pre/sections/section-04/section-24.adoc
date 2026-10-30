@@ -29,7 +29,7 @@ image::../../sources/images/EAID_CCE69980_0DDD_4975_9104_054B018BAA96.png[]
 [[toc4_24_03_01_01]]
 ====== CityObjectGroup
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="CityObjectGroup",name="CityObjectGroup",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="CityObjectGroup",name="CityObjectGroup",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_grp.yaml"]
 
 [[toc4_24_03_01_02]]
 ====== Role
