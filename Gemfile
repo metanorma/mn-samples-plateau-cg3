@@ -1,40 +1,7 @@
 source "https://rubygems.org"
 
-# metanorma core stack: git main
-gem "metanorma-cli", git: "https://github.com/metanorma/metanorma-cli", branch: "main"
-gem "metanorma-core", git: "https://github.com/metanorma/metanorma-core", branch: "main"
-gem "metanorma", git: "https://github.com/metanorma/metanorma", branch: "main"
-gem "metanorma-standoc", git: "https://github.com/metanorma/metanorma-standoc", branch: "main"
-gem "metanorma-document", git: "https://github.com/metanorma/metanorma-document", branch: "main"
-gem "metanorma-utils", git: "https://github.com/metanorma/metanorma-utils", branch: "main"
-gem "html2doc", git: "https://github.com/metanorma/html2doc", branch: "main"
-gem "isodoc", git: "https://github.com/metanorma/isodoc", branch: "main"
-gem "isodoc-i18n", git: "https://github.com/metanorma/isodoc-i18n", branch: "main"
-gem "mn-requirements", git: "https://github.com/metanorma/mn-requirements", branch: "main"
-
-# flavors: git main
-gem "metanorma-plateau", github: "metanorma/metanorma-plateau", branch: "main"
-gem "metanorma-iso", git: "https://github.com/metanorma/metanorma-iso", branch: "main"
-gem "metanorma-ogc", github: "metanorma/metanorma-ogc", branch: "main"
-gem "metanorma-itu", github: "metanorma/metanorma-itu", branch: "main"
-gem "metanorma-ieee", github: "metanorma/metanorma-ieee", branch: "main"
-gem "metanorma-iho", github: "metanorma/metanorma-iho", branch: "main"
-gem "metanorma-bipm", github: "metanorma/metanorma-bipm", branch: "main"
-gem "metanorma-ietf", github: "metanorma/metanorma-ietf", branch: "main"
-gem "metanorma-iec", github: "metanorma/metanorma-iec", branch: "main"
-gem "metanorma-jis", github: "metanorma/metanorma-jis", branch: "main"
-
-# lutaml family
-gem "moxml", github: "lutaml/moxml", branch: "main"
-gem "xmi", github: "lutaml/xmi", branch: "main"
-gem "ea", "= 0.6.89"
-gem "metanorma-plugin-lutaml", github: "metanorma/metanorma-plugin-lutaml", branch: "main"
-
-# relaton / pubid line
-gem "relaton", "~> 3.1.1"
-gem "pubid", github: "pubid/pubid", branch: "main"
-
-# tooling
+gem "metanorma-cli", github: "metanorma/metanorma-cli", branch: "main"
+gem "metanorma-plateau", "~> 1.3"
+gem "metanorma-plugin-lutaml", "~> 0.7"
 gem "debug"
-gem "ffi"
 gem "sassc-embedded"
