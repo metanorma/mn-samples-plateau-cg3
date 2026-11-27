@@ -276,12 +276,12 @@ image::../../sources/images/EAID_E7B591F0_108D_4cb8_A473_2C6D261DDDD3.png[]
 [[toc4_10_03_01_01]]
 ====== UrbanPlanningArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanPlanningArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanPlanningArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_01_02]]
 ====== QuasiUrbanPlanningArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="QuasiUrbanPlanningArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="QuasiUrbanPlanningArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_02]]
 ===== 区域区分
@@ -289,7 +289,7 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_10_03_02_01]]
 ====== AreaClassification
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="AreaClassification",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="AreaClassification",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03]]
 ===== 地域地区
@@ -297,142 +297,142 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_10_03_03_01]]
 ====== DistrictsAndZones
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictsAndZones",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictsAndZones",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_02]]
 ====== UseDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UseDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UseDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_03]]
 ====== SpecialUseDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialUseDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialUseDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_04]]
 ====== SpecialUseRestrictionDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialUseRestrictionDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialUseRestrictionDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_05]]
 ====== ExceptionalFloorAreaRateDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ExceptionalFloorAreaRateDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ExceptionalFloorAreaRateDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_06]]
 ====== HighRiseResidentialAttractionDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HighRiseResidentialAttractionDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HighRiseResidentialAttractionDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_07]]
 ====== HeightControlDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HeightControlDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HeightControlDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_08]]
 ====== HighLevelUseDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HighLevelUseDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HighLevelUseDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_09]]
 ====== SpecifiedBlock
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecifiedBlock",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecifiedBlock",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_10]]
 ====== SpecialUrbanRenaissanceDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialUrbanRenaissanceDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialUrbanRenaissanceDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_11]]
 ====== HousingControlArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HousingControlArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HousingControlArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_12]]
 ====== ResidentialEnvironmentImprovementDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ResidentialEnvironmentImprovementDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ResidentialEnvironmentImprovementDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_13]]
 ====== SpecialUseAttractionDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialUseAttractionDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialUseAttractionDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_14]]
 ====== FirePreventionDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="FirePreventionDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="FirePreventionDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_15]]
 ====== SpecifiedDisasterPreventionBlockImprovementZone
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecifiedDisasterPreventionBlockImprovementZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecifiedDisasterPreventionBlockImprovementZone",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_16]]
 ====== LandscapeZone
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="LandscapeZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="LandscapeZone",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_17]]
 ====== ScenicDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScenicDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScenicDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_18]]
 ====== ParkingPlaceDevelopmentZone
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ParkingPlaceDevelopmentZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ParkingPlaceDevelopmentZone",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_19]]
 ====== PortZone
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="PortZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="PortZone",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_20]]
 ====== SpecialZoneForPreservationOfHistoricalLandscape
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialZoneForPreservationOfHistoricalLandscape",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialZoneForPreservationOfHistoricalLandscape",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_21]]
 ====== ZoneForPreservationOfHistoricalLandscape
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ZoneForPreservationOfHistoricalLandscape",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ZoneForPreservationOfHistoricalLandscape",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_22]]
 ====== GreenSpaceConservationDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="GreenSpaceConservationDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="GreenSpaceConservationDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_23]]
 ====== SpecialGreenSpaceConservationDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialGreenSpaceConservationDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecialGreenSpaceConservationDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_24]]
 ====== TreePlantingDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="TreePlantingDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="TreePlantingDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_25]]
 ====== DistributionBusinessZone
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistributionBusinessZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistributionBusinessZone",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_26]]
 ====== ProductiveGreenZone
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ProductiveGreenZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ProductiveGreenZone",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_27]]
 ====== ConservationZoneForClustersOfTraditionalStructures
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ConservationZoneForClustersOfTraditionalStructures",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ConservationZoneForClustersOfTraditionalStructures",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_03_28]]
 ====== AircraftNoiseControlZone
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="AircraftNoiseControlZone",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="AircraftNoiseControlZone",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_04]]
 ===== 促進区域
@@ -440,27 +440,27 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_10_03_04_01]]
 ====== ProjectPromotionArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ProjectPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ProjectPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_04_02]]
 ====== UrbanRedevelopmentPromotionArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRedevelopmentPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRedevelopmentPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_04_03]]
 ====== LandReadjustmentPromotionArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="LandReadjustmentPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="LandReadjustmentPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_04_04]]
 ====== ResidentialBlockConstructionPromotionArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ResidentialBlockConstructionPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ResidentialBlockConstructionPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_04_05]]
 ====== LandReadjustmentPromotionAreasForCoreBusinessUrbanDevelopment
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="LandReadjustmentPromotionAreasForCoreBusinessUrbanDevelopment",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="LandReadjustmentPromotionAreasForCoreBusinessUrbanDevelopment",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 
 [[toc4_10_03_05]]
@@ -469,7 +469,7 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_10_03_05_01]]
 ====== UnusedLandUsePromotionArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UnusedLandUsePromotionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UnusedLandUsePromotionArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 
 [[toc4_10_03_06]]
@@ -478,7 +478,7 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_10_03_06_01]]
 ====== UrbanDisasterRecoveryPromotionArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanDisasterRecoveryPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanDisasterRecoveryPromotionArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07]]
 ===== 都市施設
@@ -486,132 +486,132 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_10_03_07_01]]
 ====== UrbanFacility
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanFacility",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_02]]
 ====== TrafficFacility
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="TrafficFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="TrafficFacility",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_03]]
 ====== UrbanRoadAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRoadAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRoadAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_04]]
 ====== UrbanRapidTransitRailroadAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRapidTransitRailroadAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRapidTransitRailroadAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_05]]
 ====== StructureDetails
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="StructureDetails",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="StructureDetails",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_06]]
 ====== ParkingPlaceAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ParkingPlaceAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ParkingPlaceAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_07]]
 ====== VehicleTerminalAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="VehicleTerminalAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="VehicleTerminalAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_08]]
 ====== OpenSpaceForPublicUse
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="OpenSpaceForPublicUse",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="OpenSpaceForPublicUse",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_09]]
 ====== ParkAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ParkAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ParkAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_10]]
 ====== SupplyFacility
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SupplyFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SupplyFacility",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_11]]
 ====== WaterWorksAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="WaterWorksAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="WaterWorksAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_12]]
 ====== TreatmentFacility
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="TreatmentFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="TreatmentFacility",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_13]]
 ====== SewerSystemAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SewerSystemAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SewerSystemAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_14]]
 ====== Waterway
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="Waterway",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="Waterway",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_15]]
 ====== EducationalAndCulturalFacility
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="EducationalAndCulturalFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="EducationalAndCulturalFacility",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_16]]
 ====== MedicalFacility
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="MedicalFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="MedicalFacility",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_17]]
 ====== SocialWelfareFacility
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SocialWelfareFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SocialWelfareFacility",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_18]]
 ====== MarketsSlaughterhousesCrematoria
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="MarketsSlaughterhousesCrematoria",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="MarketsSlaughterhousesCrematoria",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_19]]
 ====== CollectiveHousingFacilities
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveHousingFacilities",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveHousingFacilities",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_20]]
 ====== CollectiveGovernmentAndPublicOfficeFacilities
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveGovernmentAndPublicOfficeFacilities",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveGovernmentAndPublicOfficeFacilities",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_21]]
 ====== DistributionBusinessPark
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistributionBusinessPark",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistributionBusinessPark",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_22]]
 ====== CollectiveFacilitiesForTsunamiDisasterPrevention
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveFacilitiesForTsunamiDisasterPrevention",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveFacilitiesForTsunamiDisasterPrevention",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_23]]
 ====== CollectiveFacilitiesForReconstructionAndRevitalization
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveFacilitiesForReconstructionAndRevitalization",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveFacilitiesForReconstructionAndRevitalization",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_24]]
 ====== CollectiveFacilitiesForReconstruction
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveFacilitiesForReconstruction",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveFacilitiesForReconstruction",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_25]]
 ====== CollectiveUrbanDisasterPreventionFacilities
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveUrbanDisasterPreventionFacilities",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="CollectiveUrbanDisasterPreventionFacilities",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_07_26]]
 ====== UrbanFacilityStipulatedByCabinetOrder
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanFacilityStipulatedByCabinetOrder",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanFacilityStipulatedByCabinetOrder",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_08]]
 ===== 市街地開発事業
@@ -619,47 +619,47 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_10_03_08_01]]
 ====== UrbanDevelopmentProject
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanDevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanDevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_08_02]]
 ====== LandReadjustmentProject
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="LandReadjustmentProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="LandReadjustmentProject",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_08_03]]
 ====== NewHousingAndUrbanDevelopmentProject
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="NewHousingAndUrbanDevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="NewHousingAndUrbanDevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_08_04]]
 ====== IndustrialParkDevelopmentProject
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="IndustrialParkDevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="IndustrialParkDevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_08_05]]
 ====== UrbanRedevelopmentProject
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRedevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRedevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_08_06]]
 ====== NewUrbanInfrastructureProject
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="NewUrbanInfrastructureProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="NewUrbanInfrastructureProject",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_08_07]]
 ====== ResidentialBlockConstructionProject
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ResidentialBlockConstructionProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ResidentialBlockConstructionProject",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_08_08]]
 ====== DisasterPreventionBlockImprovementProject
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DisasterPreventionBlockImprovementProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DisasterPreventionBlockImprovementProject",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_08_09]]
 ====== UrbanRenewalProject
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRenewalProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanRenewalProject",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 
 [[toc4_10_03_09]]
@@ -668,37 +668,37 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_10_03_09_01]]
 ====== ScheduledAreaForUrbanDevelopmentProject
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForUrbanDevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForUrbanDevelopmentProject",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_09_02]]
 ====== ScheduledAreaForNewHousingAndUrbanDevelopmentProjects
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForNewHousingAndUrbanDevelopmentProjects",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForNewHousingAndUrbanDevelopmentProjects",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_09_03]]
 ====== ScheduledAreaForIndustrialParkDevelopmentProjects
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForIndustrialParkDevelopmentProjects",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForIndustrialParkDevelopmentProjects",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_09_04]]
 ====== ScheduledAreaForNewUrbanInfrastructureProjects
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForNewUrbanInfrastructureProjects",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForNewUrbanInfrastructureProjects",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_09_05]]
 ====== ScheduledAreaForCollectiveHousingFacilities
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForCollectiveHousingFacilities",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForCollectiveHousingFacilities",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_09_06]]
 ====== ScheduledAreaForCollectiveGovernmentAndPublicOfficeFacilities
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForCollectiveGovernmentAndPublicOfficeFacilities",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForCollectiveGovernmentAndPublicOfficeFacilities",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_09_07]]
 ====== ScheduledAreaForDistributionBusinessPark
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForDistributionBusinessPark",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ScheduledAreaForDistributionBusinessPark",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10]]
 ===== 地区計画等
@@ -706,77 +706,77 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_10_03_10_01]]
 ====== DistrictPlan
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictPlan",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_02]]
 ====== RoadsideDistrictPlan
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="RoadsideDistrictPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="RoadsideDistrictPlan",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_03]]
 ====== RuralDistrictPlan
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="RuralDistrictPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="RuralDistrictPlan",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_04]]
 ====== HistoricSceneryMaintenanceAndImprovementDistrictPlan
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HistoricSceneryMaintenanceAndImprovementDistrictPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="HistoricSceneryMaintenanceAndImprovementDistrictPlan",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_05]]
 ====== DisasterPreventionBlockImprovementZonePlan
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DisasterPreventionBlockImprovementZonePlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DisasterPreventionBlockImprovementZonePlan",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_06]]
 ====== DistrictDevelopmentPlan
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictDevelopmentPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictDevelopmentPlan",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_07]]
 ====== SpecifiedBuildingZoneImprovementPlan
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecifiedBuildingZoneImprovementPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="SpecifiedBuildingZoneImprovementPlan",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_08]]
 ====== DistrictImprovementPlanForDisasterPreventionBlockImprovementZonePlan
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictImprovementPlanForDisasterPreventionBlockImprovementZonePlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictImprovementPlanForDisasterPreventionBlockImprovementZonePlan",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_09]]
 ====== RoadsideDistrictImprovementPlan
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="RoadsideDistrictImprovementPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="RoadsideDistrictImprovementPlan",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_10]]
 ====== RuralDistrictImprovementPlan
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="RuralDistrictImprovementPlan",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="RuralDistrictImprovementPlan",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_11]]
 ====== DistrictImprovementPlanForHistoricSceneryMaintenanceAndImprovementDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictImprovementPlanForHistoricSceneryMaintenanceAndImprovementDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictImprovementPlanForHistoricSceneryMaintenanceAndImprovementDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_12]]
 ====== PromotionDistrict
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="PromotionDistrict",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="PromotionDistrict",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_13]]
 ====== District
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="District",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="District",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_14]]
 ====== DistrictFacility
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="DistrictFacility",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_10_15]]
 ====== ZonalDisasterPreventionFacility
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ZonalDisasterPreventionFacility",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ZonalDisasterPreventionFacility",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_11]]
 ===== 立体的な範囲
@@ -784,7 +784,7 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_10_03_11_01]]
 ====== ThreeDimensionalExtent
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ThreeDimensionalExtent",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ThreeDimensionalExtent",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_12]]
 ===== 区域の境界
@@ -792,7 +792,7 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_10_03_12_01]]
 ====== Boundary
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="Boundary",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="Boundary",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_13]]
 ===== 立地適正化計画
@@ -800,12 +800,12 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 [[toc4_10_03_13_01]]
 ====== UrbanFunctionAttractionArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanFunctionAttractionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanFunctionAttractionArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_13_02]]
 ====== ResidenceAttractionArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ResidenceAttractionArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="ResidenceAttractionArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_urf.yaml"]
 
 [[toc4_10_03_14]]
 ===== データ品質属性
@@ -1012,4 +1012,3 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UrbanFacility_function.xm
 ====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
-

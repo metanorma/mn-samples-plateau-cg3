@@ -131,12 +131,12 @@ image::../../sources/images/EAID_8C11AE50_DCC3_4a5c_96FE_0C7A5A0B9471.png[]
 [[toc4_17_03_01_01]]
 ====== SolitaryVegetationObject
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Vegetation",name="SolitaryVegetationObject",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Vegetation",name="SolitaryVegetationObject",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_veg.yaml"]
 
 [[toc4_17_03_01_02]]
 ====== PlantCover
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Vegetation",name="PlantCover",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Vegetation",name="PlantCover",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_veg.yaml"]
 
 [[toc4_17_03_02]]
 ===== 施設管理のための拡張属性
@@ -221,4 +221,3 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Vegetation_lodType.xml[te
 ====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
-

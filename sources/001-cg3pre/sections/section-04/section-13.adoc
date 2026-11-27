@@ -233,82 +233,82 @@ image::../../sources/images/EAID_C357C419_061D_48ab_ADA7_5636CA47FEF6.png[]
 [[toc4_13_03_01_01]]
 ====== OtherConstruction
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="OtherConstruction",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="OtherConstruction",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_02]]
 ====== RoofSurface
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="RoofSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="RoofSurface",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_03]]
 ====== WallSurface
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="WallSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="WallSurface",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_04]]
 ====== GroundSurface
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="GroundSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="GroundSurface",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_05]]
 ====== OuterCeilingSurface
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="OuterCeilingSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="OuterCeilingSurface",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_06]]
 ====== OuterFloorSurface
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="OuterFloorSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="OuterFloorSurface",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_07]]
 ====== InteriorWallSurface
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="InteriorWallSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="InteriorWallSurface",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_08]]
 ====== CeilingSurface
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="CeilingSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="CeilingSurface",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_09]]
 ====== FloorSurface
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="FloorSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="FloorSurface",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_10]]
 ====== Window
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Window",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Window",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_11]]
 ====== WindowSurface
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="WindowSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="WindowSurface",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_12]]
 ====== Door
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Door",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Door",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_13]]
 ====== DoorSurface
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="DoorSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="DoorSurface",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_14]]
 ====== Elevation
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Elevation",template="../../sources/liquid_templates/_packages_data_type.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Elevation",template="../../sources/liquid_templates/_packages_data_type.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_15]]
 ====== Height
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Height",template="../../sources/liquid_templates/_packages_data_type.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="Height",template="../../sources/liquid_templates/_packages_data_type.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_01_16]]
 ====== ConstructionEvent
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="ConstructionEvent",template="../../sources/liquid_templates/_packages_data_type.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Construction",name="ConstructionEvent",template="../../sources/liquid_templates/_packages_data_type.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_02]]
 ===== Urban Object（i-UR）
@@ -316,37 +316,37 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="C
 [[toc4_13_03_02_01]]
 ====== ConstructionBaseAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ConstructionBaseAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ConstructionBaseAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_02_02]]
 ====== ConstructionRiskAssessmentAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ConstructionRiskAssessmentAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ConstructionRiskAssessmentAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_02_03]]
 ====== ConstructionStructureAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ConstructionStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ConstructionStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_02_04]]
 ====== EmbankmentAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="EmbankmentAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="EmbankmentAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_02_05]]
 ====== DamAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="DamAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="DamAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_02_06]]
 ====== OtherConstructionInstallation
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OtherConstructionInstallation",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OtherConstructionInstallation",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_02_07]]
 ====== OtherConstructiveElement
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OtherConstructiveElement",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OtherConstructiveElement",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_con.yaml"]
 
 [[toc4_13_03_03]]
 ===== 施設管理のための拡張属性
@@ -516,18 +516,18 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/OtherConstruction_lodType
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,（一元化する場合）データ集合のコードリスト>>　参照。
 
-[[HightStatusValue]]
-====== HightStatusValue
+// [[HightStatusValue]]
+// ====== HightStatusValue
 
-[cols="3a,22a"]
-|===
-| 列挙型 | HightStatusValue
+// [cols="3a,22a"]
+// |===
+// | 列挙型 | HightStatusValue
 
-h| 値 h| 説明
-| estimated | 推定値
-| measured | 計測値
+// h| 値 h| 説明
+// | estimated | 推定値
+// | measured | 計測値
 
-|===
+// |===
 
 [.source]
 <<citygml_30>>
@@ -568,4 +568,3 @@ h| 値 h| 説明
 
 [.source]
 <<citygml_30>>
-

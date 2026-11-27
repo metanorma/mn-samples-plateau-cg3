@@ -72,7 +72,7 @@ image::../../sources/images/EAID_1AD91FDC_5E3B_47ad_9CCA_44B9F661D298.png[]
 [[toc4_08_03_01_01]]
 ====== LandUse
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="LandUse",name="LandUse",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="LandUse",name="LandUse",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_luse.yaml"]
 
 [[toc4_08_03_02]]
 ===== Urban Object （i-UR）
@@ -80,7 +80,7 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="L
 [[toc4_08_03_02_01]]
 ====== LandUseDetailAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="LandUseDetailAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance.yaml"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="LandUseDetailAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_luse.yaml"]
 
 [[toc4_08_03_03]]
 ===== 施設管理のための拡張属性
@@ -143,4 +143,3 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_ownerType.xml[temp
 ====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
-

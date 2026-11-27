@@ -29,42 +29,42 @@ image::../../sources/images/EAID_74DB2087_E1FC_42a7_A349_2D89BED649A5.png[]
 [[toc4_28_03_01_01]]
 ====== Dynamizer
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="Dynamizer",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="Dynamizer",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_dyn.yaml"]
 
 [[toc4_28_03_01_02]]
 ====== CompositeTimeseries
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="CompositeTimeseries",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="CompositeTimeseries",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_dyn.yaml"]
 
 [[toc4_28_03_01_03]]
 ====== GenericTimeseries
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="GenericTimeseries",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="GenericTimeseries",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_dyn.yaml"]
 
 [[toc4_28_03_01_04]]
 ====== StandardFileTimeseries
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="StandardFileTimeseries",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="StandardFileTimeseries",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_dyn.yaml"]
 
 [[toc4_28_03_01_05]]
 ====== TabulatedFileTimeseries
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TabulatedFileTimeseries",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TabulatedFileTimeseries",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_dyn.yaml"]
 
 [[toc4_28_03_01_06]]
 ====== SensorConnection
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="SensorConnection",template="../../sources/liquid_templates/_packages_data_type.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="SensorConnection",template="../../sources/liquid_templates/_packages_data_type.liquid",guidance="../../sources/guidance/guidance_dyn.yaml"]
 
 [[toc4_28_03_01_07]]
 ====== TimeseriesComponent
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TimeseriesComponent",template="../../sources/liquid_templates/_packages_data_type.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TimeseriesComponent",template="../../sources/liquid_templates/_packages_data_type.liquid",guidance="../../sources/guidance/guidance_dyn.yaml"]
 
 [[toc4_28_03_01_08]]
 ====== TimeValuePair
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TimeValuePair",template="../../sources/liquid_templates/_packages_data_type.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Dynamizer",name="TimeValuePair",template="../../sources/liquid_templates/_packages_data_type.liquid",guidance="../../sources/guidance/guidance_dyn.yaml"]
 
 
 
@@ -102,19 +102,21 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/SensorConnection_authType
 [[TimeseriesTypeValue]]
 ====== TimeseriesTypeValue
 
-[cols="a,a"]
-|===
-| 列挙型 | TimeseriesTypeValue
+// [cols="a,a"]
+// |===
+// | 列挙型 | TimeseriesTypeValue
 
-h| 値 h| 説明
-| int |GenericTimeseriesの値の型が整数型である。
-| double | GenericTimeseriesの値の型が実数型である。
-| string | GenericTimeseriesの値の型が文字列型である。
-| geometry | GenericTimeseriesの値が幾何オブジェクトである。
-| uri | GenericTimeseriesの値の型が識別子型である。
-| bool | GenericTimeseriesの値の型が真偽値型である。
-| implicitGeometry | GenericTimeseriesの値の型がImplicitGeometry型である。
-| appearance | GenericTimeseriesの値の型がAppearance型である。
+// h| 値 h| 説明
+// | int |GenericTimeseriesの値の型が整数型である。
+// | double | GenericTimeseriesの値の型が実数型である。
+// | string | GenericTimeseriesの値の型が文字列型である。
+// | geometry | GenericTimeseriesの値が幾何オブジェクトである。
+// | uri | GenericTimeseriesの値の型が識別子型である。
+// | bool | GenericTimeseriesの値の型が真偽値型である。
+// | implicitGeometry | GenericTimeseriesの値の型がImplicitGeometry型である。
+// | appearance | GenericTimeseriesの値の型がAppearance型である。
 
-|===
+// |===
 
+
+lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="TimeseriesTypeValue",template="../../sources/liquid_templates/_enum_table.liquid"]

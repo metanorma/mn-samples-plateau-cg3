@@ -209,77 +209,77 @@ image::../../sources/images/EAID_104C1085_5A90_4831_A822_92BC5EA209E2.png[]
 [[toc4_15_03_01_01]]
 ====== WaterPipe
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="WaterPipe",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="WaterPipe",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_02]]
 ====== SewerPipe
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="SewerPipe",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="SewerPipe",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_03]]
 ====== ThermalPipe
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ThermalPipe",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ThermalPipe",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_04]]
 ====== OilGasChemicalsPipe
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OilGasChemicalsPipe",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OilGasChemicalsPipe",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_05]]
 ====== Pipe
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Pipe",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Pipe",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_06]]
 ====== Duct
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Duct",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Duct",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_07]]
 ====== TelecommunicationsCable
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TelecommunicationsCable",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TelecommunicationsCable",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_08]]
 ====== ElectricityCable
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ElectricityCable",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ElectricityCable",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_09]]
 ====== Cable
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Cable",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Cable",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_10]]
 ====== Appurtenance
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Appurtenance",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Appurtenance",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_11]]
 ====== Manhole
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Manhole",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Manhole",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_12]]
 ====== Handhole
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Handhole",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Handhole",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_13]]
 ====== OffsetDepth
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OffsetDepth",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OffsetDepth",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_14]]
 ====== ThematicShape
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ThematicShape",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ThematicShape",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_15]]
 ====== LengthAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="LengthAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="LengthAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 ====== CityFurnitureDetailAttribute
 
@@ -395,4 +395,3 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UtilityNetworkElement_lod
 ====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
-

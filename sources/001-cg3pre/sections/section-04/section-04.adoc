@@ -204,7 +204,7 @@ image::../../sources/images/EAID_872C03DE_9641_49b2_B143_230CE28BC741.png[]
 [[toc4_04_03_01_01]]
 ====== Railway
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Railway",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Railway",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_rwy.yaml"]
 
 ====== TrafficArea
 
@@ -252,42 +252,42 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="T
 [[toc4_04_03_02_01]]
 ====== RailwayRouteAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="RailwayRouteAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="RailwayRouteAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_rwy.yaml"]
 
 [[toc4_04_03_02_02]]
 ====== RailwayTrackAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="RailwayTrackAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="RailwayTrackAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_rwy.yaml"]
 
 [[toc4_04_03_02_03]]
 ====== ControlPoint
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ControlPoint",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ControlPoint",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_rwy.yaml"]
 
 [[toc4_04_03_02_04]]
 ====== ControlPointType
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ControlPointType",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ControlPointType",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_rwy.yaml"]
 
 [[toc4_04_03_02_05]]
 ====== CircularCurveType
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="CircularCurveType",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="CircularCurveType",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_rwy.yaml"]
 
 [[toc4_04_03_02_06]]
 ====== TransitionCurveType
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TransitionCurveType",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TransitionCurveType",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_rwy.yaml"]
 
 [[toc4_04_03_02_07]]
 ====== VerticalCurveType
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="VerticalCurveType",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="VerticalCurveType",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_rwy.yaml"]
 
 [[toc4_04_03_02_08]]
 ====== SlopeType
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="SlopeType",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="SlopeType",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_rwy.yaml"]
 
 [[toc4_04_03_03]]
 ===== 施設管理のための拡張属性
@@ -421,4 +421,3 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Railway_lodType.xml[templ
 ====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
-

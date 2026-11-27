@@ -1,0 +1,435 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::Transportation::Road"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractUnoccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfAbstractTransportationSpace
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfRoad
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Transportation::TrafficArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: Transportation:class
+    used: true
+    guidance: 未利用
+  - name: Transportation:usage
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfTrafficArea
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Transportation::AuxiliaryTrafficArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: Transportation:class
+    used: true
+    guidance: 未利用
+  - name: Transportation:usage
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfAuxiliaryTrafficArea
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Transportation::TrafficSpace"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractUnoccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Transportation:class
+    used: true
+    guidance: 未利用
+  - name: Transportation:usage
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfTrafficSpace
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Transportation::AuxiliaryTrafficSpace"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractUnoccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Transportation:class
+    used: true
+    guidance: 未利用
+  - name: Transportation:usage
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfAuxiliaryTrafficSpace
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Transportation::ClearanceSpace"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractUnoccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfClearanceSpace
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Transportation::Hole"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractUnoccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfHole
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Transportation::HoleSurface"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfHoleSurface
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Transportation::Section"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractUnoccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfAbstractTransportationSpace
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfSection
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Transportation::Intersection"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractUnoccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfAbstractTransportationSpace
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfIntersection
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::Transportation::Marking"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: Transportation:adeOfMarking
+    used: true
+    guidance: 未利用

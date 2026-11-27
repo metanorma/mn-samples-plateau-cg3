@@ -1,0 +1,79 @@
+---
+classes:
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UndergroundBuilding"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: Construction:dateOfDemolition
+    used: true
+    guidance: 未利用
+  - name: Construction:constructionEvent
+    used: true
+    guidance: 未利用
+  - name: Construction:occupancy
+    used: true
+    guidance: 未利用
+  - name: Construction:adeOfAbstractConstruction
+    used: true
+    guidance: 未利用
+  - name: Building:class
+    used: true
+    guidance: 未利用
+  - name: Building:function
+    used: true
+    guidance: 未利用
+  - name: Building:roofType
+    used: true
+    guidance: 未利用
+  - name: Building:storeysAboveGround
+    used: true
+    guidance: 未利用
+  - name: Building:storeyHeightsAboveGround
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: true
+    guidance: 未利用

@@ -219,57 +219,57 @@ image::../../sources/images/EAID_08E92668_C843_4fb6_9CCD_CBBE5614436B.png[]
 [[toc4_03_03_01_01]]
 ====== Road
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Road",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Road",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 [[toc4_03_03_01_02]]
 ====== TrafficArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="TrafficArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="TrafficArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 [[toc4_03_03_01_03]]
 ====== AuxiliaryTrafficArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="AuxiliaryTrafficArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="AuxiliaryTrafficArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 [[toc4_03_03_01_04]]
 ====== TrafficSpace
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="TrafficSpace",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="TrafficSpace",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 [[toc4_03_03_01_05]]
 ====== AuxiliaryTrafficSpace
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="AuxiliaryTrafficSpace",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="AuxiliaryTrafficSpace",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 [[toc4_03_03_01_06]]
 ====== ClearanceSpace
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="ClearanceSpace",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="ClearanceSpace",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 [[toc4_03_03_01_07]]
 ====== Hole
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Hole",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Hole",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 [[toc4_03_03_01_08]]
 ====== HoleSurface
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="HoleSurface",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="HoleSurface",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 [[toc4_03_03_01_09]]
 ====== Section
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Section",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Section",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 [[toc4_03_03_01_10]]
 ====== Intersection
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Intersection",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Intersection",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 [[toc4_03_03_01_11]]
 ====== Marking
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Marking",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Marking",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 
 [[toc4_03_03_02]]
@@ -278,17 +278,17 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="T
 [[toc4_03_03_02_01]]
 ====== RoadStructureAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="RoadStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="RoadStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 [[toc4_03_03_02_02]]
 ====== TrafficVolumeAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TrafficVolumeAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TrafficVolumeAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 [[toc4_03_03_02_03]]
 ====== TrafficAreaStructureAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TrafficAreaStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TrafficAreaStructureAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_road.yaml"]
 
 
 [[toc4_03_03_03]]
@@ -465,13 +465,15 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Road_lodType.xml[template
 [[TrafficDirectionValue]]
 ====== TrafficDirectionValue
 
-[cols="a,a"]
-|===
-| 列挙型 | TrafficDirectionValue
+// [cols="a,a"]
+// |===
+// | 列挙型 | TrafficDirectionValue
 
-h| 値 h| 説明
-| forwards | 前
-| backwards | 後
-| both | 双方向
+// h| 値 h| 説明
+// | forwards | 前
+// | backwards | 後
+// | both | 双方向
 
-|===
+// |===
+
+lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="TrafficDirectionValue",template="../../sources/liquid_templates/_enum_table.liquid"]

@@ -1,0 +1,113 @@
+---
+classes:
+- name: "::EA_Model::Model::CityGML::WaterBody::WaterBody"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractPhysicalSpace
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractOccupiedSpace
+    used: true
+    guidance: 未利用
+  - name: WaterBody:usage
+    used: true
+    guidance: 未利用
+  - name: WaterBody:adeOfWaterBody
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3MultiCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod1TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod2TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod3TerrainIntersectionCurve
+    used: true
+    guidance: 未利用
+  - name: Core:lod1ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod2ImplicitRepresentation
+    used: true
+    guidance: 未利用
+  - name: Core:lod3ImplicitRepresentation
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::WaterBody::WaterSurface"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: WaterBody:adeOfAbstractWaterBoundarySurface
+    used: true
+    guidance: 未利用
+  - name: WaterBody:waterLevel
+    used: true
+    guidance: 未利用
+  - name: WaterBody:adeOfWaterSurface
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::CityGML::WaterBody::WaterGroundSurface"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractCityObject
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: WaterBody:adeOfAbstractWaterBoundarySurface
+    used: true
+    guidance: 未利用
+  - name: WaterBody:adeOfWaterGroundSurface
+    used: true
+    guidance: 未利用

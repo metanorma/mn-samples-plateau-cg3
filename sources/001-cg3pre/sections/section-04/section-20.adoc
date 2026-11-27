@@ -57,22 +57,22 @@ image::../../sources/images/EAID_18A1CDA3_FEA8_45ff_9237_CDBFAA9F77C0.png[]
 [[toc4_20_03_01_01]]
 ====== Zone
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="Zone",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="Zone",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_area.yaml"]
 
 [[toc4_20_03_01_02]]
 ====== Boundary
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="Boundary",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="Boundary",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_area.yaml"]
 
 [[toc4_20_03_01_03]]
 ====== UrbanParkAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanParkAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="UrbanParkAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_area.yaml"]
 
 [[toc4_20_03_01_04]]
 ====== BreakdownOfNominalArea
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="BreakdownOfNominalArea",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urf",name="BreakdownOfNominalArea",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_area.yaml"]
 
 [[toc4_20_03_02]]
 ===== データ品質属性
@@ -127,4 +127,3 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Zone_function.xml[templat
 ====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
-

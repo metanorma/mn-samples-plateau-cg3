@@ -35,7 +35,7 @@ image::../../sources/images/EAID_D0DDCE77_D82A_4c13_8569_E22EAC808DA4.png[]
 [[toc4_23_03_01_01]]
 ====== PointCloud
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="PointCloud",name="PointCloud",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="PointCloud",name="PointCloud",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_pcl.yaml"]
 
 [[toc4_23_03_02]]
 ===== UrbanObject（i-UR）
@@ -43,7 +43,7 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="P
 [[toc4_23_03_02_01]]
 ====== PointCloudSpecAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="PointCloudSpecAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="PointCloudSpecAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_pcl.yaml"]
 
 別表：ASPRSが定義したクラス分類
 
@@ -129,4 +129,3 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PointCloudSpecAttribute_s
 ====== PointCloudSpecAttribute_srcScale.xml
 
 lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PointCloudSpecAttribute_srcScale.xml[template="gml_dict_template.liquid",context=dict]
-

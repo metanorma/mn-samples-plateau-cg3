@@ -271,7 +271,7 @@ image::../../sources/images/EAID_723FC20D_EEAC_47b8_AF75_941EDA1040BC.png[]
 [[toc4_16_03_01_01]]
 ====== UndergroundBuilding
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="UndergroundBuilding",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="UndergroundBuilding",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_ubld.yaml"]
 
 その他の地物型及びデータ型については、<<toc4_02_03,建築物モデルの応用スキーマ文書>>を参照。
 
@@ -287,5 +287,4 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 ====== UndergroundBuilding_lodType.xml
 
 lutaml_gml_dictionary::../../sources/iur/codelists/4.0/UndergroundBuilding_lodType.xml[template="gml_dict_template.liquid",context=dict]
-
 

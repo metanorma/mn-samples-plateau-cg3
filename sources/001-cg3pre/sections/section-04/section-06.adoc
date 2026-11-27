@@ -206,7 +206,7 @@ image::../../sources/images/EAID_6093F7DB_AB6E_4c08_996C_72937CA1A8BA.png[]
 [[toc4_06_03_01_01]]
 ====== Square
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Square",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Transportation",name="Square",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_squr.yaml"]
 
 ====== TrafficArea
 
@@ -246,17 +246,17 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="T
 [[toc4_06_03_02_01]]
 ====== SquareUrbanPlanAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="SquareUrbanPlanAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="SquareUrbanPlanAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_squr.yaml"]
 
 [[toc4_06_03_02_02]]
 ====== StationSquareAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="StationSquareAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="StationSquareAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_squr.yaml"]
 
 [[toc4_06_03_02_03]]
 ====== TerminalAttribute
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TerminalAttribute",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="TerminalAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_squr.yaml"]
 
 [[toc4_06_03_03]]
 ===== 施設管理のための拡張属性
@@ -387,4 +387,3 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/TerminalAttribute_termina
 ====== PublicSurveyDataQualityAttribute_geometrySrcDesc.xml
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
-

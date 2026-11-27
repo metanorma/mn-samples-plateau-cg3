@@ -53,17 +53,17 @@ image::../../sources/images/EAID_9E21C99D_ED51_47f8_90E4_7CDA94BEDAC4.png[]
 [[toc4_22_03_01_01]]
 ====== Appearance
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="Appearance",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="Appearance",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_app.yaml"]
 
 [[toc4_22_03_01_02]]
 ====== ParameterizedTexture
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="ParameterizedTexture",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="ParameterizedTexture",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_app.yaml"]
 
 [[toc4_22_03_01_03]]
 ====== TexCoordList
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="TexCoordList",template="../../sources/liquid_templates/_packages_data_type.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="TexCoordList",template="../../sources/liquid_templates/_packages_data_type.liquid",guidance="../../sources/guidance/guidance_app.yaml"]
 
 [[toc4_22_03_01_04]]
 ====== TexCoordGen
@@ -73,12 +73,12 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="A
 [[toc4_22_03_01_05]]
 ====== X3DMaterial
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="X3DMaterial",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="X3DMaterial",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_app.yaml"]
 
 [[toc4_22_03_01_06]]
 ====== GeoreferencedTexture
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="GeoreferencedTexture",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="GeoreferencedTexture",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_app.yaml"]
 
 [[toc4_22_03_01_07]]
 ====== TextureAssociation
@@ -92,12 +92,12 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[name="Text
 [[toc4_22_03_01_08]]
 ====== Color
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="Color",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="Color",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_app.yaml"]
 
 [[toc4_22_03_01_09]]
 ====== ColorPlusOpacity
 
-lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="ColorPlusOpacity",template="../../sources/liquid_templates/_klass_table.liquid"]
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="Appearance",name="ColorPlusOpacity",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_app.yaml"]
 
 [[toc4_22_04]]
 ==== アピアランスモデルで使用するコードリストと列挙型
@@ -126,6 +126,7 @@ h| 値 h| 説明
 | unknown | 不明
 
 |===
+
 
 [.source]
 <<citygml_20>>

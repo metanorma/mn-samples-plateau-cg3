@@ -52,29 +52,33 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="V
 [[TransactionTypeValue]]
 ====== TransactionTypeValue
 
-[cols="a,a"]
-|===
-| 列挙型 | TransactionTypeValue
+// [cols="a,a"]
+// |===
+// | 列挙型 | TransactionTypeValue
 
-h| 値 h| 説明
-| insert | 作成
-| delete | 廃止
-| replace | 置換
+// h| 値 h| 説明
+// | insert | 作成
+// | delete | 廃止
+// | replace | 置換
 
-|===
+// |===
+
+lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="TransactionTypeValue",template="../../sources/liquid_templates/_enum_table.liquid"]
 
 [[TransitionTypeValue]]
 ====== TransitionTypeValue
 
-[cols="a,a"]
-|===
-| 列挙型 | TransitionTypeValue
+// [cols="a,a"]
+// |===
+// | 列挙型 | TransitionTypeValue
 
-h| 値 h| 説明
-| planned | 後続バージョニングの都市モデルが、都市の将来のあり得る状態に対する計画案を表す遷移である。
-| realized | 先行バージョニングが、複数の計画バージョニングの中から選択されたものであることを示す遷移である。
-| historicalSuccession | 後続バージョニングが、時間の経過に伴う都市モデルの更新履歴を表す遷移である。これは、一つの都市モデルのバージョニングから出るバージョニング遷移のうち、最大一つにのみ使用する。
-| fork | 異なる主体が都市モデルの異なる部分を更新する場合や、複数のシミュレーション結果を反映する場合など、代替となる都市モデルのバージョニングを作成するための遷移である。
-| merge | 複数の都市モデルのバージョニングを、共通の一つの都市モデルのバージョニングに統合するための遷移である。
+// h| 値 h| 説明
+// | planned | 後続バージョニングの都市モデルが、都市の将来のあり得る状態に対する計画案を表す遷移である。
+// | realized | 先行バージョニングが、複数の計画バージョニングの中から選択されたものであることを示す遷移である。
+// | historicalSuccession | 後続バージョニングが、時間の経過に伴う都市モデルの更新履歴を表す遷移である。これは、一つの都市モデルのバージョニングから出るバージョニング遷移のうち、最大一つにのみ使用する。
+// | fork | 異なる主体が都市モデルの異なる部分を更新する場合や、複数のシミュレーション結果を反映する場合など、代替となる都市モデルのバージョニングを作成するための遷移である。
+// | merge | 複数の都市モデルのバージョニングを、共通の一つの都市モデルのバージョニングに統合するための遷移である。
 
-|===
+// |===
+
+lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="TransitionTypeValue",template="../../sources/liquid_templates/_enum_table.liquid"]
