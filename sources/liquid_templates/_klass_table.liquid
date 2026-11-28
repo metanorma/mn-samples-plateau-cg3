@@ -3,8 +3,8 @@
 Initialize global variables and mappings
 ==============================================
 {%- endcomment -%}
-{% assign root = klass.generalization | default: klass %}
-{% assign citygml_ns = "app,bldg,brid,core,dem,frn,gen,grp,luse,tran,tun,veg,wtr,uro" | split: "," %}
+{%- assign root = klass.generalization | default: klass -%}
+{%- assign citygml_ns = "app,bldg,brid,core,dem,frn,gen,grp,luse,tran,tun,veg,wtr,uro" | split: "," -%}
 
 {%- comment -%}Format upper class name{%- endcomment -%}
 {%- capture upper_klass_name -%}
@@ -26,7 +26,7 @@ Two formats supported:
   1. With package/class: "package|class|attribute=>target_package|xsd_element"
   2. Attribute only: "attribute=>target_package|xsd_element"
 {%- endcomment -%}
-{% assign mapping_keys = "
+{%- assign mapping_keys = "
 dateAttribute=>gen|gen:dateAttribute,
 doubleAttribute=>gen|gen:doubleAttribute,
 genericAttributeSet=>gen|gen:genericAttributeSet,
@@ -141,7 +141,7 @@ wtr|WaterBody|wtrKeyValuePairAttribute=>uro|uro:KeyValuePairAttribute,
 dataQualityAttribute=>urf|uro:DataQualityAttribute,
 keyValuePairAttribute=>urf|uro:KeyValuePairAttribute,
 urfDmAttribute=>urf|uro:DmAttribute
-" | strip_newlines | split: "," %}
+" | strip_newlines | split: "," -%}
 
 {%- comment -%}Configure table columns{%- endcomment -%}
 {%- assign guidance_column = false -%}
@@ -162,12 +162,12 @@ h| 型の定義 {{ cols_header }}+| {{ root.definition }}
 h| 上位の型 {{ cols_header }}+| {{ upper_klass_name }}
 h| ステレオタイプ {{ cols_header }}+| {{ stereotype }}
 
-{% assign inherited_props = root.inherited_props %}
-{% if inherited_props.size > 0 %}
+{%- assign inherited_props = root.inherited_props -%}
+{%- if inherited_props.size > 0 %}
 {{ cols_number }}+h| 継承する属性
 h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? and guidance_column -%} h| 補足{%- endif %}
-{% for attr in inherited_props %}
-  {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
+{%- for attr in inherited_props -%}
+  {%- assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last -%}
   {%- capture name_col -%}
     {%- if attr.used? == "false" -%}
       ({{ attr.name }}) +
@@ -177,26 +177,24 @@ h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? 
       [{{ attr.gen_name }}]
     {%- endif -%}
   {%- endcapture -%}
-  {% assign type_col = attr.type | split: ":" | last %}
-
-  {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
-  {% if attr_cardinality == '..*' %}
-    {% assign attr_cardinality = '0..*' %}
-  {% endif %}
-  
+  {%- assign type_col = attr.type | split: ":" | last -%}
+  {%- assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max -%}
+  {%- if attr_cardinality == '..*' -%}
+    {%- assign attr_cardinality = '0..*' -%}
+  {%- endif %}
   | {{ name_col }}
   | {{ type_col }} [{{ attr_cardinality }}]
   | {{ attr.definition }}
   {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.guidance and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
-{% endfor %}
-{% endif %}
+{% endfor -%}
+{%- endif %}
 
-{% assign owned_props = root.owned_props | default: root.owned_attributes %}
-{% if owned_props.size > 0 %}
+{%- assign owned_props = root.owned_props | default: root.owned_attributes -%}
+{%- if owned_props.size > 0 %}
 {{ cols_number }}+h| 自身に定義された属性
 h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? and guidance_column %} h| 補足{%- endif %}
-{% for attr in owned_props %}
-  {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
+{%- for attr in owned_props -%}
+  {%- assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last -%}
   {%- capture name_col -%}
     {%- if attr.used? == "false" -%}
       ({{ attr.name }}) +
@@ -206,237 +204,206 @@ h| 属性名 h| 属性の型及び多重度 h| 定義 {% if klass.has_guidance? 
       [{{ attr.gen_name }}]
     {%- endif -%}
   {%- endcapture -%}
-  {% assign type_col = attr.type | split: ":" | last %}
-
-  {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
-  {% if attr_cardinality == '..*' %}
-    {% assign attr_cardinality = '0..*' %}
-  {% endif %}
-  
+  {%- assign type_col = attr.type | split: ":" | last -%}
+  {%- assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max -%}
+  {%- if attr_cardinality == '..*' -%}
+    {%- assign attr_cardinality = '0..*' -%}
+  {%- endif %}
   | {{ name_col }}
   | {{ type_col }} [{{ attr_cardinality }}]
   | {{ attr.definition }}
   {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.guidance and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
-{% endfor %}
-{% endif %}
+{% endfor -%}
+{%- endif %}
 
-{% assign inherited_assoc_props = root.sorted_inherited_assoc_props %}
-{% if inherited_assoc_props.size > 0 %}
+{%- assign inherited_assoc_props = root.sorted_inherited_assoc_props -%}
+{%- if inherited_assoc_props.size > 0 %}
 {{ cols_number }}+h| 継承する関連役割
 h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.has_guidance? and guidance_column %} h| 補足{%- endif %}
-  {% assign all_gen_names = '' %}
-  {% for attr in inherited_assoc_props %}
-    {% assign all_gen_names = all_gen_names | append: ',' | append: attr.gen_name %}
-  {% endfor %}
-  {% assign all_gens = all_gen_names | split: ',' | uniq %}
-{% for cur_gen in all_gens %}
-  {% assign performed = false %}
-  {% for attr in inherited_assoc_props %}
-    {% assign props_with_same_gen = inherited_assoc_props | where: 'gen_name', cur_gen %}
-    {% unless performed %}
-      {% for attr in props_with_same_gen %}
-        {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
-        {% if citygml_ns contains attr_upper_klass_name %}
-
-        {% assign name_col_role_and_name = attr_upper_klass_name | append: ":" | append: attr.name %}
-        {% assign type_col_role_and_name = attr.type_ns | append: ":" | append: attr.type %}
-
-        {% for mapping_entry in mapping_keys %}
-          {% assign parts = mapping_entry | split: "=>" %}
-          {% assign key = parts[0] | split: "|" %}
-          {% assign target = parts[1] | split: "|" %}
-          {% if key.size == 3 %}
-            {% comment %}Match on package|class|attribute{% endcomment %}
-            {% if key[0] == attr_upper_klass_name and key[2] == attr.name and target[1] == type_col_role_and_name %}
-              {% assign name_col_role_and_name = target[0] | append: ":" | append: attr.name %}
-              {% break %}
-            {% endif %}
-          {% elsif key.size == 1 %}
-            {% comment %}Match on attribute name only{% endcomment %}
-            {% if parts[0] == attr.name and target[1] == type_col_role_and_name %}
-              {% assign name_col_role_and_name = target[0] | append: ":" | append: attr.name %}
-              {% break %}
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-
-        {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
-        {% if attr_cardinality == '..*' %}
-          {% assign attr_cardinality = '0..*' %}
-        {% endif %}
-
-        {%- capture name_col -%}
-          {%- if attr.used? == "false" -%}
-            ({{ name_col_role_and_name  | split: ":" | last }}) +
-            [{{ attr.gen_name }}]
-          {%- else -%}
-            {{ name_col_role_and_name  | split: ":" | last }} +
-            [{{ attr.gen_name }}]
-          {%- endif -%}
-        {%- endcapture -%}        
-        
-        {% assign testdsp = attr.definition %}
-        {% if name_col contains "relatedTo" and name_col_role_and_name  contains "Core" %}
-          {% assign testdsp = "他の都市オブジェクトとの関連。 特定の地物が、自身の構成要素（部品）ではない他の地物と何らかの関係を持つ場合に、その対象となる地物への参照。" %}
-        {% elsif name_col contains "textureParameterization" and name_col_role_and_name  contains "Appearance" %}
-          {% assign testdsp = "座標の割り当てに用いられるテクスチャ座標又は変換行列。" %}
-        {% elsif name_col contains "groupMember" and name_col_role_and_name  contains "CityObjectGroup" %}
-          {% assign testdsp = "都市オブジェクトグループを構成する都市オブジェクト。" %}
-        {% endif %}
-        
+  {%- assign all_gen_names = '' -%}
+  {%- for attr in inherited_assoc_props -%}
+    {%- assign all_gen_names = all_gen_names | append: ',' | append: attr.gen_name -%}
+  {%- endfor -%}
+  {%- assign all_gens = all_gen_names | split: ',' | uniq -%}
+{%- for cur_gen in all_gens -%}
+  {%- assign props_with_same_gen = inherited_assoc_props | where: 'gen_name', cur_gen -%}
+  {%- for attr in props_with_same_gen -%}
+    {%- assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last -%}
+    {%- if citygml_ns contains attr_upper_klass_name -%}
+    {%- assign name_col_role_and_name = attr_upper_klass_name | append: ":" | append: attr.name -%}
+    {%- assign type_col_role_and_name = attr.type_ns | append: ":" | append: attr.type -%}
+    {%- for mapping_entry in mapping_keys -%}
+      {%- assign parts = mapping_entry | split: "=>" -%}
+      {%- assign key = parts[0] | split: "|" -%}
+      {%- assign target = parts[1] | split: "|" -%}
+      {%- if key.size == 3 -%}
+        {%- comment -%}Match on package|class|attribute{%- endcomment -%}
+        {%- if key[0] == attr_upper_klass_name and key[2] == attr.name and target[1] == type_col_role_and_name -%}
+          {%- assign name_col_role_and_name = target[0] | append: ":" | append: attr.name -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- elsif key.size == 1 -%}
+        {%- comment -%}Match on attribute name only{%- endcomment -%}
+        {%- if parts[0] == attr.name and target[1] == type_col_role_and_name -%}
+          {%- assign name_col_role_and_name = target[0] | append: ":" | append: attr.name -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max -%}
+    {%- if attr_cardinality == '..*' -%}
+      {%- assign attr_cardinality = '0..*' -%}
+    {%- endif -%}
+    {%- capture name_col -%}
+      {%- if attr.used? == "false" -%}
+        ({{ name_col_role_and_name | split: ":" | last }}) +
+        [{{ attr.gen_name }}]
+      {%- else -%}
+        {{ name_col_role_and_name | split: ":" | last }} +
+        [{{ attr.gen_name }}]
+      {%- endif -%}
+    {%- endcapture -%}
+    {%- assign testdsp = attr.definition -%}
+    {%- if name_col contains "relatedTo" and name_col_role_and_name contains "Core" -%}
+      {%- assign testdsp = "他の都市オブジェクトとの関連。 特定の地物が、自身の構成要素（部品）ではない他の地物と何らかの関係を持つ場合に、その対象となる地物への参照。" -%}
+    {%- elsif name_col contains "textureParameterization" and name_col_role_and_name contains "Appearance" -%}
+      {%- assign testdsp = "座標の割り当てに用いられるテクスチャ座標又は変換行列。" -%}
+    {%- elsif name_col contains "groupMember" and name_col_role_and_name contains "CityObjectGroup" -%}
+      {%- assign testdsp = "都市オブジェクトグループを構成する都市オブジェクト。" -%}
+    {%- endif %}
         | {{ name_col }}
         | {{ attr.type }} [{{ attr_cardinality }}]
         | {{ testdsp }}
         {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.guidance and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
-        {% endif %}
-      {% endfor %}
-      {% for attr in props_with_same_gen %}
-        {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
-        {% unless citygml_ns contains attr_upper_klass_name %}
-        {%- capture name_col -%}
-          {%- if attr.used? == "false" -%}
-            ({{ attr.name }}) +
-            [{{ attr.gen_name }}]
-          {%- else -%}
-            {{ attr.name }} +
-            [{{ attr.gen_name }}]
-          {%- endif -%}
-        {%- endcapture -%}                
-        
-        {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
-        {% if attr_cardinality == '..*' %}
-          {% assign attr_cardinality = '0..*' %}
-        {% endif %}
-        
-        {% assign testdsp = attr.definition %}
-        {% if name_col contains "relatedTo" and attr_upper_klass_name == "Core" %}
-          {% assign testdsp = "他の都市オブジェクトとの関連。 特定の地物が、自身の構成要素（部品）ではない他の地物と何らかの関係を持つ場合に、その対象となる地物への参照。" %}
-        {% elsif name_col contains "textureParameterization" and attr_upper_klass_name == "Appearance" %}
-          {% assign testdsp = "座標の割り当てに用いられるテクスチャ座標又は変換行列。" %}
-        {% elsif name_col contains "groupMember" and attr_upper_klass_name == "CityObjectGroup" %}
-          {% assign testdsp = "都市オブジェクトグループを構成する都市オブジェクト。" %}
-        {% endif %}
-        
+    {% endif -%}
+  {%- endfor -%}
+  {%- for attr in props_with_same_gen -%}
+    {%- assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last -%}
+    {%- unless citygml_ns contains attr_upper_klass_name -%}
+      {%- capture name_col -%}
+        {%- if attr.used? == "false" -%}
+          ({{ attr.name }}) +
+          [{{ attr.gen_name }}]
+        {%- else -%}
+          {{ attr.name }} +
+          [{{ attr.gen_name }}]
+        {%- endif -%}
+      {%- endcapture -%}
+      {%- assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max -%}
+      {%- if attr_cardinality == '..*' -%}
+        {%- assign attr_cardinality = '0..*' -%}
+      {%- endif -%}
+      {%- assign testdsp = attr.definition -%}
+      {%- if name_col contains "relatedTo" and attr_upper_klass_name == "Core" -%}
+        {%- assign testdsp = "他の都市オブジェクトとの関連。 特定の地物が、自身の構成要素（部品）ではない他の地物と何らかの関係を持つ場合に、その対象となる地物への参照。" -%}
+      {%- elsif name_col contains "textureParameterization" and attr_upper_klass_name == "Appearance" -%}
+        {%- assign testdsp = "座標の割り当てに用いられるテクスチャ座標又は変換行列。" -%}
+      {%- elsif name_col contains "groupMember" and attr_upper_klass_name == "CityObjectGroup" -%}
+        {%- assign testdsp = "都市オブジェクトグループを構成する都市オブジェクト。" -%}
+      {%- endif %}
         | {{ name_col }}
         | {{ attr.type }} [{{ attr_cardinality }}]
         | {{ testdsp }}
         {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.guidance and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
-        {% endunless %}
-      {% endfor %}
-      {% assign performed = true %}
-    {% endunless %}
-  {% endfor %}
-{% endfor %}
-{% endif %}
+    {% endunless -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- endif %}
 
-{% assign assoc_props = root.sorted_assoc_props %}
-{% if assoc_props.size > 0 %}
+{%- assign assoc_props = root.sorted_assoc_props -%}
+{%- if assoc_props.size > 0 %}
 {{ cols_number }}+h| 自身に定義された関連役割
 h| 関連役割名 h| 関連役割の型及び多重度 h| 定義 {% if klass.has_guidance? and guidance_column %} h| 補足{%- endif %}
-{% assign all_gen_names = '' %}
-{% for attr in assoc_props %}
-  {% assign all_gen_names = all_gen_names | append: ',' | append: attr.gen_name %}
-{% endfor %}
-{% assign all_gens = all_gen_names | split: ',' | uniq %}
-{% endif %}
-{% for cur_gen in all_gens %}
-  {% assign performed = false %}
-  {% for attr in assoc_props %}
-    {% assign props_with_same_gen = assoc_props | where: 'gen_name', cur_gen %}
-    {% unless performed %}
-      {% for attr in props_with_same_gen %}
-        {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
-        {% if attr.type_ns == "gen" %}
-          {% assign attr_upper_klass_name = "gen" %}
-        {% endif %}
-        {% if citygml_ns contains attr_upper_klass_name %}
-
-        {% assign name_col_role_and_name = attr_upper_klass_name | append: ":" | append: attr.name %}
-        {% assign type_col_role_and_name = attr.type_ns | append: ":" | append: attr.type %}
-
-        {% for mapping_entry in mapping_keys %}
-          {% assign parts = mapping_entry | split: "=>" %}
-          {% assign key = parts[0] | split: "|" %}
-          {% assign target = parts[1] | split: "|" %}
-          {% if key.size == 3 %}
-            {% comment %}Match on package|class|attribute{% endcomment %}
-            {% if key[0] == attr_upper_klass_name and key[2] == attr.name and target[1] == type_col_role_and_name %}
-              {% assign name_col_role_and_name = target[0] | append: ":" | append: attr.name %}
-              {% break %}
-            {% endif %}
-          {% elsif key.size == 1 %}
-            {% comment %}Match on attribute name only{% endcomment %}
-            {% if parts[0] == attr.name and target[1] == type_col_role_and_name %}
-              {% assign name_col_role_and_name = target[0] | append: ":" | append: attr.name %}
-              {% break %}
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-
-      {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
-      {% if attr_cardinality == '..*' %}
-        {% assign attr_cardinality = '0..*' %}
-      {% endif %}
-
-        {%- capture name_col -%}
-          {%- if attr.used? == "false" -%}
-            ({{ attr.name }}) +
-            [{{ attr.gen_name }}]
-          {%- else -%}
-            {{ attr.name }} +
-            [{{ attr.gen_name }}]
-          {%- endif -%}
-        {%- endcapture -%}
-        {% assign testdsp = attr.definition %}
-        {% if name_col contains "relatedTo" and name_col_role_and_name  contains "Core" %}
-          {% assign testdsp = "他の都市オブジェクトとの関連。 特定の地物が、自身の構成要素（部品）ではない他の地物と何らかの関係を持つ場合に、その対象となる地物への参照。" %}
-        {% elsif name_col contains "textureParameterization" and name_col_role_and_name  contains "Appearance" %}
-          {% assign testdsp = "座標の割り当てに用いられるテクスチャ座標又は変換行列。" %}
-        {% elsif name_col contains "groupMember" and name_col_role_and_name  contains "CityObjectGroup" %}
-          {% assign testdsp = "都市オブジェクトグループを構成する都市オブジェクト。" %}
-        {% endif %}
-        
+  {%- assign all_gen_names = '' -%}
+  {%- for attr in assoc_props -%}
+    {%- assign all_gen_names = all_gen_names | append: ',' | append: attr.gen_name -%}
+  {%- endfor -%}
+  {%- assign all_gens = all_gen_names | split: ',' | uniq -%}
+{%- endif %}
+{%- for cur_gen in all_gens -%}
+  {%- assign props_with_same_gen = assoc_props | where: 'gen_name', cur_gen -%}
+  {%- for attr in props_with_same_gen -%}
+    {%- assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last -%}
+    {%- if attr.type_ns == "gen" -%}
+      {%- assign attr_upper_klass_name = "gen" -%}
+    {%- endif -%}
+    {%- if citygml_ns contains attr_upper_klass_name -%}
+    {%- assign name_col_role_and_name = attr_upper_klass_name | append: ":" | append: attr.name -%}
+    {%- assign type_col_role_and_name = attr.type_ns | append: ":" | append: attr.type -%}
+    {%- for mapping_entry in mapping_keys -%}
+      {%- assign parts = mapping_entry | split: "=>" -%}
+      {%- assign key = parts[0] | split: "|" -%}
+      {%- assign target = parts[1] | split: "|" -%}
+      {%- if key.size == 3 -%}
+        {%- comment -%}Match on package|class|attribute{%- endcomment -%}
+        {%- if key[0] == attr_upper_klass_name and key[2] == attr.name and target[1] == type_col_role_and_name -%}
+          {%- assign name_col_role_and_name = target[0] | append: ":" | append: attr.name -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- elsif key.size == 1 -%}
+        {%- comment -%}Match on attribute name only{%- endcomment -%}
+        {%- if parts[0] == attr.name and target[1] == type_col_role_and_name -%}
+          {%- assign name_col_role_and_name = target[0] | append: ":" | append: attr.name -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max -%}
+    {%- if attr_cardinality == '..*' -%}
+      {%- assign attr_cardinality = '0..*' -%}
+    {%- endif -%}
+    {%- capture name_col -%}
+      {%- if attr.used? == "false" -%}
+        ({{ attr.name }}) +
+        [{{ attr.gen_name }}]
+      {%- else -%}
+        {{ attr.name }} +
+        [{{ attr.gen_name }}]
+      {%- endif -%}
+    {%- endcapture -%}
+    {%- assign testdsp = attr.definition -%}
+    {%- if name_col contains "relatedTo" and name_col_role_and_name contains "Core" -%}
+      {%- assign testdsp = "他の都市オブジェクトとの関連。 特定の地物が、自身の構成要素（部品）ではない他の地物と何らかの関係を持つ場合に、その対象となる地物への参照。" -%}
+    {%- elsif name_col contains "textureParameterization" and name_col_role_and_name contains "Appearance" -%}
+      {%- assign testdsp = "座標の割り当てに用いられるテクスチャ座標又は変換行列。" -%}
+    {%- elsif name_col contains "groupMember" and name_col_role_and_name contains "CityObjectGroup" -%}
+      {%- assign testdsp = "都市オブジェクトグループを構成する都市オブジェクト。" -%}
+    {%- endif %}
         | {{ name_col }}
         | {{ attr.type }} [{{ attr_cardinality }}]
         | {{ testdsp }}
         {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.guidance and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
-        {% endif %}
-      {% endfor %}
-      {% for attr in props_with_same_gen %}
-        {% assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last %}
-        {% unless citygml_ns contains attr_upper_klass_name %}
-        {%- capture name_col -%}
-          {%- if attr.used? == "false" -%}
-            ({{ attr.name }}) +
-            [{{ attr.gen_name }}]
-          {%- else -%}
-            {{ attr.name }} +
-            [{{ attr.gen_name }}]
-          {%- endif -%}
-        {%- endcapture -%}
-
-        {% assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max %}
-        {% if attr_cardinality == '..*' %}
-          {% assign attr_cardinality = '0..*' %}
-        {% endif %}
-
-        {% assign testdsp = attr.definition %}
-        {% if name_col contains "relatedTo" and attr_upper_klass_name == "Core" %}
-          {% assign testdsp = "他の都市オブジェクトとの関連。 特定の地物が、自身の構成要素（部品）ではない他の地物と何らかの関係を持つ場合に、その対象となる地物への参照。" %}
-        {% elsif name_col contains "textureParameterization" and attr_upper_klass_name == "Appearance" %}
-          {% assign testdsp = "座標の割り当てに用いられるテクスチャ座標又は変換行列。" %}
-        {% elsif name_col contains "groupMember" and attr_upper_klass_name == "CityObjectGroup" %}
-          {% assign testdsp = "都市オブジェクトグループを構成する都市オブジェクト。" %}
-        {% endif %}
-        
+    {% endif -%}
+  {%- endfor -%}
+  {%- for attr in props_with_same_gen -%}
+    {%- assign attr_upper_klass_name = attr.upper_klass.absolute_path | split: "::" | last -%}
+    {%- unless citygml_ns contains attr_upper_klass_name -%}
+      {%- capture name_col -%}
+        {%- if attr.used? == "false" -%}
+          ({{ attr.name }}) +
+          [{{ attr.gen_name }}]
+        {%- else -%}
+          {{ attr.name }} +
+          [{{ attr.gen_name }}]
+        {%- endif -%}
+      {%- endcapture -%}
+      {%- assign attr_cardinality = attr.cardinality.min | append: '..' | append: attr.cardinality.max -%}
+      {%- if attr_cardinality == '..*' -%}
+        {%- assign attr_cardinality = '0..*' -%}
+      {%- endif -%}
+      {%- assign testdsp = attr.definition -%}
+      {%- if name_col contains "relatedTo" and attr_upper_klass_name == "Core" -%}
+        {%- assign testdsp = "他の都市オブジェクトとの関連。 特定の地物が、自身の構成要素（部品）ではない他の地物と何らかの関係を持つ場合に、その対象となる地物への参照。" -%}
+      {%- elsif name_col contains "textureParameterization" and attr_upper_klass_name == "Appearance" -%}
+        {%- assign testdsp = "座標の割り当てに用いられるテクスチャ座標又は変換行列。" -%}
+      {%- elsif name_col contains "groupMember" and attr_upper_klass_name == "CityObjectGroup" -%}
+        {%- assign testdsp = "都市オブジェクトグループを構成する都市オブジェクト。" -%}
+      {%- endif %}
         | {{ name_col }}
         | {{ attr.type }} [{{ attr_cardinality }}]
         | {{ testdsp }}
         {% if klass.has_guidance? and guidance_column -%} | {{ attr.guidance }}{%- endif %}{% if klass.has_guidance? and attr.guidance and attr.used? == "true" %}{{ guidance_row_style }}{% endif %}
-        {% endunless %}
-      {% endfor %}
-      {% assign performed = true %}
-    {% endunless %}
-  {% endfor %}
-{% endfor %}
+    {% endunless -%}
+  {%- endfor -%}
+{%- endfor -%}
 |===
