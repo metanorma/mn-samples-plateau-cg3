@@ -14,9 +14,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Relief:adeOfReliefFeature
     used: true
     guidance: 未利用
@@ -32,9 +29,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Relief:adeOfTINRelief
@@ -54,9 +48,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Relief:adeOfMassPointRelief
     used: true
     guidance: 未利用
@@ -74,9 +65,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Relief:adeOfBreaklineRelief
     used: true
     guidance: 未利用
@@ -92,9 +80,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Relief:adeOfRasterRelief

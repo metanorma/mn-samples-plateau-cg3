@@ -14,9 +14,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -35,13 +32,7 @@ classes:
   - name: Construction:occupancy
     used: true
     guidance: 未利用
-  - name: Construction:adeOfAbstractConstruction
-    used: true
-    guidance: 未利用
   - name: Construction:usage
-    used: true
-    guidance: 未利用
-  - name: Construction:adeOfOtherConstruction
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -82,9 +73,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
     used: true
     guidance: 未利用
@@ -106,9 +94,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -134,9 +119,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
     used: true
     guidance: 未利用
@@ -158,9 +140,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -186,9 +165,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
     used: true
     guidance: 未利用
@@ -210,9 +186,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -238,9 +211,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
     used: true
     guidance: 未利用
@@ -264,9 +234,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
     used: true
     guidance: 未利用
@@ -288,9 +255,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractSpace
@@ -352,9 +316,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
     used: true
     guidance: 未利用
@@ -376,9 +337,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractSpace
@@ -440,9 +398,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
     used: true
     guidance: 未利用
@@ -452,7 +407,23 @@ classes:
   - name: Construction:adeOfDoorSurface
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OtherConstructionInstallation"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::EmbankmentAttribute"
+  attributes:
+  - name: uro:width
+    used: true
+    guidance: 未利用
+  - name: uro:depth
+    used: true
+    guidance: 未利用
+  - name: uro:volume
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::DamAttribute"
+  attributes:
+  - name: uro:length
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::OtherConstructionInstallation"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -511,7 +482,7 @@ classes:
   - name: Core:lod3ImplicitRepresentation
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OtherConstructiveElement"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::OtherConstructiveElement"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true

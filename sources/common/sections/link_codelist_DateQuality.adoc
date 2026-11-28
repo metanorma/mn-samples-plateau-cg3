@@ -14,9 +14,9 @@
 
 <<DataQualityAttribute_lod1HeightType.xml,データ集合のコードリスト>>　参照。
 
-====== Common_granularity.xml
+// ====== Common_granularity.xml
 
-<<Common_granularity.xml,データ集合のコードリスト>>　参照。
+// <<Common_granularity.xml,データ集合のコードリスト>>　参照。
 
 ====== DataQualityAttribute_lod0AcquisitionCriterion.xml
 
@@ -34,3 +34,10 @@
 
 <<PublicSurveyDataQualityAttribute_geometrySrcDesc.xml,データ集合のコードリスト>>　参照。
 
+====== Common_granularitytype.xml
+
+<<Common_granularitytype.xml,データ集合のコードリスト>>　参照。
+
+====== Common_availablelod.xml
+
+<<Common_availablelod.xml,データ集合のコードリスト>>　参照。

@@ -1,6 +1,6 @@
 ---
 classes:
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::RiverFacilityIdAttribute"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::RiverFacilityIdAttribute"
   attributes:
   - name: uro:partId
     used: true

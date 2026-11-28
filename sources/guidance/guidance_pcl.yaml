@@ -8,6 +8,3 @@ classes:
   - name: Core:adeOfAbstractPointCloud
     used: true
     guidance: 未利用
-  - name: PointCloud:adeOfPointCloud
-    used: true
-    guidance: 未利用

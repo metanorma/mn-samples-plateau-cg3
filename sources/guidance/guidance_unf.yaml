@@ -1,6 +1,6 @@
 ---
 classes:
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::WaterPipe"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::WaterPipe"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -14,9 +14,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -27,9 +24,6 @@ classes:
     used: true
     guidance: 未利用
   - name: CityFurniture:usage
-    used: true
-    guidance: 未利用
-  - name: CityFurniture:adeOfCityFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -47,7 +41,7 @@ classes:
   - name: Geometric aggregates:lod3TerrainIntersectionCurve
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::SewerPipe"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::SewerPipe"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -61,9 +55,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -74,9 +65,6 @@ classes:
     used: true
     guidance: 未利用
   - name: CityFurniture:usage
-    used: true
-    guidance: 未利用
-  - name: CityFurniture:adeOfCityFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -94,7 +82,7 @@ classes:
   - name: Geometric aggregates:lod3TerrainIntersectionCurve
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ThermalPipe"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::ThermalPipe"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -108,9 +96,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -121,9 +106,6 @@ classes:
     used: true
     guidance: 未利用
   - name: CityFurniture:usage
-    used: true
-    guidance: 未利用
-  - name: CityFurniture:adeOfCityFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -141,7 +123,7 @@ classes:
   - name: Geometric aggregates:lod3TerrainIntersectionCurve
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::OilGasChemicalsPipe"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::OilGasChemicalsPipe"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -155,9 +137,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -168,9 +147,6 @@ classes:
     used: true
     guidance: 未利用
   - name: CityFurniture:usage
-    used: true
-    guidance: 未利用
-  - name: CityFurniture:adeOfCityFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -188,7 +164,7 @@ classes:
   - name: Geometric aggregates:lod3TerrainIntersectionCurve
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Pipe"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::Pipe"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -202,9 +178,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -215,9 +188,6 @@ classes:
     used: true
     guidance: 未利用
   - name: CityFurniture:usage
-    used: true
-    guidance: 未利用
-  - name: CityFurniture:adeOfCityFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -235,7 +205,7 @@ classes:
   - name: Geometric aggregates:lod3TerrainIntersectionCurve
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Duct"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::Duct"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -249,9 +219,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -262,9 +229,6 @@ classes:
     used: true
     guidance: 未利用
   - name: CityFurniture:usage
-    used: true
-    guidance: 未利用
-  - name: CityFurniture:adeOfCityFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -282,7 +246,7 @@ classes:
   - name: Geometric aggregates:lod3TerrainIntersectionCurve
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::TelecommunicationsCable"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::TelecommunicationsCable"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -296,9 +260,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -309,9 +270,6 @@ classes:
     used: true
     guidance: 未利用
   - name: CityFurniture:usage
-    used: true
-    guidance: 未利用
-  - name: CityFurniture:adeOfCityFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -329,7 +287,7 @@ classes:
   - name: Geometric aggregates:lod3TerrainIntersectionCurve
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ElectricityCable"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::ElectricityCable"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -343,9 +301,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -356,9 +311,6 @@ classes:
     used: true
     guidance: 未利用
   - name: CityFurniture:usage
-    used: true
-    guidance: 未利用
-  - name: CityFurniture:adeOfCityFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -376,7 +328,7 @@ classes:
   - name: Geometric aggregates:lod3TerrainIntersectionCurve
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Cable"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::Cable"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -390,9 +342,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -403,9 +352,6 @@ classes:
     used: true
     guidance: 未利用
   - name: CityFurniture:usage
-    used: true
-    guidance: 未利用
-  - name: CityFurniture:adeOfCityFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -423,7 +369,7 @@ classes:
   - name: Geometric aggregates:lod3TerrainIntersectionCurve
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Appurtenance"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::Appurtenance"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -437,9 +383,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -450,9 +393,6 @@ classes:
     used: true
     guidance: 未利用
   - name: CityFurniture:usage
-    used: true
-    guidance: 未利用
-  - name: CityFurniture:adeOfCityFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -470,7 +410,7 @@ classes:
   - name: Geometric aggregates:lod3TerrainIntersectionCurve
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Manhole"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::Manhole"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -484,9 +424,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -497,9 +434,6 @@ classes:
     used: true
     guidance: 未利用
   - name: CityFurniture:usage
-    used: true
-    guidance: 未利用
-  - name: CityFurniture:adeOfCityFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -517,7 +451,7 @@ classes:
   - name: Geometric aggregates:lod3TerrainIntersectionCurve
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Handhole"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::Handhole"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -529,9 +463,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractSpace
@@ -546,13 +477,6 @@ classes:
   - name: CityFurniture:usage
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Manhole"
-  attributes:
-  - name: CityFurniture:adeOfCityFurniture
-    used: true
-    guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::Handhole"
-  attributes:
   - name: Geometric aggregates:lod2MultiCurve
     used: true
     guidance: 未利用
@@ -568,7 +492,7 @@ classes:
   - name: Geometric aggregates:lod3TerrainIntersectionCurve
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::ThematicShape"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::ThematicShape"
   attributes:
   - name: uro:horizontalType
     used: true

@@ -1,6 +1,6 @@
 ---
 classes:
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::Zone"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::Zone"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -12,9 +12,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -29,6 +26,8 @@ classes:
   - name: Geometric aggregates:lod-2MultiSurface
     used: true
     guidance: 未利用
-  - name: urf:urbanParkAttribute
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::Boundary"
+  attributes:
+  - name: urf:class
     used: true
     guidance: 未利用

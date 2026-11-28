@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <gml:Dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd" gml:id="cl_fc4e48ea-2fd8-477f-863a-0e1a5aced528">
 <gml:name>IfcBuildingElement_predefinedType</gml:name>
+
 <gml:dictionaryEntry>
 <gml:Definition gml:id="IfcBuildingElement_predefinedType_1">
 <gml:description>IfcColumn：COLUMN（柱）</gml:description>
@@ -137,6 +138,18 @@
 <gml:Definition gml:id="IfcBuildingElement_predefinedType_23">
 <gml:description>IfcSlab：BASESLAB（地面に対する床スラブ）</gml:description>
 <gml:name>44</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_predefinedType_24">
+<gml:description>USERDEFINED（利用者定義）</gml:description>
+<gml:name>99</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_predefinedType_25">
+<gml:description>NOTDEFINED（定義なし）</gml:description>
+<gml:name>00</gml:name>
 </gml:Definition>
 </gml:dictionaryEntry>
 </gml:Dictionary>

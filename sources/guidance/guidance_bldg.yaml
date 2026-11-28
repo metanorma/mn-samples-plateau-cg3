@@ -14,9 +14,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -39,9 +36,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Building:function
-    used: true
-    guidance: 未利用
-  - name: Building:adeOfBuilding
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -80,9 +74,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractSpace
@@ -150,9 +141,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -163,9 +151,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Building:usage
-    used: true
-    guidance: 未利用
-  - name: Building:adeOfBuildingRoom
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -197,9 +182,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -213,9 +195,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Building:usage
-    used: true
-    guidance: 未利用
-  - name: Building:adeOfBuildingInstallation
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -256,9 +235,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -272,9 +248,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Building:usage
-    used: true
-    guidance: 未利用
-  - name: Building:adeOfBuildingFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -315,9 +288,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -334,9 +304,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Building:usage
-    used: true
-    guidance: 未利用
-  - name: Building:adeOfBuildingConstructiveElement
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -386,9 +353,6 @@ classes:
   - name: Core:adeOfAbstractLogicalSpace
     used: true
     guidance: 未利用
-  - name: Building:adeOfBuildingUnit
-    used: true
-    guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
     used: true
     guidance: 未利用
@@ -416,9 +380,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractLogicalSpace
-    used: true
-    guidance: 未利用
-  - name: Building:adeOfStorey
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve

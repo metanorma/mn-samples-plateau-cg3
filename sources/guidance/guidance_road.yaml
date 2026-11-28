@@ -14,9 +14,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -27,9 +24,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Transportation:adeOfAbstractTransportationSpace
-    used: true
-    guidance: 未利用
-  - name: Transportation:adeOfRoad
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -71,9 +65,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Transportation:usage
-    used: true
-    guidance: 未利用
-  - name: Transportation:adeOfTrafficArea
     used: true
     guidance: 未利用
 - name: "::EA_Model::Model::CityGML::Transportation::AuxiliaryTrafficArea"

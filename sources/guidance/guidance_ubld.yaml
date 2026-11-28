@@ -1,6 +1,6 @@
 ---
 classes:
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::uro::UndergroundBuilding"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::uro::UndergroundBuilding"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -12,9 +12,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractSpace

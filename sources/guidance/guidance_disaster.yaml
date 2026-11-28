@@ -14,9 +14,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -27,9 +24,6 @@ classes:
     used: true
     guidance: 未利用
   - name: WaterBody:usage
-    used: true
-    guidance: 未利用
-  - name: WaterBody:adeOfWaterBody
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve
@@ -56,7 +50,7 @@ classes:
   - name: Core:lod3ImplicitRepresentation
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SedimentDisasterProneArea"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::SedimentDisasterProneArea"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -68,9 +62,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface

@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gml:Dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd" gml:id="cl_bea7f76d-6e6a-8e12-4a84-a46641a8b9c2">
+<gml:name>Common_granularitytype</gml:name>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_1">
+		<gml:description>構成要素未取得</gml:description>
+		<gml:name>0000000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_2">
+		<gml:description>構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0000001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_3">
+		<gml:description>家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0000010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_4">
+		<gml:description>家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0000011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_5">
+		<gml:description>軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0000100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_6">
+		<gml:description>軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0000101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_7">
+		<gml:description>軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0000110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_8">
+		<gml:description>軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0000111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_9">
+		<gml:description>開口部（Door/Window）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0001000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_10">
+		<gml:description>開口部（Door/Window）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0001001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_11">
+		<gml:description>開口部（Door/Window）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0001010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_12">
+		<gml:description>開口部（Door/Window）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0001011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_13">
+		<gml:description>開口部（Door/Window）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0001100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_14">
+		<gml:description>開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0001101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_15">
+		<gml:description>開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0001110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_16">
+		<gml:description>開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0001111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_17">
+		<gml:description>開口面（DoorSurface/WindowSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0010000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_18">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0010001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_19">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0010010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_20">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0010011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_21">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0010100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_22">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0010101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_23">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0010110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_24">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0010111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_25">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0011000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_26">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0011001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_27">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0011010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_28">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0011011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_29">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0011100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_30">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0011101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_31">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0011110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_32">
+		<gml:description>開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0011111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_33">
+		<gml:description>付属物（BuildingInstallation）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0100000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_34">
+		<gml:description>付属物（BuildingInstallation）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0100001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_35">
+		<gml:description>付属物（BuildingInstallation）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0100010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_36">
+		<gml:description>付属物（BuildingInstallation）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0100011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_37">
+		<gml:description>付属物（BuildingInstallation）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0100100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_38">
+		<gml:description>付属物（BuildingInstallation）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0100101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_39">
+		<gml:description>付属物（BuildingInstallation）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0100110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_40">
+		<gml:description>付属物（BuildingInstallation）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0100111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_41">
+		<gml:description>付属物（BuildingInstallation）, 開口部（Door/Window）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0101000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_42">
+		<gml:description>付属物（BuildingInstallation）, 開口部（Door/Window）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0101001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_43">
+		<gml:description>付属物（BuildingInstallation）, 開口部（Door/Window）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0101010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_44">
+		<gml:description>付属物（BuildingInstallation）, 開口部（Door/Window）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0101011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_45">
+		<gml:description>付属物（BuildingInstallation）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0101100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_46">
+		<gml:description>付属物（BuildingInstallation）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0101101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_47">
+		<gml:description>付属物（BuildingInstallation）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0101110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_48">
+		<gml:description>付属物（BuildingInstallation）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0101111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_49">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0110000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_50">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0110001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_51">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0110010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_52">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0110011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_53">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0110100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_54">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0110101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_55">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0110110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_56">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0110111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_57">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0111000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_58">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0111001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_59">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0111010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_60">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0111011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_61">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0111100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_62">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0111101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_63">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0111110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_64">
+		<gml:description>付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>0111111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_65">
+		<gml:description>境界面（BoundarySurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1000000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_66">
+		<gml:description>境界面（BoundarySurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1000001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_67">
+		<gml:description>境界面（BoundarySurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1000010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_68">
+		<gml:description>境界面（BoundarySurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1000011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_69">
+		<gml:description>境界面（BoundarySurface）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1000100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_70">
+		<gml:description>境界面（BoundarySurface）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1000101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_71">
+		<gml:description>境界面（BoundarySurface）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1000110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_72">
+		<gml:description>境界面（BoundarySurface）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1000111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_73">
+		<gml:description>境界面（BoundarySurface）, 開口部（Door/Window）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1001000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_74">
+		<gml:description>境界面（BoundarySurface）, 開口部（Door/Window）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1001001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_75">
+		<gml:description>境界面（BoundarySurface）, 開口部（Door/Window）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1001010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_76">
+		<gml:description>境界面（BoundarySurface）, 開口部（Door/Window）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1001011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_77">
+		<gml:description>境界面（BoundarySurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1001100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_78">
+		<gml:description>境界面（BoundarySurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1001101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_79">
+		<gml:description>境界面（BoundarySurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1001110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_80">
+		<gml:description>境界面（BoundarySurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1001111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_81">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1010000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_82">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1010001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_83">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1010010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_84">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1010011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_85">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1010100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_86">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1010101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_87">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1010110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_88">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1010111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_89">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1011000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_90">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1011001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_91">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1011010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_92">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1011011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_93">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1011100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_94">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1011101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_95">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1011110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_96">
+		<gml:description>境界面（BoundarySurface）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1011111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_97">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1100000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_98">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1100001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_99">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1100010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_100">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1100011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_101">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1100100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_102">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1100101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_103">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1100110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_104">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1100111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_105">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口部（Door/Window）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1101000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_106">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口部（Door/Window）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1101001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_107">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口部（Door/Window）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1101010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_108">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口部（Door/Window）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1101011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_109">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1101100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_110">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1101101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_111">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1101110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_112">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1101111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_113">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1110000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_114">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1110001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_115">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1110010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_116">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1110011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_117">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1110100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_118">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1110101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_119">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1110110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_120">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1110111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_121">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1111000</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_122">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1111001</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_123">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1111010</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_124">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1111011</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_125">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1111100</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_126">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 構造部材（BuildingConstructiveElement）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1111101</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_127">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）を取得、その他の構成要素は未取得</gml:description>
+		<gml:name>1111110</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_128">
+		<gml:description>境界面（BoundarySurface）, 付属物（BuildingInstallation）, 開口面（DoorSurface/WindowSurface）, 開口部（Door/Window）, 軒裏（OuterCeilingSurface）, 家具（BuildingFurniture）, 構造部材（BuildingConstructiveElement）を取得</gml:description>
+		<gml:name>1111111</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_granularitytype_129">
+		<gml:description>不明</gml:description>
+		<gml:name>999</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+</gml:Dictionary>

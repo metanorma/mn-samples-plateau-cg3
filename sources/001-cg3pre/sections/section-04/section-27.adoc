@@ -216,6 +216,9 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 
 lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="PublicSurveyDataQualityAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_core.yaml"]
 
+[[toc4_27_03_03_05]]
+====== GranularityProfile
+lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="urc",name="GranularityProfile",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_core.yaml"]
 
 [[toc4_27_03_02]]
 ===== Urban Object（i-UR）
@@ -528,8 +531,8 @@ lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcIn
 [.source]
 <<ifc_2x3_cv>>
 
-[[IfcSIPrefix]]
-====== IfcSIPrefix
+// [[IfcSIPrefix]]
+// ====== IfcSIPrefix
 
 // [cols="a,a"]
 // |===
@@ -555,13 +558,13 @@ lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcIn
 
 // |===
 
-lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcSIPrefix",template="../../sources/liquid_templates/_enum_table.liquid"]
+// lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcSIPrefix",template="../../sources/liquid_templates/_enum_table.liquid"]
 
-[.source]
-<<ifc_2x3_cv>>
+// [.source]
+// <<ifc_2x3_cv>>
 
-[[IfcSlabTypeEnum]]
-====== IfcSlabTypeEnum
+// [[IfcSlabTypeEnum]]
+// ====== IfcSlabTypeEnum
 
 // [cols="a,a"]
 // |===
@@ -573,13 +576,13 @@ lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcSI
 
 // |===
 
-lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcSlabTypeEnum",template="../../sources/liquid_templates/_enum_table.liquid"]
+// lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcSlabTypeEnum",template="../../sources/liquid_templates/_enum_table.liquid"]
 
-[.source]
-<<ifc_2x3_cv>>
+// [.source]
+// <<ifc_2x3_cv>>
 
-[[IfcStairTypeEnum]]
-====== IfcStairTypeEnum
+// [[IfcStairTypeEnum]]
+// ====== IfcStairTypeEnum
 
 // [cols="a,a"]
 // |===
@@ -605,13 +608,13 @@ lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcSl
 
 // |===
 
-lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcStairTypeEnum",template="../../sources/liquid_templates/_enum_table.liquid"]
+// lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcStairTypeEnum",template="../../sources/liquid_templates/_enum_table.liquid"]
 
-[.source]
-<<ifc_2x3_cv>>
+// [.source]
+// <<ifc_2x3_cv>>
 
-[[IfcStairFlightTypeEnum]]
-====== IfcStairFlightTypeEnum
+// [[IfcStairFlightTypeEnum]]
+// ====== IfcStairFlightTypeEnum
 
 // [cols="a,a"]
 // |===
@@ -629,13 +632,13 @@ lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcSt
 
 // |===
 
-lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcStairFlightTypeEnum",template="../../sources/liquid_templates/_enum_table.liquid"]
+// lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcStairFlightTypeEnum",template="../../sources/liquid_templates/_enum_table.liquid"]
 
-[.source]
-<<ifc_2x3_cv>>
+// [.source]
+// <<ifc_2x3_cv>>
 
-[[IfcStateEnum]]
-====== IfcStateEnum
+// [[IfcStateEnum]]
+// ====== IfcStateEnum
 
 // [cols="a,a"]
 // |===
@@ -650,10 +653,10 @@ lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcSt
 
 // |===
 
-lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcStateEnum",template="../../sources/liquid_templates/_enum_table.liquid"]
+// lutaml_enum_table::../../sources/xmi/plateau_all_packages_export.xmi[name="IfcStateEnum",template="../../sources/liquid_templates/_enum_table.liquid"]
 
-[.source]
-<<ifc_2x3_cv>>
+// [.source]
+// <<ifc_2x3_cv>>
 
 [[IfcUnitEnum]]
 ====== IfcUnitEnum
@@ -803,3 +806,14 @@ lutaml_gml_dictionary::../../sources/iur/codelists/4.0/PublicSurveyDataQualityAt
 
 [.source]
 <<plateau_010>>
+
+
+[[Common_granularitytype.xml]]
+====== Common_granularitytype.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_granularitytype.xml[template="gml_dict_template.liquid",context=dict]
+
+[[Common_availablelod.xml]]
+====== Common_availablelod.xml
+
+lutaml_gml_dictionary::../../sources/iur/codelists/4.0/Common_availablelod.xml[template="gml_dict_template.liquid",context=dict]

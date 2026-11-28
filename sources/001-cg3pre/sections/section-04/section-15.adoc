@@ -267,16 +267,22 @@ lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="u
 lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="Handhole",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
 [[toc4_15_03_01_13]]
+====== GenericUnoccupiedSpace
+
+<<toc4_21_03_01_03, 汎用都市オブジェクトモデルの応用スキーマ>>　参照
+
+
+[[toc4_15_03_01_14]]
 ====== OffsetDepth
 
 lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="OffsetDepth",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
-[[toc4_15_03_01_14]]
+[[toc4_15_03_01_15]]
 ====== ThematicShape
 
 lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="ThematicShape",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]
 
-[[toc4_15_03_01_15]]
+[[toc4_15_03_01_16]]
 ====== LengthAttribute
 
 lutaml_klass_table::../../sources/xmi/plateau_all_packages_export.xmi[package="uro",name="LengthAttribute",template="../../sources/liquid_templates/_klass_table.liquid",guidance="../../sources/guidance/guidance_unf.yaml"]

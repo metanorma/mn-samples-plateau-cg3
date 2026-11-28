@@ -14,9 +14,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -35,13 +32,7 @@ classes:
   - name: Construction:occupancy
     used: true
     guidance: 未利用
-  - name: Construction:adeOfAbstractConstruction
-    used: true
-    guidance: 未利用
   - name: Bridge:usage
-    used: true
-    guidance: 未利用
-  - name: Bridge:adeOfAbstractBridge
     used: true
     guidance: 未利用
   - name: Bridge:adeOfBridge
@@ -85,9 +76,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -106,13 +94,7 @@ classes:
   - name: Construction:occupancy
     used: true
     guidance: 未利用
-  - name: Construction:adeOfAbstractConstruction
-    used: true
-    guidance: 未利用
   - name: Bridge:usage
-    used: true
-    guidance: 未利用
-  - name: Bridge:adeOfAbstractBridge
     used: true
     guidance: 未利用
   - name: Bridge:adeOfBridgePart

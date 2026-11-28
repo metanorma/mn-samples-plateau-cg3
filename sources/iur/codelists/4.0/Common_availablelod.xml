@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gml:Dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd" gml:id="cl_36a0d6c3-800f-01f7-e429-6668443ab8d7">
+<gml:name>Common_availablelod</gml:name>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_availablelod_1">
+		<gml:description>LOD0</gml:description>
+		<gml:name>0</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_availablelod_2">
+		<gml:description>LOD1</gml:description>
+		<gml:name>1</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_availablelod_3">
+		<gml:description>LOD2</gml:description>
+		<gml:name>2</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+	<gml:Definition gml:id="Common_availablelod_4">
+		<gml:description>LOD3</gml:description>
+		<gml:name>3</gml:name>
+	</gml:Definition>
+</gml:dictionaryEntry>
+</gml:Dictionary>

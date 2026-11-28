@@ -93,7 +93,7 @@
 </gml:dictionaryEntry>
 <gml:dictionaryEntry>
 <gml:Definition gml:id="IfcBuildingElement_shapeType_16">
-<gml:description>IfcRoof：BUTTEFLY_ROOF（バタフライ屋根）</gml:description>
+<gml:description>IfcRoof：BUTTERFLY_ROOF（バタフライ屋根）</gml:description>
 <gml:name>30</gml:name>
 </gml:Definition>
 </gml:dictionaryEntry>
@@ -105,18 +105,108 @@
 </gml:dictionaryEntry>
 <gml:dictionaryEntry>
 <gml:Definition gml:id="IfcBuildingElement_shapeType_18">
-<gml:description>IfcRoof：DOOM_ROOF（ドーム屋根）</gml:description>
+<gml:description>IfcRoof：DOME_ROOF（ドーム屋根）</gml:description>
 <gml:name>32</gml:name>
 </gml:Definition>
 </gml:dictionaryEntry>
 <gml:dictionaryEntry>
 <gml:Definition gml:id="IfcBuildingElement_shapeType_19">
+<gml:description>IfcRoof：FREEFORM（自由形状屋根）</gml:description>
+<gml:name>33</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_20">
+<gml:description>IfcStair：STRAIGHT_RUN_STAIR（直階段）</gml:description>
+<gml:name>41</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_21">
+<gml:description>IfcStair：TWO_STRAIGHT_RUN_STAIR（2区間の直階段）</gml:description>
+<gml:name>42</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_22">
+<gml:description>IfcStair：QUARTER_WINDING_STAIR（90度回り階段）</gml:description>
+<gml:name>43</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_23">
+<gml:description>IfcStair：QUARTER_TURN_STAIR（90度折れ階段）</gml:description>
+<gml:name>44</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_24">
+<gml:description>IfcStair：HALF_WINDING_STAIR（180度回り階段）</gml:description>
+<gml:name>45</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_25">
+<gml:description>IfcStair：HALF_TURN_STAIR（180度折り返し階段）</gml:description>
+<gml:name>46</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_26">
+<gml:description>IfcStair：TWO_QUARTER_WINDING_STAIR（90度回りを2回行う階段）</gml:description>
+<gml:name>47</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_27">
+<gml:description>IfcStair：TWO_QUARTER_TURN_STAIR（90度折れを2回行う階段）</gml:description>
+<gml:name>48</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_28">
+<gml:description>IfcStair：THREE_QUARTER_WINDING_STAIR（90度回りを3回行う階段）</gml:description>
+<gml:name>49</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_29">
+<gml:description>IfcStair：THREE_QUARTER_TURN_STAIR（90度折れを3回行う階段）</gml:description>
+<gml:name>50</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_30">
+<gml:description>IfcStair：SPIRAL_STAIR（らせん階段）</gml:description>
+<gml:name>51</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_31">
+<gml:description>IfcStair：DOUBLE_RETURN_STAIR（双方向折り返し階段）</gml:description>
+<gml:name>52</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_32">
+<gml:description>IfcStair：CURVED_RUN_STAIR（曲線階段）</gml:description>
+<gml:name>53</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_33">
+<gml:description>IfcStair：TWO_CURVED_RUN_STAIR（2区間の曲線階段）</gml:description>
+<gml:name>54</gml:name>
+</gml:Definition>
+</gml:dictionaryEntry>
+<gml:dictionaryEntry>
+<gml:Definition gml:id="IfcBuildingElement_shapeType_34">
 <gml:description>USERDEFINED（利用者定義）</gml:description>
 <gml:name>99</gml:name>
 </gml:Definition>
 </gml:dictionaryEntry>
 <gml:dictionaryEntry>
-<gml:Definition gml:id="IfcBuildingElement_shapeType_20">
+<gml:Definition gml:id="IfcBuildingElement_shapeType_35">
 <gml:description>NOTDEFINED（定義なし）</gml:description>
 <gml:name>00</gml:name>
 </gml:Definition>

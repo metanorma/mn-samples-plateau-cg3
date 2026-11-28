@@ -14,9 +14,6 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
   - name: Core:adeOfAbstractSpace
     used: true
     guidance: 未利用
@@ -27,9 +24,6 @@ classes:
     used: true
     guidance: 未利用
   - name: CityFurniture:usage
-    used: true
-    guidance: 未利用
-  - name: CityFurniture:adeOfCityFurniture
     used: true
     guidance: 未利用
   - name: Geometric aggregates:lod2MultiCurve

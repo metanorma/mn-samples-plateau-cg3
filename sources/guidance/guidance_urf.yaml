@@ -1,6 +1,6 @@
 ---
 classes:
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanPlanningArea"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::UrbanPlanningArea"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -12,9 +12,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -47,7 +44,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::QuasiUrbanPlanningArea"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::QuasiUrbanPlanningArea"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -59,9 +62,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -94,7 +94,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::AreaClassification"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::AreaClassification"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -106,9 +112,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -138,7 +141,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistrictsAndZones"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::DistrictsAndZones"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -150,9 +159,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -176,7 +182,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UseDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::UseDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -188,9 +200,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -214,7 +223,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecialUseDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::SpecialUseDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -226,9 +241,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -249,7 +261,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecialUseRestrictionDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::SpecialUseRestrictionDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -261,47 +279,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractThematicSurface
-    used: true
-    guidance: 未利用
-  - name: urf:class
-    used: true
-    guidance: 未利用
-  - name: urf:usage
-    used: true
-    guidance: 未利用
-  - name: urf:surveyYear
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-1MultiSurface
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-2MultiSurface
-    used: true
-    guidance: 未利用
-  - name: urf:urbanParkAttribute
-    used: true
-    guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ExceptionalFloorAreaRateDistrict"
-  attributes:
-  - name: Core:adeOfAbstractFeature
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractFeatureWithLifespan
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToTerrain
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -325,7 +302,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::HighRiseResidentialAttractionDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ExceptionalFloorAreaRateDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -337,9 +320,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -363,7 +343,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::HeightControlDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::HighRiseResidentialAttractionDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -375,44 +361,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractThematicSurface
-    used: true
-    guidance: 未利用
-  - name: urf:class
-    used: true
-    guidance: 未利用
-  - name: urf:surveyYear
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-1MultiSurface
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-2MultiSurface
-    used: true
-    guidance: 未利用
-  - name: urf:urbanParkAttribute
-    used: true
-    guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::HighLevelUseDistrict"
-  attributes:
-  - name: Core:adeOfAbstractFeature
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractFeatureWithLifespan
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToTerrain
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -436,7 +384,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecifiedBlock"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::HeightControlDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -450,7 +404,42 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::HighLevelUseDistrict"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -474,7 +463,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecialUrbanRenaissanceDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::SpecifiedBlock"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -486,9 +481,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -512,7 +504,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::HousingControlArea"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::SpecialUrbanRenaissanceDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -524,9 +522,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -550,7 +545,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ResidentialEnvironmentImprovementDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::HousingControlArea"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -562,9 +563,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -588,7 +586,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecialUseAttractionDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ResidentialEnvironmentImprovementDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -600,9 +604,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -626,7 +627,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::FirePreventionDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::SpecialUseAttractionDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -638,44 +645,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractThematicSurface
-    used: true
-    guidance: 未利用
-  - name: urf:class
-    used: true
-    guidance: 未利用
-  - name: urf:surveyYear
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-1MultiSurface
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-2MultiSurface
-    used: true
-    guidance: 未利用
-  - name: urf:urbanParkAttribute
-    used: true
-    guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecifiedDisasterPreventionBlockImprovementZone"
-  attributes:
-  - name: Core:adeOfAbstractFeature
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractFeatureWithLifespan
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToTerrain
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -699,7 +668,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::LandscapeZone"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::FirePreventionDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -713,7 +688,42 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::SpecifiedDisasterPreventionBlockImprovementZone"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -737,7 +747,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScenicDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::LandscapeZone"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -749,44 +765,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractThematicSurface
-    used: true
-    guidance: 未利用
-  - name: urf:class
-    used: true
-    guidance: 未利用
-  - name: urf:surveyYear
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-1MultiSurface
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-2MultiSurface
-    used: true
-    guidance: 未利用
-  - name: urf:urbanParkAttribute
-    used: true
-    guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ParkingPlaceDevelopmentZone"
-  attributes:
-  - name: Core:adeOfAbstractFeature
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractFeatureWithLifespan
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToTerrain
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -810,7 +788,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::PortZone"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ScenicDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -822,9 +806,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -845,7 +826,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecialZoneForPreservationOfHistoricalLandscape"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ParkingPlaceDevelopmentZone"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -857,47 +844,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractThematicSurface
-    used: true
-    guidance: 未利用
-  - name: urf:class
-    used: true
-    guidance: 未利用
-  - name: urf:usage
-    used: true
-    guidance: 未利用
-  - name: urf:surveyYear
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-1MultiSurface
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-2MultiSurface
-    used: true
-    guidance: 未利用
-  - name: urf:urbanParkAttribute
-    used: true
-    guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ZoneForPreservationOfHistoricalLandscape"
-  attributes:
-  - name: Core:adeOfAbstractFeature
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractFeatureWithLifespan
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToTerrain
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -921,7 +867,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::GreenSpaceConservationDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::PortZone"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -935,7 +887,42 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::SpecialZoneForPreservationOfHistoricalLandscape"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -959,7 +946,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecialGreenSpaceConservationDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ZoneForPreservationOfHistoricalLandscape"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -971,9 +964,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -997,7 +987,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::TreePlantingDistrict"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::GreenSpaceConservationDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1009,9 +1005,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1035,7 +1028,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistributionBusinessZone"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::SpecialGreenSpaceConservationDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1047,9 +1046,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1073,7 +1069,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ProductiveGreenZone"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::TreePlantingDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1085,9 +1087,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1111,7 +1110,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ConservationZoneForClustersOfTraditionalStructures"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::DistributionBusinessZone"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1123,9 +1128,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1149,7 +1151,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::AircraftNoiseControlZone"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ProductiveGreenZone"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1161,9 +1169,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1187,7 +1192,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ProjectPromotionArea"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ConservationZoneForClustersOfTraditionalStructures"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1199,9 +1210,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1225,7 +1233,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanRedevelopmentPromotionArea"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::AircraftNoiseControlZone"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1239,7 +1253,86 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ProjectPromotionArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::UrbanRedevelopmentPromotionArea"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1269,7 +1362,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::LandReadjustmentPromotionArea"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::LandReadjustmentPromotionArea"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1281,9 +1380,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1307,7 +1403,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ResidentialBlockConstructionPromotionArea"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ResidentialBlockConstructionPromotionArea"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1319,9 +1421,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1345,7 +1444,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::LandReadjustmentPromotionAreasForCoreBusinessUrbanDevelopment"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::LandReadjustmentPromotionAreasForCoreBusinessUrbanDevelopment"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1357,9 +1462,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1383,7 +1485,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UnusedLandUsePromotionArea"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::UnusedLandUsePromotionArea"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1395,9 +1503,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1424,7 +1529,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanDisasterRecoveryPromotionArea"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::UrbanDisasterRecoveryPromotionArea"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1436,9 +1547,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1465,7 +1573,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanFacility"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::UrbanFacility"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1477,9 +1591,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1503,7 +1614,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::TrafficFacility"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::TrafficFacility"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1515,9 +1632,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1541,7 +1655,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::OpenSpaceForPublicUse"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::OpenSpaceForPublicUse"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1553,9 +1673,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1579,7 +1696,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SupplyFacility"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::SupplyFacility"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1591,9 +1714,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1617,7 +1737,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::TreatmentFacility"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::TreatmentFacility"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1629,9 +1755,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1655,7 +1778,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::Waterway"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::Waterway"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1667,9 +1796,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1693,7 +1819,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::EducationalAndCulturalFacility"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::EducationalAndCulturalFacility"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1705,50 +1837,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractThematicSurface
-    used: true
-    guidance: 未利用
-  - name: urf:class
-    used: true
-    guidance: 未利用
-  - name: urf:usage
-    used: true
-    guidance: 未利用
-  - name: urf:surveyYear
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-1MultiSurface
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-2MultiSurface
-    used: true
-    guidance: 未利用
-  - name: urf:urbanParkAttribute
-    used: true
-    guidance: 未利用
-  - name: urf:threeDimensionalExtent
-    used: true
-    guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::MedicalFacility"
-  attributes:
-  - name: Core:adeOfAbstractFeature
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractFeatureWithLifespan
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToTerrain
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1775,7 +1863,13 @@ classes:
   - name: urf:threeDimensionalExtent
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SocialWelfareFacility"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::MedicalFacility"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1787,9 +1881,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1816,7 +1907,13 @@ classes:
   - name: urf:threeDimensionalExtent
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::MarketsSlaughterhousesCrematoria"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::SocialWelfareFacility"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1828,9 +1925,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1857,7 +1951,13 @@ classes:
   - name: urf:threeDimensionalExtent
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::CollectiveHousingFacilities"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::MarketsSlaughterhousesCrematoria"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1869,9 +1969,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1898,7 +1995,13 @@ classes:
   - name: urf:threeDimensionalExtent
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::CollectiveGovernmentAndPublicOfficeFacilities"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::CollectiveHousingFacilities"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1910,9 +2013,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1939,7 +2039,13 @@ classes:
   - name: urf:threeDimensionalExtent
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistributionBusinessPark"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::CollectiveGovernmentAndPublicOfficeFacilities"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1951,9 +2057,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -1980,7 +2083,13 @@ classes:
   - name: urf:threeDimensionalExtent
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::CollectiveFacilitiesForTsunamiDisasterPrevention"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::DistributionBusinessPark"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -1992,9 +2101,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2021,7 +2127,13 @@ classes:
   - name: urf:threeDimensionalExtent
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::CollectiveFacilitiesForReconstructionAndRevitalization"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::CollectiveFacilitiesForTsunamiDisasterPrevention"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2033,9 +2145,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2062,7 +2171,13 @@ classes:
   - name: urf:threeDimensionalExtent
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::CollectiveFacilitiesForReconstruction"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::CollectiveFacilitiesForReconstructionAndRevitalization"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2074,47 +2189,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractThematicSurface
-    used: true
-    guidance: 未利用
-  - name: urf:class
-    used: true
-    guidance: 未利用
-  - name: urf:surveyYear
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-1MultiSurface
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-2MultiSurface
-    used: true
-    guidance: 未利用
-  - name: urf:urbanParkAttribute
-    used: true
-    guidance: 未利用
-  - name: urf:threeDimensionalExtent
-    used: true
-    guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::CollectiveUrbanDisasterPreventionFacilities"
-  attributes:
-  - name: Core:adeOfAbstractFeature
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractFeatureWithLifespan
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToTerrain
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2141,7 +2215,13 @@ classes:
   - name: urf:threeDimensionalExtent
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanFacilityStipulatedByCabinetOrder"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::CollectiveFacilitiesForReconstruction"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2155,7 +2235,45 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::CollectiveUrbanDisasterPreventionFacilities"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2182,7 +2300,13 @@ classes:
   - name: urf:threeDimensionalExtent
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanDevelopmentProject"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::UrbanFacilityStipulatedByCabinetOrder"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2194,9 +2318,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2220,7 +2341,16 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::LandReadjustmentProject"
+  - name: urf:threeDimensionalExtent
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::UrbanDevelopmentProject"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2234,7 +2364,45 @@ classes:
   - name: Core:relativeToWater
     used: true
     guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::LandReadjustmentProject"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2261,7 +2429,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::NewHousingAndUrbanDevelopmentProject"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::NewHousingAndUrbanDevelopmentProject"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2273,9 +2447,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2299,7 +2470,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::IndustrialParkDevelopmentProject"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::IndustrialParkDevelopmentProject"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2311,9 +2488,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2337,7 +2511,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanRedevelopmentProject"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::UrbanRedevelopmentProject"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2349,9 +2529,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2375,7 +2552,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::NewUrbanInfrastructureProject"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::NewUrbanInfrastructureProject"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2387,9 +2570,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2413,7 +2593,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ResidentialBlockConstructionProject"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ResidentialBlockConstructionProject"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2425,9 +2611,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2451,7 +2634,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DisasterPreventionBlockImprovementProject"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::DisasterPreventionBlockImprovementProject"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2463,9 +2652,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2492,7 +2678,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanRenewalProject"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::UrbanRenewalProject"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2504,9 +2696,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2530,7 +2719,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForUrbanDevelopmentProject"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ScheduledAreaForUrbanDevelopmentProject"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2542,9 +2737,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2568,7 +2760,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForNewHousingAndUrbanDevelopmentProjects"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ScheduledAreaForNewHousingAndUrbanDevelopmentProjects"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2580,9 +2778,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2606,7 +2801,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForIndustrialParkDevelopmentProjects"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ScheduledAreaForIndustrialParkDevelopmentProjects"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2618,9 +2819,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2644,7 +2842,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForNewUrbanInfrastructureProjects"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ScheduledAreaForNewUrbanInfrastructureProjects"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2656,9 +2860,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2682,7 +2883,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForCollectiveHousingFacilities"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ScheduledAreaForCollectiveHousingFacilities"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2694,9 +2901,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2720,7 +2924,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForCollectiveGovernmentAndPublicOfficeFacilities"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ScheduledAreaForCollectiveGovernmentAndPublicOfficeFacilities"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2732,9 +2942,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2758,7 +2965,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ScheduledAreaForDistributionBusinessPark"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ScheduledAreaForDistributionBusinessPark"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2770,9 +2983,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2796,7 +3006,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistrictPlan"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::DistrictPlan"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2808,9 +3024,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2834,7 +3047,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::RoadsideDistrictPlan"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::RoadsideDistrictPlan"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2846,9 +3065,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2872,7 +3088,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::RuralDistrictPlan"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::RuralDistrictPlan"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -2884,91 +3106,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractThematicSurface
-    used: true
-    guidance: 未利用
-  - name: urf:class
-    used: true
-    guidance: 未利用
-  - name: urf:usage
-    used: true
-    guidance: 未利用
-  - name: urf:surveyYear
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-1MultiSurface
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-2MultiSurface
-    used: true
-    guidance: 未利用
-  - name: urf:urbanParkAttribute
-    used: true
-    guidance: 未利用
-  - name: urf:promotionDistrict
-    used: true
-    guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::HistoricSceneryMaintenanceAndImprovementDistrictPlan"
-  attributes:
-  - name: Core:adeOfAbstractFeature
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractFeatureWithLifespan
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToTerrain
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractThematicSurface
-    used: true
-    guidance: 未利用
-  - name: urf:class
-    used: true
-    guidance: 未利用
-  - name: urf:usage
-    used: true
-    guidance: 未利用
-  - name: urf:surveyYear
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-1MultiSurface
-    used: true
-    guidance: 未利用
-  - name: Geometric aggregates:lod-2MultiSurface
-    used: true
-    guidance: 未利用
-  - name: urf:urbanParkAttribute
-    used: true
-    guidance: 未利用
-  - name: urf:promotionDistrict
-    used: true
-    guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DisasterPreventionBlockImprovementZonePlan"
-  attributes:
-  - name: Core:adeOfAbstractFeature
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractFeatureWithLifespan
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToTerrain
-    used: true
-    guidance: 未利用
-  - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -2995,7 +3132,101 @@ classes:
   - name: urf:promotionDistrict
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistrictDevelopmentPlan"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::HistoricSceneryMaintenanceAndImprovementDistrictPlan"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:promotionDistrict
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::DisasterPreventionBlockImprovementZonePlan"
+  attributes:
+  - name: Core:adeOfAbstractFeature
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractFeatureWithLifespan
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToTerrain
+    used: true
+    guidance: 未利用
+  - name: Core:relativeToWater
+    used: true
+    guidance: 未利用
+  - name: Core:adeOfAbstractThematicSurface
+    used: true
+    guidance: 未利用
+  - name: urf:class
+    used: true
+    guidance: 未利用
+  - name: urf:usage
+    used: true
+    guidance: 未利用
+  - name: urf:surveyYear
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-1MultiSurface
+    used: true
+    guidance: 未利用
+  - name: Geometric aggregates:lod-2MultiSurface
+    used: true
+    guidance: 未利用
+  - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: urf:promotionDistrict
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::DistrictDevelopmentPlan"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -3081,7 +3312,7 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::SpecifiedBuildingZoneImprovementPlan"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::SpecifiedBuildingZoneImprovementPlan"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -3182,7 +3413,7 @@ classes:
   - name: urf:districtFacility
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistrictImprovementPlanForDisasterPreventionBlockImprovementZonePlan"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::DistrictImprovementPlanForDisasterPreventionBlockImprovementZonePlan"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -3271,7 +3502,7 @@ classes:
   - name: urf:districtFacility
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::RoadsideDistrictImprovementPlan"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::RoadsideDistrictImprovementPlan"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -3363,7 +3594,7 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::RuralDistrictImprovementPlan"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::RuralDistrictImprovementPlan"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -3452,7 +3683,7 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistrictImprovementPlanForHistoricSceneryMaintenanceAndImprovementDistrict"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::DistrictImprovementPlanForHistoricSceneryMaintenanceAndImprovementDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -3544,7 +3775,7 @@ classes:
   - name: urf:districtFacility
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::PromotionDistrict"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::PromotionDistrict"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -3636,7 +3867,7 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::District"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::District"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -3722,7 +3953,7 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::DistrictFacility"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::DistrictFacility"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -3808,7 +4039,7 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ZonalDisasterPreventionFacility"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ZonalDisasterPreventionFacility"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -3897,7 +4128,7 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ThreeDimensionalExtent"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ThreeDimensionalExtent"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -3986,12 +4217,12 @@ classes:
   - name: Geometric aggregates:lod-2MultiSurface
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::Boundary"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::Boundary"
   attributes:
   - name: urf:class
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::UrbanFunctionAttractionArea"
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::UrbanFunctionAttractionArea"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -4003,9 +4234,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -4032,7 +4260,13 @@ classes:
   - name: urf:urbanParkAttribute
     used: true
     guidance: 未利用
-- name: "::EA_Model::Model::i-UR::Urban Planning ADE 3.2::urf::ResidenceAttractionArea"
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
+    used: true
+    guidance: 未利用
+- name: "::EA_Model::Model::i-UR::Urban Planning ADE 4.0::urf::ResidenceAttractionArea"
   attributes:
   - name: Core:adeOfAbstractFeature
     used: true
@@ -4044,9 +4278,6 @@ classes:
     used: true
     guidance: 未利用
   - name: Core:relativeToWater
-    used: true
-    guidance: 未利用
-  - name: Core:adeOfAbstractCityObject
     used: true
     guidance: 未利用
   - name: Core:adeOfAbstractThematicSurface
@@ -4071,5 +4302,11 @@ classes:
     used: true
     guidance: 未利用
   - name: urf:urbanParkAttribute
+    used: true
+    guidance: 未利用
+  - name: Core:validFrom
+    used: true
+    guidance: 未利用
+  - name: Core:validTo
     used: true
     guidance: 未利用

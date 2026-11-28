@@ -13,3 +13,7 @@
 ====== PublicSurveyDataQualityAttribute
 
 <<toc4_27_03_03_04, データ集合の応用スキーマ文書>>　参照。
+
+====== GranularityProfile
+
+<<toc4_27_03_03_05, データ集合の応用スキーマ文書>>　参照。
